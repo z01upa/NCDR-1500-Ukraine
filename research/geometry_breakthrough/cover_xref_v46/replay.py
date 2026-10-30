@@ -60,10 +60,10 @@ def consumer(cover,selector):
   q.putmem(0x11000000,cover);q.putmem(0x17000000,b'\0'*16)
   # Actual selector compares node+4/+8/+c against cover+1c/+20/+24.
   q.putmem(0x17000004,cover[0x1c:0x28] if selector==0 else struct.pack('<iii',-100,-200,-300))
-  q.w('r4',0x11000000);q.w('r5',0x17000000);q.w('r6',0)
+  q.w('r4',0x11000000);q.w('r5',0x17000000);q.w('r6',selector)
  m.run(0x308c1f0,b'',0,len(cover),setup=setup)
  assert m.hooks==0
- expected=0xffffffff if cover[0x10+selector]&1 else 0
+ expected=0xffffffff if cover[0x10+selector] & (1<<selector) else 0
  assert m.r('r0')==expected
  return dict(selector=selector,returned=hex(m.r('r0')),trace=[hex(x) for x in m.trace],hooks=m.hooks)
 results=[]
@@ -71,7 +71,7 @@ for entry in [0x2ffb92c,0x2ffbb00]:
  for name in ['baseline','A_edge4','B_edge5','C_bit13']:
   eb=bytearray(base)
   if name=='A_edge4':eb[4]^=1
-  if name=='B_edge5':eb[5]^=1
+  if name=='B_edge5':eb[5]^=2
   if name=='C_bit13':eb[1]^=0x20
   m=init()
   def setup(q):
@@ -89,16 +89,16 @@ for name in ['baseline','A_edge4','B_edge5','C_bit13']:
  for selector in [0,1]:
   eb=bytearray(base)
   if name=='A_edge4':eb[4]^=1
-  if name=='B_edge5':eb[5]^=1
+  if name=='B_edge5':eb[5]^=2
   if name=='C_bit13':eb[1]^=0x20
   m=init()
   def setup(q):
-   setup_common(q,eb);q.w('r4',edge_id);q.w('r11',0)
+   setup_common(q,eb);q.w('r4',edge_id);q.w('r11',selector)
    q.putmem(0x12001088,struct.pack('<I',edge_id))
    q.putmem(0x120010a8,b'\0'*16);q.putmem(0x120010ac,NODE_A if selector==0 else struct.pack('<iii',-100,-200,-300))
   m.run(0x306f52a,b'',0,0x34,setup=setup,stop=0x306f558)
   cover=m.readmem(0x12001040,0x34)
-  expected=0xffffffff if eb[4+selector]&1 else 0
+  expected=0xffffffff if eb[4+selector] & (1<<selector) else 0
   assert m.r('r0')==expected
   assert all(x in m.instruction_addresses for x in [0x306f536,0x306f538,0x306f54c,0x306f54e,0x308c208,0x308c212,0x306f552,0x306f554])
   assert (0x306f556 in m.instruction_addresses)==(expected==0)
