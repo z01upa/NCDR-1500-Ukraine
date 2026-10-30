@@ -1,0 +1,24 @@
+Image             : LK-01-18-000.423.
+Creator           : Ovidiu.Bulzan@siemensvdo.com
+Date              : 30.11.2004
+
+Versions	
+
+SH4 kernel        : 010.100.0870
+SH4 application   : 013.017.0000
+SH4 Navigation    : 006.000.0000
+SH4 bootsector    : 001.009.0000
+SH4 loader        : 001.009.0000
+C161 application  : 004.045.0000
+C161 loader       : 003.008.0000 
+A20               : 000.005.0060
+Audio Module      : 002.020.0002
+Audio Loader      : 001.002.0000
+GPS               : n/a
+TMC               : 000.010.0001
+LANGUAGE 	  : 009.020.0006
+
+Note:
+The filesystem on CD must be ISO9660 level 2
+(with long filenames up to 30 characters)
+
