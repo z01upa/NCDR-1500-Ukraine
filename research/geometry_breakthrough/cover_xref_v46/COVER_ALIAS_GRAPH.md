@@ -27,7 +27,7 @@ producer writes stack object [SP+0x40]+0x10/+0x11
 0x0308C206 adds 0x10 to cover; 0x0308C208 reads cover[0x10+selector]
 0x0308C210 builds (1 << selector); 0x0308C212 tests that bit against byte
 0x0308C214 bf/s and 0x0308C216 delay slot produce -1 on bit set, else 0
-caller 0x0306F550–0x0306F556 maps this to -1/reject or 0/success
+caller 0x0306F550–0x0306F556 maps this to a caller-visible -1 or 0 status
 ```
 
 `0x0301EFE4` compares the node candidate's words at +4/+8/+12 with cover words +0x1C/+0x20/+0x24 and returns slot 0 when equal, slot 1 otherwise. Replay used a real Section 5 edge and executed this routine and `0x0308C1F0` without callback stubs.
