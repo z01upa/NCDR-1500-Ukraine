@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "basis": "exact original opcodes asserted; SH-4 TST/MOVT/BT-S semantics replayed",
+  "delay_slot_executes_on_both_paths": true,
+  "cases": [
+    {
+      "input_r8": "0x00000000",
+      "steps": [
+        {
+          "pc": "0x010AC160",
+          "instruction": "tst r8,r8",
+          "T_after": 1
+        },
+        {
+          "pc": "0x010AC162",
+          "instruction": "movt r3",
+          "r3_after": "0x00000001"
+        },
+        {
+          "pc": "0x010AC164",
+          "instruction": "tst r3,r3",
+          "T_after": 0
+        },
+        {
+          "pc": "0x010AC166",
+          "instruction": "bt/s",
+          "taken": false,
+          "target": "0x010AC16A",
+          "delay_slot": {
+            "pc": "0x010AC168",
+            "executed": true,
+            "stored_value": "0x00000001",
+            "stack_offset": "0x24"
+          }
+        }
+      ],
+      "path": "indexed_byte_seed",
+      "result": "TAKEN iff r8 != 0"
+    },
+    {
+      "input_r8": "0x00000001",
+      "steps": [
+        {
+          "pc": "0x010AC160",
+          "instruction": "tst r8,r8",
+          "T_after": 0
+        },
+        {
+          "pc": "0x010AC162",
+          "instruction": "movt r3",
+          "r3_after": "0x00000000"
+        },
+        {
+          "pc": "0x010AC164",
+          "instruction": "tst r3,r3",
+          "T_after": 1
+        },
+        {
+          "pc": "0x010AC166",
+          "instruction": "bt/s",
+          "taken": true,
+          "target": "0x010AC188",
+          "delay_slot": {
+            "pc": "0x010AC168",
+            "executed": true,
+            "stored_value": "0x00000000",
+            "stack_offset": "0x24"
+          }
+        }
+      ],
+      "path": "generator_010AC72C",
+      "result": "TAKEN iff r8 != 0"
+    },
+    {
+      "input_r8": "0x00000002",
+      "steps": [
+        {
+          "pc": "0x010AC160",
+          "instruction": "tst r8,r8",
+          "T_after": 0
+        },
+        {
+          "pc": "0x010AC162",
+          "instruction": "movt r3",
+          "r3_after": "0x00000000"
+        },
+        {
+          "pc": "0x010AC164",
+          "instruction": "tst r3,r3",
+          "T_after": 1
+        },
+        {
+          "pc": "0x010AC166",
+          "instruction": "bt/s",
+          "taken": true,
+          "target": "0x010AC188",
+          "delay_slot": {
+            "pc": "0x010AC168",
+            "executed": true,
+            "stored_value": "0x00000000",
+            "stack_offset": "0x24"
+          }
+        }
+      ],
+      "path": "generator_010AC72C",
+      "result": "TAKEN iff r8 != 0"
+    },
+    {
+      "input_r8": "0x80000000",
+      "steps": [
+        {
+          "pc": "0x010AC160",
+          "instruction": "tst r8,r8",
+          "T_after": 0
+        },
+        {
+          "pc": "0x010AC162",
+          "instruction": "movt r3",
+          "r3_after": "0x00000000"
+        },
+        {
+          "pc": "0x010AC164",
+          "instruction": "tst r3,r3",
+          "T_after": 1
+        },
+        {
+          "pc": "0x010AC166",
+          "instruction": "bt/s",
+          "taken": true,
+          "target": "0x010AC188",
+          "delay_slot": {
+            "pc": "0x010AC168",
+            "executed": true,
+            "stored_value": "0x00000000",
+            "stack_offset": "0x24"
+          }
+        }
+      ],
+      "path": "generator_010AC72C",
+      "result": "TAKEN iff r8 != 0"
+    },
+    {
+      "input_r8": "0xFFFFFFFF",
+      "steps": [
+        {
+          "pc": "0x010AC160",
+          "instruction": "tst r8,r8",
+          "T_after": 0
+        },
+        {
+          "pc": "0x010AC162",
+          "instruction": "movt r3",
+          "r3_after": "0x00000000"
+        },
+        {
+          "pc": "0x010AC164",
+          "instruction": "tst r3,r3",
+          "T_after": 1
+        },
+        {
+          "pc": "0x010AC166",
+          "instruction": "bt/s",
+          "taken": true,
+          "target": "0x010AC188",
+          "delay_slot": {
+            "pc": "0x010AC168",
+            "executed": true,
+            "stored_value": "0x00000000",
+            "stack_offset": "0x24"
+          }
+        }
+      ],
+      "path": "generator_010AC72C",
+      "result": "TAKEN iff r8 != 0"
+    }
+  ],
+  "refuted": "r8 == 0 -> generator",
+  "confirmed": "r8 != 0 -> generator"
+}

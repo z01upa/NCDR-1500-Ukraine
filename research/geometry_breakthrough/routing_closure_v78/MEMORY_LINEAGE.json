@@ -1,0 +1,111 @@
+{
+  "binaries": {
+    "NavigationRem.dll_sha256": "4555a95f5bdd7d0479a39dcf8ab10a1d0dbe6e40d560d550df2461fee350ffcd",
+    "NavigationRem.dll_text_sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9",
+    "EUZ.MP0_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+    "block": 886
+  },
+  "section5_to_adjacency": {
+    "source_row_bytes": "Section5 row +4/+5",
+    "source_expansion": "0104D8A0",
+    "exact_copy_instructions": [
+      "01068874 read row+5",
+      "0106887C write adjacency+0x11",
+      "0106887E read row+4",
+      "01068880 write adjacency+0x10"
+    ],
+    "row_hex_examples": [
+      {
+        "edge_id": 0,
+        "row_hex": "1483000000008a028b028b020000"
+      },
+      {
+        "edge_id": 1,
+        "row_hex": "1483000000008b028c0257020000"
+      },
+      {
+        "edge_id": 593,
+        "row_hex": "1803000800008501870134010000"
+      }
+    ]
+  },
+  "adjacency_to_R11": {
+    "adjacency_base_in_demonstrated_caller": "0x010F6D60",
+    "callsite": "010AB552 -> 010AC04C",
+    "generator_callsite": "010AC18E -> 010AC72C",
+    "generator_result": "R0 -> R11 at 010AC192",
+    "candidate_gate": "010AC200 TST; 010AC202 BF 010AC1DE when bit is set"
+  },
+  "cover_path": {
+    "callback": "0101FCD8",
+    "callback_output_pointer": "R10",
+    "consumer_input_pointer": "R4 saved in R8 at 0108C1F0",
+    "pointer_alias_in_real_callers": "UNKNOWN",
+    "same-pointer test fixture": "0x00930000",
+    "result_to_AC04C": "UNKNOWN"
+  },
+  "route_state_fields": {
+    "0x010AC5AC": "writes R4+0x38 candidate ordinal bitmap from .34-stride scan",
+    "0x010AC610": {
+      "+0x3A": "candidate ordinal",
+      "+0x3C": "selected bit from +0x38",
+      "+0x44": "ordinal encoded in bits 12..14, other bits preserved"
+    },
+    "business meanings": "UNKNOWN beyond these exact bit operations"
+  },
+  "higher_level_status_chain": {
+    "purpose_limit": "static call and return-control chain only; not an end-to-end route-result classification",
+    "links": [
+      {
+        "target": "0x010AB4D0",
+        "call_pc": "0x0109904A",
+        "caller": "0x01098AE8",
+        "caller_pdata_owner": "0x01098AE8",
+        "delay_slot": "0109904C MOV R9,R4",
+        "after_return": [
+          "01099050 CMP/EQ #-1,R0",
+          "01099052 BF 01099060"
+        ],
+        "observed_control": "R0 != -1 takes branch to 01099060; R0 == -1 falls through and continues the alternate path"
+      },
+      {
+        "target": "0x01098AE8",
+        "call_pc": "0x01071960",
+        "caller": "0x010718AC",
+        "delay_slot": "01071962 ADD R15,R6",
+        "after_return": [
+          "01071966 MOV R0,R9",
+          "0107196A CMP/EQ #4,R9",
+          "0107196C BF/S 01071974"
+        ],
+        "return": "if R9==4, BF/S is not taken and BRA at 01071970 returns R9 via delay 01071972; if R9!=4, BF/S takes 01071974 for more callbacks, then R9 reaches R0 at 010719C0"
+      },
+      {
+        "target": "0x010718AC",
+        "call_pc": "0x0106D2C4",
+        "caller": "0x0106D104",
+        "delay_slot": "0106D2C6 MOV.L @(0x1C,R15),R4",
+        "after_return": [
+          "0106D2C8 TST R0,R0",
+          "0106D2CE BT/S 0106D346"
+        ],
+        "return": "R0 copied to R11 at 0106D2CC; later status checks alter R11 on some arms; function returns R11 at 0106D3C8"
+      },
+      {
+        "target": "0x0106D104",
+        "call_pc": "0x0107AC98",
+        "caller": "0x0107AC78",
+        "delay_slot": "0107AC9A MOV R8,R4",
+        "after_return": [
+          "0107AC9C TST R0,R0",
+          "0107AC9E BF/S 0107ACD4",
+          "0107ACA0 MOV R0,R10 (delay)"
+        ],
+        "return": "local handler later sets R0=0 at 0107AD7E and returns at 0107AD88; this is handler completion, not a proven route/no-route result"
+      }
+    ],
+    "direct_bsr_to_010AB4D0": [],
+    "literal_call_xrefs_are_targeted_to_known_link_values": true,
+    "unresolved": "the runtime/external caller of 0x0107AC78 and interpretation of the status values as route choice remain UNKNOWN"
+  }
+}

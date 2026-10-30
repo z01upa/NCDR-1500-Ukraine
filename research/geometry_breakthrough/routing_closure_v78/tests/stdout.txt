@@ -1,0 +1,1 @@
+{"status": "PASS_BOUNDED_REPLAY", "edges": [0, 1, 593], "differential_cases": 60, "cover_cases": 9, "C1F0_callers": 11, "r8_cases": 5, "MP0_unchanged": true, "artifacts": "research/geometry_breakthrough/routing_closure_v78"}

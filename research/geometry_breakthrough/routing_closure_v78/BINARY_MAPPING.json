@@ -1,0 +1,420 @@
+{
+  "module": "NavigationRem.dll",
+  "sha256": "4555a95f5bdd7d0479a39dcf8ab10a1d0dbe6e40d560d550df2461fee350ffcd",
+  "text_sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9",
+  "preferred_image_base": "0x00FD0000",
+  "runtime_minus_link_va": "0x02000000",
+  "sections": [
+    {
+      "name": ".text",
+      "virtual_address_rva": "0x00001000",
+      "virtual_size": "0x000E2FBC",
+      "raw_pointer": "0x00000400",
+      "raw_size": "0x000E3000"
+    },
+    {
+      "name": ".rdata",
+      "virtual_address_rva": "0x000E4000",
+      "virtual_size": "0x0002262A",
+      "raw_pointer": "0x000E3400",
+      "raw_size": "0x00022800"
+    },
+    {
+      "name": ".data",
+      "virtual_address_rva": "0x00107000",
+      "virtual_size": "0x00079939",
+      "raw_pointer": "0x00105C00",
+      "raw_size": "0x00079A00"
+    },
+    {
+      "name": ".pdata",
+      "virtual_address_rva": "0x00181000",
+      "virtual_size": "0x00007EB8",
+      "raw_pointer": "0x0017F600",
+      "raw_size": "0x00008000"
+    },
+    {
+      "name": ".rsrc",
+      "virtual_address_rva": "0x00189000",
+      "virtual_size": "0x000092A4",
+      "raw_pointer": "0x00187600",
+      "raw_size": "0x00009400"
+    },
+    {
+      "name": ".cerom",
+      "virtual_address_rva": "0x00193000",
+      "virtual_size": "0x00000118",
+      "raw_pointer": "0x00190A00",
+      "raw_size": "0x00000200"
+    }
+  ],
+  "code_fragments": {
+    "AC04C_ENTRY": {
+      "ranges": [
+        {
+          "range_start": "0x010AC04C",
+          "range_end": "0x010AC080",
+          "runtime_start": "0x030AC04C",
+          "raw_file_offset": "0x000DB44C",
+          "link_owner": "0x010AC04C",
+          "owner_next_pdata": "0x010AC5AC",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "AC04C_R8_BRANCH_AND_SEED": {
+      "ranges": [
+        {
+          "range_start": "0x010AC158",
+          "range_end": "0x010AC1A0",
+          "runtime_start": "0x030AC158",
+          "raw_file_offset": "0x000DB558",
+          "link_owner": "0x010AC04C",
+          "owner_next_pdata": "0x010AC5AC",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "AC04C_CANDIDATE_GATE": {
+      "ranges": [
+        {
+          "range_start": "0x010AC1F8",
+          "range_end": "0x010AC204",
+          "runtime_start": "0x030AC1F8",
+          "raw_file_offset": "0x000DB5F8",
+          "link_owner": "0x010AC04C",
+          "owner_next_pdata": "0x010AC5AC",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x010AC350",
+          "range_end": "0x010AC358",
+          "runtime_start": "0x030AC350",
+          "raw_file_offset": "0x000DB750",
+          "link_owner": "0x010AC04C",
+          "owner_next_pdata": "0x010AC5AC",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "AC72C": {
+      "ranges": [
+        {
+          "range_start": "0x010AC72C",
+          "range_end": "0x010AC79E",
+          "runtime_start": "0x030AC72C",
+          "raw_file_offset": "0x000DBB2C",
+          "link_owner": "0x010AC72C",
+          "owner_next_pdata": "0x010AC7EC",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "C1F0": {
+      "ranges": [
+        {
+          "range_start": "0x0108C1F0",
+          "range_end": "0x0108C220",
+          "runtime_start": "0x0308C1F0",
+          "raw_file_offset": "0x000BB5F0",
+          "link_owner": "0x0108C1F0",
+          "owner_next_pdata": "0x0108C228",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "AB6F0_context": {
+      "ranges": [
+        {
+          "range_start": "0x010AB6F0",
+          "range_end": "0x010AB770",
+          "runtime_start": "0x030AB6F0",
+          "raw_file_offset": "0x000DAAF0",
+          "link_owner": "0x010AB4D0",
+          "owner_next_pdata": "0x010ABAC0",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "AC3BC_context": {
+      "ranges": [
+        {
+          "range_start": "0x010AC3BC",
+          "range_end": "0x010AC410",
+          "runtime_start": "0x030AC3BC",
+          "raw_file_offset": "0x000DB7BC",
+          "link_owner": "0x010AC04C",
+          "owner_next_pdata": "0x010AC5AC",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x010AC438",
+          "range_end": "0x010AC45C",
+          "runtime_start": "0x030AC438",
+          "raw_file_offset": "0x000DB838",
+          "link_owner": "0x010AC04C",
+          "owner_next_pdata": "0x010AC5AC",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "AC5AC": {
+      "ranges": [
+        {
+          "range_start": "0x010AC5AC",
+          "range_end": "0x010AC610",
+          "runtime_start": "0x030AC5AC",
+          "raw_file_offset": "0x000DB9AC",
+          "link_owner": "0x010AC5AC",
+          "owner_next_pdata": "0x010AC610",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "AC610_executable_slices": {
+      "ranges": [
+        {
+          "range_start": "0x010AC610",
+          "range_end": "0x010AC6AC",
+          "runtime_start": "0x030AC610",
+          "raw_file_offset": "0x000DBA10",
+          "link_owner": "0x010AC610",
+          "owner_next_pdata": "0x010AC72C",
+          "owner_is_exact_start": true
+        },
+        {
+          "range_start": "0x010AC6C6",
+          "range_end": "0x010AC72C",
+          "runtime_start": "0x030AC6C6",
+          "raw_file_offset": "0x000DBAC6",
+          "link_owner": "0x010AC610",
+          "owner_next_pdata": "0x010AC72C",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "AB4D0_CALL_AND_RETURN_TEST": {
+      "ranges": [
+        {
+          "range_start": "0x010AB54C",
+          "range_end": "0x010AB55E",
+          "runtime_start": "0x030AB54C",
+          "raw_file_offset": "0x000DA94C",
+          "link_owner": "0x010AB4D0",
+          "owner_next_pdata": "0x010ABAC0",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "AB4D0_RESULT_CONSUMER_98AE8": {
+      "ranges": [
+        {
+          "range_start": "0x01099046",
+          "range_end": "0x01099070",
+          "runtime_start": "0x03099046",
+          "raw_file_offset": "0x000C8446",
+          "link_owner": "0x01098AE8",
+          "owner_next_pdata": "0x01099288",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x01099220",
+          "range_end": "0x01099248",
+          "runtime_start": "0x03099220",
+          "raw_file_offset": "0x000C8620",
+          "link_owner": "0x01098AE8",
+          "owner_next_pdata": "0x01099288",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "98AE8_RESULT_CONSUMER_718AC": {
+      "ranges": [
+        {
+          "range_start": "0x01071958",
+          "range_end": "0x01071974",
+          "runtime_start": "0x03071958",
+          "raw_file_offset": "0x000A0D58",
+          "link_owner": "0x010718AC",
+          "owner_next_pdata": "0x01071A10",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x010719C0",
+          "range_end": "0x010719CE",
+          "runtime_start": "0x030719C0",
+          "raw_file_offset": "0x000A0DC0",
+          "link_owner": "0x010718AC",
+          "owner_next_pdata": "0x01071A10",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "718AC_RESULT_CONSUMER_6D104": {
+      "ranges": [
+        {
+          "range_start": "0x0106D2B6",
+          "range_end": "0x0106D2D8",
+          "runtime_start": "0x0306D2B6",
+          "raw_file_offset": "0x0009C6B6",
+          "link_owner": "0x0106D104",
+          "owner_next_pdata": "0x0106D3DC",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x0106D3C4",
+          "range_end": "0x0106D3DC",
+          "runtime_start": "0x0306D3C4",
+          "raw_file_offset": "0x0009C7C4",
+          "link_owner": "0x0106D104",
+          "owner_next_pdata": "0x0106D3DC",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "6D104_RESULT_CONSUMER_7AC78": {
+      "ranges": [
+        {
+          "range_start": "0x0107AC96",
+          "range_end": "0x0107ACA2",
+          "runtime_start": "0x0307AC96",
+          "raw_file_offset": "0x000AA096",
+          "link_owner": "0x0107AC78",
+          "owner_next_pdata": "0x0107AD8C",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x0107ACD4",
+          "range_end": "0x0107AD8C",
+          "runtime_start": "0x0307ACD4",
+          "raw_file_offset": "0x000AA0D4",
+          "link_owner": "0x0107AC78",
+          "owner_next_pdata": "0x0107AD8C",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "FCD8_COVER_CONVERTER": {
+      "ranges": [
+        {
+          "range_start": "0x0101FCD8",
+          "range_end": "0x0101FD40",
+          "runtime_start": "0x0301FCD8",
+          "raw_file_offset": "0x0004F0D8",
+          "link_owner": "0x0101FCD8",
+          "owner_next_pdata": "0x0101FE5C",
+          "owner_is_exact_start": true
+        },
+        {
+          "range_start": "0x0101FD3A",
+          "range_end": "0x0101FD80",
+          "runtime_start": "0x0301FD3A",
+          "raw_file_offset": "0x0004F13A",
+          "link_owner": "0x0101FCD8",
+          "owner_next_pdata": "0x0101FE5C",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x0101FDC2",
+          "range_end": "0x0101FDE0",
+          "runtime_start": "0x0301FDC2",
+          "raw_file_offset": "0x0004F1C2",
+          "link_owner": "0x0101FCD8",
+          "owner_next_pdata": "0x0101FE5C",
+          "owner_is_exact_start": false
+        }
+      ]
+    },
+    "STRIDE_58_CALL_SETUP": {
+      "ranges": [
+        {
+          "range_start": "0x01099360",
+          "range_end": "0x0109937A",
+          "runtime_start": "0x03099360",
+          "raw_file_offset": "0x000C8760",
+          "link_owner": "0x01099288",
+          "owner_next_pdata": "0x0109939C",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x010995E0",
+          "range_end": "0x01099620",
+          "runtime_start": "0x030995E0",
+          "raw_file_offset": "0x000C89E0",
+          "link_owner": "0x010995E0",
+          "owner_next_pdata": "0x01099620",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "STRIDE_58_WRITERS": {
+      "ranges": [
+        {
+          "range_start": "0x01099404",
+          "range_end": "0x01099424",
+          "runtime_start": "0x03099404",
+          "raw_file_offset": "0x000C8804",
+          "link_owner": "0x01099404",
+          "owner_next_pdata": "0x01099490",
+          "owner_is_exact_start": true
+        },
+        {
+          "range_start": "0x01099468",
+          "range_end": "0x01099476",
+          "runtime_start": "0x03099468",
+          "raw_file_offset": "0x000C8868",
+          "link_owner": "0x01099404",
+          "owner_next_pdata": "0x01099490",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x01099480",
+          "range_end": "0x01099490",
+          "runtime_start": "0x03099480",
+          "raw_file_offset": "0x000C8880",
+          "link_owner": "0x01099404",
+          "owner_next_pdata": "0x01099490",
+          "owner_is_exact_start": false
+        },
+        {
+          "range_start": "0x010997CC",
+          "range_end": "0x01099808",
+          "runtime_start": "0x030997CC",
+          "raw_file_offset": "0x000C8BCC",
+          "link_owner": "0x010997CC",
+          "owner_next_pdata": "0x01099808",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "SECTION5_ADJACENCY_COPY": {
+      "ranges": [
+        {
+          "range_start": "0x0106886C",
+          "range_end": "0x01068882",
+          "runtime_start": "0x0306886C",
+          "raw_file_offset": "0x00097C6C",
+          "link_owner": "0x0106886C",
+          "owner_next_pdata": "0x010688C8",
+          "owner_is_exact_start": true
+        }
+      ]
+    },
+    "SECTION5_EXPANSION_ENTRY": {
+      "ranges": [
+        {
+          "range_start": "0x0104D8A0",
+          "range_end": "0x0104D8C0",
+          "runtime_start": "0x0304D8A0",
+          "raw_file_offset": "0x0007CCA0",
+          "link_owner": "0x0104D8A0",
+          "owner_next_pdata": "0x0104D97C",
+          "owner_is_exact_start": true
+        }
+      ]
+    }
+  },
+  "raw_offset_formula": "section.raw_pointer + (link_VA - (preferred_base + section.virtual_address))",
+  "rva_formula": "link_VA - preferred_image_base",
+  "decoder": "pypcode SuperH4:LE:32:default"
+}

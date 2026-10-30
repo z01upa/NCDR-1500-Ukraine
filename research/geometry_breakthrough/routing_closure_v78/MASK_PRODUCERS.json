@@ -1,0 +1,120 @@
+{
+  "section5_to_candidate_mask": {
+    "producer": {
+      "function": "0x0106886C",
+      "caller_chain": [
+        "0x0104D8A0 expansion",
+        "0x010688C8",
+        "0x010688E8",
+        "0x0106886C"
+      ],
+      "instructions": [
+        "01068874 MOV.B @(5,R5),R0",
+        "0106887C MOV.B R0,@(0x11,GBR)",
+        "0106887E MOV.B @(4,R5),R0",
+        "01068880 MOV.B R0,@(0x10,GBR)"
+      ],
+      "record_stride": "0x34",
+      "confirmed_from_original_code": true
+    },
+    "consumer": {
+      "function": "0x010AC72C",
+      "caller": "0x010AC18E from 0x010AC04C",
+      "reads_route_state": [
+        "+0x38 selector",
+        "+0x3A predecessor slot"
+      ],
+      "selected_record_byte": "adjacency+0x10 or +0x11",
+      "test": "1 << predecessor_slot",
+      "output": "R0 candidate-ordinal bitset"
+    },
+    "gate": {
+      "function": "0x010AC04C",
+      "producer_R0_to_R11": "010AC192 MOV R0,R11",
+      "instruction": "010AC1F8..0202 builds 1<<candidate_ordinal, TST against R11, BF to 010AC1DE on set bit",
+      "effect": "skips this candidate in this local loop"
+    },
+    "semantic_limit": "candidate exclusion is confirmed; road access, turn legality, and final route outcome are not established"
+  },
+  "separate_cover_path": {
+    "producer": "0101FCD8 callback copies looked-up bytes to cover+0x10/+0x11",
+    "consumer": "0308C1F0 reads selected cover byte and returns -1 on overlap, 0 otherwise",
+    "routing_link": "UNKNOWN; no direct C1F0 call or R0-to-R11 dataflow into AC04C established"
+  },
+  "r11_producers": {
+    "initial_assignments": [
+      "010AC078 MOV #1,R11",
+      "010AC100 MOV #0,R11"
+    ],
+    "seed_when_r8_nonzero": "010AC166 BT/S 010AC188; call 010AC72C; 010AC192 MOV R0,R11",
+    "seed_when_r8_zero": "010AC184 BRA 010AC19A; delay 010AC186 EXTu.B R2,R11",
+    "post_seed_ORs": [
+      {
+        "pc": "010AC1CE",
+        "instruction": "OR R4,R11",
+        "condition": "overlap of candidate one-hot and stride-0x58 value at 010AC1CA"
+      },
+      {
+        "pc": "010AC356",
+        "instruction": "OR R13,R11 in BRA delay slot",
+        "condition": "010AC350 CMP/EQ #9 then 010AC352 BF 010AC358 not taken"
+      }
+    ],
+    "meaning": "local candidate ordinal bitset; full policy UNKNOWN"
+  },
+  "stride_0x58_runtime_tables": [
+    {
+      "base": "0x010F7880",
+      "writer_call": "01099360 -> 010995E0",
+      "conditional_inner_call": "01099612 -> 01099404",
+      "stores": [
+        "01099474 writes [R4+4]",
+        "01099488 delay writes [R6+4], where R6=R4+0x58"
+      ],
+      "second_writer": "010997FA writes [R8+4] with R8=0x010F7880",
+      "field_source_semantics": "UNKNOWN"
+    },
+    {
+      "base": "0x010F73E0",
+      "consumer": "010AC1AA loads +4 at R8*0x58 stride",
+      "writer_provenance": "UNKNOWN"
+    }
+  ],
+  "route_state_selection": {
+    "010AC5AC": {
+      "reads": "candidate records at 0x34 stride; compare candidate+0x18 with [R4+4]",
+      "writes": "R4+0x38 word = accumulated matching candidate ordinal bits",
+      "additional_calls": [
+        "0x00FFB7EC",
+        "0x0100A868"
+      ],
+      "their semantic effects": "UNKNOWN"
+    },
+    "010AC610": {
+      "inputs": "R4 route-state base; R5/R7 adjacency candidate arrays; R6 candidate count; R7 saved as secondary array base",
+      "stride": "0x34",
+      "match_fields": [
+        "state+0x1C vs candidate+8",
+        "state+0x18 vs candidate+4",
+        "state+0x20 vs candidate+0x0C"
+      ],
+      "writes": {
+        "+0x3A": "selected candidate ordinal R11",
+        "+0x3C": "bit (state+0x38 >> ordinal)&1",
+        "+0x44": "preserves all bits except 12..14, then stores ordinal in bits 12..14"
+      },
+      "instruction_proof": [
+        "010AC6C6 MOV #0x3A,R0; 010AC6C8 MOV.W R11,@(R0,R8)",
+        "010AC6CE MOV.W @(0x38,GBR),R0; 010AC6CA NEG R11,R2; 010AC6D4 SHAD R2,R0; 010AC6D8 AND #1,R0; 010AC6DA MOV.W R0,@(0x3C,GBR)",
+        "010AC6D6 MOV.W literal [010AC7E8]=0x8FFF,R2; pypcode lifts MOV.W as sign-extended 0xFFFF8FFF",
+        "010AC6E2 load [R8+0x44]; 010AC6E4 AND with 0xFFFF8FFF clears bits 12..14 only",
+        "010AC6E8 SHLD R2,R3 with R2=12; 010AC6EC forms 0x7000; 010AC6EE masks ordinal to bits 12..14; 010AC6F0 OR; 010AC6F2 store [R8+0x44]"
+      ],
+      "selection_helpers": [
+        "0x01016684",
+        "0x00FF8910"
+      ],
+      "cost/policy semantics": "UNKNOWN"
+    }
+  }
+}

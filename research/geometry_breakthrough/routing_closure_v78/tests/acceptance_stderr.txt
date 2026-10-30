@@ -1,0 +1,14 @@
+test_all_individual_mask_bits_on_three_edges (test_artifacts.RoutingClosureEvidenceTests.test_all_individual_mask_bits_on_three_edges) ... ok
+test_cover_path_is_not_claimed_as_routing_dataflow (test_artifacts.RoutingClosureEvidenceTests.test_cover_path_is_not_claimed_as_routing_dataflow) ... ok
+test_disassembly_omits_inline_literal_pool_as_code (test_artifacts.RoutingClosureEvidenceTests.test_disassembly_omits_inline_literal_pool_as_code) ... ok
+test_full_cfgs_include_requested_consumers (test_artifacts.RoutingClosureEvidenceTests.test_full_cfgs_include_requested_consumers) ... ok
+test_higher_level_caller_chain_is_static_but_bounded (test_artifacts.RoutingClosureEvidenceTests.test_higher_level_caller_chain_is_static_but_bounded) ... ok
+test_original_source_hashes_unchanged (test_artifacts.RoutingClosureEvidenceTests.test_original_source_hashes_unchanged) ... ok
+test_r8_zero_branch_is_refuted (test_artifacts.RoutingClosureEvidenceTests.test_r8_zero_branch_is_refuted) ... ok
+test_replays_contain_instruction_and_memory_evidence (test_artifacts.RoutingClosureEvidenceTests.test_replays_contain_instruction_and_memory_evidence) ... ok
+test_route_state_field_writes_are_distinguished (test_artifacts.RoutingClosureEvidenceTests.test_route_state_field_writes_are_distinguished) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.042s
+
+OK
