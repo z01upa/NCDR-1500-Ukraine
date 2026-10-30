@@ -1,7 +1,7 @@
 """Isolated execution of recovered producer, real caller suffix and real mask consumer.
 Requires pypcode and v13 recovery; not a Windows CE emulator. Stubs are explicit.
 """
-import argparse,hashlib,inspect,json,struct,sys,textwrap,zlib
+import argparse,hashlib,inspect,json,os,struct,sys,textwrap,zlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 ap=argparse.ArgumentParser();ap.add_argument('--recovery',type=Path,default=ROOT.parent/'module_recovery_v13');ap.add_argument('--mp0',type=Path);ap.add_argument('--out',type=Path,default=ROOT/'replay_results.json');a=ap.parse_args()
@@ -35,7 +35,9 @@ Machine.readmem=_diagnostic_readmem
 def init():
  m=Machine();m.trace=[];m.instruction_addresses=set();m.snapshots={};return m
 # Local pinned input; if omitted, use the established source in this project.
-mp0=a.mp0 or ROOT.parents[2]/'NCDR_ASTRA_TRANSFER/originals/NCDR/SW/DB/EUZ.MP0'
+source_root=Path(os.environ['NCDR_SOURCE_ROOT']) if os.environ.get('NCDR_SOURCE_ROOT') else None
+mp0=a.mp0 or (source_root/'originals/NCDR/SW/DB/EUZ.MP0' if source_root else None)
+if mp0 is None:raise SystemExit('Pass --mp0 or set NCDR_SOURCE_ROOT to the local source package root')
 with mp0.open('rb') as f:
  f.seek(114+24*886+16);off,usize,csize=struct.unpack('<IHH',f.read(8));f.seek(off);raw=zlib.decompress(f.read(csize))
 assert len(raw)==usize and hashlib.sha256(raw).hexdigest()=='c4fd95701be3301b999d7e8886d08a6d2e8a3461e9f6caa973a5128959d983a6'
