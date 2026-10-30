@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Baseline | none | `00 / 00` | `0x0037628A` | `0x0037628B` | `0/0` |
 | A | `edge+4 XOR 1` | `01 / 00` | unchanged | unchanged | `-1/0` |
-| B | `edge+5 XOR 1` | `00 / 01` | unchanged | unchanged | `0/-1` |
+| B | `edge+5 XOR 2` | `00 / 02` | unchanged | unchanged | `0/-1` |
 | C | first u32 bit13 XOR | `00 / 00` | unchanged | `0xFFFFFFFE` | `0/0` |
 
 Both `0x02FFB92C` and `0x02FFBB00` show the same A/B forwarding effect and C's `cover+0x18` effect. A/B retain baseline producer branch traces. C follows the alternate branch at `0x02FFB9D4` / `0x02FFBB82`; delay slots `0x02FFB9D6` / `0x02FFBB8A` still store `edge+4` to `cover+0x10`.
