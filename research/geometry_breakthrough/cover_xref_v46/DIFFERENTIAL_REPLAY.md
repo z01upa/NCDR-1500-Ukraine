@@ -17,7 +17,7 @@ Run from the project root:
 
 ```sh
 research/geometry_breakthrough/module_recovery_v13/.venv/bin/python research/geometry_breakthrough/cover_xref_v46/scan_xrefs.py
-research/geometry_breakthrough/module_recovery_v13/.venv/bin/python research/geometry_breakthrough/cover_xref_v46/replay.py
+NCDR_SOURCE_ROOT=NCDR_ASTRA_TRANSFER research/geometry_breakthrough/module_recovery_v13/.venv/bin/python research/geometry_breakthrough/cover_xref_v46/replay.py
 ```
 
 `replay_summary.json` preserves the per-case outcomes and key register snapshots. `replay_results.json` keeps the full local instruction traces and source-derived buffers for exact reproduction; it is not part of the GitHub upload. The test stubs lock/unlock, block load, a length helper, and a division helper; see `UNKNOWN_BLOCKERS.md`. The actual converter and selected-bit consumer are executed without stubs. This is offline isolated execution, not complete navigation or physical-device validation.
