@@ -89,6 +89,6 @@ The database has 4,054 PDATA roots. The all-section scan found 76 reachable `jsr
 
 At function `0x0306F484`, `0x0306F52A–0x0306F530` loads `r4` from the caller stack item array at `SP+0x88+4*r10`; the tested item is packed `block<<12 | edge`. The producer confirms this input shape by retaining `r4`, taking low 12 bits as edge index and upper bits as block index before the block lookup. It calls the `0x02FFB92C` literal at `0x0306F536`; the delay slot `0x0306F538 add r15,r5` makes `r5` point to stack buffer `SP+0x40`. After return, `0x0306F542–0x0306F54C` sets the same `r4=SP+0x40` and calls `0x0308C1F0`; `r5=SP+0xA8` is the node candidate and `r6=r11` is the selector. Thus producer output pointer aliases the real consumer input.
 
-At `0x0306F550` `tst r0,r0`; `0x0306F552 bf/s 0x0306F558` with delay slot `0x0306F554 mov #-1,r0`. A nonzero consumer result (attribute bit set) returns `-1`; zero falls through to `0x0306F556 mov #0,r0`. This is a concrete caller-visible rejection/success return path.
+At `0x0306F550` `tst r0,r0`; `0x0306F552 bf/s 0x0306F558` with delay slot `0x0306F554 mov #-1,r0`. A nonzero consumer result (attribute bit set) returns `-1`; zero falls through to `0x0306F556 mov #0,r0`. This proves the caller-visible -1/0 status path; the broader navigation meaning remains outside this trace.
 
 `0x02FFBB00` is called twice at `0x030611B4` and `0x03061282` in `0x03060FA0`. Its pointer and output arguments are in the table; no downstream attribute consumer was established for these two sites in this task.
