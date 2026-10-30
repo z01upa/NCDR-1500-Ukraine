@@ -26,7 +26,7 @@ producer writes stack object [SP+0x40]+0x10/+0x11
 0x0308C1FE–0x0308C202 calls 0x0301EFE4 with cover ptr and node ptr
 0x0308C206 adds 0x10 to cover; 0x0308C208 reads cover[0x10+selector]
 0x0308C210 builds (1 << selector); 0x0308C212 tests that bit against byte
-0x0308C214 bt/s and 0x0308C216 delay slot produce -1 on bit set, else 0
+0x0308C214 bf/s and 0x0308C216 delay slot produce -1 on bit set, else 0
 caller 0x0306F550–0x0306F556 maps this to -1/reject or 0/success
 ```
 
