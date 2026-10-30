@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_a82c0939e048",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_debc1bcc",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_debc1bcc",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_debc1bcc",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "b5eb432be82fd8aa0c8918811cb04c0aa6b34fed92ce1d1dcd38b0c0bfbcf252",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_a82c0939e048",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T16:57:49.951065+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

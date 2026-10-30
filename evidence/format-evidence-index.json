@@ -1,0 +1,318 @@
+{
+  "format_version": 1,
+  "canonical_id": "B01",
+  "status": "PASS",
+  "scope": "Verified fixed fields in the first 64 bytes of the three supplied NCDx regional MP0 files.",
+  "source_identities": [
+    {
+      "dataset": "SW",
+      "mp0_path": "SW/DB/EUZ.MP0",
+      "mp0_size_bytes": 30281958,
+      "mp0_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+      "toc_path": "SW/CDROM.TOC",
+      "toc_sha256": "ebe7a41f4044236936d0a269bd53a05e1d30f02f8d281e9f84a89cc18fa37584",
+      "toc_version": "444.20.940.82"
+    },
+    {
+      "dataset": "Italy",
+      "mp0_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+      "mp0_size_bytes": 165510023,
+      "mp0_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+      "toc_path": "OPEL NCDx Italia 2010-2011/CDROM.TOC",
+      "toc_sha256": "bd824bca3d9654e4cf05647177928391489c49e401bc8faac9f3927b6bc2d6c2",
+      "toc_version": "444.31.940.82"
+    },
+    {
+      "dataset": "Scandinavia",
+      "mp0_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+      "mp0_size_bytes": 220863350,
+      "mp0_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+      "toc_path": "OPEL NCDx Scandinavia 2010-2011/CDROM.TOC",
+      "toc_sha256": "61d8b80cc80e934e1d29bfbb83a466ac15329adbdb2979c46b282777eefe0b08",
+      "toc_version": "444.42.940.82"
+    }
+  ],
+  "facts": [
+    {
+      "dataset": "SW",
+      "field": "marker",
+      "source_path": "SW/DB/EUZ.MP0",
+      "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+      "offset": 0,
+      "length": 13,
+      "raw_hex": "282a245349454d454e53265e29",
+      "observed": "(*$SIEMENS&^)",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "(*$SIEMENS&^)"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "(*$SIEMENS&^)"
+        }
+      ]
+    },
+    {
+      "dataset": "SW",
+      "field": "copyright",
+      "source_path": "SW/DB/EUZ.MP0",
+      "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+      "offset": 16,
+      "length": 16,
+      "raw_hex": "436f7079726967687420313939380000",
+      "observed": "Copyright 1998",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "Copyright 1998"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "Copyright 1998"
+        }
+      ]
+    },
+    {
+      "dataset": "SW",
+      "field": "internal_format_version",
+      "source_path": "SW/DB/EUZ.MP0",
+      "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+      "offset": 32,
+      "length": 16,
+      "raw_hex": "322e302e300000000000000000000000",
+      "observed": "2.0.0",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "2.0.0"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "2.0.0"
+        }
+      ]
+    },
+    {
+      "dataset": "SW",
+      "field": "dataset_code",
+      "source_path": "SW/DB/EUZ.MP0",
+      "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+      "offset": 48,
+      "length": 16,
+      "raw_hex": "455534343432303934302e3832000000",
+      "observed": "EU44420940.82",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "EU44420940.82"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "EU44420940.82"
+        },
+        {
+          "method": "CDROM.TOC.Version cross-reference",
+          "toc_path": "SW/CDROM.TOC",
+          "toc_sha256": "ebe7a41f4044236936d0a269bd53a05e1d30f02f8d281e9f84a89cc18fa37584",
+          "result": "MATCH"
+        }
+      ]
+    },
+    {
+      "dataset": "Italy",
+      "field": "marker",
+      "source_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+      "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+      "offset": 0,
+      "length": 13,
+      "raw_hex": "282a245349454d454e53265e29",
+      "observed": "(*$SIEMENS&^)",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "(*$SIEMENS&^)"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "(*$SIEMENS&^)"
+        }
+      ]
+    },
+    {
+      "dataset": "Italy",
+      "field": "copyright",
+      "source_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+      "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+      "offset": 16,
+      "length": 16,
+      "raw_hex": "436f7079726967687420313939380000",
+      "observed": "Copyright 1998",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "Copyright 1998"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "Copyright 1998"
+        }
+      ]
+    },
+    {
+      "dataset": "Italy",
+      "field": "internal_format_version",
+      "source_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+      "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+      "offset": 32,
+      "length": 16,
+      "raw_hex": "322e302e300000000000000000000000",
+      "observed": "2.0.0",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "2.0.0"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "2.0.0"
+        }
+      ]
+    },
+    {
+      "dataset": "Italy",
+      "field": "dataset_code",
+      "source_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+      "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+      "offset": 48,
+      "length": 16,
+      "raw_hex": "4934343433313934302e383200000000",
+      "observed": "I44431940.82",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "I44431940.82"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "I44431940.82"
+        },
+        {
+          "method": "CDROM.TOC.Version cross-reference",
+          "toc_path": "OPEL NCDx Italia 2010-2011/CDROM.TOC",
+          "toc_sha256": "bd824bca3d9654e4cf05647177928391489c49e401bc8faac9f3927b6bc2d6c2",
+          "result": "MATCH"
+        }
+      ]
+    },
+    {
+      "dataset": "Scandinavia",
+      "field": "marker",
+      "source_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+      "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+      "offset": 0,
+      "length": 13,
+      "raw_hex": "282a245349454d454e53265e29",
+      "observed": "(*$SIEMENS&^)",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "(*$SIEMENS&^)"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "(*$SIEMENS&^)"
+        }
+      ]
+    },
+    {
+      "dataset": "Scandinavia",
+      "field": "copyright",
+      "source_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+      "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+      "offset": 16,
+      "length": 16,
+      "raw_hex": "436f7079726967687420313939380000",
+      "observed": "Copyright 1998",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "Copyright 1998"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "Copyright 1998"
+        }
+      ]
+    },
+    {
+      "dataset": "Scandinavia",
+      "field": "internal_format_version",
+      "source_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+      "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+      "offset": 32,
+      "length": 16,
+      "raw_hex": "322e302e300000000000000000000000",
+      "observed": "2.0.0",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "2.0.0"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "2.0.0"
+        }
+      ]
+    },
+    {
+      "dataset": "Scandinavia",
+      "field": "dataset_code",
+      "source_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+      "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+      "offset": 48,
+      "length": 16,
+      "raw_hex": "534334343434323934302e3832000000",
+      "observed": "SC44442940.82",
+      "checks": [
+        {
+          "method": "ncdx_mp0_header.read_mp0_header",
+          "result": "SC44442940.82"
+        },
+        {
+          "method": "independent_raw_offset_slice",
+          "result": "SC44442940.82"
+        },
+        {
+          "method": "CDROM.TOC.Version cross-reference",
+          "toc_path": "OPEL NCDx Scandinavia 2010-2011/CDROM.TOC",
+          "toc_sha256": "61d8b80cc80e934e1d29bfbb83a466ac15329adbdb2979c46b282777eefe0b08",
+          "result": "MATCH"
+        }
+      ]
+    }
+  ],
+  "unknown_register": {
+    "path": "reports/FORMAT_UNKNOWN.md",
+    "sha256": "fd108b516e683be1606dacb2f52eb3e893743365ecac4cf30a2efea8fad0fbef",
+    "items": [
+      "Формат записів і таблиць після MP0 заголовка; структура `FEA`, `RD`, `MG1`–`MG3`, `RL`, `RT`, `CTY`, `IL`, `IOF` та інших суфіксів.",
+      "Endianness і checksum для NCDx map records; індекси, routing graph, road geometry, addresses, POI і їхні взаємні посилання.",
+      "Зв'язок ідентифікатора в заголовку MP0 з об'єктним форматом. Перевірено лише буквальний збіг регіону/версії з текстовим TOC.",
+      "Фізична структура CD (трекове розташування, CD mode, boot/layout validation) для target NCDR.",
+      "Відповідність трьох наявних дисків точній моделі штатного пристрою конкретного авто.",
+      "Підтримка українських назв, кодова сторінка CID, голосові assets та hardware display mode.",
+      "Поточна compatibility DB_0 ↔ NCDx; попередній звіт називає лише weak similarity під sampled probes."
+    ],
+    "interpretation": "Unresolved questions, not positive format facts."
+  },
+  "claim_boundaries": {
+    "facts_have_two_independent_checks": true,
+    "mp0_bytes_after_offset_0x40_decoded": false,
+    "db_0_format_transferred_to_ncdx": false,
+    "road_geometry_or_routing_proven": false,
+    "physical_disc_compatibility_proven": false,
+    "original_media_write_count": 0
+  },
+  "created_utc": "2026-10-28T15:37:14.300228+00:00"
+}

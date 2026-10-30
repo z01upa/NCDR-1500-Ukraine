@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_0a39a234c7c6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTI_DEFLATE_COMPRESSIBILITY_PROFILE_f23fdd72",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTI_DEFLATE_COMPRESSIBILITY_PROFILE_f23fdd72",
+  "selection_source": "Ollama",
+  "selection_reason": "PTI region exhibits the highest zlib ratio delta (0.00972) among samples, indicating the most significant structural variance for compressibility analysis; this reduces uncertainty regarding data storage patterns without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTI_DEFLATE_COMPRESSIBILITY_PROFILE_f23fdd72",
+  "candidate_fingerprint": "288c5678c9800a615e63d289726b5f374b850390734dbb7cbd4df183e2bc393d",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_0a39a234c7c6",
+  "remaining_unique_experiments": 16,
+  "created_utc": "2026-10-26T22:27:02.893560+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

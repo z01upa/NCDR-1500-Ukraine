@@ -1,0 +1,7 @@
+parent_sector,reference_offset,child_bl_addr,child_sector,child_span,adjacent_header_bytes,key_or_range_context
+0x76307,0x2C,07743F03,0x7743F,0x03,00140010003400060018000000340034,preceded by compact range header
+0x76307,0x30,07744B29,0x7744B,0x29,003400340038003C003400340038003C,preceded by compact range header
+0x76307,0x34,07747427,0x77474,0x27,00340038003C0034004000400044,preceded by compact range header
+0x76307,0x38,07744209,0x77442,0x09,0038003C0040004000440048,preceded by compact range header
+0x76307,0x3C,07749B20,0x7749B,0x20,0040004000440048,changed leaf
+0x76307,0x40,0774BB2B,0x774BB,0x2B,00400044004800000000,preceded by compact range header

@@ -1,0 +1,476 @@
+{
+  "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+  "size_bytes": 11021915,
+  "sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "expected_sha256_from_xref_v4": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "prefix_ascii": "LK-01-05-000.000.0000",
+  "header_window_0x3e0_0x480": "ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 43 45 30 30 46 46 0a 0b 00 00 1f 8c 24 be 10 01 43 45 3c 03 00 10 1f 8c c0 63 02 00 2b 62 cf 00 08 00 00 00 00 44 f8 9e 3c 84 08 05 02 00 00 00 4e 84 09 84 01 40 a8 02 00 4f 00 45 00 4d 00 47 00 65 00 74 00 52 00 65 00 61 00 6c 00 54 00 69 00 6d 00 65 00 20 00 45 00 52 00 52 00 4f 00 52 00 20 00 6f 00 76 00 65 00 72 00 66 00 6c 00 6f 00 77 00 20 00 64 85 36 09 65 00 63 00 74 00 0d",
+  "existing_xref_v4_bounds": {
+    "first_non_ff_after_byte_32": 1024,
+    "ce00ff_marker_offsets": [
+      1024
+    ],
+    "ecec_marker_offsets": [
+      10283731
+    ],
+    "mz_marker_count": 15,
+    "mz_marker_offsets": [
+      1115242,
+      1559094,
+      2487152,
+      2492419,
+      2494452,
+      8958996,
+      9184524,
+      9236150,
+      9962759,
+      9966599,
+      10106077,
+      10282685,
+      10283526,
+      10747387,
+      10943845
+    ],
+    "raw_pe_signature_count": 1,
+    "raw_pe_signature_candidates": [
+      {
+        "file_offset": 1539164,
+        "machine_code": "0x14e0",
+        "section_count": 0,
+        "matches_NAVIMAIN_SH4_machine": false
+      }
+    ],
+    "embedded_pe_scan": {
+      "status": "PASS",
+      "mz_marker_count_scanned": 15,
+      "pe_signature_candidate_count": 0,
+      "rejected_structural_header_count": 0,
+      "valid_pe_image_count": 0
+    },
+    "image_format": "UNKNOWN; CE00FF marker at 0x400 is recorded but not parsed as a ROM/module table",
+    "node_reader_code": "NOT_LOCATED; no valid PE module extracted and no NK image loader is available"
+  },
+  "marker_contexts": {
+    "CE00FF": [
+      {
+        "offset": 1024,
+        "context_start": 1000,
+        "context_hex": "ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 43 45 30 30 46 46 0a 0b 00 00 1f 8c 24 be 10 01 43 45 3c 03 00 10 1f 8c c0 63 02 00 2b 62 cf 00 08 00 00 00 00 44 f8 9e 3c 84 08 05 02 00 00 00 4e 84 09 84 01 40 a8 02 00 4f 00 45 00 4d 00 47 00 65 00 74 00 52 00 65 00 61 00 6c 00 54 00 69"
+      }
+    ],
+    "ECEC": [
+      {
+        "offset": 10283731,
+        "context_start": 10283707,
+        "context_hex": "45 7a 05 15 3e 00 00 43 45 f3 01 40 00 1f 8c 08 00 00 00 fe 02 00 00 08 45 43 45 43 cc 66 2f 8d 43 45 5a 02 cc 66 2f 8d 54 00 00 00 0f 09 00 00 11 00 00 86 00 00 00 00 02 00 00 1f 8c 24 be 2f 8d 9a 84 0e 12 00 4f 8d 00 e0 4f 8d 00 00 00 90 01 00 00 00 14 be 2f 84 0c 85 01 02 6b 02 86 08 01 80 88 11 93 01 43 45"
+      }
+    ]
+  },
+  "module_basename_matches_in_inventory": [],
+  "module_name_cluster_candidate": {
+    "range_start": "0x009d0000",
+    "range_end_exclusive": "0x00a10000",
+    "filename_count": 74,
+    "entries": [
+      {
+        "offset": 10305266,
+        "name": "nnk.exe"
+      },
+      {
+        "offset": 10311263,
+        "name": "coredll.dll"
+      },
+      {
+        "offset": 10323798,
+        "name": "Bgwes.exe"
+      },
+      {
+        "offset": 10329620,
+        "name": "filesys.exe"
+      },
+      {
+        "offset": 10329642,
+        "name": "fatfs.dll"
+      },
+      {
+        "offset": 10335256,
+        "name": "shell.exe"
+      },
+      {
+        "offset": 10335266,
+        "name": "toolhelp.dll"
+      },
+      {
+        "offset": 10335949,
+        "name": "atadisk.dll"
+      },
+      {
+        "offset": 10339140,
+        "name": "sramdisk.dll"
+      },
+      {
+        "offset": 10340580,
+        "name": "oleaut32.dll"
+      },
+      {
+        "offset": 10340645,
+        "name": "winsock.dll"
+      },
+      {
+        "offset": 10341754,
+        "name": "afd.dll"
+      },
+      {
+        "offset": 10348890,
+        "name": "xircce2.dll"
+      },
+      {
+        "offset": 10351748,
+        "name": "TJVUtcpstk.dll"
+      },
+      {
+        "offset": 10353800,
+        "name": "netbios.dll"
+      },
+      {
+        "offset": 10357412,
+        "name": "ddhel.dll"
+      },
+      {
+        "offset": 10361560,
+        "name": "CF_L.dll"
+      },
+      {
+        "offset": 10364830,
+        "name": "$A20API.dll"
+      },
+      {
+        "offset": 10367104,
+        "name": "AXHMIWidgetSet.dll"
+      },
+      {
+        "offset": 10370456,
+        "name": "BRCore.dll"
+      },
+      {
+        "offset": 10377107,
+        "name": "BRH_Control_LK_841.dll"
+      },
+      {
+        "offset": 10381841,
+        "name": "Buffer2Debug.exe"
+      },
+      {
+        "offset": 10385697,
+        "name": "Buffer2File.exe"
+      },
+      {
+        "offset": 10385713,
+        "name": "CCH_Control.dll"
+      },
+      {
+        "offset": 10390220,
+        "name": "CCLogDev.dll"
+      },
+      {
+        "offset": 10392286,
+        "name": "CDCH_Control.dll"
+      },
+      {
+        "offset": 10394978,
+        "name": "CDCLogDev.dll"
+      },
+      {
+        "offset": 10397969,
+        "name": "CDPLogDev.dll"
+      },
+      {
+        "offset": 10398599,
+        "name": "CF_CVoice.dll"
+      },
+      {
+        "offset": 10400629,
+        "name": "CF_HCommon.dll"
+      },
+      {
+        "offset": 10402088,
+        "name": "CommonData.dll"
+      },
+      {
+        "offset": 10405724,
+        "name": "CSMain.dll"
+      },
+      {
+        "offset": 10408347,
+        "name": "MTL.dll"
+      },
+      {
+        "offset": 10409521,
+        "name": "dsa_car.dll"
+      },
+      {
+        "offset": 10416571,
+        "name": "DarLk841Hmi.dll"
+      },
+      {
+        "offset": 10419293,
+        "name": "DiagnosisLD.dll"
+      },
+      {
+        "offset": 10419617,
+        "name": "COMPMonitorConnector.dll"
+      },
+      {
+        "offset": 10422465,
+        "name": "DiagnosisCore.dll"
+      },
+      {
+        "offset": 10425821,
+        "name": "DisLogDev.dll"
+      },
+      {
+        "offset": 10428156,
+        "name": "dsr_car.dll"
+      },
+      {
+        "offset": 10431993,
+        "name": "ErrorManagerHMI.dll"
+      },
+      {
+        "offset": 10434639,
+        "name": "ErrorManagerCore.dll"
+      },
+      {
+        "offset": 10438695,
+        "name": "ddi.dll"
+      },
+      {
+        "offset": 10438930,
+        "name": "FrLib.dll"
+      },
+      {
+        "offset": 10440109,
+        "name": "HardwareAPI.dll"
+      },
+      {
+        "offset": 10443063,
+        "name": "HMIServicesMain.dll"
+      },
+      {
+        "offset": 10446300,
+        "name": "KeyLogDev.dll"
+      },
+      {
+        "offset": 10446611,
+        "name": "LogbookHMI.dll"
+      },
+      {
+        "offset": 10452879,
+        "name": "mmidis.exe"
+      },
+      {
+        "offset": 10457129,
+        "name": "MP_Service.dll"
+      },
+      {
+        "offset": 10457153,
+        "name": "Main.exe"
+      },
+      {
+        "offset": 10461956,
+        "name": "NavigationRem.dll"
+      },
+      {
+        "offset": 10465736,
+        "name": "nmicore_ce.dll"
+      },
+      {
+        "offset": 10468484,
+        "name": "PM_Main.dll"
+      },
+      {
+        "offset": 10470456,
+        "name": "nmihmi_ce.dll"
+      },
+      {
+        "offset": 10471579,
+        "name": "Onmihelper_ce.dll"
+      },
+      {
+        "offset": 10472587,
+        "name": "PchServices.dll"
+      },
+      {
+        "offset": 10478328,
+        "name": "PSCore.dll"
+      },
+      {
+        "offset": 10481802,
+        "name": "RM_HandlerProxyStub.dll"
+      },
+      {
+        "offset": 10485236,
+        "name": "ScheduleHMI.dll"
+      },
+      {
+        "offset": 10488163,
+        "name": "TelematicCore.dll"
+      },
+      {
+        "offset": 10489842,
+        "name": "TelematicHmi.dll"
+      },
+      {
+        "offset": 10493552,
+        "name": "TmcMachineText.dll"
+      },
+      {
+        "offset": 10496822,
+        "name": "TPETH_LK_841.dll"
+      },
+      {
+        "offset": 10499821,
+        "name": "TVH_Control.dll"
+      },
+      {
+        "offset": 10505006,
+        "name": "UpdateManager.dll"
+      },
+      {
+        "offset": 10505042,
+        "name": "FlashFx.Dll"
+      },
+      {
+        "offset": 10511894,
+        "name": "VoiceRecorderHMI.dll"
+      },
+      {
+        "offset": 10515081,
+        "name": "VoiceRecorderCoreLK.dll"
+      },
+      {
+        "offset": 10515105,
+        "name": "flashclean.exe"
+      },
+      {
+        "offset": 10517128,
+        "name": "serial.dll"
+      },
+      {
+        "offset": 10520266,
+        "name": "wavedev.dll"
+      },
+      {
+        "offset": 10521446,
+        "name": "pcmcia.dll"
+      },
+      {
+        "offset": 10525026,
+        "name": "initobj.dat"
+      }
+    ],
+    "interpretation": "A bounded cluster of NUL-terminated module-looking filenames. This is useful for locating candidate names but is not claimed to be a decoded XIP table without validating record boundaries and address fields."
+  },
+  "target_candidate_name_contexts": {
+    "MTL.dll": {
+      "offset": 10408347,
+      "context_start": 10408315,
+      "context_hex": "4c 7f 21 8c 00 30 f0 84 ac 02 c0 e8 84 18 0d 40 00 00 c4 00 00 00 27 9e 21 8c 00 40 85 18 09 40 4d 54 4c 2e 64 6c 6c 00 43 45 bb 02 48 2b 48 8c b8 04 00 00 42 75 01 00 7f e0 04 00 e5 03 00 00 10 48 fc 01 14 9c fa 01 24 a4 b2 61 ec 8d 61 94 10 90 fe 01 04 45 a1 6c b0 21 24 54 9a e1 6c b4 61 24 3c 49 21 a4 b1 21 74 8e e1 14 52 8c 21 ac 99 21 d0 52 03 f8 89 92 03 00 00 01 d8 6d 3b a1"
+    },
+    "mmidis.exe": {
+      "offset": 10452879,
+      "context_start": 10452847,
+      "context_hex": "61 00 44 22 25 d2 1a 18 96 25 5a 30 13 26 0e e2 1a 96 26 68 18 12 27 07 05 52 08 f0 92 27 06 15 6d 6d 69 64 69 73 2e 65 78 65 00 00 00 43 45 e6 02 b0 83 57 8c 4c 0c 00 00 0d 67 04 00 7f 20 0a 00 ee 07 00 00 8c d9 fb 01 6c 8a fa 01 04 dc 8c 21 10 48 fc 01 94 a0 10 fe 01 5c 8e a1 34 52 01 04 ec 8d 21 c4 54 fc 01 6c 2a b0 21 74 92 01 14 92 00 a8 3d 09 a1 a4 d0 21 58 fe fb 01 a4 10 18"
+    },
+    "MP_Service.dll": {
+      "offset": 10457129,
+      "context_start": 10457097,
+      "context_hex": "00 00 3c 84 23 88 01 05 10 01 00 b8 08 8b 10 05 20 01 00 40 0b 84 18 03 00 00 1c 8c 28 87 01 15 4d 50 5f 53 65 72 76 69 63 65 2e 64 6c 6c 00 4e 61 76 69 44 42 89 0b 0a 4d 61 69 6e 2e 65 78 65 00 00 43 45 a3 03 64 c9 57 8c 9c 06 00 00 b9 36 02 00 7f dc 07 00 ab 05 00 00 14 8c fa 01 fc 46 fb 01 40 18 58 fc 01 ec f6 61 94 20 10 fe 01 04 45 a1 6c b0 49 21 10 48 21 a4 b2 62 01 b4 09 21"
+    },
+    "Main.exe": {
+      "offset": 10457153,
+      "context_start": 10457121,
+      "context_hex": "00 00 1c 8c 28 87 01 15 4d 50 5f 53 65 72 76 69 63 65 2e 64 6c 6c 00 4e 61 76 69 44 42 89 0b 0a 4d 61 69 6e 2e 65 78 65 00 00 43 45 a3 03 64 c9 57 8c 9c 06 00 00 b9 36 02 00 7f dc 07 00 ab 05 00 00 14 8c fa 01 fc 46 fb 01 40 18 58 fc 01 ec f6 61 94 20 10 fe 01 04 45 a1 6c b0 49 21 10 48 21 a4 b2 62 01 b4 09 21 c4 54 a2 00 98 fa 01 8c 25 52 00 38 d2 00 70 e5 e1 d4 55 81 21 14 9c fa"
+    },
+    "NavigationRem.dll": {
+      "offset": 10461956,
+      "context_start": 10461924,
+      "context_hex": "28 8c 00 30 e0 03 40 20 00 c0 70 00 00 00 00 40 00 00 66 00 00 00 2d 7b 2e 8c 00 40 85 18 15 40 4e 61 76 69 67 61 74 69 6f 6e 52 65 6d 2e 64 6c 6c 00 00 00 43 45 27 03 64 51 59 8c 94 0e 00 00 3b ab 05 00 7f 36 11 00 3f 0a 00 18 0b 00 00 00 10 48 01 05 4e 00 00 92 9c 12 00 09 4c 61 34 11 61 24 04 66 61 00 12 61 08 40 a5 51 80 92 01 06 15 61 ac 12 02 24 0a 37 61 1c 13 61 0d 2f a5 61"
+    },
+    "nmicore_ce.dll": {
+      "offset": 10465736,
+      "context_start": 10465704,
+      "context_hex": "d2 3f ec 93 4b d2 46 04 79 25 4c 1c 2b 93 4c 52 48 38 16 4d 54 92 4d 07 43 05 61 dc 12 4e 06 15 6e 6d 69 63 6f 72 65 5f 63 65 2e 64 6c 6c 00 43 45 10 04 44 c5 59 8c bc 0a 00 00 8a cf 03 00 7f 3e 0b 00 45 08 00 00 00 10 35 01 03 2a 00 00 52 80 12 00 05 12 61 a4 92 00 04 4a 18 61 d4 12 01 08 86 61 e0 92 11 61 06 1a 61 14 12 22 01 aa 10 61 34 92 02 08 52 02 68 93 02 2a 0e 61 84 13 03"
+    },
+    "nmihmi_ce.dll": {
+      "offset": 10470456,
+      "context_start": 10470424,
+      "context_hex": "00 00 58 7d 01 86 ac 0d b0 01 00 a4 35 00 00 00 a0 01 00 c8 0a 8b 8d 05 f0 01 00 28 12 9a ac 10 6e 6d 69 68 6d 69 5f 63 65 2e 64 6c 6c 00 00 00 43 45 89 03 38 ab 5a 8c c4 04 00 00 83 74 01 00 7f 95 04 00 2b 03 00 40 b4 8d fa 01 ac 99 21 74 65 12 00 94 92 00 9c 8a 62 00 12 01 94 00 10 fe 01 04 45 fc 01 a4 92 b2 21 84 54 21 7c 55 21 20 c0 4b fb 01 c8 d2 02 c0 1d c9 a1 6c b0 21 34 53"
+    }
+  },
+  "module_and_map_strings_in_NK": {
+    "NaviTrace.dll": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "mtl.dll": {
+      "ascii": [
+        10408347
+      ],
+      "utf16le": [
+        5603019
+      ]
+    },
+    "traceable.dll": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "commgr.dll": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "MMIDIS.EXE": {
+      "ascii": [
+        10452879
+      ],
+      "utf16le": []
+    },
+    "NAVIMAIN.EXE": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "EUZ.MP0": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "EUZ.RT": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "EUZ.RL": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "ROMHDR": {
+      "ascii": [],
+      "utf16le": []
+    },
+    "XIP": {
+      "ascii": [
+        9760411
+      ],
+      "utf16le": []
+    }
+  },
+  "candidate_GUID_byte_hits_in_NK": {
+    "NAVIMAIN_second_GUID_candidate": [],
+    "MMIDIS_class_GUID_candidate": [],
+    "MMIDIS_interface_GUID_candidate": []
+  },
+  "assessment": {
+    "XIP_ROMHDR_module_table": "NOT_DECODED: existing bounded scan records CE00FF and ECEC markers but no validated ROMHDR/XIP table layout or address mapping; raw PE signatures do not form valid PE modules.",
+    "runtime_component_location": "The statically imported mtl.dll, traceable.dll and commgr.dll were not found as standalone files by the physical-file inventory; their possible presence in NK.BIN is not established by the bounded markers or target strings.",
+    "disassembly_performed": false
+  },
+  "read_only": true
+}

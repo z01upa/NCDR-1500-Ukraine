@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_3752A93B6481ED19",
+  "target_task": "AUTO_NCDX_GEOBLOCK_3752A93B6481ED19",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "artifact_sha256": "a7620508db294799278fc45dee8741171683218ececd5baaba2379d61086a061",
+    "fresh_source_and_table_hashes_match": true,
+    "full_payload_zlib_eof_and_hash_match": true,
+    "independent_coordinate_replay_match": true,
+    "cross_region_geographic_cty_controls_match": true,
+    "header_family_count": 8,
+    "region_count": 2,
+    "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+    "road_geometry_decoded": false,
+    "source_write_count": 0,
+    "original_media_write_count": 0,
+    "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+    "task_id": "AUTO_NCDX_GEOBLOCK_3752A93B6481ED19"
+  },
+  "created_utc": "2026-10-28T21:07:22.138830+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-28.json",
+      "sha256": "c2427a8faccb03f92d2e91bc980a72ae9d60de42123a2293a2d14eb51bc18b00",
+      "size_bytes": 27349,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-28.md",
+      "sha256": "028e04eb78982ccc0223138462ce9e864396d7343bbd3a1f7b81ad81ec9673ab",
+      "size_bytes": 4167,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "e12ada36f99c43a49bd2c12bbd95535095575f89d161fe51853aaae062a855e1",
+      "size_bytes": 27350,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "0d6a3d6e2d781b37d2ee7f9b4113e4266b5e2acfb30d212e1c94cc361702f266",
+      "size_bytes": 4166,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "49f663ea74db6635b895f0c2238983c5a773e7916725a1f8e0a5e1bd45a89cff",
+      "size_bytes": 27351,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "19bae639c6c8b5beb3faa2ca02f9d7642a7153eaf2fc890b819042ca216446b2",
+      "size_bytes": 4166,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

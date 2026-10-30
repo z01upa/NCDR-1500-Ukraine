@@ -1,0 +1,19 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_data_rt_standalone_zlib_stream_census_c21b42e2.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "889817fda4b1b497e9fbcdea7517bbe63c1bfdf42733c1202e90ecb887fbbb3e",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_RT_STANDALONE_ZLIB_STREAM_CENSUS_c21b42e2",
+  "updated_utc": "2026-10-27T13:31:54.862401+00:00",
+  "verified_by_independent_reviewer": false
+}

@@ -1,0 +1,22 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.IL",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.IOF",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.RL",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IL",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IOF",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.RL",
+    "SW/DB/EUZ.IL",
+    "SW/DB/EUZ.IOF",
+    "SW/DB/EUZ.RL",
+    "work/autonomous_manager/ncdx/roadlink_portability/AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "4acf71e7abbb93461cc4fc0e0b55209f1321c9195cf71e563ffa929f1c9072dc",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8",
+  "updated_utc": "2026-10-28T15:13:51.986527+00:00",
+  "verified_by_independent_reviewer": false
+}

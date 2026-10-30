@@ -1,0 +1,3 @@
+site_kind,code_rva,container_target,offset_or_count,original_check,replacement,condition,evidence
+generic_write,0x16F0,module body,module-relative computed,yes; unexpected-value error,big-endian value write,module selected and address in range,writer called by module patch method
+concrete_navboot_site,unresolved,navboot,unresolved,unresolved,unresolved,unresolved,no literal concrete patch records found

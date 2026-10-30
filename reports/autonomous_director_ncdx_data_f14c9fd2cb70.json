@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_f14c9fd2cb70",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e0ed72ab",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e0ed72ab",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple compressed segments (stream_index 18, 19, 35, 46) with decompressed SHA256 hashes and candidate measurements explicitly labeled as 'alignment_X/scale_..._lat_lon' or '_lon_lat'. These entries represent decoded coordinate candidates derived from map storage data. Selecting this goal directly addresses the constraint to prioritize evidence reducing uncertainty about map storage and address/index data, as these streams contain the specific coordinate align",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e0ed72ab",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "80a09fc50282b42e1c26f43fd78ff771f9543b95ac2dc2fa34c4286bc4165070",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_f14c9fd2cb70",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T21:19:15.987500+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

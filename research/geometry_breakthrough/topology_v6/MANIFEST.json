@@ -1,0 +1,23 @@
+{
+  "ACCEPTANCE.md": "6dfda915ee21e10798bf24fea0c89042752d51017f235042f630cc0901ad3cd4",
+  "evidence\\acceptance.json": "a75cd7595f177195c06867970453b8f65dc5aeacbfc447a0749f0a15742a1cc1",
+  "evidence\\block_checks.json": "3685cd8202dcd1723bd7642ad81168df6ddcc0e9fb8c5fea30d26d92aa2340b9",
+  "evidence\\fixture_degree1.bin": "0be6cde99dab3c2b3b841c1d8ac8e75b28105cdbcedbb5d94ac1b11f8bb98930",
+  "evidence\\fixture_degree2.bin": "0be6cde99dab3c2b3b841c1d8ac8e75b28105cdbcedbb5d94ac1b11f8bb98930",
+  "evidence\\fixture_degree3.bin": "0be6cde99dab3c2b3b841c1d8ac8e75b28105cdbcedbb5d94ac1b11f8bb98930",
+  "evidence\\fixture_degree4.bin": "30e3e35f34bed2162f0af51eea4b12a5154229a9e63381c0b71d4d6a941f842e",
+  "evidence\\fixture_degree5.bin": "30e3e35f34bed2162f0af51eea4b12a5154229a9e63381c0b71d4d6a941f842e",
+  "evidence\\fixture_degree6.bin": "0906913e8e0bb320df0614f802a470105d733c38c1c961f8f03d300eac9e00be",
+  "evidence\\fixture_degree7.bin": "dce5ebf2b701bf55e749aec323946ad926317c01446950cceba556355df7e600",
+  "evidence\\legacy_cohorts.json": "835ab219489db9c28fd009c3df0bdde44995c5f4672d5de2c1744f9f9b77a059",
+  "evidence\\logical_adjacency.jsonl.gz": "0ad16c5ea5fa87bbaf1e319b0afdbbc7e4cce092bf33b507165080e31429695d",
+  "evidence\\remote_endpoint_links.json": "ce6e11339bda455183231e6e09f28d20218bfd03dccb04384895efe6125175da",
+  "evidence\\tests.txt": "80a5487b92b5e946e214a60c4ae792fc70d6246860a5e8e415523da9101fbca3",
+  "make_manifest.py": "535ade1f1bec299549c1feb55d7446d5e8108cbef1d5231c61b95f2b8ec7e46a",
+  "NODE_GRAPH_SPEC.md": "2da0f9e553e1a17f8b09c1c9534c648e5c96b4660b944801e0578726bf5ccb9f",
+  "README.md": "5ccc4f1fb9ac1f347f903e4a6cee5668bd42575dfe324906a69298ae7d60f9fa",
+  "test_topology_v6.py": "4638d9df65a5dd95c33ad772d2954ff42a1b2c506b31d649901be376769199aa",
+  "topology_decoder.py": "332e2e8c7dc3d5f6a78fd48a004d565145739d276e4d7965e642a3ef8477e188",
+  "TRANSITIONS.md": "93a1afc0c6f5e325605b883b12f2c495415582f1185110cb3f8e178660466c6b",
+  "verify_topology.py": "0acb619aa5cb7caf16bc27f857010f5ad2cc184ebaa003c42d30b9770d1f618c"
+}

@@ -1,0 +1,19 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_data_mg2_zlib_stream_boundary_context_profile_a7a0e87c.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "4ead439ad0aa6b36b41978308eabb00f58b9aefee8d6fa8fa5cb2c0ba32cf6eb",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_a7a0e87c",
+  "updated_utc": "2026-10-27T13:42:41.084199+00:00",
+  "verified_by_independent_reviewer": false
+}

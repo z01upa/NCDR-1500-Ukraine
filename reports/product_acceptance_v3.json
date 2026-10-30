@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-25T14:40:00Z",
+  "build": {
+    "name": "NCDR Ukraine Virtual CID v3",
+    "executable": "outputs/NCDR_Ukraine_Windows_v3/NCDR_Ukraine/NCDR_Ukraine.exe",
+    "sha256": "dd5c0cb00e41f17ecfc0a8928f54e6a9800255039848aaa9c3f61d2e7d5331e8",
+    "bytes": 2297626,
+    "package_bytes": 523500943,
+    "package_file_count": 999
+  },
+  "checks": {
+    "map_database_integrity": {
+      "pass": true,
+      "evidence": "SQLite PRAGMA integrity_check=ok",
+      "sha256": "e7041d4a76a94e80218d423864cf2effa99a9dbc5aff18383bb25926b5d55e77",
+      "bytes": 493137920
+    },
+    "real_street_search": {
+      "pass": true,
+      "evidence": "Windows GUI search for Ukrainian street: вулиця Соборності; returned matching real OSM results."
+    },
+    "connected_city_route": {
+      "pass": true,
+      "evidence": "GUI route from вулиця Соборності to вулиця Героїв АТО; 1.45 km, 45 road graph nodes."
+    },
+    "poi_tests": {
+      "pass": true,
+      "evidence": "OSM/POI acceptance and unit tests passed; personal place create, search, duplicate guards and import/export are covered."
+    },
+    "poi_persistence_reopen": {
+      "pass": true,
+      "evidence": "Created test location through GUI, closed and relaunched the Windows executable; test location remained visible. SQLite reopen integration test passed."
+    },
+    "gui_window_visible": {
+      "pass": true,
+      "evidence": "NCDR Ukraine · Virtual CID · Кривий Ріг visible in Windows; PyInstaller onedir package launched successfully."
+    }
+  },
+  "tracks": {
+    "OSM Ukraine": {
+      "status": "READY_FOR_SIMULATION",
+      "artifact": "data/osm/kryvyi_rih.sqlite",
+      "verified": "SQLite integrity, Ukrainian street search, connected route",
+      "limitations": "Bounding box rather than administrative boundary; OSM snapshot content timestamp 2026-09-08T20:21:01Z; turn restrictions not exported; distance-based experimental routing."
+    },
+    "POI Editor": {
+      "status": "READY_LOCAL",
+      "artifact": "Windows GUI and per-user SQLite database",
+      "verified": "Add Ukrainian name, coordinates, category, search, persistence after application restart."
+    },
+    "Virtual CID": {
+      "status": "OSM_SIMULATION_VERIFIED",
+      "artifact": "outputs/NCDR_Ukraine_Windows_v3/NCDR_Ukraine/NCDR_Ukraine.exe",
+      "verified": "Map, address search, route display and persisted user POI in Windows GUI. OSM Simulation only."
+    },
+    "NCDx Reader/Writer": {
+      "status": "RESEARCH_ONLY",
+      "artifact": "src/readers/ncdx_mp0_header.py; research/writer",
+      "verified": "Confirmed header checks, byte-preserving no-op copies and controlled changes to copies only. Payload semantics/indexes remain unknown."
+    },
+    "Original media": {
+      "status": "READ_ONLY",
+      "artifact": "inventory/discs_manifest.json",
+      "verified": "Reused prior SHA-256 inventory; targeted NCDx reads were read-only."
+    },
+    "Physical compatibility": {
+      "status": "HARDWARE_BLOCKER",
+      "artifact": null,
+      "verified": "Not tested on compatible Opel head unit or with an independently accepted sector image."
+    }
+  },
+  "osm_source": {
+    "url": "https://download.geofabrik.de/europe/ukraine.html",
+    "retrieved_utc": "2026-10-25T14:11:37.646289+00:00",
+    "dataset_content_timestamp": "2026-09-08T20:21:01Z",
+    "pbf_bytes": 881958338,
+    "pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+    "city_extract_sha256": "b9c2ebd5e0ddc1f78c87975e41018f7944122ee45deedf34b9fce40c5458ee10",
+    "license": "Open Database License (ODbL)",
+    "attribution": "Map data © OpenStreetMap contributors"
+  },
+  "automated_tests": {
+    "status": "PASS",
+    "count": 44,
+    "suite": "coordinator runtime, OSM engine, POI, city acceptance, safe Python, research writer, autonomous manager, Dashboard, inventory analysis, MP0 reader, state store",
+    "last_run_utc": "2026-10-25T14:37:00Z"
+  },
+  "hardware_compatibility": "UNVERIFIED; no physical compatibility claim."
+}

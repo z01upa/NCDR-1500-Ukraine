@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "canonical_id": "A02",
+  "objective": "Знайти корінну причину ParseError: out of memory та минулого таймауту 3600 сек у конвертері OSM. Не підміняти діагноз збільшенням ліміту.",
+  "acceptance": {
+    "status": "PASS",
+    "issues": [
+      {
+        "task_id": "AUTO_MISSION_EXEC_A01_E93FBACD",
+        "error": "RuntimeError: {\"error\": \"NameError: name 'available_models' is not defined\"}\r\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"NameError: name 'available_models' is not defined\"}\r\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "AUTO_OSM_FAILURE_REVIEW_B749A7021693",
+        "error": "RuntimeError: {\"error\": \"TimeoutError: Ollama API did not become available within 45 seconds\"}\r\n",
+        "failure_class": "TIMEOUT",
+        "phase": "post-import final verification",
+        "root_cause": "full source/database readback outlived the 900-second bounded task slice after final DB publication",
+        "remediation": "validate source-bound published DB and resume independent readback without reimport"
+      },
+      {
+        "task_id": "AUTO_OSM_NATIONAL_PUBLISHED_RECOVERY_01",
+        "error": "RuntimeError: {\"error\": \"NameError: name '_source_content_timestamp' is not defined\"}\r\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"NameError: name '_source_content_timestamp' is not defined\"}\r\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "AUTO_OSM_NATIONAL_STEP_78A9CBADA5CFA3A8",
+        "error": "RuntimeError: could not start or capture bounded task process: задача перевищила ліміт 900 секунд",
+        "failure_class": "TIMEOUT",
+        "phase": "post-import final verification",
+        "root_cause": "full source/database readback outlived the 900-second bounded task slice after final DB publication",
+        "remediation": "validate source-bound published DB and resume independent readback without reimport"
+      },
+      {
+        "task_id": "AUTO_OSM_NATIONAL_STEP_822BA7A5E9BDB9D4",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: stale OSM continuation: expected checkpoint 822ba7a5e9bdb9d4, current is c03cc6b57b6f3dff\"}\r\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"RuntimeError: stale OSM continuation: expected checkpoint 822ba7a5e9bdb9d4, current is c03cc6b57b6f3dff\"}\r\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "AUTO_RESEARCH_BOOTSTRAP",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: model-generated script failed the isolated independent test: ScriptRejected: Traceback (most recent call last):\\r\\n  File \\\"<string>\\\", line 57, in <module>\\r\\n    exec(compile(tree, \\\"<bounded-research-script>\\\", \\\"exec\\\"), env, env)\\r\\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\r\\n  File \\\"<bounded-research-script>\\\", line 3, in <module>\\r\\nKeyError: 'PDX'\"}\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"RuntimeError: model-generated script failed the isolated independent test: ScriptRejected: Traceback (most recent call last):\\r\\n  File \\\"<string>\\\", line 57, in <module>\\r\\n    exec(compile(tree, \\\"<bounded-research-script>\\\", \\\"exec\\\"), env, env)\\r\\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\r\\n  File \\\"<bounded-research-script>\\\", line 3, in <module>\\r\\nKeyError: 'PDX'\"}\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "AUTO_RESEARCH_FOLLOWUP_0cd28fa7886a",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: model-generated script failed the isolated independent test: ScriptRejected: script field is missing or too large\"}\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"RuntimeError: model-generated script failed the isolated independent test: ScriptRejected: script field is missing or too large\"}\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "AUTO_SCHEDULED_PROBE_IL_1972c6720eba",
+        "error": "RuntimeError: {\"error\": \"KeyError: 'IL'\"}\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"KeyError: 'IL'\"}\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "AUTO_SCHEDULED_PROBE_IOF_9fd63c433fdd",
+        "error": "RuntimeError: {\"error\": \"KeyError: 'IOF'\"}\n",
+        "class": "CODE_DEFECT",
+        "matched_rules": [],
+        "recommended_action": "create a bounded repair task with the saved reproducer and acceptance test",
+        "error_excerpt": "RuntimeError: {\"error\": \"KeyError: 'IOF'\"}\n",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "F1_TARGET_COMPATIBILITY",
+        "error": "",
+        "class": "UNKNOWN",
+        "matched_rules": [],
+        "recommended_action": "preserve evidence and request deterministic diagnosis before retry",
+        "error_excerpt": "",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "F3_WRITER",
+        "error": "",
+        "class": "UNKNOWN",
+        "matched_rules": [],
+        "recommended_action": "preserve evidence and request deterministic diagnosis before retry",
+        "error_excerpt": "",
+        "retry_requires_new_evidence": true
+      },
+      {
+        "task_id": "F4_OSM_PIPELINE",
+        "error": "",
+        "class": "UNKNOWN",
+        "matched_rules": [],
+        "recommended_action": "preserve evidence and request deterministic diagnosis before retry",
+        "error_excerpt": "",
+        "retry_requires_new_evidence": true
+      }
+    ],
+    "osm_oom_diagnosis": {
+      "status": "PASS",
+      "review_task_id": "AUTO_OSM_FAILURE_REVIEW_CCE15BE0CEAF",
+      "review_task_status": "DONE",
+      "persisted_review": {
+        "status": "PASS",
+        "task_id": "AUTO_OSM_FAILURE_REVIEW_CCE15BE0CEAF",
+        "model": "qwen3.5:4b",
+        "source_task": "AUTO_OSM_NATIONAL_CONVERSION_01",
+        "error": "ParseError: out of memory: line 35162295, column 0. Legacy monolithic ElementTree import exceeded available memory; source-bound extract passed complete gzip CRC/EOF verification.",
+        "checkpoint_token": "822ba7a5e9bdb9d4",
+        "root_cause_class": "MEMORY_MONOLITH",
+        "explanation": "The error indicates a memory exhaustion during the legacy monolithic ElementTree import process, specifically at line 35162295. The source-bound extract passed verification (CRC/EOF), confirming data integrity, but the parsing method itself is resource-heavy and has exceeded available memory limits.",
+        "recommendation": "RESUME_CHECKPOINTED_SLICES",
+        "safety_note": "The import strategy has been replaced with durable line-oriented SQLite slices. The existing checkpoint token (822ba7a5e9bdb9d4) is valid and verified. Resuming from this point avoids re-parsing the problematic section, preventing memory spikes while",
+        "deterministic_disposition": "continue only from the durable checkpoint; model recommendation cannot alter the queue",
+        "model_output_executed": false,
+        "original_media_write_count": 0,
+        "validation": [
+          {
+            "name": "fixed_schema_allowlist",
+            "status": "PASS"
+          },
+          {
+            "name": "model_output_not_executed",
+            "status": "PASS"
+          },
+          {
+            "name": "original_media_read_only",
+            "status": "PASS"
+          }
+        ],
+        "artifact": {
+          "path": "work\\autonomous_manager\\osm_pipeline\\failure_reviews\\auto_osm_failure_review_cce15be0ceaf.json",
+          "sha256": "01b6dfc0c782760d204c564b2c35637c7b9ad8fb25b72d32c80e99edefd5b054",
+          "size_bytes": 3053,
+          "description": "Local AI review of an OSM failure diagnostic",
+          "acceptance": "PASS: schema allowlist; advisory-only output"
+        },
+        "worker_session": "7f542e0f-45c4-49fe-9094-97d383c3b30b"
+      },
+      "source_task_id": "AUTO_OSM_NATIONAL_CONVERSION_01",
+      "error": "ParseError: out of memory: line 35162295, column 0. Legacy monolithic ElementTree import exceeded available memory; source-bound extract passed complete gzip CRC/EOF verification.",
+      "root_cause_class": "MEMORY_MONOLITH",
+      "root_cause_basis": "persisted independent review; historical memory telemetry was not recorded",
+      "source_format": "OSM PBF source; derived OSM XML (gzip extract / raw spool)",
+      "parser": {
+        "legacy": "xml.etree.ElementTree.iterparse",
+        "current": "checkpointed line-oriented SQLite importer; ElementTree.fromstring per record",
+        "diagnostic": "xml.etree.ElementTree.fromstring on the single target line"
+      },
+      "failure_line": {
+        "line_number": 35162295,
+        "column": 0,
+        "status": "PARSED",
+        "read_mode": "bounded binary readline; parse only the target record",
+        "max_line_bytes": 1048576,
+        "max_scan_seconds": 300,
+        "max_scan_bytes": 17179869184,
+        "path": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.osm.raw",
+        "element_type": "node",
+        "record_bytes": 59,
+        "record_sha256": "389e1dc50430965d2407ee69f6cb37b4cfe9c1714c904c8a10a469fb85f9d8e5",
+        "record": "<node id=\"4200446716\" lat=\"47.3906688\" lon=\"33.3840046\" />\n",
+        "attributes": {
+          "id": "4200446716",
+          "lat": "47.3906688",
+          "lon": "33.3840046"
+        },
+        "scanned_bytes": 2147467311
+      },
+      "checkpoint": {
+        "token": "822ba7a5e9bdb9d4",
+        "current_task_token": "822ba7a5e9bdb9d4",
+        "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+        "extract_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+        "resume_checkpoint_artifact": "reports\\autonomous_osm_national_checkpoint_recovery_20261026-092832.json",
+        "output_directory": "work/autonomous_manager/osm_pipeline/ukraine_national/ukraine-2026-09-08-9eb8b42b2687",
+        "raw_checkpoint": {
+          "complete": true,
+          "decompressed_bytes": 10969225088,
+          "extract_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+          "identity": "cc9916c2fdfff2e003d003f73f61f70df025b7850856d273c6aab8c26e422694",
+          "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+          "updated_utc": "2026-10-26T09:29:22.490060+00:00"
+        },
+        "progress": {
+          "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+          "extraction": {
+            "source_pbf": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\data\\osm\\ukraine-latest.osm.pbf",
+            "source_bytes": 881958338,
+            "extract_xml_gz": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.osm.gz",
+            "extract_bytes": 1819407591,
+            "bbox_south_west_north_east": [
+              -90.0,
+              -180.0,
+              90.0,
+              180.0
+            ],
+            "nodes_in_bbox": 112493890,
+            "selected_ways": 13440203,
+            "nodes_written": 112493890,
+            "selected_relations": 0,
+            "whole_source": true,
+            "limitation": "Relations, including turn restrictions, are not exported by this first-pass map extractor."
+          },
+          "updated_utc": "2026-10-25T21:50:58.357162+00:00"
+        }
+      },
+      "importer_limits": {
+        "max_records_per_slice": 500000,
+        "slice_budget_seconds": 180,
+        "timeout_s": 900,
+        "attempts": 1
+      },
+      "process_limits": {
+        "timeout_s": 900,
+        "historical_memory_limit_bytes": null,
+        "historical_memory_limit_status": "NOT_RECORDED"
+      },
+      "memory": {
+        "historical_peak_working_set_bytes": null,
+        "historical_peak_status": "NOT_RECORDED",
+        "diagnostic_peak_working_set_bytes": 40243200,
+        "available_physical_memory_bytes": 23125733376,
+        "measurement_scope": "current diagnostic process; not the historical failed importer",
+        "measured_utc": "2026-10-26T12:47:50.007775+00:00",
+        "pid": 28696,
+        "measurement_api": "GetProcessMemoryInfo / GlobalMemoryStatusEx"
+      },
+      "reimport_required": false,
+      "source_write_count": 0
+    },
+    "oom_and_timeout_are_distinct": true,
+    "published_national_db_exists": true,
+    "reimport_required": false,
+    "source_write_count": 0,
+    "created_utc": "2026-10-26T12:47:50.009146+00:00"
+  },
+  "created_utc": "2026-10-26T12:47:50.009152+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_MISSION_DIRECTOR_9096872AFC1F77BC",
+  "selected_id": "D01",
+  "reason": "evidence-based next task",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "candidate_fingerprint": "9096872afc1f77bc41370de9b28b4ac4b54b0f03217f0caf13e4c298cb182179",
+  "allowed_ids": [
+    "D01",
+    "D02"
+  ],
+  "model_choice_accepted": true,
+  "scope_guard": {
+    "original_media_write": false,
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  },
+  "created_utc": "2026-10-26T13:06:30.208380+00:00"
+}

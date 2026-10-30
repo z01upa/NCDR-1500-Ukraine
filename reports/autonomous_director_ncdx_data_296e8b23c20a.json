@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_296e8b23c20a",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_09a409a9",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_09a409a9",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains decompressed JSON segments with `candidate_measurements` detailing alignment scales (e.g., `alignment_4/scale_1000000_lat_lon`) and region candidate pairs. These measurements represent decoded coordinate candidates derived from map storage or index data. Selecting this goal directly addresses the requirement to reduce uncertainty about map storage, address/index data, or route data by utilizing the available decompressed evidence of coordinate alignments.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_09a409a9",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "2b1db4ba16fa3a926e9521b8905adca3c756ee62891d8af856f9de115d21171e",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_296e8b23c20a",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T16:55:55.567591+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

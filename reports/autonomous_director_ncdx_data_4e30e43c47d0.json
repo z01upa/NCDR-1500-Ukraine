@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_4e30e43c47d0",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_IOF_DEFLATE_COMPRESSIBILITY_PROFILE_9f82780a",
+  "selected_goal_id": "AUTO_NCDX_DATA_IOF_DEFLATE_COMPRESSIBILITY_PROFILE_9f82780a",
+  "selection_source": "Ollama",
+  "selection_reason": "IOF (likely 'Index of Features' or similar) directly targets map storage and address/index data uncertainty with a manageable 3MB input, prioritizing structural evidence without hardware needs or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_IOF_DEFLATE_COMPRESSIBILITY_PROFILE_9f82780a",
+  "candidate_fingerprint": "43fb8aeb06e1db68a281f6bd83c29fbf06aacc8ba3b4adc9e91a6949f4053674",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_4e30e43c47d0",
+  "remaining_unique_experiments": 17,
+  "created_utc": "2026-10-26T22:19:35.511655+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

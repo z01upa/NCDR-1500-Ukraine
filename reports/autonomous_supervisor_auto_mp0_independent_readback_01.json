@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_MP0_INDEPENDENT_READBACK_01",
+  "target_task": "AUTO_MP0_INDEPENDENT_READBACK_01",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "NCDx semantic record structures",
+      "Physical Opel NCDR hardware compatibility"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_MP0_INDEPENDENT_READBACK_01",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "task_id": "AUTO_MP0_INDEPENDENT_READBACK_01",
+      "status": "PASS",
+      "regional_source_count": 3,
+      "regional_readbacks": [
+        {
+          "region": "SW",
+          "relative_path": "SW/DB/EUZ.MP0",
+          "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "manifest_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "copy_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "independent_header_match": true,
+          "no_op_copy_match": true,
+          "source_stat_unchanged": true
+        },
+        {
+          "region": "Italy",
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+          "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "manifest_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "copy_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "independent_header_match": true,
+          "no_op_copy_match": true,
+          "source_stat_unchanged": true
+        },
+        {
+          "region": "Scandinavia",
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+          "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "manifest_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "copy_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "independent_header_match": true,
+          "no_op_copy_match": true,
+          "source_stat_unchanged": true
+        }
+      ],
+      "all_no_op_copies_match_manifest_sources": true,
+      "controlled_change": {
+        "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "working_copy_sha256": "5a0553871810984abe7e7f76b61aeb16b4a863e09172827078a0fb32287dae25",
+        "old_dataset_code": "EU44420940.82",
+        "new_dataset_code": "SC44442940.82",
+        "changed_offsets": [
+          48,
+          49,
+          53,
+          54
+        ],
+        "only_confirmed_dataset_code_field_changed": true,
+        "independent_header_readback": true
+      },
+      "independent_parser": "src.readers.mp0_independent; separate implementation",
+      "all_original_hashes_unchanged": true,
+      "original_media_write_count": 0,
+      "payload_semantics": "UNKNOWN",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-25T20:29:02.722539+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.json",
+      "sha256": "fb3739cbeb184eaa924184dc8346132b37a5a9d0f7a15a4e34e7b75de007432f",
+      "size_bytes": 28243,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.md",
+      "sha256": "9b8a1c269b5192b160e5a78407ec254488a521ea2f1fb20be7a6ef20a062068d",
+      "size_bytes": 5944,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.json",
+      "sha256": "ca9975baa767489c81ee9b8ac690c0128429f290b36c0aa4392aa84ed2662ecd",
+      "size_bytes": 28244,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.md",
+      "sha256": "47ea1b165b1e65a2345aa759ab9d34973a413ceb10f5079aa3ae2f3607db66e8",
+      "size_bytes": 5943,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "5c8fdb00ddd290680123eb9c771ad4b765b8d53eb4a8f91da97dc0a44ca4b8ad",
+      "size_bytes": 28245,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "0893d34d0066115226dfb5660f6c8d5f1eddbc85f543f4ce10401708e1e1e636",
+      "size_bytes": 5943,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\autonomous_writer_roundtrip.json",
+      "sha256": "92b242bddd19d39d0e1f8516149ded3fe2024cdbf5b0b2dfe941a584baa94ae4",
+      "size_bytes": 8970,
+      "description": "Verified MP0 writer report extended with an independent parser readback",
+      "acceptance": "PASS: three original-region copies and one field-limited test copy reread independently"
+    }
+  ]
+}

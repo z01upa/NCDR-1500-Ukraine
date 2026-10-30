@@ -1,0 +1,36 @@
+{
+  "prior_report_sha256": "69b2df3ba1da05fd7b140844dd9db858a8620ed26a9d2101421881c360134781",
+  "tools": {
+    "analyzeHeadless": null,
+    "ghidra": null,
+    "r2": null,
+    "radare2": null,
+    "llvm-objdump": null,
+    "objdump": null,
+    "java": null
+  },
+  "sources": {
+    "NAVIMAIN.EXE": {
+      "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_MMIDIS_LOC_0130170000\\WINDOWS\\NAVIMAIN.EXE",
+      "sha256": "8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07",
+      "bytes": 9798,
+      "machine": "0x1a6",
+      "entry_rva": "0x1e24",
+      "image_base": "0x10000",
+      "entry_va": "0x11e24",
+      "entry_file_offset": "0x1224",
+      "entry_bytes": "862f962fa62fb62f224f4368536b636a7369f07f0ad00b4009000ad0b365a36693670b408364036404d00b400900107f264ff66bf66af6690b00f668081d0100",
+      "interpretation": "SH4 PE32; startup/COM client hypothesis; no map parser call path established"
+    },
+    "NK.BIN": {
+      "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+      "sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+      "bytes": 11021915,
+      "marker_0x400": "4345303046460a0b00001f8c24be1001",
+      "first_packet_0x410": "43453c0300101f8cc06302002b62cf00080000000044f89e3c84080502000000",
+      "interpretation": "Wrapped CE00FF encoded/addressed image; not a directly mapped PE; absence of embedded PE does not prove absence of navigation code"
+    }
+  },
+  "confirmed_mp0_reader_procedures": [],
+  "decision": "No established MP0 reader path and no disassembler found on PATH; stop code search at bounded inventory, pivot to Section4 continuation hypothesis."
+}

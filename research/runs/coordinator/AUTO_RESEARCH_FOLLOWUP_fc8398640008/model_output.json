@@ -1,0 +1,68 @@
+{
+  "task_id": "AUTO_RESEARCH_FOLLOWUP_fc8398640008",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"hypothesis\": \"Файли з різних регіонів з розширенням AFF мають спільний префікс.\",\n  \"target_suffix\": \"AFF\",\n  \"expected_observation\": \"Всі три регіони мають спільний префікс довжиною 48 байтів.\",\n  \"falsifier\": \"Якщо хоча б один з регіонів має різний префікс, гіпотеза не підтверджується.\",\n  \"script\": \"common_prefix = 0\\nfor i in range(64):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nprint(common_prefix)\"\n}",
+  "parsed": {
+    "hypothesis": "Файли з різних регіонів з розширенням AFF мають спільний префікс.",
+    "target_suffix": "AFF",
+    "expected_observation": "Всі три регіони мають спільний префікс довжиною 48 байтів.",
+    "falsifier": "Якщо хоча б один з регіонів має різний префікс, гіпотеза не підтверджується.",
+    "script": "common_prefix = 0\nfor i in range(64):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nprint(common_prefix)"
+  },
+  "script_validation": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 12,
+      "actual": 12,
+      "runner": {
+        "result": {
+          "common_prefix": 12,
+          "i": 12
+        },
+        "stdout": "12\n",
+        "elapsed_seconds": 0.0362,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    },
+    {
+      "name": "sandbox_script_matches_independent_AFF_target",
+      "status": "PASS",
+      "expected": 12,
+      "actual": 12,
+      "runner": {
+        "result": {
+          "common_prefix": 12,
+          "i": 12
+        },
+        "stdout": "12\n",
+        "elapsed_seconds": 0.0273,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "preview_test_expected": 12,
+  "selected_target": "AFF",
+  "source_preview": [
+    {
+      "region": "SW",
+      "bytes": 90,
+      "prefix_hex": "7a697001000c00008a00000042000000180000005a00000078da0bf674f575f50b6680010d674d8560889882a33b0383919e819e010302b8869a98981819589a"
+    },
+    {
+      "region": "Italy",
+      "bytes": 89,
+      "prefix_hex": "7a697001000c00008a00000041000000180000005900000078da0bf674f575f50b6680010d674d8560889882a33b0383919e819e010302789a9898181b5a9a18"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 88,
+      "prefix_hex": "7a697001000c00008a00000040000000180000005800000078da0bf674f575f50b6680010d674d8560889882a33b0383919e819e010302043b9b008191a58981"
+    }
+  ],
+  "script_path": "research/runs/coordinator/AUTO_RESEARCH_FOLLOWUP_fc8398640008/model_generated_script.py",
+  "script_sha256": "908d9fafdb377a47661cb6e1a408b5dd3ef2dc64b58dea9144942436debc3bac",
+  "warning": "Hypothesis is proposed, not a confirmed format fact."
+}

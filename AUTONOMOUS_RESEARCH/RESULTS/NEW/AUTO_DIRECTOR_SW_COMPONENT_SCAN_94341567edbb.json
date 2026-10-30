@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE01.DLL",
+    "reports/autonomous_director_sw_component_94341567edbb.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "f396af75e657c2a09c8f244a528d9dc8ab084bce2f36a60c731fb0c7812d0e7e",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_94341567edbb",
+  "updated_utc": "2026-10-27T20:07:21.907415+00:00",
+  "verified_by_independent_reviewer": false
+}

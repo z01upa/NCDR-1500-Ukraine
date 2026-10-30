@@ -1,0 +1,5 @@
+offset_range,observed_pattern,classification,status
+0x00-0x1F,repeated 32-byte descriptor-like records,unknown structure,confirmed slot boundary
+0x00-0x03,variable 4-byte word,unknown,unresolved
+0x04-0x07,variable 4-byte word,unknown,unresolved
+0x08-0x1F,mixed repeated/variable fields,unknown,unresolved

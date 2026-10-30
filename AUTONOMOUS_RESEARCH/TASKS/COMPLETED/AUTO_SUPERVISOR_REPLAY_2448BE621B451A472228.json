@@ -1,0 +1,15 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_roadlink_name_consistency_v1_93291c06050e22ef.json",
+    "reports/periodic/daily/2026-10-28.json",
+    "reports/periodic/daily/2026-10-28.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_REPLAY_2448BE621B451A472228",
+  "updated_utc": "2026-10-28T16:54:29.414739+00:00"
+}

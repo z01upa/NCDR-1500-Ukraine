@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "canonical_id": "A03",
+  "objective": "Зберегти резервні копії SQLite, WORK, MANIFEST та поточної конфігурації, перевірити відновлення без перезапису оригіналів.",
+  "acceptance": {
+    "status": "PASS",
+    "restored_sqlite_databases": [
+      {
+        "name": "project_state.sqlite",
+        "integrity_check": "ok",
+        "restored_bytes": 26836992,
+        "backup_sha256": "663fc54b6fe514543e9a9dbbd20bc0457dd9ff7582299d101774fde0b6503738"
+      },
+      {
+        "name": "TASK_BACKLOG.sqlite",
+        "integrity_check": "ok",
+        "restored_bytes": 2523136,
+        "backup_sha256": "dbfc19408d0fc351d9c777ad216a9f5f1e2bf922f624586479eb5bb90c488b19"
+      },
+      {
+        "name": "EVIDENCE_LEDGER.sqlite",
+        "integrity_check": "ok",
+        "restored_bytes": 2420736,
+        "backup_sha256": "7b1a7db90fa1870fe3c4a86acc5f0331784aac8e203a87c671bab7e858cd2bde"
+      }
+    ],
+    "checkpoint_snapshot": "git ref refs/backup/ncdr-pre-mission-pack-20261026",
+    "backup_contains_codex_auth_files": false,
+    "original_media_modified": false,
+    "created_utc": "2026-10-26T12:39:46.011818+00:00"
+  },
+  "created_utc": "2026-10-26T12:39:46.011838+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

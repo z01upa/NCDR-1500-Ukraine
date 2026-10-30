@@ -1,0 +1,15 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_data_mg1_zlib_decoded_coordinate_candidate_census_e753aa57.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e753aa57",
+  "updated_utc": "2026-10-27T15:10:38.384795+00:00"
+}

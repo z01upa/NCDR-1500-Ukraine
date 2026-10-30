@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_d12cf7ebf584",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_2fc7a5ec738b2a8c",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE01.DLL",
+  "selected_source_sha256": "2651263e6251da7d14eb370f272e1d2fe92312098d0843883d9f831d1bb7a322",
+  "selected_size_bytes": 46670,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "This candidate (C161APPLUPDATE01.DLL) provides navigation-format evidence as an application update, and its size differs from the base version, indicating potential new software content.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_2fc7a5ec738b2a8c",
+  "candidate_fingerprint": "d12cf7ebf58484217cf99b904c7c2117b5b4dcb2e52dcc76aac2a83072da92f4",
+  "remaining_unseen_candidates": 13,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:01:41.805860+00:00"
+}

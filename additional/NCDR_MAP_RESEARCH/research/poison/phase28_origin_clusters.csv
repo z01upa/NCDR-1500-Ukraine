@@ -1,0 +1,2 @@
+cluster_id,table_sector,table_start,originX,originY,matched_points,raw_offsets,cluster_status
+B_anchor,0x7749B,0x0C66,0x59763F,0x48A93F,"37.65431/55.12344",0x0C82,confirmed_singleton

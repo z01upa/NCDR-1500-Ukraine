@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8",
+  "target_task": "AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "Physical compatibility with Opel NCDR in a vehicle (NOT_TESTED)",
+      "Final disc image format and layout (PENDING)",
+      "Full Ukraine OSM database conversion to internal format (BLOCKED)",
+      "Independent verification of final image by external parser (BLOCKED)"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "status": "PASS",
+      "artifact_sha256": "72ed04cdb3e1b1098f364b12152d847f7d0f235bf05101740ed3c439f1e6e268",
+      "verified_source_count": 9,
+      "hypothesis_result": "SUPPORTED",
+      "original_media_write_count": 0,
+      "claim_scope": "Structural cross-reference portability only; IL semantics, road geometry, topology, routing and physical disc compatibility remain UNKNOWN.",
+      "task_id": "AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8",
+      "all_original_media_write_count": 0,
+      "region_checks": {
+        "SW": {
+          "all_source_hashes_match_inventory": true,
+          "all_original_sources_unchanged": true,
+          "rl_fixed_table_matches_header": true,
+          "iof_fixed_table_matches_header": true,
+          "il_variable_table_matches_header": true,
+          "all_rl_reference_candidates_in_iof_range": true,
+          "all_il_ids_in_iof_range": true,
+          "all_il_ids_have_rl_alias": true,
+          "iof_pointer_groups_match_il_boundaries_and_counts": true,
+          "iof_inline_records_have_high_bit_flag": true
+        },
+        "Italy": {
+          "all_source_hashes_match_inventory": true,
+          "all_original_sources_unchanged": true,
+          "rl_fixed_table_matches_header": true,
+          "iof_fixed_table_matches_header": true,
+          "il_variable_table_matches_header": true,
+          "all_rl_reference_candidates_in_iof_range": true,
+          "all_il_ids_in_iof_range": true,
+          "all_il_ids_have_rl_alias": true,
+          "iof_pointer_groups_match_il_boundaries_and_counts": true,
+          "iof_inline_records_have_high_bit_flag": true
+        },
+        "Scandinavia": {
+          "all_source_hashes_match_inventory": true,
+          "all_original_sources_unchanged": true,
+          "rl_fixed_table_matches_header": true,
+          "iof_fixed_table_matches_header": true,
+          "il_variable_table_matches_header": true,
+          "all_rl_reference_candidates_in_iof_range": true,
+          "all_il_ids_in_iof_range": true,
+          "all_il_ids_have_rl_alias": true,
+          "iof_pointer_groups_match_il_boundaries_and_counts": true,
+          "iof_inline_records_have_high_bit_flag": true
+        }
+      }
+    }
+  },
+  "created_utc": "2026-10-28T15:14:03.490682+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-28.json",
+      "sha256": "fe1e523de111f07a1ee9215eb49f9292835a24277da46676d444e6d4610c46d6",
+      "size_bytes": 30103,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-28.md",
+      "sha256": "4af2dbff65cf9b56260672a3d72981fc0dc370779c38b2a08b7b51717c3d35f7",
+      "size_bytes": 6115,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "07dd254ffb8b282fb56927ca44320dcfc7512b07c7e17ff2cdf9e71a313720a9",
+      "size_bytes": 30104,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "9868c2d0bce9327d53995b6940acfad20e36f58e81f4aee09cc26fdcd52858b0",
+      "size_bytes": 6114,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "7f3348fc743ca185720519c2fd8d58e08741ab51a3d043a2e83d9ed6ada80191",
+      "size_bytes": 30105,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "d5b14ff8946874219d50289440ec52fdb2fb21ddcaff474e6f9206137cfa36f0",
+      "size_bytes": 6114,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

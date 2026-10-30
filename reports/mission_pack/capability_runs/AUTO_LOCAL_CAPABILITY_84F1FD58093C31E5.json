@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_LOCAL_CAPABILITY_84F1FD58093C31E5",
+  "request_id": "CAP_84F1FD58093C31E5",
+  "executor": "Local-first capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_84F1FD58093C31E5",
+    "reason": "RuntimeError: verification command failed (1): Traceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_84F1FD58093C31E5_ATTEMPT_2\\tests\\unit\\test_inventory_analysis.py\", line 10, in <module>\n    from inventory.analyze_inventory import _normalized_region_key\nModuleNotFoundError: No module named 'inventory'\n"
+  },
+  "created_utc": "2026-10-26T21:32:05.106523+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

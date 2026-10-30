@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_73d8e105ea33",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTP_CONTAINER_ROUNDTRIP_bf310093",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTP_CONTAINER_ROUNDTRIP_bf310093",
+  "selection_source": "Ollama",
+  "selection_reason": "Selecting the next eligible experiment (PTP) to continue systematic container round-trip validation while adhering to constraints; no hardware or media writes required.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTP_CONTAINER_ROUNDTRIP_bf310093",
+  "candidate_fingerprint": "202c42f3126fcc8400578d938aa558f1d64a412aef3ae93859057419f34bb831",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_73d8e105ea33",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-26T22:33:02.500320+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

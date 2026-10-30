@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_497a1549cdf6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_ABC_EXACT_BLOCK_ANCHOR_SCAN_5f728529",
+  "selected_goal_id": "AUTO_NCDX_DATA_ABC_EXACT_BLOCK_ANCHOR_SCAN_5f728529",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected as the minimal-effort structural probe (150 bytes) to validate block-level consistency across all three regions without risking source integrity or requiring hardware changes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_ABC_EXACT_BLOCK_ANCHOR_SCAN_5f728529",
+  "candidate_fingerprint": "110d83752e54b8c1883823128fae8577d3e700b2ad03f39114124f6de792a60a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_497a1549cdf6",
+  "remaining_unique_experiments": 12,
+  "created_utc": "2026-10-26T23:14:49.131194+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

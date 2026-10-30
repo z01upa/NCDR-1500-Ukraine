@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b58eb24c9c3d",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CL_EXACT_BLOCK_ANCHOR_SCAN_6db5f610",
+  "selected_goal_id": "AUTO_NCDX_DATA_CL_EXACT_BLOCK_ANCHOR_SCAN_6db5f610",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizing CL (likely 'Class' or 'Cluster') data to reduce uncertainty about map storage structures and address/index organization, as it represents a significant data volume (2.4MB) among the eligible experiments.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CL_EXACT_BLOCK_ANCHOR_SCAN_6db5f610",
+  "candidate_fingerprint": "3472d8c32db393569a07cc1d8b67ae7cbdc8fb8c4a8f45ea9a3eef553e623137",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b58eb24c9c3d",
+  "remaining_unique_experiments": 7,
+  "created_utc": "2026-10-26T23:16:18.077166+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

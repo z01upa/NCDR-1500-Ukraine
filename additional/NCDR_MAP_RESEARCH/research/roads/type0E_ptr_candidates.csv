@@ -1,0 +1,4 @@
+offset,valid_nonzero_pct,interpretation
+0,100.0,candidate uint16 local PTR; all 185 values in logical bounds
+2,100.0,candidate uint16; values are small flags/counts in this sample
+4,100.0,candidate uint16; all zero in this sample

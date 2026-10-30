@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_B3EE0ADC4017D04E",
+  "request_id": "CAP_B3EE0ADC4017D04E",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_B3EE0ADC4017D04E",
+    "reason": "RuntimeError: Codex CLI engineer failed: WARNING: failed to clean up stale arg0 temp dirs: Отказано в доступе. (os error 5)\nWARNING: proceeding, even though we could not create PATH aliases: Отказано в доступе. (os error 5) at path \"%USERPROFILE%\\\\.codex\\\\tmp\\\\arg0-windows\\\\codex-arg0LYaYcu\"\n2026-10-26T12:18:29.377145Z  WARN codex_state::runtime: failed to open state db at %USERPROFILE%\\.codex\\state_5.sqlite: failed to open state DB at %USERPROFILE%\\.codex\\state_5.sqlite: error returned from database: (code: 14) unable to open database file\n2026-10-26T12:18:29.377193Z  WARN codex_rollout::state_db: failed to initialize state runtime: failed to initialize state runtime at %USERPROFILE%\\.codex: failed to open state DB at %USERPROFILE%\\.codex\\state_5.sqlite: error returned from database: (code: 14) unable to open database file: error returned from database: (code: 14) unable to open database file: (code: 14) unable to open database file\nReading additional input from stdin...\nError: failed to initialize in-process app-server client: Отказано в доступе. (os error 5)\n"
+  },
+  "created_utc": "2026-10-26T12:18:29.418662+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

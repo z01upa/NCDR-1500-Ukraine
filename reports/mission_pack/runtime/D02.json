@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "canonical_id": "D02",
+  "objective": "Підготувати перевірений OSM source manifest зі знімком, ліцензією, датою та SHA, не припускати що джерело 2026 без перевірки.",
+  "acceptance": {
+    "status": "PASS",
+    "task_id": "AUTO_MISSION_EXEC_D02_04B54E91",
+    "manifest_path": "reports/mission_pack/runtime/D02_source_manifest.json",
+    "manifest_sha256": "cee19d96c0b348f5de2ef461cac11713751fccf9c07a1d1b838e3abe52c3fdda",
+    "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+    "source_pbf_bytes": 881958338,
+    "verification": {
+      "status": "PASS",
+      "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+      "source_pbf_bytes": 881958338,
+      "source_write_count": 0,
+      "source_unchanged": true,
+      "license": "Open Database License (ODbL)",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    "source_write_count": 0,
+    "original_media_write_count": 0,
+    "artifact": {
+      "path": "reports\\mission_pack\\runtime\\D02_source_manifest.json",
+      "sha256": "cee19d96c0b348f5de2ef461cac11713751fccf9c07a1d1b838e3abe52c3fdda",
+      "size_bytes": 504,
+      "description": "Cached Ukraine OSM PBF provenance manifest",
+      "acceptance": "PASS: offline metadata, current SHA-256/size, ODbL attribution"
+    }
+  },
+  "created_utc": "2026-10-27T12:45:57.644588+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

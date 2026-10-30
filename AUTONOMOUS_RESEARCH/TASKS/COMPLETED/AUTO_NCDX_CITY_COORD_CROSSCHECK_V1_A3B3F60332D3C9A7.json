@@ -1,0 +1,15 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.CNY",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.CTY",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG1",
+    "SW/DB/EUZ.CNY",
+    "SW/DB/EUZ.CTY",
+    "SW/DB/EUZ.MG1",
+    "work/autonomous_manager/ncdx/city_coordinate_crosscheck/AUTO_NCDX_CITY_COORD_CROSSCHECK_V1_A3B3F60332D3C9A7.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_CITY_COORD_CROSSCHECK_V1_A3B3F60332D3C9A7",
+  "updated_utc": "2026-10-28T15:28:41.059896+00:00"
+}

@@ -1,0 +1,13 @@
+test_all_frozen_control_identity (test_node_graph.ContinuationTests.test_all_frozen_control_identity) ... ok
+test_continuation_mutation_detected (test_node_graph.ContinuationTests.test_continuation_mutation_detected) ... ok
+test_degrees_2_through_7 (test_node_graph.ContinuationTests.test_degrees_2_through_7) ... ok
+test_exact_old_511_identities (test_node_graph.ContinuationTests.test_exact_old_511_identities) ... ok
+test_no_split_border_copy_leak (test_node_graph.ContinuationTests.test_no_split_border_copy_leak) ... ok
+test_nonzero_plus8_not_adjacency_for_degree3 (test_node_graph.ContinuationTests.test_nonzero_plus8_not_adjacency_for_degree3) ... ok
+test_plus2_not_needed_for_adjacency_only (test_node_graph.ContinuationTests.test_plus2_not_needed_for_adjacency_only) ... ok
+test_source_unchanged (test_node_graph.ContinuationTests.test_source_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.115s
+
+OK

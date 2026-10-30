@@ -1,0 +1,794 @@
+{
+  "generated_utc": "2026-10-28T21:25:08.361806+00:00",
+  "trigger_task": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_14733433A273D591",
+  "supervisor_model": "qwen3.5:4b",
+  "verified_result": {
+    "artifact_sha256": "e9464b59fe96182c0415a5819877f802d0d807cb434df32e9906d90b3aa6cdf7",
+    "fresh_source_and_table_hashes_match": true,
+    "full_payload_zlib_eof_and_hash_match": true,
+    "independent_coordinate_replay_match": true,
+    "cross_region_geographic_cty_controls_match": true,
+    "header_family_count": 8,
+    "region_count": 2,
+    "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+    "road_geometry_decoded": false,
+    "source_write_count": 0,
+    "original_media_write_count": 0,
+    "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+    "task_id": "AUTO_NCDX_GEOBLOCK_14733433A273D591"
+  },
+  "task_counts": {
+    "LEASED": 1,
+    "DONE": 3334,
+    "SUPERSEDED": 15,
+    "WAITING_EXTERNAL": 4,
+    "WAITING_CODEX_QUOTA": 9,
+    "WAITING_LOCAL": 4,
+    "BLOCKED": 14,
+    "WAITING_CODEX": 49,
+    "CANCELLED": 1
+  },
+  "recent_tasks": [
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_14733433A273D591",
+      "stage": "R3",
+      "status": "LEASED",
+      "verdict": "PENDING",
+      "updated_utc": "2026-10-28T21:25:00.941304+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_14733433A273D591",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:24:59.628894+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_3E8F441FCCA50CE0",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:24:44.843158+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_3E8F441FCCA50CE0",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:24:35.635926+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_68F0CB6A30770B1A",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:24:19.986845+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_68F0CB6A30770B1A",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:24:10.873049+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_8F9012EEEF30874A",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:23:55.135707+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_8F9012EEEF30874A",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:23:46.326974+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_BF6EF3035A6177A8",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:23:29.813120+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_BF6EF3035A6177A8",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:23:20.669965+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_B5A55AA3288D44F8",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:23:05.065440+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_B5A55AA3288D44F8",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:22:55.895734+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_FAC7B52F754ADF0A",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:22:40.407130+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_FAC7B52F754ADF0A",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:22:31.218991+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_1D60DCAEB8338C94",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:22:15.189808+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_1D60DCAEB8338C94",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:22:06.047082+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_74C8E601DE924A2A",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:21:50.160117+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_74C8E601DE924A2A",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:21:40.771289+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C1CDF8F190181963",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:21:24.392116+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_C1CDF8F190181963",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:21:15.002786+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_5ECC2C55706685F1",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:20:58.856319+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_5ECC2C55706685F1",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:20:49.291083+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_218BE8C6ACFD0A39",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:20:32.936011+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_218BE8C6ACFD0A39",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:20:23.405530+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_FD016F5D2D850011",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:20:07.121593+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_FD016F5D2D850011",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:19:57.411738+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_92CA8AD464EF3492",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:19:41.129284+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_92CA8AD464EF3492",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:19:31.322367+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_1FF3D3FD54D2952C",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:19:15.011287+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_1FF3D3FD54D2952C",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:19:05.214252+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_E87E8C283B1A4EF3",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:18:48.542359+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_E87E8C283B1A4EF3",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:18:38.772734+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_40D71A9B45324D1F",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:18:22.377941+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_40D71A9B45324D1F",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:18:12.661630+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_36F6AAE93C36757F",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:17:55.923948+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_36F6AAE93C36757F",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:17:46.816367+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_34C0C2F95B6D3B76",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:17:18.904646+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_34C0C2F95B6D3B76",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:17:08.799133+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_A70C1E9EAAA0D824",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:16:51.343881+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_A70C1E9EAAA0D824",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:16:41.891753+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_7B6AE0D337D004FA",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:16:25.523971+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_7B6AE0D337D004FA",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:16:15.901010+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_4DF3F621A309DF71",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:15:59.897583+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_4DF3F621A309DF71",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:15:50.781919+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_A9B45CFB00C415CC",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:15:34.528234+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_A9B45CFB00C415CC",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:15:24.682893+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_015F77FEE342467B",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:15:06.787741+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_015F77FEE342467B",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:14:56.671142+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C1556287BF455F6D",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:14:39.697978+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_GEOBLOCK_C1556287BF455F6D",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-28T21:14:30.260595+00:00"
+    }
+  ],
+  "model_runs": [
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_14733433A273D591",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5405,
+      "created_utc": "2026-10-28T21:25:08.223736+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_3E8F441FCCA50CE0",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5421,
+      "created_utc": "2026-10-28T21:24:44.377440+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_68F0CB6A30770B1A",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5437,
+      "created_utc": "2026-10-28T21:24:19.629268+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_8F9012EEEF30874A",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5422,
+      "created_utc": "2026-10-28T21:23:54.796044+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_BF6EF3035A6177A8",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5406,
+      "created_utc": "2026-10-28T21:23:29.447433+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_B5A55AA3288D44F8",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5436,
+      "created_utc": "2026-10-28T21:23:04.620291+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_FAC7B52F754ADF0A",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5437,
+      "created_utc": "2026-10-28T21:22:40.001233+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_1D60DCAEB8338C94",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5420,
+      "created_utc": "2026-10-28T21:22:14.847299+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_74C8E601DE924A2A",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5438,
+      "created_utc": "2026-10-28T21:21:49.687744+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C1CDF8F190181963",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5406,
+      "created_utc": "2026-10-28T21:21:23.824549+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_5ECC2C55706685F1",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5436,
+      "created_utc": "2026-10-28T21:20:58.475800+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_218BE8C6ACFD0A39",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5436,
+      "created_utc": "2026-10-28T21:20:32.481812+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_FD016F5D2D850011",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5452,
+      "created_utc": "2026-10-28T21:20:06.620555+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_92CA8AD464EF3492",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5578,
+      "created_utc": "2026-10-28T21:19:40.819253+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_1FF3D3FD54D2952C",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5468,
+      "created_utc": "2026-10-28T21:19:14.558349+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_E87E8C283B1A4EF3",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5452,
+      "created_utc": "2026-10-28T21:18:48.000310+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_40D71A9B45324D1F",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5452,
+      "created_utc": "2026-10-28T21:18:21.918562+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_36F6AAE93C36757F",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5422,
+      "created_utc": "2026-10-28T21:17:55.582936+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_36F6AAE93C36757F",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 10297,
+      "created_utc": "2026-10-28T21:17:44.284294+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_34C0C2F95B6D3B76",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5436,
+      "created_utc": "2026-10-28T21:17:18.261269+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_A70C1E9EAAA0D824",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5608,
+      "created_utc": "2026-10-28T21:16:51.043587+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_7B6AE0D337D004FA",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5437,
+      "created_utc": "2026-10-28T21:16:25.004247+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_4DF3F621A309DF71",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5421,
+      "created_utc": "2026-10-28T21:15:59.623337+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_A9B45CFB00C415CC",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5561,
+      "created_utc": "2026-10-28T21:15:34.005301+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_015F77FEE342467B",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5483,
+      "created_utc": "2026-10-28T21:15:06.220294+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C1556287BF455F6D",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5484,
+      "created_utc": "2026-10-28T21:14:39.383969+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C59EDB28A70FA06C",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5782,
+      "created_utc": "2026-10-28T21:14:12.513164+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_DE488BA33B387766",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5702,
+      "created_utc": "2026-10-28T21:13:45.297643+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_20D438B3C488E26A",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5532,
+      "created_utc": "2026-10-28T21:13:17.764631+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_F58FDD73EAC982FE",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5483,
+      "created_utc": "2026-10-28T21:12:50.048873+00:00",
+      "error": null
+    }
+  ],
+  "open_blockers": [],
+  "physical_compatibility": "NOT TESTED · requires a compatible Opel NCDR unit",
+  "active_scope": {
+    "schema_version": 1,
+    "scope_revision": "2026-10-25-disc-first-national-osm",
+    "global_goal": "Створити перевірений навігаційний диск із сучасними картами України для Opel NCDR. Фінальну апаратну сумісність підтверджувати лише випробуванням у сумісному автомобілі.",
+    "director_policy": {
+      "authoritative_scope_source": "config/project_scope.json and the persisted project_configuration.active_scope row",
+      "schedule_only_active_tracks": true,
+      "never_reactivate_excluded_tracks_from_history": true,
+      "continue_independent_software_work_while_hardware_acceptance_is_unavailable": true,
+      "require_measurable_acceptance_criteria_and_saved_evidence": true,
+      "do_not_promote_unverified_model_output_to_release_artifacts": true
+    },
+    "reporting_policy": {
+      "daily_codex_handoff": "On worker start, task completion, and UTC day rollover; derive from persisted tasks, evidence, model runs, active scope and current blockers.",
+      "daily_weekly_monthly_supervisor_reports": "On independently supervised task results; include the active scope and filter archived tasks from activity and counts.",
+      "exclude_archived_tracks_from_readiness_and_active_reports": true,
+      "always_report_physical_compatibility_as_not_tested_until_vehicle_acceptance": true
+    },
+    "active_tracks": [
+      {
+        "id": "NCDX_REVERSE_ENGINEERING",
+        "goal": "Встановити структури оригінального NCDx і прошивки з відтворюваними доказами; невідомі поля не трактувати як відомі."
+      },
+      {
+        "id": "NCDX_READER_WRITER",
+        "goal": "Розвивати reader/writer через підтверджені структури, копії оригіналів, no-op round-trip та контрольовані зміни з незалежною перевіркою."
+      },
+      {
+        "id": "UKRAINE_OSM_DISC_DATA",
+        "goal": "Перетворити актуальні OSM-дані України у внутрішню базу підготовки диска; пошук, маршрутизація та POI є лише перевірками і підготовкою даних для фізичного диска."
+      },
+      {
+        "id": "DISC_IMAGE_AND_VERIFICATION",
+        "goal": "Побудувати експериментальний образ лише після підтвердження необхідного формату та перевіряти його незалежним парсером."
+      },
+      {
+        "id": "PHYSICAL_COMPATIBILITY",
+        "goal": "Підтвердити фінальний диск на сумісному Opel NCDR у автомобілі; до цього сумісність має стан NOT_TESTED."
+      }
+    ],
+    "excluded_tracks": [
+      {
+        "id": "VIRTUAL_CID_GUI_SIMULATION",
+        "description": "GUI-симуляція навігації Virtual CID, включно з її пошуком і маршрутизацією.",
+        "archive": "archive/excluded_tracks_2026-10-25"
+      },
+      {
+        "id": "PERSONAL_KRYVYI_RIH_POI_EDITOR",
+        "description": "Окремий редактор користувацьких POI Кривого Рогу.",
+        "archive": "archive/excluded_tracks_2026-10-25"
+      }
+    ],
+    "readiness_policy": {
+      "task_counts_score": false,
+      "statistical_profiles_score": false,
+      "progress_criteria": {
+        "F1": [
+          "target_device_identity",
+          "disc_acceptance_evidence",
+          "format_matrix",
+          "image_layout_evidence"
+        ],
+        "F2": [
+          "header_reader",
+          "independent_disc_golden_tests",
+          "corruption_detection",
+          "semantic_records",
+          "firmware_hex_structures"
+        ],
+        "F3": [
+          "no_op_roundtrip",
+          "controlled_change",
+          "independent_readback"
+        ],
+        "F4": [
+          "dated_osm_source",
+          "road_graph_tests",
+          "target_conversion",
+          "whole_ukraine_osm_database"
+        ],
+        "F5": [
+          "encoding_support_proof",
+          "ukrainian_names_test"
+        ],
+        "F7": [
+          "final_image_interpreter"
+        ],
+        "F8": [
+          "target_disc_layout",
+          "independent_image_verifier"
+        ],
+        "F9": [
+          "software_acceptance",
+          "hardware_acceptance"
+        ]
+      },
+      "progress_components": {
+        "OSM data preparation": [
+          "F4:dated_osm_source",
+          "F4:road_graph_tests",
+          "F4:whole_ukraine_osm_database",
+          "F5:ukrainian_names_test",
+          "F5:encoding_support_proof"
+        ],
+        "NCDx reverse engineering": [
+          "F2:header_reader",
+          "F2:independent_disc_golden_tests",
+          "F2:corruption_detection",
+          "F2:semantic_records"
+        ],
+        "NCDx reader/writer": [
+          "F3:no_op_roundtrip",
+          "F3:controlled_change",
+          "F3:independent_readback"
+        ],
+        "Disc image and verification": [
+          "F1:format_matrix",
+          "F1:image_layout_evidence",
+          "F4:target_conversion",
+          "F7:final_image_interpreter",
+          "F8:target_disc_layout",
+          "F8:independent_image_verifier",
+          "F9:software_acceptance"
+        ]
+      },
+      "score_only_from": [
+        "підтверджені структури NCDx або прошивки з незалежним тестом",
+        "працюючі reader/writer функції з no-op і контрольованими round-trip перевірками",
+        "успішні перевірки сформованої бази або образу незалежним парсером",
+        "OSM-конвертація та перевірки даних, призначених для диска",
+        "апаратне приймання у сумісному автомобілі"
+      ],
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "unknown_format_boundary": "OSM preparation and byte-level NCDx observations do not establish target-disc compatibility.",
+  "period": "monthly"
+}

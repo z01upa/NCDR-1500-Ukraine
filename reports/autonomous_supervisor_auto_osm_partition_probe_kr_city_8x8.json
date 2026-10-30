@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_OSM_PARTITION_PROBE_KR_CITY_8X8",
+  "target_task": "AUTO_OSM_PARTITION_PROBE_KR_CITY_8X8",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:target_conversion",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance",
+      "Physical compatibility in Opel NCDR vehicle"
+    ],
+    "suggested_next_goal_id": "DISC_IMAGE_AND_VERIFICATION"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_OSM_PARTITION_PROBE_KR_CITY_8X8",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_readback": true,
+      "saved_result_matches": true,
+      "streaming_verification_matches": true,
+      "source_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+      "node_count": 60086,
+      "way_count": 11830,
+      "cross_tile_way_count": 1525,
+      "sqlite_page_cache_bytes": 67108864,
+      "original_media_write_count": 0,
+      "codex_calls": 0,
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-26T22:14:00.202225+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.json",
+      "sha256": "aa6eca27b31dd545d8c362f7eab3e488649f0b3bce0b68d3c4ae1ea985e9bf98",
+      "size_bytes": 27288,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.md",
+      "sha256": "ead5eb67c601a52484cc77c624ff1c84a0c38311203ffe5510c86311bdebf1b8",
+      "size_bytes": 3984,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "5d8d95fb12f79db89d52d30e187f282741288fba7c958f3214364a0b62b81c28",
+      "size_bytes": 27289,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "e0ea8858d5171b9039d264e33f621f9f4b7d51f9d41e428f82ae3b230ffcaf8e",
+      "size_bytes": 3983,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "95fdb7c92652a97090259b447ea7beb9400272143dba6f4b8d5051dd7a33e847",
+      "size_bytes": 27290,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "6e38f61e92752b8f2df8781cba540431473e02c661efae7d2fbe623f88664580",
+      "size_bytes": 3983,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

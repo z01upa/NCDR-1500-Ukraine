@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_77b7da616374",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CL_SIGNATURE_SWEEP_99900482",
+  "selected_goal_id": "AUTO_NCDX_DATA_CL_SIGNATURE_SWEEP_99900482",
+  "selection_source": "Ollama",
+  "selection_reason": "The CL suffix targets signature data (e.g., digital signatures or cryptographic hashes) which is the primary mechanism for verifying map storage integrity and detecting corruption in address/index structures. Selecting this goal directly addresses the constraint to reduce uncertainty about map storage reliability.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CL_SIGNATURE_SWEEP_99900482",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_77b7da616374",
+  "remaining_unique_experiments": 70,
+  "created_utc": "2026-10-25T19:29:57.629279+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

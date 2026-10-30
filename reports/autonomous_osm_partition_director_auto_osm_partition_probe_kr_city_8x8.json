@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_OSM_PARTITION_KR_CITY_8X8",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_OSM_PARTITION_PROBE_KR_CITY_8X8",
+  "selected_goal_id": "AUTO_OSM_PARTITION_PROBE_KR_CITY_8X8",
+  "selection_source": "Qwen3.5",
+  "selection_reason": "Proceed with bounded OSM tiling for Kropyvnytskyi (KR_CITY) using an 8x8 grid to gather evidence on regional data density and partitioning efficiency, following the active track NCDR_LOCAL_FIRST and avoiding hardware claims.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_OSM_PARTITION_PROBE_KR_CITY_8X8",
+  "created_utc": "2026-10-26T22:13:51.371726+00:00",
+  "original_media_write_count": 0,
+  "codex_calls": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

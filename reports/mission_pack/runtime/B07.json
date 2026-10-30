@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "canonical_id": "B07",
+  "objective": "Перевірити endianness, таблиці зміщень, довжини записів та reference validity на різних файлах.",
+  "acceptance": {
+    "status": "PASS",
+    "report_path": "evidence/ncdx-index-integrity.json",
+    "report_sha256": "573d321cd69ae512e6a209a09e7f277a195725d00921414227afd4f1d9cd2809",
+    "source_count": 6,
+    "suffixes": [
+      "CTY",
+      "IL"
+    ],
+    "invalid_reference_control_count": 3,
+    "valid_source_absolute_offset_error_count": 0,
+    "original_media_write_count": 0,
+    "resumed_existing_artifact": true,
+    "index_integrity_artifact": {
+      "path": "evidence\\ncdx-index-integrity.json",
+      "sha256": "573d321cd69ae512e6a209a09e7f277a195725d00921414227afd4f1d9cd2809",
+      "size_bytes": 8847,
+      "description": "B07 independently verifiable offset-table integrity experiment across CTY and MG3 source files",
+      "acceptance": "PASS: real read-only source replay, decoded block hashes, and malformed-offset rejection controls"
+    },
+    "created_utc": "2026-10-28T16:08:44.798307+00:00"
+  },
+  "created_utc": "2026-10-28T16:08:44.798318+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

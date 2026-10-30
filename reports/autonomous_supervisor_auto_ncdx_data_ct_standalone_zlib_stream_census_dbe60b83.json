@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_CT_STANDALONE_ZLIB_STREAM_CENSUS_dbe60b83",
+  "target_task": "AUTO_NCDX_DATA_CT_STANDALONE_ZLIB_STREAM_CENSUS_dbe60b83",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:hardware_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_CT_STANDALONE_ZLIB_STREAM_CENSUS_dbe60b83",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_rescan": true,
+      "independent_region_count": 3,
+      "confirmed_stream_count_by_region": {
+        "SW": 0,
+        "Italy": 0,
+        "Scandinavia": 0
+      },
+      "header_candidates_by_region": {
+        "SW": 0,
+        "Italy": 0,
+        "Scandinavia": 0
+      },
+      "attempt_cap_hit_by_region": {
+        "SW": false,
+        "Italy": false,
+        "Scandinavia": false
+      },
+      "cross_region_shared_payload_count": 0,
+      "cross_region_shared_inventory_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded checksum-valid zlib candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T13:34:29.095469+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "644f870061cf5d9a5ee4bb93f2c5b566f77d916e55279a47e13b904e7f232193",
+      "size_bytes": 28191,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "45c28a820c9bd765be7c973bcb633da172115d1ef43263611d4a103cc1604c71",
+      "size_bytes": 4696,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "b765a1c08e1a84a64c4759b59d0f480025413640c3e2d299f096aec6b3824104",
+      "size_bytes": 28192,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "2362c12b8c0591f6dcd1e171911020814559c78a8aab842ff6ac72231391b185",
+      "size_bytes": 4695,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "3c1ae64d442cd610475089f190bf0543d432bbfaa99884f600cfd738baf7140f",
+      "size_bytes": 28193,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "b2c65d7c9f5682115534bc6b7ad7b209162d6a4d7c1c49659f28df6d52da925f",
+      "size_bytes": 4695,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_5c9dafef99ad",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG3_DEFLATE_COMPRESSIBILITY_PROFILE_924810c1",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG3_DEFLATE_COMPRESSIBILITY_PROFILE_924810c1",
+  "selection_source": "Ollama",
+  "selection_reason": "MG3 data exhibits high compressibility (low entropy) suitable for efficient storage, reducing uncertainty about map storage efficiency without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG3_DEFLATE_COMPRESSIBILITY_PROFILE_924810c1",
+  "candidate_fingerprint": "16082a0d87fc0bf87f1ade4fdf19ab2cc7bc8d43fed0a46ddca9a95da516ebdd",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_5c9dafef99ad",
+  "remaining_unique_experiments": 37,
+  "created_utc": "2026-10-26T22:20:30.995944+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

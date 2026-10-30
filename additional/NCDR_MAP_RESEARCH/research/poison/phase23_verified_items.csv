@@ -1,0 +1,8 @@
+output,longitude,latitude,record,offset,raw6,identity_basis
+B,37.65431,55.12344,0x06/0x7749B,0x0C82,26425A3D001C,unchanged predecessor/successor
+L1,37.65441,55.12344,0x06/0x7749B,0x0C82,264B5A3D001C,unchanged predecessor/successor
+L2,37.65531,55.12344,0x06/0x7749B,0x0CBA,26995A3D001C,moved predecessor/successor
+T1,37.65431,55.12355,0x06/0x7749B,0x0C82,26425A46001C,unchanged predecessor/successor
+T2,37.65431,55.12444,0x06/0x7749B,0x0C82,26425A94001C,unchanged predecessor/successor
+XCARRY,37.65732,55.12344,0x06/0x7749B,0x0CBA,27475A3D001C,moved predecessor/successor
+YCARRY,37.65431,55.12645,0x06/0x7749B,0x0C82,26425B42001C,unchanged predecessor/successor

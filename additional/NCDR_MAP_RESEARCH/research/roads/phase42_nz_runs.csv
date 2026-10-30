@@ -1,0 +1,3 @@
+class,run_count,length_1,length_2,length_3,transitions_to_same,interpretation
+NZ,214,125,41,13,522,"mixed short and multi-slot runs; not a universal header"
+Z,221,36,25,9,9800,"dominant background class"

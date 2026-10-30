@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_8582694652a8",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_RD_EXACT_BLOCK_ANCHOR_SCAN_a99b64b8",
+  "selected_goal_id": "AUTO_NCDX_DATA_RD_EXACT_BLOCK_ANCHOR_SCAN_a99b64b8",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizes map storage data (RD suffix) to reduce uncertainty about address/index or route data within the bounded read-only structural evidence.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_RD_EXACT_BLOCK_ANCHOR_SCAN_a99b64b8",
+  "candidate_fingerprint": "cd3c8eb5b1c2b47834277463bd5b5289586942efb41e030b0ac925eff9effbd2",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_8582694652a8",
+  "remaining_unique_experiments": 11,
+  "created_utc": "2026-10-26T23:15:06.729323+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

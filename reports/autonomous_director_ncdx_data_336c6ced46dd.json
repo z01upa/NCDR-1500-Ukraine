@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_336c6ced46dd",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CFG_EXACT_BLOCK_ANCHOR_SCAN_80835d8c",
+  "selected_goal_id": "AUTO_NCDX_DATA_CFG_EXACT_BLOCK_ANCHOR_SCAN_80835d8c",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected from eligible_next_experiments to continue structural profiling of NCDx data with EXACT_BLOCK_ANCHOR_SCAN method, adhering to read-only constraints and avoiding physical compatibility claims.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CFG_EXACT_BLOCK_ANCHOR_SCAN_80835d8c",
+  "candidate_fingerprint": "1d1c8cafb1906357bb6328546003ce3c2d0795c2fc22cef24a8681f9344ff35a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_336c6ced46dd",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-26T23:18:18.751970+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

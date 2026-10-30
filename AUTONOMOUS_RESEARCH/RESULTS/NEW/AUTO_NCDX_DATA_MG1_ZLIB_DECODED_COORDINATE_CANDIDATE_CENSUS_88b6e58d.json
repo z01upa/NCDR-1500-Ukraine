@@ -1,0 +1,16 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.MG1",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG1",
+    "SW/DB/EUZ.MG1",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_88b6e58d.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "c1c76f3fb4d40bc69cef45b36f51ee62ba449aebc601505cd26fb5930fb64984",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_88b6e58d",
+  "updated_utc": "2026-10-27T19:43:59.762739+00:00",
+  "verified_by_independent_reviewer": false
+}

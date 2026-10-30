@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_c5b85358d759",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PDX_TEXT_COORDINATE_ASSOCIATION_CENSUS_ccde4264",
+  "selected_goal_id": "AUTO_NCDX_DATA_PDX_TEXT_COORDINATE_ASSOCIATION_CENSUS_ccde4264",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PDX_TEXT_COORDINATE_ASSOCIATION_CENSUS_ccde4264",
+  "candidate_fingerprint": "ad457e75292e09c01bcf34b2298bf77d27be96239111edcb990419d518707353",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_c5b85358d759",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-27T13:16:17.327595+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

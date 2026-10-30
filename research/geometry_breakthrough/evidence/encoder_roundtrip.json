@@ -1,0 +1,19 @@
+{
+  "all_original_blocks_byte_exact_shape_roundtrip": 2956,
+  "confirmed_block": 886,
+  "modified_edge": 1,
+  "vertex_index": 1,
+  "before": [
+    2226176,
+    4865541
+  ],
+  "after": [
+    2226181,
+    4865541
+  ],
+  "independent_readback_all_edges_passed": 706,
+  "restore_original_exact": true,
+  "raw_original_sha256": "c4fd95701be3301b999d7e8886d08a6d2e8a3461e9f6caa973a5128959d983a6",
+  "raw_modified_sha256": "91b6e1ae1cff5004810f58594eaa71cc028cc97fab8d6cec2310a6e2d4158b3a",
+  "scope": "shape-tail encoder and isolated single-block compressed envelope; no full map writer; length attributes unchanged; not for deployment"
+}

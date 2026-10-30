@@ -1,0 +1,4 @@
+test,success_rate,conclusion
+delta=a+b*F small integer a,b,no uniform exact relation,F does not determine candidate extent
+delta per F unit 1/2/3/4/6/8,no uniform exact relation,F remains count-like but unresolved
+duplicate ptr versus F,4 groups identical F and road identity,shared/repeated reference supported

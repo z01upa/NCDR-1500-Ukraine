@@ -1,0 +1,9 @@
+model,test,status,evidence
+direct_X24_Y24,verified seven-item set,fails,no constant origin and longitude moves table entry
+interleaved_XY_bitfields,verified seven-item set,not supported,axis-only changes preserve the other apparent byte group
+Morton_Z_order,verified seven-item set,not supported,axis-only controls do not show bit-interleaved movement
+coarse_cell_plus_local,verified seven-item set,possible but unresolved,moved neighborhood may change cell/sort context
+sorted_key_plus_payload,verified seven-item set,possible but unresolved,entry rank and neighborhood change with longitude
+delta_from_previous_POI,verified predecessor entries,fails so far,predecessor changes and no common Q-grid delta follows
+delta_from_section_origin,verified seven-item set,unresolved,no independent section-origin anchor
+delta_from_previous_sorted_longitude,verified predecessor entries,unresolved,neighbor coordinates are not yet decoded

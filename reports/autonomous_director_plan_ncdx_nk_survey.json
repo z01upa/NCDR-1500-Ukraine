@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_PLAN_NCDX_01",
+  "goal_id": "NCDX_NK_SURVEY",
+  "selected_model": "qwen3.5:9b",
+  "benchmark_selected_model": "qwen3.5:9b",
+  "model_plan": {
+    "goal_id": "NCDX_NK_SURVEY",
+    "depends_on": [
+      "AUTO_SUPERVISOR_OSM_READBACK_01"
+    ],
+    "acceptance_criteria": [
+      "ledger_hash_matches",
+      "source_hash_unchanged",
+      "bounded_byte_observations",
+      "semantic_format_unknown"
+    ],
+    "requires_hardware": false,
+    "writes_original_media": false,
+    "reason": "Proceed with read-only byte-level survey of inventoried NK.BIN using local OSM data; do not claim physical compatibility until tested on real unit."
+  },
+  "schema_validation": {
+    "passed": {
+      "allowlisted_goal": true,
+      "dependency_exact": true,
+      "fixed_acceptance_criteria": true,
+      "no_hardware_dependency": true,
+      "original_media_unchanged": true,
+      "reason_present": true
+    },
+    "score": 6,
+    "maximum": 6
+  },
+  "created_task_id": "AUTO_NCDX_NK_SURVEY_01",
+  "depends_on": "AUTO_SUPERVISOR_OSM_READBACK_01",
+  "created_utc": "2026-10-25T18:19:38.996565+00:00",
+  "guard": "model output is data only; deterministic task registry selected the handler"
+}

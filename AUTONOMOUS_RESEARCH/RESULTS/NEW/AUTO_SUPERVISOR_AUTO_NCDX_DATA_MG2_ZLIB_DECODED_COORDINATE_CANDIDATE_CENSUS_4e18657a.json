@@ -1,0 +1,19 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_data_mg2_zlib_decoded_coordinate_candidate_census_4e18657a.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "e5a00eb226f35b8bc3e4110d5608d63cba514a9f51bbff4c84d2d7c913bd2d29",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4e18657a",
+  "updated_utc": "2026-10-27T15:46:06.375342+00:00",
+  "verified_by_independent_reviewer": false
+}

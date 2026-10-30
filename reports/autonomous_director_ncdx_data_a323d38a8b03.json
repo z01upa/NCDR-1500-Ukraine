@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_a323d38a8b03",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_28978956",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_28978956",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (e.g., alignment_4, alignment_0, alignment_2) with varying region candidate pairs. The goal is to select a specific experiment ID that aligns with the decoded coordinate candidates found in the stream summary. The selected goal_id 'AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_28978956' directly references the zlib-decoded coordinate candidate data (Census) identified in the in",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_28978956",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "59636dd5696b01d08e382a184eda17d22edb2f076d83c2e0a208375ad9fffc2f",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_a323d38a8b03",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T21:39:21.522026+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,9 @@
+# Type-0x00 after-table byte analysis
+
+- Windows: 79; exactly 16 bytes from each recorded post-table offset.
+- Per-position distributions (unique/zero-count/min..max/top): b0=8/19/0x00..0x18/[(6, 26), (0, 19), (12, 19), (3, 7), (9, 3)]; b1=5/73/0x00..0x80/[(0, 73), (128, 3), (56, 1), (64, 1), (79, 1)]; b2=14/20/0x00..0xF6/[(0, 20), (6, 19), (3, 18), (4, 5), (12, 4)]; b3=6/66/0x00..0x80/[(0, 66), (128, 8), (102, 2), (47, 1), (38, 1)]; b4=3/2/0x00..0x06/[(3, 76), (0, 2), (6, 1)]; b5=28/3/0x00..0x53/[(76, 8), (75, 7), (55, 6), (74, 5), (68, 4)]; b6=57/1/0x00..0xFD/[(7, 4), (168, 3), (106, 3), (97, 3), (19, 2)]; b7=33/2/0x00..0x80/[(38, 7), (44, 5), (37, 4), (40, 4), (23, 4)]; b8=11/15/0x00..0x18/[(6, 29), (12, 18), (0, 15), (3, 7), (8, 3)]; b9=6/72/0x00..0x84/[(0, 72), (128, 3), (132, 1), (57, 1), (70, 1)]; b10=13/23/0x00..0xB2/[(6, 24), (0, 23), (3, 15), (4, 4), (12, 4)]; b11=5/70/0x00..0x80/[(0, 70), (128, 6), (40, 1), (41, 1), (38, 1)]; b12=3/0/0x03..0x0D/[(3, 76), (6, 2), (13, 1)]; b13=31/2/0x00..0x9C/[(74, 7), (69, 5), (73, 5), (75, 5), (50, 4)]; b14=57/1/0x00..0xFB/[(251, 4), (108, 3), (210, 3), (137, 3), (19, 2)]; b15=31/2/0x00..0x30/[(27, 6), (34, 5), (40, 5), (41, 5), (19, 4)].
+- Byte-level pattern: many windows contain type/count-like even bytes followed by zero or small flag-like odd bytes, but no single layout spans all blocks.
+- Small-integer positions are concentrated at even byte positions; odd positions are often zero/small but are not invariant flags.
+- No byte position reliably gives count, count*2, count*3, or count*4 matching a following-entry/byte length within the 16-byte window.
+- Success: 0/79 for a confirmed byte-level count/layout model; no next known pointer boundary was confirmed inside the window.
+- Next exact experiment: compare the repeated byte motifs against the first subsequent descriptor pointer, extending only to that pointer boundary.

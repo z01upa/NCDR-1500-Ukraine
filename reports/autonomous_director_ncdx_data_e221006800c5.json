@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_e221006800c5",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_897d3e02",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_897d3e02",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (alignment streams) derived from a compressed source. The evidence points to a dataset involving coordinate candidates (lat/lon, lon_lat) at specific scales (1,000,000 and 10,000,000). Selecting this goal aligns with the constraint to prioritize evidence related to map storage and coordinate data, as the input explicitly details 'decompressed_bytes' and 'candidate_measurements' which are fun",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_897d3e02",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "5a3bce5613b9fd99a7109d442277a9f4b5a84014ba70a2e01bc71dc905dcce2a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_e221006800c5",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:47:29.835684+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

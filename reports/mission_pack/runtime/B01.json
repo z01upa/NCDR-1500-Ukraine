@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "canonical_id": "B01",
+  "objective": "Звести повний каталог доведених структур NCDx та невідомого з точними offsets і SHA, окремо від DB_0.",
+  "acceptance": {
+    "status": "PASS",
+    "index_path": "evidence/format-evidence-index.json",
+    "index_sha256": "fda487ba695b77a287af165a12761ed371e5cba5477ce6a35a962a95eb954615",
+    "fact_count": 12,
+    "datasets": 3,
+    "unknown_count": 7,
+    "independent_checks_per_fact": 2,
+    "original_media_write_count": 0,
+    "source_identities": [
+      {
+        "dataset": "SW",
+        "mp0_path": "SW/DB/EUZ.MP0",
+        "mp0_size_bytes": 30281958,
+        "mp0_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "toc_path": "SW/CDROM.TOC",
+        "toc_sha256": "ebe7a41f4044236936d0a269bd53a05e1d30f02f8d281e9f84a89cc18fa37584",
+        "toc_version": "444.20.940.82"
+      },
+      {
+        "dataset": "Italy",
+        "mp0_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+        "mp0_size_bytes": 165510023,
+        "mp0_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+        "toc_path": "OPEL NCDx Italia 2010-2011/CDROM.TOC",
+        "toc_sha256": "bd824bca3d9654e4cf05647177928391489c49e401bc8faac9f3927b6bc2d6c2",
+        "toc_version": "444.31.940.82"
+      },
+      {
+        "dataset": "Scandinavia",
+        "mp0_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+        "mp0_size_bytes": 220863350,
+        "mp0_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+        "toc_path": "OPEL NCDx Scandinavia 2010-2011/CDROM.TOC",
+        "toc_sha256": "61d8b80cc80e934e1d29bfbb83a466ac15329adbdb2979c46b282777eefe0b08",
+        "toc_version": "444.42.940.82"
+      }
+    ],
+    "resumed_existing_artifact": true,
+    "index_artifact": {
+      "path": "evidence\\format-evidence-index.json",
+      "sha256": "fda487ba695b77a287af165a12761ed371e5cba5477ce6a35a962a95eb954615",
+      "size_bytes": 10977,
+      "description": "B01 NCDx format evidence index with byte offsets, hashes, and unknowns",
+      "acceptance": "PASS: read-only MP0 header facts independently cross-checked"
+    },
+    "created_utc": "2026-10-28T15:39:33.939539+00:00"
+  },
+  "created_utc": "2026-10-28T15:39:33.939552+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

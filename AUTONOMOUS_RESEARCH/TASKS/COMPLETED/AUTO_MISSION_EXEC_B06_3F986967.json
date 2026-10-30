@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "evidence/ncdx-structure-catalog.json",
+    "reports/mission_pack/runtime/B06.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_MISSION_EXEC_B06_3F986967",
+  "updated_utc": "2026-10-28T16:01:21.284893+00:00"
+}

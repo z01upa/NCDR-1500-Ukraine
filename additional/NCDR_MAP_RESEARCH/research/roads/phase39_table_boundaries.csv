@@ -1,0 +1,24 @@
+target_sector,unique_ptrs,min_ptr,max_ptr,ptr_mod_32,delta_gcd,candidate_table_start,candidate_table_end,slot_count,referenced_slots,unreferenced_compatible_slots,confidence
+212941,92,52,16340,20,32,,,,92,274,lattice only
+213028,73,912,15664,16,32,,,,73,235,lattice only
+214133,90,1004,14700,12,32,,,,90,225,lattice only
+214302,123,1264,16272,16,32,,,,123,209,lattice only
+214346,96,76,16364,12,32,,,,96,205,lattice only
+214519,122,768,15584,0,32,,,,122,139,lattice only
+214550,96,48,16272,16,32,,,,96,269,lattice only
+214630,95,224,16096,0,32,,,,95,181,lattice only
+214662,68,812,13036,12,32,,,,68,203,lattice only
+214703,117,1008,16304,16,32,,,,117,268,lattice only
+214785,111,1252,14116,4,32,,,,111,128,lattice only
+214810,124,152,16376,24,32,,,,124,198,lattice only
+214878,117,1200,14608,16,32,,,,117,185,lattice only
+214912,111,252,15772,28,32,,,,111,277,lattice only
+214981,134,60,15004,28,32,,,,134,214,lattice only
+215022,87,1136,15472,16,32,,,,87,188,lattice only
+215121,161,36,16132,4,32,,,,161,232,lattice only
+215169,80,504,15320,24,32,,,,80,210,lattice only
+215316,141,116,16244,20,32,,,,141,255,lattice only
+215559,95,1004,15916,12,32,,,,95,208,lattice only
+216017,144,744,16232,8,32,,,,144,205,lattice only
+216682,75,104,12584,8,32,,,,75,174,lattice only
+217186,106,252,16060,28,32,,,,106,198,lattice only

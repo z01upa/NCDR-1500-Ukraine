@@ -1,0 +1,4 @@
+axis,candidate_width,endianness,offset,old_value,new_value,stored_delta,scale_per_degree,confidence,notes
+longitude,uint8,n/a,0x0837,216,217,1,100000,confirmed,"only persisted A->D difference"
+longitude,uint16+,BE/LE,0x0837,NA,NA,NA,NA,rejected,"no multi-byte field is justified; neighboring bytes unchanged"
+latitude,any,any,NA,NA,NA,0,0,not_observed,"A and E hashes and bytes identical"

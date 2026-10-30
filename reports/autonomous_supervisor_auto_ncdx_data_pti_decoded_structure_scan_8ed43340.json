@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PTI_DECODED_STRUCTURE_SCAN_8ed43340",
+  "target_task": "AUTO_NCDX_DATA_PTI_DECODED_STRUCTURE_SCAN_8ed43340",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_PTI_DECODED_STRUCTURE_SCAN_8ed43340",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_decode_and_rescan": true,
+      "fresh_full_decode_count": 3,
+      "total_logical_bytes": 60542,
+      "bounded_text_samples": 192,
+      "coordinate_candidate_count_by_region": {
+        "SW": {
+          "scale_100000_lat_lon": 0,
+          "scale_100000_lon_lat": 0,
+          "scale_1000000_lat_lon": 0,
+          "scale_1000000_lon_lat": 0,
+          "scale_10000000_lat_lon": 1,
+          "scale_10000000_lon_lat": 1
+        },
+        "Italy": {
+          "scale_100000_lat_lon": 0,
+          "scale_100000_lon_lat": 0,
+          "scale_1000000_lat_lon": 0,
+          "scale_1000000_lon_lat": 0,
+          "scale_10000000_lat_lon": 0,
+          "scale_10000000_lon_lat": 0
+        },
+        "Scandinavia": {
+          "scale_100000_lat_lon": 0,
+          "scale_100000_lon_lat": 0,
+          "scale_1000000_lat_lon": 0,
+          "scale_1000000_lon_lat": 0,
+          "scale_10000000_lat_lon": 0,
+          "scale_10000000_lon_lat": 0
+        }
+      },
+      "candidate_offsets_and_hashes_match": true,
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded structural candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-26T22:37:44.885947+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "local Project Director is choosing the next verified-format round-trip over real regional map data",
+  "followup_task_id": "AUTO_DIRECTOR_NCDX_DATA_e59957305c62",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.json",
+      "sha256": "32465cab16819786542cfa91576d56b2166642c2e8b65b1436ebd8f1b2de4796",
+      "size_bytes": 28386,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.md",
+      "sha256": "239c687136ee7bb0767b3d64d7ee7b42b331b3e76fc158b972c599ab646dd433",
+      "size_bytes": 4919,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "73bad33fb585b0a50f70c5d5a265d66772b1789e8cd961081e869cfccd855c09",
+      "size_bytes": 28387,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "ba9a28c63600ad7706c82a7f54dbea102e6f935241435d8a0b3d67d3c4cb0c08",
+      "size_bytes": 4918,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "174b5bd93780d47b43fda17564a6735d54b6e931c191e7b82d53a5bed3dae439",
+      "size_bytes": 28388,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "a3aa19f7ef6e5f9440a60a3e777c276abdec9d837f5763f9a55841c5a2353ad5",
+      "size_bytes": 4918,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

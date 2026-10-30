@@ -1,0 +1,15 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_data_mg3_zlib_stream_boundary_context_profile_c6ae92ca.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_c6ae92ca",
+  "updated_utc": "2026-10-27T13:50:51.279485+00:00"
+}

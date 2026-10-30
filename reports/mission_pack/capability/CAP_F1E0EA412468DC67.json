@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "request_id": "CAP_F1E0EA412468DC67",
+  "executor": "Codex CLI",
+  "sandbox": "work\\autonomous_manager\\capability_worktrees\\CAP_F1E0EA412468DC67",
+  "sandbox_type": "isolated copy of the existing NCDR repo; workspace-write confined to the copy",
+  "allowed_paths": [
+    "src/agent/capability_broker.py"
+  ],
+  "changed_paths": [
+    "src/agent/capability_broker.py"
+  ],
+  "untracked_paths": [],
+  "codex_cli_version": "codex-cli 0.164.0-alpha.11.1",
+  "codex_message": "Updated only `src/agent/capability_broker.py`.\n\n`update_status` now performs the atomic JSON replacement before SQLite commits. If `os.replace` raises, SQLite rolls back, the original JSON remains unchanged, and the temporary file is cleaned up.\n\nNo commands or tests were run. No media or task history was modified.",
+  "sandbox_test": "PASS",
+  "live_test": "PASS",
+  "sandbox_test_output": "",
+  "live_test_output": "",
+  "patch_path": "work\\autonomous_manager\\capability_patches\\CAP_F1E0EA412468DC67.patch",
+  "before_sha256": "0f844240200232ab2d004aa66f16133adf1893573b565f4126c79bf383a09d3d",
+  "after_sha256": "5a0463bf9134abc2fb2c2ee3e79f6d704d4bc89e51abb9a7a522442325b5079f"
+}

@@ -1,0 +1,186 @@
+road_index,name,moreinfo_offset,size,raw_hex,u16_0,u16_1,u16_2,ptr0_in_block,ptr1_in_block,ptr2_in_block
+0,1 iy mikrorayon,8094,6,54b401010000,21684,257,0,True,True,True
+1,1 maya ulitsa,8100,6,54cc01010000,21708,257,0,True,True,True
+2,1 sel'skokhozyaystvenniy proezd,8106,6,54e403010000,21732,769,0,True,True,True
+3,1 y ambulatorniy proezd,8112,6,552c02010000,21804,513,0,True,True,True
+4,1 y arkhivniy pereulok,8118,6,555c01000000,21852,256,0,True,True,True
+5,1 y avtozavodskiy proezd,8124,6,557402010000,21876,513,0,True,True,True
+6,1 y bab'egorodskiy pereulok,8130,6,55a403010000,21924,769,0,True,True,True
+7,1 y baltiyskiy pereulok,8136,6,55ec01010000,21996,257,0,True,True,True
+8,1 y basmanniy pereulok,8142,6,560401010000,22020,257,0,True,True,True
+9,1 y belokamenniy proezd,8148,6,561c01010000,22044,257,0,True,True,True
+10,1 y bogucharskiy pereulok,8154,6,563401010000,22068,257,0,True,True,True
+11,1 y botanicheskiy proezd,8160,6,564c03010000,22092,769,0,True,True,True
+12,1 y botkinskiy proezd,8166,6,569403010000,22164,769,0,True,True,True
+13,1 y dachno meshcherskiy proezd,8172,6,56dc01010000,22236,257,0,True,True,True
+14,1 y derbenevskiy pereulok,8178,6,56f402010000,22260,513,0,True,True,True
+15,1 y dobryninskiy pereulok,8184,6,572403010000,22308,769,0,True,True,True
+16,1 y donskoy proezd,8190,6,576c01010000,22380,257,0,True,True,True
+17,1 y dorozhniy proezd,8196,6,578403010000,22404,769,0,True,True,True
+18,1 y dubrovskiy proezd,8202,6,57cc03010000,22476,769,0,True,True,True
+19,1 y elektrozavodskiy pereulok,8208,6,581402010000,22548,513,0,True,True,True
+20,1 y golutvinskiy pereulok,8214,6,584403010000,22596,769,0,True,True,True
+21,1 y goncharniy pereulok,8220,6,588c02010000,22668,513,0,True,True,True
+22,1 y goncharovskiy pereulok,8226,6,58bc02000000,22716,512,0,True,True,True
+23,1 y grayvoronovskiy proezd,8232,6,58ec01010000,22764,257,0,True,True,True
+24,1 y institutskiy proezd,8238,6,590406010000,22788,1537,0,True,True,True
+25,1 y irininskiy pereulok,8244,6,599402000000,22932,512,0,True,True,True
+26,1 y irtyshskiy proezd,8250,6,59c406010000,22980,1537,0,True,True,True
+27,1 y irtyshskiy proezd,8256,6,59c405010000,22980,1281,0,True,True,True
+28,1 y irtyshskiy proezd,8262,6,5a3c01010000,23100,257,0,True,True,True
+29,1 y kabel'niy proezd,8268,6,5a5401010000,23124,257,0,True,True,True
+30,1 y kadashevskiy pereulok,8274,6,5a6c03010000,23148,769,0,True,True,True
+31,1 y kadashevskiy tupik,8280,6,5ab401010000,23220,257,0,True,True,True
+32,1 y karacharovskiy proezd,8286,6,5acc01000000,23244,256,0,True,True,True
+33,1 y kazachiy pereulok,8292,6,5ae401010000,23268,257,0,True,True,True
+34,1 y kazanskiy prosek,8298,6,5afc02010000,23292,513,0,True,True,True
+35,1 y ketcherskiy proezd,8304,6,5b2c02000000,23340,512,0,True,True,True
+36,1 y khoroshevskiy proezd,8310,6,5b5c03010000,23388,769,0,True,True,True
+37,1 y khutorskoy pereulok,8316,6,5ba401010000,23460,257,0,True,True,True
+38,1 y khvostov pereulok,8322,6,5bbc01010000,23484,257,0,True,True,True
+39,1 y kirpichniy pereulok,8328,6,5bd404010000,23508,1025,0,True,True,True
+40,1 y kolobovskiy pereulok,8334,6,5c3401010000,23604,257,0,True,True,True
+41,1 y koptel'skiy pereulok,8340,6,5c4c01010000,23628,257,0,True,True,True
+42,1 y kotel'nicheskiy pereulok,8346,6,5c6403010000,23652,769,0,True,True,True
+43,1 y kotlyakovskiy pereulok,8352,6,5cac01010000,23724,257,0,True,True,True
+44,1 y kozhevnicheskiy pereulok,8358,6,5cc402010000,23748,513,0,True,True,True
+45,1 y kozhukhovskiy pereulok,8364,6,5cf401010000,23796,257,0,True,True,True
+46,1 y kozhukhovskiy proezd,8370,6,5d0c05010000,23820,1281,0,True,True,True
+47,1 y kraskovskiy proezd,8376,6,5d8401010000,23940,257,0,True,True,True
+48,1 y krasnogorskiy proezd,8382,6,5d9c03010000,23964,769,0,True,True,True
+49,1 y krasnogvardeyskiy proezd,8388,6,5de404010000,24036,1025,0,True,True,True
+50,1 y krasnokursantskiy proezd,8394,6,5e4405010000,24132,1281,0,True,True,True
+51,1 y krasnosel'skiy pereulok,8400,6,5ebc03010000,24252,769,0,True,True,True
+52,1 y krutitskiy pereulok,8406,6,5f0404010000,24324,1025,0,True,True,True
+53,1 y krutitskiy pereulok,8412,6,5f0401010000,24324,257,0,True,True,True
+54,1 y krutitskiy pereulok,8418,6,5f1c03000000,24348,768,0,True,True,True
+55,1 y kur'yanovskiy proezd,8424,6,5f6402010000,24420,513,0,True,True,True
+56,1 y lesnoy pereulok,8430,6,5f9402000000,24468,512,0,True,True,True
+57,1 y likhachevskiy pereulok,8436,6,5fc401010000,24516,257,0,True,True,True
+58,1 y luchevoy prosek,8442,6,5fdc03010000,24540,769,0,True,True,True
+59,1 y lykovskiy proezd,8448,6,602403000000,24612,768,0,True,True,True
+60,1 y lyuberetskiy proezd,8454,6,606c01010000,24684,257,0,True,True,True
+61,1 y lyusinovskiy pereulok,8460,6,608402010000,24708,513,0,True,True,True
+62,1 y magistral'niy proezd,8466,6,60b401010000,24756,257,0,True,True,True
+63,1 y magistral'niy tupik,8472,6,60cc01010000,24780,257,0,True,True,True
+64,1 y mirgorodskiy pereulok,8478,6,60e402010000,24804,513,0,True,True,True
+65,1 y mitinskiy pereulok,8484,6,611402010000,24852,513,0,True,True,True
+66,1 y monetchikovskiy pereulok,8490,6,614401010000,24900,257,0,True,True,True
+67,1 y mozhayskiy tupik,8496,6,615c01010000,24924,257,0,True,True,True
+68,1 y nagatinskiy proezd,8502,6,617403010000,24948,769,0,True,True,True
+69,1 y nikoloshchepovskiy pereulok,8508,6,61bc03010000,25020,769,0,True,True,True
+70,1 y nizhnelikhoborskiy proezd,8514,6,620402010000,25092,513,0,True,True,True
+71,1 y nizhniy mikhaylovskiy proezd,8520,6,623404010000,25140,1025,0,True,True,True
+72,1 y novokuznetskiy pereulok,8526,6,629403010000,25236,769,0,True,True,True
+73,1 y novomikhalkovskiy proezd,8532,6,62dc02010000,25308,513,0,True,True,True
+74,1 y novopodmoskovniy pereulok,8538,6,630c04010000,25356,1025,0,True,True,True
+75,1 y obydenskiy pereulok,8544,6,636c01010000,25452,257,0,True,True,True
+76,1 y ochakovskiy pereulok,8550,6,638402010000,25476,513,0,True,True,True
+77,1 y ol'khovskiy tupik,8556,6,63b401010000,25524,257,0,True,True,True
+78,1 y paveletskiy proezd,8562,6,63cc01010000,25548,257,0,True,True,True
+79,1 y pavlovskiy pereulok,8568,6,63e401010000,25572,257,0,True,True,True
+80,1 y pekhotniy pereulok,8574,6,63fc02010000,25596,513,0,True,True,True
+81,1 y penyaginskiy proezd,8580,6,642c01000000,25644,256,0,True,True,True
+82,1 y plekhanovskiy pereulok,8586,6,644401000000,25668,256,0,True,True,True
+83,1 y polevoy pereulok,8592,6,645c03010000,25692,769,0,True,True,True
+84,1 y polevoy proezd,8598,6,64a401000000,25764,256,0,True,True,True
+85,1 y poperechniy proezd,8604,6,64bc02000000,25788,512,0,True,True,True
+86,1 y prospekt novogireevo,8610,6,64ec03000000,25836,768,0,True,True,True
+87,1 y prospekt novogireevo,8616,6,64ec01000000,25836,256,0,True,True,True
+88,1 y prospekt novogireevo,8622,6,650402000000,25860,512,0,True,True,True
+89,1 y rabochiy pereulok,8628,6,653401010000,25908,257,0,True,True,True
+90,1 y raushskiy pereulok,8634,6,654c01000000,25932,256,0,True,True,True
+91,1 y rizhskiy pereulok,8640,6,656402010000,25956,513,0,True,True,True
+92,1 y roshchinskiy proezd,8646,6,659402010000,26004,513,0,True,True,True
+93,1 y samotechniy pereulok,8652,6,65c406010000,26052,1537,0,True,True,True
+94,1 y saratovskiy proezd,8658,6,665402010000,26196,513,0,True,True,True
+95,1 y setun'skiy proezd,8664,6,668403010000,26244,769,0,True,True,True
+96,1 y shchemilovskiy pereulok,8670,6,66cc04010000,26316,1025,0,True,True,True
+97,1 y shchipkovskiy pereulok,8676,6,672c06010000,26412,1537,0,True,True,True
+98,1 y shibaevskiy pereulok,8682,6,67bc01010000,26556,257,0,True,True,True
+99,1 y shlyuzovoy pereulok,8688,6,67d401000000,26580,256,0,True,True,True
+100,1 y silikatniy proezd,8694,6,67ec02010000,26604,513,0,True,True,True
+101,1 y smolenskiy pereulok,8700,6,681c01010000,26652,257,0,True,True,True
+102,1 y spasonalivkovskiy pereulok,8706,6,683403010000,26676,769,0,True,True,True
+103,1 y streletskiy pereulok,8712,6,687c01000000,26748,256,0,True,True,True
+104,1 y syromyatnicheskiy pereulok,8718,6,689402010000,26772,513,0,True,True,True
+105,1 y tikhvinskiy tupik,8724,6,68c401010000,26820,257,0,True,True,True
+106,1 y troitskiy pereulok,8730,6,68dc02010000,26844,513,0,True,True,True
+107,1 y trudovoy pereulok,8736,6,690c01010000,26892,257,0,True,True,True
+108,1 y truzhenikov pereulok,8742,6,692401010000,26916,257,0,True,True,True
+109,1 y tul'skiy pereulok,8748,6,693c02010000,26940,513,0,True,True,True
+110,1 y tushinskiy proezd,8754,6,696c02010000,26988,513,0,True,True,True
+111,1 y tverskoy yamskoy pereulok,8760,6,699c03010000,27036,769,0,True,True,True
+112,1 y ugreshskiy proezd,8766,6,69e401010000,27108,257,0,True,True,True
+113,1 y v mikhaylovskiy proezd,8772,6,69fc01010000,27132,257,0,True,True,True
+114,1 y varshavskiy proezd,8778,6,6a1401010000,27156,257,0,True,True,True
+115,1 y veshnyakovskiy proezd,8784,6,6a2c07010000,27180,1793,0,True,True,True
+116,1 y volkonskiy pereulok,8790,6,6ad401010000,27348,257,0,True,True,True
+117,1 y volokolamskiy proezd,8796,6,6aec03010000,27372,769,0,True,True,True
+118,1 y voykovskiy proezd,8802,6,6b3403010000,27444,769,0,True,True,True
+119,1 y vyazovskiy proezd,8808,6,6b7c02010000,27516,513,0,True,True,True
+120,1 y yuzhnoportoviy proezd,8814,6,6bac01010000,27564,257,0,True,True,True
+121,1 y zapadniy proezd,8820,6,6bc403010000,27588,769,0,True,True,True
+122,1 y zborovskiy pereulok,8826,6,6c0c02010000,27660,513,0,True,True,True
+123,1 y zemel'niy pereulok,8832,6,6c3c01010000,27708,257,0,True,True,True
+124,1 ya aeroportovskaya ulitsa,8838,6,6c5402010000,27732,513,0,True,True,True
+125,1 ya chobotovskaya alleya,8844,6,6c8401010000,27780,257,0,True,True,True
+126,1 ya naprudnaya ulitsa,8850,6,6c9c03010000,27804,769,0,True,True,True
+127,1 ya pokrovskaya ulitsa,8856,6,6ce402010000,27876,513,0,True,True,True
+128,1 ya radial'naya ulitsa,8862,6,6d1402010000,27924,513,0,True,True,True
+129,1 ya stekol'naya ulitsa,8868,6,6d4401010000,27972,257,0,True,True,True
+130,1 ya tekstil'shchikov ulitsa,8874,6,6d5c02010000,27996,513,0,True,True,True
+131,1 ya vol'skaya ulitsa,8880,6,6d8c02010000,28044,513,0,True,True,True
+132,10 iy mikrorayon,8886,6,6dbc02010000,28092,513,0,True,True,True
+133,10 letiya oktyabrya ulitsa,8892,6,6dec02010000,28140,513,0,True,True,True
+134,10 y proezd mar'inoy roshchi,8898,6,6e1c03010000,28188,769,0,True,True,True
+135,10 ya chobotovskaya alleya,8904,6,6e6401010000,28260,257,0,True,True,True
+136,10 ya parkovaya ulitsa,8910,6,6e7c08010000,28284,2049,0,True,True,True
+137,10 ya radial'naya ulitsa,8916,6,6f3c01010000,28476,257,0,True,True,True
+138,10 ya tekstil'shchikov ulitsa,8922,6,6f5401000000,28500,256,0,True,True,True
+139,10 ya ulitsa novye sady,8928,6,6f6c01010000,28524,257,0,True,True,True
+140,10 ya ulitsa sokolinoy gory,8934,6,6f8403010000,28548,769,0,True,True,True
+141,11 iy mikrorayon,8940,6,6fcc03010000,28620,769,0,True,True,True
+142,11 y proezd mar'inoy roshchi,8946,6,701402000000,28692,512,0,True,True,True
+143,11 y prospekt novogireevo,8952,6,704403010000,28740,769,0,True,True,True
+144,11 ya chobotovskaya alleya,8958,6,708c01010000,28812,257,0,True,True,True
+145,11 ya parkovaya ulitsa,8964,6,70a410010000,28836,4097,0,True,True,True
+146,11 ya parkovaya ulitsa,8970,6,70a406010000,28836,1537,0,True,True,True
+147,11 ya parkovaya ulitsa,8976,6,713403010000,28980,769,0,True,True,True
+148,11 ya parkovaya ulitsa,8982,6,717c07010000,29052,1793,0,True,True,True
+149,11 ya radial'naya ulitsa,8988,6,722401010000,29220,257,0,True,True,True
+150,11 ya ulitsa novye sady,8994,6,723c01010000,29244,257,0,True,True,True
+151,11 ya ulitsa tekstil'shchikov,9000,6,725404010000,29268,1025,0,True,True,True
+152,114a volzhskiy bul'var kvartal,9006,6,72b402010000,29364,513,0,True,True,True
+153,12 iy mikrorayon,9012,6,72e401010000,29412,257,0,True,True,True
+154,12 y proezd mar'inoy roshchi,9018,6,72fc01010000,29436,257,0,True,True,True
+155,12 ya liniya krasnoy sosny,9024,6,731402010000,29460,513,0,True,True,True
+156,12 ya novokuz'minskaya ulitsa,9030,6,734401010000,29508,257,0,True,True,True
+157,12 ya parkovaya ulitsa,9036,6,735c01010000,29532,257,0,True,True,True
+158,13 y proezd mar'inoy roshchi,9042,6,737401000000,29556,256,0,True,True,True
+159,13 ya liniya krasnoy sosny,9048,6,738c02000000,29580,512,0,True,True,True
+160,13 ya parkovaya ulitsa,9054,6,73bc0a010000,29628,2561,0,True,True,True
+161,13 ya parkovaya ulitsa,9060,6,73bc05010000,29628,1281,0,True,True,True
+162,13 ya parkovaya ulitsa,9066,6,743405010000,29748,1281,0,True,True,True
+163,137 proezd proektiruemiy,9072,6,74ac01000000,29868,256,0,True,True,True
+164,14 iy mikrorayon,9078,6,74c402010000,29892,513,0,True,True,True
+165,14 y proezd mar'inoy roshchi,9084,6,74f402000000,29940,512,0,True,True,True
+166,14 ya parkovaya ulitsa,9090,6,752402010000,29988,513,0,True,True,True
+167,1438 proezd proektiruemiy,9096,6,755403010000,30036,769,0,True,True,True
+168,15 iy mikrorayon,9102,6,759c02010000,30108,513,0,True,True,True
+169,15 ya parkovaya ulitsa,9108,6,75cc0f010000,30156,3841,0,True,True,True
+170,15 ya parkovaya ulitsa,9114,6,75cc05010000,30156,1281,0,True,True,True
+171,15 ya parkovaya ulitsa,9120,6,76440a010000,30276,2561,0,True,True,True
+172,153 proezd proektiruemiy,9126,6,773402010000,30516,513,0,True,True,True
+173,16 iy mikrorayon,9132,6,776402010000,30564,513,0,True,True,True
+174,16 ya parkovaya ulitsa,9138,6,779410010000,30612,4097,0,True,True,True
+175,16 ya parkovaya ulitsa,9144,6,779401000000,30612,256,0,True,True,True
+176,16 ya parkovaya ulitsa,9150,6,77ac07010000,30636,1793,0,True,True,True
+177,16 ya parkovaya ulitsa,9156,6,785408010000,30804,2049,0,True,True,True
+178,17 y proezd mar'inoy roshchi,9162,6,791402010000,30996,513,0,True,True,True
+179,18 iy mikrorayon,9168,6,794401010000,31044,257,0,True,True,True
+180,1812 go goda ulitsa,9174,6,795c06010000,31068,1537,0,True,True,True
+181,19 iy mikrorayon,9180,6,79ec01010000,31212,257,0,True,True,True
+182,1905 go goda ulitsa,9186,6,7a0408010000,31236,2049,0,True,True,True
+183,1980 proezd proektiruemiy,9192,6,7ac406010000,31428,1537,0,True,True,True
+184,1b shlyuzy,9198,6,7b5401010000,31572,257,0,True,True,True

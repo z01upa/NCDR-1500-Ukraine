@@ -1,0 +1,240 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_AUDIT_9997b61d",
+  "target_task": "AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_AUDIT_9997b61d",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "task_status": "DONE",
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "The specific impact of the 'scale_10000000_lat_lon' metric on regional POI density in Scandinavia remains unquantified without historical baseline data.",
+      "The correlation between 'raw_payload_bytes_retained' and semantic format integrity requires further testing under high-volume write scenarios."
+    ],
+    "suggested_next_goal_id": "allowlisted goal"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_AUDIT_9997b61d",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_repeated_text_audit": true,
+      "independent_region_count": 3,
+      "anchor_value_count_by_region": {
+        "SW": 32,
+        "Italy": 32,
+        "Scandinavia": 32
+      },
+      "anchor_occurrence_counts_by_region": {
+        "SW": {
+          "91c15b408879e991cb36b442fb2a14230f228af60ee86bf4e097f626ce13d042": 21,
+          "ef086200016e0b632dfa0c91a363aa0e4fcbf84b9ee50bf8b9333049e43d0922": 16,
+          "11b60300960c1775caf4ffcd19838113375ad10366f756516096652c00c427b6": 13,
+          "87daea80b81cdbd03b3ce8042d9045cdb5ea7e1b076271a95257a55b7a047ff1": 12,
+          "b7dea7800ff0b4f6630a688d5d6dec5ad4998443221f41f8fb3df935c01df306": 12,
+          "93fb0e0090565ebb13ce1cdadec88c49824a8c1cf0a691c59516c58fb59312ae": 12,
+          "fe861b40cb50e5e544549f0b4d733877daa47d42ebaa3ce7c5af707b9d7a4341": 12,
+          "4ca9dc408bfa09225d5a18a45a60dbd04f7b901af6083e0b5c87bc74459b7e90": 12,
+          "974aab00860c7fa80d2e990d7dfccfc1d6aee72fcce5ccf521924065c1674322": 12,
+          "cfd0fc00e003fdd814d3585f5d3923fa8e6a598b9fcf7d33d26cc63184d51555": 11,
+          "6a725c40f71ae965740413105dc8b1314700fd241cd933ba721f01043ebf58ae": 10,
+          "bdfbe1803155b49cb0a67416b5e3f4f14aa29cd330f4f25167491939968ad6ac": 10,
+          "e642d08070faf62776092fd81dbcc2ffe7c83ada8f2377c138d0111888cb5f6c": 10,
+          "a9fa3840d322ebeb442edcf610fbf704018ab5206310e632acfca16359e91661": 10,
+          "38b290c0ec7f58874f4f61c94791e005b4a35f60d2eeeec763f6be8eb1e4c667": 10,
+          "7955c88011834750a9021ee487d5237f520a240af436a16ed657587ed977c6b9": 8,
+          "6bb4e6c00f32a96875a2e281e554806a920a62bab2af7669f210b559099e669f": 8,
+          "4ed6f340969c4e12b8b8af8b4adc98416435259ac2efe8f69cabebace2fc3393": 8,
+          "3ce632c0f6190dcc0ca5b55f109e7d0cd3eb9bb0b9e8cc2c219165bba6ac9112": 8,
+          "ee24afc064917d7ae64d82fe3855301c0f383284d7913294d4b1d12e1802a46c": 8,
+          "51ad97c0750415d92ba511d18753d14e67814c380df06d5a0eae60234f97708b": 8,
+          "e0f806800c6603737015317278dfab7733533b9ebefb4d447b8ae7c02f4811eb": 8,
+          "ac8bd540f545a41271a536c667cc61537f02aef505b54eea7d3cf35fa7a8eb5d": 8,
+          "530af3c028101dc19fadf06aadb1095c0100ea3ee612c349bac9d03c68d6e1db": 8,
+          "7583d240267a8a1b19c4794fe23865a4f68fa26f9784ef11266b135242767489": 7,
+          "e6fe050034d088e39f97366b716ba0f0202c61a332941c8a5d3bf8cc7438fc1b": 6,
+          "08de1840e0bd69b5bb12ae6004a2cf1d644b53301711acc40642294c6a345b4e": 6,
+          "295a4c803ae8331992b73228a3e793604131569407ead106849ed5ceca936bfe": 6,
+          "09d49e0020f34176936307b9fb452cd365a389bcda5b8219ccaad635f11208ed": 6,
+          "54737600b6c9ef08000f9965a1bfa0158423b60d79882666aa803ded31dfb30b": 6,
+          "48ab2b800fc404e9b91b32b08411bf1dbde29117a50657366417668e67144df0": 6,
+          "1a33af407f4dd3d197d3b7cae12f64eeaf72c0bd24d7e3461d98ce00fb02c36c": 6
+        },
+        "Italy": {
+          "946b0ac0f2a3637f70182d82bb93a5cb78748602e1b23790f17914e00637c4f3": 982,
+          "2c365b403d285b4a025664d4bfb9488e9000c02efc9effdc562eabee89e29560": 208,
+          "4e0ead80ee5b306eaf596f0dcfb73a284d187f4aa3492ee55a45ee7161ead599": 152,
+          "58e650c082d2b3e1fd5f17fa822701b42a4bac095dc0d7cf7d388cfdf469e122": 130,
+          "d7031ec0bea55c19eb7f8b1608b345b61a1697011791221d2b372199d5b39d33": 124,
+          "e8e19b400555de85621db41665c295f8b00b7459d2cc5c463788da2618d39ac4": 122,
+          "4ef564003cf66de3799f5007eb84fa5e7bc277180c225d1ca712e6800d711830": 114,
+          "1e98c6c0dff44d65cb45f073e2b55467ebb90989bac7329a92c0f9aeca138367": 112,
+          "65f733c0d6c038be9a76e6ea53cb797837facc87ae1184d1e0932c8e9866c061": 91,
+          "a7792680c1e0f149f01232dacf53fa6e4424f140ff591256fb64712f5715a8a6": 88,
+          "ec3930c06c2bbb72e25d13dbbbe1fcd1c188fdd8e471dd5c01098d35515b449a": 86,
+          "e627bdc0b87f65d9ad0f97f6b723ce2d3e4a396bc8fe00ebd49c7d9f594fc910": 84,
+          "77b9b880a616e99cabf0de5292c8fdaf2df9c94676438a02a77260987a99506b": 80,
+          "b0fd9ac0a98515ee67e53ea22e9d774090a62e58f67278369d637ddbe0afda39": 79,
+          "4af707c02ac2ed44f63fbe43714b29d4be1451b419b890e0033663dc36b2a757": 78,
+          "bf29b840fdbfd7643eca9596d2d12df78ad11b1ef121f2f7ee7b5db67f02db2b": 74,
+          "0e263000355f0782e7625e5363bb9270377b6bb62712eb02595883bbfa899b7f": 74,
+          "d48cf2c0be4632b03fe3c3de8ecccc7313d2a64793cf88853f8974858946398a": 70,
+          "d704b14060f63db32fa40518db45f77f3d89c0a7d51cbded79481cf03f25204c": 54,
+          "1cf23940d1e5884339a36e0eebee52450eb2958cf7a5b3132be25d36adf29d27": 48,
+          "db180840bbf9d13d6b1fcf8c08fd3c1ea6a8c7732b2a24630605d3fc16ad6c83": 47,
+          "9459ad806be5bcbf35eefc4fa4e12d6180e5fdd6bac716fbb04453567aa4331f": 44,
+          "a3d7e000d6ec30b05466f8c166e23f2828f8d5da4056dd9d5130a7ac16048f74": 40,
+          "535cf880dcb2ef68f28bdc2c7742348c28d8e6034244de664c1238c94f9ec429": 40,
+          "b128c94096259c7c9f8fe7d79751878cd4f6d92a4981a35b94070e6ac49ec596": 39,
+          "40c94840c5b570f4875f3e9ebd8429676506c2b7141ffd116b8fdfefe925570c": 39,
+          "ea1cb1003b3db4eb4ecf7f7aeef1ccfa5e4d0f115c43b8f6b87b375e251234e7": 35,
+          "55a792c028bea3ab7b6b5491921280f30ba6a91ec78a06a9e50c01f9352d4c02": 34,
+          "641a2b40aed68ebb7c050c46bc57c1a6dce99724b6025197f8141d245ab68a13": 33,
+          "ebef084046c6a9695778d92a25a3b84888ecb4f2c212847bf9f232a96e214de6": 33,
+          "7ac19fc0955438936ed1661c7f46db18e709e91036b04cf9cfa4c869aa354ae2": 33,
+          "d03823000ae015ccb84ec39b9a308c0700737260d937434607004560384451e4": 32
+        },
+        "Scandinavia": {
+          "469f2840303b7c2b327c28cb87c8d4c3cc2df5f2a43c766b409e3626e7f1b740": 428,
+          "7583d240267a8a1b19c4794fe23865a4f68fa26f9784ef11266b135242767489": 366,
+          "974198005f5291ccd1348e688f360488784ad449302b6e3a18dcefccf887df15": 340,
+          "5e60d3008ebe7b2f1d1b8a6256b85871ea4e46d05ffc463aeb9181cd90fa25c0": 111,
+          "1dc8290035776d191d580446316c5b32367ff0fc78388ca87d7a35d7f4fbaef1": 105,
+          "91c15b408879e991cb36b442fb2a14230f228af60ee86bf4e097f626ce13d042": 84,
+          "26e580c0f02042b0bdae18ca18eb058c41af1bfad51783d263744aa4d7d77caf": 79,
+          "3ce632c0f6190dcc0ca5b55f109e7d0cd3eb9bb0b9e8cc2c219165bba6ac9112": 69,
+          "9e4489804c2d94091ecb6cbf65660ad5919f3052d20387659e10a21c083b9072": 69,
+          "3b526a808ba29f34e450901016b84c835daccc4d4a4f1d3d55c5f42edfdd3a2b": 65,
+          "eec965008bc5c9670436397e248d81912bfdbd68d290ac4fa707408a7b25401e": 62,
+          "8a9d8e4057822e267dc5ec9965db75a33d44688e38dbf0331e804baa91018823": 61,
+          "88276ec03eb4f9f606565568d6de01a34cb417ee54bbf5b7d60077b3fa973e37": 60,
+          "352c660062423b12584e59342f64572aed0d987b57ef8789c77a46b908ee6718": 58,
+          "7955c88011834750a9021ee487d5237f520a240af436a16ed657587ed977c6b9": 56,
+          "11b60300960c1775caf4ffcd19838113375ad10366f756516096652c00c427b6": 55,
+          "1ee4a7003d03c2b45c63aea1dec6bf957e66f094bc5e5b9f766988a431f76727": 55,
+          "6fffda004dbfdfc62b875f2b8ed3d2c6bc8acfefed0110e366c32396c9db58e8": 49,
+          "a5a39a00f50692c4f4086818679755cce45073cb71586fc532120205e63d5b1c": 48,
+          "45d63b006dfa63c80929bece0c7592106a5f2493ccb5db51394e898541d6d27a": 46,
+          "060a8fc014a0f6eac1bb091f67e43943032773cdc17e8913d349d8b19957750a": 43,
+          "b0f56ac079d1b2ca76692bc4c1b6a3da9b118c3f407bb290e7eaaee0bcdba226": 42,
+          "383a8100eb82117484bdd5665d24b0e6aef07b3a5cfdaf965dc55bf6a9af669f": 40,
+          "ca042c00a71358834762ce410026b2516781ed1b2255eef683af9cbbaf5c5cd2": 39,
+          "c84b6f000a2c09ce49a2cb031fb1c9ad7985e5fcf7c626ae0fd5fc925e255980": 38,
+          "fd5ace8062a16b8d9f7b064d9761c168ca9c2437364e4a4fce04aa0a97d53434": 36,
+          "149430000f70358dedafdb17d75a9dc8508205270dfe425e0a2d72424ea3c9e3": 36,
+          "4ec7ad00c1672eee61cb684efe31a1e96b80f80308564c429714222bcf7711de": 35,
+          "2c199380a524bba500000aedf32da4a842f185cd59f68fb464a41bc8198fd90d": 34,
+          "0400e940efce48711ac5a2275745a73f2dd655eb0b98e3ce9388bba2561bb592": 33,
+          "a14b850077deffc035df872673c740c78b427849dc63e9bb72fdbd139aef6a90": 31,
+          "17be5900365515620e4f5c4b1f005cbe9ae888b298ef681d14a8986b06505629": 31
+        }
+      },
+      "label_window_hits_by_region": {
+        "SW": {
+          "scale_100000_lat_lon": 99,
+          "scale_100000_lon_lat": 44,
+          "scale_1000000_lat_lon": 37,
+          "scale_1000000_lon_lat": 10,
+          "scale_10000000_lat_lon": 78,
+          "scale_10000000_lon_lat": 42
+        },
+        "Italy": {
+          "scale_100000_lat_lon": 0,
+          "scale_100000_lon_lat": 0,
+          "scale_1000000_lat_lon": 20,
+          "scale_1000000_lon_lat": 20,
+          "scale_10000000_lat_lon": 7,
+          "scale_10000000_lon_lat": 0
+        },
+        "Scandinavia": {
+          "scale_100000_lat_lon": 1,
+          "scale_100000_lon_lat": 1,
+          "scale_1000000_lat_lon": 39,
+          "scale_1000000_lon_lat": 19,
+          "scale_10000000_lat_lon": 6,
+          "scale_10000000_lon_lat": 2
+        }
+      },
+      "fixed_control_hits_by_region": {
+        "SW": {
+          "scale_100000_lat_lon": 51,
+          "scale_100000_lon_lat": 14,
+          "scale_1000000_lat_lon": 16,
+          "scale_1000000_lon_lat": 6,
+          "scale_10000000_lat_lon": 42,
+          "scale_10000000_lon_lat": 21
+        },
+        "Italy": {
+          "scale_100000_lat_lon": 1,
+          "scale_100000_lon_lat": 1,
+          "scale_1000000_lat_lon": 10,
+          "scale_1000000_lon_lat": 11,
+          "scale_10000000_lat_lon": 1,
+          "scale_10000000_lon_lat": 0
+        },
+        "Scandinavia": {
+          "scale_100000_lat_lon": 3,
+          "scale_100000_lon_lat": 3,
+          "scale_1000000_lat_lon": 19,
+          "scale_1000000_lon_lat": 4,
+          "scale_10000000_lat_lon": 2,
+          "scale_10000000_lon_lat": 0
+        }
+      },
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded structural observations only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-26T23:08:55.667257+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.json",
+      "sha256": "a9e61212089ad9f201ef724d0bbaa84c882bf8fa22064b35d7e70f5b813d6854",
+      "size_bytes": 37370,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.md",
+      "sha256": "61743353776c4f6f517b6bdbbc7a3d5c9c9348328bb9ec06adec35b73dfa7984",
+      "size_bytes": 13739,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "67d37a8b859d31c4893d9b4db7e7109183c328452f0cdc2efea473b1803948be",
+      "size_bytes": 37371,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "7da384295bb99b74df42c910f91ba98046588d5325107288610c9d55ef1e9f54",
+      "size_bytes": 13738,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "33ed3d478d714be36af0f311fa097167a99a329e32b03026ec369362551b2fee",
+      "size_bytes": 37372,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "a2692774fa9f4e36c5b53b8db95d26425058ae570d7dff1099f4452701ac93f5",
+      "size_bytes": 13738,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

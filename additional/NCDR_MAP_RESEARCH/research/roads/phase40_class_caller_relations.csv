@@ -1,0 +1,4 @@
+class,relation,result,status
+Z/NZ,exact equality to A/B/C/D/F,not established,persisted aggregate has no proven exact relation
+Z/NZ,F invariance,97.1% overall,full class-specific exception split unavailable
+Z/NZ,anchor clustering,not established,caller-level class grouping unavailable

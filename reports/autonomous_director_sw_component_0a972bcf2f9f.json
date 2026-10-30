@@ -1,0 +1,20 @@
+{
+  "status": "PASS_WITH_BOUNDED_FALLBACK",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_0a972bcf2f9f",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_e5991d0bd28235f4",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE.DLL",
+  "selected_source_sha256": "8c182b29cb4f2320e44385843b978e0da485979e9cb467926c2a9cab97bc495b",
+  "selected_size_bytes": 20992,
+  "selection_source": "deterministic fallback",
+  "selection_reason": "deterministic first-candidate fallback; model output was unavailable or outside the fixed contract",
+  "safe_schema_validated": false,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_e5991d0bd28235f4",
+  "candidate_fingerprint": "0a972bcf2f9f7e16d0a0d12601711d173d425d2dbd44b1e0ef993ca96364e5d3",
+  "remaining_unseen_candidates": 3,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:06:27.566870+00:00"
+}

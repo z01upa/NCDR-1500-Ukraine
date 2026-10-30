@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_OSM_PARTITION_KR_CITY_4X4",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_OSM_PARTITION_PROBE_KR_CITY_4X4",
+  "selected_goal_id": "AUTO_OSM_PARTITION_PROBE_KR_CITY_4X4",
+  "selection_source": "Qwen3.5",
+  "selection_reason": "Selected based on the active track 'UKRAINE_OSM_DISC_DATA' to prepare verified OSM data for the disc; adheres to constraints by choosing exactly one eligible goal and avoiding hardware claims.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_OSM_PARTITION_PROBE_KR_CITY_4X4",
+  "created_utc": "2026-10-26T22:13:29.192862+00:00",
+  "original_media_write_count": 0,
+  "codex_calls": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

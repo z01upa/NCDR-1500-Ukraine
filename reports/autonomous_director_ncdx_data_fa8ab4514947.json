@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_fa8ab4514947",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9871ad6b",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9871ad6b",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements (e.g., alignment_6, alignment_0) with varying counts of region_candidate_pairs and adjacent_pairs_within_5km. Selecting this goal_id directly references the decoded coordinate candidates derived from these streams, prioritizing evidence that reduces uncertainty about map storage and address/index data without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9871ad6b",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "01de91490c269fe03137f64833028a10e3869347a751ea23006b43b55cbc0576",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_fa8ab4514947",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:07:23.242726+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

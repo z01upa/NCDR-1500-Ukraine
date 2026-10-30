@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_E0CCFB51E3388B1B",
+  "request_id": "CAP_E0CCFB51E3388B1B",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_E0CCFB51E3388B1B",
+    "reason": "RuntimeError: verification command failed (1): E.\n======================================================================\nERROR: test_build_resume_and_readback_are_provenance_bound (__main__.UkraineNationalBuildTests.test_build_resume_and_readback_are_provenance_bound)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_E0CCFB51E3388B1B_ATTEMPT_1\\tests\\unit\\test_build_ukraine.py\", line 109, in test_build_resume_and_readback_are_provenance_bound\n    result = build_ukraine.build(source, output_root)\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_E0CCFB51E3388B1B_ATTEMPT_1\\src\\osm\\build_ukraine.py\", line 269, in build\n    imported = import_osm_xml(extract, database).__dict__\n               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_E0CCFB51E3388B1B_ATTEMPT_1\\src\\osm\\engine.py\", line 316, in import_osm_xml\n    with tempfile.TemporaryDirectory(prefix=\"osm-import-\", dir=destination.parent) as temp_dir:\n         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tempfile.py\", line 887, in __init__\n    self.name = mkdtemp(suffix, prefix, dir)\n                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tempfile.py\", line 381, in mkdtemp\n    _os.mkdir(file, 0o700)\n    ~~~~~~~~~^^^^^^^^^^^^^\nFileNotFoundError: [WinError 206] Имя файла или его расширение имеет слишком большую длину: '${NCDR_WORK_ROOT}\\\\NCDR_MAP_RESEARCH\\\\work\\\\autonomous_manager\\\\capability_worktrees\\\\CAP_E0CCFB51E3388B1B_ATTEMPT_1\\\\work\\\\tmpp314y0_4\\\\project\\\\work\\\\ukraine_national\\\\ukraine-2026-09-08-62449d1aa84a\\\\osm-import-x7e63_3c'\n\n----------------------------------------------------------------------\nRan 2 tests in 0.088s\n\nFAILED (errors=1)\n"
+  },
+  "created_utc": "2026-10-26T16:45:29.809502+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

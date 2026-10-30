@@ -1,0 +1,3 @@
+objects_tested,field_tested,validity,interpretation,status
+101,E&0x3FFF,101/101 in advertised logical extent,local offset candidate,confirmed candidate
+101,16-byte internal fields,no statistically strong uniform validity,not proven pointers,unresolved

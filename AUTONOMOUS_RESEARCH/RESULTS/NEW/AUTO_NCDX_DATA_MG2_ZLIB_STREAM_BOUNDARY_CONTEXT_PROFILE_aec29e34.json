@@ -1,0 +1,16 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.MG2",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG2",
+    "SW/DB/EUZ.MG2",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_aec29e34.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "e2d5e0c06cfc115908eec1c36a41eb1b29104fcd9b8aed53ed860ab023eef62a",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_aec29e34",
+  "updated_utc": "2026-10-27T13:48:33.698518+00:00",
+  "verified_by_independent_reviewer": false
+}

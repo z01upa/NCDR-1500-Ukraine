@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_f5c8e26b56a7",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CL_LAG_CORRELATION_SCAN_99900482",
+  "selected_goal_id": "AUTO_NCDX_DATA_CL_LAG_CORRELATION_SCAN_99900482",
+  "selection_source": "Ollama",
+  "selection_reason": "Short evidence-based choice: The CL_LAG_CORRELATION_SCAN goal directly addresses uncertainty regarding map storage and address/index data by analyzing correlation metrics, which is a critical step in validating the integrity of the NCDx dataset across different regions (SW, Italy, Scandinavia). This approach prioritizes reducing uncertainty about the underlying data structures without requiring hardware changes or writing to original media.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CL_LAG_CORRELATION_SCAN_99900482",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_f5c8e26b56a7",
+  "remaining_unique_experiments": 25,
+  "created_utc": "2026-10-25T19:42:45.389451+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

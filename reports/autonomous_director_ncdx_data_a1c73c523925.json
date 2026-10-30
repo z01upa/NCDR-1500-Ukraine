@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_a1c73c523925",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_baeb3852",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_baeb3852",
+  "selection_source": "Ollama",
+  "selection_reason": "MG1 region offers the largest total input bytes (78667691) with 3 inventoried regions, providing the most data volume to reduce uncertainty about map storage and address/index distributions; context_bytes=32 balances hash-only boundary precision with computational efficiency without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_baeb3852",
+  "candidate_fingerprint": "2b4d29f60cbcb32a056aa2bceb9b933fe6d317fc2074169e09038ad386eb127e",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_a1c73c523925",
+  "remaining_unique_experiments": 7,
+  "created_utc": "2026-10-27T13:47:33.436741+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

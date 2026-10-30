@@ -1,0 +1,186 @@
+index,brif_offset,name_ptr,name,place_bitemask,language,region_ptr,region,extended_info_ptr
+0,3872,37159,1 iy mikrorayon,0,21,37175,matushkino savelki,8094
+1,3880,37194,1 maya ulitsa,0,21,37208,kryukovo,8100
+2,3888,37217,1 sel'skokhozyaystvenniy proezd,0,21,37249,ostankinskiy,8106
+3,3896,37262,1 y ambulatorniy proezd,0,21,37286,aeroport,8112
+4,3904,37295,1 y arkhivniy pereulok,0,21,37318,khamovniki,8118
+5,3912,37329,1 y avtozavodskiy proezd,0,21,37354,danilovskiy,8124
+6,3920,37366,1 y bab'egorodskiy pereulok,0,21,37394,yakimanka,8130
+7,3928,37404,1 y baltiyskiy pereulok,0,21,37286,aeroport,8136
+8,3936,37428,1 y basmanniy pereulok,0,21,37451,basmanniy,8142
+9,3944,37461,1 y belokamenniy proezd,0,21,37485,bogorodskoe,8148
+10,3952,37497,1 y bogucharskiy pereulok,0,21,37523,butovo yuzhnoe,8154
+11,3960,37538,1 y botanicheskiy proezd,0,21,37563,sviblovo,8160
+12,3968,37572,1 y botkinskiy proezd,0,21,37594,begovoy,8166
+13,3976,37602,1 y dachno meshcherskiy proezd,0,21,37633,solntsevo,8172
+14,3984,37643,1 y derbenevskiy pereulok,0,21,37354,danilovskiy,8178
+15,3992,37669,1 y dobryninskiy pereulok,0,21,37695,zamoskvorech'e,8184
+16,4000,37710,1 y donskoy proezd,0,21,37729,donskoy,8190
+17,4008,37737,1 y dorozhniy proezd,0,21,37758,chertanovo tsentral'noe,8196
+18,4016,37782,1 y dubrovskiy proezd,0,21,37804,yuzhnoportoviy,8202
+19,4024,37819,1 y elektrozavodskiy pereulok,0,21,37849,preobrazhenskoe,8208
+20,4032,37865,1 y golutvinskiy pereulok,0,21,37394,yakimanka,8214
+21,4040,37891,1 y goncharniy pereulok,0,21,37915,taganskiy,8220
+22,4048,37925,1 y goncharovskiy pereulok,0,21,37952,butyrskiy,8226
+23,4056,37962,1 y grayvoronovskiy proezd,0,21,37989,tekstil'shchiki,8232
+24,4064,38005,1 y institutskiy proezd,0,21,38029,ryazanskiy,8238
+25,4072,38040,1 y irininskiy pereulok,0,21,37451,basmanniy,8244
+26,4080,38064,1 y irtyshskiy proezd,0,21,0,,8250
+27,4088,38064,1 y irtyshskiy proezd,0,21,38086,gol'yanovo,8256
+28,4096,38064,1 y irtyshskiy proezd,0,21,38097,metrogorodok,8262
+29,4104,38110,1 y kabel'niy proezd,0,21,38131,lefortovo,8268
+30,4112,38141,1 y kadashevskiy pereulok,0,21,37394,yakimanka,8274
+31,4120,38167,1 y kadashevskiy tupik,0,21,37394,yakimanka,8280
+32,4128,38190,1 y karacharovskiy proezd,0,21,38216,nizhegorodskiy,8286
+33,4136,38231,1 y kazachiy pereulok,0,21,37394,yakimanka,8292
+34,4144,38253,1 y kazanskiy prosek,0,21,38029,ryazanskiy,8298
+35,4152,38274,1 y ketcherskiy proezd,0,21,38297,veshnyaki,8304
+36,4160,38307,1 y khoroshevskiy proezd,0,21,38332,khoroshevskiy,8310
+37,4168,38346,1 y khutorskoy pereulok,0,21,38370,savelovskiy,8316
+38,4176,38382,1 y khvostov pereulok,0,21,37394,yakimanka,8322
+39,4184,38404,1 y kirpichniy pereulok,0,21,38428,sokolinaya gora,8328
+40,4192,38444,1 y kolobovskiy pereulok,0,21,38469,tverskoy,8334
+41,4200,38478,1 y koptel'skiy pereulok,0,21,38503,meshchanskiy,8340
+42,4208,38516,1 y kotel'nicheskiy pereulok,0,21,37915,taganskiy,8346
+43,4216,38545,1 y kotlyakovskiy pereulok,0,21,38572,moskvorech'e saburovo,8352
+44,4224,38594,1 y kozhevnicheskiy pereulok,0,21,37354,danilovskiy,8358
+45,4232,38623,1 y kozhukhovskiy pereulok,0,21,38650,kosino ukhtomskiy,8364
+46,4240,38668,1 y kozhukhovskiy proezd,0,21,37354,danilovskiy,8370
+47,4248,38693,1 y kraskovskiy proezd,0,21,38650,kosino ukhtomskiy,8376
+48,4256,38716,1 y krasnogorskiy proezd,0,21,38741,shchukino,8382
+49,4264,38751,1 y krasnogvardeyskiy proezd,0,21,38780,presnenskiy,8388
+50,4272,38792,1 y krasnokursantskiy proezd,0,21,38131,lefortovo,8394
+51,4280,38821,1 y krasnosel'skiy pereulok,0,21,38849,krasnosel'skiy,8400
+52,4288,38864,1 y krutitskiy pereulok,0,21,0,,8406
+53,4296,38864,1 y krutitskiy pereulok,0,21,37915,taganskiy,8412
+54,4304,38864,1 y krutitskiy pereulok,0,21,37804,yuzhnoportoviy,8418
+55,4312,38888,1 y kur'yanovskiy proezd,0,21,38913,pechatniki,8424
+56,4320,38924,1 y lesnoy pereulok,0,21,38469,tverskoy,8430
+57,4328,38944,1 y likhachevskiy pereulok,0,21,38971,golovinskiy,8436
+58,4336,38983,1 y luchevoy prosek,0,21,39003,sokol'niki,8442
+59,4344,39014,1 y lykovskiy proezd,0,21,39035,strogino,8448
+60,4352,39044,1 y lyuberetskiy proezd,0,21,39068,vykhino zhulebino,8454
+61,4360,39086,1 y lyusinovskiy pereulok,0,21,37695,zamoskvorech'e,8460
+62,4368,39112,1 y magistral'niy proezd,0,21,38332,khoroshevskiy,8466
+63,4376,39137,1 y magistral'niy tupik,0,21,38332,khoroshevskiy,8472
+64,4384,39161,1 y mirgorodskiy pereulok,0,21,37523,butovo yuzhnoe,8478
+65,4392,39187,1 y mitinskiy pereulok,0,21,39210,mitino,8484
+66,4400,39217,1 y monetchikovskiy pereulok,0,21,37695,zamoskvorech'e,8490
+67,4408,39246,1 y mozhayskiy tupik,0,21,39267,dorogomilovo,8496
+68,4416,39280,1 y nagatinskiy proezd,0,21,39303,nagatino sadovniki,8502
+69,4424,39322,1 y nikoloshchepovskiy pereulok,0,21,39354,arbat,8508
+70,4432,39360,1 y nizhnelikhoborskiy proezd,0,21,39390,timiryazevskiy,8514
+71,4440,39405,1 y nizhniy mikhaylovskiy proezd,0,21,37354,danilovskiy,8520
+72,4448,39438,1 y novokuznetskiy pereulok,0,21,37695,zamoskvorech'e,8526
+73,4456,39466,1 y novomikhalkovskiy proezd,0,21,39495,koptevo,8532
+74,4464,39503,1 y novopodmoskovniy pereulok,0,21,39533,voykovskiy,8538
+75,4472,39544,1 y obydenskiy pereulok,0,21,37318,khamovniki,8544
+76,4480,39568,1 y ochakovskiy pereulok,0,21,39593,ochakovo matveevskoe,8550
+77,4488,39614,1 y ol'khovskiy tupik,0,21,38849,krasnosel'skiy,8556
+78,4496,39636,1 y paveletskiy proezd,1,21,37354,danilovskiy,8562
+79,4504,39659,1 y pavlovskiy pereulok,0,21,37354,danilovskiy,8568
+80,4512,39683,1 y pekhotniy pereulok,0,21,38741,shchukino,8574
+81,4520,39706,1 y penyaginskiy proezd,0,21,39210,mitino,8580
+82,4528,39730,1 y plekhanovskiy pereulok,0,21,39757,perovo,8586
+83,4536,39764,1 y polevoy pereulok,0,21,39003,sokol'niki,8592
+84,4544,39785,1 y polevoy proezd,0,21,38650,kosino ukhtomskiy,8598
+85,4552,39804,1 y poperechniy proezd,0,21,37249,ostankinskiy,8604
+86,4560,39827,1 y prospekt novogireevo,0,21,0,,8610
+87,4568,39827,1 y prospekt novogireevo,0,21,32034,ivanovskoe,8616
+88,4576,39827,1 y prospekt novogireevo,0,21,39852,novogireevo,8622
+89,4584,39864,1 y rabochiy pereulok,0,21,37915,taganskiy,8628
+90,4592,39886,1 y raushskiy pereulok,0,21,37695,zamoskvorech'e,8634
+91,4600,39909,1 y rizhskiy pereulok,0,21,39931,alekseevskiy,8640
+92,4608,39944,1 y roshchinskiy proezd,0,21,37729,donskoy,8646
+93,4616,39968,1 y samotechniy pereulok,0,21,38469,tverskoy,8652
+94,4624,39993,1 y saratovskiy proezd,0,21,37989,tekstil'shchiki,8658
+95,4632,40016,1 y setun'skiy proezd,0,21,40038,ramenki,8664
+96,4640,40046,1 y shchemilovskiy pereulok,0,21,38469,tverskoy,8670
+97,4648,40074,1 y shchipkovskiy pereulok,0,21,37695,zamoskvorech'e,8676
+98,4656,40101,1 y shibaevskiy pereulok,0,21,37318,khamovniki,8682
+99,4664,40126,1 y shlyuzovoy pereulok,0,21,37695,zamoskvorech'e,8688
+100,4672,40150,1 y silikatniy proezd,0,21,40172,khoroshevo mnevniki,8694
+101,4680,40192,1 y smolenskiy pereulok,0,21,39354,arbat,8700
+102,4688,40216,1 y spasonalivkovskiy pereulok,0,21,37394,yakimanka,8706
+103,4696,40247,1 y streletskiy pereulok,0,21,40272,mar'ina roshcha,8712
+104,4704,40288,1 y syromyatnicheskiy pereulok,0,21,37451,basmanniy,8718
+105,4712,40319,1 y tikhvinskiy tupik,0,21,38469,tverskoy,8724
+106,4720,40341,1 y troitskiy pereulok,0,21,38503,meshchanskiy,8730
+107,4728,40364,1 y trudovoy pereulok,0,21,37523,butovo yuzhnoe,8736
+108,4736,40386,1 y truzhenikov pereulok,0,21,37318,khamovniki,8742
+109,4744,40411,1 y tul'skiy pereulok,0,21,37354,danilovskiy,8748
+110,4752,40433,1 y tushinskiy proezd,0,21,40455,pokrovskoe streshnevo,8754
+111,4760,40477,1 y tverskoy yamskoy pereulok,0,21,38469,tverskoy,8760
+112,4768,40507,1 y ugreshskiy proezd,0,21,38913,pechatniki,8766
+113,4776,40529,1 y v mikhaylovskiy proezd,0,21,37729,donskoy,8772
+114,4784,40556,1 y varshavskiy proezd,0,21,38572,moskvorech'e saburovo,8778
+115,4792,40579,1 y veshnyakovskiy proezd,0,21,38029,ryazanskiy,8784
+116,4800,40605,1 y volkonskiy pereulok,0,21,38469,tverskoy,8790
+117,4808,40629,1 y volokolamskiy proezd,0,21,38741,shchukino,8796
+118,4816,40654,1 y voykovskiy proezd,0,21,39533,voykovskiy,8802
+119,4824,40676,1 y vyazovskiy proezd,0,21,38029,ryazanskiy,8808
+120,4832,40698,1 y yuzhnoportoviy proezd,0,21,38913,pechatniki,8814
+121,4840,40724,1 y zapadniy proezd,0,21,37175,matushkino savelki,8820
+122,4848,40744,1 y zborovskiy pereulok,0,21,37849,preobrazhenskoe,8826
+123,4856,40768,1 y zemel'niy pereulok,0,21,38780,presnenskiy,8832
+124,4864,40791,1 ya aeroportovskaya ulitsa,0,21,37286,aeroport,8838
+125,4872,40819,1 ya chobotovskaya alleya,0,21,40845,novo peredelkino,8844
+126,4880,40862,1 ya naprudnaya ulitsa,0,21,40885,losinoostrovskiy,8850
+127,4888,40902,1 ya pokrovskaya ulitsa,0,21,40926,chertanovo yuzhnoe,8856
+128,4896,40945,1 ya radial'naya ulitsa,0,21,40969,biryulevo vostochnoe,8862
+129,4904,40990,1 ya stekol'naya ulitsa,0,21,40969,biryulevo vostochnoe,8868
+130,4912,41014,1 ya tekstil'shchikov ulitsa,0,21,37989,tekstil'shchiki,8874
+131,4920,41043,1 ya vol'skaya ulitsa,0,21,41065,nekrasovka,8880
+132,4928,41076,10 iy mikrorayon,0,21,41093,panfilovskiy,8886
+133,4936,41106,10 letiya oktyabrya ulitsa,16,21,37318,khamovniki,8892
+134,4944,41133,10 y proezd mar'inoy roshchi,16,21,40272,mar'ina roshcha,8898
+135,4952,41162,10 ya chobotovskaya alleya,0,21,40845,novo peredelkino,8904
+136,4960,41189,10 ya parkovaya ulitsa,16,21,41212,izmaylovo,8910
+137,4968,41222,10 ya radial'naya ulitsa,0,21,40969,biryulevo vostochnoe,8916
+138,4976,41247,10 ya tekstil'shchikov ulitsa,0,21,37989,tekstil'shchiki,8922
+139,4984,41277,10 ya ulitsa novye sady,16,21,40845,novo peredelkino,8928
+140,4992,41301,10 ya ulitsa sokolinoy gory,16,21,38428,sokolinaya gora,8934
+141,5000,41329,11 iy mikrorayon,0,21,41093,panfilovskiy,8940
+142,5008,41346,11 y proezd mar'inoy roshchi,16,21,40272,mar'ina roshcha,8946
+143,5016,41375,11 y prospekt novogireevo,0,21,39757,perovo,8952
+144,5024,41401,11 ya chobotovskaya alleya,0,21,40845,novo peredelkino,8958
+145,5032,41428,11 ya parkovaya ulitsa,16,21,0,,8964
+146,5040,41428,11 ya parkovaya ulitsa,16,21,41212,izmaylovo,8970
+147,5048,41428,11 ya parkovaya ulitsa,16,21,41451,izmaylovo severnoe,8976
+148,5056,41428,11 ya parkovaya ulitsa,16,21,41470,izmaylovo vostochnoe,8982
+149,5064,41491,11 ya radial'naya ulitsa,0,21,40969,biryulevo vostochnoe,8988
+150,5072,41516,11 ya ulitsa novye sady,16,21,40845,novo peredelkino,8994
+151,5080,41540,11 ya ulitsa tekstil'shchikov,16,21,37989,tekstil'shchiki,9000
+152,5088,41570,114a volzhskiy bul'var kvartal,16,21,41601,kuz'minki,9006
+153,5096,41611,12 iy mikrorayon,0,21,41093,panfilovskiy,9012
+154,5104,41628,12 y proezd mar'inoy roshchi,16,21,40272,mar'ina roshcha,9018
+155,5112,41657,12 ya liniya krasnoy sosny,16,21,41684,yaroslavskiy,9024
+156,5120,41697,12 ya novokuz'minskaya ulitsa,16,21,38029,ryazanskiy,9030
+157,5128,41727,12 ya parkovaya ulitsa,16,21,41470,izmaylovo vostochnoe,9036
+158,5136,41750,13 y proezd mar'inoy roshchi,16,21,40272,mar'ina roshcha,9042
+159,5144,41779,13 ya liniya krasnoy sosny,16,21,41684,yaroslavskiy,9048
+160,5152,41806,13 ya parkovaya ulitsa,16,21,0,,9054
+161,5160,41806,13 ya parkovaya ulitsa,16,21,41451,izmaylovo severnoe,9060
+162,5168,41806,13 ya parkovaya ulitsa,16,21,41470,izmaylovo vostochnoe,9066
+163,5176,41829,137 proezd proektiruemiy,16,21,38131,lefortovo,9072
+164,5184,41854,14 iy mikrorayon,0,21,37208,kryukovo,9078
+165,5192,41871,14 y proezd mar'inoy roshchi,16,21,40272,mar'ina roshcha,9084
+166,5200,41900,14 ya parkovaya ulitsa,16,21,41470,izmaylovo vostochnoe,9090
+167,5208,41923,1438 proezd proektiruemiy,16,21,39593,ochakovo matveevskoe,9096
+168,5216,41949,15 iy mikrorayon,0,21,37208,kryukovo,9102
+169,5224,41966,15 ya parkovaya ulitsa,16,21,0,,9108
+170,5232,41966,15 ya parkovaya ulitsa,16,21,41451,izmaylovo severnoe,9114
+171,5240,41966,15 ya parkovaya ulitsa,16,21,41470,izmaylovo vostochnoe,9120
+172,5248,41989,153 proezd proektiruemiy,16,21,42014,filevskiy park,9126
+173,5256,42029,16 iy mikrorayon,0,21,37208,kryukovo,9132
+174,5264,42046,16 ya parkovaya ulitsa,16,21,0,,9138
+175,5272,42046,16 ya parkovaya ulitsa,16,21,41212,izmaylovo,9144
+176,5280,42046,16 ya parkovaya ulitsa,16,21,41451,izmaylovo severnoe,9150
+177,5288,42046,16 ya parkovaya ulitsa,16,21,41470,izmaylovo vostochnoe,9156
+178,5296,42069,17 y proezd mar'inoy roshchi,16,21,40272,mar'ina roshcha,9162
+179,5304,42098,18 iy mikrorayon,0,21,37208,kryukovo,9168
+180,5312,42115,1812 go goda ulitsa,16,21,39267,dorogomilovo,9174
+181,5320,42135,19 iy mikrorayon,0,21,37208,kryukovo,9180
+182,5328,42152,1905 go goda ulitsa,16,21,38780,presnenskiy,9186
+183,5336,42172,1980 proezd proektiruemiy,16,21,39593,ochakovo matveevskoe,9192
+184,5344,42198,1b shlyuzy,0,21,38913,pechatniki,9198

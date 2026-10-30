@@ -1,0 +1,4 @@
+comparison,axis,block_type,sector,logical_record_size,offsets,old_bytes,new_bytes,stored_delta,scale_if_direct_1e5,interpretation
+A->D,longitude,0x06,0x76CE2,8696,0x0837,d8,d9,+1,100000,"single-byte mutation; candidate primary field"
+A->F,latitude,0x06,0x76CE2,8696,0x0839,d9,e1,+8,80000,"single-byte mutation; not 1e5 scale"
+A->G,latitude,0x06,0x76CE2,8696,0x0838-0x0839,b4d9,b52f,+0x456=1110,1110000,"16-bit BE neighborhood; carry/nonlinear or quantized behavior"

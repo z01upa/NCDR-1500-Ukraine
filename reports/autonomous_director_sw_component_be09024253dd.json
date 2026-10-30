@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_be09024253dd",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE01.DLL",
+  "selected_source_sha256": "832551e7e3dc74ae1cff7d18b4dfc18f10525fc9110825569586466803ba3c29",
+  "selected_size_bytes": 84556,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "Selected due to its larger file size (84556 bytes) compared to other candidates, suggesting it may contain more substantial NCDx software or navigation-format evidence.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5",
+  "candidate_fingerprint": "be09024253dd0e1fc430d9974556382f6b0fd5e8e4ded0ba6907cf0774543898",
+  "remaining_unseen_candidates": 9,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:03:26.737815+00:00"
+}

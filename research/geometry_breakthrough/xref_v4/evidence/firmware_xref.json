@@ -1,0 +1,797 @@
+{
+  "status": "PASS_BOUNDED_XREF_WITH_CODE_READER_UNRESOLVED",
+  "sources": {
+    "NAVIMAIN.EXE": {
+      "sha256": "8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07",
+      "size_bytes": 9798,
+      "pe": {
+        "machine_code": 422,
+        "architecture": "SH4",
+        "optional_header_kind": "PE32",
+        "image_base": 65536,
+        "size_of_image": 24576,
+        "entry_point_rva": "0x00001e24",
+        "entry_point_va": "0x00011e24",
+        "entry_point_file_offset": "0x00001224",
+        "entry_point_section": ".text",
+        "entry_point_hex_64_bytes": "862f962fa62fb62f224f4368536b636a7369f07f0ad00b4009000ad0b365a36693670b408364036404d00b400900107f264ff66bf66af6690b00f668081d0100",
+        "sections": [
+          {
+            "name": ".text",
+            "virtual_size": 3752,
+            "virtual_address": 4096,
+            "raw_size": 4096,
+            "raw_pointer": 1024,
+            "characteristics_hex": "0x60000020",
+            "raw_entropy_bits_per_byte": 5.8778
+          },
+          {
+            "name": ".rdata",
+            "virtual_size": 2922,
+            "virtual_address": 8192,
+            "raw_size": 3072,
+            "raw_pointer": 5120,
+            "characteristics_hex": "0x40000040",
+            "raw_entropy_bits_per_byte": 5.4852
+          },
+          {
+            "name": ".data",
+            "virtual_size": 421,
+            "virtual_address": 12288,
+            "raw_size": 512,
+            "raw_pointer": 8192,
+            "characteristics_hex": "0xc0000040",
+            "raw_entropy_bits_per_byte": 2.1532
+          },
+          {
+            "name": ".pdata",
+            "virtual_size": 360,
+            "virtual_address": 16384,
+            "raw_size": 512,
+            "raw_pointer": 8704,
+            "characteristics_hex": "0x40000040",
+            "raw_entropy_bits_per_byte": 2.9862
+          },
+          {
+            "name": ".rsrc",
+            "virtual_size": 156,
+            "virtual_address": 20480,
+            "raw_size": 512,
+            "raw_pointer": 9216,
+            "characteristics_hex": "0x40000040",
+            "raw_entropy_bits_per_byte": 0.5742
+          }
+        ],
+        "file_backed_sections_end": 9728,
+        "overlay_bytes": 70,
+        "overlay_sha256": "2b4f013311f001e59ea7660afe65e595a0977e02c4acc1d02461c74752cbfa6f",
+        "overlay_hex": "4e42313000000000961789410a0000004b3a5c6d6d696469735f7461726765745c446576456e765c43655c57434553483452656c5c42696e5c4e6176694d61696e2e70646200"
+      },
+      "imports": {
+        "total": 39,
+        "modules": [
+          {
+            "module": "coredll.dll",
+            "named_count": 0,
+            "ordinal_count": 18,
+            "named_symbols": []
+          },
+          {
+            "module": "commgr.dll",
+            "named_count": 7,
+            "ordinal_count": 0,
+            "named_symbols": [
+              "??_7MI_CF_StatusHandler@@6B@",
+              "?GetInstance@MI_CF_RemoteComManager@@SAPAV1@PBG0II@Z",
+              "?GetProcessName@MI_CF_ObjectDescription@@QBAPBGXZ",
+              "?CreateInstance@MI_CF_RemoteComManager@@QAAJABU_GUID@@PAUIUnknown@@K0PAPAX@Z",
+              "?GetInstance@MI_CF_CommunicationBroker@@SAAAV1@PBG0II@Z",
+              "?RegisterStatusHandler@MI_CF_CommunicationBroker@@QAAXPAVMI_CF_StatusHandler@@@Z",
+              "?ReleaseInstance@MI_CF_RemoteComManager@@SAXXZ"
+            ]
+          },
+          {
+            "module": "mfcce212.dll",
+            "named_count": 0,
+            "ordinal_count": 9,
+            "named_symbols": []
+          },
+          {
+            "module": "ole32.dll",
+            "named_count": 2,
+            "ordinal_count": 0,
+            "named_symbols": [
+              "CoUninitialize",
+              "CoInitializeEx"
+            ]
+          },
+          {
+            "module": "memmgr.dll",
+            "named_count": 3,
+            "ordinal_count": 0,
+            "named_symbols": [
+              "LocalReAlloc",
+              "LocalSize",
+              "LocalAlloc"
+            ]
+          }
+        ],
+        "named_io_api_candidates": [],
+        "preferred_va_iat_literals_found_in_text": 45,
+        "iat_literal_reference_samples": [
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_528",
+            "ordinal": 528,
+            "iat_rva": 12288,
+            "preferred_va_literal": "0x00013000",
+            "literal_file_offset": 3864,
+            "literal_rva": 6936,
+            "raw_hex": "00300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_455",
+            "ordinal": 455,
+            "iat_rva": 12292,
+            "preferred_va_literal": "0x00013004",
+            "literal_file_offset": 3744,
+            "literal_rva": 6816,
+            "raw_hex": "04300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_456",
+            "ordinal": 456,
+            "iat_rva": 12296,
+            "preferred_va_literal": "0x00013008",
+            "literal_file_offset": 3756,
+            "literal_rva": 6828,
+            "raw_hex": "08300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_464",
+            "ordinal": 464,
+            "iat_rva": 12300,
+            "preferred_va_literal": "0x0001300c",
+            "literal_file_offset": 3768,
+            "literal_rva": 6840,
+            "raw_hex": "0c300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_63",
+            "ordinal": 63,
+            "iat_rva": 12304,
+            "preferred_va_literal": "0x00013010",
+            "literal_file_offset": 3780,
+            "literal_rva": 6852,
+            "raw_hex": "10300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_541",
+            "ordinal": 541,
+            "iat_rva": 12308,
+            "preferred_va_literal": "0x00013014",
+            "literal_file_offset": 3792,
+            "literal_rva": 6864,
+            "raw_hex": "14300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_719",
+            "ordinal": 719,
+            "iat_rva": 12312,
+            "preferred_va_literal": "0x00013018",
+            "literal_file_offset": 3804,
+            "literal_rva": 6876,
+            "raw_hex": "18300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_1047",
+            "ordinal": 1047,
+            "iat_rva": 12316,
+            "preferred_va_literal": "0x0001301c",
+            "literal_file_offset": 3816,
+            "literal_rva": 6888,
+            "raw_hex": "1c300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_549",
+            "ordinal": 549,
+            "iat_rva": 12320,
+            "preferred_va_literal": "0x00013020",
+            "literal_file_offset": 3828,
+            "literal_rva": 6900,
+            "raw_hex": "20300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_494",
+            "ordinal": 494,
+            "iat_rva": 12324,
+            "preferred_va_literal": "0x00013024",
+            "literal_file_offset": 3840,
+            "literal_rva": 6912,
+            "raw_hex": "24300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_548",
+            "ordinal": 548,
+            "iat_rva": 12328,
+            "preferred_va_literal": "0x00013028",
+            "literal_file_offset": 3852,
+            "literal_rva": 6924,
+            "raw_hex": "28300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_1093",
+            "ordinal": 1093,
+            "iat_rva": 12332,
+            "preferred_va_literal": "0x0001302c",
+            "literal_file_offset": 3732,
+            "literal_rva": 6804,
+            "raw_hex": "2c300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_871",
+            "ordinal": 871,
+            "iat_rva": 12336,
+            "preferred_va_literal": "0x00013030",
+            "literal_file_offset": 3876,
+            "literal_rva": 6948,
+            "raw_hex": "30300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_495",
+            "ordinal": 495,
+            "iat_rva": 12340,
+            "preferred_va_literal": "0x00013034",
+            "literal_file_offset": 3888,
+            "literal_rva": 6960,
+            "raw_hex": "34300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_530",
+            "ordinal": 530,
+            "iat_rva": 12344,
+            "preferred_va_literal": "0x00013038",
+            "literal_file_offset": 3900,
+            "literal_rva": 6972,
+            "raw_hex": "38300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_553",
+            "ordinal": 553,
+            "iat_rva": 12348,
+            "preferred_va_literal": "0x0001303c",
+            "literal_file_offset": 3912,
+            "literal_rva": 6984,
+            "raw_hex": "3c300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_550",
+            "ordinal": 550,
+            "iat_rva": 12352,
+            "preferred_va_literal": "0x00013040",
+            "literal_file_offset": 3924,
+            "literal_rva": 6996,
+            "raw_hex": "40300100"
+          },
+          {
+            "module": "coredll.dll",
+            "symbol": "ordinal_497",
+            "ordinal": 497,
+            "iat_rva": 12356,
+            "preferred_va_literal": "0x00013044",
+            "literal_file_offset": 3936,
+            "literal_rva": 7008,
+            "raw_hex": "44300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "??_7MI_CF_StatusHandler@@6B@",
+            "ordinal": null,
+            "iat_rva": 12364,
+            "preferred_va_literal": "0x0001304c",
+            "literal_file_offset": 2376,
+            "literal_rva": 5448,
+            "raw_hex": "4c300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?GetInstance@MI_CF_RemoteComManager@@SAPAV1@PBG0II@Z",
+            "ordinal": null,
+            "iat_rva": 12368,
+            "preferred_va_literal": "0x00013050",
+            "literal_file_offset": 2976,
+            "literal_rva": 6048,
+            "raw_hex": "50300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?GetInstance@MI_CF_RemoteComManager@@SAPAV1@PBG0II@Z",
+            "ordinal": null,
+            "iat_rva": 12368,
+            "preferred_va_literal": "0x00013050",
+            "literal_file_offset": 3960,
+            "literal_rva": 7032,
+            "raw_hex": "50300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?GetProcessName@MI_CF_ObjectDescription@@QBAPBGXZ",
+            "ordinal": null,
+            "iat_rva": 12372,
+            "preferred_va_literal": "0x00013054",
+            "literal_file_offset": 2356,
+            "literal_rva": 5428,
+            "raw_hex": "54300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?GetProcessName@MI_CF_ObjectDescription@@QBAPBGXZ",
+            "ordinal": null,
+            "iat_rva": 12372,
+            "preferred_va_literal": "0x00013054",
+            "literal_file_offset": 3948,
+            "literal_rva": 7020,
+            "raw_hex": "54300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?CreateInstance@MI_CF_RemoteComManager@@QAAJABU_GUID@@PAUIUnknown@@K0PAPAX@Z",
+            "ordinal": null,
+            "iat_rva": 12376,
+            "preferred_va_literal": "0x00013058",
+            "literal_file_offset": 3020,
+            "literal_rva": 6092,
+            "raw_hex": "58300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?CreateInstance@MI_CF_RemoteComManager@@QAAJABU_GUID@@PAUIUnknown@@K0PAPAX@Z",
+            "ordinal": null,
+            "iat_rva": 12376,
+            "preferred_va_literal": "0x00013058",
+            "literal_file_offset": 3972,
+            "literal_rva": 7044,
+            "raw_hex": "58300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?GetInstance@MI_CF_CommunicationBroker@@SAAAV1@PBG0II@Z",
+            "ordinal": null,
+            "iat_rva": 12380,
+            "preferred_va_literal": "0x0001305c",
+            "literal_file_offset": 3044,
+            "literal_rva": 6116,
+            "raw_hex": "5c300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?GetInstance@MI_CF_CommunicationBroker@@SAAAV1@PBG0II@Z",
+            "ordinal": null,
+            "iat_rva": 12380,
+            "preferred_va_literal": "0x0001305c",
+            "literal_file_offset": 3984,
+            "literal_rva": 7056,
+            "raw_hex": "5c300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?RegisterStatusHandler@MI_CF_CommunicationBroker@@QAAXPAVMI_CF_StatusHandler@@@Z",
+            "ordinal": null,
+            "iat_rva": 12384,
+            "preferred_va_literal": "0x00013060",
+            "literal_file_offset": 3096,
+            "literal_rva": 6168,
+            "raw_hex": "60300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?RegisterStatusHandler@MI_CF_CommunicationBroker@@QAAXPAVMI_CF_StatusHandler@@@Z",
+            "ordinal": null,
+            "iat_rva": 12384,
+            "preferred_va_literal": "0x00013060",
+            "literal_file_offset": 3996,
+            "literal_rva": 7068,
+            "raw_hex": "60300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?ReleaseInstance@MI_CF_RemoteComManager@@SAXXZ",
+            "ordinal": null,
+            "iat_rva": 12388,
+            "preferred_va_literal": "0x00013064",
+            "literal_file_offset": 3368,
+            "literal_rva": 6440,
+            "raw_hex": "64300100"
+          },
+          {
+            "module": "commgr.dll",
+            "symbol": "?ReleaseInstance@MI_CF_RemoteComManager@@SAXXZ",
+            "ordinal": null,
+            "iat_rva": 12388,
+            "preferred_va_literal": "0x00013064",
+            "literal_file_offset": 4008,
+            "literal_rva": 7080,
+            "raw_hex": "64300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_343",
+            "ordinal": 343,
+            "iat_rva": 12412,
+            "preferred_va_literal": "0x0001307c",
+            "literal_file_offset": 4080,
+            "literal_rva": 7152,
+            "raw_hex": "7c300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_391",
+            "ordinal": 391,
+            "iat_rva": 12416,
+            "preferred_va_literal": "0x00013080",
+            "literal_file_offset": 4068,
+            "literal_rva": 7140,
+            "raw_hex": "80300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_393",
+            "ordinal": 393,
+            "iat_rva": 12420,
+            "preferred_va_literal": "0x00013084",
+            "literal_file_offset": 4044,
+            "literal_rva": 7116,
+            "raw_hex": "84300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_2640",
+            "ordinal": 2640,
+            "iat_rva": 12424,
+            "preferred_va_literal": "0x00013088",
+            "literal_file_offset": 4020,
+            "literal_rva": 7092,
+            "raw_hex": "88300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_193",
+            "ordinal": 193,
+            "iat_rva": 12428,
+            "preferred_va_literal": "0x0001308c",
+            "literal_file_offset": 4056,
+            "literal_rva": 7128,
+            "raw_hex": "8c300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_319",
+            "ordinal": 319,
+            "iat_rva": 12432,
+            "preferred_va_literal": "0x00013090",
+            "literal_file_offset": 4032,
+            "literal_rva": 7104,
+            "raw_hex": "90300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_345",
+            "ordinal": 345,
+            "iat_rva": 12436,
+            "preferred_va_literal": "0x00013094",
+            "literal_file_offset": 4104,
+            "literal_rva": 7176,
+            "raw_hex": "94300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_195",
+            "ordinal": 195,
+            "iat_rva": 12440,
+            "preferred_va_literal": "0x00013098",
+            "literal_file_offset": 4092,
+            "literal_rva": 7164,
+            "raw_hex": "98300100"
+          },
+          {
+            "module": "mfcce212.dll",
+            "symbol": "ordinal_397",
+            "ordinal": 397,
+            "iat_rva": 12444,
+            "preferred_va_literal": "0x0001309c",
+            "literal_file_offset": 4116,
+            "literal_rva": 7188,
+            "raw_hex": "9c300100"
+          },
+          {
+            "module": "ole32.dll",
+            "symbol": "CoUninitialize",
+            "ordinal": null,
+            "iat_rva": 12452,
+            "preferred_va_literal": "0x000130a4",
+            "literal_file_offset": 4736,
+            "literal_rva": 7808,
+            "raw_hex": "a4300100"
+          },
+          {
+            "module": "ole32.dll",
+            "symbol": "CoInitializeEx",
+            "ordinal": null,
+            "iat_rva": 12456,
+            "preferred_va_literal": "0x000130a8",
+            "literal_file_offset": 4724,
+            "literal_rva": 7796,
+            "raw_hex": "a8300100"
+          },
+          {
+            "module": "memmgr.dll",
+            "symbol": "LocalReAlloc",
+            "ordinal": null,
+            "iat_rva": 12396,
+            "preferred_va_literal": "0x0001306c",
+            "literal_file_offset": 4748,
+            "literal_rva": 7820,
+            "raw_hex": "6c300100"
+          },
+          {
+            "module": "memmgr.dll",
+            "symbol": "LocalSize",
+            "ordinal": null,
+            "iat_rva": 12400,
+            "preferred_va_literal": "0x00013070",
+            "literal_file_offset": 4760,
+            "literal_rva": 7832,
+            "raw_hex": "70300100"
+          },
+          {
+            "module": "memmgr.dll",
+            "symbol": "LocalAlloc",
+            "ordinal": null,
+            "iat_rva": 12404,
+            "preferred_va_literal": "0x00013074",
+            "literal_file_offset": 4772,
+            "literal_rva": 7844,
+            "raw_hex": "74300100"
+          }
+        ],
+        "interpretation": "Named import census only; coredll/MFC ordinal targets are unresolved and may include file APIs."
+      },
+      "packer_check": {
+        "known_marker_offsets": {
+          "UPX!": [],
+          "MPRESS1": [],
+          "Themida": [],
+          "ASPack": [],
+          "PECompact": [],
+          "PKLITE": [],
+          "FSG!": []
+        },
+        "requires_unpacking": "NOT_ESTABLISHED; conventional section table and entrypoint are readable, but absence of known markers cannot exclude runtime unpacking"
+      },
+      "target_strings": {
+        "MP0": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "EUZ.MP0": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "node": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "edge": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "route": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "graph": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "map": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        }
+      },
+      "reader_procedure": "NOT_LOCATED; no SH4 instruction decoder is available in the current environment",
+      "section4_section5_algorithm": "NOT_RECOVERED_FROM_NAVIMAIN",
+      "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_MMIDIS_LOC_0130170000\\WINDOWS\\NAVIMAIN.EXE",
+      "sha256_after": "8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07",
+      "source_write_count": 0
+    },
+    "NK.BIN": {
+      "sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+      "size_bytes": 11021915,
+      "prefix_ascii": "LK-01-05-000.000.0000",
+      "first_non_ff_after_byte_32": 1024,
+      "ce00ff_marker_offsets": [
+        1024
+      ],
+      "ce_marker_context_hex": "4345303046460a0b00001f8c24be100143453c0300101f8cc06302002b62cf00080000000044f89e3c840805020000004e8409840140a802004f0045004d0047",
+      "ecec_marker_offsets": [
+        10283731
+      ],
+      "ecec_marker_contexts": [
+        {
+          "file_offset": 10283731,
+          "preceding_4_bytes_hex": "02000008",
+          "following_u32_le_untyped": 2368693964,
+          "same_dword_occurrence_offsets": [
+            3513,
+            10283735,
+            10283743
+          ],
+          "following_64_bytes_hex": "45434543cc662f8d43455a02cc662f8d540000000f09000011000086000000000200001f8c24be2f8d9a840e12004f8d00e04f8d000000900100000014be2f84"
+        }
+      ],
+      "mz_marker_count": 15,
+      "mz_marker_offsets": [
+        1115242,
+        1559094,
+        2487152,
+        2492419,
+        2494452,
+        8958996,
+        9184524,
+        9236150,
+        9962759,
+        9966599,
+        10106077,
+        10282685,
+        10283526,
+        10747387,
+        10943845
+      ],
+      "embedded_pe_scan": {
+        "status": "PASS",
+        "mz_marker_count_scanned": 15,
+        "pe_signature_candidate_count": 0,
+        "rejected_structural_header_count": 0,
+        "valid_pe_image_count": 0
+      },
+      "raw_pe_signature_count": 1,
+      "raw_pe_signature_candidates": [
+        {
+          "file_offset": 1539164,
+          "machine_code": "0x14e0",
+          "section_count": 0,
+          "matches_NAVIMAIN_SH4_machine": false
+        }
+      ],
+      "target_strings": {
+        "NAVIMAIN": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "NAVIMAIN.EXE": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "MMIDIS.EXE": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "EUZ.MP0": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "MP0": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        },
+        "ROMHDR": {
+          "ascii_offsets": [],
+          "utf16le_offsets": []
+        }
+      },
+      "image_format": "UNKNOWN; CE00FF marker at 0x400 is recorded but not parsed as a ROM/module table",
+      "node_reader_code": "NOT_LOCATED; no valid PE module extracted and no NK image loader is available",
+      "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+      "sha256_after": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+      "source_write_count": 0
+    }
+  },
+  "prior_topology_context": {
+    "source": "existing topology_v3 evidence; not recomputed",
+    "high_low_nibble_gt4_rows_without_local_primary_endpoint_incidence": 1325,
+    "node_identity_mismatches": 511,
+    "section5_endpoints_out_of_range": 0
+  },
+  "selected_writer_v2_candidate": {
+    "block": 886,
+    "node_a": 412,
+    "node_b": 414,
+    "block_node_count": 664,
+    "block_edge_count": 706,
+    "node_records": [
+      {
+        "node": 412,
+        "record_hex": "6308c5002702b0000602",
+        "stored_low_nibble": 3,
+        "candidate_active_refs": [
+          197,
+          551,
+          176
+        ],
+        "four_u16_words": [
+          197,
+          551,
+          176,
+          518
+        ]
+      },
+      {
+        "node": 414,
+        "record_hex": "4308c300c40029020f01",
+        "stored_low_nibble": 3,
+        "candidate_active_refs": [
+          195,
+          196,
+          553
+        ],
+        "four_u16_words": [
+          195,
+          196,
+          553,
+          271
+        ]
+      }
+    ],
+    "existing_primary_local_edges_between_pair": [],
+    "hypothetical_next_edge_id": 706
+  },
+  "tooling": {
+    "disassembler_paths": {
+      "sh-elf-objdump": null,
+      "sh4-linux-gnu-objdump": null,
+      "llvm-objdump": null,
+      "objdump": null,
+      "dumpbin": null,
+      "radare2": null,
+      "rizin": null,
+      "ghidraRun": null,
+      "ndisasm": null
+    },
+    "rom_extractor_paths": {
+      "romimage": null,
+      "dumprom": null,
+      "romxip": null,
+      "zunextract": null
+    }
+  },
+  "code_level_findings": [
+    "NAVIMAIN is a small SH4 PE with a conventional .text/.rdata/.data/.pdata/.rsrc layout; entry point maps to a file-backed .text range.",
+    "No named file-I/O import was found, but 18 coredll imports are ordinal-only; no conclusion about file access is safe until those ordinals are resolved.",
+    "The PE code section contains preferred-image-base literals for imported IAT slots. These references establish import use, not which call sites parse MP0.",
+    "NK.BIN does not yield a valid embedded PE under the bounded existing scanner; its custom image/module format and executable payload layout remain unknown."
+  ],
+  "unresolved": [
+    "SH4 instruction disassembly and call graph",
+    "coredll ordinal export mapping",
+    "NK.BIN CE00FF image/module table",
+    "Section 4/5 reader procedure",
+    "Section 6–9/RT/RL consumers"
+  ],
+  "originals_written": false
+}

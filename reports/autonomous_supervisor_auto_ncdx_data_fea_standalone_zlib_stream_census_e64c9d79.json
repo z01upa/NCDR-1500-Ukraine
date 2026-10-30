@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_FEA_STANDALONE_ZLIB_STREAM_CENSUS_e64c9d79",
+  "target_task": "AUTO_NCDX_DATA_FEA_STANDALONE_ZLIB_STREAM_CENSUS_e64c9d79",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance",
+      "Physical compatibility in Opel NCDR vehicle"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_FEA_STANDALONE_ZLIB_STREAM_CENSUS_e64c9d79",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_rescan": true,
+      "independent_region_count": 3,
+      "confirmed_stream_count_by_region": {
+        "SW": 4068,
+        "Italy": 4068,
+        "Scandinavia": 4065
+      },
+      "header_candidates_by_region": {
+        "SW": 4097,
+        "Italy": 4097,
+        "Scandinavia": 4097
+      },
+      "attempt_cap_hit_by_region": {
+        "SW": true,
+        "Italy": true,
+        "Scandinavia": true
+      },
+      "cross_region_shared_payload_count": 3531,
+      "cross_region_shared_inventory_sha256": "cdc3e3fcfc07a0cbd1c325ec8c9e0f43349d48dbc1559779e5cc6fcc50952c64",
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded checksum-valid zlib candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T13:29:49.744443+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "local Project Director is choosing the next verified-format round-trip over real regional map data",
+  "followup_task_id": "AUTO_DIRECTOR_NCDX_DATA_3532a80a0a6a",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "581b6d92f357e79a1aa0fa25a1844723f2f53796f9cacfc48221593541f3523d",
+      "size_bytes": 28018,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "b74e3751a509be75176fbb16911a7e18f1ebc2f17169181719b0f68f6a109af6",
+      "size_bytes": 4657,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "3bb1e3f18557959dac8a02a6040e3a1f9586c49cd47d89dad302f66ff2bdf53d",
+      "size_bytes": 28019,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "f3c3a6e27d66b0c617ff35d1179d2a04a84e3b514dc1a4c5033e63f869c46f97",
+      "size_bytes": 4656,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "ddab51dbb095b9a65e7799660a45214671b70baa3aadac3aa63275c3966c45af",
+      "size_bytes": 28020,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "bc31b3918e9a31d7e713379705fabd845b5a018e6f43558a13a6f6ca0a72042a",
+      "size_bytes": 4656,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

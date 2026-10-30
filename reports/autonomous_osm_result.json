@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "focus": "osm",
+  "acceptance": "python -B tests/unit/test_osm_engine.py exits with code 0; all inputs are fixtures or read-only source files.",
+  "test": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.382s\n\nOK\n",
+    "test_file": "tests\\unit\\test_osm_engine.py"
+  },
+  "scope": "temporary SQLite/XML fixtures",
+  "component_readiness": "PASS"
+}

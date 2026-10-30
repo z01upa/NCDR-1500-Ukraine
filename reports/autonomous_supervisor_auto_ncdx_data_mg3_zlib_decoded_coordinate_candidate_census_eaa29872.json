@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG3_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_eaa29872",
+  "target_task": "AUTO_NCDX_DATA_MG3_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_eaa29872",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "NCDx binary semantic record structures",
+      "Physical compatibility with Opel NCDR hardware"
+    ],
+    "suggested_next_goal_id": "NCDX_REVERSE_ENGINEERING"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_MG3_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_eaa29872",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_coordinate_rescan": true,
+      "independent_region_count": 3,
+      "stream_count_by_region": {
+        "SW": 1617,
+        "Italy": 1617,
+        "Scandinavia": 1610
+      },
+      "sampled_stream_count_by_region": {
+        "SW": 1617,
+        "Italy": 1617,
+        "Scandinavia": 1610
+      },
+      "sample_trace_sha256_by_region": {
+        "SW": "bbd1510ca268623e42f82cec8c42822b91c3820760664c059c94cb74b3fc6fd0",
+        "Italy": "2d9943193f385703aa2ef652a04b9f67d65f44066d3fc11de75a9fab4342b0b9",
+        "Scandinavia": "1d3c40e3ed5532026d0bec8f6440accccb79508c71c2999253649fe1b6d9db6f"
+      },
+      "raw_sample_bytes_retained": false,
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded zlib coordinate candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T14:47:51.429620+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "b8690a91899fb81d2d81c321b52a66f53ae9193f0aed73f6d33b8cfd2f072a3e",
+      "size_bytes": 28726,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "73bece83fc17219566e2291d20121f9b7f4e9ca60183fac0ee499a730a6c69af",
+      "size_bytes": 4898,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "a89dc7f5b9e9d2cca03238b28813c5b4e5aafcbead3fe120beb3c0f4fd6452fe",
+      "size_bytes": 28727,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "bdcba976c0e55fa16c3453cf03d1e30bb34e1a56412b8ab3e9656caf9b1fe5e2",
+      "size_bytes": 4897,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "e45fcf788b405a654665bc108a24cc55fef9b7486b902fde60f0e4e043d28991",
+      "size_bytes": 28728,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "b4bc6a2b4f8b94386016d511f60b87b68d9143cd82ce02934d33af9a30ae1aee",
+      "size_bytes": 4897,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

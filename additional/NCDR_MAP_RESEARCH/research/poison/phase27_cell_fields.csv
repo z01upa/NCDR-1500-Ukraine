@@ -1,0 +1,5 @@
+cell_index,matched_entries,meta16_values,field_changes_0x06_0x1B,correlation_status
+-13,0,,,not_testable_no_match
+-1,0,,,not_testable_no_match
+0,1,0x001C,"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",B-only
+1,0,,,not_testable_no_match

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_MISSION_DIRECTOR_90AFB770A3B57D5E",
+  "selected_id": "A01",
+  "reason": "deterministic priority fallback; local Director output unavailable or outside the candidate contract",
+  "model": null,
+  "model_error": "URLError: <urlopen error [WinError 10013] Сделана попытка доступа к сокету методом, запрещенным правами доступа>",
+  "candidate_fingerprint": "90afb770a3b57d5ee28730e966e4005a69505ac62e4ee140d53ead4fd312280f",
+  "allowed_ids": [
+    "A01"
+  ],
+  "model_choice_accepted": false,
+  "scope_guard": {
+    "original_media_write": false,
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  },
+  "created_utc": "2026-10-26T12:12:39.253744+00:00"
+}

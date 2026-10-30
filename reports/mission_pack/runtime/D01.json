@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "canonical_id": "D01",
+  "objective": "Прибрати монолітний OSM парсер; додати PBF streaming через pyosmium або osmium tool, обмежені чанки і bounded-memory процес.",
+  "acceptance": {
+    "status": "PASS",
+    "fixture": {
+      "generator": "deterministic XML chain v1",
+      "nodes": 20000,
+      "ways": 19999,
+      "chunk_records": 1000
+    },
+    "extraction": {
+      "format": "synthetic line-oriented OSM XML gzip",
+      "source_bytes": 3355522,
+      "extract_bytes": 260146
+    },
+    "source_sha256": "19cc5dc787888e683760e5cddca402e18680d071c0b1b9b373bb275236b55f4f",
+    "extract_sha256": "f00270799b3ec12153ea648ea29b5fde8e4a7c18905d37a44b3c81224f0664aa",
+    "committed_rows": {
+      "nodes": {
+        "rows": 20000,
+        "sha256": "d29de09a73f4fbc52b8d878c07b6a34843fc5c346ccba72982e0e3aed947e23b"
+      },
+      "ways": {
+        "rows": 19999,
+        "sha256": "8a2fe6db6c090f05541f1945cf53c87af26f64d195e60c34e1e1cbc39f2a8f98"
+      },
+      "way_nodes": {
+        "rows": 39998,
+        "sha256": "9932cdcd6589dfcaaee0ec6a12acd3fbf19405cea71d306a153dbd4e18d20cd7"
+      },
+      "edges": {
+        "rows": 39998,
+        "sha256": "ad1c6598e6c574852879427d921b71c0507355ffe9e0fb31ad45125d40e699ab"
+      },
+      "relations": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "features": {
+        "rows": 19999,
+        "sha256": "d6f8a8dca5c9c55021acb071ab480f3ed9742b1e1327dc3574bc97d16311d5ec"
+      },
+      "feature_names": {
+        "rows": 19999,
+        "sha256": "aa3b3b7c3b9c54991191388989d069f2ffbdfc52192e46d37db563246a0738b6"
+      }
+    },
+    "resume_matches_baseline": true,
+    "slice_counts": [
+      24,
+      88
+    ],
+    "first_checkpoint_tokens": [
+      "37380918ad90db41",
+      "d20e27bec1db7d91"
+    ],
+    "source_identity_scope": "temporary synthetic XML only; no national source accessed",
+    "verification": "separate read-only SQLite connections and canonical ordered row hashes",
+    "memory_before": {
+      "historical_peak_working_set_bytes": null,
+      "historical_peak_status": "NOT_RECORDED",
+      "diagnostic_peak_working_set_bytes": 43425792,
+      "available_physical_memory_bytes": 23019585536,
+      "measurement_scope": "current diagnostic process; not the historical failed importer",
+      "measured_utc": "2026-10-26T16:36:51.235092+00:00",
+      "pid": 28020,
+      "measurement_api": "GetProcessMemoryInfo / GlobalMemoryStatusEx"
+    },
+    "memory": {
+      "historical_peak_working_set_bytes": null,
+      "historical_peak_status": "NOT_RECORDED",
+      "diagnostic_peak_working_set_bytes": 54231040,
+      "available_physical_memory_bytes": 23016710144,
+      "measurement_scope": "current diagnostic process; not the historical failed importer",
+      "measured_utc": "2026-10-26T16:36:57.134439+00:00",
+      "pid": 28020,
+      "measurement_api": "GetProcessMemoryInfo / GlobalMemoryStatusEx"
+    },
+    "peak_rss_bytes": 54231040,
+    "available_ram_bytes": 23016710144,
+    "max_xml_record_bytes": 1048576,
+    "decompress_chunk_bytes": 33554432,
+    "measurement_scope": "current synthetic verification process lifetime high-water mark",
+    "historical_oom_peak_rss_bytes": null,
+    "historical_peak_status": "NOT_RECORDED",
+    "source_hashes_unchanged": true,
+    "national_checkpoint_access_count": 0,
+    "original_media_write_count": 0
+  },
+  "created_utc": "2026-10-26T16:36:57.142504+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

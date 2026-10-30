@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_ebc5d5f983ee",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_IOF_STANDALONE_ZLIB_STREAM_CENSUS_e7b4c084",
+  "selected_goal_id": "AUTO_NCDX_DATA_IOF_STANDALONE_ZLIB_STREAM_CENSUS_e7b4c084",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_IOF_STANDALONE_ZLIB_STREAM_CENSUS_e7b4c084",
+  "candidate_fingerprint": "9b95293b93408900d9bbf52d4f54a3e57c9b1d8db21d3ef5fc028391044b980a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_ebc5d5f983ee",
+  "remaining_unique_experiments": 8,
+  "created_utc": "2026-10-27T13:29:24.548259+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

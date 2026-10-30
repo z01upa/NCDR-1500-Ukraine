@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_5089826225ab",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_16de650b",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_16de650b",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for alignment layers (e.g., `alignment_4`, `alignment_0`, `alignment_2`) with varying region candidate pairs and adjacent pair counts. The goal is to select a specific experiment ID that reduces uncertainty about map storage, address/index data, or route data. The selected `goal_id` corresponds to a zlib-decoded coordinate candidate census derived from the stream analysis, prioritizing evidence that aligns with coordinate-based ma",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_16de650b",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "b073d88cc444ab03a9d222a5d36965190af0e230c189be461e8f0a38461d7d7e",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_5089826225ab",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T21:21:54.568319+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

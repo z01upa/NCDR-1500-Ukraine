@@ -1,0 +1,25 @@
+{
+  "sector": 2201,
+  "physical_span": 44,
+  "compression": 2,
+  "logical_size": 46592,
+  "pl_all_cityes": {
+    "ptr": 48,
+    "count": 489
+  },
+  "pl_all_moreinfo": {
+    "ptr": 3960,
+    "count": 480
+  },
+  "moskva": {
+    "brif_index": 247,
+    "brif_relative_offset": 2024,
+    "name_pointer": 37488,
+    "name": "moskva",
+    "region_pointer": 37488,
+    "region": "moskva",
+    "place_bitemask": 0,
+    "language": 21,
+    "p_moreinfo": 8688
+  }
+}

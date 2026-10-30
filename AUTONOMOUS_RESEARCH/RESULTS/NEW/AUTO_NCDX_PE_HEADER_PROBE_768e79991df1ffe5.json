@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE01.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "8b046af25f2b70d210c1bf65c8ecdce83e279ffbd08c3f37b9729819768809d5",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5",
+  "updated_utc": "2026-10-27T20:03:29.408675+00:00",
+  "verified_by_independent_reviewer": false
+}

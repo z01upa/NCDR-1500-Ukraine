@@ -1,0 +1,9 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_director_ncdx_data_8b9eeb6d4d1d.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_8b9eeb6d4d1d",
+  "updated_utc": "2026-10-27T17:55:36.101608+00:00"
+}

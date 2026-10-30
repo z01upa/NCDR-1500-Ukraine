@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_f2f2a69a9677",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_60611eea",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_60611eea",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains multiple streams with candidate measurements for coordinate alignments (e.g., 'alignment_6/scale_1000000_lon_lat', 'alignment_4/scale_1000000_lat_lon'). These entries explicitly list 'region_candidate_pairs' and 'adjacent_pairs_within_5km', which are critical metrics for evaluating map storage efficiency, index data density, and route planning accuracy. Selecting a goal focused on decoding these zlib-compressed coordinate candidates directly addresses the constraint to",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_60611eea",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "9473d7aa8f0fb6f86621f2db72a240658135a35ea4d681c3c513f962c9b8d6f3",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_f2f2a69a9677",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T15:17:22.924992+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_C3E78321653CAD1E",
+  "request_id": "CAP_C3E78321653CAD1E",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_C3E78321653CAD1E",
+    "reason": "RuntimeError: verification command failed (1): E\n======================================================================\nERROR: test_a02_reports_saved_oom_review_checkpoint_and_bounded_memory_probe (tests.unit.test_mission_a02.MissionA02Tests.test_a02_reports_saved_oom_review_checkpoint_and_bounded_memory_probe)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_C3E78321653CAD1E_ATTEMPT_1\\tests\\unit\\test_mission_a02.py\", line 65, in test_a02_reports_saved_oom_review_checkpoint_and_bounded_memory_probe\n    result = project_director.execute_mission_pack_task(\"AUTO_A02_FIXTURE\")\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_C3E78321653CAD1E_ATTEMPT_1\\src\\agent\\project_director.py\", line 443, in execute_mission_pack_task\n    spec = mission_pack.task_spec(canonical_id)\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_C3E78321653CAD1E_ATTEMPT_1\\src\\agent\\mission_pack.py\", line 148, in task_spec\n    raise KeyError(f\"unknown canonical Mission Pack ID: {canonical_id}\")\nKeyError: 'unknown canonical Mission Pack ID: '\n\n----------------------------------------------------------------------\nRan 1 test in 0.032s\n\nFAILED (errors=1)\n"
+  },
+  "created_utc": "2026-10-26T12:44:14.988909+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

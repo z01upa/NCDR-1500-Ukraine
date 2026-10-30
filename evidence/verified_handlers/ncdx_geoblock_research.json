@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "VERIFIED_MANUAL",
+  "handler": "ncdx-geoblock-research",
+  "handler_version": 1,
+  "implementation_origin": "Manually authored restricted read-only fallback after local Qwen2.5-Coder 7B returned no valid unified diff in two isolated attempts; generated text was not executed or installed.",
+  "qwen_codegen_status": "LOCAL_FAILED",
+  "qwen_codegen_requests": [
+    "CAP_FE0984F28D8A06A6",
+    "CAP_E2E536253399B6C2"
+  ],
+  "codex_cli_used": false,
+  "verification_method": "80 passing unittest cases across analyzer, task planner/handler, autonomous manager, empty-queue replanning, and project director; exact source/test SHA-256 lock; bounded AST contract; actual read-only full-payload cross-region MG2 replay with source-manifest hashes, zlib EOF, CTY/CNY, MP0/MG1/MG2/MG3 headers, existing coordinate scanner, and independent all-overlap CTY-box enumeration. road_geometry_decoded remains false.",
+  "files": {
+    "src/readers/ncdx_geoblock_analyzer.py": "9d7b9258e0f634ac090a12eec85967b1f6235a9098e7ad02ec1a8d2f1dec4558",
+    "src/agent/geoblock_research.py": "4ce62fda839d4b28163e9447c18c29349af5a06971473b6c4869002b7d546f1d",
+    "tests/unit/test_ncdx_geoblock_analyzer.py": "df5e3346e4f4b7a000e97ffe53e8c3b6a400ae08af73e0e17cf7b910716bdfbb",
+    "tests/unit/test_ncdx_geoblock_research.py": "59d113cd286979cf747d8fc036e71ea523335f8666a81d062ce86671f97ad177"
+  }
+}

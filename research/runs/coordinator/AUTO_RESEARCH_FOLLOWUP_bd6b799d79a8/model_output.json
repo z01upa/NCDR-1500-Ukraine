@@ -1,0 +1,68 @@
+{
+  "task_id": "AUTO_RESEARCH_FOLLOWUP_bd6b799d79a8",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"hypothesis\": \"Файли з різних регіонів з розширенням MP0 мають спільний префікс.\",\n  \"target_suffix\": \"MP0\",\n  \"expected_observation\": \"Знайдені байтові спостереження, які вказують на спільний префікс для всіх регіонів.\",\n  \"falsifier\": \"Знайдені байтові спостереження, які вказують на відмінність префікса для хоча б одного регіону.\",\n  \"script\": \"common_prefix = 0\\nfor i in range(64):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nprint(common_prefix)\"\n}",
+  "parsed": {
+    "hypothesis": "Файли з різних регіонів з розширенням MP0 мають спільний префікс.",
+    "target_suffix": "MP0",
+    "expected_observation": "Знайдені байтові спостереження, які вказують на спільний префікс для всіх регіонів.",
+    "falsifier": "Знайдені байтові спостереження, які вказують на відмінність префікса для хоча б одного регіону.",
+    "script": "common_prefix = 0\nfor i in range(64):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nprint(common_prefix)"
+  },
+  "script_validation": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 48,
+      "actual": 48,
+      "runner": {
+        "result": {
+          "common_prefix": 48,
+          "i": 48
+        },
+        "stdout": "48\n",
+        "elapsed_seconds": 0.0346,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    },
+    {
+      "name": "sandbox_script_matches_independent_MP0_target",
+      "status": "PASS",
+      "expected": 48,
+      "actual": 48,
+      "runner": {
+        "result": {
+          "common_prefix": 48,
+          "i": 48
+        },
+        "stdout": "48\n",
+        "elapsed_seconds": 0.0277,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "preview_test_expected": 48,
+  "selected_target": "MP0",
+  "source_preview": [
+    {
+      "region": "SW",
+      "bytes": 30281958,
+      "prefix_hex": "282a245349454d454e53265e29000000436f7079726967687420313939380000322e302e300000000000000000000000455534343432303934302e3832000000"
+    },
+    {
+      "region": "Italy",
+      "bytes": 165510023,
+      "prefix_hex": "282a245349454d454e53265e29000000436f7079726967687420313939380000322e302e3000000000000000000000004934343433313934302e383200000000"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 220863350,
+      "prefix_hex": "282a245349454d454e53265e29000000436f7079726967687420313939380000322e302e300000000000000000000000534334343434323934302e3832000000"
+    }
+  ],
+  "script_path": "research/runs/coordinator/AUTO_RESEARCH_FOLLOWUP_bd6b799d79a8/model_generated_script.py",
+  "script_sha256": "908d9fafdb377a47661cb6e1a408b5dd3ef2dc64b58dea9144942436debc3bac",
+  "warning": "Hypothesis is proposed, not a confirmed format fact."
+}

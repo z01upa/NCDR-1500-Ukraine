@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_e1de6931ec49",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_8d966e5a09870f8b",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE.DLL",
+  "selected_source_sha256": "d4584197b1bf2ba862f602539f5447695ab787336020e8934de745cf0e3ae719",
+  "selected_size_bytes": 22016,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "Selected for NCDx reverse engineering (Track NCDX_REVERSE_ENGINEERING) to analyze firmware structures and update mechanisms; does not require hardware access or write operations.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_8d966e5a09870f8b",
+  "candidate_fingerprint": "e1de6931ec49a6f581d1ebd97fb2c9121df472ad04a2ef50aee72b808c7240f3",
+  "remaining_unseen_candidates": 5,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:05:35.496623+00:00"
+}

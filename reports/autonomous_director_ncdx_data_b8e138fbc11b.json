@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b8e138fbc11b",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_EXACT_BLOCK_ANCHOR_SCAN_5296481b",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_EXACT_BLOCK_ANCHOR_SCAN_5296481b",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected MG1 as it represents a significant volume of input data (78,667,691 bytes) compared to other options, providing robust structural evidence for map storage or index analysis without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_EXACT_BLOCK_ANCHOR_SCAN_5296481b",
+  "candidate_fingerprint": "2e07617e9698495abaa94067200ed17d930fb71e6a329b2c33d7b3fad35a9a82",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b8e138fbc11b",
+  "remaining_unique_experiments": 16,
+  "created_utc": "2026-10-26T23:13:36.181605+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

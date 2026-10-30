@@ -1,0 +1,16 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.RT",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.RT",
+    "SW/DB/EUZ.RT",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_RT_STANDALONE_ZLIB_STREAM_CENSUS_c21b42e2.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "20d0efb63a29e5b35348d4c155c2cf311de10c8101efae855de79e4603dc5460",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_RT_STANDALONE_ZLIB_STREAM_CENSUS_c21b42e2",
+  "updated_utc": "2026-10-27T13:31:47.680366+00:00",
+  "verified_by_independent_reviewer": false
+}

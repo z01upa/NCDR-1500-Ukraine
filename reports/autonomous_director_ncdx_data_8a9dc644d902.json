@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_8a9dc644d902",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CNY_EXACT_BLOCK_ANCHOR_SCAN_cf7bef72",
+  "selected_goal_id": "AUTO_NCDX_DATA_CNY_EXACT_BLOCK_ANCHOR_SCAN_cf7bef72",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected for its minimal input footprint (46206 bytes) while maintaining the EXACT_BLOCK_ANCHOR_SCAN method, allowing efficient verification of data integrity without exceeding read limits or risking media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CNY_EXACT_BLOCK_ANCHOR_SCAN_cf7bef72",
+  "candidate_fingerprint": "c96c10d1c3b1e8de9b9a3f514fcb0c2c8df068ee15cbb43b3ae01ad2f0258069",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_8a9dc644d902",
+  "remaining_unique_experiments": 6,
+  "created_utc": "2026-10-26T23:16:35.352173+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

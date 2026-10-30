@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_e91e16d9f490",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_STT_DEFLATE_COMPRESSIBILITY_PROFILE_aa88916f",
+  "selected_goal_id": "AUTO_NCDX_DATA_STT_DEFLATE_COMPRESSIBILITY_PROFILE_aa88916f",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on available evidence for STT region data under DEFLATE compressibility profiling, which may inform storage efficiency or index optimization without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_STT_DEFLATE_COMPRESSIBILITY_PROFILE_aa88916f",
+  "candidate_fingerprint": "1d80b8705676bec6fdf5ac686678e8b009e6c7662159bb3860e9d67a12729ced",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_e91e16d9f490",
+  "remaining_unique_experiments": 24,
+  "created_utc": "2026-10-26T22:24:36.199201+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_05dd9db62699",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_aec29e34",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_aec29e34",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected the MG2 experiment with 8-byte context as it represents a low-overhead, high-frequency sampling strategy suitable for initial uncertainty reduction in map storage and address/index data structures without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_aec29e34",
+  "candidate_fingerprint": "8663243a48f4a5d8182f1d8a974e8010a995ac250bc9fa6b19affaba8ae565a0",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_05dd9db62699",
+  "remaining_unique_experiments": 5,
+  "created_utc": "2026-10-27T13:48:28.296561+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

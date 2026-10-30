@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE01.DLL",
+    "reports/autonomous_director_sw_component_d12cf7ebf584.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "4829f768e44457ed86262fad7b82b30f2eae3ba9403e7d3f3f13f2bddb9a6328",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_d12cf7ebf584",
+  "updated_utc": "2026-10-27T20:01:42.132362+00:00",
+  "verified_by_independent_reviewer": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "canonical_id": "A09",
+  "objective": "Контракт файлових TASKS/RESULTS плюс SQLite outbox/inbox, schema validation, atomic rename та dedupe.",
+  "acceptance": {
+    "status": "PASS",
+    "checks": {
+      "task_roundtrip": true,
+      "result_roundtrip": true,
+      "idempotent_duplicates": true,
+      "journal_recovery": true,
+      "recovery_hashes_match": true,
+      "conflicts_and_unsafe_inputs_rejected": true,
+      "first_records_preserved": true,
+      "no_temporary_files_left": true,
+      "sqlite_integrity": true
+    },
+    "record_hashes": {
+      "tasks_sha256": "73af6657057dbc7e1fb02f98906134aa717e01f5fbb876499b26cccae4def7b9",
+      "results_sha256": "6aef6d9893576d0bdba934e9e5f776a22a0d2703728da9e28084447b5a402e28"
+    },
+    "synthetic_data_only": true,
+    "temporary_data_removed": true,
+    "original_media_write_count": 0,
+    "created_utc": "2026-10-26T15:57:15.825812+00:00"
+  },
+  "created_utc": "2026-10-26T15:57:15.825829+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

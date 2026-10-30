@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_7281ec36be77",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_67fa61fc",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_67fa61fc",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains multiple streams with candidate measurements for coordinate alignments (e.g., `alignment_6`, `alignment_0`). Selecting a goal focused on decoding these zlib-compressed coordinate candidates directly addresses the uncertainty regarding map storage and index data structures. The evidence shows varied alignment scales and orderings (lon_lat vs lat_lon) across different stream indices, making a census of these decoded coordinates the most relevant next step to reduce uncer",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_67fa61fc",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "8005decb21b4697ef04ad1a265ea375e45c2b7738c058485314d5a7464ee99ac",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_7281ec36be77",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T15:42:30.442143+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

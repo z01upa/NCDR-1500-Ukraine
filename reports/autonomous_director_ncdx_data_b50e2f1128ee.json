@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b50e2f1128ee",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6fe3dd6b",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6fe3dd6b",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for `alignment_*` with varying scales and coordinate orders (lat_lon/lon_lat). The evidence shows a high volume of decompressed bytes (~1.7MB total in the sample) containing coordinate candidates. Selecting this goal prioritizes reducing uncertainty about map storage by decoding these zlib-compressed coordinate candidates, which are essential for reconstructing the underlying map geometry without asserting semantic meaning to suff",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6fe3dd6b",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "9bd9043869c85b8a397a758ae181d1402aa27f0ec600e3c7abb1f8003efe919e",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b50e2f1128ee",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T20:35:52.707308+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

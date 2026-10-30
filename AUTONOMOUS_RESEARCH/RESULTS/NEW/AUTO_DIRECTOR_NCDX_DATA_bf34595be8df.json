@@ -1,0 +1,13 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_director_ncdx_data_bf34595be8df.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "b6005274ce247fcb63831ecddfcdaa55b2d0612eac82cb6472fe8e88f42d55b7",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_bf34595be8df",
+  "updated_utc": "2026-10-27T15:58:01.655449+00:00",
+  "verified_by_independent_reviewer": false
+}

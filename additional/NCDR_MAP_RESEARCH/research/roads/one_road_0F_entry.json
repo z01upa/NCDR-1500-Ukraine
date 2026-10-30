@@ -1,0 +1,13 @@
+{
+  "0F_sector": 6937,
+  "logical_offset": 18960,
+  "raw_ch_idx": "0031a01f31010f2000b90000",
+  "key": "1",
+  "index_flag": 1,
+  "target_0E_sector": 12704,
+  "target_span": 31,
+  "target_type": "0x0e",
+  "list_ptr_into_0E": 3872,
+  "list_count": 185,
+  "conclusion": "CH_IDX identifies a list inside the 0x0E block through its LIST ptr/count, not merely the block."
+}

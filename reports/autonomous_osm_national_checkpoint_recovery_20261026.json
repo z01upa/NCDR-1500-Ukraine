@@ -1,0 +1,16 @@
+{
+  "status": "PASS_GZIP_EOF_AND_SOURCE_BINDING",
+  "task_id": "AUTO_OSM_NATIONAL_CONVERSION_01",
+  "previous_error": "RuntimeError: could not start or capture bounded task process: задача перевищила ліміт 3600 секунд",
+  "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+  "extract_path": "work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.osm.gz",
+  "extract_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+  "extract_bytes": 1819407591,
+  "decompressed_bytes": 10969225088,
+  "nodes_written": 112493890,
+  "selected_ways": 13440203,
+  "gzip_crc_and_eof_verified": true,
+  "retry_count_limit": 1,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-26T08:40:22.258881+00:00"
+}

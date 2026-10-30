@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/WINDOWS/NAVIMAIN.EXE",
+    "work/autonomous_manager/ncdx/firmware_imports/AUTO_NCDX_PE_IMPORT_CENSUS_V1_508E33703AE6FD31.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "9a8bc71a6d79f8994615817318b27141069ca010db07fc345f64341d91a62f33",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_IMPORT_CENSUS_V1_508E33703AE6FD31",
+  "updated_utc": "2026-10-28T17:09:21.492265+00:00",
+  "verified_by_independent_reviewer": false
+}

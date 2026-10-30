@@ -1,0 +1,31 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secrets*
+
+# Local state, caches, and generated work
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.sqlite
+*.sqlite3
+*.db
+work/
+backups/
+cache/
+caches/
+
+# Original or personally scoped data stays local
+/local-only/
+/originals/
+/input_reference/

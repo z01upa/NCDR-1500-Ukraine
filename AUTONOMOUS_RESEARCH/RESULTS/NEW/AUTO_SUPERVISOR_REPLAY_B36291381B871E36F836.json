@@ -1,0 +1,19 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_roadlink_name_consistency_v1_93291c06050e22ef.json",
+    "reports/periodic/daily/2026-10-28.json",
+    "reports/periodic/daily/2026-10-28.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "596a0664ee770a95bd432b690a190fc381fcb58fb4612b7a83e19cc11c4fba8e",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_REPLAY_B36291381B871E36F836",
+  "updated_utc": "2026-10-28T16:53:26.094821+00:00",
+  "verified_by_independent_reviewer": false
+}

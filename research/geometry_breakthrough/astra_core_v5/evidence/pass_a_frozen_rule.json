@@ -1,0 +1,27 @@
+{
+  "discovery_blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "rule": "For head degree 1..4 use u16 refs at +2 onward. For head degree 5..7 use three u16 refs at +4/+6/+8 then degree-3 u16 refs at +0 onward of next physical Section4 record. Consume/skip that continuation record; do not interpret its first byte as degree. +2 of high-degree head remains opaque. Do not merge nodes by coordinates.",
+  "holdout": "blocks>=20 with no main OR secondary coordinate shared with any discovery-block main/secondary coordinate. Conservative coordinate exclusion for leakage prevention only, not node identity. Quarantine excluded neighboring blocks.",
+  "verification": "derive exact primary endpoint incidence independently from Section5 index and 0x1000/0x2000 table selectors; compare multisets; compare continuation coverage against old 511/1325 anomalies. No test-driven rule changes."
+}

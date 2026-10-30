@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_OSM_READBACK_01",
+  "target_task": "AUTO_OSM_READBACK_AFTER_RESTART_01",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [],
+    "suggested_next_goal_id": "AUTO_OSM_READBACK_AFTER_RESTART_02"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_OSM_READBACK_AFTER_RESTART_01",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "database": "work\\autonomous_manager\\osm_pipeline\\real_conversion\\kryvyi_rih.sqlite",
+      "database_sha256": "244e89787e9d5f5d3ed42452bfd427afb86ed49bd6a3fa85849b1c51fd8d790d",
+      "extract": "work\\autonomous_manager\\osm_pipeline\\real_conversion\\kryvyi_rih.osm.gz",
+      "extract_sha256": "2d981f096b1312130831c7967c26913e4c87cc4b6c335df9bfa693a4f1a05cf5",
+      "database_source_sha256": "2d981f096b1312130831c7967c26913e4c87cc4b6c335df9bfa693a4f1a05cf5",
+      "importer_version": "0.1.0",
+      "integrity_check": "ok",
+      "nodes": 1662663,
+      "edges": 548476,
+      "features": 58793,
+      "search": {
+        "start": "вулиця Соборності",
+        "end": "вулиця Героїв АТО",
+        "start_node": "1232315390",
+        "end_node": "9899669185"
+      },
+      "route": {
+        "distance_m": 1452.379425327918,
+        "node_count": 45,
+        "way_count": 44,
+        "limitations": []
+      },
+      "source_pbf": "data\\osm\\ukraine-latest.osm.pbf",
+      "source_sha256_before": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+      "source_sha256_after": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+      "source_unchanged": true
+    }
+  },
+  "created_utc": "2026-10-25T18:18:42.944682+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": "AUTO_DIRECTOR_PLAN_NCDX_01",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.json",
+      "sha256": "c413238be98587b2e896fee53f2e8a24d8b24494ce06f85ff24f5e99d06d8418",
+      "size_bytes": 20721,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.md",
+      "sha256": "8ec1884df8d89a93d096f93ac1f41034050eaec6dd022c84c8fc9e50a76ba711",
+      "size_bytes": 3738,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.json",
+      "sha256": "30caa5935ad5a3f9570aaed7e7a334d68dea4470c859e4f1a19304638c1be5a8",
+      "size_bytes": 20722,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.md",
+      "sha256": "cae76f59d6aca8508e6cc98fe9aa816dc3e1195690a2aa9cd7f4a6bb14e8b5cd",
+      "size_bytes": 3737,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "64fbe3e1b39163fb66e70b017e39ba46b154910d55efa6758232fdf21e4b3946",
+      "size_bytes": 20723,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "73b496c94fa5bdb6598057cac18cfea7f3d21eb26cc18f65f7ad58b3308b99c9",
+      "size_bytes": 3737,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "test": "NCDR Manager GUI close survival",
+  "observed_after_close_local": "2026-10-27T20:25:08.590777+02:00",
+  "gui_pid": 24772,
+  "graceful_close_requested": true,
+  "gui_process_survived": false,
+  "worker_pid": 30032,
+  "worker_alive_after_close": true,
+  "manager_scheduled_task": "Running",
+  "soak_scheduled_task": "Running",
+  "soak_report_status": "IN_PROGRESS",
+  "verified_qwen_cycles_after_close": 370,
+  "verified_full_payload_cycles_after_close": 359,
+  "latest_continuation_director": "AUTO_DIRECTOR_NCDX_DATA_bb8fa47d7d02",
+  "latest_continuation_status": "DONE",
+  "codex_calls": 0,
+  "pending_or_blocked_osm": 0,
+  "result": "PASS",
+  "scope_note": "GUI close did not stop the Task Scheduler-owned headless Worker. The six-hour soak remained in progress at this observation."
+}

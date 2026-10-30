@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "image_sha256": "ed2f3546e83130e03e8e8ef713540417e56e4dd7eebd313cba1065408e4d7906",
+  "original_nk_sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "sections": [
+    {
+      "module": "NavigationRem.dll",
+      "section": 0,
+      "stored_bytes": 929724,
+      "decoded_bytes": 929724,
+      "packets": [
+        240
+      ],
+      "sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9"
+    },
+    {
+      "module": "NavigationRem.dll",
+      "section": 1,
+      "stored_bytes": 140842,
+      "decoded_bytes": 140842,
+      "packets": [
+        241
+      ],
+      "sha256": "87de7ed999f8a2daa6b453095e388db9296d6714050f3d2abb304caf70df8751"
+    },
+    {
+      "module": "NavigationRem.dll",
+      "section": 2,
+      "stored_bytes": 11211,
+      "decoded_bytes": 22041,
+      "packets": [
+        396
+      ],
+      "sha256": "f8c2a55f0897b13d03681c89619e9d83874d4c622ab776fccf43de476addcbe3"
+    },
+    {
+      "module": "NavigationRem.dll",
+      "section": 3,
+      "stored_bytes": 24968,
+      "decoded_bytes": 32438,
+      "packets": [
+        397
+      ],
+      "sha256": "781947e5f45fc07a307c58e4a4396a7121636fbc0bb049bb02abf2e0607201f6"
+    },
+    {
+      "module": "NavigationRem.dll",
+      "section": 4,
+      "stored_bytes": 37540,
+      "decoded_bytes": 37540,
+      "packets": [
+        242
+      ],
+      "sha256": "5783369285e91b1c73b0ae0efd7e9b6aa220832ac0551f8e162458a3e10115db"
+    },
+    {
+      "module": "nmicore_ce.dll",
+      "section": 0,
+      "stored_bytes": 117668,
+      "decoded_bytes": 117668,
+      "packets": [
+        248
+      ],
+      "sha256": "759c2aaf78bffb5f1237216ed893d3f75f5775d644c531ff383c3eaea6075ebf"
+    },
+    {
+      "module": "nmicore_ce.dll",
+      "section": 1,
+      "stored_bytes": 40242,
+      "decoded_bytes": 40242,
+      "packets": [
+        249
+      ],
+      "sha256": "89a9e2bdf620069df42f01916a9a97c2b23dbff6b5536900f602d23526afd54f"
+    },
+    {
+      "module": "nmicore_ce.dll",
+      "section": 2,
+      "stored_bytes": 1160,
+      "decoded_bytes": 1447,
+      "packets": [
+        801
+      ],
+      "sha256": "5fbaf3459c60ededada4ea9a1188c1ed6a2e760a45179e2f4ba0dc111386bc51"
+    },
+    {
+      "module": "nmicore_ce.dll",
+      "section": 3,
+      "stored_bytes": 3123,
+      "decoded_bytes": 4246,
+      "packets": [
+        815
+      ],
+      "sha256": "c1bc325e7dc2c5aea01cdc30557a7ba1d5253274e3524d4c649a4976d8e0d32a"
+    },
+    {
+      "module": "nmicore_ce.dll",
+      "section": 4,
+      "stored_bytes": 2880,
+      "decoded_bytes": 2880,
+      "packets": [
+        250
+      ],
+      "sha256": "ab1422c1139840d4a1f4c9f57133d17cdd913f49d789915e76797cde1d585957"
+    }
+  ],
+  "distinct_source_packets_verified": 10,
+  "hole_guard": true,
+  "truncation_guard": true,
+  "image_unchanged": true,
+  "windows_execution": "NOT VERIFIED",
+  "hardware_execution": "NOT VERIFIED"
+}

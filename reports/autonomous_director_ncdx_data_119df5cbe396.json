@@ -1,0 +1,19 @@
+{
+  "status": "PASS_WITH_BOUNDED_FALLBACK",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_119df5cbe396",
+  "model": null,
+  "model_error": "URLError: <urlopen error [WinError 10013] Сделана попытка доступа к сокету методом, запрещенным правами доступа>",
+  "model_choice": null,
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_426b1e59",
+  "selection_source": "first remaining fixed candidate",
+  "selection_reason": "URLError: <urlopen error [WinError 10013] Сделана попытка доступа к сокету методом, запрещенным правами доступа>",
+  "safe_schema_validated": false,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_426b1e59",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "25a3786bf73784a6012de9ffdd250a1cf287509a76e6c0251cab36adbb8ff502",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_119df5cbe396",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T18:07:57.056623+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

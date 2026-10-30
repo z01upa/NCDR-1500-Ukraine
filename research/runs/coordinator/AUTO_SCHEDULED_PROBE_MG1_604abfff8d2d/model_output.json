@@ -1,0 +1,68 @@
+{
+  "task_id": "AUTO_SCHEDULED_PROBE_MG1_604abfff8d2d",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"hypothesis\": \"Заголовки однакових розширень з трьох регіональних наборів Opel NCDx мають спільний префікс.\",\n  \"target_suffix\": \"MG1\",\n  \"expected_observation\": \"Заголовки мають спільний префікс.\",\n  \"falsifier\": \"Заголовки мають різні префікси.\",\n  \"script\": \"common_prefix = 0\\nfor i in range(64):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nif common_prefix == 0:\\n    print('Falsifier: Заголовки мають різні префікси.')\\nelse:\\n    print('Hypothesis: Заголовки мають спільний префікс.')\"\n}",
+  "parsed": {
+    "hypothesis": "Заголовки однакових розширень з трьох регіональних наборів Opel NCDx мають спільний префікс.",
+    "target_suffix": "MG1",
+    "expected_observation": "Заголовки мають спільний префікс.",
+    "falsifier": "Заголовки мають різні префікси.",
+    "script": "common_prefix = 0\nfor i in range(64):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nif common_prefix == 0:\n    print('Falsifier: Заголовки мають різні префікси.')\nelse:\n    print('Hypothesis: Заголовки мають спільний префікс.')"
+  },
+  "script_validation": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 48,
+      "actual": 48,
+      "runner": {
+        "result": {
+          "common_prefix": 48,
+          "i": 48
+        },
+        "stdout": "Hypothesis: Заголовки мають спільний префікс.\n",
+        "elapsed_seconds": 0.035,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    },
+    {
+      "name": "sandbox_script_matches_independent_MG1_target",
+      "status": "PASS",
+      "expected": 48,
+      "actual": 48,
+      "runner": {
+        "result": {
+          "common_prefix": 48,
+          "i": 48
+        },
+        "stdout": "Hypothesis: Заголовки мають спільний префікс.\n",
+        "elapsed_seconds": 0.0279,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "preview_test_expected": 48,
+  "selected_target": "MG1",
+  "source_preview": [
+    {
+      "region": "SW",
+      "bytes": 17093874,
+      "prefix_hex": "282a245349454d454e53265e29000000436f7079726967687420313939380000322e302e300000000000000000000000455534343432303934302e3832000000"
+    },
+    {
+      "region": "Italy",
+      "bytes": 33832155,
+      "prefix_hex": "282a245349454d454e53265e29000000436f7079726967687420313939380000322e302e3000000000000000000000004934343433313934302e383200000000"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 27741662,
+      "prefix_hex": "282a245349454d454e53265e29000000436f7079726967687420313939380000322e302e300000000000000000000000534334343434323934302e3832000000"
+    }
+  ],
+  "script_path": "research/runs/coordinator/AUTO_SCHEDULED_PROBE_MG1_604abfff8d2d/model_generated_script.py",
+  "script_sha256": "412803b8c3e58829e515fe60c1403983db0dfbd4cfd7809e7a008f195342d135",
+  "warning": "Hypothesis is proposed, not a confirmed format fact."
+}

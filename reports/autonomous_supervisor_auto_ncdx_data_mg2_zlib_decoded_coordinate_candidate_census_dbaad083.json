@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dbaad083",
+  "target_task": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dbaad083",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "NCDx binary header structure",
+      "Target device firmware layout",
+      "Physical compatibility in Opel NCDR"
+    ],
+    "suggested_next_goal_id": "NCDX_REVERSE_ENGINEERING"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dbaad083",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_coordinate_rescan": true,
+      "independent_region_count": 3,
+      "stream_count_by_region": {
+        "SW": 2017,
+        "Italy": 2511,
+        "Scandinavia": 2335
+      },
+      "sampled_stream_count_by_region": {
+        "SW": 505,
+        "Italy": 628,
+        "Scandinavia": 584
+      },
+      "sample_trace_sha256_by_region": {
+        "SW": "597f66955c8bc52c4289c19042a9f7548db3b438bdb4030b9cc5da8456397ccd",
+        "Italy": "b96a075d16e06af67255fc8f3b3c4a7a5399e3998876c6afcce98d6e586fb365",
+        "Scandinavia": "b2cb543c8ed6f2af8bd2d5d5ccf67c00b8102fb51226612c92701638b900d6c2"
+      },
+      "raw_sample_bytes_retained": false,
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded zlib coordinate candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T14:40:06.275237+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "local Project Director is choosing the next verified-format round-trip over real regional map data",
+  "followup_task_id": "AUTO_DIRECTOR_NCDX_DATA_f128ea13b542",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "81e33a831e00ee267d5617ab8f2cdbb3a05278538bcabac964d75794d0682fca",
+      "size_bytes": 28674,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "b120a11e3dd5fed60add076993eb411f0af1ddf792ff906823069ce77679a598",
+      "size_bytes": 4895,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "af0aa1b3bbf02fc1898020029abf4bd55f54e691655b9cd514a5cb13dedd8502",
+      "size_bytes": 28675,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "2fc9ecc309f2616a271bd28b09423b044a8abfebe7e71dda323dec18033c4e4c",
+      "size_bytes": 4894,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "ed4eac64492ea9b10bde23ede76f37a30c95ec2946861302f7ba633f557048f0",
+      "size_bytes": 28676,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "8c26b819ed3f64f5a5d76b406d2818481cdd342d932003a17c9992207dcac62e",
+      "size_bytes": 4894,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

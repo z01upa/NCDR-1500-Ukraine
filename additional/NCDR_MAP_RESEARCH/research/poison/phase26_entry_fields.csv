@@ -1,0 +1,8 @@
+offset_range,observed_structure,classification,confidence
+0x00-0x01,BE uint16 X16,local longitude coordinate,confirmed controlled model
+0x02-0x03,BE uint16 Y16,local latitude coordinate,confirmed controlled model
+0x04-0x05,BE uint16 META16,variable metadata; exact role unresolved,confirmed variation
+0x06-0x09,mostly zero in inserted entry; limited nonzero values,unknown/possible flags,unresolved
+0x0A-0x0D,recurring 0x3B87-family prefixes and changing words,rank/index/pointer candidate,unresolved
+0x0E-0x15,mostly zero in examined neighborhood,unknown,unresolved
+0x16-0x1B,recurring pointer/index-like values,local/external pointer candidate,unresolved

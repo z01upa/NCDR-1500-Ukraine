@@ -1,0 +1,3 @@
+- 0x00: 196 readable blocks; LIST(0x74,3) matches 0/196.
+- 0x02: 3036 readable blocks; LIST(0x74,3) matches 0/3036.
+- Prefix fields are reported as validated uint16 local-offset candidates; no additional semantic names are asserted.

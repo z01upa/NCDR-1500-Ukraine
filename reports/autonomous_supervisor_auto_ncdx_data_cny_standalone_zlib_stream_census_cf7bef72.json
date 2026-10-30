@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_CNY_STANDALONE_ZLIB_STREAM_CENSUS_cf7bef72",
+  "target_task": "AUTO_NCDX_DATA_CNY_STANDALONE_ZLIB_STREAM_CENSUS_cf7bef72",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance",
+      "Physical compatibility in Opel NCDR vehicle"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_CNY_STANDALONE_ZLIB_STREAM_CENSUS_cf7bef72",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_rescan": true,
+      "independent_region_count": 3,
+      "confirmed_stream_count_by_region": {
+        "SW": 0,
+        "Italy": 0,
+        "Scandinavia": 0
+      },
+      "header_candidates_by_region": {
+        "SW": 0,
+        "Italy": 0,
+        "Scandinavia": 0
+      },
+      "attempt_cap_hit_by_region": {
+        "SW": false,
+        "Italy": false,
+        "Scandinavia": false
+      },
+      "cross_region_shared_payload_count": 0,
+      "cross_region_shared_inventory_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded checksum-valid zlib candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T13:34:20.913330+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "446a4144d15eaf02d86cc0887505727734a9d3da2af0094b8bb4d296328dc000",
+      "size_bytes": 28204,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "bfa754fb5561340b445a4f66b7634106ddbef19e876a467c04781cc18d115396",
+      "size_bytes": 4687,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "51773cf0bf9f99d26425387ed2e7535dd8289a0301b682014970819c5a44a54f",
+      "size_bytes": 28205,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "8baa4f1e7441ebd2c9c73a74998cd4307261bc451888a09d421bb59c7a7ddcf6",
+      "size_bytes": 4686,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "df8f6f258d01d56c65a90a5bedf4b5a93715ba2af650a4dd897f7710520a2aa3",
+      "size_bytes": 28206,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "75b86d0beba95699234a1f2f24521e1170541de640ededa9534b306e96de59c2",
+      "size_bytes": 4686,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

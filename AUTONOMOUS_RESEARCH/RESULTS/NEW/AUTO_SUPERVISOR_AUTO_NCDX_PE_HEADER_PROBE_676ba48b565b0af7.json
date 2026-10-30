@@ -1,0 +1,20 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_LANGUAGE_LOC_0090200006/LANGUAGEUPDATE01.DLL",
+    "reports/autonomous_supervisor_auto_ncdx_pe_header_probe_676ba48b565b0af7.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "b54e5c6dc3cca793fd9e57ffd0604d242a08b92cbc9cd4809b3b2aa0bc50fb20",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_PE_HEADER_PROBE_676ba48b565b0af7",
+  "updated_utc": "2026-10-27T20:03:11.869058+00:00",
+  "verified_by_independent_reviewer": false
+}

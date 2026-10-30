@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "canonical_id": "A07",
+  "objective": "Crash-safe SQLite із leases, ідемпотентними task ID, atomic writes, salvage orphan leases та state transitions.",
+  "acceptance": {
+    "status": "PASS",
+    "tests": [
+      "tests.unit.test_state_store",
+      "tests.unit.test_resumable_national"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "created_utc": "2026-10-26T12:51:09.067692+00:00"
+  },
+  "created_utc": "2026-10-26T12:51:09.067707+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

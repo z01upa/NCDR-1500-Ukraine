@@ -1,0 +1,68 @@
+{
+  "status": "REFUSED_BEFORE_MUTATION",
+  "source": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.MP0",
+  "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "candidate": {
+    "block": 886,
+    "node_a": 412,
+    "node_b": 414,
+    "block_node_count": 664,
+    "block_edge_count": 706,
+    "node_records": [
+      {
+        "node": 412,
+        "record_hex": "6308c5002702b0000602",
+        "stored_low_nibble": 3,
+        "candidate_active_refs": [
+          197,
+          551,
+          176
+        ],
+        "four_u16_words": [
+          197,
+          551,
+          176,
+          518
+        ]
+      },
+      {
+        "node": 414,
+        "record_hex": "4308c300c40029020f01",
+        "stored_low_nibble": 3,
+        "candidate_active_refs": [
+          195,
+          196,
+          553
+        ],
+        "four_u16_words": [
+          195,
+          196,
+          553,
+          271
+        ]
+      }
+    ],
+    "existing_primary_local_edges_between_pair": [],
+    "hypothetical_next_edge_id": 706
+  },
+  "topology_audit_status": "PASS_WITH_UNRESOLVED_ROUTING_AND_HIGH_DEGREE_LINKS",
+  "routing_file_audit_status": "PASS_CONTAINERS_DECODED_SEMANTICS_UNKNOWN",
+  "blockers": [
+    "The next Section-4 u16 after low-degree links is opaque and nonzero in most records; adding a link would overwrite unknown data.",
+    "For low nibble >4, only partial references are identified; the first word at +2 and the missing high-degree links are unresolved.",
+    "There are 511 low-degree node-index mismatches at repeated coordinates; coordinates cannot be used to merge those node identities.",
+    "Section-5 attributes and unresolved fields, including road class, direction, access, and routing semantics, are unknown.",
+    "Sections 7-9 contain edge-index-shaped keys; their row ownership and rekey rules are not proven. Section 6 ownership is also unresolved.",
+    "EUZ.RT is a separate type-22 companion container whose relationship to MP0 edges is not established."
+  ],
+  "output_file_created": false,
+  "source_write_count": 0,
+  "routing_compatibility_claim": "NOT_ESTABLISHED",
+  "requested_output": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\research\\geometry_breakthrough\\writer_v2\\evidence\\must_not_exist_6e46706974044b17921ee51da7be7be1.MP0",
+  "supplied_geometry_point_count": 0,
+  "supplied_unknown_fields": {
+    "flags": null,
+    "attributes": null,
+    "unresolved": null
+  }
+}

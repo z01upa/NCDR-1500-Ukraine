@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_way_id": 1295825030,
+        "highway": "primary",
+        "int_ref": "E 50;E 58",
+        "lanes": "2",
+        "maxspeed:backward": "90",
+        "maxspeed:forward": "60",
+        "old_ref": "50",
+        "ref": "19",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "source:maxspeed:backward": "SK:rural",
+        "source:maxspeed:forward": "sign",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "attribution": "OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              22.2612853,
+              48.6551436
+            ],
+            [
+              22.2614158,
+              48.655202700000004
+            ],
+            [
+              22.2615503,
+              48.6552778
+            ],
+            [
+              22.2616766,
+              48.6553521
+            ],
+            [
+              22.261818,
+              48.6554565
+            ],
+            [
+              22.262790300000002,
+              48.656249700000004
+            ],
+            [
+              22.263154200000002,
+              48.656534400000005
+            ],
+            [
+              22.263678600000002,
+              48.6569425
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

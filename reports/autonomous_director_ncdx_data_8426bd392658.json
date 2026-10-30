@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_8426bd392658",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MP0_DEFLATE_COMPRESSIBILITY_PROFILE_65e558d6",
+  "selected_goal_id": "AUTO_NCDX_DATA_MP0_DEFLATE_COMPRESSIBILITY_PROFILE_65e558d6",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the requirement to prioritize evidence reducing uncertainty about map storage; this goal processes MP0 data using a DEFLATE compressibility profile, which directly assesses storage efficiency and compression characteristics of map index or storage blocks without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MP0_DEFLATE_COMPRESSIBILITY_PROFILE_65e558d6",
+  "candidate_fingerprint": "b3369c1e43b740a49631fd072562b23ed4d6256cfc48c24e059db5d26f599f12",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_8426bd392658",
+  "remaining_unique_experiments": 35,
+  "created_utc": "2026-10-26T22:21:09.717098+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

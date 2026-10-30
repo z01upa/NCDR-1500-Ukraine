@@ -1,0 +1,1301 @@
+{
+  "canonical_id": "B06",
+  "claim_boundaries": {
+    "db_0_assumptions_transferred": false,
+    "original_media_write_count": 0,
+    "physical_disc_compatibility_proven": false,
+    "record_semantics_proven_for_all_families": false,
+    "road_geometry_proven": false,
+    "routing_proven": false
+  },
+  "created_utc": "2026-10-28T15:58:11.113518+00:00",
+  "evidence_references": [
+    {
+      "evidence_path": "evidence/region-diff-records.json",
+      "evidence_sha256": "a251f4ee48a4de81199ad6a16378d0e8bf5971f863db0f7c23e8b11d6fdbb741",
+      "experiment": "",
+      "hypothesis_result": "PASS",
+      "path": "reports/mission_pack/runtime/B02.json",
+      "sha256": "8ce4266b2007ec0dbae69eab8f9d7476fc018891da996a0739cad8e4dd8b1491",
+      "task_id": "AUTO_MISSION_EXEC_B02_7F6A6101"
+    },
+    {
+      "evidence_path": "work/autonomous_manager/ncdx/roadlink_portability/AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8.json",
+      "evidence_sha256": "72ed04cdb3e1b1098f364b12152d847f7d0f235bf05101740ed3c439f1e6e268",
+      "experiment": "ncdx_roadlink_index_portability",
+      "hypothesis_result": "SUPPORTED",
+      "path": "work/autonomous_manager/ncdx/roadlink_portability/AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8.json",
+      "sha256": "72ed04cdb3e1b1098f364b12152d847f7d0f235bf05101740ed3c439f1e6e268",
+      "task_id": "AUTO_NCDX_ROADLINK_PORTABILITY_V1_35CFAF6ED2C9EAF8"
+    },
+    {
+      "evidence_path": "work/autonomous_manager/ncdx/geography_portability/AUTO_NCDX_GEOGRAPHY_PORTABILITY_V1_35B1A7A107C8243C.json",
+      "evidence_sha256": "96674d43f63561ef1ccb85400e4234bc5055a2078574ce59a95955a342e4b15a",
+      "experiment": "ncdx_cty_cny_spatial_header_portability",
+      "hypothesis_result": "SUPPORTED",
+      "path": "work/autonomous_manager/ncdx/geography_portability/AUTO_NCDX_GEOGRAPHY_PORTABILITY_V1_35B1A7A107C8243C.json",
+      "sha256": "96674d43f63561ef1ccb85400e4234bc5055a2078574ce59a95955a342e4b15a",
+      "task_id": "AUTO_NCDX_GEOGRAPHY_PORTABILITY_V1_35B1A7A107C8243C"
+    },
+    {
+      "evidence_path": "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_FEA_BLOCK_ALIGNMENT_00ddf81e.json",
+      "evidence_sha256": "061f56640f84864622b8f49859cfc4fa7d093c6721536f5aee2f0fb7f4b10246",
+      "experiment": "",
+      "hypothesis_result": "PASS",
+      "path": "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_FEA_BLOCK_ALIGNMENT_00ddf81e.json",
+      "sha256": "061f56640f84864622b8f49859cfc4fa7d093c6721536f5aee2f0fb7f4b10246",
+      "task_id": "AUTO_NCDX_DATA_FEA_BLOCK_ALIGNMENT_00ddf81e"
+    },
+    {
+      "evidence_path": "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_RD_BLOCK_ALIGNMENT_ca740496.json",
+      "evidence_sha256": "b03e2465b75d3ca7d24579b5ad8b89f4b4b2b2aa4822412a3083f8cf70308f5e",
+      "experiment": "",
+      "hypothesis_result": "PASS",
+      "path": "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_RD_BLOCK_ALIGNMENT_ca740496.json",
+      "sha256": "b03e2465b75d3ca7d24579b5ad8b89f4b4b2b2aa4822412a3083f8cf70308f5e",
+      "task_id": "AUTO_NCDX_DATA_RD_BLOCK_ALIGNMENT_ca740496"
+    },
+    {
+      "evidence_path": "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_RT_BLOCK_ALIGNMENT_32a58e38.json",
+      "evidence_sha256": "3b6001c7c1785e5f89c14dda31e8133f7700bba49348c6960948f4949978e102",
+      "experiment": "",
+      "hypothesis_result": "PASS",
+      "path": "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_RT_BLOCK_ALIGNMENT_32a58e38.json",
+      "sha256": "3b6001c7c1785e5f89c14dda31e8133f7700bba49348c6960948f4949978e102",
+      "task_id": "AUTO_NCDX_DATA_RT_BLOCK_ALIGNMENT_32a58e38"
+    }
+  ],
+  "experiment": "ncdx_evidence_aggregation_catalog_v1",
+  "families": [
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 1048576,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 14955,
+        "SW": 2956,
+        "Scandinavia": 17697
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916181,
+              3309025,
+              3020566,
+              7245772
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 14955,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "mp0_fixed_fields": {
+              "copyright": "Copyright 1998",
+              "dataset_code": "I44431940.82",
+              "internal_format_version": "2.0.0",
+              "magic": "(*$SIEMENS&^)",
+              "offsets": {
+                "copyright": 16,
+                "dataset_code": 48,
+                "internal_format_version": 32,
+                "magic": 0
+              }
+            },
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 165091169,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "source_size_bytes": 165510023,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916181,
+              3626352,
+              3020566,
+              7317051
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 2956,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "mp0_fixed_fields": {
+              "copyright": "Copyright 1998",
+              "dataset_code": "EU44420940.82",
+              "internal_format_version": "2.0.0",
+              "magic": "(*$SIEMENS&^)",
+              "offsets": {
+                "copyright": 16,
+                "dataset_code": 48,
+                "internal_format_version": 32,
+                "magic": 0
+              }
+            },
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 30199076,
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.MP0",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "source_size_bytes": 30281958,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916181,
+              3600716,
+              3158036,
+              7165656
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 17697,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "mp0_fixed_fields": {
+              "copyright": "Copyright 1998",
+              "dataset_code": "SC44442940.82",
+              "internal_format_version": "2.0.0",
+              "magic": "(*$SIEMENS&^)",
+              "offsets": {
+                "copyright": 16,
+                "dataset_code": 48,
+                "internal_format_version": 32,
+                "magic": 0
+              }
+            },
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 220367720,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "source_size_bytes": 220863350,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "MP0"
+    },
+    {
+      "classification": "manifest_bound_block_alignment_profile_only",
+      "regions": {
+        "Italy": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.FEA",
+          "sample_bytes": 65536,
+          "sample_sha256": "dc545e8476f3ad600cfb9761a8ce631a1b43573d952fd1a375902837c3cb24a0",
+          "source_sha256": "fd69b583d6ca43b39bc2bb4e2d24abf56f468fcb6ad4f9acfa5c9a1bc2922068",
+          "source_size_bytes": 49271198
+        },
+        "SW": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "SW/DB/EUZ.FEA",
+          "sample_bytes": 65536,
+          "sample_sha256": "c68fc86b24e4a466b93ac248cb2ff7dbfdc7e23d0de0f57fae290142162d47d0",
+          "source_sha256": "c5b602bc7b11b5788b7e7222593f7ec27391e695f563245398ddda5ac5c8e0eb",
+          "source_size_bytes": 30182137
+        },
+        "Scandinavia": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.FEA",
+          "sample_bytes": 65536,
+          "sample_sha256": "aa6f37213d1e1bf93e37bb42e1b8af545417a538e4f4661565bcb3d0b3027e1e",
+          "source_sha256": "b9ca0477e74c4bd28c6c1671fe90a6bf661905e986ca0bfce2846e6e4deb9f3b",
+          "source_size_bytes": 65801872
+        }
+      },
+      "semantic_claim": "UNKNOWN; profile evidence cannot identify records, indexes, or geometry",
+      "suffix": "FEA"
+    },
+    {
+      "classification": "manifest_bound_block_alignment_profile_only",
+      "regions": {
+        "Italy": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/I.RD",
+          "sample_bytes": 65536,
+          "sample_sha256": "2f3d21324f9955bb5a65fec810f7cb8fe19a952a5c16dc288a0b66ae8cc1d2c9",
+          "source_sha256": "5143aea4bd2042564440cf4bb982d53b651e8f32200ea74cbf1fb112df84684f",
+          "source_size_bytes": 74781874
+        },
+        "SW": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "SW/DB/EU.RD",
+          "sample_bytes": 65536,
+          "sample_sha256": "30958d12d8771b35bd9f5f654d7d2a879abf34aea0409967cb4bf9cb8d44082e",
+          "source_sha256": "0fe2d13baa9576e3f87c285e4a5691c11d04217d538addabd112dad28c92b2b1",
+          "source_size_bytes": 9017674
+        },
+        "Scandinavia": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SC.RD",
+          "sample_bytes": 65536,
+          "sample_sha256": "d1b3dbc2b8521f33ed05ee68abe1d995c64a82e7df9919a107dbe096ef04556b",
+          "source_sha256": "ba7813d6f75ee4cb57f97394184287196010a1d4685dc5c214dbcd6abd70a4db",
+          "source_size_bytes": 68225914
+        }
+      },
+      "semantic_claim": "UNKNOWN; profile evidence cannot identify records, indexes, or geometry",
+      "suffix": "RD"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 1048576,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 3560086,
+        "SW": 249750,
+        "Scandinavia": 2094135
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 3560086,
+            "derived_record_stride_bytes": 61,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 61,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 217165340,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 21,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.RL",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "e7291f832cd621bd9b96467c19664eae5b90e4eadb0aedadbac6a4bc7100eb93",
+          "source_size_bytes": 47615480,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 249750,
+            "derived_record_stride_bytes": 61,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 61,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 15234844,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 21,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.RL",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "fbe22e41a41a9cf58a629ebda7036ab8492c3ab52d093bbe199c9559509c53b4",
+          "source_size_bytes": 2714542,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 2094135,
+            "derived_record_stride_bytes": 61,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 61,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 127742329,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 21,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.RL",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "ca6c98b66ec372b62a8141b9b862d283237600eb4cb90489686af0e41c2d9d60",
+          "source_size_bytes": 26524744,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "RL"
+    },
+    {
+      "classification": "manifest_bound_block_alignment_profile_only",
+      "regions": {
+        "Italy": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.RT",
+          "sample_bytes": 65536,
+          "sample_sha256": "94f031205ace614be8a9bfa160c5abc25a559afbaf24eae55be8abca192cbb62",
+          "source_sha256": "391cead61a51795c118033f4a2c55bd15572b9fdd18492682f6047ab7ac80ff6",
+          "source_size_bytes": 43626559
+        },
+        "SW": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "SW/DB/EUZ.RT",
+          "sample_bytes": 65536,
+          "sample_sha256": "ddbdc49035fde96a1ec45dc928bb204c6459370906bf9ae453185b37d608da46",
+          "source_sha256": "eb2fc3e0c431d3eb69dd0cefe23463f0bc5c7d51c9eca86692062115a920c456",
+          "source_size_bytes": 2413793
+        },
+        "Scandinavia": {
+          "meaning": "bounded profile only; no record semantics assigned",
+          "profile_mode": "BLOCK_ALIGNMENT",
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.RT",
+          "sample_bytes": 65536,
+          "sample_sha256": "8168d05e97b88c42f8d3512d2844acbf5a38ed7c4e369800c9263c552ec64f4f",
+          "source_sha256": "e76d3427ed27c7b9ba2db51974787342d8cf9cb797aefd639da904c3436a7fbe",
+          "source_size_bytes": 22667423
+        }
+      },
+      "semantic_claim": "UNKNOWN; profile evidence cannot identify records, indexes, or geometry",
+      "suffix": "RT"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 1048576,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 3925,
+        "SW": 2167,
+        "Scandinavia": 3203
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916055,
+              3626440,
+              3020566,
+              7317021
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 3925,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 33722141,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MG1",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "01ef8e311f8706edf22c02490d77ac4e8fb0b9a9a026f20145cc21a7c4cf02b8",
+          "source_size_bytes": 33832155,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916055,
+              3626440,
+              3020566,
+              7317021
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 2167,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 17033084,
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.MG1",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+          "source_size_bytes": 17093874,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916055,
+              3587913,
+              3129660,
+              7380770
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 3203,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 27651864,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG1",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "0d18dcdc842f24c3d78c33e3bc33e12ef9ab4f8376a5d49caeca48d78b37436a",
+          "source_size_bytes": 27741662,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "MG1"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 1048576,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 2511,
+        "SW": 2017,
+        "Scandinavia": 2335
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916055,
+              3626440,
+              3020566,
+              7317021
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 2511,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 20265788,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MG2",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "77d173f4743410b9a14a781f015b8306c6c74bd29f9d83a644032fb7b9ec84f6",
+          "source_size_bytes": 20336210,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916055,
+              3626440,
+              3020566,
+              7317021
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 2017,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 16010495,
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.MG2",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "1ab9bf6c1aa7eb8a578cb4a06f921c3ff753da690b9601442f560c09fadfac5c",
+          "source_size_bytes": 16067085,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -916055,
+              3626440,
+              3020566,
+              7317021
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 2335,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 19449497,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG2",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "3bf66b5839fed9ab67857f57530a9e1b64bfcd3805436c63e25f8a8a7cb1a60a",
+          "source_size_bytes": 19514991,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "MG2"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 1048576,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 3,
+        "common_block_offsets_preview": [
+          16384,
+          20480,
+          40960
+        ],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 6,
+          "Italy:Scandinavia": 3,
+          "SW:Scandinavia": 3
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 1617,
+        "SW": 1617,
+        "Scandinavia": 1610
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -911621,
+              3660609,
+              3012639,
+              7339601
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 1617,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 13080169,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MG3",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "eadd84ff673091763ce69060783f394451f1ff725fd1afc8744e6485bfca9e2d",
+          "source_size_bytes": 13125559,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -911621,
+              3660609,
+              3012639,
+              7339601
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 1617,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 13078524,
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.MG3",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "67048662444b06cbf5a990c04ce8f7b748296fe67a964b7430ea5599d21b3205",
+          "source_size_bytes": 13123914,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "bbox_semantics": "candidate field only; spatial relation does not prove road geometry",
+            "candidate_bbox_int32": [
+              -911621,
+              3660609,
+              3012639,
+              7339601
+            ],
+            "candidate_bbox_offset": 94,
+            "declared_record_count": 1610,
+            "encoding": "raw_siemens_map_header",
+            "header_read_status": "PASS",
+            "logical_type_id": 7,
+            "logical_type_id_offset": 84,
+            "preceding_u32_offset": 90,
+            "preceding_u32_uninterpreted": 13087157,
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG3",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "41b711adf9ec56eb6eeca467d38e7ea43e664357eb262938dee165ee4ba04860",
+          "source_size_bytes": 13132351,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "MG3"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 770254,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 63206,
+        "SW": 26525,
+        "Scandinavia": 51998
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 63206,
+            "derived_record_stride_bytes": 178,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 178,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 11250762,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 3,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.CTY",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "ac549e6a4292e18e99364088ed22f29741b95dbd50c8076112568430c42a122a",
+          "source_size_bytes": 1881994,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 26525,
+            "derived_record_stride_bytes": 178,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 178,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 4721544,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 3,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.CTY",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "c35ba56c33a9155148e2f9865d60a81ecd2e2cf7338c6c32c66474c70e125095",
+          "source_size_bytes": 770254,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 51998,
+            "derived_record_stride_bytes": 178,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 178,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 9255738,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 3,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.CTY",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "3ea03c66c082a1a87e0aae68d860b1f5f08698b4e10f15d5036c68979d7bb75b",
+          "source_size_bytes": 1493275,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "CTY"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 334345,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 1062445,
+        "SW": 41172,
+        "Scandinavia": 884422
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 1062445,
+            "derived_record_stride_bytes": null,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": null,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 30338747,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 20,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.IL",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "7f731e3082da763075776792fea24970d6c68fa87f9e61fa0a3d9c639a252cd0",
+          "source_size_bytes": 10774732,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 41172,
+            "derived_record_stride_bytes": null,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": null,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 999265,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 20,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.IL",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "8f525568740707a78632fc2914f11317c7277daabd96c67e406c01ca664f0458",
+          "source_size_bytes": 334345,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 884422,
+            "derived_record_stride_bytes": null,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": null,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 21013356,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 20,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IL",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "e19449c4dd42d5d3f364a910cf5b1d5e2c212135abf59d729770c28df9308cb7",
+          "source_size_bytes": 7260990,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "IL"
+    },
+    {
+      "aligned_byte_diff": {
+        "aligned_prefix_bytes": 111589,
+        "block_bytes": 4096,
+        "common_block_count_across_all_regions": 0,
+        "common_block_offsets_preview": [],
+        "identical_full_files": false,
+        "pairwise_equal_block_counts": {
+          "Italy:SW": 0,
+          "Italy:Scandinavia": 0,
+          "SW:Scandinavia": 0
+        }
+      },
+      "all_full_file_hashes_distinct": true,
+      "classification": "bounded_header_and_cross_region_byte_evidence",
+      "declared_record_counts": {
+        "Italy": 1246363,
+        "SW": 150293,
+        "Scandinavia": 1137097
+      },
+      "regions": {
+        "Italy": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 1246363,
+            "derived_record_stride_bytes": 6,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 6,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 7478272,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 21,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.IOF",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "956e60d1d342d6ab5724b6b5daf95857425a8f6a38b1a5c161f6e3185f255288",
+          "source_size_bytes": 1592764,
+          "source_unchanged_during_read": true
+        },
+        "SW": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 150293,
+            "derived_record_stride_bytes": 6,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 6,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 901852,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 21,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "SW/DB/EUZ.IOF",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "f8ed7ee7aace473691466d4488f9dd8247757f16c7ddb3cf37cd3eeaa2215968",
+          "source_size_bytes": 111589,
+          "source_unchanged_during_read": true
+        },
+        "Scandinavia": {
+          "header": {
+            "block_size_bytes": 3072,
+            "declared_record_count": 1137097,
+            "derived_record_stride_bytes": 6,
+            "encoding": "zip_01_block_container",
+            "fixed_stride_expected": 6,
+            "header_read_status": "PASS",
+            "logical_header_bytes_examined": 3072,
+            "logical_size_bytes": 6822676,
+            "logical_table_start_offset": 94,
+            "logical_type_id": 21,
+            "logical_type_id_offset": 84,
+            "physical_header_offsets": {
+              "block_size_u32le": 4,
+              "logical_size_u32le": 8,
+              "offset_table_u32le": 16
+            },
+            "physical_magic": "zip\\x01",
+            "record_count_offset": 86
+          },
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IOF",
+          "source_mtime_ns_during_read": 1281304800000000000,
+          "source_sha256": "e7ccc87e80aa8619ae8ace1e9cc6688b8aee53d5dbb3a10545987c926df5544d",
+          "source_size_bytes": 1301184,
+          "source_unchanged_during_read": true
+        }
+      },
+      "semantic_claim": "exact byte/container/header measurements only; format meaning remains unknown",
+      "suffix": "IOF"
+    }
+  ],
+  "format_version": 1,
+  "hypothesis": "A cross-family NCDx catalog can distinguish directly verified header/container facts, bounded profile-only observations, and unresolved semantics without assigning invented meanings.",
+  "hypothesis_result": "SUPPORTED",
+  "partial_mp0_header_index": {
+    "coverage_note": "fixed MP0 header and TOC facts only; not the complete structure catalog",
+    "path": "evidence/format-evidence-index.json",
+    "sha256": "fda487ba695b77a287af165a12761ed371e5cba5477ce6a35a962a95eb954615",
+    "verified_fact_count": 12
+  },
+  "related_components": {
+    "candidates": [
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_2ba700c4c035",
+        "extension": ".EXE",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/WINDOWS/MMIDIS.EXE",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 6724,
+        "source_sha256": "4eeaa86bb01c4fd74aad2b5c73746a963d8d5546a743e5b6e644cb4b4211d744"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_b83702d764c5",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 20992,
+        "source_sha256": "8c182b29cb4f2320e44385843b978e0da485979e9cb467926c2a9cab97bc495b"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_98e67323d15d",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 45129,
+        "source_sha256": "e1c5724e0f88ed780af966e042b3f408405b8964fb29a5c596444324cd3165a5"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_b3d30bdd308a",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 23040,
+        "source_sha256": "82bea46e85ed75cbcd1cf23ea4263358ce870aee2d49aa89365339af36911d48"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_5e4b996e618d",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 48203,
+        "source_sha256": "7fe9dc178edade5eb6989e2815ede28ea05fa76d536823baf953bfbf8fc4726b"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_f2ccd7113809",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 22016,
+        "source_sha256": "d4584197b1bf2ba862f602539f5447695ab787336020e8934de745cf0e3ae719"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_6f1fbdefb13a",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 46670,
+        "source_sha256": "2651263e6251da7d14eb370f272e1d2fe92312098d0843883d9f831d1bb7a322"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_5d06ac86511e",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 19968,
+        "source_sha256": "a12c349447064b99de916ea2fe2888615afb54648a163e77d7b6460de8a6f545"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_f87dd868913b",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 45644,
+        "source_sha256": "86ea43f7a5154be4bf7cd121202f7dabb93b5c64122e6b569a2ba17518bbd66b"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_bf4a38415a51",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_LANGUAGE_LOC_0090200006/LANGUAGEUPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 50688,
+        "source_sha256": "fc3e76b1225f5c40c8a4857cfd2d0fadf2fb290ea352ae39a3be0a67dba15bd4"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_56c4d1dbb253",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_LANGUAGE_LOC_0090200006/LANGUAGEUPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 83534,
+        "source_sha256": "1cd2b4b0299b7320eb9d200aa803732fd9aa979a3a28559bd95cd6a83e3b84d0"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_96d75bb5397c",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 50688,
+        "source_sha256": "82ef6cd5084b706e228ec9a39ad1fed35e4ba1b7257df9edd3601d9d5aef35c1"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_8ee8e14d8a5f",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 84556,
+        "source_sha256": "832551e7e3dc74ae1cff7d18b4dfc18f10525fc9110825569586466803ba3c29"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_830dc1574cb4",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 69703,
+        "source_sha256": "b5fa74e9e721050c99e2b4a6a800fe88b3d6107d782cc2e5fb583c67e74b801f"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_486ed92d649f",
+        "extension": ".DLL",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE01.DLL",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 73289,
+        "source_sha256": "f5fc79d18b2f2e0e16f618cda288853f71a52c941811a560740175b5baa3731f"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_e488f741c1a8",
+        "extension": ".BIN",
+        "relative_path": "SW/IDIS/UPD_DAT.BIN",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 262144,
+        "source_sha256": "fb013324199187449912c24837559a7225540d5ba79fd3b71723a2c8e3d7614b"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_6db94bab6c1e",
+        "extension": ".BIN",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/BOOTSECTOR.BIN",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 262151,
+        "source_sha256": "684700517d44cbb88f1e791f035057247e9886af0c7a70adc9115e59f2e2b718"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_8605abb895dc",
+        "extension": ".BIN",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELLOADER.BIN",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 57483,
+        "source_sha256": "739a3883f8ed850ce473e3b73ebfa66b5bb8f29608a554890b5f974d62cf85b2"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_e4416a9cf703",
+        "extension": ".ABS",
+        "relative_path": "SW/SW/AR2MATE.ABS",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 4177920,
+        "source_sha256": "0aa47bab0fed21e622f97a4b4696b36c4a7faa6a12f55af6cb9376d2ae30e181"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_94ff1c8145e1",
+        "extension": ".ABS",
+        "relative_path": "SW/SW/LA2MATE.ABS",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 4177920,
+        "source_sha256": "23b784f164369296077dcc8c4a63880558ba2682d239c49fe5cce3e85f0b15db"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_5d7b9377b2c3",
+        "extension": ".ABS",
+        "relative_path": "SW/SW/OP1MATE.ABS",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 4177920,
+        "source_sha256": "04cf8a8b35b956d30d3484b5f519b0d072073b231396e9ab08378ce052aa3cac"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_2919e7848409",
+        "extension": ".ABS",
+        "relative_path": "SW/SW/PO2MATE.ABS",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 4177920,
+        "source_sha256": "ab5d3b3031538237373748a4cd3c39d2ddcd9589a05ae483333d671e3e52c689"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_e0f335bd32ea",
+        "extension": ".HEX",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIO.HEX",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 311473,
+        "source_sha256": "5c3d5b581afb960323855507ae44aa9e185c891097bf7ba63d6eb7e5714007ec"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_fbb029fdd191",
+        "extension": ".HEX",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/LOADER.HEX",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 146061,
+        "source_sha256": "3c9a422d51cd866d1db81f93481c0dd50cef142e89e773a66807c87f4da86f48"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_436c47a56699",
+        "extension": ".HEX",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/APP.HEX",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 754549,
+        "source_sha256": "c12f0e3b9b9c511246c43439cb7cf8cf3928ed1824fd8dc633582fbec1b954db"
+      },
+      {
+        "bounded_survey_status": "DONE",
+        "bounded_survey_task_id": "AUTO_SW_COMPONENT_SCAN_c8ec00363e5b",
+        "extension": ".HEX",
+        "relative_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/LOADER.HEX",
+        "semantic_claim": "manifest inventory only; executable behavior and NCDx file semantics are UNKNOWN",
+        "size_bytes": 68230,
+        "source_sha256": "b523cbef4d8eab8a726cbc93939afa80dcbcf7dc67ac88ae56ee7474f1739290"
+      }
+    ],
+    "manifest_bound_candidate_count": 26,
+    "manifest_database_path": "EVIDENCE_LEDGER.sqlite",
+    "manifest_database_sha256": "52f13b5acfda2835caa9a444098e55e953709790ff5a6a3c9f521179646c474b"
+  },
+  "status": "PASS",
+  "unknown_register": {
+    "items": [
+      "Формат записів і таблиць після MP0 заголовка; структура `FEA`, `RD`, `MG1`–`MG3`, `RL`, `RT`, `CTY`, `IL`, `IOF` та інших суфіксів.",
+      "Endianness і checksum для NCDx map records; індекси, routing graph, road geometry, addresses, POI і їхні взаємні посилання.",
+      "Зв'язок ідентифікатора в заголовку MP0 з об'єктним форматом. Перевірено лише буквальний збіг регіону/версії з текстовим TOC.",
+      "Фізична структура CD (трекове розташування, CD mode, boot/layout validation) для target NCDR.",
+      "Відповідність трьох наявних дисків точній моделі штатного пристрою конкретного авто.",
+      "Підтримка українських назв, кодова сторінка CID, голосові assets та hardware display mode.",
+      "Поточна compatibility DB_0 ↔ NCDx; попередній звіт називає лише weak similarity під sampled probes."
+    ],
+    "path": "reports/FORMAT_UNKNOWN.md",
+    "sha256": "fd108b516e683be1606dacb2f52eb3e893743365ecac4cf30a2efea8fad0fbef"
+  }
+}

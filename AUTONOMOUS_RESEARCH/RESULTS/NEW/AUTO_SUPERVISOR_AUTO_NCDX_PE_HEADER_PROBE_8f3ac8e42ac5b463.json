@@ -1,0 +1,20 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE01.DLL",
+    "reports/autonomous_supervisor_auto_ncdx_pe_header_probe_8f3ac8e42ac5b463.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "69f1051d8a2fa2186fe35099de4d5afeeb5491d0dd625863900612e4785643b0",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_PE_HEADER_PROBE_8f3ac8e42ac5b463",
+  "updated_utc": "2026-10-27T20:06:13.171878+00:00",
+  "verified_by_independent_reviewer": false
+}

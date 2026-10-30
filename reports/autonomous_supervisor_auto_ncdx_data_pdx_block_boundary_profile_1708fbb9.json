@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PDX_BLOCK_BOUNDARY_PROFILE_1708fbb9",
+  "target_task": "AUTO_NCDX_DATA_PDX_BLOCK_BOUNDARY_PROFILE_1708fbb9",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_PDX_BLOCK_BOUNDARY_PROFILE_1708fbb9",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_block_boundary_profile": true,
+      "independent_region_count": 3,
+      "crossing_run_count_by_region": {
+        "SW": 238,
+        "Italy": 6044,
+        "Scandinavia": 2781
+      },
+      "crossing_run_rate_by_region": {
+        "SW": 0.00326228,
+        "Italy": 0.00419896,
+        "Scandinavia": 0.00304335
+      },
+      "block_count_by_region": {
+        "SW": 581,
+        "Italy": 10960,
+        "Scandinavia": 6044
+      },
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded structural observations only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-26T23:03:42.554229+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.json",
+      "sha256": "5cb0df6abb35280ec7a2a857da8071dfd9157beb3818f330bb4e74438eea3ae3",
+      "size_bytes": 27727,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.md",
+      "sha256": "3f523c8ac8d7fef5fbf9fddc36d9c6837e750e71fb9673d3cb5c7e19dc076fd0",
+      "size_bytes": 4432,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "e057fcb6d2a43bead60faa6ec5aa0ee5dbe6243a554e2c4fa561cc9277d9e877",
+      "size_bytes": 27728,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "2258c29a7e81f33bae69059f56601ad9e4f63b9e59aa137472fc9584c8059aa6",
+      "size_bytes": 4431,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "1997d61abb591fcb74885b23dfc9ebfe473b1dd8691cef6d21ff90bd4be23d7d",
+      "size_bytes": 27729,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "1477a2544027db3694d67b1724b513c9f1b463b62f3be74792a4290e264e46db",
+      "size_bytes": 4431,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

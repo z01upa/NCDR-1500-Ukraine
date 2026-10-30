@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_f4ad04a96aa6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_02fa3100",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_02fa3100",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains decompressed coordinate candidate measurements (e.g., alignment_4/scale_1000000_lat_lon) with associated region pair counts and adjacency metrics. This evidence directly addresses the need to reduce uncertainty regarding map storage structures, specifically index data derived from coordinate candidates. The selection prioritizes this specific dataset as it represents decoded spatial information essential for mapping applications, adhering to the constraint of fo",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_02fa3100",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "8ee846e20d80eaf0bb40be2b4b8e1640b361b4843077c1ab1a05c57c53b89bb5",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_f4ad04a96aa6",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T21:16:31.355331+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "evidence/ncdx-index-integrity.json",
+    "reports/mission_pack/runtime/B07.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_MISSION_EXEC_B07_65EA5515",
+  "updated_utc": "2026-10-28T16:08:46.213197+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "blocks": 354,
+  "by_compression": {
+    "1": 324,
+    "2": 30
+  },
+  "objects_by_compression": {
+    "1": 74963,
+    "2": 20156
+  },
+  "readable_blocks": 30,
+  "readable_bytes": 1148416,
+  "descriptor_bytes": 92352,
+  "lattice_bytes": 442144,
+  "outside_lattice_bytes": 706272
+}

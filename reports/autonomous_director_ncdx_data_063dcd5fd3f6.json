@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_063dcd5fd3f6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MP0_LAG_CORRELATION_SCAN_65e558d6",
+  "selected_goal_id": "AUTO_NCDX_DATA_MP0_LAG_CORRELATION_SCAN_65e558d6",
+  "selection_source": "Ollama",
+  "selection_reason": "Short evidence-based choice: Prioritizing map storage and address/index data uncertainty reduction via MP0 lag correlation scan.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MP0_LAG_CORRELATION_SCAN_65e558d6",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_063dcd5fd3f6",
+  "remaining_unique_experiments": 32,
+  "created_utc": "2026-10-25T19:40:45.504954+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

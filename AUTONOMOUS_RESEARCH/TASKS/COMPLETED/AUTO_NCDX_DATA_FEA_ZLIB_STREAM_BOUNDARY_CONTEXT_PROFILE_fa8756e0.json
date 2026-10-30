@@ -1,0 +1,12 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.FEA",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.FEA",
+    "SW/DB/EUZ.FEA",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_fa8756e0.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_fa8756e0",
+  "updated_utc": "2026-10-27T13:46:36.543540+00:00"
+}

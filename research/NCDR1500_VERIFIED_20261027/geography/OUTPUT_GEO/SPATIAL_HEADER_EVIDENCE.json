@@ -1,0 +1,99 @@
+{
+  "dataset": "EU44420940.82",
+  "source_archive": "Архів.zip",
+  "source_city_logical_sha256": "e51428012b4d4a399eb299712b3990e2af1623730dd43450fe8722e7e9fe38e9",
+  "coordinate_interpretation": "candidate signed int32 little-endian / 100000 in bounding field; geographic evidence strong",
+  "cty_total_bounds": [
+    -9.16181,
+    36.49423,
+    30.20566,
+    70.47933
+  ],
+  "headers": {
+    "MP0": {
+      "source_file": "DB/EUZ.MP0",
+      "type_id": 7,
+      "record_count_field": 2956,
+      "value_at_90": 30199076,
+      "bbox_int32_le": [
+        -916181,
+        3626352,
+        3020566,
+        7317051
+      ],
+      "bbox_degrees": [
+        -9.16181,
+        36.26352,
+        30.20566,
+        73.17051
+      ],
+      "encloses_all_cty_boxes": true
+    },
+    "MG1": {
+      "source_file": "DB/EUZ.MG1",
+      "type_id": 7,
+      "record_count_field": 2167,
+      "value_at_90": 17033084,
+      "bbox_int32_le": [
+        -916055,
+        3626440,
+        3020566,
+        7317021
+      ],
+      "bbox_degrees": [
+        -9.16055,
+        36.2644,
+        30.20566,
+        73.17021
+      ],
+      "encloses_all_cty_boxes": false
+    },
+    "MG2": {
+      "source_file": "DB/EUZ.MG2",
+      "type_id": 7,
+      "record_count_field": 2017,
+      "value_at_90": 16010495,
+      "bbox_int32_le": [
+        -916055,
+        3626440,
+        3020566,
+        7317021
+      ],
+      "bbox_degrees": [
+        -9.16055,
+        36.2644,
+        30.20566,
+        73.17021
+      ],
+      "encloses_all_cty_boxes": false
+    },
+    "MG3": {
+      "source_file": "DB/EUZ.MG3",
+      "type_id": 7,
+      "record_count_field": 1617,
+      "value_at_90": 13078524,
+      "bbox_int32_le": [
+        -911621,
+        3660609,
+        3012639,
+        7339601
+      ],
+      "bbox_degrees": [
+        -9.11621,
+        36.60609,
+        30.12639,
+        73.39601
+      ],
+      "encloses_all_cty_boxes": false
+    }
+  },
+  "statements": {
+    "mp0_header_bbox_encloses_all_26525_cty_boxes": true,
+    "mg_headers_are_different_coverage_levels_not_all_enclosing_cty": true
+  },
+  "limitations": [
+    "Spatial bounding box interpretation fits geography and MP0 city subset, but individual MP0 and MG record layouts remain unknown",
+    "Does not prove route geometry or a writing format",
+    "No source bytes were changed"
+  ]
+}

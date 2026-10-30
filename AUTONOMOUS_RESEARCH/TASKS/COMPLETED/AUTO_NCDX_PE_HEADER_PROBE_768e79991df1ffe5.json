@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE01.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5",
+  "updated_utc": "2026-10-27T20:03:29.408675+00:00"
+}

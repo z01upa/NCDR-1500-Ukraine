@@ -1,0 +1,12 @@
+{
+  "packets_verified": 1065,
+  "bytes_verified": 17845716,
+  "all_packet_headers_valid": true,
+  "all_decoded_checksums_valid": true,
+  "all_saved_sha256_valid": true,
+  "compressed_stream_contiguous": true,
+  "terminator_at_eof": true,
+  "source_unchanged": true,
+  "address_image_sha256_valid": true,
+  "overlapping_packets": 0
+}

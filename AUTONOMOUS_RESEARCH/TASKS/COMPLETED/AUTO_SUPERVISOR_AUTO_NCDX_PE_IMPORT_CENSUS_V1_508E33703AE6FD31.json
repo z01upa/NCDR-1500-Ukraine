@@ -1,0 +1,16 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/WINDOWS/NAVIMAIN.EXE",
+    "reports/autonomous_supervisor_auto_ncdx_pe_import_census_v1_508e33703ae6fd31.json",
+    "reports/periodic/daily/2026-10-28.json",
+    "reports/periodic/daily/2026-10-28.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_PE_IMPORT_CENSUS_V1_508E33703AE6FD31",
+  "updated_utc": "2026-10-28T17:09:29.390642+00:00"
+}

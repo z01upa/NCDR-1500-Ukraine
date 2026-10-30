@@ -1,0 +1,404 @@
+Class signature means bytes 4..7 only; its semantic meaning is not established.
+
+class_signature=00160000 zlib=False count=8799 bytes=4870656 span_distribution={1: 8223, 2: 464, 3: 99, 7: 1, 12: 1, 4: 9, 5: 2}
+  compression_ratio=0.000000; examples=0x04d447, 0x04d448, 0x04d449, 0x04d44a, 0x04d44b, 0x04d44c, 0x04d44d, 0x04d44e, 0x04d44f, 0x04d450
+  representative_header=0016000000340001003c0001; representative_sector=0x04d447
+class_signature=00090000 zlib=False count=5241 bytes=2740736 span_distribution={1: 5176, 2: 36, 3: 26, 5: 2, 17: 1}
+  compression_ratio=0.000000; examples=0x00e9a5, 0x00e9a6, 0x00e9a7, 0x00e9a8, 0x00e9a9, 0x00e9aa, 0x00e9ab, 0x00e9ac, 0x00e9ad, 0x00e9ae
+  representative_header=000900000014001000340001; representative_sector=0x00e9a5
+class_signature=00060000 zlib=False count=4623 bytes=5386752 span_distribution={1: 3715, 2: 398, 3: 141, 4: 87, 6: 32, 5: 32, 8: 10, 22: 6, 9: 9, 27: 2, 26: 5, 14: 4, 16: 7, 7: 11, 37: 1, 44: 4, 23: 5, 11: 13, 20: 4, 18: 7, 13: 6, 36: 5, 17: 4, 12: 9, 35: 4, 21: 6, 15: 11, 25: 12, 38: 8, 10: 6, 43: 3, 24: 4, 19: 5, 39: 3, 31: 5, 47: 1, 30: 7, 42: 5, 48: 1, 41: 2, 32: 3, 33: 3, 29: 6, 34: 2, 28: 4, 45: 3, 40: 1, 46: 1}
+  compression_ratio=0.000000; examples=0x00eaea, 0x00eaec, 0x00eaed, 0x00eaee, 0x00eaef, 0x00eaf0, 0x00eaf1, 0x00eaf2, 0x00eaf3, 0x00eaf4
+  representative_header=000600000020000600000000; representative_sector=0x00eaea
+class_signature=00150000 zlib=False count=2262 bytes=1329152 span_distribution={1: 1994, 2: 212, 3: 47, 5: 1, 4: 8}
+  compression_ratio=0.000000; examples=0x066d86, 0x066d87, 0x066d88, 0x066d89, 0x066d8a, 0x066d8b, 0x066d8c, 0x066d8d, 0x066d8e, 0x066d8f
+  representative_header=0015000000340001003c0001; representative_sector=0x066d86
+class_signature=001c0000 zlib=False count=1698 bytes=966656 span_distribution={1: 1553, 2: 109, 3: 28, 5: 1, 4: 7}
+  compression_ratio=0.000000; examples=0x06dbcb, 0x06dbcc, 0x06dbcd, 0x06dbce, 0x06dbcf, 0x06dbd0, 0x06dbd1, 0x06dbd2, 0x06dbd3, 0x06dbd4
+  representative_header=001c000000340001003c0001; representative_sector=0x06dbcb
+class_signature=00020000 zlib=False count=808 bytes=552448 span_distribution={2: 217, 1: 564, 3: 27}
+  compression_ratio=0.000000; examples=0x048a68, 0x048a73, 0x048acf, 0x048ae4, 0x048ae6, 0x048aea, 0x048b1b, 0x048b31, 0x048b71, 0x048bcf
+  representative_header=000200000074000200880002; representative_sector=0x048a68
+class_signature=00030000 zlib=False count=767 bytes=525824 span_distribution={1: 531, 2: 212, 3: 24}
+  compression_ratio=0.000000; examples=0x04425a, 0x0442f3, 0x04431f, 0x0443ca, 0x044443, 0x044542, 0x0445a4, 0x044890, 0x0448b6, 0x0448ba
+  representative_header=000300000074000200880002; representative_sector=0x04425a
+class_signature=00010000 zlib=False count=701 bytes=520704 span_distribution={2: 248, 1: 419, 3: 34}
+  compression_ratio=0.000000; examples=0x04b914, 0x04b916, 0x04b918, 0x04b919, 0x04b91d, 0x04b936, 0x04b939, 0x04b93f, 0x04b941, 0x04b94c
+  representative_header=000100000074000200880002; representative_sector=0x04b914
+class_signature=00170260 zlib=True count=659 bytes=9461760 span_distribution={28: 60, 37: 6, 29: 52, 39: 3, 27: 48, 18: 26, 17: 16, 34: 17, 31: 25, 30: 35, 32: 31, 25: 38, 23: 41, 33: 26, 35: 15, 22: 24, 24: 46, 53: 4, 44: 10, 36: 18, 21: 11, 20: 15, 43: 3, 38: 7, 26: 35, 42: 3, 19: 20, 41: 3, 46: 1, 45: 4, 49: 2, 48: 5, 51: 1, 52: 1, 40: 3, 15: 2, 16: 2}
+  compression_ratio=0.282033; examples=0x0715c9, 0x0715e5, 0x071601, 0x071626, 0x071642, 0x07165f, 0x07167b, 0x0716a2, 0x0716bd, 0x0716cf
+  representative_header=0017026078dac59d095c5347; representative_sector=0x0715c9
+class_signature=000e0260 zlib=True count=611 bytes=9949184 span_distribution={33: 73, 32: 29, 35: 45, 43: 1, 36: 58, 38: 25, 39: 13, 37: 21, 34: 40, 41: 4, 45: 1, 40: 3, 31: 28, 29: 78, 42: 1, 27: 47, 28: 56, 26: 30, 30: 46, 25: 9, 24: 3}
+  compression_ratio=0.324126; examples=0x002800, 0x002821, 0x002862, 0x002883, 0x0028c3, 0x002942, 0x0029c0, 0x0029e1, 0x002a04, 0x002b2e
+  representative_header=000e026078dad59c7f5cd3d7; representative_sector=0x002800
+class_signature=00100260 zlib=True count=453 bytes=8691200 span_distribution={50: 3, 36: 20, 39: 27, 34: 17, 33: 28, 46: 2, 49: 6, 51: 2, 48: 2, 44: 21, 45: 7, 43: 36, 41: 35, 42: 37, 40: 22, 38: 22, 32: 33, 35: 34, 47: 5, 37: 26, 31: 33, 30: 12, 28: 10, 29: 9, 27: 3, 26: 1}
+  compression_ratio=0.382463; examples=0x0098ff, 0x009931, 0x009955, 0x00997c, 0x00999e, 0x0099e3, 0x009a11, 0x009a74, 0x009b15, 0x009b96
+  representative_header=0010026078daecbc797c53d5; representative_sector=0x0098ff
+class_signature=00140000 zlib=False count=410 bytes=243712 span_distribution={1: 366, 3: 12, 2: 31, 12: 1}
+  compression_ratio=0.000000; examples=0x070571, 0x070572, 0x070573, 0x070574, 0x070575, 0x070576, 0x070577, 0x070578, 0x070579, 0x07057a
+  representative_header=0014000000340001003c0001; representative_sector=0x070571
+class_signature=00040206 zlib=True count=363 bytes=223232 span_distribution={1: 302, 2: 49, 3: 12}
+  compression_ratio=0.087654; examples=0x04287b, 0x04287e, 0x04287f, 0x042881, 0x042886, 0x0428a6, 0x0428bf, 0x0428d8, 0x0428f6, 0x0428ff
+  representative_header=0004020678da631060346094; representative_sector=0x04287b
+class_signature=00060202 zlib=True count=362 bytes=185344 span_distribution={1: 362}
+  compression_ratio=0.338604; examples=0x00eaeb, 0x00eaf5, 0x00eb02, 0x00eb03, 0x00eb38, 0x00eb3a, 0x00eb40, 0x00eb42, 0x00eb55, 0x00eb60
+  representative_header=0006020278da635060106400; representative_sector=0x00eaeb
+class_signature=00040207 zlib=True count=339 bytes=215040 span_distribution={1: 272, 2: 53, 3: 14}
+  compression_ratio=0.083576; examples=0x042857, 0x04286c, 0x04286d, 0x04288e, 0x042891, 0x04289b, 0x04289c, 0x0428a0, 0x0428c8, 0x0428c9
+  representative_header=0004020778daedd0b10d0020; representative_sector=0x042857
+class_signature=00040209 zlib=True count=331 bytes=240640 span_distribution={2: 78, 1: 226, 3: 20, 4: 7}
+  compression_ratio=0.085317; examples=0x042858, 0x04285d, 0x042863, 0x042878, 0x04287c, 0x042880, 0x04288a, 0x04289a, 0x0428ab, 0x0428b1
+  representative_header=0004020978daed56db2e0351; representative_sector=0x042858
+class_signature=00040205 zlib=True count=326 bytes=196608 span_distribution={2: 38, 1: 278, 3: 10}
+  compression_ratio=0.095776; examples=0x04284f, 0x04285a, 0x04285c, 0x04289e, 0x0428aa, 0x0428be, 0x0428cd, 0x0428d4, 0x0428de, 0x0428e0
+  representative_header=0004020578daed55c96a9361; representative_sector=0x04284f
+class_signature=00040208 zlib=True count=324 bytes=222720 span_distribution={2: 69, 1: 237, 3: 12, 4: 6}
+  compression_ratio=0.088608; examples=0x042855, 0x04285b, 0x042867, 0x042871, 0x042874, 0x042883, 0x042887, 0x042890, 0x042894, 0x042895
+  representative_header=0004020878daed575952c240; representative_sector=0x042855
+class_signature=0004020a zlib=True count=300 bytes=218112 span_distribution={2: 92, 1: 193, 3: 11, 4: 4}
+  compression_ratio=0.078435; examples=0x042853, 0x042861, 0x042862, 0x042870, 0x042875, 0x042884, 0x042889, 0x04288f, 0x042893, 0x04289d
+  representative_header=0004020a78daed568b4e1341; representative_sector=0x042853
+class_signature=00040204 zlib=True count=242 bytes=137216 span_distribution={2: 24, 1: 217, 3: 1}
+  compression_ratio=0.097490; examples=0x04286e, 0x0428a1, 0x0428a9, 0x0428ad, 0x0428eb, 0x04291e, 0x042952, 0x042958, 0x042966, 0x04297d
+  representative_header=0004020478dacd55cb4ec330; representative_sector=0x04286e
+class_signature=0004020b zlib=True count=239 bytes=192000 span_distribution={1: 133, 2: 83, 3: 18, 4: 3, 5: 2}
+  compression_ratio=0.086703; examples=0x042866, 0x042873, 0x042896, 0x042897, 0x0428ac, 0x0428b3, 0x0428b6, 0x0428bb, 0x0428ca, 0x0428cb
+  representative_header=0004020b78daed94db0a8240; representative_sector=0x042866
+class_signature=00160102 zlib=False count=231 bytes=118272 span_distribution={1: 231}
+  compression_ratio=0.000000; examples=0x04d5e1, 0x04d605, 0x04d60f, 0x04d6b8, 0x04d6dc, 0x04d6f3, 0x04db42, 0x04db5f, 0x04dc97, 0x04e4b0
+  representative_header=0016010200340001003c0001; representative_sector=0x04d5e1
+class_signature=00010204 zlib=True count=228 bytes=348160 span_distribution={3: 224, 2: 4}
+  compression_ratio=0.575479; examples=0x04b92e, 0x04b931, 0x04b944, 0x04b94f, 0x04b96a, 0x04b96d, 0x04b97d, 0x04b981, 0x04b998, 0x04b9a6
+  representative_header=0001020478daed946f4c5b55; representative_sector=0x04b92e
+class_signature=0004020d zlib=True count=224 bytes=224768 span_distribution={2: 80, 1: 84, 3: 47, 4: 11, 5: 2}
+  compression_ratio=0.101358; examples=0x042851, 0x04286b, 0x042876, 0x04287d, 0x042882, 0x042885, 0x042892, 0x0428ae, 0x0428ba, 0x0428e5
+  representative_header=0004020d78daed97cd2b4451; representative_sector=0x042851
+class_signature=00010203 zlib=True count=222 bytes=227328 span_distribution={2: 222}
+  compression_ratio=0.532498; examples=0x04b912, 0x04b91b, 0x04b927, 0x04b942, 0x04b959, 0x04b966, 0x04b968, 0x04b9a0, 0x04b9bd, 0x04b9e0
+  representative_header=0001020378dad5937f6c5355; representative_sector=0x04b912
+class_signature=0004020c zlib=True count=214 bytes=187904 span_distribution={2: 74, 1: 104, 4: 7, 3: 29}
+  compression_ratio=0.092156; examples=0x042868, 0x042872, 0x042888, 0x04288d, 0x04289f, 0x0428c1, 0x0428e7, 0x0428ef, 0x0428f0, 0x0428f8
+  representative_header=0004020c78daed56e1528240; representative_sector=0x042868
+class_signature=00160104 zlib=False count=211 bytes=323584 span_distribution={3: 210, 2: 1}
+  compression_ratio=0.000000; examples=0x04d6dd, 0x04d889, 0x04daa0, 0x04dc85, 0x04dc94, 0x04df36, 0x04e232, 0x04e2d2, 0x04e566, 0x04e7eb
+  representative_header=0016010400340001003c0002; representative_sector=0x04d6dd
+class_signature=00040203 zlib=True count=209 bytes=113664 span_distribution={1: 196, 2: 13}
+  compression_ratio=0.111567; examples=0x04285e, 0x0428b0, 0x0428b9, 0x0428bc, 0x0428dd, 0x04292d, 0x042940, 0x042956, 0x042970, 0x04298d
+  representative_header=0004020378da63106098c628; representative_sector=0x04285e
+class_signature=00010202 zlib=True count=204 bytes=104448 span_distribution={1: 204}
+  compression_ratio=0.379820; examples=0x04b911, 0x04b91a, 0x04b934, 0x04b935, 0x04b954, 0x04b976, 0x04b980, 0x04b9f1, 0x04b9fe, 0x04b9ff
+  representative_header=0001020278daed50b14a0341; representative_sector=0x04b911
+class_signature=00020203 zlib=True count=201 bytes=205824 span_distribution={2: 201}
+  compression_ratio=0.533159; examples=0x048a77, 0x048a79, 0x048b0c, 0x048b20, 0x048b26, 0x048b4e, 0x048c10, 0x048c12, 0x048c2c, 0x048c76
+  representative_header=0002020378daed945d485361; representative_sector=0x048a77
+class_signature=0004020f zlib=True count=199 bytes=229376 span_distribution={1: 60, 2: 73, 4: 15, 3: 39, 6: 2, 5: 9, 8: 1}
+  compression_ratio=0.114735; examples=0x04285f, 0x042864, 0x042877, 0x0428d1, 0x0428db, 0x0428df, 0x042964, 0x0429a9, 0x0429f1, 0x042a68
+  representative_header=0004020f78daed984d4ec240; representative_sector=0x04285f
+class_signature=00160103 zlib=False count=198 bytes=202752 span_distribution={2: 198}
+  compression_ratio=0.000000; examples=0x04d6b2, 0x04d6d7, 0x04e494, 0x04e4d2, 0x04e4e7, 0x04e56a, 0x04e592, 0x04e6b9, 0x04e734, 0x04e83e
+  representative_header=0016010300340001003c0001; representative_sector=0x04d6b2
+class_signature=00030203 zlib=True count=197 bytes=201728 span_distribution={2: 197}
+  compression_ratio=0.522497; examples=0x044252, 0x0443db, 0x0444f3, 0x044543, 0x0445a2, 0x04463a, 0x04498d, 0x0449fd, 0x044bd2, 0x044da1
+  representative_header=0003020378dabd937f485459; representative_sector=0x044252
+class_signature=00000000 zlib=False count=196 bytes=127488 span_distribution={2: 53, 1: 143}
+  compression_ratio=0.000000; examples=0x01161f, 0x0124a2, 0x0134dd, 0x0134de, 0x0134df, 0x013595, 0x0135a8, 0x0135a9, 0x0135b8, 0x0135b9
+  representative_header=000000000074000300940004; representative_sector=0x01161f
+class_signature=0004020e zlib=True count=191 bytes=196096 span_distribution={1: 68, 2: 76, 3: 32, 4: 9, 5: 5, 6: 1}
+  compression_ratio=0.101103; examples=0x042860, 0x04286a, 0x04288b, 0x0428a7, 0x0428c6, 0x0428d5, 0x0428f1, 0x0428f2, 0x042909, 0x042915
+  representative_header=0004020e78daed964f4ac340; representative_sector=0x042860
+class_signature=00160105 zlib=False count=185 bytes=356352 span_distribution={3: 44, 4: 141}
+  compression_ratio=0.000000; examples=0x04d6fd, 0x04db1e, 0x04db96, 0x04dd53, 0x04de57, 0x04df28, 0x04df2c, 0x04e23b, 0x04e27a, 0x04e59d
+  representative_header=0016010500340001003c0001; representative_sector=0x04d6fd
+class_signature=00020204 zlib=True count=182 bytes=279552 span_distribution={3: 182}
+  compression_ratio=0.578822; examples=0x048a65, 0x048a99, 0x048abc, 0x048ad0, 0x048ae1, 0x048ae7, 0x048b00, 0x048b0e, 0x048b1d, 0x048b32
+  representative_header=0002020478daed956d6c5355; representative_sector=0x048a65
+class_signature=00020202 zlib=True count=179 bytes=91648 span_distribution={1: 179}
+  compression_ratio=0.378068; examples=0x048b2c, 0x048b3b, 0x048c2e, 0x048c2f, 0x048df2, 0x049074, 0x0491b7, 0x049484, 0x049584, 0x0495ba
+  representative_header=0002020278da6328616062e8; representative_sector=0x048b2c
+class_signature=00030202 zlib=True count=175 bytes=89600 span_distribution={1: 175}
+  compression_ratio=0.373920; examples=0x0448d1, 0x044c6e, 0x04544f, 0x04575b, 0x045c94, 0x046095, 0x046096, 0x0472ff, 0x04738f, 0x04740c
+  representative_header=0003020278da6328616062e8; representative_sector=0x0448d1
+class_signature=00160107 zlib=False count=174 bytes=458240 span_distribution={5: 141, 4: 4, 6: 29}
+  compression_ratio=0.000000; examples=0x04da9b, 0x04db04, 0x04dfe7, 0x04e09c, 0x04e27d, 0x04e423, 0x04e4e9, 0x04e822, 0x04e846, 0x04eb6d
+  representative_header=001601070034000300440002; representative_sector=0x04da9b
+class_signature=0016010a zlib=False count=170 bytes=630272 span_distribution={7: 104, 6: 13, 8: 52, 9: 1}
+  compression_ratio=0.000000; examples=0x04dd56, 0x04dd5d, 0x04dfc6, 0x04e235, 0x04e3a7, 0x04e4b8, 0x04e5aa, 0x04e665, 0x04ea8e, 0x04eb03
+  representative_header=0016010a0034000300440008; representative_sector=0x04dd56
+class_signature=00030204 zlib=True count=163 bytes=248832 span_distribution={3: 160, 2: 3}
+  compression_ratio=0.569039; examples=0x044260, 0x0443bf, 0x0445a6, 0x04461e, 0x04489e, 0x0448b7, 0x0448bd, 0x0448d6, 0x0449e9, 0x044b91
+  representative_header=0003020478daed956d4c5b65; representative_sector=0x044260
+class_signature=00090202 zlib=True count=158 bytes=80896 span_distribution={1: 158}
+  compression_ratio=0.146965; examples=0x00eacf, 0x010677, 0x0106c2, 0x010752, 0x01077e, 0x01078f, 0x0107a1, 0x0107c2, 0x0107d4, 0x0107f5
+  representative_header=0009020278da631061646012; representative_sector=0x00eacf
+class_signature=00160106 zlib=False count=157 bytes=353280 span_distribution={4: 95, 5: 62}
+  compression_ratio=0.000000; examples=0x04d6ed, 0x04d7a6, 0x04db3e, 0x04dba6, 0x04dbfb, 0x04dc28, 0x04ddb8, 0x04e05c, 0x04e3b7, 0x04e661
+  representative_header=001601060034000200400002; representative_sector=0x04d6ed
+class_signature=00160109 zlib=False count=154 bytes=507904 span_distribution={5: 1, 6: 85, 7: 67, 8: 1}
+  compression_ratio=0.000000; examples=0x04db91, 0x04dc7f, 0x04ded9, 0x04e137, 0x04e23e, 0x04e31a, 0x04e3da, 0x04e522, 0x04e6f0, 0x04e84a
+  representative_header=001601090034000100000000; representative_sector=0x04db91
+class_signature=00000102 zlib=False count=147 bytes=75264 span_distribution={1: 147}
+  compression_ratio=0.000000; examples=0x011981, 0x0134d1, 0x0135aa, 0x0135b2, 0x013675, 0x01367a, 0x0138c5, 0x0138cb, 0x0138f1, 0x013919
+  representative_header=000001020074000300940003; representative_sector=0x011981
+class_signature=00060203 zlib=True count=142 bytes=142848 span_distribution={2: 137, 1: 5}
+  compression_ratio=0.375936; examples=0x00eb9d, 0x00ebda, 0x00ebe0, 0x00ebe8, 0x00ebf3, 0x00ec20, 0x00ec28, 0x00ec2e, 0x00ec31, 0x00ec34
+  representative_header=0006020378daedd1bf4f1361; representative_sector=0x00eb9d
+class_signature=00040210 zlib=True count=142 bytes=177664 span_distribution={2: 60, 1: 27, 4: 8, 3: 38, 7: 2, 6: 5, 5: 2}
+  compression_ratio=0.115972; examples=0x0428a3, 0x0428a5, 0x0428ed, 0x042929, 0x04292f, 0x0429d0, 0x042a60, 0x042b19, 0x042b44, 0x042d25
+  representative_header=0004021078daed975b485441; representative_sector=0x0428a3
+class_signature=00160108 zlib=False count=142 bytes=423424 span_distribution={5: 29, 6: 109, 7: 4}
+  compression_ratio=0.000000; examples=0x04d6e0, 0x04daae, 0x04db82, 0x04deb5, 0x04df30, 0x04e47f, 0x04e50c, 0x04e840, 0x04e85b, 0x04e8ae
+  representative_header=001601080034000200400003; representative_sector=0x04d6e0
+class_signature=0016010d zlib=False count=140 bytes=668160 span_distribution={8: 12, 9: 74, 10: 51, 11: 3}
+  compression_ratio=0.000000; examples=0x04db57, 0x04dbb5, 0x04de3a, 0x04e049, 0x04e0cc, 0x04e3ae, 0x04e5a1, 0x04e5c6, 0x04e6b0, 0x04e73f
+  representative_header=0016010d0034000400480002; representative_sector=0x04db57
+class_signature=00030205 zlib=True count=132 bytes=236544 span_distribution={3: 66, 4: 66}
+  compression_ratio=0.584568; examples=0x044273, 0x04429e, 0x0442ca, 0x04431c, 0x044378, 0x04455f, 0x044903, 0x0449c3, 0x044ac6, 0x044b52
+  representative_header=0003020578daed956f505455; representative_sector=0x044273
+class_signature=00020205 zlib=True count=129 bytes=243200 span_distribution={3: 41, 4: 88}
+  compression_ratio=0.599311; examples=0x048a74, 0x048a7f, 0x048a82, 0x048ab8, 0x048ad3, 0x048add, 0x048af4, 0x048b03, 0x048b2d, 0x048b35
+  representative_header=0002020578dae596714c5347; representative_sector=0x048a74
+class_signature=00010205 zlib=True count=128 bytes=242176 span_distribution={4: 89, 3: 39}
+  compression_ratio=0.608503; examples=0x04b91f, 0x04b972, 0x04b9dc, 0x04b9ea, 0x04ba05, 0x04ba13, 0x04ba46, 0x04ba56, 0x04ba69, 0x04ba9f
+  representative_header=0001020578daa5967f6c14c7; representative_sector=0x04b91f
+class_signature=0016010b zlib=False count=127 bytes=514048 span_distribution={7: 39, 8: 62, 9: 25, 10: 1}
+  compression_ratio=0.000000; examples=0x04dab4, 0x04db09, 0x04dbe0, 0x04e130, 0x04e13e, 0x04e48d, 0x04e4b1, 0x04e66c, 0x04e7ee, 0x04e8d0
+  representative_header=0016010b0034000400480007; representative_sector=0x04dab4
+class_signature=0016010c zlib=False count=125 bytes=556544 span_distribution={8: 48, 7: 1, 9: 65, 10: 10, 11: 1}
+  compression_ratio=0.000000; examples=0x04d79e, 0x04d880, 0x04df39, 0x04df41, 0x04e3d2, 0x04e52a, 0x04e691, 0x04ecc2, 0x04ef84, 0x04f0ac
+  representative_header=0016010c00340005004c0012; representative_sector=0x04d79e
+class_signature=0016010f zlib=False count=124 bytes=680960 span_distribution={10: 54, 9: 1, 11: 48, 12: 20, 13: 1}
+  compression_ratio=0.000000; examples=0x04de88, 0x04de92, 0x04e052, 0x04e07e, 0x04e6d3, 0x04e77a, 0x04e831, 0x04e860, 0x04e916, 0x04e9a9
+  representative_header=0016010f0034000600500004; representative_sector=0x04de88
+class_signature=0016010e zlib=False count=121 bytes=622592 span_distribution={10: 51, 9: 32, 11: 38}
+  compression_ratio=0.000000; examples=0x04d9b7, 0x04dc12, 0x04dde0, 0x04de66, 0x04df6c, 0x04e02b, 0x04e034, 0x04e2d5, 0x04e3bb, 0x04e484
+  representative_header=0016010e003400030044000a; representative_sector=0x04d9b7
+class_signature=00020206 zlib=True count=115 bytes=243200 span_distribution={4: 100, 5: 15}
+  compression_ratio=0.606930; examples=0x048a61, 0x048a6f, 0x048a7b, 0x048ac6, 0x048acb, 0x048b22, 0x048b28, 0x048b65, 0x048b74, 0x048c14
+  representative_header=0002020678dae5956d6c5bd5; representative_sector=0x048a61
+class_signature=00040202 zlib=True count=111 bytes=56832 span_distribution={1: 111}
+  compression_ratio=0.116106; examples=0x0428b8, 0x0428bd, 0x042923, 0x042924, 0x04294a, 0x0429a2, 0x0429b4, 0x0429c2, 0x042a96, 0x042a9f
+  representative_header=0004020278da631060b06354; representative_sector=0x0428b8
+class_signature=00010206 zlib=True count=109 bytes=231424 span_distribution={4: 93, 5: 16}
+  compression_ratio=0.612014; examples=0x04b923, 0x04b93b, 0x04b9a2, 0x04ba16, 0x04ba1b, 0x04ba5a, 0x04bac2, 0x04baf9, 0x04bb04, 0x04bb27
+  representative_header=0001020678daed967f5054d7; representative_sector=0x04b923
+class_signature=000f0260 zlib=True count=105 bytes=1719296 span_distribution={37: 4, 36: 3, 34: 6, 33: 6, 39: 1, 35: 3, 38: 2, 32: 25, 31: 34, 30: 17, 29: 4}
+  compression_ratio=0.307223; examples=0x001acf, 0x001af4, 0x001b19, 0x001b3d, 0x001b5f, 0x001b80, 0x001ba2, 0x001bc4, 0x001beb, 0x001c0e
+  representative_header=000f026078da4dbd4b6873cb; representative_sector=0x001acf
+class_signature=00040211 zlib=True count=104 bytes=145408 span_distribution={2: 34, 3: 26, 1: 20, 8: 1, 4: 9, 5: 10, 6: 4}
+  compression_ratio=0.125281; examples=0x042879, 0x042b29, 0x042c59, 0x042e83, 0x0431bd, 0x0431c8, 0x0431eb, 0x043220, 0x043270, 0x043286
+  representative_header=0004021178daed584b6b1351; representative_sector=0x042879
+class_signature=00020207 zlib=True count=102 bytes=256512 span_distribution={5: 93, 4: 9}
+  compression_ratio=0.606593; examples=0x048a6a, 0x048aa2, 0x048b07, 0x048bca, 0x048c5f, 0x048c83, 0x048c88, 0x048d2b, 0x048ded, 0x048e1e
+  representative_header=0002020778daed967b5054d7; representative_sector=0x048a6a
+class_signature=001d0000 zlib=False count=102 bytes=62464 span_distribution={1: 90, 2: 6, 3: 5, 5: 1}
+  compression_ratio=0.000000; examples=0x070f86, 0x070f87, 0x070f88, 0x070f89, 0x070f8a, 0x070f8b, 0x070f8c, 0x070f8d, 0x070f8e, 0x070f8f
+  representative_header=001d000000340001003c0001; representative_sector=0x070f86
+class_signature=00160111 zlib=False count=100 bytes=625152 span_distribution={10: 1, 11: 26, 12: 31, 13: 35, 14: 7}
+  compression_ratio=0.000000; examples=0x04dafa, 0x04db99, 0x04dc2c, 0x04debb, 0x04e002, 0x04e38e, 0x04ed42, 0x04ee3b, 0x04eef5, 0x04ef23
+  representative_header=001601110034000400000000; representative_sector=0x04dafa
+class_signature=00160112 zlib=False count=99 bytes=649216 span_distribution={12: 39, 11: 5, 13: 28, 15: 3, 14: 24}
+  compression_ratio=0.000000; examples=0x04d862, 0x04dc4f, 0x04dc88, 0x04de9b, 0x04e03e, 0x04e060, 0x04e399, 0x04e428, 0x04e516, 0x04ea1a
+  representative_header=0016011200340005004c0001; representative_sector=0x04d862
+class_signature=00040212 zlib=True count=98 bytes=135168 span_distribution={2: 29, 1: 15, 3: 34, 5: 7, 4: 12, 6: 1}
+  compression_ratio=0.117132; examples=0x0431c5, 0x0431e2, 0x04325d, 0x0432b2, 0x0432b6, 0x0432c5, 0x04332c, 0x043333, 0x04333a, 0x04334f
+  representative_header=0004021278daed58d94e5351; representative_sector=0x0431c5
+class_signature=00150103 zlib=False count=97 bytes=99328 span_distribution={2: 97}
+  compression_ratio=0.000000; examples=0x0672e5, 0x067405, 0x067416, 0x068557, 0x06856a, 0x068a1d, 0x068a2d, 0x06974f, 0x06980d, 0x0698db
+  representative_header=001501030034000300440006; representative_sector=0x0672e5
+class_signature=00000103 zlib=False count=96 bytes=98304 span_distribution={2: 96}
+  compression_ratio=0.000000; examples=0x013b9c, 0x015a76, 0x015eff, 0x016ea2, 0x01954d, 0x019768, 0x01990e, 0x019db9, 0x01a6cb, 0x01a6cd
+  representative_header=000001030074000300940004; representative_sector=0x013b9c
+class_signature=0000013b zlib=False count=95 bytes=1412608 span_distribution={33: 2, 34: 1, 35: 1, 29: 32, 28: 17, 26: 8, 27: 6, 30: 14, 31: 11, 32: 2, 25: 1}
+  compression_ratio=0.000000; examples=0x011797, 0x017b46, 0x017cbf, 0x022a26, 0x0234ee, 0x023782, 0x023cf7, 0x023f89, 0x024077, 0x024275
+  representative_header=0000013b0074000300940007; representative_sector=0x011797
+class_signature=00030206 zlib=True count=93 bytes=190976 span_distribution={4: 88, 5: 3, 3: 2}
+  compression_ratio=0.590173; examples=0x04423a, 0x04432b, 0x044636, 0x044643, 0x04468c, 0x0446e7, 0x0446eb, 0x04481c, 0x04485c, 0x0448d2
+  representative_header=0003020678dae5956d6c5355; representative_sector=0x04423a
+class_signature=00160115 zlib=False count=93 bytes=706560 span_distribution={14: 42, 13: 5, 15: 14, 16: 27, 17: 5}
+  compression_ratio=0.000000; examples=0x04d8cf, 0x04db31, 0x04dc98, 0x04de1a, 0x04dea7, 0x04e244, 0x04ed88, 0x04ef8c, 0x04f255, 0x04f4b8
+  representative_header=00160115003400040048000e; representative_sector=0x04d8cf
+class_signature=00160113 zlib=False count=90 bytes=624640 span_distribution={13: 28, 12: 18, 14: 20, 15: 24}
+  compression_ratio=0.000000; examples=0x04d8fe, 0x04da8f, 0x04db76, 0x04de5a, 0x04dfa7, 0x04e434, 0x04e460, 0x04e6f7, 0x04e79c, 0x04e8b3
+  representative_header=001601130034000600500008; representative_sector=0x04d8fe
+class_signature=00160114 zlib=False count=90 bytes=657408 span_distribution={13: 30, 14: 22, 12: 1, 15: 18, 16: 19}
+  compression_ratio=0.000000; examples=0x04dc1b, 0x04dcd5, 0x04e0a1, 0x04e320, 0x04e6c2, 0x04e749, 0x04e8f4, 0x04e951, 0x04ec20, 0x04ecb5
+  representative_header=0016011400340005004c0008; representative_sector=0x04dc1b
+class_signature=0000013e zlib=False count=89 bytes=1398784 span_distribution={37: 1, 34: 2, 29: 12, 28: 3, 31: 35, 30: 13, 26: 2, 32: 13, 33: 6, 27: 2}
+  compression_ratio=0.000000; examples=0x012baf, 0x0218e3, 0x0229d2, 0x022ae9, 0x022f91, 0x0235f8, 0x023a6b, 0x023ae0, 0x0240f7, 0x02451c
+  representative_header=0000013e007400030094000a; representative_sector=0x012baf
+class_signature=000e025f zlib=True count=85 bytes=1433600 span_distribution={32: 8, 31: 3, 40: 1, 38: 8, 37: 8, 36: 5, 33: 13, 34: 6, 41: 1, 35: 7, 39: 1, 29: 8, 26: 1, 30: 4, 27: 10, 25: 1}
+  compression_ratio=0.339048; examples=0x002842, 0x0028e3, 0x002902, 0x002922, 0x002962, 0x002c3a, 0x002c62, 0x002c88, 0x002cd2, 0x002cf7
+  representative_header=000e025f78daedbb7f7c5455; representative_sector=0x002842
+class_signature=00000141 zlib=False count=85 bytes=1440256 span_distribution={37: 2, 35: 10, 32: 22, 33: 26, 31: 5, 34: 14, 30: 2, 36: 3, 28: 1}
+  compression_ratio=0.000000; examples=0x021722, 0x02175c, 0x02268d, 0x022c1f, 0x022ca4, 0x02325f, 0x023f45, 0x0246e8, 0x024d3a, 0x025082
+  representative_header=000001410074000300940009; representative_sector=0x021722
+class_signature=00030207 zlib=True count=85 bytes=214016 span_distribution={5: 78, 4: 7}
+  compression_ratio=0.599237; examples=0x04433c, 0x0443b3, 0x044568, 0x044675, 0x0447c1, 0x044906, 0x04490a, 0x044a10, 0x044a89, 0x044b19
+  representative_header=0003020778dac5967f5014e7; representative_sector=0x04433c
+class_signature=00020208 zlib=True count=85 bytes=240640 span_distribution={6: 45, 5: 40}
+  compression_ratio=0.618246; examples=0x048a9c, 0x048ad7, 0x048b78, 0x048bc5, 0x048c6c, 0x048d68, 0x048d93, 0x048dc2, 0x048e18, 0x048e7b
+  representative_header=0002020878daed977d5414d7; representative_sector=0x048a9c
+class_signature=00160117 zlib=False count=85 bytes=708608 span_distribution={14: 2, 15: 31, 16: 11, 17: 23, 18: 18}
+  compression_ratio=0.000000; examples=0x04db10, 0x04dbbe, 0x04dd44, 0x04e00d, 0x04e01c, 0x04e33d, 0x04e4d4, 0x04e981, 0x04eaa7, 0x04f064
+  representative_header=001601170034000600500007; representative_sector=0x04db10
+class_signature=00160110 zlib=False count=84 bytes=484352 span_distribution={11: 39, 10: 14, 12: 26, 13: 5}
+  compression_ratio=0.000000; examples=0x04d857, 0x04daa3, 0x04dad5, 0x04db61, 0x04db6c, 0x04db87, 0x04dbaa, 0x04dbe7, 0x04dbf1, 0x04dca6
+  representative_header=0016011000340005004c0001; representative_sector=0x04d857
+class_signature=00060204 zlib=True count=83 bytes=84992 span_distribution={2: 83}
+  compression_ratio=0.385607; examples=0x00ec3d, 0x00ec4b, 0x00ec5d, 0x00ed3c, 0x00ed47, 0x00ed5f, 0x00ed7a, 0x00ed85, 0x00ee98, 0x00eef5
+  representative_header=0006020478dab5d5d14f5251; representative_sector=0x00ec3d
+class_signature=00030208 zlib=True count=82 bytes=226304 span_distribution={5: 46, 6: 34, 4: 2}
+  compression_ratio=0.603238; examples=0x044246, 0x044254, 0x04425b, 0x0442ac, 0x0442ce, 0x044317, 0x044326, 0x04435d, 0x044391, 0x0443cc
+  representative_header=0003020878dabd977f509475; representative_sector=0x044246
+class_signature=0003020a zlib=True count=82 bytes=288256 span_distribution={7: 72, 6: 9, 5: 1}
+  compression_ratio=0.612614; examples=0x04424b, 0x0442f4, 0x044363, 0x0443a1, 0x0444e1, 0x04463c, 0x0446e0, 0x04484a, 0x044891, 0x044919
+  representative_header=0003020a78daed987d545465; representative_sector=0x04424b
+class_signature=00150102 zlib=False count=82 bytes=41984 span_distribution={1: 82}
+  compression_ratio=0.000000; examples=0x066e35, 0x066e37, 0x066e43, 0x066e48, 0x067305, 0x06875c, 0x068a21, 0x069c8d, 0x069d2a, 0x069d79
+  representative_header=0015010200340001003c0001; representative_sector=0x066e35
+class_signature=00000146 zlib=False count=81 bytes=1446400 span_distribution={39: 2, 34: 12, 38: 6, 40: 1, 33: 12, 32: 5, 35: 21, 36: 14, 37: 5, 30: 2, 31: 1}
+  compression_ratio=0.000000; examples=0x0146c2, 0x016d04, 0x021829, 0x021d7b, 0x022b6c, 0x022bff, 0x0238b8, 0x023a30, 0x023bfa, 0x0252f0
+  representative_header=000001460074000300940005; representative_sector=0x0146c2
+class_signature=00160118 zlib=False count=80 bytes=697856 span_distribution={16: 22, 15: 10, 17: 18, 18: 16, 19: 13, 20: 1}
+  compression_ratio=0.000000; examples=0x04db21, 0x04dec6, 0x04e32d, 0x04e67e, 0x04e994, 0x04ed4d, 0x04ee6b, 0x04ef56, 0x04f430, 0x04f6ef
+  representative_header=001601180034000700540009; representative_sector=0x04db21
+class_signature=00000138 zlib=False count=79 bytes=1138688 span_distribution={33: 2, 34: 1, 29: 20, 32: 1, 27: 13, 28: 29, 30: 4, 26: 6, 24: 2, 25: 1}
+  compression_ratio=0.000000; examples=0x011ea9, 0x0192f6, 0x01f22b, 0x0217be, 0x0227f7, 0x02352a, 0x0248e6, 0x024c40, 0x02537d, 0x0257b3
+  representative_header=00000138007400030094000e; representative_sector=0x011ea9
+class_signature=00000145 zlib=False count=76 bytes=1339904 span_distribution={38: 3, 39: 1, 34: 24, 35: 19, 33: 8, 36: 6, 32: 8, 37: 5, 31: 2}
+  compression_ratio=0.000000; examples=0x017e6c, 0x021cdc, 0x02327f, 0x0245b5, 0x024ca1, 0x024d9e, 0x0255e1, 0x025ba9, 0x0272dd, 0x028239
+  representative_header=000001450074000300940004; representative_sector=0x017e6c
+class_signature=00150104 zlib=False count=76 bytes=116736 span_distribution={3: 76}
+  compression_ratio=0.000000; examples=0x067323, 0x068549, 0x06854c, 0x068766, 0x068a23, 0x068a26, 0x069bf1, 0x069c0e, 0x069dbf, 0x069e98
+  representative_header=00150104003400020040000b; representative_sector=0x067323
+class_signature=00000139 zlib=False count=75 bytes=1091584 span_distribution={28: 29, 34: 1, 32: 2, 27: 9, 25: 1, 26: 4, 29: 20, 30: 9}
+  compression_ratio=0.000000; examples=0x016d7b, 0x01a4e3, 0x021cb6, 0x022367, 0x022932, 0x022f10, 0x023444, 0x023d11, 0x024383, 0x0244e1
+  representative_header=0000013900740004009c0016; representative_sector=0x016d7b
+class_signature=0000013a zlib=False count=74 bytes=1085440 span_distribution={33: 2, 25: 2, 27: 10, 26: 4, 28: 16, 29: 22, 30: 14, 31: 4}
+  compression_ratio=0.000000; examples=0x0216dc, 0x0220e9, 0x022ab8, 0x0232cb, 0x023429, 0x0235c6, 0x0237de, 0x0239ea, 0x023a51, 0x023c49
+  representative_header=0000013a0074000300940007; representative_sector=0x0216dc
+class_signature=0000013c zlib=False count=74 bytes=1120768 span_distribution={34: 1, 29: 16, 36: 1, 27: 9, 28: 7, 30: 18, 26: 2, 32: 4, 31: 16}
+  compression_ratio=0.000000; examples=0x021876, 0x02194d, 0x022018, 0x022a9d, 0x022b28, 0x022d5c, 0x02393b, 0x02398f, 0x023bdf, 0x024290
+  representative_header=0000013c0074000300940008; representative_sector=0x021876
+class_signature=00000136 zlib=False count=72 bytes=998912 span_distribution={32: 2, 30: 1, 27: 29, 24: 2, 26: 15, 25: 4, 28: 15, 29: 4}
+  compression_ratio=0.000000; examples=0x011b86, 0x021c71, 0x0226e5, 0x022cc5, 0x022ef8, 0x0232ff, 0x0237c4, 0x02525b, 0x025519, 0x02566e
+  representative_header=000001360074000300940011; representative_sector=0x011b86
+class_signature=00000106 zlib=False count=72 bytes=130048 span_distribution={4: 38, 3: 34}
+  compression_ratio=0.000000; examples=0x01265d, 0x012b07, 0x013e5f, 0x01414f, 0x01482d, 0x015c3c, 0x016a43, 0x018c4f, 0x0196f7, 0x019a73
+  representative_header=000001060074000300940005; representative_sector=0x01265d
+class_signature=00000142 zlib=False count=72 bytes=1216000 span_distribution={35: 8, 38: 1, 30: 5, 32: 16, 31: 6, 34: 12, 36: 3, 33: 21}
+  compression_ratio=0.000000; examples=0x017e92, 0x022817, 0x02303f, 0x02323f, 0x023ea0, 0x0241be, 0x0241dd, 0x024ad0, 0x024f24, 0x025399
+  representative_header=000001420074000300940003; representative_sector=0x017e92
+class_signature=00040213 zlib=True count=72 bytes=93184 span_distribution={1: 16, 6: 2, 2: 19, 5: 3, 3: 27, 4: 5}
+  compression_ratio=0.103098; examples=0x0432ac, 0x0432af, 0x0432e0, 0x04330d, 0x04332b, 0x0435a0, 0x0435ea, 0x0435f0, 0x043601, 0x043612
+  representative_header=0004021378daedd8b10d4040; representative_sector=0x0432ac
+class_signature=00000134 zlib=False count=71 bytes=935936 span_distribution={27: 16, 24: 8, 25: 16, 23: 2, 26: 27, 28: 2}
+  compression_ratio=0.000000; examples=0x02288d, 0x022ff1, 0x0235e0, 0x023fa4, 0x024457, 0x024614, 0x024b4b, 0x024c26, 0x0252d5, 0x028048
+  representative_header=000001340074000300940015; representative_sector=0x02288d
+class_signature=00020209 zlib=True count=71 bytes=220672 span_distribution={6: 66, 7: 5}
+  compression_ratio=0.618659; examples=0x048c30, 0x048d5c, 0x048dfb, 0x048e96, 0x048f22, 0x048f42, 0x048f9d, 0x048fd9, 0x04900c, 0x049104
+  representative_header=0002020978dad5987f7414d5; representative_sector=0x048c30
+class_signature=00160116 zlib=False count=71 bytes=565248 span_distribution={15: 19, 14: 14, 13: 3, 16: 13, 17: 20, 18: 2}
+  compression_ratio=0.000000; examples=0x04d78f, 0x04da81, 0x04df87, 0x04e282, 0x04e5f7, 0x04e7a8, 0x04e95e, 0x04e9f9, 0x04ebf6, 0x04ed79
+  representative_header=00160116003400060050000c; representative_sector=0x04d78f
+
+Zlib subheader patterns (signature, offset, bytes before zlib):
+  ('00170260', 8, '00170260'): 659
+  ('000e0260', 8, '000e0260'): 611
+  ('00100260', 8, '00100260'): 453
+  ('00040206', 8, '00040206'): 363
+  ('00060202', 8, '00060202'): 362
+  ('00040207', 8, '00040207'): 339
+  ('00040209', 8, '00040209'): 331
+  ('00040205', 8, '00040205'): 326
+  ('00040208', 8, '00040208'): 324
+  ('0004020a', 8, '0004020a'): 300
+  ('00040204', 8, '00040204'): 242
+  ('0004020b', 8, '0004020b'): 239
+  ('00010204', 8, '00010204'): 228
+  ('0004020d', 8, '0004020d'): 224
+  ('00010203', 8, '00010203'): 222
+  ('0004020c', 8, '0004020c'): 214
+  ('00040203', 8, '00040203'): 209
+  ('00010202', 8, '00010202'): 204
+  ('00020203', 8, '00020203'): 201
+  ('0004020f', 8, '0004020f'): 199
+  ('00030203', 8, '00030203'): 197
+  ('0004020e', 8, '0004020e'): 191
+  ('00020204', 8, '00020204'): 182
+  ('00020202', 8, '00020202'): 179
+  ('00030202', 8, '00030202'): 175
+  ('00030204', 8, '00030204'): 163
+  ('00090202', 8, '00090202'): 158
+  ('00060203', 8, '00060203'): 142
+  ('00040210', 8, '00040210'): 142
+  ('00030205', 8, '00030205'): 132
+  ('00020205', 8, '00020205'): 129
+  ('00010205', 8, '00010205'): 128
+  ('00020206', 8, '00020206'): 115
+  ('00040202', 8, '00040202'): 111
+  ('00010206', 8, '00010206'): 109
+  ('000f0260', 8, '000f0260'): 105
+  ('00040211', 8, '00040211'): 104
+  ('00020207', 8, '00020207'): 102
+  ('00040212', 8, '00040212'): 98
+  ('00030206', 8, '00030206'): 93
+  ('000e025f', 8, '000e025f'): 85
+  ('00030207', 8, '00030207'): 85
+  ('00020208', 8, '00020208'): 85
+  ('00060204', 8, '00060204'): 83
+  ('00030208', 8, '00030208'): 82
+  ('0003020a', 8, '0003020a'): 82
+  ('00040213', 8, '00040213'): 72
+  ('00020209', 8, '00020209'): 71
+  ('0003020c', 8, '0003020c'): 70
+  ('00030209', 8, '00030209'): 70
+  ('00010207', 8, '00010207'): 70
+  ('00000222', 8, '00000222'): 68
+  ('00010208', 8, '00010208'): 68
+  ('00010209', 8, '00010209'): 65
+  ('00000228', 8, '00000228'): 63
+  ('0000021b', 8, '0000021b'): 62
+  ('0002020a', 8, '0002020a'): 60
+  ('00000224', 8, '00000224'): 59
+  ('00000229', 8, '00000229'): 59
+  ('0000021e', 8, '0000021e'): 59
+  ('0003020b', 8, '0003020b'): 57
+  ('0000022f', 8, '0000022f'): 56
+  ('00000227', 8, '00000227'): 56
+  ('0000022a', 8, '0000022a'): 56
+  ('00000231', 8, '00000231'): 54
+  ('00040214', 8, '00040214'): 53
+  ('0002020c', 8, '0002020c'): 53
+  ('00000226', 8, '00000226'): 52
+  ('00000235', 8, '00000235'): 52
+  ('00000220', 8, '00000220'): 52
+  ('00000223', 8, '00000223'): 52
+  ('0000023c', 8, '0000023c'): 51
+  ('00000232', 8, '00000232'): 51
+  ('00000225', 8, '00000225'): 51
+  ('00000230', 8, '00000230'): 50
+  ('0000022e', 8, '0000022e'): 50
+  ('00000239', 8, '00000239'): 50
+  ('00000221', 8, '00000221'): 50
+  ('0003020f', 8, '0003020f'): 50
+  ('0000021d', 8, '0000021d'): 49
+  ('0000021c', 8, '0000021c'): 49
+  ('0000022b', 8, '0000022b'): 49
+  ('00110260', 8, '00110260'): 48
+  ('0000022c', 8, '0000022c'): 48
+  ('00000214', 8, '00000214'): 48
+  ('0002020b', 8, '0002020b'): 48
+  ('0000021f', 8, '0000021f'): 47
+  ('00000218', 8, '00000218'): 47
+  ('00000237', 8, '00000237'): 46
+  ('00000233', 8, '00000233'): 46
+  ('0000023a', 8, '0000023a'): 46
+  ('00000236', 8, '00000236'): 46
+  ('0000023d', 8, '0000023d'): 45
+  ('00000215', 8, '00000215'): 45
+  ('0000021a', 8, '0000021a'): 44
+  ('0000023e', 8, '0000023e'): 44
+  ('0000022d', 8, '0000022d'): 44
+  ('00000238', 8, '00000238'): 44
+  ('0003020e', 8, '0003020e'): 44
+  ('00000216', 8, '00000216'): 43

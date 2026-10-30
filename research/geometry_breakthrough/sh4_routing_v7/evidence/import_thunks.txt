@@ -1,0 +1,188 @@
+; Import thunks reached by statically resolved indirect calls
+; source_sha256=8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07
+
+; thunk=0x00011a98 IAT=0x00013004 coredll.dll!ordinal_455
+00011a98  01d0  mov.l    0x11aa0,r0
+00011a9a  0260  mov.l    @r0,r0
+00011a9c  2b40  jmp      @r0
+00011a9e  0900  nop      
+
+; thunk=0x00011aa4 IAT=0x00013008 coredll.dll!ordinal_456
+00011aa4  01d0  mov.l    0x11aac,r0
+00011aa6  0260  mov.l    @r0,r0
+00011aa8  2b40  jmp      @r0
+00011aaa  0900  nop      
+
+; thunk=0x00011ab0 IAT=0x0001300c coredll.dll!ordinal_464
+00011ab0  01d0  mov.l    0x11ab8,r0
+00011ab2  0260  mov.l    @r0,r0
+00011ab4  2b40  jmp      @r0
+00011ab6  0900  nop      
+
+; thunk=0x00011abc IAT=0x00013010 coredll.dll!ordinal_63
+00011abc  01d0  mov.l    0x11ac4,r0
+00011abe  0260  mov.l    @r0,r0
+00011ac0  2b40  jmp      @r0
+00011ac2  0900  nop      
+
+; thunk=0x00011ac8 IAT=0x00013014 coredll.dll!ordinal_541
+00011ac8  01d0  mov.l    0x11ad0,r0
+00011aca  0260  mov.l    @r0,r0
+00011acc  2b40  jmp      @r0
+00011ace  0900  nop      
+
+; thunk=0x00011ad4 IAT=0x00013018 coredll.dll!ordinal_719
+00011ad4  01d0  mov.l    0x11adc,r0
+00011ad6  0260  mov.l    @r0,r0
+00011ad8  2b40  jmp      @r0
+00011ada  0900  nop      
+
+; thunk=0x00011ae0 IAT=0x0001301c coredll.dll!ordinal_1047
+00011ae0  01d0  mov.l    0x11ae8,r0
+00011ae2  0260  mov.l    @r0,r0
+00011ae4  2b40  jmp      @r0
+00011ae6  0900  nop      
+
+; thunk=0x00011aec IAT=0x00013020 coredll.dll!ordinal_549
+00011aec  01d0  mov.l    0x11af4,r0
+00011aee  0260  mov.l    @r0,r0
+00011af0  2b40  jmp      @r0
+00011af2  0900  nop      
+
+; thunk=0x00011af8 IAT=0x00013024 coredll.dll!ordinal_494
+00011af8  01d0  mov.l    0x11b00,r0
+00011afa  0260  mov.l    @r0,r0
+00011afc  2b40  jmp      @r0
+00011afe  0900  nop      
+
+; thunk=0x00011b04 IAT=0x00013028 coredll.dll!ordinal_548
+00011b04  01d0  mov.l    0x11b0c,r0
+00011b06  0260  mov.l    @r0,r0
+00011b08  2b40  jmp      @r0
+00011b0a  0900  nop      
+
+; thunk=0x00011b10 IAT=0x00013000 coredll.dll!ordinal_528
+00011b10  01d0  mov.l    0x11b18,r0
+00011b12  0260  mov.l    @r0,r0
+00011b14  2b40  jmp      @r0
+00011b16  0900  nop      
+
+; thunk=0x00011b1c IAT=0x00013030 coredll.dll!ordinal_871
+00011b1c  01d0  mov.l    0x11b24,r0
+00011b1e  0260  mov.l    @r0,r0
+00011b20  2b40  jmp      @r0
+00011b22  0900  nop      
+
+; thunk=0x00011b28 IAT=0x00013034 coredll.dll!ordinal_495
+00011b28  01d0  mov.l    0x11b30,r0
+00011b2a  0260  mov.l    @r0,r0
+00011b2c  2b40  jmp      @r0
+00011b2e  0900  nop      
+
+; thunk=0x00011b34 IAT=0x00013038 coredll.dll!ordinal_530
+00011b34  01d0  mov.l    0x11b3c,r0
+00011b36  0260  mov.l    @r0,r0
+00011b38  2b40  jmp      @r0
+00011b3a  0900  nop      
+
+; thunk=0x00011b40 IAT=0x0001303c coredll.dll!ordinal_553
+00011b40  01d0  mov.l    0x11b48,r0
+00011b42  0260  mov.l    @r0,r0
+00011b44  2b40  jmp      @r0
+00011b46  0900  nop      
+
+; thunk=0x00011b4c IAT=0x00013040 coredll.dll!ordinal_550
+00011b4c  01d0  mov.l    0x11b54,r0
+00011b4e  0260  mov.l    @r0,r0
+00011b50  2b40  jmp      @r0
+00011b52  0900  nop      
+
+; thunk=0x00011b58 IAT=0x00013044 coredll.dll!ordinal_497
+00011b58  01d0  mov.l    0x11b60,r0
+00011b5a  0260  mov.l    @r0,r0
+00011b5c  2b40  jmp      @r0
+00011b5e  0900  nop      
+
+; thunk=0x00011bac IAT=0x00013088 mfcce212.dll!ordinal_2640
+00011bac  01d0  mov.l    0x11bb4,r0
+00011bae  0260  mov.l    @r0,r0
+00011bb0  2b40  jmp      @r0
+00011bb2  0900  nop      
+
+; thunk=0x00011bb8 IAT=0x00013090 mfcce212.dll!ordinal_319
+00011bb8  01d0  mov.l    0x11bc0,r0
+00011bba  0260  mov.l    @r0,r0
+00011bbc  2b40  jmp      @r0
+00011bbe  0900  nop      
+
+; thunk=0x00011bc4 IAT=0x00013084 mfcce212.dll!ordinal_393
+00011bc4  01d0  mov.l    0x11bcc,r0
+00011bc6  0260  mov.l    @r0,r0
+00011bc8  2b40  jmp      @r0
+00011bca  0900  nop      
+
+; thunk=0x00011bd0 IAT=0x0001308c mfcce212.dll!ordinal_193
+00011bd0  01d0  mov.l    0x11bd8,r0
+00011bd2  0260  mov.l    @r0,r0
+00011bd4  2b40  jmp      @r0
+00011bd6  0900  nop      
+
+; thunk=0x00011bdc IAT=0x00013080 mfcce212.dll!ordinal_391
+00011bdc  01d0  mov.l    0x11be4,r0
+00011bde  0260  mov.l    @r0,r0
+00011be0  2b40  jmp      @r0
+00011be2  0900  nop      
+
+; thunk=0x00011be8 IAT=0x0001307c mfcce212.dll!ordinal_343
+00011be8  01d0  mov.l    0x11bf0,r0
+00011bea  0260  mov.l    @r0,r0
+00011bec  2b40  jmp      @r0
+00011bee  0900  nop      
+
+; thunk=0x00011bf4 IAT=0x00013098 mfcce212.dll!ordinal_195
+00011bf4  01d0  mov.l    0x11bfc,r0
+00011bf6  0260  mov.l    @r0,r0
+00011bf8  2b40  jmp      @r0
+00011bfa  0900  nop      
+
+; thunk=0x00011c00 IAT=0x00013094 mfcce212.dll!ordinal_345
+00011c00  01d0  mov.l    0x11c08,r0
+00011c02  0260  mov.l    @r0,r0
+00011c04  2b40  jmp      @r0
+00011c06  0900  nop      
+
+; thunk=0x00011c0c IAT=0x0001309c mfcce212.dll!ordinal_397
+00011c0c  01d0  mov.l    0x11c14,r0
+00011c0e  0260  mov.l    @r0,r0
+00011c10  2b40  jmp      @r0
+00011c12  0900  nop      
+
+; thunk=0x00011e6c IAT=0x000130a8 ole32.dll!CoInitializeEx
+00011e6c  01d0  mov.l    0x11e74,r0
+00011e6e  0260  mov.l    @r0,r0
+00011e70  2b40  jmp      @r0
+00011e72  0900  nop      
+
+; thunk=0x00011e78 IAT=0x000130a4 ole32.dll!CoUninitialize
+00011e78  01d0  mov.l    0x11e80,r0
+00011e7a  0260  mov.l    @r0,r0
+00011e7c  2b40  jmp      @r0
+00011e7e  0900  nop      
+
+; thunk=0x00011e84 IAT=0x0001306c memmgr.dll!LocalReAlloc
+00011e84  01d0  mov.l    0x11e8c,r0
+00011e86  0260  mov.l    @r0,r0
+00011e88  2b40  jmp      @r0
+00011e8a  0900  nop      
+
+; thunk=0x00011e90 IAT=0x00013070 memmgr.dll!LocalSize
+00011e90  01d0  mov.l    0x11e98,r0
+00011e92  0260  mov.l    @r0,r0
+00011e94  2b40  jmp      @r0
+00011e96  0900  nop      
+
+; thunk=0x00011e9c IAT=0x00013074 memmgr.dll!LocalAlloc
+00011e9c  01d0  mov.l    0x11ea4,r0
+00011e9e  0260  mov.l    @r0,r0
+00011ea0  2b40  jmp      @r0
+00011ea2  0900  nop      

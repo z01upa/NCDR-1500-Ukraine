@@ -1,0 +1,162 @@
+{
+  "status": "PASS_COPY_ONLY",
+  "claim_scope": "byte-preserving copies and one confirmed header-field experiment only; no payload semantics, disc image, or Opel compatibility claimed",
+  "regional_roundtrips": [
+    {
+      "region": "SW",
+      "no_op": {
+        "source_path": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.MP0",
+        "working_copy": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\writer_roundtrip\\AUTO_F3_EXPERIMENTAL_MP0_ROUNDTRIP_001\\SW.noop.MP0",
+        "source_sha256_before": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "working_copy_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "source_sha256_after": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "source_bytes": 30281958,
+        "no_op_roundtrip_pass": true,
+        "readback_bytes": 30281958,
+        "claim_scope": "byte-for-byte no-op copy only; no NCDx write semantics inferred"
+      },
+      "source_header": {
+        "file_name": "EUZ.MP0",
+        "file_size": 30281958,
+        "sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "magic": "(*$SIEMENS&^)",
+        "copyright": "Copyright 1998",
+        "internal_format_version": "2.0.0",
+        "dataset_code": "EU44420940.82",
+        "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 45 55 34 34 34 32 30 39 34 30 2e 38 32 00 00 00"
+      },
+      "copy_header": {
+        "file_name": "SW.noop.MP0",
+        "file_size": 30281958,
+        "sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "magic": "(*$SIEMENS&^)",
+        "copyright": "Copyright 1998",
+        "internal_format_version": "2.0.0",
+        "dataset_code": "EU44420940.82",
+        "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 45 55 34 34 34 32 30 39 34 30 2e 38 32 00 00 00"
+      }
+    },
+    {
+      "region": "Italy",
+      "no_op": {
+        "source_path": "${NCDR_SOURCE_ROOT}\\OPEL NCDx Italia 2010-2011\\DB\\IZ.MP0",
+        "working_copy": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\writer_roundtrip\\AUTO_F3_EXPERIMENTAL_MP0_ROUNDTRIP_001\\Italy.noop.MP0",
+        "source_sha256_before": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+        "working_copy_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+        "source_sha256_after": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+        "source_bytes": 165510023,
+        "no_op_roundtrip_pass": true,
+        "readback_bytes": 165510023,
+        "claim_scope": "byte-for-byte no-op copy only; no NCDx write semantics inferred"
+      },
+      "source_header": {
+        "file_name": "IZ.MP0",
+        "file_size": 165510023,
+        "sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+        "magic": "(*$SIEMENS&^)",
+        "copyright": "Copyright 1998",
+        "internal_format_version": "2.0.0",
+        "dataset_code": "I44431940.82",
+        "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 49 34 34 34 33 31 39 34 30 2e 38 32 00 00 00 00"
+      },
+      "copy_header": {
+        "file_name": "Italy.noop.MP0",
+        "file_size": 165510023,
+        "sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+        "magic": "(*$SIEMENS&^)",
+        "copyright": "Copyright 1998",
+        "internal_format_version": "2.0.0",
+        "dataset_code": "I44431940.82",
+        "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 49 34 34 34 33 31 39 34 30 2e 38 32 00 00 00 00"
+      }
+    },
+    {
+      "region": "Scandinavia",
+      "no_op": {
+        "source_path": "${NCDR_SOURCE_ROOT}\\OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.MP0",
+        "working_copy": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\writer_roundtrip\\AUTO_F3_EXPERIMENTAL_MP0_ROUNDTRIP_001\\Scandinavia.noop.MP0",
+        "source_sha256_before": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+        "working_copy_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+        "source_sha256_after": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+        "source_bytes": 220863350,
+        "no_op_roundtrip_pass": true,
+        "readback_bytes": 220863350,
+        "claim_scope": "byte-for-byte no-op copy only; no NCDx write semantics inferred"
+      },
+      "source_header": {
+        "file_name": "SCZ.MP0",
+        "file_size": 220863350,
+        "sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+        "magic": "(*$SIEMENS&^)",
+        "copyright": "Copyright 1998",
+        "internal_format_version": "2.0.0",
+        "dataset_code": "SC44442940.82",
+        "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 53 43 34 34 34 34 32 39 34 30 2e 38 32 00 00 00"
+      },
+      "copy_header": {
+        "file_name": "Scandinavia.noop.MP0",
+        "file_size": 220863350,
+        "sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+        "magic": "(*$SIEMENS&^)",
+        "copyright": "Copyright 1998",
+        "internal_format_version": "2.0.0",
+        "dataset_code": "SC44442940.82",
+        "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 53 43 34 34 34 34 32 39 34 30 2e 38 32 00 00 00"
+      }
+    }
+  ],
+  "controlled_header_change": {
+    "source_path": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.MP0",
+    "working_copy": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\writer_roundtrip\\AUTO_F3_EXPERIMENTAL_MP0_ROUNDTRIP_001\\EUZ.dataset-code-experiment.MP0",
+    "source_sha256_before": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+    "source_sha256_after": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+    "working_copy_sha256": "5a0553871810984abe7e7f76b61aeb16b4a863e09172827078a0fb32287dae25",
+    "old_code": "EU44420940.82",
+    "new_code": "SC44442940.82",
+    "changed_offsets": [
+      48,
+      49,
+      53,
+      54
+    ],
+    "changed_byte_count": 4,
+    "field_offset": 48,
+    "fixed_field_width": 16,
+    "working_copy_header_readback": {
+      "file_name": "EUZ.dataset-code-experiment.MP0",
+      "file_size": 30281958,
+      "sha256": "5a0553871810984abe7e7f76b61aeb16b4a863e09172827078a0fb32287dae25",
+      "magic": "(*$SIEMENS&^)",
+      "copyright": "Copyright 1998",
+      "internal_format_version": "2.0.0",
+      "dataset_code": "SC44442940.82",
+      "header_hex": "28 2a 24 53 49 45 4d 45 4e 53 26 5e 29 00 00 00 43 6f 70 79 72 69 67 68 74 20 31 39 39 38 00 00 32 2e 30 2e 30 00 00 00 00 00 00 00 00 00 00 00 53 43 34 34 34 34 32 39 34 30 2e 38 32 00 00 00"
+    },
+    "controlled_change_pass": true,
+    "claim_scope": "one confirmed header string changed on a copy; payload/device validity not asserted"
+  },
+  "source_write_count": 0,
+  "original_media_hashes_before": {
+    "EUZ.MP0": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+    "IZ.MP0": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+    "SCZ.MP0": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a"
+  },
+  "original_media_hashes_after": {
+    "EUZ.MP0": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+    "IZ.MP0": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+    "SCZ.MP0": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a"
+  },
+  "original_media_protection": "PASS",
+  "physical_compatibility": "NOT_TESTED",
+  "independent_readback": {
+    "status": "PASS",
+    "task_id": "AUTO_MP0_INDEPENDENT_READBACK_01",
+    "regional_source_count": 3,
+    "no_op_copies_match_manifest_sources": true,
+    "controlled_change_field_limited": true,
+    "separate_parser": true,
+    "original_media_write_count": 0,
+    "payload_semantics": "UNKNOWN",
+    "physical_compatibility": "NOT_TESTED"
+  }
+}

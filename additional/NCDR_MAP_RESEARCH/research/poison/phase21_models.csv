@@ -1,0 +1,5 @@
+axis,permutation,local_values_B,L1_or_T1,L2_or_T2,origin,constant_across_controls,model_status
+lon,[0,2,1],0x265A42,0x265A4B,0x265A99,0x33423F,yes,"Qlon = localX + origin"
+lon,[2,0,1],0x5A2642,0x5A264B,0x5A2699,-0x89C1,yes,"equivalent byte-order ambiguity"
+lat,[1,2,0],0x1C3D,0x1C46,0x1C94,0x48E73F,yes,"Qlat = localY + origin"
+lat,[2,1,0],0x1C003D,0x1C0046,0x1C0094,0x2D033F,yes,"equivalent byte-order ambiguity"

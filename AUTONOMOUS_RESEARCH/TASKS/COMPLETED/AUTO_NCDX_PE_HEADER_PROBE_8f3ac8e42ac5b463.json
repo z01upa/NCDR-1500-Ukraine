@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE01.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_8f3ac8e42ac5b463.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_8f3ac8e42ac5b463",
+  "updated_utc": "2026-10-27T20:06:05.408308+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "director_preferred": "qwen3.5:9b",
+  "supervisor_preferred": "qwen3.5:9b",
+  "director_required": "qwen3.5:9b",
+  "local_coder_required": "qwen2.5-coder:7b",
+  "optional_reviewers": [
+    "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+    "qwen2.5-coder:7b"
+  ],
+  "selection": "Director qwen3.5:9b always owns the technical plan; local code repair uses qwen2.5-coder:7b; deterministic independent verification gates each result",
+  "one_large_model_in_gpu": true,
+  "max_model_parallelism": 1,
+  "ollama_local_api": "http://127.0.0.1:11434/api/chat",
+  "require_structured_json_schema": true,
+  "gpu_peak_safety_margin_mib": 1000,
+  "max_attempts_no_new_evidence": 2,
+  "planned_director_tick_seconds": 180,
+  "codex": {
+    "invocation": "codex exec",
+    "run_only_on_critical_architecture_or_verified_local_failure": true,
+    "daily_budget_default": 1,
+    "max_attempts_per_request": 1,
+    "rate_limit_status": "WAITING_CODEX_QUOTA",
+    "rate_limit_retries": 0,
+    "min_sandbox": "workspace-write",
+    "danger_full_access": false,
+    "rate_limit_backoff_seconds": 0
+  },
+  "osm": {
+    "streaming_required": true,
+    "monolithic_xml_tree_forbidden": true,
+    "measure_process_rss": true,
+    "checkpoint_per_partition": true,
+    "timeout_each_shard_seconds": 1200,
+    "adaptive_partition_when_budget_hit": true
+  },
+  "autostart": {
+    "preferred": "Windows Task Scheduler",
+    "trigger": "ONLOGON",
+    "worker_survives_gui_exit": true
+  },
+  "originals": "read-only; verify hashes for affected sources; never write in Desktop/crz/NCDR"
+}

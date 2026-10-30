@@ -1,0 +1,152 @@
+function_va	instruction_va	string_va	text
+02f91000	02f9108c	02fae760	CNmiClusterInfo::CNmiClusterInfo 
+02f9140c	02f9193a	02faea0c	CNmiCLUSTERInfo::DeterminePictogramId() returns INTERSECTION_0
+02f91fe4	02f9211e	02faedf0	CNmiCLUSTERInfo::UpdateDistanceInCluster() sets INTERSECTION_0 in route
+02f91fe4	02f921aa	02faee38	CNmiCLUSTERInfo::UpdateDistanceInCluster() sets 
+02f91fe4	02f921bc	02faee6c	 InRoute = 
+02f930c0	02f930f2	02faf5a8	CNmiSoundIOReservationBase Thread entering 
+02f930c0	02f9314e	02faf5d4	CNmiSoundIOReservationBase Thread entered 
+02f94620	02f94648	02fafdc4	CNmiSoundIOResForVolumeSetting::ResourceGain(), ResState = 
+02f95d80	02f96188	02fb0ae4	CNmiCoreApplication::CNmiCoreApplication
+02f96d04	02f96daa	02fb0b84	) - processing new state
+02f96d04	02f96e3c	02fb0c48	 #NmiCORE#
+02f96eec	02f96f08	02fb0c54	CNmiCoreApplication::StartNavigationMachine
+02f975a4	02f975c0	02fb0dd4	CNmiCoreApplication::DoInitService
+02f97d50	02f97dca	02fb0e60	): call NaviBase::EnableVoiceOutput()
+02f97e5c	02f97ea4	02fb0e88	): call NaviBase::DisableVoiceOutput()
+02f9817c	02f981b6	02fb0ed0	) < callback
+02f9826c	02f9828e	02fb0ee0	CNmiCoreApplication::NewLCLocationUpdatedWhenComposing
+02f9826c	02f982cc	02fb0f50	 > handler
+02f9826c	02f98322	02fb0f5c	CNmiCoreApplication::NewLCLocationUpdatedWhenComposing  No Composer
+02f9826c	02f9845e	02fb0fdc	): call LC::GetLocation()
+02f98cf4	02f98d2e	02fb0ed0	) < callback
+02f98d88	02f98dc8	02fb1184	 > dispatcher
+02f98e8c	02f98ee2	02fb11b8	") < callback
+02f98f7c	02f98fc0	02fb0ed0	) < callback
+02f98f7c	02f990b4	02fb11fc	 got overwritten! #NmiCORE#
+02f990fc	02f9913c	02fb0f50	 > handler
+02f991d0	02f99280	02fb1250	CNmiCoreApplication::ProcessTimerPerSecond Time-out
+02f991d0	02f992e6	02fb1284	CNmiCoreApplication::ProcessTimerPerSecond time-out 
+02f9933c	02f99654	02fb1354	CNmiCoreApplication::OnEvent Rebooting now
+02f9976c	02f99856	02fb1380	): call LC::SetEventPointer()
+02f9976c	02f9993e	02fb13a0	): call LC::StartComposing()
+02f99a04	02f99a8c	02fb13c0	): call LC::StopComposing() by thread 
+02f99a04	02f99afc	02fb13e8	): LC::StopComposing() returned
+02f99b68	02f99cac	02fb1430	): call LC::SetEditField()
+02f99b68	02f99d06	02fb144c	CNmiCoreApplication::SetLCEditedField LC delivers 
+02f99b68	02f99dda	02fb1498	) succeeded #NmiCORE#
+02f99e6c	02f99f02	02fb14b0	): call LC::DelCharToEnd()
+02f99fa4	02f9a04a	02fb14cc	): call LC::DelAllChar()
+02f9a0ec	02f9a192	02fb14e8	): call LC::SetCursorLeft()
+02f9a234	02f9a2da	02fb1504	): call LC::SetCursorRight()
+02f9a37c	02f9a42a	02fb14e8	): call LC::SetCursorLeft()
+02f9a37c	02f9a496	02fb14e8	): call LC::SetCursorLeft()
+02f9a528	02f9a5e6	02fb1524	): call LC::GetName()
+02f9a528	02f9a66c	02fb153c	): call LC::GetCursorPosition()
+02f9a528	02f9a6e4	02fb1504	): call LC::SetCursorRight()
+02f9a528	02f9a78c	02fb153c	): call LC::GetCursorPosition()
+02f9a830	02f9a8e4	02fb153c	): call LC::GetCursorPosition()
+02f9aa90	02f9ab80	02fb155c	): call LC::SetChar()
+02f9ad50	02f9adee	02fb1380	): call LC::SetEventPointer()
+02f9ad50	02f9aee4	02fb13a0	): call LC::StartComposing()
+02f9ad50	02f9af5a	02fb13c0	): call LC::StopComposing() by thread 
+02f9ad50	02f9afc8	02fb13e8	): LC::StopComposing() returned
+02f9b0d4	02f9b16a	02fb1574	): call LC::GetLocation(4)
+02f9b0d4	02f9b1c6	02fb1590	CNmiCoreApplication::StartCheckingLastEditedDestination hr = 
+02f9b0d4	02f9b2bc	02fb1100	): call LC::CertifyDBData()
+02f9b518	02f9b560	02fb1608	) > handler
+02f9c1b8	02f9c1d4	02fb183c	CNmiCoreApplication::GetNaviMainPointers
+02f9c1b8	02f9c28c	02fb1868	): call NaviBase::GetRouteGuidanceInterface()
+02f9c1b8	02f9c314	02fb1898	): call NaviBase::GetRouteGuidanceInterface() failed 
+02f9c1b8	02f9c3ee	02fb18d0	): call NaviBase::GetVehicleInformationInterface()
+02f9c1b8	02f9c476	02fb1904	): call NaviBase::GetVehicleInformationInterface() failed 
+02f9c1b8	02f9c528	02fb1940	): call NaviBase::m_pINaviMapSection
+02f9c1b8	02f9c592	02fb1968	): call NaviBase::m_pINaviMapSection entrered
+02f9c1b8	02f9c606	02fb1998	): call NaviBase::GetMapInterface()
+02f9c868	02f9c8b6	02fb19bc	CNmiCoreApplication::OnNAVIInitialized notification
+02f9d1d0	02f9d88e	02fb2114	(?)) => no action
+02f9d8d0	02f9da64	02fb21e4	(?), id: 
+02f9d8d0	02f9da78	02fb21f0	) => no action
+02f9d8d0	02f9d922	02fb2160	) => OnNAVIVoiceRequest()
+02f9dac0	02f9e34e	02fb23a8	) - NAVIROUTESTATE undefined!
+02f9e414	02f9ee24	02fb26a4	): call NaviRoute::GetDistanceToDestination()
+02f9e414	02f9ee80	02fb26d4	CNmiCoreApp::NewRouteGuidance 1st newDistanceToDestination = 
+02f9e414	02f9efbc	02fb2714	): call NaviRoute::GetTimeToDestination()
+02f9e414	02f9ecaa	02fb266c	): call NaviRoute::GetToLocation()
+02f9e414	02f9eba2	02fb2660	 undefined!
+02f9e414	02f9e4f8	02fb23c8	NmiCORE: CoreApp::NewRouteGuidance(NAVIGuidanceRoute[Left])
+02f9f1cc	02f9f4ce	02fb2864	CNmiCoreApp::NewDistanceToManoeuvre 2nd newDistanceToDestination = 
+02f9f1cc	02f9f568	02fb2714	): call NaviRoute::GetTimeToDestination()
+02f9f738	02f9f7c6	02fb28a8	CNmiCoreApplication::NewVIAll direction 
+02f9f738	02f9f7d8	02fb28d4	 state 
+02f9f9bc	02f9fd50	02fb2984	CNmiCoreApplication::GetGPSData lo = 
+02f9f9bc	02f9fd62	02fb29ac	 la = 
+02f9f9bc	02f9fe32	02fb29b4	CNmiCoreApplication::GetGPSData OLD WAY lo = 
+02f9f9bc	02f9fe44	02fb29ac	 la = 
+02f9ff34	02f9ff54	02fb29e4	CNmiCoreApplication::ResetNavigation
+02fa016c	02fa0194	02fb2a0c	CNmiCoreApplication::SetRouteState
+02fa0300	02fa034e	02fb2a30	CNmiCoreApplication::StartNaviGuidance returned 
+02fa049c	02fa04f2	02fb2a8c	CNmiCoreApplication::StopNaviGuidance returned 
+02fa0d6c	02fa0e30	02fb2ae8	NmiCORE: CoreApp::ShowVehicleLocation returned 
+02fa1080	02fa10b4	02fb2b18	CNmiCoreApplication::RepeatVoiceOutput() ECRS_STOPPING_ROUTE
+02fa1080	02fa115e	02fb2b58	CNmiCoreApplication::RepeatVoiceOutput() IsVoiceOutputReady FAILED
+02fa1080	02fa11b4	02fb2b9c	CNmiCoreApplication::RepeatVoiceOutput() IsVoiceOutputReady returned false
+02fa1080	02fa1212	02fb2be8	CNmiCoreApplication::RepeatVoiceOutput() VoiceOutput pending
+02fa12d4	02fa13a8	02fb2c6c	): call NaviRouteGuidance::RepeatVoiceOutput()
+02fa150c	02fa156e	02fb2ce0	): call NaviRouteGuidance::SetPreferences()
+02fa1764	02fa17d0	02fb2d0c	): call NaviRoute::GetSingleBoth()
+02fa1948	02fa19d0	02fb2d30	): call NaviRoute::GetSingleToLocation()
+02fa1948	02fa1b10	02fb2d5c	): call NaviRoute::GetSingleManoeuvre()
+02fa1f5c	02fa2044	02fb2d84	): call NaviBase::SetVoiceOutputLanguage()
+02fa21e4	02fa2298	02fb2db0	): call LC::SetPosition(
+02fa2704	02fa2758	02fb2e1c	): call NaviBase::StandBy()
+02fa2a6c	02fa2c1e	02fb2ee8	) #NmiCORE#
+02fa2a6c	02fa2d16	02fb0c48	 #NmiCORE#
+02fa2d60	02fa2d96	02fb2f04	CNmiCoreApplication::EjectAsSoonAsPossible
+02fa30e4	02fa315e	02fb2f60	): call NaviRouteGuidance::SetAvoidLocation()
+02fa3238	02fa32ce	02fb2f90	): call NaviRouteGuidance::RemoveAvoidLocation()
+02fa33a4	02fa343a	02fb2fc4	): call NaviRouteGuidance::RemoveAvoidLocationIndex()
+02fa3510	02fa35a4	02fb2ffc	): call NaviRouteGuidance::RemoveAllAvoidLocations()
+02fa3678	02fa370e	02fb3034	): call NaviRouteGuidance::SetAvoidDistance()
+02fa37e4	02fa387a	02fb3064	): call NaviRouteGuidance::GetNumberOfAvoidLocations()
+02fa3950	02fa39ea	02fb309c	): call NaviRouteGuidance::GetAvoidLocation()
+02fa3ac8	02fa3cce	02fb3118	): call NaviRoute::GetHowMany()
+02fa3ac8	02fa3e38	02fb3138	): call NaviRoute::AvoidFromTo()
+02fa3ac8	02fa3c06	02fb30f4	): call NaviRoute::AvoidDistance()
+02fa3ac8	02fa3b9e	02fb30cc	): call NaviRoute::AvoidCurrentStreet()
+02fa4038	02fa4098	02fb315c	): call NaviRoute::GetCurrentIndex()
+02fa4038	02fa41ae	02fb31b4	####################
+02fa420c	02fa4290	02fb31cc	): call LC::SetPOISearchCriteria()
+02fa4464	02fa44ae	02fb31f0	): call NaviBase::StopVoiceOutput()
+02fa579c	02fa57ca	02fb3214	CNmiCoreApplication Thread entering 
+02fa579c	02fa582e	02fb323c	CNmiCoreApplication Thread entered 
+02fa5e40	02fa5ea2	02fb3388	): call NaviBase::EnableIntersectionZoom()
+02fa5e40	02fa5f58	02fb33b4	): call NaviBase::DisableIntersectionZoom()
+02fa5fc0	02fa6022	02fb33e0	): call NaviBase::IsIntersectionZoomEnabled()
+02fa62e4	02fa630c	02fb3410	CNmiCoreApplication::SetCoreRouteState
+02fa72a0	02fa72c0	02fb364c	CNmiCoreApplication::SetDynamicStatus
+02fa765c	02fa76a4	02fb3714	 for RouteId 
+02fa80e0	02fa8100	02fb38c0	CNmiCoreApplication::CostUpdateRoute
+02fa8310	02fa832c	02fb3914	CNmiCoreApplication::CostUpdateNewRoute
+02fa899c	02fa89b8	02fb39a0	CNmiCoreApplication::CalculateDetour
+02fa8c90	02fa8cb0	02fb39f4	CNmiCoreApplication::AckRouteSegmentsRead
+02fa912c	02fa916a	02fb3a74	CnmiCoreAplication::SetCalcRouteRetryCount: 
+02fa91b0	02fa91ee	02fb3aa4	CnmiCoreAplication::IncCalcRouteRetryCount: 
+02fa9420	02fa95ce	02fb3b7c	CNmiCoreApplication::SetPreferences antohter go
+02fa9758	02fa97b6	02fb3bac	CNmiCoreApplication::CheckNaviRouteCriterium NaviRoute returns 
+02fa9758	02fa9860	02fb3bac	CNmiCoreApplication::CheckNaviRouteCriterium NaviRoute returns 
+02fa9758	02fa98ca	02fb3bec	CNmiCoreApplication::CheckNaviRouteCriterium
+02fa9758	02fa9918	02fb3c1c	CNmiCoreApplication::CheckNaviRouteCriterium set new route criterion
+02fa9a28	02fa9a38	02fb07e8	C:\Windows CE Tools\WCE212\LK1_MINSHELL\MFC\include\afx.inl
+02fa9a54	02fa9a70	02fb07e8	C:\Windows CE Tools\WCE212\LK1_MINSHELL\MFC\include\afx.inl
+02fa9a98	02fa9aac	02fb07e8	C:\Windows CE Tools\WCE212\LK1_MINSHELL\MFC\include\afx.inl
+02fa9a98	02fa9ac2	02fb07e8	C:\Windows CE Tools\WCE212\LK1_MINSHELL\MFC\include\afx.inl
+02fa9d14	02fa9e0e	02faff98	Qz,-{$
+02faa234	02faa2a6	02fb3c68	NaviMMI: calling LC::GetListArray()
+02faa234	02faa31a	02fb3d0c	NaviMMI: left LC::GetListArray()
+02faa234	02faa396	02fb3d4c	, m_List) succeeded
+02faa234	02faa436	02fb3d60	NaviMMI: LC::GetListArray returns 
+02faa690	02faa718	02fb1054	) succeeded
+02faad54	02faad7e	02fb4018	CNmiTestDataRetrieval::GetAntennaStatus kw82 gps 
+02fab6e8	02fab8e6	02fb444c	CNmiCoreApplication::StartGuidance 
+02fab6e8	02fab7a8	02fb444c	CNmiCoreApplication::StartGuidance 

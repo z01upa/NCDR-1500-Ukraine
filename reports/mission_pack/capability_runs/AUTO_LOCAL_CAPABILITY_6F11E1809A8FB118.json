@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX_QUOTA",
+  "task_id": "AUTO_LOCAL_CAPABILITY_6F11E1809A8FB118",
+  "request_id": "CAP_6F11E1809A8FB118",
+  "executor": "Local-first capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX_QUOTA",
+    "request_id": "CAP_6F11E1809A8FB118",
+    "reason": "Daily Codex budget exhausted (1/1)."
+  },
+  "created_utc": "2026-10-28T15:43:15.367483+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

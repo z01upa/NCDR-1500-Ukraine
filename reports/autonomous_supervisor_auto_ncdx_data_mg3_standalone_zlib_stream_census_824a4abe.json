@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG3_STANDALONE_ZLIB_STREAM_CENSUS_824a4abe",
+  "target_task": "AUTO_NCDX_DATA_MG3_STANDALONE_ZLIB_STREAM_CENSUS_824a4abe",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:hardware_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_MG3_STANDALONE_ZLIB_STREAM_CENSUS_824a4abe",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_rescan": true,
+      "independent_region_count": 3,
+      "confirmed_stream_count_by_region": {
+        "SW": 1617,
+        "Italy": 1617,
+        "Scandinavia": 1610
+      },
+      "header_candidates_by_region": {
+        "SW": 1617,
+        "Italy": 1617,
+        "Scandinavia": 1610
+      },
+      "attempt_cap_hit_by_region": {
+        "SW": false,
+        "Italy": false,
+        "Scandinavia": false
+      },
+      "cross_region_shared_payload_count": 1612,
+      "cross_region_shared_inventory_sha256": "8547924b7727ea109264d33dc2faedf7f32159e4ad10611e0899b1b0e322dce4",
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded checksum-valid zlib candidates only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T13:29:15.416959+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "local Project Director is choosing the next verified-format round-trip over real regional map data",
+  "followup_task_id": "AUTO_DIRECTOR_NCDX_DATA_ebc5d5f983ee",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "30b91c6ade4a5e9fd540990c555972e2efa83add20e4a94816fd05e6f79c816b",
+      "size_bytes": 28029,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "f4407788527f05aa19ffff20dd940b7fa1ddaf3b152e79340c244d33a7ed740f",
+      "size_bytes": 4662,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "fdf6d5d6a03f7edfcde909d9871a30e51d02c433b9e3c2107c5d19c27c464e80",
+      "size_bytes": 28030,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "45f85da675d7879819fccf5c3f51080e624de99f54c44377aa42512898235c14",
+      "size_bytes": 4661,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "554a23f8492a4453cd0c937580aa0ac0f82cd37afd28acd809cea33f55ef8bdb",
+      "size_bytes": 28031,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "c287d732d20a3b93e7045e8d0444528bfd0ec8088eb56484d74398bfb34d7f61",
+      "size_bytes": 4661,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

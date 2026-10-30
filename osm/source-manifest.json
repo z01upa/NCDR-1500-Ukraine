@@ -1,0 +1,12 @@
+{
+  "attribution": "© OpenStreetMap contributors",
+  "dataset_content_timestamp": "2026-09-08T20:21:01Z",
+  "license": "Open Database License (ODbL)",
+  "retrieved_utc": "2026-10-25T14:11:37.646289+00:00",
+  "schema_version": 1,
+  "source_pbf_bytes": 881958338,
+  "source_pbf_path": "data/osm/ukraine-latest.osm.pbf",
+  "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+  "source_url": "https://download.geofabrik.de/europe/ukraine.html",
+  "status": "VERIFIED"
+}

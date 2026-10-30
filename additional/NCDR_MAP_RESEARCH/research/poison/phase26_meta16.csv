@@ -1,0 +1,13 @@
+meta16_hex,meta16_dec,count,percent_of_467,interpretation
+0x0030,48,260,55.6756,frequent value; not proven length
+0x0025,37,21,4.4968,variable metadata
+0x002F,47,18,3.8544,variable metadata
+0x000C,12,17,3.6403,variable metadata
+0x0016,22,16,3.4261,variable metadata
+0x0017,23,14,2.9979,variable metadata
+0x002E,46,14,2.9979,variable metadata
+0x0024,36,12,2.5696,variable metadata
+0x002C,44,12,2.5696,variable metadata
+0x002D,45,10,2.1413,variable metadata
+0x001C,28,7,1.4989,controlled value; not a universal length
+other,other,66,14.1328,variable values

@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-25T13:32:04.408481+00:00",
+  "source_root": "${NCDR_SOURCE_ROOT}",
+  "manifest_files": 5600,
+  "current_files": 5600,
+  "missing_files": [],
+  "added_files": [],
+  "changed_size": [],
+  "changed_mtime": [],
+  "unchanged": true,
+  "scope": "paths, sizes, and last-write timestamps compared with the full SHA-256 inventory; no source files were written"
+}

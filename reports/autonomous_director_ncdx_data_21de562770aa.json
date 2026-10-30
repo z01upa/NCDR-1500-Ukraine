@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_21de562770aa",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTI_DECODED_STRUCTURE_SCAN_8ed43340",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTI_DECODED_STRUCTURE_SCAN_8ed43340",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the constraint to prioritize evidence reducing uncertainty about map storage and address/index data; the PTI suffix indicates a structured scan of decoded candidates which aligns with analyzing the provided latitude/longitude pairs and structural metadata without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTI_DECODED_STRUCTURE_SCAN_8ed43340",
+  "candidate_fingerprint": "48f899d97111554603e0931b1cd8fae90cac9b6a24ff3ba40f0ac4bc2caedcc3",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_21de562770aa",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-26T22:37:37.175463+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

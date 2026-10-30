@@ -1,0 +1,14 @@
+{
+  "authoritative_state": [
+    "project_state.sqlite",
+    "TASK_BACKLOG.sqlite",
+    "EVIDENCE_LEDGER.sqlite"
+  ],
+  "excluded_tracks": [
+    "Virtual CID",
+    "standalone POI Editor"
+  ],
+  "original_media_policy": "read-only",
+  "schema_version": 1,
+  "updated_utc": "2026-10-28T21:25:08.881642+00:00"
+}

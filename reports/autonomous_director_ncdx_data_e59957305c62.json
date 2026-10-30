@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_e59957305c62",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTP_DECODED_STRUCTURE_SCAN_e90bab97",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTP_DECODED_STRUCTURE_SCAN_e90bab97",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected to reduce uncertainty regarding map storage and address/index data structures within the NCDx family, utilizing a deterministic decode scan method without hardware requirements or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTP_DECODED_STRUCTURE_SCAN_e90bab97",
+  "candidate_fingerprint": "7ceed55f84b9ab1f9f5b1141e24d4bc890b60b9355560bc56e02a42b4c58a761",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_e59957305c62",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-26T22:37:55.053526+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

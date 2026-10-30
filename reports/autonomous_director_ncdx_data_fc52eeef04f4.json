@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_fc52eeef04f4",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_FEA_DEFLATE_COMPRESSIBILITY_PROFILE_00ddf81e",
+  "selected_goal_id": "AUTO_NCDX_DATA_FEA_DEFLATE_COMPRESSIBILITY_PROFILE_00ddf81e",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on highest total_input_bytes (145255207) among eligible experiments, providing the most structural evidence for compression behavior analysis without inferring semantics or requiring hardware writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_FEA_DEFLATE_COMPRESSIBILITY_PROFILE_00ddf81e",
+  "candidate_fingerprint": "169df09f2ed8583b5ded23e2fab57e89e12003f77725456b8fe08177a4ea766e",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_fc52eeef04f4",
+  "remaining_unique_experiments": 21,
+  "created_utc": "2026-10-26T22:18:23.799776+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

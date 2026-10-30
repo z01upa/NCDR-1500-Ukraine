@@ -1,0 +1,3 @@
+group,originX_hex,originY_hex,originX_dec,originY_dec,points_with_verified_display_coords,origin_status
+controlled_test_cell,0x59763F,0x48A93F,5862975,4761919,7,confirmed for seven controls
+other_entries,,,,0,not determinable without display-coordinate identity

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_32037acafbb9",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_AFF_EXACT_BLOCK_ANCHOR_SCAN_a5b3f485",
+  "selected_goal_id": "AUTO_NCDX_DATA_AFF_EXACT_BLOCK_ANCHOR_SCAN_a5b3f485",
+  "selection_source": "Ollama",
+  "selection_reason": "Selecting the AFF experiment as it represents the minimal input footprint (267 bytes) among eligible options, providing a low-cost structural evidence sample to reduce uncertainty about map storage patterns without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_AFF_EXACT_BLOCK_ANCHOR_SCAN_a5b3f485",
+  "candidate_fingerprint": "b78ab05297684337b586d2f505c73726393948528ddb1bde1ff4dc82b7d4efe1",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_32037acafbb9",
+  "remaining_unique_experiments": 9,
+  "created_utc": "2026-10-26T23:15:42.509519+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

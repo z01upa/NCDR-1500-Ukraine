@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_7716ca47fbc5",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0cb9bb35",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0cb9bb35",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements with varying `region_candidate_pairs` and `adjacent_pairs_within_5km`. Selecting a goal focused on decoding these coordinate candidates (e.g., `AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS...`) directly addresses the need to process and validate the map storage data represented by the decompressed bytes and SHA256 hashes, thereby reducing uncertainty about the integrity and content of the coordinate index without re",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0cb9bb35",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "9594fd90b0d9727424a6a78a4e8649bdf18a8cff885d6d613e1aa2fe89856866",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_7716ca47fbc5",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:52:13.607430+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

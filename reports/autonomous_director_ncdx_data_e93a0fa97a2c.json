@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_e93a0fa97a2c",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_58182446",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_58182446",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected the MG2 profile with 32-byte context as it balances granularity and coverage for the larger dataset (55.9M bytes), providing sufficient evidence to reduce uncertainty regarding map storage structures without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_58182446",
+  "candidate_fingerprint": "91222941f7cf4de64f96f94ac4ddb718cadf7df379c92a0f4da9ae9738e00c21",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_e93a0fa97a2c",
+  "remaining_unique_experiments": 4,
+  "created_utc": "2026-10-27T13:48:55.831487+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

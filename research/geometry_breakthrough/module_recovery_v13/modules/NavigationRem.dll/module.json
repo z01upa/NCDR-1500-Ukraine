@@ -1,0 +1,1946 @@
+{
+  "toc": {
+    "index": 105,
+    "name": "NavigationRem.dll",
+    "size": 1219659,
+    "name_va": 2354569196,
+    "e32_va": 2357433800,
+    "o32_va": 2357433900,
+    "load_va": 2364788736,
+    "attributes": 5
+  },
+  "e32_layout": "CE2: subsystem +0x18, directories +0x1c",
+  "imageflags": 8462,
+  "entry_rva": 931888,
+  "link_base": 16580608,
+  "version": [
+    2,
+    12
+  ],
+  "virtual_size": 1708032,
+  "directories": [
+    {
+      "index": 0,
+      "rva": 1074560,
+      "size": 170
+    },
+    {
+      "index": 1,
+      "rva": 1067420,
+      "size": 200
+    },
+    {
+      "index": 2,
+      "rva": 1609728,
+      "size": 37540
+    },
+    {
+      "index": 3,
+      "rva": 1576960,
+      "size": 32440
+    },
+    {
+      "index": 4,
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "index": 5,
+      "rva": 1650688,
+      "size": 52392
+    },
+    {
+      "index": 6,
+      "rva": 933888,
+      "size": 28
+    },
+    {
+      "index": 7,
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "index": 8,
+      "rva": 0,
+      "size": 0
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "rva": 4096,
+      "virtual_size": 929724,
+      "stored_size": 929792,
+      "storage_va": 2361344000,
+      "runtime_va": 50139136,
+      "flags": 1610612768,
+      "compressed": false,
+      "stored_sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9",
+      "stored_bytes_read": 929724,
+      "excluded_alignment_bytes": 68,
+      "executable": true,
+      "status": "recovered",
+      "decoded_size": 929724,
+      "sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9",
+      "virtual_zero_tail": 0
+    },
+    {
+      "index": 1,
+      "rva": 933888,
+      "virtual_size": 140842,
+      "stored_size": 141312,
+      "storage_va": 2362273792,
+      "runtime_va": 51068928,
+      "flags": 1073741888,
+      "compressed": false,
+      "stored_sha256": "87de7ed999f8a2daa6b453095e388db9296d6714050f3d2abb304caf70df8751",
+      "stored_bytes_read": 140842,
+      "excluded_alignment_bytes": 470,
+      "executable": false,
+      "status": "recovered",
+      "decoded_size": 140842,
+      "sha256": "87de7ed999f8a2daa6b453095e388db9296d6714050f3d2abb304caf70df8751",
+      "virtual_zero_tail": 0
+    },
+    {
+      "index": 2,
+      "rva": 1077248,
+      "virtual_size": 497977,
+      "stored_size": 11211,
+      "storage_va": 2367367804,
+      "runtime_va": 51212288,
+      "flags": 3221233728,
+      "compressed": true,
+      "stored_sha256": "1ef995d0472f1f4f5ba3f739f269f7cb2975cfd6102ab5c0f8860020c435ac29",
+      "stored_bytes_read": 11211,
+      "excluded_alignment_bytes": 0,
+      "executable": false,
+      "compression_blocks": [
+        {
+          "start": 21,
+          "end": 2296,
+          "decoded_size": 4096
+        },
+        {
+          "start": 2296,
+          "end": 4699,
+          "decoded_size": 4096
+        },
+        {
+          "start": 4699,
+          "end": 6904,
+          "decoded_size": 4096
+        },
+        {
+          "start": 6904,
+          "end": 9194,
+          "decoded_size": 4096
+        },
+        {
+          "start": 9194,
+          "end": 10890,
+          "decoded_size": 4096
+        },
+        {
+          "start": 10890,
+          "end": 11211,
+          "decoded_size": 1561
+        }
+      ],
+      "status": "recovered",
+      "decoded_size": 22041,
+      "sha256": "f8c2a55f0897b13d03681c89619e9d83874d4c622ab776fccf43de476addcbe3",
+      "virtual_zero_tail": 475936
+    },
+    {
+      "index": 3,
+      "rva": 1576960,
+      "virtual_size": 32440,
+      "stored_size": 24968,
+      "storage_va": 2367379016,
+      "runtime_va": 51712000,
+      "flags": 1073750080,
+      "compressed": true,
+      "stored_sha256": "b8564b080b838788aefb522c876efe19cea211a5c4e2b7529ab67855b6492ddc",
+      "stored_bytes_read": 24968,
+      "excluded_alignment_bytes": 0,
+      "executable": false,
+      "compression_blocks": [
+        {
+          "start": 27,
+          "end": 3054,
+          "decoded_size": 4096
+        },
+        {
+          "start": 3054,
+          "end": 6197,
+          "decoded_size": 4096
+        },
+        {
+          "start": 6197,
+          "end": 9350,
+          "decoded_size": 4096
+        },
+        {
+          "start": 9350,
+          "end": 12512,
+          "decoded_size": 4096
+        },
+        {
+          "start": 12512,
+          "end": 15606,
+          "decoded_size": 4096
+        },
+        {
+          "start": 15606,
+          "end": 18776,
+          "decoded_size": 4096
+        },
+        {
+          "start": 18776,
+          "end": 21943,
+          "decoded_size": 4096
+        },
+        {
+          "start": 21943,
+          "end": 24968,
+          "decoded_size": 3766
+        }
+      ],
+      "status": "recovered",
+      "decoded_size": 32438,
+      "sha256": "781947e5f45fc07a307c58e4a4396a7121636fbc0bb049bb02abf2e0607201f6",
+      "virtual_zero_tail": 2
+    },
+    {
+      "index": 4,
+      "rva": 1609728,
+      "virtual_size": 37540,
+      "stored_size": 37888,
+      "storage_va": 2362417152,
+      "runtime_va": 51744768,
+      "flags": 1073741888,
+      "compressed": false,
+      "stored_sha256": "5783369285e91b1c73b0ae0efd7e9b6aa220832ac0551f8e162458a3e10115db",
+      "stored_bytes_read": 37540,
+      "excluded_alignment_bytes": 348,
+      "executable": false,
+      "status": "recovered",
+      "decoded_size": 37540,
+      "sha256": "5783369285e91b1c73b0ae0efd7e9b6aa220832ac0551f8e162458a3e10115db",
+      "virtual_zero_tail": 0
+    }
+  ],
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DllCanUnloadNow",
+      "rva": 63608,
+      "runtime_va": 50198648,
+      "forwarder": null
+    },
+    {
+      "ordinal": 2,
+      "name": "DllGetClassObject",
+      "rva": 63632,
+      "runtime_va": 50198672,
+      "forwarder": null
+    },
+    {
+      "ordinal": 3,
+      "name": "DllRegisterServer",
+      "rva": 63552,
+      "runtime_va": 50198592,
+      "forwarder": null
+    },
+    {
+      "ordinal": 4,
+      "name": "DllUnregisterServer",
+      "rva": 63580,
+      "runtime_va": 50198620,
+      "forwarder": null
+    }
+  ],
+  "imports": [
+    {
+      "name": "MemMgr.dll",
+      "original_thunk_rva": 1068556,
+      "iat_rva": 1078184,
+      "symbols": [
+        {
+          "iat_rva": 1078184,
+          "bound_value": 19273476,
+          "name": "LocalReAlloc"
+        },
+        {
+          "iat_rva": 1078188,
+          "bound_value": 19273304,
+          "name": "LocalAlloc"
+        },
+        {
+          "iat_rva": 1078192,
+          "bound_value": 19273396,
+          "name": "LocalFree"
+        },
+        {
+          "iat_rva": 1078196,
+          "bound_value": 19272228,
+          "name": "malloc"
+        },
+        {
+          "iat_rva": 1078200,
+          "bound_value": 19272148,
+          "name": "free"
+        },
+        {
+          "iat_rva": 1078204,
+          "bound_value": 19271848,
+          "name": "??3@YAXPAX@Z"
+        },
+        {
+          "iat_rva": 1078208,
+          "bound_value": 19273628,
+          "name": "LocalSize"
+        },
+        {
+          "iat_rva": 1078212,
+          "bound_value": 19271760,
+          "name": "??2@YAPAXI@Z"
+        }
+      ]
+    },
+    {
+      "name": "COREDLL.dll",
+      "original_thunk_rva": 1067620,
+      "iat_rva": 1077248,
+      "symbols": [
+        {
+          "iat_rva": 1077248,
+          "bound_value": 33202188,
+          "ordinal": 88
+        },
+        {
+          "iat_rva": 1077252,
+          "bound_value": 33349408,
+          "ordinal": 1112
+        },
+        {
+          "iat_rva": 1077256,
+          "bound_value": 33294816,
+          "ordinal": 1113
+        },
+        {
+          "iat_rva": 1077260,
+          "bound_value": 33427604,
+          "ordinal": 1093
+        },
+        {
+          "iat_rva": 1077264,
+          "bound_value": 33196960,
+          "ordinal": 496
+        },
+        {
+          "iat_rva": 1077268,
+          "bound_value": 33200632,
+          "ordinal": 4
+        },
+        {
+          "iat_rva": 1077272,
+          "bound_value": 33200724,
+          "ordinal": 5
+        },
+        {
+          "iat_rva": 1077276,
+          "bound_value": 33338020,
+          "ordinal": 1044
+        },
+        {
+          "iat_rva": 1077280,
+          "bound_value": 33338476,
+          "ordinal": 1047
+        },
+        {
+          "iat_rva": 1077284,
+          "bound_value": 33310940,
+          "ordinal": 719
+        },
+        {
+          "iat_rva": 1077288,
+          "bound_value": 33197476,
+          "ordinal": 535
+        },
+        {
+          "iat_rva": 1077292,
+          "bound_value": 33309956,
+          "ordinal": 1092
+        },
+        {
+          "iat_rva": 1077296,
+          "bound_value": 33313988,
+          "ordinal": 60
+        },
+        {
+          "iat_rva": 1077300,
+          "bound_value": 33337452,
+          "ordinal": 1043
+        },
+        {
+          "iat_rva": 1077304,
+          "bound_value": 33200592,
+          "ordinal": 3
+        },
+        {
+          "iat_rva": 1077308,
+          "bound_value": 33200556,
+          "ordinal": 2
+        },
+        {
+          "iat_rva": 1077312,
+          "bound_value": 33289964,
+          "ordinal": 2002
+        },
+        {
+          "iat_rva": 1077316,
+          "bound_value": 33197076,
+          "ordinal": 497
+        },
+        {
+          "iat_rva": 1077320,
+          "bound_value": 33196944,
+          "ordinal": 494
+        },
+        {
+          "iat_rva": 1077324,
+          "bound_value": 33291864,
+          "ordinal": 2035
+        },
+        {
+          "iat_rva": 1077328,
+          "bound_value": 33345700,
+          "ordinal": 1068
+        },
+        {
+          "iat_rva": 1077332,
+          "bound_value": 33313600,
+          "ordinal": 2029
+        },
+        {
+          "iat_rva": 1077336,
+          "bound_value": 33308072,
+          "ordinal": 2023
+        },
+        {
+          "iat_rva": 1077340,
+          "bound_value": 33298312,
+          "ordinal": 2017
+        },
+        {
+          "iat_rva": 1077344,
+          "bound_value": 33345192,
+          "ordinal": 1066
+        },
+        {
+          "iat_rva": 1077348,
+          "bound_value": 33345380,
+          "ordinal": 1065
+        },
+        {
+          "iat_rva": 1077352,
+          "bound_value": 33307684,
+          "ordinal": 2006
+        },
+        {
+          "iat_rva": 1077356,
+          "bound_value": 33195704,
+          "ordinal": 553
+        },
+        {
+          "iat_rva": 1077360,
+          "bound_value": 33196952,
+          "ordinal": 495
+        },
+        {
+          "iat_rva": 1077364,
+          "bound_value": 33198520,
+          "ordinal": 492
+        },
+        {
+          "iat_rva": 1077368,
+          "bound_value": 33310736,
+          "ordinal": 2000
+        },
+        {
+          "iat_rva": 1077372,
+          "bound_value": 33227720,
+          "ordinal": 230
+        },
+        {
+          "iat_rva": 1077376,
+          "bound_value": 33197548,
+          "ordinal": 541
+        },
+        {
+          "iat_rva": 1077380,
+          "bound_value": 33196936,
+          "ordinal": 491
+        },
+        {
+          "iat_rva": 1077384,
+          "bound_value": 33289784,
+          "ordinal": 2001
+        },
+        {
+          "iat_rva": 1077388,
+          "bound_value": 33314172,
+          "ordinal": 63
+        },
+        {
+          "iat_rva": 1077392,
+          "bound_value": 33313924,
+          "ordinal": 61
+        },
+        {
+          "iat_rva": 1077396,
+          "bound_value": 33197660,
+          "ordinal": 549
+        },
+        {
+          "iat_rva": 1077400,
+          "bound_value": 33197636,
+          "ordinal": 550
+        },
+        {
+          "iat_rva": 1077404,
+          "bound_value": 33197620,
+          "ordinal": 548
+        },
+        {
+          "iat_rva": 1077408,
+          "bound_value": 33203816,
+          "ordinal": 382
+        },
+        {
+          "iat_rva": 1077412,
+          "bound_value": 33203460,
+          "ordinal": 381
+        },
+        {
+          "iat_rva": 1077416,
+          "bound_value": 33329640,
+          "ordinal": 1013
+        },
+        {
+          "iat_rva": 1077420,
+          "bound_value": 33300648,
+          "ordinal": 2097
+        },
+        {
+          "iat_rva": 1077424,
+          "bound_value": 33293972,
+          "ordinal": 1118
+        },
+        {
+          "iat_rva": 1077428,
+          "bound_value": 33311196,
+          "ordinal": 56
+        },
+        {
+          "iat_rva": 1077432,
+          "bound_value": 33345104,
+          "ordinal": 1063
+        },
+        {
+          "iat_rva": 1077436,
+          "bound_value": 33196628,
+          "ordinal": 165
+        },
+        {
+          "iat_rva": 1077440,
+          "bound_value": 33198616,
+          "ordinal": 861
+        },
+        {
+          "iat_rva": 1077444,
+          "bound_value": 33198632,
+          "ordinal": 859
+        },
+        {
+          "iat_rva": 1077448,
+          "bound_value": 33198624,
+          "ordinal": 870
+        },
+        {
+          "iat_rva": 1077452,
+          "bound_value": 33199304,
+          "ordinal": 864
+        },
+        {
+          "iat_rva": 1077456,
+          "bound_value": 33197276,
+          "ordinal": 516
+        },
+        {
+          "iat_rva": 1077460,
+          "bound_value": 33199856,
+          "ordinal": 290
+        },
+        {
+          "iat_rva": 1077464,
+          "bound_value": 33328932,
+          "ordinal": 1108
+        },
+        {
+          "iat_rva": 1077468,
+          "bound_value": 33332192,
+          "ordinal": 1120
+        },
+        {
+          "iat_rva": 1077472,
+          "bound_value": 33331468,
+          "ordinal": 1110
+        },
+        {
+          "iat_rva": 1077476,
+          "bound_value": 33331348,
+          "ordinal": 1102
+        },
+        {
+          "iat_rva": 1077480,
+          "bound_value": 33197260,
+          "ordinal": 514
+        },
+        {
+          "iat_rva": 1077484,
+          "bound_value": 33201172,
+          "ordinal": 6
+        },
+        {
+          "iat_rva": 1077488,
+          "bound_value": 33215072,
+          "ordinal": 193
+        },
+        {
+          "iat_rva": 1077492,
+          "bound_value": 33331432,
+          "ordinal": 1115
+        },
+        {
+          "iat_rva": 1077496,
+          "bound_value": 33280636,
+          "ordinal": 1100
+        },
+        {
+          "iat_rva": 1077500,
+          "bound_value": 33295956,
+          "ordinal": 1060
+        },
+        {
+          "iat_rva": 1077504,
+          "bound_value": 33288784,
+          "ordinal": 2003
+        },
+        {
+          "iat_rva": 1077508,
+          "bound_value": 33282444,
+          "ordinal": 2007
+        },
+        {
+          "iat_rva": 1077512,
+          "bound_value": 33291128,
+          "ordinal": 2036
+        },
+        {
+          "iat_rva": 1077516,
+          "bound_value": 33339376,
+          "ordinal": 1051
+        },
+        {
+          "iat_rva": 1077520,
+          "bound_value": 33311504,
+          "ordinal": 2033
+        },
+        {
+          "iat_rva": 1077524,
+          "bound_value": 33315260,
+          "ordinal": 988
+        },
+        {
+          "iat_rva": 1077528,
+          "bound_value": 33300664,
+          "ordinal": 2028
+        },
+        {
+          "iat_rva": 1077532,
+          "bound_value": 33291708,
+          "ordinal": 2034
+        },
+        {
+          "iat_rva": 1077536,
+          "bound_value": 33322464,
+          "ordinal": 1004
+        },
+        {
+          "iat_rva": 1077540,
+          "bound_value": 33321772,
+          "ordinal": 1058
+        },
+        {
+          "iat_rva": 1077544,
+          "bound_value": 33345028,
+          "ordinal": 653
+        },
+        {
+          "iat_rva": 1077548,
+          "bound_value": 33297496,
+          "ordinal": 2015
+        },
+        {
+          "iat_rva": 1077552,
+          "bound_value": 33321064,
+          "ordinal": 994
+        },
+        {
+          "iat_rva": 1077556,
+          "bound_value": 33321164,
+          "ordinal": 993
+        },
+        {
+          "iat_rva": 1077560,
+          "bound_value": 33197140,
+          "ordinal": 499
+        },
+        {
+          "iat_rva": 1077564,
+          "bound_value": 33197684,
+          "ordinal": 556
+        },
+        {
+          "iat_rva": 1077568,
+          "bound_value": 33197228,
+          "ordinal": 500
+        },
+        {
+          "iat_rva": 1077572,
+          "bound_value": 33197692,
+          "ordinal": 555
+        },
+        {
+          "iat_rva": 1077576,
+          "bound_value": 33345904,
+          "ordinal": 1071
+        },
+        {
+          "iat_rva": 1077580,
+          "bound_value": 33199616,
+          "ordinal": 875
+        },
+        {
+          "iat_rva": 1077584,
+          "bound_value": 33199624,
+          "ordinal": 876
+        },
+        {
+          "iat_rva": 1077588,
+          "bound_value": 33197252,
+          "ordinal": 515
+        },
+        {
+          "iat_rva": 1077592,
+          "bound_value": 33196768,
+          "ordinal": 180
+        },
+        {
+          "iat_rva": 1077596,
+          "bound_value": 33196652,
+          "ordinal": 167
+        },
+        {
+          "iat_rva": 1077600,
+          "bound_value": 33333056,
+          "ordinal": 1130
+        },
+        {
+          "iat_rva": 1077604,
+          "bound_value": 33310868,
+          "ordinal": 1146
+        },
+        {
+          "iat_rva": 1077608,
+          "bound_value": 33345348,
+          "ordinal": 1064
+        },
+        {
+          "iat_rva": 1077612,
+          "bound_value": 33333416,
+          "ordinal": 1131
+        },
+        {
+          "iat_rva": 1077616,
+          "bound_value": 33321716,
+          "ordinal": 1126
+        },
+        {
+          "iat_rva": 1077620,
+          "bound_value": 33282252,
+          "ordinal": 2009
+        },
+        {
+          "iat_rva": 1077624,
+          "bound_value": 33293020,
+          "ordinal": 2011
+        },
+        {
+          "iat_rva": 1077628,
+          "bound_value": 33300612,
+          "ordinal": 2027
+        },
+        {
+          "iat_rva": 1077632,
+          "bound_value": 33197444,
+          "ordinal": 530
+        },
+        {
+          "iat_rva": 1077636,
+          "bound_value": 33198584,
+          "ordinal": 246
+        },
+        {
+          "iat_rva": 1077640,
+          "bound_value": 33199064,
+          "ordinal": 278
+        },
+        {
+          "iat_rva": 1077644,
+          "bound_value": 33198824,
+          "ordinal": 264
+        },
+        {
+          "iat_rva": 1077648,
+          "bound_value": 33196096,
+          "ordinal": 919
+        },
+        {
+          "iat_rva": 1077652,
+          "bound_value": 33199024,
+          "ordinal": 274
+        },
+        {
+          "iat_rva": 1077656,
+          "bound_value": 33271320,
+          "ordinal": 95
+        },
+        {
+          "iat_rva": 1077660,
+          "bound_value": 33199608,
+          "ordinal": 286
+        },
+        {
+          "iat_rva": 1077664,
+          "bound_value": 33198856,
+          "ordinal": 266
+        },
+        {
+          "iat_rva": 1077668,
+          "bound_value": 33198864,
+          "ordinal": 267
+        },
+        {
+          "iat_rva": 1077672,
+          "bound_value": 33198688,
+          "ordinal": 249
+        },
+        {
+          "iat_rva": 1077676,
+          "bound_value": 33329064,
+          "ordinal": 1104
+        },
+        {
+          "iat_rva": 1077680,
+          "bound_value": 33311240,
+          "ordinal": 2031
+        },
+        {
+          "iat_rva": 1077684,
+          "bound_value": 33307488,
+          "ordinal": 2005
+        },
+        {
+          "iat_rva": 1077688,
+          "bound_value": 33327068,
+          "ordinal": 1009
+        },
+        {
+          "iat_rva": 1077692,
+          "bound_value": 33345856,
+          "ordinal": 1070
+        },
+        {
+          "iat_rva": 1077696,
+          "bound_value": 33203892,
+          "ordinal": 387
+        },
+        {
+          "iat_rva": 1077700,
+          "bound_value": 33317776,
+          "ordinal": 992
+        },
+        {
+          "iat_rva": 1077704,
+          "bound_value": 33311980,
+          "ordinal": 2032
+        },
+        {
+          "iat_rva": 1077708,
+          "bound_value": 33309780,
+          "ordinal": 2025
+        },
+        {
+          "iat_rva": 1077712,
+          "bound_value": 33334148,
+          "ordinal": 1121
+        },
+        {
+          "iat_rva": 1077716,
+          "bound_value": 33306908,
+          "ordinal": 2021
+        },
+        {
+          "iat_rva": 1077720,
+          "bound_value": 33332952,
+          "ordinal": 1114
+        },
+        {
+          "iat_rva": 1077724,
+          "bound_value": 33345796,
+          "ordinal": 1069
+        },
+        {
+          "iat_rva": 1077728,
+          "bound_value": 33215960,
+          "ordinal": 196
+        },
+        {
+          "iat_rva": 1077732,
+          "bound_value": 33345960,
+          "ordinal": 1072
+        },
+        {
+          "iat_rva": 1077736,
+          "bound_value": 33196596,
+          "ordinal": 160
+        },
+        {
+          "iat_rva": 1077740,
+          "bound_value": 33313716,
+          "ordinal": 2030
+        },
+        {
+          "iat_rva": 1077744,
+          "bound_value": 33197428,
+          "ordinal": 528
+        },
+        {
+          "iat_rva": 1077748,
+          "bound_value": 33309736,
+          "ordinal": 2013
+        },
+        {
+          "iat_rva": 1077752,
+          "bound_value": 33197284,
+          "ordinal": 518
+        },
+        {
+          "iat_rva": 1077756,
+          "bound_value": 33317412,
+          "ordinal": 991
+        },
+        {
+          "iat_rva": 1077760,
+          "bound_value": 33306368,
+          "ordinal": 2019
+        },
+        {
+          "iat_rva": 1077764,
+          "bound_value": 33328628,
+          "ordinal": 1010
+        },
+        {
+          "iat_rva": 1077768,
+          "bound_value": 33203632,
+          "ordinal": 385
+        },
+        {
+          "iat_rva": 1077772,
+          "bound_value": 33203852,
+          "ordinal": 386
+        },
+        {
+          "iat_rva": 1077776,
+          "bound_value": 33203780,
+          "ordinal": 396
+        },
+        {
+          "iat_rva": 1077780,
+          "bound_value": 33203384,
+          "ordinal": 395
+        },
+        {
+          "iat_rva": 1077784,
+          "bound_value": 33203744,
+          "ordinal": 394
+        },
+        {
+          "iat_rva": 1077788,
+          "bound_value": 33196660,
+          "ordinal": 168
+        },
+        {
+          "iat_rva": 1077792,
+          "bound_value": 33299560,
+          "ordinal": 2082
+        },
+        {
+          "iat_rva": 1077796,
+          "bound_value": 33203348,
+          "ordinal": 393
+        },
+        {
+          "iat_rva": 1077800,
+          "bound_value": 33203100,
+          "ordinal": 384
+        },
+        {
+          "iat_rva": 1077804,
+          "bound_value": 33203136,
+          "ordinal": 380
+        },
+        {
+          "iat_rva": 1077808,
+          "bound_value": 33203536,
+          "ordinal": 399
+        },
+        {
+          "iat_rva": 1077812,
+          "bound_value": 33203216,
+          "ordinal": 397
+        },
+        {
+          "iat_rva": 1077816,
+          "bound_value": 33203672,
+          "ordinal": 390
+        },
+        {
+          "iat_rva": 1077820,
+          "bound_value": 33203176,
+          "ordinal": 383
+        },
+        {
+          "iat_rva": 1077824,
+          "bound_value": 33203252,
+          "ordinal": 379
+        },
+        {
+          "iat_rva": 1077828,
+          "bound_value": 33196676,
+          "ordinal": 170
+        },
+        {
+          "iat_rva": 1077832,
+          "bound_value": 33196684,
+          "ordinal": 171
+        }
+      ]
+    },
+    {
+      "name": "ComMgr.dll",
+      "original_thunk_rva": 1068212,
+      "iat_rva": 1077840,
+      "symbols": [
+        {
+          "iat_rva": 1077840,
+          "bound_value": 22845268,
+          "name": "?GetInstance@MI_CF_RemoteComManager@@SAPAV1@XZ"
+        },
+        {
+          "iat_rva": 1077844,
+          "bound_value": 22845928,
+          "name": "?RegisterInstance@MI_CF_RemoteComManager@@QAAJABU_GUID@@PAX@Z"
+        },
+        {
+          "iat_rva": 1077848,
+          "bound_value": 22845784,
+          "name": "?CreateInstance@MI_CF_RemoteComManager@@QAAJABU_GUID@@PAUIUnknown@@K0PAPAX@Z"
+        }
+      ]
+    },
+    {
+      "name": "CommonData.dll",
+      "original_thunk_rva": 1068228,
+      "iat_rva": 1077856,
+      "symbols": [
+        {
+          "iat_rva": 1077856,
+          "bound_value": 22681980,
+          "name": "?Get@CoLongArray@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1077860,
+          "bound_value": 22689516,
+          "name": "?SetListAction@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077864,
+          "bound_value": 22688516,
+          "name": "?GetListAction@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1077868,
+          "bound_value": 22689448,
+          "name": "?SetListStreetSide@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077872,
+          "bound_value": 22689312,
+          "name": "?SetListSegmentId@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077876,
+          "bound_value": 22688944,
+          "name": "?SetListSize@CoCostUpdate@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077880,
+          "bound_value": 22688236,
+          "name": "??4CoCostUpdate@@QAAAAV0@ABV0@@Z"
+        },
+        {
+          "iat_rva": 1077884,
+          "bound_value": 22688872,
+          "name": "?SetIncidentId@CoCostUpdate@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077888,
+          "bound_value": 22688836,
+          "name": "?SetIcon@CoCostUpdate@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077892,
+          "bound_value": 22688180,
+          "name": "??0CoCostUpdate@@QAA@PAU_CoCostUpdateIDLStruct@@@Z"
+        },
+        {
+          "iat_rva": 1077896,
+          "bound_value": 22688100,
+          "name": "??0CoCostUpdate@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1077900,
+          "bound_value": 22689816,
+          "name": "?SetOppositeAction@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077904,
+          "bound_value": 22688216,
+          "name": "??1CoCostUpdate@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1077908,
+          "bound_value": 22689744,
+          "name": "?SetOppositeStreetSide@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077912,
+          "bound_value": 22688656,
+          "name": "?GetOppositeAction@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1077916,
+          "bound_value": 22689656,
+          "name": "?SetOppositeDelay@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077920,
+          "bound_value": 22689584,
+          "name": "?SetOppositeSegmentId@CoCostUpdate@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1077924,
+          "bound_value": 22689044,
+          "name": "?SetOppositeSize@CoCostUpdate@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077928,
+          "bound_value": 22684944,
+          "name": "?Set@CoStringArray@@QAAXJVCoString@@@Z"
+        },
+        {
+          "iat_rva": 1077932,
+          "bound_value": 22684896,
+          "name": "?SetSize@CoStringArray@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077936,
+          "bound_value": 22684772,
+          "name": "??4CoStringArray@@QAAAAV0@ABV0@@Z"
+        },
+        {
+          "iat_rva": 1077940,
+          "bound_value": 22693472,
+          "name": "?SetDBRepresentation@CoLocation@@QAAXJK@Z"
+        },
+        {
+          "iat_rva": 1077944,
+          "bound_value": 22693168,
+          "name": "?SetState@CoLocation@@QAAXK@Z"
+        },
+        {
+          "iat_rva": 1077948,
+          "bound_value": 22693300,
+          "name": "?SetDBRepresentationSize@CoLocation@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077952,
+          "bound_value": 22692996,
+          "name": "?SetCategory@CoLocation@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1077956,
+          "bound_value": 22692584,
+          "name": "?GetPosition@CoLocation@@QBA?AU_CoPosition@@XZ"
+        },
+        {
+          "iat_rva": 1077960,
+          "bound_value": 22692512,
+          "name": "?GetCategory@CoLocation@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1077964,
+          "bound_value": 22703956,
+          "name": "??BCoManeuver@@QAAPAU_CoManeuverIDLStruct@@XZ"
+        },
+        {
+          "iat_rva": 1077968,
+          "bound_value": 22692456,
+          "name": "??BCoLocation@@QAAPAU_CoLocationIDLStruct@@XZ"
+        },
+        {
+          "iat_rva": 1077972,
+          "bound_value": 22703928,
+          "name": "??4CoManeuver@@QAAAAV0@ABV0@@Z"
+        },
+        {
+          "iat_rva": 1077976,
+          "bound_value": 22703792,
+          "name": "??0CoManeuver@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1077980,
+          "bound_value": 22703908,
+          "name": "??1CoManeuver@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1077984,
+          "bound_value": 22684832,
+          "name": "?Get@CoStringArray@@QBA?AVCoString@@J@Z"
+        },
+        {
+          "iat_rva": 1077988,
+          "bound_value": 22684808,
+          "name": "?GetSize@CoStringArray@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1077992,
+          "bound_value": 22684636,
+          "name": "??0CoStringArray@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1077996,
+          "bound_value": 22684752,
+          "name": "??1CoStringArray@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078000,
+          "bound_value": 22692676,
+          "name": "?GetOrderXNameSize@CoLocation@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078004,
+          "bound_value": 22692372,
+          "name": "??0CoLocation@@QAA@PAU_CoLocationIDLStruct@@@Z"
+        },
+        {
+          "iat_rva": 1078008,
+          "bound_value": 22681956,
+          "name": "?GetSize@CoLongArray@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078012,
+          "bound_value": 22681864,
+          "name": "??0CoLongArray@@QAA@PAU_CoLongArrayIDLStruct@@@Z"
+        },
+        {
+          "iat_rva": 1078016,
+          "bound_value": 22681920,
+          "name": "??4CoLongArray@@QAAAAV0@ABV0@@Z"
+        },
+        {
+          "iat_rva": 1078020,
+          "bound_value": 22681900,
+          "name": "??1CoLongArray@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078024,
+          "bound_value": 22682080,
+          "name": "?Set@CoLongArray@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1078028,
+          "bound_value": 22682032,
+          "name": "?SetSize@CoLongArray@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078032,
+          "bound_value": 22681784,
+          "name": "??0CoLongArray@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078036,
+          "bound_value": 22692704,
+          "name": "?GetDBRepresentationSize@CoLocation@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078040,
+          "bound_value": 22692732,
+          "name": "?GetOrderXName@CoLocation@@QBA?AVCoString@@J@Z"
+        },
+        {
+          "iat_rva": 1078044,
+          "bound_value": 22692428,
+          "name": "??4CoLocation@@QAAAAV0@ABV0@@Z"
+        },
+        {
+          "iat_rva": 1078048,
+          "bound_value": 22704832,
+          "name": "?SetTrafficOnRight@CoManeuver@@QAAX_N@Z"
+        },
+        {
+          "iat_rva": 1078052,
+          "bound_value": 22704792,
+          "name": "?SetExitNumber@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078056,
+          "bound_value": 22704556,
+          "name": "?SetIndicator@CoManeuver@@QAAXK@Z"
+        },
+        {
+          "iat_rva": 1078060,
+          "bound_value": 22705124,
+          "name": "?SetOrientationBars@CoManeuver@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1078064,
+          "bound_value": 22704920,
+          "name": "?SetRightSideRoadsSize@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078068,
+          "bound_value": 22704872,
+          "name": "?SetLeftSideRoadsSize@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078072,
+          "bound_value": 22704752,
+          "name": "?SetFirstDistanceToManeuver@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078076,
+          "bound_value": 22704712,
+          "name": "?SetDirectionToDestination@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078080,
+          "bound_value": 22704636,
+          "name": "?SetDirectionToProceed@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078084,
+          "bound_value": 22704596,
+          "name": "?SetToManeuver@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078088,
+          "bound_value": 22704480,
+          "name": "?SetNextAngle@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078092,
+          "bound_value": 22705072,
+          "name": "?SetRightSideRoads@CoManeuver@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1078096,
+          "bound_value": 22705020,
+          "name": "?SetLeftSideRoads@CoManeuver@@QAAXJJ@Z"
+        },
+        {
+          "iat_rva": 1078100,
+          "bound_value": 22704968,
+          "name": "?SetOrientationBarsSize@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078104,
+          "bound_value": 22704444,
+          "name": "?SetAngle@CoManeuver@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078108,
+          "bound_value": 22693380,
+          "name": "?SetOrderXName@CoLocation@@QAAXJVCoString@@@Z"
+        },
+        {
+          "iat_rva": 1078112,
+          "bound_value": 22693116,
+          "name": "?SetPosition@CoLocation@@QAAXU_CoPosition@@@Z"
+        },
+        {
+          "iat_rva": 1078116,
+          "bound_value": 22692780,
+          "name": "?GetDBRepresentation@CoLocation@@QBAKJ@Z"
+        },
+        {
+          "iat_rva": 1078120,
+          "bound_value": 22692408,
+          "name": "??1CoLocation@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078124,
+          "bound_value": 22693248,
+          "name": "?SetOrderXNameSize@CoLocation@@QAAXJ@Z"
+        },
+        {
+          "iat_rva": 1078128,
+          "bound_value": 22692292,
+          "name": "??0CoLocation@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078132,
+          "bound_value": 22688584,
+          "name": "?GetOppositeDelay@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1078136,
+          "bound_value": 22688620,
+          "name": "?GetOppositeStreetSide@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1078140,
+          "bound_value": 22688548,
+          "name": "?GetOppositeSegmentId@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1078144,
+          "bound_value": 22688336,
+          "name": "?GetOppositeSize@CoCostUpdate@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078148,
+          "bound_value": 22688452,
+          "name": "?GetListDelay@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1078152,
+          "bound_value": 22688484,
+          "name": "?GetListStreetSide@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1078156,
+          "bound_value": 22688420,
+          "name": "?GetListSegmentId@CoCostUpdate@@QBAJJ@Z"
+        },
+        {
+          "iat_rva": 1078160,
+          "bound_value": 22688312,
+          "name": "?GetListSize@CoCostUpdate@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078164,
+          "bound_value": 22688292,
+          "name": "?GetIncidentId@CoCostUpdate@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078168,
+          "bound_value": 22688272,
+          "name": "?GetIcon@CoCostUpdate@@QBAJXZ"
+        },
+        {
+          "iat_rva": 1078172,
+          "bound_value": 22688152,
+          "name": "??0CoCostUpdate@@QAA@ABV0@@Z"
+        },
+        {
+          "iat_rva": 1078176,
+          "bound_value": 22689380,
+          "name": "?SetListDelay@CoCostUpdate@@QAAXJJ@Z"
+        }
+      ]
+    },
+    {
+      "name": "ole32.dll",
+      "original_thunk_rva": 1068932,
+      "iat_rva": 1078560,
+      "symbols": [
+        {
+          "iat_rva": 1078560,
+          "bound_value": 31991648,
+          "name": "CoCreateInstance"
+        },
+        {
+          "iat_rva": 1078564,
+          "bound_value": 31989712,
+          "name": "CoTaskMemAlloc"
+        },
+        {
+          "iat_rva": 1078568,
+          "bound_value": 31989648,
+          "name": "CoInitializeEx"
+        }
+      ]
+    },
+    {
+      "name": "NaviTrace.DLL",
+      "original_thunk_rva": 1068592,
+      "iat_rva": 1078220,
+      "symbols": [
+        {
+          "iat_rva": 1078220,
+          "bound_value": 16522908,
+          "name": "navidbgout"
+        },
+        {
+          "iat_rva": 1078224,
+          "bound_value": 16523148,
+          "name": "FormattedOutput"
+        },
+        {
+          "iat_rva": 1078228,
+          "bound_value": 16525156,
+          "name": "?_InArgument@NaviFctTrace@@QAAXABVCString@@PBD0@Z"
+        },
+        {
+          "iat_rva": 1078232,
+          "bound_value": 16525480,
+          "name": "?_OutArgument@NaviFctTrace@@UAAXABVCString@@PBD0@Z"
+        },
+        {
+          "iat_rva": 1078236,
+          "bound_value": 16519168,
+          "name": "GetTraceCSect"
+        },
+        {
+          "iat_rva": 1078240,
+          "bound_value": 16527020,
+          "name": "??0NaviClassTrace@@QAA@EPBD0HPAXAAK@Z"
+        },
+        {
+          "iat_rva": 1078244,
+          "bound_value": 16524504,
+          "name": "??1NaviFctTrace@@UAA@XZ"
+        },
+        {
+          "iat_rva": 1078248,
+          "bound_value": 16524072,
+          "name": "??0NaviFctTrace@@QAA@EPBD0HAAK@Z"
+        },
+        {
+          "iat_rva": 1078252,
+          "bound_value": 16524304,
+          "name": "??0NaviFctTrace@@QAA@EPBD0HAAJAAK@Z"
+        },
+        {
+          "iat_rva": 1078256,
+          "bound_value": 16525256,
+          "name": "?_OutArgument@NaviFctTrace@@UAAXPBDJ@Z"
+        },
+        {
+          "iat_rva": 1078260,
+          "bound_value": 16525352,
+          "name": "?_OutArgument@NaviFctTrace@@UAAXPBD0@Z"
+        },
+        {
+          "iat_rva": 1078264,
+          "bound_value": 16524988,
+          "name": "?_InArgument@NaviFctTrace@@QAAXPBD0@Z"
+        },
+        {
+          "iat_rva": 1078268,
+          "bound_value": 16524844,
+          "name": "?_InArgument@NaviFctTrace@@QAAXPBDJ@Z"
+        },
+        {
+          "iat_rva": 1078272,
+          "bound_value": 16522980,
+          "name": "navidbgactivate"
+        },
+        {
+          "iat_rva": 1078276,
+          "bound_value": 16523020,
+          "name": "navidbgactivateas"
+        },
+        {
+          "iat_rva": 1078280,
+          "bound_value": 16524940,
+          "name": "?_InXArgument@NaviFctTrace@@QAAXPBDJ@Z"
+        },
+        {
+          "iat_rva": 1078284,
+          "bound_value": 16527220,
+          "name": "??1NaviClassTrace@@UAA@XZ"
+        },
+        {
+          "iat_rva": 1078288,
+          "bound_value": 16524892,
+          "name": "?_InArgument@NaviFctTrace@@QAAXPBDK@Z"
+        },
+        {
+          "iat_rva": 1078292,
+          "bound_value": 16525304,
+          "name": "?_OutXArgument@NaviFctTrace@@UAAXPBDJ@Z"
+        },
+        {
+          "iat_rva": 1078296,
+          "bound_value": 16525400,
+          "name": "?_OutArgument@NaviFctTrace@@UAAXPBDM@Z"
+        },
+        {
+          "iat_rva": 1078300,
+          "bound_value": 16523100,
+          "name": "TraceThread"
+        },
+        {
+          "iat_rva": 1078304,
+          "bound_value": 16525812,
+          "name": "??0NaviCallbackTrace@@QAA@EPBDAAJ@Z"
+        },
+        {
+          "iat_rva": 1078308,
+          "bound_value": 16526400,
+          "name": "?Return@NaviCallbackTrace@@QAAXXZ"
+        },
+        {
+          "iat_rva": 1078312,
+          "bound_value": 16525884,
+          "name": "??1NaviCallbackTrace@@UAA@XZ"
+        },
+        {
+          "iat_rva": 1078316,
+          "bound_value": 16526184,
+          "name": "?Call@NaviCallbackTrace@@QAAXPBDH@Z"
+        },
+        {
+          "iat_rva": 1078320,
+          "bound_value": 16525036,
+          "name": "?_InArgument@NaviFctTrace@@QAAXPBDM@Z"
+        },
+        {
+          "iat_rva": 1078324,
+          "bound_value": 16525680,
+          "name": "??0NaviCallbackTrace@@QAA@EAAJ@Z"
+        },
+        {
+          "iat_rva": 1078328,
+          "bound_value": 16525924,
+          "name": "?Call@NaviCallbackTrace@@QAAXPBD0H@Z"
+        }
+      ]
+    },
+    {
+      "name": "mtl.dll",
+      "original_thunk_rva": 1068852,
+      "iat_rva": 1078480,
+      "symbols": [
+        {
+          "iat_rva": 1078480,
+          "bound_value": 18769916,
+          "name": "?InternQueryInterface@CMTLObject@@UAAJABU_GUID@@PAPAX@Z"
+        },
+        {
+          "iat_rva": 1078484,
+          "bound_value": 18769840,
+          "name": "?InternAddRef@CMTLObject@@UAAKXZ"
+        },
+        {
+          "iat_rva": 1078488,
+          "bound_value": 18769860,
+          "name": "?InternRelease@CMTLObject@@UAAKXZ"
+        },
+        {
+          "iat_rva": 1078492,
+          "bound_value": 18770016,
+          "name": "?FinalRelease@CMTLObject@@UAAJXZ"
+        },
+        {
+          "iat_rva": 1078496,
+          "bound_value": 18770432,
+          "name": "?ReleaseSingletonPointers@CMTLObject@@UAAJXZ"
+        },
+        {
+          "iat_rva": 1078500,
+          "bound_value": 18769292,
+          "name": "??0CMTLObject@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078504,
+          "bound_value": 18769648,
+          "name": "??1CMTLObject@@UAA@XZ"
+        },
+        {
+          "iat_rva": 1078508,
+          "bound_value": 18757512,
+          "name": "?InternalFree@CMTLLibrary@@QAAXPAVMTLObjectEntry@@@Z"
+        },
+        {
+          "iat_rva": 1078512,
+          "bound_value": 18757396,
+          "name": "??0CMTLLibrary@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078516,
+          "bound_value": 18757456,
+          "name": "??1CMTLLibrary@@UAA@XZ"
+        },
+        {
+          "iat_rva": 1078520,
+          "bound_value": 18757504,
+          "name": "?InternalInit@CMTLLibrary@@QAAXPAUHINSTANCE__@@_N@Z"
+        },
+        {
+          "iat_rva": 1078524,
+          "bound_value": 18775032,
+          "name": "?MTLCoGetClassObject@@YAJABU_GUID@@KPAU_COSERVERINFO@@0PAPAX@Z"
+        },
+        {
+          "iat_rva": 1078528,
+          "bound_value": 18764632,
+          "name": "?Lock@CMTLCriticalSection@@QAAXXZ"
+        },
+        {
+          "iat_rva": 1078532,
+          "bound_value": 18764652,
+          "name": "?Unlock@CMTLCriticalSection@@QAAXXZ"
+        },
+        {
+          "iat_rva": 1078536,
+          "bound_value": 18764580,
+          "name": "??1CMTLCriticalSection@@UAA@XZ"
+        },
+        {
+          "iat_rva": 1078540,
+          "bound_value": 18764524,
+          "name": "??0CMTLCriticalSection@@QAA@XZ"
+        },
+        {
+          "iat_rva": 1078544,
+          "bound_value": 18770012,
+          "name": "?FinalConstruct@CMTLObject@@UAAJXZ"
+        },
+        {
+          "iat_rva": 1078548,
+          "bound_value": 18769996,
+          "name": "?InitMTLObject@CMTLObject@@UAAJPAUIUnknown@@PAPAU2@@Z"
+        },
+        {
+          "iat_rva": 1078552,
+          "bound_value": 18770060,
+          "name": "?GetSingleton@CMTLObject@@UAAJABU_GUID@@0PAPAUIUnknown@@@Z"
+        }
+      ]
+    },
+    {
+      "name": "mfcce212.dll",
+      "original_thunk_rva": 1068736,
+      "iat_rva": 1078364,
+      "symbols": [
+        {
+          "iat_rva": 1078364,
+          "bound_value": 28840220,
+          "ordinal": 1534
+        },
+        {
+          "iat_rva": 1078368,
+          "bound_value": 28841988,
+          "ordinal": 319
+        },
+        {
+          "iat_rva": 1078372,
+          "bound_value": 28842892,
+          "ordinal": 345
+        },
+        {
+          "iat_rva": 1078376,
+          "bound_value": 28842536,
+          "ordinal": 343
+        },
+        {
+          "iat_rva": 1078380,
+          "bound_value": 28842788,
+          "ordinal": 346
+        },
+        {
+          "iat_rva": 1078384,
+          "bound_value": 28843224,
+          "ordinal": 393
+        },
+        {
+          "iat_rva": 1078388,
+          "bound_value": 28843984,
+          "ordinal": 399
+        },
+        {
+          "iat_rva": 1078392,
+          "bound_value": 28829712,
+          "ordinal": 803
+        },
+        {
+          "iat_rva": 1078396,
+          "bound_value": 28829596,
+          "ordinal": 33
+        },
+        {
+          "iat_rva": 1078400,
+          "bound_value": 29030556,
+          "ordinal": 90
+        },
+        {
+          "iat_rva": 1078404,
+          "bound_value": 29016780,
+          "ordinal": 679
+        },
+        {
+          "iat_rva": 1078408,
+          "bound_value": 29046916,
+          "ordinal": 734
+        },
+        {
+          "iat_rva": 1078412,
+          "bound_value": 29031004,
+          "ordinal": 690
+        },
+        {
+          "iat_rva": 1078416,
+          "bound_value": 28843072,
+          "ordinal": 391
+        },
+        {
+          "iat_rva": 1078420,
+          "bound_value": 28844124,
+          "ordinal": 397
+        },
+        {
+          "iat_rva": 1078424,
+          "bound_value": 28876824,
+          "ordinal": 2625
+        },
+        {
+          "iat_rva": 1078428,
+          "bound_value": 28777148,
+          "ordinal": 697
+        },
+        {
+          "iat_rva": 1078432,
+          "bound_value": 28840856,
+          "ordinal": 189
+        },
+        {
+          "iat_rva": 1078436,
+          "bound_value": 28842336,
+          "ordinal": 191
+        },
+        {
+          "iat_rva": 1078440,
+          "bound_value": 28842204,
+          "ordinal": 193
+        },
+        {
+          "iat_rva": 1078444,
+          "bound_value": 29000952,
+          "ordinal": 2640
+        },
+        {
+          "iat_rva": 1078448,
+          "bound_value": 28876256,
+          "ordinal": 2172
+        },
+        {
+          "iat_rva": 1078452,
+          "bound_value": 28840820,
+          "ordinal": 195
+        },
+        {
+          "iat_rva": 1078456,
+          "bound_value": 28777292,
+          "ordinal": 695
+        },
+        {
+          "iat_rva": 1078460,
+          "bound_value": 28807136,
+          "ordinal": 1221
+        },
+        {
+          "iat_rva": 1078464,
+          "bound_value": 28878128,
+          "ordinal": 2179
+        },
+        {
+          "iat_rva": 1078468,
+          "bound_value": 28878060,
+          "ordinal": 2631
+        },
+        {
+          "iat_rva": 1078472,
+          "bound_value": 28807064,
+          "ordinal": 952
+        }
+      ]
+    },
+    {
+      "name": "Traceable.dll",
+      "original_thunk_rva": 1068708,
+      "iat_rva": 1078336,
+      "symbols": [
+        {
+          "iat_rva": 1078336,
+          "bound_value": 11808388,
+          "name": "??0Traceable@@IAA@XZ"
+        },
+        {
+          "iat_rva": 1078340,
+          "bound_value": 11808424,
+          "name": "??1Traceable@@MAA@XZ"
+        },
+        {
+          "iat_rva": 1078344,
+          "bound_value": 11804800,
+          "name": "??6T_DataValues@@QAAAAV0@H@Z"
+        },
+        {
+          "iat_rva": 1078348,
+          "bound_value": 11801812,
+          "name": "?finalize@T_DataValues@@AAAXXZ"
+        },
+        {
+          "iat_rva": 1078352,
+          "bound_value": 11809740,
+          "name": "?errorTrace@TTraceHandle@@SAJPAUT_LINEFILE@1@JPAVT_DataValues@@@Z"
+        },
+        {
+          "iat_rva": 1078356,
+          "bound_value": 11806292,
+          "name": "??0T_DataValues@@QAA@XZ"
+        }
+      ]
+    }
+  ],
+  "export_module_name": "Navigationrem.DLL",
+  "entry_runtime_va": 51066928
+}

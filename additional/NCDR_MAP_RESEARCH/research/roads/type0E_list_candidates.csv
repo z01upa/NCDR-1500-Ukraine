@@ -1,0 +1,3 @@
+offset,valid_fraction,interpretation
+0,0,no LIST ptr/count pair validated across all 185 six-byte records
+2,0,no LIST ptr/count pair validated across all 185 six-byte records

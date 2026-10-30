@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_907cac8282a91cbb.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_907cac8282a91cbb",
+  "updated_utc": "2026-10-27T20:06:57.894212+00:00"
+}

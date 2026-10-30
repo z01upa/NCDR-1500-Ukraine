@@ -1,0 +1,11 @@
+{
+  "artifact_pointers": [],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "ca8db0b19b599c015d0c7de2fed09c85861b3ec0757ce4d1dbc1e55aed9ec13d",
+  "status": "BLOCKED",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_BA3C444E00617475",
+  "updated_utc": "2026-10-28T21:03:18.809266+00:00",
+  "verified_by_independent_reviewer": false
+}

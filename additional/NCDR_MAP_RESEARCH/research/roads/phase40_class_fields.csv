@@ -1,0 +1,4 @@
+class,field,distinct_or_range,common_values,semantic_status
+Z,BE16(+0x10),0,0,stable zero/reserved candidate
+NZ,BE16(+0x10),heterogeneous,"0x0300:28;0x0100:20;0x0200:18;0x1000:16;0x009E:11",meaning unresolved
+all,other BE16/BE32 fields,broad,none universal,no semantic field proven

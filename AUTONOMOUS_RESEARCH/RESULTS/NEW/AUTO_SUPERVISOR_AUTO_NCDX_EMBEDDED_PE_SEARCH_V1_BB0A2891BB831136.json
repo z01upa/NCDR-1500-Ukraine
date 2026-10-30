@@ -1,0 +1,20 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/NK.BIN",
+    "reports/autonomous_supervisor_auto_ncdx_embedded_pe_search_v1_bb0a2891bb831136.json",
+    "reports/periodic/daily/2026-10-28.json",
+    "reports/periodic/daily/2026-10-28.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "a7938f54cbab272168a1f9a482ca79e0594f54f0eae3f3a617bcf6abbc87e4be",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_EMBEDDED_PE_SEARCH_V1_BB0A2891BB831136",
+  "updated_utc": "2026-10-28T17:12:40.469895+00:00",
+  "verified_by_independent_reviewer": false
+}

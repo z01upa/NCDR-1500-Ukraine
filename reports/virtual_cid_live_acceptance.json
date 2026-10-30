@@ -1,0 +1,46 @@
+{
+  "observed_utc": "2026-10-25T17:40:44Z",
+  "executable": "%USERPROFILE%\\Documents\\Codex\\2026-10-25\\new-chat-2\\outputs\\NCDR_Ukraine_Windows_v4\\NCDR_Ukraine\\NCDR_Ukraine.exe",
+  "executable_sha256": "ee2f67744fe62b3a907d96d5f3cff44366dbe34f4f8a14b0afc6c2e4aa9a1433",
+  "executable_size_bytes": 2298026,
+  "mode": "OSM Simulation",
+  "checks": {
+    "gui_window_visible": {
+      "pass": true,
+      "window_title": "NCDR Ukraine · Virtual CID · Кривий Ріг"
+    },
+    "map_rendered": {
+      "pass": true,
+      "map_caption": "Кривий Ріг",
+      "roads_visible": true
+    },
+    "ukrainian_street_search": {
+      "pass": true,
+      "query": "проспект Металургів",
+      "results": 50,
+      "result_sample": "[OSM] проспект Металургів"
+    },
+    "connected_city_route": {
+      "pass": true,
+      "from": "проспект Металургів",
+      "to": "вулиця Анатолія Шершньова",
+      "distance_km": 16.49,
+      "nodes": 394
+    },
+    "custom_poi_saved": {
+      "pass": true,
+      "name_uk": "Моя тестова локація",
+      "category": "Особисте",
+      "aliases": [
+        "NCDR test",
+        "власне місце"
+      ]
+    },
+    "poi_persistence_reopen": {
+      "pass": true,
+      "reopened_window_item": "Моя тестова локація · Особисте"
+    }
+  },
+  "physical_opel_compatibility": "NOT_TESTED",
+  "claim_scope": "real Windows GUI observation; internal OSM simulation only; not proof of Opel hardware compatibility"
+}

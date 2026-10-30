@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_7c1aeab05a6d",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_RL_DEFLATE_COMPRESSIBILITY_PROFILE_522f58a4",
+  "selected_goal_id": "AUTO_NCDX_DATA_RL_DEFLATE_COMPRESSIBILITY_PROFILE_522f58a4",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the highest total_input_bytes (76,854,766) among eligible experiments, providing the most robust statistical evidence for compressibility behavior under DEFLATE while adhering to read-only constraints.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_RL_DEFLATE_COMPRESSIBILITY_PROFILE_522f58a4",
+  "candidate_fingerprint": "4e992ea3f2f63c575edd2dc3924a09ce2dfc109da979e556ec02413ff331b3b1",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_7c1aeab05a6d",
+  "remaining_unique_experiments": 20,
+  "created_utc": "2026-10-26T22:18:42.242732+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

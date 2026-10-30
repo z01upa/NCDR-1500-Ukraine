@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_6540351f1595",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1666ffa3",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1666ffa3",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the presence of candidate measurements containing 'alignment' and coordinate scales (e.g., scale_1000000) within the decompressed byte streams, which directly addresses the need to reduce uncertainty regarding map storage and address/index data structures. The evidence shows multiple stream indices with varying alignment configurations, providing a deterministic sample for analysis without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1666ffa3",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "6cfe1af81e04f61175b6336cf37ad528037e716f7b7140749737ea6fce2b2e27",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_6540351f1595",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T19:30:21.254261+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

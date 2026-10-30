@@ -1,0 +1,45 @@
+{
+  "source_mp0_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "evidence": [
+    {
+      "file": "connectivity_audit.json",
+      "bytes": 689997,
+      "sha256": "81b424347100a12073b272eae4d1dbcc4aba6cb2abc824df9353e742bd970579"
+    },
+    {
+      "file": "edge_insertion_preflight.json",
+      "bytes": 2196,
+      "sha256": "315536ad595e9244e4180c1ad9014d64f091c4b103952db6704a3a5f2628c4e0"
+    },
+    {
+      "file": "edge_insertion_refusal.json",
+      "bytes": 2559,
+      "sha256": "c533607dd5f6ae23f628378b96a99a4ee540f77aa6c64a05dce4673c011ccb71"
+    },
+    {
+      "file": "independent_topology_result.json",
+      "bytes": 8431,
+      "sha256": "35f3f130abb73182bc2159c7a2dc5a79073e8856b4e7822a6909c044689f145e"
+    },
+    {
+      "file": "routing_file_audit.json",
+      "bytes": 3056,
+      "sha256": "2df3b069db577abfd893af9fa9f09d7d7429b447351cde3b457abfb111fb3196"
+    },
+    {
+      "file": "writer_v2_cli_result.json",
+      "bytes": 2225,
+      "sha256": "f6442eb8cbd6f4df091e28113fb8d0dc0d50e0cdbcd5788d0b7a4b53e3e77333"
+    },
+    {
+      "file": "writer_v2_cli.log",
+      "bytes": 2228,
+      "sha256": "a3924b9aab75b3ce17d5df826168055d8ca11df894c4f4d24cdf9e1ead828bd2"
+    },
+    {
+      "file": "writer_v2_tests.log",
+      "bytes": 1446,
+      "sha256": "401d9c717144d667001bb5961d8486a343a08eeed6616ef5eaffcc49636acf57"
+    }
+  ]
+}

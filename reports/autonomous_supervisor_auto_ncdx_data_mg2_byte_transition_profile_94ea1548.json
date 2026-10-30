@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548",
+  "target_task": "AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "Physical compatibility of OSM data with Opel NCDR hardware",
+      "Semantic interpretation of Ukrainian POIs in the context of vehicle navigation systems"
+    ],
+    "suggested_next_goal_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "source_count": 3,
+      "source_stat_unchanged_during_read": true,
+      "manifest_entries_present": true,
+      "source_write_count": 0,
+      "read_limit_bytes_per_source": 20480,
+      "semantic_format": "UNKNOWN; structural observations only"
+    }
+  },
+  "created_utc": "2026-10-25T19:47:03.469409+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "local Project Director is choosing the next unique experiment over real regional map data",
+  "followup_task_id": "AUTO_DIRECTOR_NCDX_DATA_68c31c53e50a",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.json",
+      "sha256": "871bd9edb628391b2b40fbca941a0029c0fc5a6cb658c60fc2397d3b018b67be",
+      "size_bytes": 20644,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.md",
+      "sha256": "5c40778361d7c7f872becd2726cb2a991f5d6adec4cbb2d343aa8b951bd08fdd",
+      "size_bytes": 3257,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.json",
+      "sha256": "e9c5d191053744bfb27654c2f59a599497445616f7f589c26041fc57b2db8cd1",
+      "size_bytes": 20645,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.md",
+      "sha256": "e676ca31cfcc0b61b16bd3b9e2cc83a3e7423c2f5a996183e03add3c2c404bf2",
+      "size_bytes": 3256,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "a052aa9e88d3d0d809cc774f62e45d6fd30d5721c17ceb960b6bd4f26a94a74b",
+      "size_bytes": 20646,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "ae5f2a3639be4f8283a7aef15fd0ef92b2f31751c79b029946c8fce3ca45c87c",
+      "size_bytes": 3256,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_6161267766c9",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2d44fcfb",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2d44fcfb",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizing evidence that reduces uncertainty about map storage and address/index data by selecting a goal with comprehensive coordinate candidate census coverage across multiple regions (SW, Italy, Scandinavia) and varying alignment/scale configurations. This approach ensures robust sampling of potential coordinate systems without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2d44fcfb",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2bd8aff0",
+  "candidate_fingerprint": "7efb77a5b6e85506ea0d522887ffcd4a47eb80c8386c7dfead3e809c17bb03e2",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_6161267766c9",
+  "remaining_unique_experiments": 2,
+  "created_utc": "2026-10-27T14:46:06.588942+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

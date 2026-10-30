@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "canonical_id": "A04",
+  "objective": "Стабільний механізм планування навіть при порожній черзі: періодичний planner_tick та події task_finished, blocked, capability_gap.",
+  "acceptance": {
+    "status": "PASS",
+    "tests": [
+      "tests.unit.test_empty_queue_replan",
+      "tests.unit.test_mission_pack"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.168s\n\nOK\n",
+    "created_utc": "2026-10-26T12:44:24.969005+00:00"
+  },
+  "created_utc": "2026-10-26T12:44:24.969020+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

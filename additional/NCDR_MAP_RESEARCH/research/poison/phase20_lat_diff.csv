@@ -1,0 +1,3 @@
+comparison,baseline_item_offset,output_item_offset,field_offset,width,endianness,old_hex,new_hex,stored_delta,displayed_delta
+B->T1,0x0C7B,0x0C7B,0x0C7E,3,BE,3D001C,46001C,0x90000,+0.00011
+B->T2,0x0C7B,0x0C7B,0x0C7E,3,BE,3D001C,94001C,0x570000,+0.00100

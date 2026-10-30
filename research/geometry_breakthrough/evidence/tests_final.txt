@@ -1,0 +1,19 @@
+test_all_source_hashes_and_extents (test_decoder.DecoderTests.test_all_source_hashes_and_extents) ... ok
+test_fixture_independent_coordinates (test_decoder.DecoderTests.test_fixture_independent_coordinates) ... ok
+test_reject_count (test_decoder.DecoderTests.test_reject_count) ... ok
+test_reject_truncated_run (test_decoder.DecoderTests.test_reject_truncated_run) ... ok
+test_unsigned_x_signed_y (test_decoder.DecoderTests.test_unsigned_x_signed_y) ... ok
+test_confirmed_block_noop (test_encoder.EncoderTests.test_confirmed_block_noop) ... ok
+test_independent_modified_envelope (test_encoder.EncoderTests.test_independent_modified_envelope) ... ok
+test_local_reference_match (test_encoder.EncoderTests.test_local_reference_match) ... ok
+test_reject_delta_overflow (test_encoder.EncoderTests.test_reject_delta_overflow) ... ok
+test_secondary_signed_dx (test_independent.IndependentPipelineTests.test_secondary_signed_dx) ... ok
+test_whole_original_independent_readback (test_independent.IndependentPipelineTests.test_whole_original_independent_readback) ... ok
+test_shape_count_corruption (test_polyline.PolylineTests.test_shape_count_corruption) ... ok
+test_shape_table_corruption (test_polyline.PolylineTests.test_shape_table_corruption) ... ok
+test_three_blocks_primary_lengths (test_polyline.PolylineTests.test_three_blocks_primary_lengths) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 4.716s
+
+OK

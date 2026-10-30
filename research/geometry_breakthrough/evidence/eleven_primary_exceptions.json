@@ -1,0 +1,167 @@
+[
+  {
+    "block": 463,
+    "edge": 1,
+    "flags_hex": "0x834c",
+    "measured_m": 160797.6324558095,
+    "feet_m": 146274.4344,
+    "last_delta_integer": [
+      66363,
+      -66603
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 7,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 463,
+    "edge": 34,
+    "flags_hex": "0x834c",
+    "measured_m": 121882.62088039558,
+    "feet_m": 53557.932,
+    "last_delta_integer": [
+      -2794,
+      70867
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 4,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 963,
+    "edge": 2,
+    "flags_hex": "0x834c",
+    "measured_m": 185150.61527783595,
+    "feet_m": 109217.7648,
+    "last_delta_integer": [
+      119,
+      131744
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 4,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 966,
+    "edge": 13,
+    "flags_hex": "0x834c",
+    "measured_m": 64327.051352650684,
+    "feet_m": 52752.0408,
+    "last_delta_integer": [
+      65507,
+      -24
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 12,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 966,
+    "edge": 14,
+    "flags_hex": "0x834c",
+    "measured_m": 64340.47620070106,
+    "feet_m": 52643.836800000005,
+    "last_delta_integer": [
+      65500,
+      -6
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 12,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 1382,
+    "edge": 164,
+    "flags_hex": "0x834c",
+    "measured_m": 71522.2087533836,
+    "feet_m": 48835.6656,
+    "last_delta_integer": [
+      71711,
+      -4551
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 3,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 1719,
+    "edge": 327,
+    "flags_hex": "0x834c",
+    "measured_m": 127650.22592538834,
+    "feet_m": 101194.8192,
+    "last_delta_integer": [
+      121308,
+      -18728
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 4,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 1722,
+    "edge": 1,
+    "flags_hex": "0x834c",
+    "measured_m": 127751.61584362353,
+    "feet_m": 92538.19440000001,
+    "last_delta_integer": [
+      94291,
+      -6489
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 6,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 1934,
+    "edge": 5,
+    "flags_hex": "0x834c",
+    "measured_m": 44344.25499820931,
+    "feet_m": 32149.999200000002,
+    "last_delta_integer": [
+      67643,
+      -98
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 3,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 2043,
+    "edge": 213,
+    "flags_hex": "0x8f38",
+    "measured_m": 129.57070239508948,
+    "feet_m": 145.3896,
+    "last_delta_integer": [
+      109,
+      40
+    ],
+    "last_delta_outside_i16": false,
+    "vertex_count": 4,
+    "interpretation": "short-segment length/shape discrepancy remains unresolved",
+    "full_evidence": "independent_validation.json"
+  },
+  {
+    "block": 2766,
+    "edge": 0,
+    "flags_hex": "0x834c",
+    "measured_m": 113408.64224095133,
+    "feet_m": 77814.22080000001,
+    "last_delta_integer": [
+      69091,
+      2666
+    ],
+    "last_delta_outside_i16": true,
+    "vertex_count": 6,
+    "interpretation": "long-edge encoding/semantics unresolved; same flags do not by themselves prove ferry",
+    "full_evidence": "independent_validation.json"
+  }
+]

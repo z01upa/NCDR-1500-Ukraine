@@ -1,0 +1,1959 @@
+file,file_offset,rva,encoding,text
+poison.exe,0x4D,,ASCII,!This program cannot be run in DOS mode.
+poison.exe,0x178,,ASCII,.text
+poison.exe,0x19F,,ASCII,`.data
+poison.exe,0x1C8,,ASCII,.rdata
+poison.exe,0x1EF,,ASCII,@.bss
+poison.exe,0x218,,ASCII,.idata
+poison.exe,0x26B2,0x32B2,ASCII,L[^_]
+poison.exe,0x2AC6,0x36C6,ASCII,|[^_]
+poison.exe,0x3382,0x3F82,ASCII,",[^_]"
+poison.exe,0x3C49,0x4849,ASCII,<[^_]
+poison.exe,0x3D98,0x4998,ASCII,",[^_]"
+poison.exe,0x3DA4,0x49A4,ASCII,",[^_]"
+poison.exe,0x4014,0x4C14,ASCII,",[^_]"
+poison.exe,0x4031,0x4C31,ASCII,",[^_]"
+poison.exe,0x470F,0x530F,ASCII,<[^_]
+poison.exe,0x544D,0x604D,ASCII,<[^_]
+poison.exe,0x5548,0x6148,ASCII,",[^_]"
+poison.exe,0x5CC0,0x68C0,ASCII,",[^_]"
+poison.exe,0x5FE2,0x6BE2,ASCII,L[^_]
+poison.exe,0x6066,0x6C66,ASCII,L[^_]
+poison.exe,0x60AC,0x6CAC,ASCII,L[^_]
+poison.exe,0x6861,0x7461,ASCII,",[^_]"
+poison.exe,0x7130,0x7D30,ASCII,",[^_]"
+poison.exe,0x7395,0x7F95,ASCII,",[^_]"
+poison.exe,0x7549,0x8149,ASCII,",[^_]"
+poison.exe,0xBA29,0xC629,ASCII,t2C;_
+poison.exe,0xC3B1,0xCFB1,ASCII,",[^_]"
+poison.exe,0xC4AA,0xD0AA,ASCII,L[^_]
+poison.exe,0xC5C7,0xD1C7,ASCII,L[^_]
+poison.exe,0xC611,0xD211,ASCII,L[^_]
+poison.exe,0xC62A,0xD22A,ASCII,L[^_]
+poison.exe,0xC716,0xD316,ASCII,D[^_]
+poison.exe,0xC763,0xD363,ASCII,D[^_]
+poison.exe,0xCA8B,0xD68B,ASCII,l[^_]
+poison.exe,0xE2F9,0xEEF9,ASCII,L[^_]
+poison.exe,0xE35C,0xEF5C,ASCII,L[^_]
+poison.exe,0xE85B,0xF45B,ASCII,",[^_]"
+poison.exe,0xE8B2,0xF4B2,ASCII,",[^_]"
+poison.exe,0xEBAF,0xF7AF,ASCII,",[^_]"
+poison.exe,0xF035,0xFC35,ASCII,",[^_]"
+poison.exe,0x108D0,0x114D0,ASCII,wvpkf
+poison.exe,0x108F2,0x114F2,ASCII,RIFFdX
+poison.exe,0x108FA,0x114FA,ASCII,WAVEfmt 
+poison.exe,0x10916,0x11516,ASCII,data@X
+poison.exe,0x10920,0x11520,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x10999,0x11599,ASCII, 0z$8
+poison.exe,0x10A16,0x11616,ASCII,>?3$n
+poison.exe,0x10CAF,0x118AF,ASCII,6=]:dQ
+poison.exe,0x10F00,0x11B00,ASCII,SGm{^
+poison.exe,0x11168,0x11D68,ASCII,f0y>?
+poison.exe,0x11323,0x11F23,ASCII,_G[2#
+poison.exe,0x11343,0x11F43,ASCII,flFp?
+poison.exe,0x11391,0x11F91,ASCII,sz$kK
+poison.exe,0x1149B,0x1209B,ASCII,#lPFX
+poison.exe,0x1154C,0x1214C,ASCII,\Od(Q(
+poison.exe,0x11555,0x12155,ASCII,"jf[U%|,wR8"
+poison.exe,0x1163E,0x1223E,ASCII,wvpkJ
+poison.exe,0x11668,0x12268,ASCII,WAVEfmt 
+poison.exe,0x1168E,0x1228E,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x11819,0x12419,ASCII,&&4&g
+poison.exe,0x11835,0x12435,ASCII,H+@j3:
+poison.exe,0x11B15,0x12715,ASCII,s~k8n
+poison.exe,0x11C1A,0x1281A,ASCII,3-kmHb
+poison.exe,0x11DE2,0x129E2,ASCII,xD@N~>
+poison.exe,0x11EA6,0x12AA6,ASCII,srZ_W
+poison.exe,0x11ED2,0x12AD2,ASCII,Zn9N0
+poison.exe,0x11EF0,0x12AF0,ASCII,+4#Xb*
+poison.exe,0x11F14,0x12B14,ASCII,Q2%Iia
+poison.exe,0x11F2B,0x12B2B,ASCII,"a84,Q"
+poison.exe,0x11FA8,0x12BA8,ASCII,.lDXNy
+poison.exe,0x1208B,0x12C8B,ASCII,"dE,M,x,"
+poison.exe,0x12115,0x12D15,ASCII,Uu-.Z
+poison.exe,0x12175,0x12D75,ASCII,HMeL}
+poison.exe,0x12258,0x12E58,ASCII,0%Y6)i
+poison.exe,0x12345,0x12F45,ASCII,{zvQb
+poison.exe,0x1235E,0x12F5E,ASCII,\[di@
+poison.exe,0x123EC,0x12FEC,ASCII,0*jaaI
+poison.exe,0x1246A,0x1306A,ASCII,*FR<%
+poison.exe,0x124A9,0x130A9,ASCII,k.U>_G
+poison.exe,0x12578,0x13178,ASCII,EHV$Y
+poison.exe,0x12590,0x13190,ASCII,wvpk2
+poison.exe,0x125BA,0x131BA,ASCII,WAVEfmt 
+poison.exe,0x125E0,0x131E0,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x126A9,0x132A9,ASCII,dc:n<26
+poison.exe,0x12741,0x13341,ASCII,yMgy~<
+poison.exe,0x127EA,0x133EA,ASCII,T}afH
+poison.exe,0x128E2,0x134E2,ASCII,"2e,\BJ"
+poison.exe,0x12A05,0x13605,ASCII,Cphzj
+poison.exe,0x12A87,0x13687,ASCII,??5U?
+poison.exe,0x12B75,0x13775,ASCII,?;`O-i
+poison.exe,0x12B8F,0x1378F,ASCII,"#,4|>OP"
+poison.exe,0x12B99,0x13799,ASCII,d^:M=
+poison.exe,0x12BE1,0x137E1,ASCII,3*(P!
+poison.exe,0x12C81,0x13881,ASCII,#A9yx
+poison.exe,0x12DD3,0x139D3,ASCII,LF{<Z
+poison.exe,0x12FE6,0x13BE6,ASCII,B@G5}?d
+poison.exe,0x13015,0x13C15,ASCII,]*%K\H
+poison.exe,0x130EC,0x13CEC,ASCII,RIFFvi
+poison.exe,0x130F4,0x13CF4,ASCII,WAVEfmt 
+poison.exe,0x13110,0x13D10,ASCII,dataRi
+poison.exe,0x1311A,0x13D1A,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x131B7,0x13DB7,ASCII,@PF\q
+poison.exe,0x13242,0x13E42,ASCII,E_; py
+poison.exe,0x1328B,0x13E8B,ASCII,ri)?l*
+poison.exe,0x13347,0x13F47,ASCII,V*U?(i
+poison.exe,0x13387,0x13F87,ASCII,0t7Qm
+poison.exe,0x13485,0x14085,ASCII,CTS~OXve<]~<
+poison.exe,0x1353F,0x1413F,ASCII,A||Nh
+poison.exe,0x1354F,0x1414F,ASCII,"B ]^,K"
+poison.exe,0x135F5,0x141F5,ASCII,&e]|<Tj
+poison.exe,0x13811,0x14411,ASCII,O=.?/G
+poison.exe,0x1385F,0x1445F,ASCII,&/iF2I
+poison.exe,0x1387D,0x1447D,ASCII,"'59@"""
+poison.exe,0x1388C,0x1448C,ASCII,"h=n ,p,"
+poison.exe,0x139C0,0x145C0,ASCII,g?/o]
+poison.exe,0x139F0,0x145F0,ASCII,NKUf4/
+poison.exe,0x13BD2,0x147D2,ASCII,"wFh{Z~"""
+poison.exe,0x13D02,0x14902,ASCII,(O1=V
+poison.exe,0x13D09,0x14909,ASCII,`vic[
+poison.exe,0x13E65,0x14A65,ASCII,od<YG
+poison.exe,0x13FA3,0x14BA3,ASCII,$fH9u
+poison.exe,0x14007,0x14C07,ASCII,"g%W,5"
+poison.exe,0x14019,0x14C19,ASCII,!'X~]
+poison.exe,0x14022,0x14C22,ASCII,3dd1r
+poison.exe,0x14055,0x14C55,ASCII,u(l~oa
+poison.exe,0x140D4,0x14CD4,ASCII,aq#g>
+poison.exe,0x140DC,0x14CDC,ASCII,wvpkr
+poison.exe,0x140FE,0x14CFE,ASCII,RIFFhJ
+poison.exe,0x14106,0x14D06,ASCII,WAVEfmt 
+poison.exe,0x14122,0x14D22,ASCII,dataDJ
+poison.exe,0x1412C,0x14D2C,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x142D8,0x14ED8,ASCII,|q1Cp
+poison.exe,0x14327,0x14F27,ASCII,")u""Pc}"
+poison.exe,0x1462A,0x1522A,ASCII,r)I*A
+poison.exe,0x146B7,0x152B7,ASCII,"f%z,O"
+poison.exe,0x1478D,0x1538D,ASCII,W^zFDRc
+poison.exe,0x14874,0x15474,ASCII,9>F)x
+poison.exe,0x148E5,0x154E5,ASCII,uesmJ
+poison.exe,0x14931,0x15531,ASCII,5/[E@~h
+poison.exe,0x14C06,0x15806,ASCII,+6=oz
+poison.exe,0x14C78,0x15878,ASCII,RIFF@[
+poison.exe,0x14C80,0x15880,ASCII,WAVEfmt 
+poison.exe,0x14CA6,0x158A6,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x14CF5,0x158F5,ASCII,"}9f""/""a"
+poison.exe,0x14D69,0x15969,ASCII,3J#;E
+poison.exe,0x14D82,0x15982,ASCII,AV)8o
+poison.exe,0x14DC6,0x159C6,ASCII,75&AL
+poison.exe,0x14E3E,0x15A3E,ASCII,5n4GP
+poison.exe,0x14E68,0x15A68,ASCII,ghr@&L-
+poison.exe,0x15180,0x15D80,ASCII,9`[om[
+poison.exe,0x1527C,0x15E7C,ASCII,zxfx8
+poison.exe,0x1546E,0x1606E,ASCII,"o=,=oJ"
+poison.exe,0x15481,0x16081,ASCII,=%..E
+poison.exe,0x15488,0x16088,ASCII,=}xv^
+poison.exe,0x15523,0x16123,ASCII, DCnt
+poison.exe,0x1565F,0x1625F,ASCII,"YC""Ip~|"
+poison.exe,0x156BB,0x162BB,ASCII,*O0'0
+poison.exe,0x15779,0x16379,ASCII,9F?7A~
+poison.exe,0x15832,0x16432,ASCII,@egZz
+poison.exe,0x158A1,0x164A1,ASCII,V+ZK$
+poison.exe,0x158DC,0x164DC,ASCII,q[sqs
+poison.exe,0x15998,0x16598,ASCII,.)~=VE
+poison.exe,0x15A78,0x16678,ASCII,WAVEfmt 
+poison.exe,0x15A94,0x16694,ASCII,data`Q
+poison.exe,0x15A9E,0x1669E,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x15D75,0x16975,ASCII,{simS
+poison.exe,0x15FAD,0x16BAD,ASCII,2-~|`
+poison.exe,0x15FEA,0x16BEA,ASCII,uoMs//W
+poison.exe,0x15FF2,0x16BF2,ASCII,:f8@!
+poison.exe,0x16051,0x16C51,ASCII,p+ofF
+poison.exe,0x160BC,0x16CBC,ASCII,z=n3!
+poison.exe,0x1613C,0x16D3C,ASCII,4w>O2
+poison.exe,0x161E8,0x16DE8,ASCII,"<""om]"
+poison.exe,0x162EE,0x16EEE,ASCII,5\C!<
+poison.exe,0x16358,0x16F58,ASCII,}~cbm
+poison.exe,0x164E7,0x170E7,ASCII,1F9rOB
+poison.exe,0x1656E,0x1716E,ASCII,|@9GHa
+poison.exe,0x16625,0x17225,ASCII,Z6{]^
+poison.exe,0x16656,0x17256,ASCII,s6H[+N
+poison.exe,0x166AD,0x172AD,ASCII,|4b?_[
+poison.exe,0x166E4,0x172E4,ASCII,wvpkl
+poison.exe,0x1670E,0x1730E,ASCII,WAVEfmt 
+poison.exe,0x16734,0x17334,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x16782,0x17382,ASCII,uQK>s|
+poison.exe,0x168D7,0x174D7,ASCII,;S;!9
+poison.exe,0x16A5C,0x1765C,ASCII,?04F!
+poison.exe,0x16AED,0x176ED,ASCII,">"">'b8"
+poison.exe,0x16BB9,0x177B9,ASCII,nikWQD|
+poison.exe,0x16C0E,0x1780E,ASCII,gmfZQ
+poison.exe,0x16C6B,0x1786B,ASCII,ycP[k
+poison.exe,0x16F59,0x17B59,ASCII,",c'=^[x"
+poison.exe,0x1700F,0x17C0F,ASCII,)i.}~g\
+poison.exe,0x170E2,0x17CE2,ASCII,Z=|PL
+poison.exe,0x17157,0x17D57,ASCII,(t>ONy
+poison.exe,0x171D2,0x17DD2,ASCII,>R:j^jA
+poison.exe,0x17214,0x17E14,ASCII,M#*cl~>
+poison.exe,0x17288,0x17E88,ASCII,;H/;jKGlq
+poison.exe,0x17321,0x17F21,ASCII,;fM}=>O
+poison.exe,0x17358,0x17F58,ASCII,wvpkv
+poison.exe,0x17382,0x17F82,ASCII,WAVEfmt 
+poison.exe,0x173A8,0x17FA8,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x173FA,0x17FFA,ASCII,a)(=h
+poison.exe,0x1740D,0x1800D,ASCII,"{>@,!"
+poison.exe,0x17465,0x18065,ASCII,"G,G|9"
+poison.exe,0x17502,0x18102,ASCII,y{7$.;q
+poison.exe,0x17956,0x18556,ASCII,fTo.wR>
+poison.exe,0x1797A,0x1857A,ASCII,<Kr{Y
+poison.exe,0x179A4,0x185A4,ASCII,z.:#&
+poison.exe,0x17B69,0x18769,ASCII,SG| 8
+poison.exe,0x17D3A,0x1893A,ASCII,G$a(lH
+poison.exe,0x17DE9,0x189E9,ASCII,1vu?p
+poison.exe,0x17DF5,0x189F5,ASCII,djUn&c
+poison.exe,0x17FD6,0x18BD6,ASCII,wvpkz
+poison.exe,0x17FF8,0x18BF8,ASCII,RIFFhL
+poison.exe,0x18000,0x18C00,ASCII,WAVEfmt 
+poison.exe,0x1801C,0x18C1C,ASCII,dataDL
+poison.exe,0x18026,0x18C26,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x18082,0x18C82,ASCII,\=BQ#~
+poison.exe,0x181B0,0x18DB0,ASCII,Saoon
+poison.exe,0x1827D,0x18E7D,ASCII,Ybut@
+poison.exe,0x182A4,0x18EA4,ASCII,iAz7?
+poison.exe,0x182EA,0x18EEA,ASCII,^xd/;
+poison.exe,0x183A9,0x18FA9,ASCII,ZQ:`1Ab~j
+poison.exe,0x18610,0x19210,ASCII,Z7?^F
+poison.exe,0x1871F,0x1931F,ASCII,BQ4o fzf
+poison.exe,0x189C9,0x195C9,ASCII,arW(~
+poison.exe,0x189FB,0x195FB,ASCII,Avqj;fj
+poison.exe,0x18B3A,0x1973A,ASCII,"vN,r@"
+poison.exe,0x18B58,0x19758,ASCII,wvpk^
+poison.exe,0x18B82,0x19782,ASCII,WAVEfmt 
+poison.exe,0x18BA8,0x197A8,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x18C30,0x19830,ASCII,C9f0as
+poison.exe,0x18DAB,0x199AB,ASCII,W[[zH
+poison.exe,0x18DD7,0x199D7,ASCII,H(lmX
+poison.exe,0x18E45,0x19A45,ASCII,'8J$l*E
+poison.exe,0x18E57,0x19A57,ASCII,_QA9'6g
+poison.exe,0x18EF2,0x19AF2,ASCII,"g,(!1"
+poison.exe,0x18F3A,0x19B3A,ASCII,o-3d 
+poison.exe,0x18F73,0x19B73,ASCII,U!fB~
+poison.exe,0x18FBA,0x19BBA,ASCII,1&*h1
+poison.exe,0x1905D,0x19C5D,ASCII,C:}Q\
+poison.exe,0x19163,0x19D63,ASCII,1'^`2
+poison.exe,0x192C8,0x19EC8,ASCII,lgDfGj
+poison.exe,0x1949C,0x1A09C,ASCII,?$[TU
+poison.exe,0x1962C,0x1A22C,ASCII,)+xeU?M
+poison.exe,0x197BE,0x1A3BE,ASCII,wvpkX
+poison.exe,0x197E8,0x1A3E8,ASCII,WAVEfmt 
+poison.exe,0x1980E,0x1A40E,ASCII,WWGHFWGILJHKMFWGC
+poison.exe,0x199F0,0x1A5F0,ASCII,)s*=5
+poison.exe,0x19A05,0x1A605,ASCII,s9ib]b
+poison.exe,0x19A11,0x1A611,ASCII,"p^Al,~"
+poison.exe,0x19A85,0x1A685,ASCII,:zxyYUH
+poison.exe,0x19BA0,0x1A7A0,ASCII,4<UW+t
+poison.exe,0x19BD1,0x1A7D1,ASCII,",s%%U"
+poison.exe,0x19DDA,0x1A9DA,ASCII,_x#NM
+poison.exe,0x19E26,0x1AA26,ASCII,b5Ox|
+poison.exe,0x19F59,0x1AB59,ASCII,V??6Sa
+poison.exe,0x19FBE,0x1ABBE,ASCII,0rEE{
+poison.exe,0x1A01D,0x1AC1D,ASCII,Mj=v8@
+poison.exe,0x1A03D,0x1AC3D,ASCII,C%J|%
+poison.exe,0x1A1A6,0x1ADA6,ASCII,CS(sH
+poison.exe,0x1A2A4,0x1AEA4,ASCII,NOb@(>kg
+poison.exe,0x1A31E,0x1AF1E,ASCII,wvpkx
+poison.exe,0x1A348,0x1AF48,ASCII,WAVEfmt 
+poison.exe,0x1A36E,0x1AF6E,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x1A4A9,0x1B0A9,ASCII,v3uw=}C
+poison.exe,0x1A634,0x1B234,ASCII,(]A{G~
+poison.exe,0x1A646,0x1B246,ASCII,:[Pwc
+poison.exe,0x1A64C,0x1B24C,ASCII,"xD'W""2"
+poison.exe,0x1A87E,0x1B47E,ASCII,urUov
+poison.exe,0x1A956,0x1B556,ASCII,MyDBv
+poison.exe,0x1AA80,0x1B680,ASCII,Y_a14
+poison.exe,0x1AB62,0x1B762,ASCII,P'm~Pu
+poison.exe,0x1AC06,0x1B806,ASCII,.-H=oOL
+poison.exe,0x1AC22,0x1B822,ASCII,a{xPo`
+poison.exe,0x1AC68,0x1B868,ASCII,uU|3#;
+poison.exe,0x1ACC8,0x1B8C8,ASCII,WAVEfmt 
+poison.exe,0x1ACEE,0x1B8EE,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x1AD68,0x1B968,ASCII,"j,/e7"
+poison.exe,0x1B1DB,0x1BDDB,ASCII,9&fxJg
+poison.exe,0x1B3B6,0x1BFB6,ASCII,k!n7C
+poison.exe,0x1B584,0x1C184,ASCII,xwRw3
+poison.exe,0x1B65D,0x1C25D,ASCII,<Udxl
+poison.exe,0x1B7A9,0x1C3A9,ASCII,X|/M]
+poison.exe,0x1B880,0x1C480,ASCII,!9U> .jo`
+poison.exe,0x1B9B6,0x1C5B6,ASCII,WAVEfmt 
+poison.exe,0x1B9DC,0x1C5DC,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x1BACE,0x1C6CE,ASCII,Fudg|
+poison.exe,0x1BC1F,0x1C81F,ASCII,!Gx)x
+poison.exe,0x1BCAB,0x1C8AB,ASCII,86:Rt
+poison.exe,0x1BCCD,0x1C8CD,ASCII,/V^#Xs
+poison.exe,0x1BE09,0x1CA09,ASCII,]Z:Oiv^/Y
+poison.exe,0x1BE59,0x1CA59,ASCII,%}(~4
+poison.exe,0x1C0B3,0x1CCB3,ASCII,l2Tx|
+poison.exe,0x1C3BF,0x1CFBF,ASCII,Ls@Am
+poison.exe,0x1C494,0x1D094,ASCII,V4}> 
+poison.exe,0x1C53B,0x1D13B,ASCII,kFZgL
+poison.exe,0x1C6B0,0x1D2B0,ASCII, z+UQ>
+poison.exe,0x1C6F0,0x1D2F0,ASCII,~%K9#
+poison.exe,0x1C6FE,0x1D2FE,ASCII,nRN>dq
+poison.exe,0x1C769,0x1D369,ASCII,I)yPP
+poison.exe,0x1C83A,0x1D43A,ASCII,RIFF*d
+poison.exe,0x1C842,0x1D442,ASCII,WAVEfmt 
+poison.exe,0x1C868,0x1D468,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x1C960,0x1D560,ASCII,gtbM>
+poison.exe,0x1CA14,0x1D614,ASCII,"""KvZ"""
+poison.exe,0x1CBBC,0x1D7BC,ASCII,@e%sY
+poison.exe,0x1CCE6,0x1D8E6,ASCII,"}M,1X"
+poison.exe,0x1CD75,0x1D975,ASCII,mOgaRF
+poison.exe,0x1CDDB,0x1D9DB,ASCII,`l~E[5iw
+poison.exe,0x1CE04,0x1DA04,ASCII,\528hE
+poison.exe,0x1CF02,0x1DB02,ASCII,izrbe
+poison.exe,0x1CF25,0x1DB25,ASCII,9Im`C
+poison.exe,0x1D025,0x1DC25,ASCII,-D&q68
+poison.exe,0x1D066,0x1DC66,ASCII,<DsHp
+poison.exe,0x1D089,0x1DC89,ASCII,4'4A@
+poison.exe,0x1D657,0x1E257,ASCII,6&LKw
+poison.exe,0x1D710,0x1E310,ASCII,RIFFP
+poison.exe,0x1D718,0x1E318,ASCII,WAVEfmt 
+poison.exe,0x1D734,0x1E334,ASCII,"data,"
+poison.exe,0x1D73E,0x1E33E,ASCII,WWGHFWGILJHKMFWGC
+poison.exe,0x1DA47,0x1E647,ASCII,)F.`Y
+poison.exe,0x1DAC4,0x1E6C4,ASCII,C>#cG
+poison.exe,0x1DDA0,0x1E9A0,ASCII,xK6&Z
+poison.exe,0x1DFD2,0x1EBD2,ASCII,/M?QE
+poison.exe,0x1DFF0,0x1EBF0,ASCII,X@YGPQ9
+poison.exe,0x1E191,0x1ED91,ASCII,r$;*c?
+poison.exe,0x1E19C,0x1ED9C,ASCII,dJ~l<
+poison.exe,0x1E1C3,0x1EDC3,ASCII,C@cw+
+poison.exe,0x1E2EF,0x1EEEF,ASCII,BCd{A@
+poison.exe,0x1E3FE,0x1EFFE,ASCII,6ZYm>72SfYc5
+poison.exe,0x1E4C9,0x1F0C9,ASCII,ckJd)
+poison.exe,0x1E54F,0x1F14F,ASCII,"#OM,]"
+poison.exe,0x1E7B6,0x1F3B6,ASCII,->non
+poison.exe,0x1E8BE,0x1F4BE,ASCII,RsNfo
+poison.exe,0x1E985,0x1F585,ASCII,"""}t~%"
+poison.exe,0x1EB34,0x1F734,ASCII,WAVEfmt 
+poison.exe,0x1EB50,0x1F750,ASCII,dataz
+poison.exe,0x1EB5A,0x1F75A,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x1ED3F,0x1F93F,ASCII,"w7k,8"
+poison.exe,0x1ED8C,0x1F98C,ASCII,"""YBT%"
+poison.exe,0x1EE45,0x1FA45,ASCII,982p|
+poison.exe,0x1EED2,0x1FAD2,ASCII,(uZ:n
+poison.exe,0x1F034,0x1FC34,ASCII,BR/D~
+poison.exe,0x1F119,0x1FD19,ASCII,)*'%?Y
+poison.exe,0x1F433,0x20033,ASCII,zj-~(m
+poison.exe,0x1F46A,0x2006A,ASCII,zh%^SM
+poison.exe,0x1F554,0x20154,ASCII,MN~^g
+poison.exe,0x1F582,0x20182,ASCII,"3Z""C!2"
+poison.exe,0x1F60A,0x2020A,ASCII,!ccJK
+poison.exe,0x1F716,0x20316,ASCII,4mzUDw
+poison.exe,0x1F722,0x20322,ASCII,/'*KP
+poison.exe,0x1F819,0x20419,ASCII,Aeuab
+poison.exe,0x1F879,0x20479,ASCII,Xld)1Dy
+poison.exe,0x1F8CF,0x204CF,ASCII,{J+%f_s
+poison.exe,0x1FA8A,0x2068A,ASCII,-WyDB
+poison.exe,0x1FB01,0x20701,ASCII,Ga\l[(`
+poison.exe,0x1FB7B,0x2077B,ASCII,ydr/=
+poison.exe,0x1FD3F,0x2093F,ASCII,xCv:9
+poison.exe,0x1FE12,0x20A12,ASCII,WAVEfmt 
+poison.exe,0x1FE38,0x20A38,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x20179,0x20D79,ASCII,"ysL%"""
+poison.exe,0x20196,0x20D96,ASCII,v(bx}
+poison.exe,0x20305,0x20F05,ASCII,Z%zBFL
+poison.exe,0x20344,0x20F44,ASCII,DSaUa
+poison.exe,0x20406,0x21006,ASCII,`uUrv
+poison.exe,0x20533,0x21133,ASCII,|*ksV
+poison.exe,0x20695,0x21295,ASCII,?@_X@
+poison.exe,0x2078B,0x2138B,ASCII,aGB6u1
+poison.exe,0x20862,0x21462,ASCII,:wa|L3
+poison.exe,0x2099C,0x2159C,ASCII,TXiMBMp%
+poison.exe,0x20C6B,0x2186B,ASCII,y9^<0
+poison.exe,0x20E76,0x21A76,ASCII,+oO(mF
+poison.exe,0x21159,0x21D59,ASCII,pJ88?*
+poison.exe,0x212FC,0x21EFC,ASCII,seWQ7
+poison.exe,0x2132D,0x21F2D,ASCII,^N\}4ad
+poison.exe,0x21341,0x21F41,ASCII,[875h
+poison.exe,0x213C3,0x21FC3,ASCII,y3_<t`
+poison.exe,0x213EE,0x21FEE,ASCII,=<U`s
+poison.exe,0x214F5,0x220F5,ASCII,$h6X}
+poison.exe,0x216F4,0x222F4,ASCII,s<mcb
+poison.exe,0x21813,0x22413,ASCII,:JT@[
+poison.exe,0x21960,0x22560,ASCII,5>D@fi
+poison.exe,0x219DE,0x225DE,ASCII,ad6>}
+poison.exe,0x21A37,0x22637,ASCII,<gM22
+poison.exe,0x21C33,0x22833,ASCII,_ Ul8_
+poison.exe,0x21D2F,0x2292F,ASCII,NE+/s
+poison.exe,0x21D98,0x22998,ASCII,Z(~s>!
+poison.exe,0x21EB4,0x22AB4,ASCII,F(xNH
+poison.exe,0x21FE6,0x22BE6,ASCII,[YX+_
+poison.exe,0x220B7,0x22CB7,ASCII,U`Kn[d
+poison.exe,0x2218F,0x22D8F,ASCII, *p#lO
+poison.exe,0x22410,0x23010,ASCII,8a^4v
+poison.exe,0x224CC,0x230CC,ASCII,"RFi0;"""
+poison.exe,0x22529,0x23129,ASCII,5hhtj)
+poison.exe,0x2273A,0x2333A,ASCII,Zwub+ 
+poison.exe,0x22741,0x23341,ASCII,N=K;H
+poison.exe,0x228AC,0x234AC,ASCII,9c3KO
+poison.exe,0x229FA,0x235FA,ASCII,y]mt?V
+poison.exe,0x22ED1,0x23AD1,ASCII,"g,2}>"
+poison.exe,0x22F0A,0x23B0A,ASCII,eHbj:$
+poison.exe,0x22FB9,0x23BB9,ASCII,R(<`(
+poison.exe,0x23029,0x23C29,ASCII,)nXSeM
+poison.exe,0x2309A,0x23C9A,ASCII,WAVEfmt 
+poison.exe,0x230C0,0x23CC0,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x23223,0x23E23,ASCII,oi%Ap
+poison.exe,0x232F7,0x23EF7,ASCII,O?&G/
+poison.exe,0x23336,0x23F36,ASCII,3^x&R
+poison.exe,0x234E6,0x240E6,ASCII,7Gt!7.
+poison.exe,0x23596,0x24196,ASCII,v=3%*
+poison.exe,0x235D1,0x241D1,ASCII,nM~a-
+poison.exe,0x235F1,0x241F1,ASCII,#X^J{7&
+poison.exe,0x236D3,0x242D3,ASCII,Wnbr`2
+poison.exe,0x236DC,0x242DC,ASCII,"/},""{e"
+poison.exe,0x23853,0x24453,ASCII,l\yZu@h
+poison.exe,0x23C7F,0x2487F,ASCII,Xc_<G
+poison.exe,0x23CAB,0x248AB,ASCII,4=K.6
+poison.exe,0x23CCB,0x248CB,ASCII,si@6rk
+poison.exe,0x23D29,0x24929,ASCII,Pn-?h
+poison.exe,0x23F8E,0x24B8E,ASCII,9&C-]
+poison.exe,0x24276,0x24E76,ASCII,@xOpq
+poison.exe,0x243B6,0x24FB6,ASCII,"3^\""bs"
+poison.exe,0x2445F,0x2505F,ASCII,h<&v7C
+poison.exe,0x2452B,0x2512B,ASCII,Vgl]sf
+poison.exe,0x24581,0x25181,ASCII,=jVAY
+poison.exe,0x24640,0x25240,ASCII,Kty4'
+poison.exe,0x246B7,0x252B7,ASCII,"SSk,d"
+poison.exe,0x24A4A,0x2564A,ASCII,7tqv_
+poison.exe,0x24AC7,0x256C7,ASCII,~ /n-
+poison.exe,0x24C4D,0x2584D,ASCII,J[g-uX
+poison.exe,0x24C54,0x25854,ASCII,(2#eH.
+poison.exe,0x24DF2,0x259F2,ASCII,xs:& R
+poison.exe,0x24EFA,0x25AFA,ASCII,wvpk.$
+poison.exe,0x24F1C,0x25B1C,ASCII,RIFFz
+poison.exe,0x24F24,0x25B24,ASCII,WAVEfmt 
+poison.exe,0x24F40,0x25B40,ASCII,dataV
+poison.exe,0x24F4A,0x25B4A,ASCII,WWGHFWGILJHKMFWGC
+poison.exe,0x25063,0x25C63,ASCII,?3$W]f
+poison.exe,0x250B8,0x25CB8,ASCII,>Gehp
+poison.exe,0x25195,0x25D95,ASCII,V)IyK
+poison.exe,0x251BA,0x25DBA,ASCII,"(Wq`,"
+poison.exe,0x252D1,0x25ED1,ASCII,%GB[Z
+poison.exe,0x25365,0x25F65,ASCII,"^C^k"""
+poison.exe,0x25411,0x26011,ASCII,k'E3y%8
+poison.exe,0x254E8,0x260E8,ASCII,"mt<n C,"
+poison.exe,0x2550B,0x2610B,ASCII,j;G1;
+poison.exe,0x2554A,0x2614A,ASCII,Yo= 2
+poison.exe,0x257F5,0x263F5,ASCII,4CNEz
+poison.exe,0x258ED,0x264ED,ASCII,_}U2U
+poison.exe,0x259D8,0x265D8,ASCII,"Gcc""~"
+poison.exe,0x25CB4,0x268B4,ASCII,"c8$5,/g"
+poison.exe,0x25F32,0x26B32,ASCII,_Gkb%g
+poison.exe,0x26147,0x26D47,ASCII,rcn~k
+poison.exe,0x26169,0x26D69,ASCII,|RP4_i
+poison.exe,0x26197,0x26D97,ASCII,a Iy~
+poison.exe,0x261D1,0x26DD1,ASCII,je:cA
+poison.exe,0x262ED,0x26EED,ASCII,~>t.U;
+poison.exe,0x2638A,0x26F8A,ASCII,hJj_k:O
+poison.exe,0x26531,0x27131,ASCII,|}H p7
+poison.exe,0x26558,0x27158,ASCII,C>1Yk
+poison.exe,0x265D4,0x271D4,ASCII,]$\!^r
+poison.exe,0x26720,0x27320,ASCII,{y` Gc
+poison.exe,0x2676C,0x2736C,ASCII,RY|gq
+poison.exe,0x26956,0x27556,ASCII,zXca)'yl
+poison.exe,0x26A69,0x27669,ASCII,m|Ehym
+poison.exe,0x26ACB,0x276CB,ASCII,"=""t+bq"
+poison.exe,0x26BB4,0x277B4,ASCII,_M+mP7
+poison.exe,0x26BF9,0x277F9,ASCII,-z2c[
+poison.exe,0x26C69,0x27869,ASCII,y#2Mp
+poison.exe,0x26CCB,0x278CB,ASCII,:85 9
+poison.exe,0x26D4E,0x2794E,ASCII,VyuJbG
+poison.exe,0x26E9D,0x27A9D,ASCII,g4=`65
+poison.exe,0x2702B,0x27C2B,ASCII,*o`_Lj
+poison.exe,0x2709B,0x27C9B,ASCII,n0R`-B
+poison.exe,0x27111,0x27D11,ASCII,x+zsSf
+poison.exe,0x27123,0x27D23,ASCII,|XtEcR5
+poison.exe,0x27330,0x27F30,ASCII,wvpkP&
+poison.exe,0x27352,0x27F52,ASCII,RIFF$
+poison.exe,0x2735A,0x27F5A,ASCII,WAVEfmt 
+poison.exe,0x27380,0x27F80,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x274AE,0x280AE,ASCII,"1'f`LJ"""
+poison.exe,0x2763B,0x2823B,ASCII,0I+Y<B
+poison.exe,0x2773D,0x2833D,ASCII,lp|THbpC)D
+poison.exe,0x27764,0x28364,ASCII,!dJ1C
+poison.exe,0x278A9,0x284A9,ASCII,(ZH(4<
+poison.exe,0x27908,0x28508,ASCII,TI)rD
+poison.exe,0x279BF,0x285BF,ASCII,$hU>Jd
+poison.exe,0x27A2B,0x2862B,ASCII," ,RVd"
+poison.exe,0x27A5F,0x2865F,ASCII,cKplb
+poison.exe,0x27B5D,0x2875D,ASCII,F%xJX
+poison.exe,0x27BBA,0x287BA,ASCII,{Xf]:8(!c-
+poison.exe,0x27BD2,0x287D2,ASCII,iyu1F9
+poison.exe,0x27C6F,0x2886F,ASCII,F#@CErm
+poison.exe,0x27E20,0x28A20,ASCII,72-+(
+poison.exe,0x27F04,0x28B04,ASCII,&l@LJ
+poison.exe,0x27FA1,0x28BA1,ASCII,tx#zF
+poison.exe,0x2800C,0x28C0C,ASCII,s`A3iD
+poison.exe,0x281C4,0x28DC4,ASCII,Y~4bHN
+poison.exe,0x281F8,0x28DF8,ASCII, X/rJ
+poison.exe,0x28389,0x28F89,ASCII,1'pxbx
+poison.exe,0x2839A,0x28F9A,ASCII,5dV{v
+poison.exe,0x283BB,0x28FBB,ASCII,R2iQ:
+poison.exe,0x2856A,0x2916A,ASCII,"<#bY""4"
+poison.exe,0x28604,0x29204,ASCII,"B""*1hc0"
+poison.exe,0x2866F,0x2926F,ASCII,"M!,3""a"
+poison.exe,0x286C8,0x292C8,ASCII,s>Wlp
+poison.exe,0x2876B,0x2936B,ASCII,l@6$B
+poison.exe,0x287BD,0x293BD,ASCII,*Pb|{
+poison.exe,0x287D7,0x293D7,ASCII,"+LK,E"
+poison.exe,0x28856,0x29456,ASCII,\aKy/]0
+poison.exe,0x28880,0x29480,ASCII,8aR>-
+poison.exe,0x28917,0x29517,ASCII,TJ'&5K
+poison.exe,0x28921,0x29521,ASCII,6#V23
+poison.exe,0x28ACF,0x296CF,ASCII,1*..1
+poison.exe,0x28B88,0x29788,ASCII,gH;ry
+poison.exe,0x28E65,0x29A65,ASCII,#G D#
+poison.exe,0x28E79,0x29A79,ASCII,5i7Z5t
+poison.exe,0x28EE7,0x29AE7,ASCII,"D0,H\"
+poison.exe,0x29122,0x29D22,ASCII,H4<#b
+poison.exe,0x29288,0x29E88,ASCII,"s!k,X"
+poison.exe,0x296EC,0x2A2EC,ASCII,s(z~:
+poison.exe,0x29784,0x2A384,ASCII,",OmNi"
+poison.exe,0x297C6,0x2A3C6,ASCII,Cc=JD
+poison.exe,0x297E5,0x2A3E5,ASCII,"*+D,V"
+poison.exe,0x297FE,0x2A3FE,ASCII,G]VCC
+poison.exe,0x2987C,0x2A47C,ASCII,%hCdLh
+poison.exe,0x29988,0x2A588,ASCII,wvpk~$
+poison.exe,0x299AA,0x2A5AA,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x29A5E,0x2A65E,ASCII,.hPs-
+poison.exe,0x29B16,0x2A716,ASCII,4UJ<D
+poison.exe,0x29B59,0x2A759,ASCII,<*`Jcm
+poison.exe,0x29B62,0x2A762,ASCII,zL1Rr
+poison.exe,0x29C02,0x2A802,ASCII,1+s;_
+poison.exe,0x29D17,0x2A917,ASCII,lIec3
+poison.exe,0x29D8F,0x2A98F,ASCII,HrI!]
+poison.exe,0x29DA8,0x2A9A8,ASCII,E@ECB
+poison.exe,0x29DBD,0x2A9BD,ASCII,>&M>9A._(s
+poison.exe,0x29E14,0x2AA14,ASCII,1tQc9
+poison.exe,0x29F2C,0x2AB2C,ASCII,|jm~{
+poison.exe,0x29FEC,0x2ABEC,ASCII,"6,ISZ"
+poison.exe,0x2A087,0x2AC87,ASCII,",2ZGef"
+poison.exe,0x2A09F,0x2AC9F,ASCII,x)Nj\
+poison.exe,0x2A0D1,0x2ACD1,ASCII,\W`9X
+poison.exe,0x2A0F4,0x2ACF4,ASCII,.hz<s]
+poison.exe,0x2A2B5,0x2AEB5,ASCII,Xji9{t
+poison.exe,0x2A300,0x2AF00,ASCII, J&IO
+poison.exe,0x2A3E1,0x2AFE1,ASCII,:QaT]
+poison.exe,0x2A458,0x2B058,ASCII,HE-yc
+poison.exe,0x2A499,0x2B099,ASCII,il[_B
+poison.exe,0x2A5AB,0x2B1AB,ASCII,Q|v}u
+poison.exe,0x2A6B2,0x2B2B2,ASCII,os>'[)iya
+poison.exe,0x2A6F2,0x2B2F2,ASCII,+(/%C
+poison.exe,0x2A910,0x2B510,ASCII,}WRWs
+poison.exe,0x2AAD8,0x2B6D8,ASCII,u>3ka~
+poison.exe,0x2ACE4,0x2B8E4,ASCII,(e#>%..}
+poison.exe,0x2ADBE,0x2B9BE,ASCII,8Yl.H
+poison.exe,0x2AE23,0x2BA23,ASCII,G49%c
+poison.exe,0x2AE7C,0x2BA7C,ASCII,")N""bc"
+poison.exe,0x2AF87,0x2BB87,ASCII,ku/lY
+poison.exe,0x2AFFB,0x2BBFB,ASCII,'3UAjv
+poison.exe,0x2B034,0x2BC34,ASCII,rXt]/=
+poison.exe,0x2B23E,0x2BE3E,ASCII,"'%z,q"
+poison.exe,0x2B27A,0x2BE7A,ASCII,oI<%&
+poison.exe,0x2B3CE,0x2BFCE,ASCII,tQQw.D
+poison.exe,0x2B421,0x2C021,ASCII,_[[2?g
+poison.exe,0x2B4CE,0x2C0CE,ASCII,QQ (J
+poison.exe,0x2B52B,0x2C12B,ASCII,Q<<Q1b(N
+poison.exe,0x2B561,0x2C161,ASCII,PI724
+poison.exe,0x2B5C5,0x2C1C5,ASCII,xhFsM6
+poison.exe,0x2B6AD,0x2C2AD,ASCII,?g|7~
+poison.exe,0x2B703,0x2C303,ASCII,(ehcw
+poison.exe,0x2B728,0x2C328,ASCII,iHJaM
+poison.exe,0x2BB07,0x2C707,ASCII,zpcQB
+poison.exe,0x2BB1F,0x2C71F,ASCII,C#%=H
+poison.exe,0x2BC57,0x2C857,ASCII,Kc]Tx
+poison.exe,0x2BCB2,0x2C8B2,ASCII,.>9^ <N
+poison.exe,0x2BCBC,0x2C8BC,ASCII,2!BCK
+poison.exe,0x2BD9F,0x2C99F,ASCII,L)*)H
+poison.exe,0x2BE0E,0x2CA0E,ASCII,wvpkx6
+poison.exe,0x2BE38,0x2CA38,ASCII,WAVEfmt 
+poison.exe,0x2BE54,0x2CA54,ASCII,databs
+poison.exe,0x2BE5E,0x2CA5E,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x2BEB1,0x2CAB1,ASCII,)\AT/
+poison.exe,0x2BF58,0x2CB58,ASCII,$ .K!6
+poison.exe,0x2C050,0x2CC50,ASCII,I%D>a
+poison.exe,0x2C167,0x2CD67,ASCII,$)14{
+poison.exe,0x2C359,0x2CF59,ASCII,)qJ>j
+poison.exe,0x2C397,0x2CF97,ASCII,{zx8}
+poison.exe,0x2C46C,0x2D06C,ASCII,<p4LY#)
+poison.exe,0x2C4E1,0x2D0E1,ASCII,"2\""m3,ER+"
+poison.exe,0x2C50C,0x2D10C,ASCII,i@0LUUe$
+poison.exe,0x2C5A6,0x2D1A6,ASCII,ES$dD
+poison.exe,0x2C612,0x2D212,ASCII,=|};|
+poison.exe,0x2C69C,0x2D29C,ASCII,$y4f`
+poison.exe,0x2C71C,0x2D31C,ASCII,"=)S,iN"
+poison.exe,0x2C7D4,0x2D3D4,ASCII,"?^_,>"
+poison.exe,0x2C7FB,0x2D3FB,ASCII,o_N>~{~
+poison.exe,0x2C83F,0x2D43F,ASCII,BI!4p
+poison.exe,0x2C8C1,0x2D4C1,ASCII,K Z_~<V_
+poison.exe,0x2C8E8,0x2D4E8,ASCII,l&;(4
+poison.exe,0x2CE0A,0x2DA0A,ASCII,<R=pNm
+poison.exe,0x2CE38,0x2DA38,ASCII,y|>=P
+poison.exe,0x2CEC7,0x2DAC7,ASCII,$cZ_7
+poison.exe,0x2CEE1,0x2DAE1,ASCII,16g]y2
+poison.exe,0x2CF46,0x2DB46,ASCII,(S4W 
+poison.exe,0x2CFB1,0x2DBB1,ASCII,{GE].
+poison.exe,0x2D02C,0x2DC2C,ASCII,",;I""N_.r"
+poison.exe,0x2D04C,0x2DC4C,ASCII,FiX46+
+poison.exe,0x2D060,0x2DC60,ASCII,B$aV.
+poison.exe,0x2D0AA,0x2DCAA,ASCII,"$amy"""
+poison.exe,0x2D3ED,0x2DFED,ASCII,>{_>8H
+poison.exe,0x2D447,0x2E047,ASCII,L4ESZN
+poison.exe,0x2D46C,0x2E06C,ASCII,PX2Ue
+poison.exe,0x2D51D,0x2E11D,ASCII,%OA2*
+poison.exe,0x2D591,0x2E191,ASCII,q5m+j
+poison.exe,0x2D5AC,0x2E1AC,ASCII,(rIEG
+poison.exe,0x2D6A9,0x2E2A9,ASCII,khrB2K
+poison.exe,0x2D818,0x2E418,ASCII,M1vLU
+poison.exe,0x2D89F,0x2E49F,ASCII,yl=0H)
+poison.exe,0x2D9BC,0x2E5BC,ASCII,=)SXPpI
+poison.exe,0x2DABA,0x2E6BA,ASCII,a=#lh-r
+poison.exe,0x2DAFA,0x2E6FA,ASCII,dOjKwn
+poison.exe,0x2DBE4,0x2E7E4,ASCII,(-.A<%&h
+poison.exe,0x2DCCD,0x2E8CD,ASCII,f}orB
+poison.exe,0x2DD56,0x2E956,ASCII,\4Xz4)6KG
+poison.exe,0x2DDFA,0x2E9FA,ASCII,"IV,5D"
+poison.exe,0x2DF67,0x2EB67,ASCII, Hml^
+poison.exe,0x2E01C,0x2EC1C,ASCII,!A0#n:
+poison.exe,0x2E059,0x2EC59,ASCII,Z.T&$j
+poison.exe,0x2E07E,0x2EC7E,ASCII,&eOMi
+poison.exe,0x2E112,0x2ED12,ASCII,RZ2)-*v
+poison.exe,0x2E139,0x2ED39,ASCII,"""rO7u"
+poison.exe,0x2E19B,0x2ED9B,ASCII,5*V]A
+poison.exe,0x2E330,0x2EF30,ASCII,?x3{y
+poison.exe,0x2E33A,0x2EF3A,ASCII,"l,I0l"
+poison.exe,0x2E403,0x2F003,ASCII,>2^Dc
+poison.exe,0x2E46B,0x2F06B,ASCII,1CRJtar
+poison.exe,0x2E5FB,0x2F1FB,ASCII,pQ($e
+poison.exe,0x2E737,0x2F337,ASCII,Pj6)xa
+poison.exe,0x2E814,0x2F414,ASCII,"BXZ,I"
+poison.exe,0x2E8A8,0x2F4A8,ASCII,2)Ht|
+poison.exe,0x2E976,0x2F576,ASCII,"8vrI,"
+poison.exe,0x2EA67,0x2F667,ASCII, b98K6
+poison.exe,0x2EAAD,0x2F6AD,ASCII,"%]m<"""
+poison.exe,0x2EC64,0x2F864,ASCII,t<Ask
+poison.exe,0x2EDF3,0x2F9F3,ASCII,6SNbE
+poison.exe,0x2EE84,0x2FA84,ASCII,"BPJY,K|"
+poison.exe,0x2EEFE,0x2FAFE,ASCII,LX]}'
+poison.exe,0x2EF5F,0x2FB5F,ASCII,aRXpHP^
+poison.exe,0x2EFAF,0x2FBAF,ASCII,$K{3 
+poison.exe,0x2F003,0x2FC03,ASCII,{{hYSR
+poison.exe,0x2F096,0x2FC96,ASCII,"b,-lr"
+poison.exe,0x2F248,0x2FE48,ASCII,'Emm2
+poison.exe,0x2F34A,0x2FF4A,ASCII,JvD`E
+poison.exe,0x2F42E,0x3002E,ASCII,~s|>r
+poison.exe,0x2F4B8,0x300B8,ASCII,WAVEfmt 
+poison.exe,0x2F4D4,0x300D4,ASCII,data^
+poison.exe,0x2F4DE,0x300DE,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x2F544,0x30144,ASCII,_&6;$
+poison.exe,0x2F611,0x30211,ASCII,|Dp ]j
+poison.exe,0x2F634,0x30234,ASCII,7kf{3.
+poison.exe,0x2F63F,0x3023F,ASCII,e-{w=
+poison.exe,0x2F68E,0x3028E,ASCII,G3xc^
+poison.exe,0x2F695,0x30295,ASCII,~'{H2
+poison.exe,0x2F716,0x30316,ASCII,o|MQI
+poison.exe,0x2F7AD,0x303AD,ASCII,zb%o:e7H
+poison.exe,0x2F80C,0x3040C,ASCII,zkJ}d
+poison.exe,0x2F8F8,0x304F8,ASCII,Fmsra>
+poison.exe,0x2F91B,0x3051B,ASCII,krNMBp|tLc
+poison.exe,0x2F995,0x30595,ASCII,VjnRCt
+poison.exe,0x2FA01,0x30601,ASCII,d<tGSE
+poison.exe,0x2FA1E,0x3061E,ASCII,p-Rap
+poison.exe,0x2FC49,0x30849,ASCII,",)iW5w"
+poison.exe,0x2FD0E,0x3090E,ASCII,p%pA*
+poison.exe,0x2FDAF,0x309AF,ASCII,GI`9F
+poison.exe,0x3019D,0x30D9D,ASCII,OF!q8
+poison.exe,0x3024E,0x30E4E,ASCII,"D<B,s"
+poison.exe,0x302E3,0x30EE3,ASCII,CDN\i
+poison.exe,0x30302,0x30F02,ASCII,dBLkl
+poison.exe,0x3040B,0x3100B,ASCII,kDCxt
+poison.exe,0x30516,0x31116,ASCII,"9I|m~,"
+poison.exe,0x30623,0x31223,ASCII,%& 9~
+poison.exe,0x3067D,0x3127D,ASCII,wS'oYx
+poison.exe,0x30687,0x31287,ASCII,(B5at-
+poison.exe,0x30717,0x31317,ASCII,H>gB n
+poison.exe,0x30A99,0x31699,ASCII, !3Kn
+poison.exe,0x30AEA,0x316EA,ASCII,?DB>M
+poison.exe,0x30B3F,0x3173F,ASCII,l~Yc.E
+poison.exe,0x30B50,0x31750,ASCII,~Tz)SdQz
+poison.exe,0x30C21,0x31821,ASCII,"N]""k!"
+poison.exe,0x30C7D,0x3187D,ASCII,~)/]!
+poison.exe,0x30C9F,0x3189F,ASCII,mPj@B'uv
+poison.exe,0x30CC5,0x318C5,ASCII,"n-9,n&"
+poison.exe,0x30F54,0x31B54,ASCII,"(o0,{"
+poison.exe,0x310AC,0x31CAC,ASCII,$Y3xP
+poison.exe,0x311C2,0x31DC2,ASCII,i%)Ry
+poison.exe,0x31339,0x31F39,ASCII,;FfuGA
+poison.exe,0x313E6,0x31FE6,ASCII,lCxM`
+poison.exe,0x31470,0x32070,ASCII,!(gLqu
+poison.exe,0x31669,0x32269,ASCII,RY%;b?
+poison.exe,0x31A32,0x32632,ASCII,",l8y}<:4>sDS|yV"
+poison.exe,0x31B84,0x32784,ASCII,;?1'3
+poison.exe,0x31BB3,0x327B3,ASCII,7WE)B
+poison.exe,0x31C0A,0x3280A,ASCII,3&HVX
+poison.exe,0x31C2B,0x3282B,ASCII,%D%:6b
+poison.exe,0x31D9A,0x3299A,ASCII,WAVEfmt 
+poison.exe,0x31DC0,0x329C0,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x31E94,0x32A94,ASCII,C12 3 
+poison.exe,0x31F68,0x32B68,ASCII,pBi0FApxO
+poison.exe,0x321D1,0x32DD1,ASCII,m(rBS
+poison.exe,0x32234,0x32E34,ASCII,[qPsx
+poison.exe,0x322AD,0x32EAD,ASCII,-c8h!
+poison.exe,0x32474,0x33074,ASCII,",""4q'<"
+poison.exe,0x325C3,0x331C3,ASCII,rt]r2
+poison.exe,0x326D3,0x332D3,ASCII,rrf[0;
+poison.exe,0x3276D,0x3336D,ASCII,v_fD?
+poison.exe,0x329E6,0x335E6,ASCII,W'r3%
+poison.exe,0x32A0E,0x3360E,ASCII,ia?\R
+poison.exe,0x32A71,0x33671,ASCII,V5u:=
+poison.exe,0x32AA7,0x336A7,ASCII,i9}}_
+poison.exe,0x32AD1,0x336D1,ASCII,.}[+?_
+poison.exe,0x32B08,0x33708,ASCII,H00fY
+poison.exe,0x32C68,0x33868,ASCII,>9t|j
+poison.exe,0x32C6F,0x3386F,ASCII,?D_aB
+poison.exe,0x32CC1,0x338C1,ASCII,/1Hopr
+poison.exe,0x32D25,0x33925,ASCII,qwk?<
+poison.exe,0x32E22,0x33A22,ASCII,qG5]]
+poison.exe,0x32EAF,0x33AAF,ASCII,">b_,!"
+poison.exe,0x32F18,0x33B18,ASCII,5EaMv
+poison.exe,0x32FA7,0x33BA7,ASCII,D;Rb*)T
+poison.exe,0x32FE6,0x33BE6,ASCII,-9$p^
+poison.exe,0x3326D,0x33E6D,ASCII,BeA]k
+poison.exe,0x333C1,0x33FC1,ASCII,S|kpk
+poison.exe,0x333CC,0x33FCC,ASCII,Z`Rv4%8
+poison.exe,0x333D6,0x33FD6,ASCII,Y^13^
+poison.exe,0x33472,0x34072,ASCII,|BC% 
+poison.exe,0x33586,0x34186,ASCII,"g8[s""Qa"
+poison.exe,0x33733,0x34333,ASCII,b`fjH
+poison.exe,0x339C7,0x345C7,ASCII,Y?_8P
+poison.exe,0x33B74,0x34774,ASCII,)yi.?
+poison.exe,0x33BFA,0x347FA,ASCII,WN+Lzh
+poison.exe,0x33D48,0x34948,ASCII,"C?a,v"
+poison.exe,0x33E52,0x34A52,ASCII,[_?H~H
+poison.exe,0x33EE1,0x34AE1,ASCII,X$u%:
+poison.exe,0x33EF0,0x34AF0,ASCII,GU=UM
+poison.exe,0x33F68,0x34B68,ASCII,>!9:V\?*
+poison.exe,0x33F74,0x34B74,ASCII,QT((J
+poison.exe,0x34053,0x34C53,ASCII,GKX!4
+poison.exe,0x341C2,0x34DC2,ASCII,^OSbgA>
+poison.exe,0x344E8,0x350E8,ASCII,M5g u47
+poison.exe,0x34569,0x35169,ASCII,c{?$VO}
+poison.exe,0x345D1,0x351D1,ASCII,{L-A<
+poison.exe,0x34698,0x35298,ASCII,3[Of[
+poison.exe,0x3485E,0x3545E,ASCII,9aUb3
+poison.exe,0x34895,0x35495,ASCII,|f|7v
+poison.exe,0x348B9,0x354B9,ASCII,ghEUs
+poison.exe,0x34A38,0x35638,ASCII,(~QT/
+poison.exe,0x34B06,0x35706,ASCII,JhlF<
+poison.exe,0x34B27,0x35727,ASCII,_'C/}
+poison.exe,0x34DDF,0x359DF,ASCII,",=Iv#"
+poison.exe,0x3529E,0x35E9E,ASCII,Xb}dku
+poison.exe,0x354EA,0x360EA,ASCII,YC:I2=
+poison.exe,0x35569,0x36169,ASCII,BkiG|
+poison.exe,0x35578,0x36178,ASCII,{*CNy
+poison.exe,0x35601,0x36201,ASCII,k+#g>
+poison.exe,0x356A6,0x362A6,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x35751,0x36351,ASCII,";"";g,"
+poison.exe,0x35769,0x36369,ASCII,l@clb
+poison.exe,0x359FE,0x365FE,ASCII,]<;Ij-
+poison.exe,0x35A8E,0x3668E,ASCII,g';M[
+poison.exe,0x35BF0,0x367F0,ASCII,5?P1t
+poison.exe,0x35C88,0x36888,ASCII,D=6eiiO
+poison.exe,0x35EF7,0x36AF7,ASCII,"/MS\bV,"
+poison.exe,0x35F84,0x36B84,ASCII,oL;Yr
+poison.exe,0x3604C,0x36C4C,ASCII,?c(6j
+poison.exe,0x36064,0x36C64,ASCII,l-_:;F>p6
+poison.exe,0x3607B,0x36C7B,ASCII,MmE^{>2
+poison.exe,0x36381,0x36F81,ASCII,yORex
+poison.exe,0x36414,0x37014,ASCII,RiI1e..+k
+poison.exe,0x36460,0x37060,ASCII,fJI/lO
+poison.exe,0x36502,0x37102,ASCII, 3jr|;LE
+poison.exe,0x36572,0x37172,ASCII,2]VD2
+poison.exe,0x3664E,0x3724E,ASCII,?>ZB5
+poison.exe,0x366DA,0x372DA,ASCII,K2O|=|iZ430
+poison.exe,0x36710,0x37310,ASCII,krY>F
+poison.exe,0x36771,0x37371,ASCII,iJ=`W
+poison.exe,0x36947,0x37547,ASCII,hX2WL
+poison.exe,0x36BEE,0x377EE,ASCII,$D@hzM
+poison.exe,0x36C6C,0x3786C,ASCII,[ 15;
+poison.exe,0x36C79,0x37879,ASCII,mQ`!@
+poison.exe,0x36D4A,0x3794A,ASCII,K0 bBC
+poison.exe,0x36DDC,0x379DC,ASCII,()py_
+poison.exe,0x37293,0x37E93,ASCII,5hP_^
+poison.exe,0x3764E,0x3824E,ASCII,Gv=}~u
+poison.exe,0x3766E,0x3826E,ASCII,\`!%c}
+poison.exe,0x376C3,0x382C3,ASCII,~gef_
+poison.exe,0x379BF,0x385BF,ASCII,>z.h\xO
+poison.exe,0x37A81,0x38681,ASCII,"SRJB,"
+poison.exe,0x37B74,0x38774,ASCII,n4\B~H
+poison.exe,0x37D10,0x38910,ASCII,=:uAN
+poison.exe,0x37DAF,0x389AF,ASCII,^eC@5
+poison.exe,0x37EB7,0x38AB7,ASCII,LBOh@
+poison.exe,0x381B4,0x38DB4,ASCII,}0Kv7
+poison.exe,0x384A9,0x390A9,ASCII,?5t.\
+poison.exe,0x3857F,0x3917F,ASCII,No7#%
+poison.exe,0x385A3,0x391A3,ASCII,f(XXCzn
+poison.exe,0x3860A,0x3920A,ASCII,kxH  
+poison.exe,0x386C2,0x392C2,ASCII,X<&hOC
+poison.exe,0x3875C,0x3935C,ASCII,">P5^,'"
+poison.exe,0x387A0,0x393A0,ASCII,440\:
+poison.exe,0x388A3,0x394A3,ASCII,K\1r|
+poison.exe,0x388FA,0x394FA,ASCII,1qChD$
+poison.exe,0x38AD7,0x396D7,ASCII,cQVfd
+poison.exe,0x38B24,0x39724,ASCII,CXcX];\
+poison.exe,0x38BD4,0x397D4,ASCII,5`|o/hjH
+poison.exe,0x38D0B,0x3990B,ASCII,KsDcb~
+poison.exe,0x38D48,0x39948,ASCII,L)z38D0
+poison.exe,0x38F20,0x39B20,ASCII,wvpk\
+poison.exe,0x38F4A,0x39B4A,ASCII,WAVEfmt 
+poison.exe,0x38F66,0x39B66,ASCII,datav/
+poison.exe,0x38F70,0x39B70,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x39473,0x3A073,ASCII,<IEeNR/
+poison.exe,0x3954B,0x3A14B,ASCII,C8o)v
+poison.exe,0x39656,0x3A256,ASCII,e\!cT
+poison.exe,0x396A6,0x3A2A6,ASCII,RIFF ~
+poison.exe,0x396AE,0x3A2AE,ASCII,WAVEfmt 
+poison.exe,0x396D4,0x3A2D4,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x39747,0x3A347,ASCII,T>w;c^
+poison.exe,0x3991B,0x3A51B,ASCII,!1[STU
+poison.exe,0x399B5,0x3A5B5,ASCII,36V4!4
+poison.exe,0x39AB8,0x3A6B8,ASCII,`:sX4p
+poison.exe,0x39C24,0x3A824,ASCII,rcjDb
+poison.exe,0x39CC7,0x3A8C7,ASCII,5?X2y
+poison.exe,0x39DA6,0x3A9A6,ASCII,"JXqn"""
+poison.exe,0x39E09,0x3AA09,ASCII,",Rt}kL"
+poison.exe,0x39EA9,0x3AAA9,ASCII,o?%C]
+poison.exe,0x39F49,0x3AB49,ASCII,"Jz,kd"
+poison.exe,0x3A05C,0x3AC5C,ASCII,&GZxr
+poison.exe,0x3A121,0x3AD21,ASCII,Nk^pn0
+poison.exe,0x3A3FB,0x3AFFB,ASCII,H_ $|
+poison.exe,0x3A487,0x3B087,ASCII,IbhAc
+poison.exe,0x3A4A5,0x3B0A5,ASCII,2!<G{5F
+poison.exe,0x3A54E,0x3B14E,ASCII,MOs}h
+poison.exe,0x3A5D4,0x3B1D4,ASCII,!bpaa!
+poison.exe,0x3A8A4,0x3B4A4,ASCII,wvpkF
+poison.exe,0x3A8CE,0x3B4CE,ASCII,WAVEfmt 
+poison.exe,0x3A8F4,0x3B4F4,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x3AA5C,0x3B65C,ASCII,0O/dG
+poison.exe,0x3AAA0,0x3B6A0,ASCII,U-P^H)
+poison.exe,0x3ABD5,0x3B7D5,ASCII,']j`m
+poison.exe,0x3AD73,0x3B973,ASCII,t>|Cd
+poison.exe,0x3ADF4,0x3B9F4,ASCII,"\5r$"""
+poison.exe,0x3AE32,0x3BA32,ASCII,s4$GF
+poison.exe,0x3AE4D,0x3BA4D,ASCII,qV6fV
+poison.exe,0x3AF3A,0x3BB3A,ASCII,hf~<m
+poison.exe,0x3AFAE,0x3BBAE,ASCII,/er5/
+poison.exe,0x3B078,0x3BC78,ASCII,5I?P=@
+poison.exe,0x3B0F2,0x3BCF2,ASCII,wvpkN
+poison.exe,0x3B11C,0x3BD1C,ASCII,WAVEfmt 
+poison.exe,0x3B142,0x3BD42,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x3B378,0x3BF78,ASCII,^Ou+{?@w
+poison.exe,0x3B412,0x3C012,ASCII,zQj4L2
+poison.exe,0x3B5D3,0x3C1D3,ASCII,hZ= |
+poison.exe,0x3B648,0x3C248,ASCII,wvpkv
+poison.exe,0x3B66A,0x3C26A,ASCII,RIFFn
+poison.exe,0x3B672,0x3C272,ASCII,WAVEfmt 
+poison.exe,0x3B68E,0x3C28E,ASCII,dataJ
+poison.exe,0x3B698,0x3C298,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x3B73B,0x3C33B,ASCII,S @*n
+poison.exe,0x3B9D5,0x3C5D5,ASCII,%]`%<
+poison.exe,0x3BA8D,0x3C68D,ASCII,MEySn.
+poison.exe,0x3BC11,0x3C811,ASCII,Vw[`8
+poison.exe,0x3BDED,0x3C9ED,ASCII,YsLbU
+poison.exe,0x3BEA4,0x3CAA4,ASCII,"Pt""O%"
+poison.exe,0x3BFF3,0x3CBF3,ASCII,".M,>G"""
+poison.exe,0x3C051,0x3CC51,ASCII,ATus;
+poison.exe,0x3C248,0x3CE48,ASCII,"?qm""G?b"
+poison.exe,0x3C383,0x3CF83,ASCII,M{19k
+poison.exe,0x3C3B3,0x3CFB3,ASCII,8Y@L\
+poison.exe,0x3C6F8,0x3D2F8,ASCII,OE+8{
+poison.exe,0x3C775,0x3D375,ASCII,8kyuM
+poison.exe,0x3C820,0x3D420,ASCII,_i*tH
+poison.exe,0x3C9CF,0x3D5CF,ASCII,@}Fse
+poison.exe,0x3CB2C,0x3D72C,ASCII,"$,= N!"
+poison.exe,0x3CBB6,0x3D7B6,ASCII,wZFI{y
+poison.exe,0x3CBFB,0x3D7FB,ASCII,Vxlij
+poison.exe,0x3CC13,0x3D813,ASCII,",bW.<"
+poison.exe,0x3CC37,0x3D837,ASCII,O&G`u
+poison.exe,0x3CCE8,0x3D8E8,ASCII,RIFF 5
+poison.exe,0x3CCF0,0x3D8F0,ASCII,WAVEfmt 
+poison.exe,0x3CD16,0x3D916,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x3CFF9,0x3DBF9,ASCII,"=zv)y"""
+poison.exe,0x3D131,0x3DD31,ASCII,cerX3
+poison.exe,0x3D215,0x3DE15,ASCII,P1f[E
+poison.exe,0x3D4C6,0x3E0C6,ASCII,"rX,Rw"
+poison.exe,0x3D535,0x3E135,ASCII,o/2orb
+poison.exe,0x3D58A,0x3E18A,ASCII,d{W:[
+poison.exe,0x3D79E,0x3E39E,ASCII,A}Gm]
+poison.exe,0x3D926,0x3E526,ASCII,#fgw~
+poison.exe,0x3D97F,0x3E57F,ASCII,79d}tN
+poison.exe,0x3D9C2,0x3E5C2,ASCII,0SRGF
+poison.exe,0x3DA56,0x3E656,ASCII,*=vC=\
+poison.exe,0x3DAAC,0x3E6AC,ASCII,.jpk^
+poison.exe,0x3DB47,0x3E747,ASCII,9'M|>
+poison.exe,0x3DB66,0x3E766,ASCII,w(l^#
+poison.exe,0x3DBDF,0x3E7DF,ASCII,b-(CIy
+poison.exe,0x3DBF5,0x3E7F5,ASCII,7tS@_
+poison.exe,0x3DCB9,0x3E8B9,ASCII,:cK;T6>Cu
+poison.exe,0x3DCEB,0x3E8EB,ASCII,>~BfN
+poison.exe,0x3DE44,0x3EA44,ASCII,KA7$*
+poison.exe,0x3DF8E,0x3EB8E,ASCII,QG??6
+poison.exe,0x3E21B,0x3EE1B,ASCII,z?H>S&
+poison.exe,0x3E23B,0x3EE3B,ASCII,P%16'{X
+poison.exe,0x3E2C0,0x3EEC0,ASCII,u1dr3
+poison.exe,0x3E362,0x3EF62,ASCII,"3pV,>]"
+poison.exe,0x3E49A,0x3F09A,ASCII,"U,+F!"
+poison.exe,0x3E6EC,0x3F2EC,ASCII,t0~wu
+poison.exe,0x3E7E7,0x3F3E7,ASCII,kb;WC}}
+poison.exe,0x3E821,0x3F421,ASCII,zMW>&\
+poison.exe,0x3E8F7,0x3F4F7,ASCII,"""~j/SQ"
+poison.exe,0x3EA4B,0x3F64B,ASCII,i-c=1
+poison.exe,0x3EB43,0x3F743,ASCII,|ce}U
+poison.exe,0x3EB50,0x3F750,ASCII,"\dc#G,"
+poison.exe,0x3EB67,0x3F767,ASCII,WTf:=
+poison.exe,0x3EBEB,0x3F7EB,ASCII,wd@j~
+poison.exe,0x3ECD2,0x3F8D2,ASCII,IUSQJ
+poison.exe,0x3F1C4,0x3FDC4,ASCII,~HN6LP]
+poison.exe,0x3F230,0x3FE30,ASCII,H-/>H9
+poison.exe,0x3F314,0x3FF14,ASCII,Y?+25
+poison.exe,0x3F4C5,0x400C5,ASCII,M52y+
+poison.exe,0x3F770,0x40370,ASCII,Ws7']
+poison.exe,0x3F7C0,0x403C0,ASCII,MWt^t
+poison.exe,0x3F7D1,0x403D1,ASCII,zGe7=*
+poison.exe,0x3F89E,0x4049E,ASCII,RIFFH
+poison.exe,0x3F8A6,0x404A6,ASCII,WAVEfmt 
+poison.exe,0x3F8C2,0x404C2,ASCII,data$
+poison.exe,0x3F8CC,0x404CC,ASCII,WWGHFWGILJHKMFWG
+poison.exe,0x3F924,0x40524,ASCII,"}deQ""1q,p"
+poison.exe,0x3FAD7,0x406D7,ASCII,!TO;s
+poison.exe,0x3FC07,0x40807,ASCII,jH\~%d
+poison.exe,0x3FD23,0x40923,ASCII,}}5Sl
+poison.exe,0x3FDEC,0x409EC,ASCII,IkPrwI
+poison.exe,0x3FE1D,0x40A1D,ASCII,Tm|Bo
+poison.exe,0x3FEAF,0x40AAF,ASCII,or BY>
+poison.exe,0x40001,0x40C01,ASCII,''5~HX
+poison.exe,0x400C2,0x40CC2,ASCII,LK/bm
+poison.exe,0x4022C,0x40E2C,ASCII,N`Wzy0
+poison.exe,0x40238,0x40E38,ASCII,:I`3(
+poison.exe,0x403D4,0x40FD4,ASCII,z@/F:
+poison.exe,0x4052B,0x4112B,ASCII,B8:4<
+poison.exe,0x40591,0x41191,ASCII,@]u8p?
+poison.exe,0x405A1,0x411A1,ASCII,G|cH.
+poison.exe,0x405E6,0x411E6,ASCII,#;`jh
+poison.exe,0x40809,0x41409,ASCII,ZCzsf]@
+poison.exe,0x40814,0x41414,ASCII,s*Ov5P
+poison.exe,0x40861,0x41461,ASCII,-|?Jf./?^
+poison.exe,0x409BC,0x415BC,ASCII,~ NI:
+poison.exe,0x40A07,0x41607,ASCII,~uM{TzSr
+poison.exe,0x40A3D,0x4163D,ASCII,M=(<P[
+poison.exe,0x40B16,0x41716,ASCII,MhcJ~
+poison.exe,0x40B53,0x41753,ASCII,"*s,C["
+poison.exe,0x40B5A,0x4175A,ASCII,4Lc~H}$
+poison.exe,0x40CD1,0x418D1,ASCII,% s8y
+poison.exe,0x40E1C,0x41A1C,ASCII,V@6(:
+poison.exe,0x40E22,0x41A22,ASCII,=9$eM
+poison.exe,0x40E4E,0x41A4E,ASCII,aMwgY
+poison.exe,0x410D5,0x41CD5,ASCII,s\B|@
+poison.exe,0x412D4,0x41ED4,ASCII,JU4!ai|
+poison.exe,0x41446,0x42046,ASCII,Xo~zw
+poison.exe,0x417C1,0x423C1,ASCII,?y`H1
+poison.exe,0x417CF,0x423CF,ASCII,t*lG~;z
+poison.exe,0x41944,0x42544,ASCII,pT=?(
+poison.exe,0x419A9,0x425A9,ASCII,5$/>r
+poison.exe,0x41A97,0x42697,ASCII,aiN*;
+poison.exe,0x41C18,0x42818,ASCII,>E3eM
+poison.exe,0x41C4A,0x4284A,ASCII,Fg5fi
+poison.exe,0x41C89,0x42889,ASCII,qhu#^zf
+poison.exe,0x41DB2,0x429B2,ASCII,"y,2#b"
+poison.exe,0x41DC5,0x429C5,ASCII,Fyqe.
+poison.exe,0x41E7F,0x42A7F,ASCII,aL?.'!
+poison.exe,0x41EAE,0x42AAE,ASCII,Q4B1Z
+poison.exe,0x41F2E,0x42B2E,ASCII,<2wtJ
+poison.exe,0x42ADD,0x436DD,ASCII,f;Vf}
+poison.exe,0x42F3B,0x43B3B,ASCII,|[^_]
+poison.exe,0x43123,0x43D23,ASCII,f90t>B9
+poison.exe,0x43392,0x43F92,ASCII,s\Z[^_]
+poison.exe,0x433BC,0x43FBC,ASCII,s\Z[^_]
+poison.exe,0x4370E,0x4430E,ASCII,L[^_]
+poison.exe,0x43716,0x44316,ASCII,L[^_]
+poison.exe,0x439D2,0x445D2,ASCII,A(^[^_]
+poison.exe,0x440BC,0x44CBC,ASCII,_[^_]
+poison.exe,0x44107,0x44D07,ASCII,A @t$
+poison.exe,0x445B7,0x451B7,ASCII,_[^_]
+poison.exe,0x44790,0x45390,ASCII,X[^_]
+poison.exe,0x45757,0x46357,ASCII,\[^_]
+poison.exe,0x48484,0x49084,ASCII,L[^_]
+poison.exe,0x485D4,0x491D4,ASCII,\[^_]
+poison.exe,0x487E7,0x493E7,ASCII,L[^_]
+poison.exe,0x48A7E,0x4967E,ASCII,L[^_]
+poison.exe,0x48B03,0x49703,ASCII,L[^_]
+poison.exe,0x48D6D,0x4996D,ASCII,<[^_]
+poison.exe,0x48F76,0x49B76,ASCII,<[^_]
+poison.exe,0x49734,0x4A334,ASCII,\[^_]
+poison.exe,0x49954,0x4A554,ASCII,\[^_]
+poison.exe,0x4997B,0x4A57B,ASCII,emorf
+poison.exe,0x4A0CF,0x4ACCF,ASCII,Z[^_]
+poison.exe,0x4E490,0x4F090,ASCII,<[^_]
+poison.exe,0x4EBAE,0x4F7AE,ASCII,",[^_]"
+poison.exe,0x4F18E,0x4FD8E,ASCII,Z[^_]
+poison.exe,0x4F1E3,0x4FDE3,ASCII,Z[^_]
+poison.exe,0x4F55A,0x5015A,ASCII,",[^_]"
+poison.exe,0x50EC9,0x522C9,ASCII,g34@ ;4@
+poison.exe,0x50EE6,0x522E6,ASCII,i4@Mq4
+poison.exe,0x51043,0x52443,ASCII,7@5%7
+poison.exe,0x510CA,0x524CA,ASCII,48@1=8@
+poison.exe,0x510E2,0x524E2,ASCII,f8@-o8
+poison.exe,0x5113E,0x5253E,ASCII,'9@e09@
+poison.exe,0x5114E,0x5254E,ASCII,I9@BR9@
+poison.exe,0x51156,0x52556,ASCII,Z9@9c9
+poison.exe,0x5115E,0x5255E,ASCII,k9@3t9
+poison.exe,0x512AE,0x526AE,ASCII,F<@sO<
+poison.exe,0x512BD,0x526BD,ASCII,9j<@)s<
+poison.exe,0x5132D,0x5272D,ASCII,ff=@|o=
+poison.exe,0x513A2,0x527A2,ASCII,o>@&y>
+poison.exe,0x513F6,0x527F6,ASCII,2?@T<?
+poison.exe,0x520B2,0x534B2,ASCII,};aks;
+poison.exe,0x520BA,0x534BA,ASCII,j;jca;
+poison.exe,0x520CA,0x534CA,ASCII,J;WND;
+poison.exe,0x52215,0x53615,ASCII,cx<`ks<
+poison.exe,0x52226,0x53626,ASCII,e<lca<XJ]<
+poison.exe,0x52246,0x53646,ASCII,G<VND<
+poison.exe,0x522B2,0x536B2,ASCII,}>`ks>
+poison.exe,0x522BA,0x536BA,ASCII,j>lca>
+poison.exe,0x522CA,0x536CA,ASCII,J>UND>
+poison.exe,0x52415,0x53815,ASCII,cx?`ks?
+poison.exe,0x52426,0x53826,ASCII,e?lca?WJ]?
+poison.exe,0x52446,0x53846,ASCII,G?UND?
+poison.exe,0x53369,0x54769,ASCII,??????
+poison.exe,0x533D5,0x547D5,ASCII,??????
+poison.exe,0x53441,0x54841,ASCII,??????
+poison.exe,0x534AD,0x548AD,ASCII,??????
+poison.exe,0x53519,0x54919,ASCII,??????
+poison.exe,0x53585,0x54985,ASCII,??????
+poison.exe,0x535F1,0x549F1,ASCII,??????
+poison.exe,0x5365D,0x54A5D,ASCII,??????
+poison.exe,0x53800,0x55000,ASCII,Unable to open dir %s (%s)
+poison.exe,0x5381B,0x5501B,ASCII,Unable to stat %s (%s)
+poison.exe,0x53832,0x55032,ASCII,Operation cancelled
+poison.exe,0x53846,0x55046,ASCII,%s/%s
+poison.exe,0x5384C,0x5504C,ASCII,Invalid path
+poison.exe,0x53860,0x55060,ASCII,Unable to set date/time for %s (%s)
+poison.exe,0x53884,0x55084,ASCII,Unable to open %s for write (%s)
+poison.exe,0x538A8,0x550A8,ASCII,Unable to open %s for read (%s)
+poison.exe,0x538C8,0x550C8,ASCII,Unable to read %s (%s)
+poison.exe,0x538DF,0x550DF,ASCII,Unable to write %s (%s)
+poison.exe,0x538F7,0x550F7,ASCII,Invalid destination path
+poison.exe,0x53910,0x55110,ASCII,No files to copy
+poison.exe,0x53921,0x55121,ASCII,Invalid pfile
+poison.exe,0x53BE1,0x553E1,ASCII,Quitting destroyapp...
+poison.exe,0x53BF8,0x553F8,ASCII,delete event occurred
+poison.exe,0x53C0F,0x5540F,ASCII,exit clicked
+poison.exe,0x53C1D,0x5541D,ASCII,next clicked
+poison.exe,0x53C2B,0x5542B,ASCII,prev clicked
+poison.exe,0x53C39,0x55439,ASCII,cancel clicked
+poison.exe,0x53C49,0x55449,ASCII,load clicked
+poison.exe,0x53C57,0x55457,ASCII,pg-btn-load
+poison.exe,0x53C63,0x55463,ASCII,pg-btn-exit
+poison.exe,0x53C6F,0x5546F,ASCII,pg-btn-next
+poison.exe,0x53C7B,0x5547B,ASCII,pg-btn-prev
+poison.exe,0x53C87,0x55487,ASCII,pg-btn-cancel
+poison.exe,0x53C95,0x55495,ASCII,pg-btn-save
+poison.exe,0x53CBC,0x554BC,ASCII,POISoN
+poison.exe,0x53CC3,0x554C3,ASCII,%s - %s
+poison.exe,0x53CCE,0x554CE,ASCII,clicked
+poison.exe,0x53CD6,0x554D6,ASCII,gtk-quit
+poison.exe,0x53CDF,0x554DF,ASCII,gtk-go-forward
+poison.exe,0x53CEE,0x554EE,ASCII,gtk-open
+poison.exe,0x53CF7,0x554F7,ASCII,gtk-cancel
+poison.exe,0x53D02,0x55502,ASCII,gtk-go-back
+poison.exe,0x53D0E,0x5550E,ASCII,delete_event
+poison.exe,0x53D1B,0x5551B,ASCII,destroy
+poison.exe,0x53D23,0x55523,ASCII,pg_page_onselect
+poison.exe,0x53D34,0x55534,ASCII,pg_page_onselect_userdata
+poison.exe,0x53D4E,0x5554E,ASCII,scroll
+poison.exe,0x53D55,0x55555,ASCII,foreground
+poison.exe,0x53D64,0x55564,ASCII,red_foreground
+poison.exe,0x53D73,0x55573,ASCII,right_justify
+poison.exe,0x53D81,0x55581,ASCII,weight
+poison.exe,0x53D92,0x55592,ASCII,left-margin
+poison.exe,0x53D9E,0x5559E,ASCII,monospace
+poison.exe,0x53DA8,0x555A8,ASCII,family
+poison.exe,0x59263,0x5AA63,ASCII,logo clicked
+poison.exe,0x59270,0x5AA70,ASCII,button_press_event
+poison.exe,0x59284,0x5AA84,ASCII,"<span font_desc=""30.0"" weight=""bold"">POISoN</span>"
+poison.exe,0x592B8,0x5AAB8,ASCII,"<span weight=""bold"">POI with Sound Notification</span>"
+poison.exe,0x592F1,0x5AAF1,ASCII,Version 1.0
+poison.exe,0x59300,0x5AB00,ASCII,edit_database_changed started
+poison.exe,0x5931E,0x5AB1E,ASCII,creating new model
+poison.exe,0x59331,0x5AB31,ASCII,new model created
+poison.exe,0x59344,0x5AB44,ASCII,%d points
+poison.exe,0x59353,0x5AB53,ASCII,weight-set
+poison.exe,0x5935E,0x5AB5E,ASCII,weight
+poison.exe,0x5936E,0x5AB6E,ASCII,4C(knN
+poison.exe,0x5937B,0x5AB7B,ASCII,"C%d points, %d selected"
+poison.exe,0x59393,0x5AB93,ASCII,%d rows selected
+poison.exe,0x593AA,0x5ABAA,ASCII,4C(knN
+poison.exe,0x593B7,0x5ABB7,ASCII,COK clicked
+poison.exe,0x593C3,0x5ABC3,ASCII,add button clicked()
+poison.exe,0x593D8,0x5ABD8,ASCII,added OK
+poison.exe,0x593E1,0x5ABE1,ASCII,remove button clicked()
+poison.exe,0x593F9,0x5ABF9,ASCII,gtk-open
+poison.exe,0x59402,0x5AC02,ASCII,gtk-cancel
+poison.exe,0x5940D,0x5AC0D,ASCII,Select file to import
+poison.exe,0x59423,0x5AC23,ASCII,%d points readed
+poison.exe,0x59435,0x5AC35,ASCII,"%d points imported, %d added"
+poison.exe,0x59455,0x5AC55,ASCII,%s%c%s
+poison.exe,0x59476,0x5AC76,ASCII,4Ccursor-position
+poison.exe,0x59488,0x5AC88,ASCII,key pressed: %x
+poison.exe,0x594C0,0x5ACC0,ASCII,insert-text
+poison.exe,0x594CC,0x5ACCC,ASCII,gtk-button-images
+poison.exe,0x594DE,0x5ACDE,ASCII,Longitude
+poison.exe,0x594E8,0x5ACE8,ASCII,sizing
+poison.exe,0x594EF,0x5ACEF,ASCII,expand
+poison.exe,0x594F6,0x5ACF6,ASCII,Latitude
+poison.exe,0x594FF,0x5ACFF,ASCII,changed
+poison.exe,0x5950B,0x5AD0B,ASCII,key-press-event
+poison.exe,0x5951B,0x5AD1B,ASCII,gtk-ok
+poison.exe,0x59522,0x5AD22,ASCII,clicked
+poison.exe,0x5952A,0x5AD2A,ASCII,gtk-add
+poison.exe,0x59532,0x5AD32,ASCII,gtk-remove
+poison.exe,0x5953D,0x5AD3D,ASCII,Import
+poison.exe,0x59552,0x5AD52,ASCII,"%f,%f"
+poison.exe,0x59558,0x5AD58,ASCII,Error opening '%s'
+poison.exe,0x59570,0x5AD70,ASCII,Database not loaded
+poison.exe,0x59584,0x5AD84,ASCII,gtk-open
+poison.exe,0x5958D,0x5AD8D,ASCII,gtk-cancel
+poison.exe,0x59598,0x5AD98,ASCII,Select map database folder
+poison.exe,0x595B3,0x5ADB3,ASCII,clicked
+poison.exe,0x595E6,0x5ADE6,ASCII,bytes
+poison.exe,0x595EC,0x5ADEC,ASCII,%ld %s%s
+poison.exe,0x595F5,0x5ADF5,ASCII,%ld.%ld %s%s
+poison.exe,0x59602,0x5AE02,ASCII,Collecting files 
+poison.exe,0x59614,0x5AE14,ASCII,%d / %s
+poison.exe,0x5961F,0x5AE1F,ASCII,?do save clicked
+poison.exe,0x59630,0x5AE30,ASCII,Copying files
+poison.exe,0x5963E,0x5AE3E,ASCII,%02d:%02d
+poison.exe,0x59648,0x5AE48,ASCII,%s of %s
+poison.exe,0x5965B,0x5AE5B,ASCII,_Scanning original folder %s
+poison.exe,0x59678,0x5AE78,ASCII,Collecting files done:
+poison.exe,0x5968F,0x5AE8F,ASCII,%d / %s
+poison.exe,0x59698,0x5AE98,ASCII,"Not enough free space on drive %s, free at least %s and try again."
+poison.exe,0x596DC,0x5AEDC,ASCII,Unable to calc free space on drive %s
+poison.exe,0x59702,0x5AF02,ASCII,Copying files done:
+poison.exe,0x59716,0x5AF16,ASCII,%02d:%02d
+poison.exe,0x59720,0x5AF20,ASCII,Ready for changing.
+poison.exe,0x59734,0x5AF34,ASCII,confirm clicked
+poison.exe,0x59744,0x5AF44,ASCII,gtk-open
+poison.exe,0x5974D,0x5AF4D,ASCII,gtk-cancel
+poison.exe,0x59758,0x5AF58,ASCII,Select output folder
+poison.exe,0x5976D,0x5AF6D,ASCII,Output folder not set.
+poison.exe,0x59784,0x5AF84,ASCII,Original database in %s will be overwritten
+poison.exe,0x597B0,0x5AFB0,ASCII,%s is not a directory
+poison.exe,0x597C6,0x5AFC6,ASCII,scan for files
+poison.exe,0x597D5,0x5AFD5,ASCII,Output folder not empty
+poison.exe,0x597F0,0x5AFF0,ASCII,clicked
+poison.exe,0x597F9,0x5AFF9,ASCII,Confirm overwrite
+poison.exe,0x5980B,0x5B00B,ASCII,Copy original files
+poison.exe,0x5981F,0x5B01F,ASCII,Save changes
+poison.exe,0x59830,0x5B030,ASCII,Invalid block selected
+poison.exe,0x59847,0x5B047,ASCII,Reading internal POI
+poison.exe,0x5985C,0x5B05C,ASCII,POI layer bounds: %.5f %.5f %.5f %.5f
+poison.exe,0x59884,0x5B084,ASCII,Unexpected end of primary lookup table
+poison.exe,0x598AC,0x5B0AC,ASCII,Unexpected links in primary lookup block %08x
+poison.exe,0x598DA,0x5B0DA,ASCII,Wrong database file size
+poison.exe,0x598F3,0x5B0F3,ASCII,Empty dataset block ID
+poison.exe,0x5990C,0x5B10C,ASCII,"POI layer not found, empty lookup block ID"
+poison.exe,0x59938,0x5B138,ASCII,Invalid blocktype in dataset block
+poison.exe,0x5995C,0x5B15C,ASCII,Nonstandard sector size 0x%04x not supported
+poison.exe,0x5998C,0x5B18C,ASCII,Unable to load primary lookup block %08x
+poison.exe,0x599B8,0x5B1B8,ASCII,"Primary lookup scan complete, %d links collected"
+poison.exe,0x599EC,0x5B1EC,ASCII,"Secondary lookup scan complete, %d links collected"
+poison.exe,0x59A20,0x5B220,ASCII,"Layer width %x quads %x, width %x"
+poison.exe,0x59A42,0x5B242,ASCII,Reading points...
+poison.exe,0x59A54,0x5B254,ASCII,Total points:
+poison.exe,0x59A65,0x5B265,ASCII,Internal POI statistic:
+poison.exe,0x59A83,0x5B283,ASCII,Detecting save mode
+poison.exe,0x59A97,0x5B297,ASCII,Append
+poison.exe,0x59A9E,0x5B29E,ASCII,POI save mode:
+poison.exe,0x59AB0,0x5B2B0,ASCII,Unexpected block type %04x in block %08x
+poison.exe,0x59AD9,0x5B2D9,ASCII,Unknown 0x%02x
+poison.exe,0x59AEC,0x5B2EC,ASCII,Invalid block type (%04x) in primary lookup block %08x
+poison.exe,0x59B24,0x5B324,ASCII,Invalid ql_get() during parsing block %08x
+poison.exe,0x59B4F,0x5B34F,ASCII,Replace
+poison.exe,0x59B58,0x5B358,ASCII,Unable to detect last DB block ID
+poison.exe,0x59B7C,0x5B37C,ASCII,Unable to read dataset block %08x
+poison.exe,0x59B9E,0x5B39E,ASCII,Unable to read block %08x
+poison.exe,0x59BB8,0x5B3B8,ASCII,NGN databases are not supported
+poison.exe,0x59BD8,0x5B3D8,ASCII,C-IQ databases are not supported
+poison.exe,0x59BFC,0x5B3FC,ASCII,Packed databases are not supported
+poison.exe,0x59C20,0x5B420,ASCII,Invalid block type (%04x) in secondary lookup block %08x
+poison.exe,0x59C5C,0x5B45C,ASCII,Unable to load secondary lookup block %08x
+poison.exe,0x59C88,0x5B488,ASCII,"Map dataset block packed, can't continue"
+poison.exe,0x59CB6,0x5B4B6,ASCII,4C(knN
+poison.exe,0x59CBF,0x5B4BF,ASCII,Ainvalid ql_get() result during split by size
+poison.exe,0x59CED,0x5B4ED,ASCII,Trying to split NULL block !
+poison.exe,0x59D0C,0x5B50C,ASCII,"Unable to allocate block in DVD database, database too big"
+poison.exe,0x59D48,0x5B548,ASCII,"Unable to allocate block in CD database, database must be converted to DVD"
+poison.exe,0x59D93,0x5B593,ASCII,%s/db/db_%d
+poison.exe,0x59DA3,0x5B5A3,ASCII,Unable to write block %08x
+poison.exe,0x59DC0,0x5B5C0,ASCII,"Unable to save block %08x to CD database, ID too big"
+poison.exe,0x59DF8,0x5B5F8,ASCII,Unable to open output file %s - %s
+poison.exe,0x59E1B,0x5B61B,ASCII,%s/carindb
+poison.exe,0x59E26,0x5B626,ASCII,Splitting by size
+poison.exe,0x59E38,0x5B638,ASCII,Split by size done
+poison.exe,0x59E4B,0x5B64B,ASCII,Preparing lookup
+poison.exe,0x59E5C,0x5B65C,ASCII,primary width = %x
+poison.exe,0x59E6F,0x5B66F,ASCII,primary total nrec = %x
+poison.exe,0x59E87,0x5B687,ASCII,new primary id block = %08x
+poison.exe,0x59EA3,0x5B6A3,ASCII,%x primary blocks allocated
+poison.exe,0x59EBF,0x5B6BF,ASCII,Allocating IDs fo POI blocks
+poison.exe,0x59EDC,0x5B6DC,ASCII,Allocating IDs for POI blocks done for %x blocks
+poison.exe,0x59F0D,0x5B70D,ASCII,Saving POI blocks
+poison.exe,0x59F1F,0x5B71F,ASCII,Saving POI blocks done
+poison.exe,0x59F36,0x5B736,ASCII,Preparing lookup done
+poison.exe,0x59F4C,0x5B74C,ASCII,Database saved
+poison.exe,0x59F5B,0x5B75B,ASCII,Error opening file %s - %s
+poison.exe,0x59F78,0x5B778,ASCII,Invalid ql_get() result during secondary lookup build
+poison.exe,0x59FB0,0x5B7B0,ASCII,Unable to set editable category in dataset block
+poison.exe,0x5A02C,0x5B82C,ASCII,PointList
+poison.exe,0x5A036,0x5B836,ASCII,point_list_init
+poison.exe,0x5A046,0x5B846,ASCII,point_list_get_flags
+poison.exe,0x5A05B,0x5B85B,ASCII,POINT_IS_LIST(tree_model)
+poison.exe,0x5A075,0x5B875,ASCII,point_list_get_n_columns
+poison.exe,0x5A08E,0x5B88E,ASCII,point_list_get_column_type
+poison.exe,0x5A0AC,0x5B8AC,ASCII,index < POINT_LIST(tree_model)->n_columns && index >= 0
+poison.exe,0x5A0E4,0x5B8E4,ASCII,point_list_get_iter
+poison.exe,0x5A0F8,0x5B8F8,ASCII,depth == 1
+poison.exe,0x5A103,0x5B903,ASCII,src/point_list.c
+poison.exe,0x5A114,0x5B914,ASCII,path!=NULL
+poison.exe,0x5A11F,0x5B91F,ASCII,record->pos == n
+poison.exe,0x5A130,0x5B930,ASCII,record != NULL
+poison.exe,0x5A13F,0x5B93F,ASCII,point_list_get_path
+poison.exe,0x5A153,0x5B953,ASCII,iter->user_data != NULL
+poison.exe,0x5A16B,0x5B96B,ASCII,iter != NULL
+poison.exe,0x5A178,0x5B978,ASCII,point_list_get_value
+poison.exe,0x5A190,0x5B990,ASCII,column < POINT_LIST(tree_model)->n_columns
+poison.exe,0x5A1BB,0x5B9BB,ASCII,POINT_IS_LIST (tree_model)
+poison.exe,0x5A1D8,0x5B9D8,ASCII,file %s: line %d (%s): should not be reached
+poison.exe,0x5A205,0x5BA05,ASCII,point_list_iter_next
+poison.exe,0x5A21C,0x5BA1C,ASCII,nextrecord->pos == (record->pos + 1)
+poison.exe,0x5A241,0x5BA41,ASCII,nextrecord != NULL
+poison.exe,0x5A254,0x5BA54,ASCII,point_list_iter_children
+poison.exe,0x5A270,0x5BA70,ASCII,parent == NULL || parent->user_data != NULL
+poison.exe,0x5A29C,0x5BA9C,ASCII,point_list_iter_n_children
+poison.exe,0x5A2B8,0x5BAB8,ASCII,iter == NULL || iter->user_data != NULL
+poison.exe,0x5A2E0,0x5BAE0,ASCII,point_list_iter_nth_child
+poison.exe,0x5A310,0x5BB10,ASCII,point_list_sortable_get_sort_column_id
+poison.exe,0x5A337,0x5BB37,ASCII,POINT_IS_LIST(sortable)
+poison.exe,0x5A34F,0x5BB4F,ASCII,sortable != NULL
+poison.exe,0x5A370,0x5BB70,ASCII,point_list_sortable_set_sort_func
+poison.exe,0x5A394,0x5BB94,ASCII,%s is not supported by the PointList model.
+poison.exe,0x5A3D0,0x5BBD0,ASCII,point_list_sortable_set_default_sort_func
+poison.exe,0x5A3FA,0x5BBFA,ASCII,point_list_qsort_compare_func
+poison.exe,0x5A418,0x5BC18,ASCII,point_list_compare_records
+poison.exe,0x5A433,0x5BC33,ASCII,(a) && (b) && (point_list)
+poison.exe,0x5A450,0x5BC50,ASCII,point_list_sortable_set_sort_column_id
+poison.exe,0x5A477,0x5BC77,ASCII,point_list_resort
+poison.exe,0x5A489,0x5BC89,ASCII,point_list != NULL
+poison.exe,0x5A49C,0x5BC9C,ASCII,POINT_IS_LIST(point_list)
+poison.exe,0x5A4B6,0x5BCB6,ASCII,point_list_new
+poison.exe,0x5A4C5,0x5BCC5,ASCII,newpointlist != NULL
+poison.exe,0x5A4DA,0x5BCDA,ASCII,point_list_get_points
+poison.exe,0x5A4F0,0x5BCF0,ASCII,point_list_append_record
+poison.exe,0x5A509,0x5BD09,ASCII,point_list_remove_record
+poison.exe,0x5A522,0x5BD22,ASCII,point_list_remove_records
+poison.exe,0x5A53C,0x5BD3C,ASCII,removing records
+poison.exe,0x5A54D,0x5BD4D,ASCII,removing records done
+poison.exe,0x5A570,0x5BD70,ASCII,Editable points:
+poison.exe,0x5A584,0x5BD84,ASCII,Invalid output path
+poison.exe,0x5A598,0x5BD98,ASCII,Attaching %d points
+poison.exe,0x5A5AF,0x5BDAF,ASCII,A(knN
+poison.exe,0x5A5CF,0x5BDCF,ASCII,A(knN
+poison.exe,0x5A5DF,0x5BDDF,ASCII,B(knN
+poison.exe,0x5A5FB,0x5BDFB,ASCII,A(knN
+poison.exe,0x5A610,0x5BE10,ASCII,Unable to realloc %d bytes
+poison.exe,0x5A630,0x5BE30,ASCII,"Unable to add data, crdrect out of bounds"
+poison.exe,0x5A65C,0x5BE5C,ASCII,"Unable to get data, crdrect out of bounds"
+poison.exe,0x5A688,0x5BE88,ASCII,"Unable to find width, crdrect out of bounds"
+poison.exe,0x5A6B8,0x5BEB8,ASCII,"MAX_WIDTH = %x, side blocks = %x"
+poison.exe,0x5A6DA,0x5BEDA,ASCII,%x IDs blocks created
+poison.exe,0x5A6F1,0x5BEF1,ASCII,something wrong
+poison.exe,0x5A710,0x5BF10,ASCII,"SMEM oversize, %x bytes requires"
+poison.exe,0x5A740,0x5BF40,ASCII,Opening map database from %s
+poison.exe,0x5A760,0x5BF60,ASCII,bmw dealer/service
+poison.exe,0x5A773,0x5BF73,ASCII,petrol station
+poison.exe,0x5A782,0x5BF82,ASCII,car rental
+poison.exe,0x5A78D,0x5BF8D,ASCII,car park
+poison.exe,0x5A796,0x5BF96,ASCII,car park + public transport
+poison.exe,0x5A7B2,0x5BFB2,ASCII,rest area
+poison.exe,0x5A7BC,0x5BFBC,ASCII,automobile clubs
+poison.exe,0x5A7CD,0x5BFCD,ASCII,tourist attraction
+poison.exe,0x5A7E0,0x5BFE0,ASCII,hotel
+poison.exe,0x5A7E6,0x5BFE6,ASCII,restaurant
+poison.exe,0x5A7F6,0x5BFF6,ASCII,community centre
+poison.exe,0x5A807,0x5C007,ASCII,library
+poison.exe,0x5A80F,0x5C00F,ASCII,law courts
+poison.exe,0x5A81A,0x5C01A,ASCII,fire station
+poison.exe,0x5A827,0x5C027,ASCII,military base
+poison.exe,0x5A835,0x5C035,ASCII,consulate/embassy
+poison.exe,0x5A847,0x5C047,ASCII,cash dispenser
+poison.exe,0x5A856,0x5C056,ASCII,tourist information
+poison.exe,0x5A86A,0x5C06A,ASCII,museum
+poison.exe,0x5A871,0x5C071,ASCII,theatre / civic centre
+poison.exe,0x5A888,0x5C088,ASCII,civic centre
+poison.exe,0x5A895,0x5C095,ASCII,sports centre
+poison.exe,0x5A8A3,0x5C0A3,ASCII,church
+poison.exe,0x5A8AA,0x5C0AA,ASCII,monument
+poison.exe,0x5A8B3,0x5C0B3,ASCII,amusement park
+poison.exe,0x5A8C2,0x5C0C2,ASCII,park / recreation / fitness
+poison.exe,0x5A8DE,0x5C0DE,ASCII,exhibition/convention centre
+poison.exe,0x5A8FB,0x5C0FB,ASCII,hospital
+poison.exe,0x5A904,0x5C104,ASCII,police
+poison.exe,0x5A90B,0x5C10B,ASCII,town hall
+poison.exe,0x5A915,0x5C115,ASCII,post office
+poison.exe,0x5A921,0x5C121,ASCII,medical assistance
+poison.exe,0x5A934,0x5C134,ASCII,chemist
+poison.exe,0x5A93C,0x5C13C,ASCII,shopping centre
+poison.exe,0x5A94C,0x5C14C,ASCII,city centre
+poison.exe,0x5A958,0x5C158,ASCII,golf course
+poison.exe,0x5A964,0x5C164,ASCII,railway station
+poison.exe,0x5A974,0x5C174,ASCII,airport
+poison.exe,0x5A97C,0x5C17C,ASCII,ferry
+poison.exe,0x5A982,0x5C182,ASCII,bus station
+poison.exe,0x5A98E,0x5C18E,ASCII,marina
+poison.exe,0x5A995,0x5C195,ASCII,college/university
+poison.exe,0x5A9A8,0x5C1A8,ASCII,entertainment
+poison.exe,0x5A9B6,0x5C1B6,ASCII,border crossing
+poison.exe,0x5A9C6,0x5C1C6,ASCII,motorcycles
+poison.exe,0x5A9D2,0x5C1D2,ASCII,car dealers
+poison.exe,0x5A9DE,0x5C1DE,ASCII,trading estate
+poison.exe,0x5A9F6,0x5C1F6,ASCII,DB info:
+poison.exe,0x5A9FF,0x5C1FF,ASCII,CD-ID:
+poison.exe,0x5AA09,0x5C209,ASCII,Standard
+poison.exe,0x5AA12,0x5C212,ASCII,DB type:
+poison.exe,0x5AA1E,0x5C21E,ASCII,DB release:
+poison.exe,0x5AA2A,0x5C22A,ASCII,0x%02x
+poison.exe,0x5AA31,0x5C231,ASCII,Min block size:
+poison.exe,0x5AA41,0x5C241,ASCII,0x%02x
+poison.exe,0x5AA48,0x5C248,ASCII,Max block size:
+poison.exe,0x5AA58,0x5C258,ASCII,0x%02x
+poison.exe,0x5AA5F,0x5C25F,ASCII,Sector size:
+poison.exe,0x5AA6C,0x5C26C,ASCII,0x%03x
+poison.exe,0x5AA73,0x5C273,ASCII,Data supplier:
+poison.exe,0x5AA85,0x5C285,ASCII,%s %02X
+poison.exe,0x5AA8D,0x5C28D,ASCII,Map features:
+poison.exe,0x5AA9B,0x5C29B,ASCII,Toll roads:
+poison.exe,0x5AAAA,0x5C2AA,ASCII,Car dealers:
+poison.exe,0x5AAC2,0x5C2C2,ASCII,ZIP codes:
+poison.exe,0x5AAD8,0x5C2D8,ASCII,State as country:
+poison.exe,0x5AAED,0x5C2ED,ASCII,Toll booths:
+poison.exe,0x5AAFD,0x5C2FD,ASCII,Tunnels:
+poison.exe,0x5AB09,0x5C309,ASCII,Improved FOW:
+poison.exe,0x5AB1A,0x5C31A,ASCII,DB comments:
+poison.exe,0x5AB38,0x5C338,ASCII,UNKNOWN
+poison.exe,0x5AB40,0x5C340,ASCII,C-IQ media code:
+poison.exe,0x5AB57,0x5C357,ASCII,Description:
+poison.exe,0x5AB67,0x5C367,ASCII,Label:
+poison.exe,0x5AB71,0x5C371,ASCII,No expected additional info
+poison.exe,0x5ABAD,0x5C3AD,ASCII,Invalid DB handler
+poison.exe,0x5ABC0,0x5C3C0,ASCII,Invalid type (%x) for block_0
+poison.exe,0x5ABDE,0x5C3DE,ASCII,Unable to read block_0
+poison.exe,0x5ABF8,0x5C3F8,ASCII,"Unable to load dataset block, empty reference."
+poison.exe,0x5AC27,0x5C427,ASCII,Database release too old (%x)
+poison.exe,0x5AC48,0x5C448,ASCII,Invalid block type %04x for dataset block %08x
+poison.exe,0x5AC78,0x5C478,ASCII,Unable to register POI type %04x (too big)
+poison.exe,0x5ACA4,0x5C4A4,ASCII,Invalid C-IQ media code block ID: %08x
+poison.exe,0x5ACCC,0x5C4CC,ASCII,Unable to register POI type %04x (already registered)
+poison.exe,0x5AD04,0x5C504,ASCII,Invalid C-IQ media code block type: %04x
+poison.exe,0x5AD30,0x5C530,ASCII,Error reading dataset block %08x
+poison.exe,0x5AD51,0x5C551,ASCII,Unknown %04x
+poison.exe,0x5AD60,0x5C560,ASCII,"Add info size too big: %x, only %x bytes used"
+poison.exe,0x5AD90,0x5C590,ASCII,Error reading C-IQ media code block !!!
+poison.exe,0x5ADBF,0x5C5BF,ASCII,%s %s %d/%d
+poison.exe,0x5ADD0,0x5C5D0,ASCII,Unknown pack method (%02x) in block %08x
+poison.exe,0x5ADFC,0x5C5FC,ASCII,Unknown block type %04x for native unpack in block %08x
+poison.exe,0x5AE35,0x5C635,ASCII,Error unpacking block %08x
+poison.exe,0x5AE54,0x5C654,ASCII,ZLIB decompress error for block %08x
+poison.exe,0x5AE7C,0x5C67C,ASCII,ZLIB decompress error (%d) for block %08x
+poison.exe,0x5AEA7,0x5C6A7,ASCII,invalid input params
+poison.exe,0x5AF00,0x5C700,ASCII,Hole found after block %08x
+poison.exe,0x5AF1D,0x5C71D,ASCII,Error reading buf %08x
+poison.exe,0x5AF35,0x5C735,ASCII,Invalid record type 0x%x
+poison.exe,0x5B1AC,0x5C9AC,ASCII,Unexpected FFFD instead of section code
+poison.exe,0x5B1D8,0x5C9D8,ASCII,Unexpected FFFE instead of section code
+poison.exe,0x5B204,0x5CA04,ASCII,WARNING: Ignoring rule for entry %02x in block %04x (table too small)
+poison.exe,0x5B24C,0x5CA4C,ASCII,Unexpected end of rule instead of block type
+poison.exe,0x5B27C,0x5CA7C,ASCII,Unexpected end of block instead of block type
+poison.exe,0x5B2AC,0x5CAAC,ASCII,Unexpected start of rule instead of block type
+poison.exe,0x5B2DC,0x5CADC,ASCII,Unexpected end of pack table while reading section code
+poison.exe,0x5B315,0x5CB15,ASCII,NGN unpack table raw data: 
+poison.exe,0x5B332,0x5CB32,ASCII,%04X: 
+poison.exe,0x5B339,0x5CB39,ASCII,%s %02X
+poison.exe,0x5B345,0x5CB45,ASCII,Block %04X
+poison.exe,0x5B351,0x5CB51,ASCII,  Section %02X
+poison.exe,0x5B361,0x5CB61,ASCII,    %04X -> %02X (deleted)
+poison.exe,0x5B380,0x5CB80,ASCII,    %04X -> %02X/%02X (deleted)
+poison.exe,0x5B3A1,0x5CBA1,ASCII,    %04X -> %02X/%02X
+poison.exe,0x5B3B8,0x5CBB8,ASCII,    %04X -> %02X
+poison.exe,0x5B3CC,0x5CBCC,ASCII,Blocks 0014 0015 0016 001C 001D 001E
+poison.exe,0x5B3F2,0x5CBF2,ASCII,Blocks 0001 0002 0003
+poison.exe,0x5B409,0x5CC09,ASCII,No NGN unpack table
+poison.exe,0x5B420,0x5CC20,ASCII,No lookup entry for blocktype %04x
+poison.exe,0x5B444,0x5CC44,ASCII,"Blocktype %04x not registered, no lookup entry"
+poison.exe,0x5B474,0x5CC74,ASCII,LOOKUP IS NOT A SQUARE !!!
+poison.exe,0x5B490,0x5CC90,ASCII,Secondary lookup size: %d bytes
+poison.exe,0x5B4B4,0x5CCB4,ASCII,allocating %d bytes for primary lookup for blocktype %04x
+poison.exe,0x5B4F0,0x5CCF0,ASCII,No lookup block id for blocktype %04x
+poison.exe,0x5B518,0x5CD18,ASCII,Unable to load secondary lookup: %08x
+poison.exe,0x5B53F,0x5CD3F,ASCII,Unable to load block %08x
+poison.exe,0x5B5E0,0x5CDE0,ASCII,bibliography
+poison.exe,0x5B5ED,0x5CDED,ASCII,bibliogr
+poison.exe,0x5B5F6,0x5CDF6,ASCII,carindb
+poison.exe,0x5B5FE,0x5CDFE,ASCII,db/db_%d
+poison.exe,0x5B607,0x5CE07,ASCII,DB-REL
+poison.exe,0x5B60E,0x5CE0E,ASCII,CD-ID
+poison.exe,0x5B614,0x5CE14,ASCII,CD-ID %d
+poison.exe,0x5B61D,0x5CE1D,ASCII,Unable to read CD-ID
+poison.exe,0x5B633,0x5CE33,ASCII,DB-CA-REL
+poison.exe,0x5B640,0x5CE40,ASCII,Unable to read bibliography file
+poison.exe,0x5B664,0x5CE64,ASCII,"Unable to read block_0, database corrupted"
+poison.exe,0x5B690,0x5CE90,ASCII,"Invalid block type for block_0, database corrupted"
+poison.exe,0x5B6C4,0x5CEC4,ASCII,Unable to open database files
+poison.exe,0x5B6E3,0x5CEE3,ASCII,DB-NGN-REL
+poison.exe,0x5B6F0,0x5CEF0,ASCII,Unable to recognize database format
+poison.exe,0x5B718,0x5CF18,ASCII,Unable to detect database type
+poison.exe,0x5B740,0x5CF40,ASCII,DB-NGN-REL
+poison.exe,0x5B750,0x5CF50,ASCII,Clipped database support not implemented yet
+poison.exe,0x5B780,0x5CF80,ASCII,Error reading packed database header
+poison.exe,0x5B7A8,0x5CFA8,ASCII,Multifile packed database support not implemented yet
+poison.exe,0x5B7F0,0x5CFF0,ASCII,Unable to open file %s (invalid name)
+poison.exe,0x5B816,0x5D016,ASCII,Attempt to close NULL file
+poison.exe,0x5B834,0x5D034,ASCII,Attempt to read 0 bytes from file
+poison.exe,0x5B858,0x5D058,ASCII,Attempt to read from NULL file
+poison.exe,0x5B878,0x5D078,ASCII,Attempt to read file to NULL buffer
+poison.exe,0x5B89C,0x5D09C,ASCII,Attempt to size NULL file
+poison.exe,0x5B8B9,0x5D0B9,ASCII,Unable to find loader for %s
+poison.exe,0x5B8D6,0x5D0D6,ASCII,Empty path
+poison.exe,0x5B8F0,0x5D0F0,ASCII,%s/%s
+poison.exe,0x5B8F9,0x5D0F9,ASCII,Unable to open %s (%s)
+poison.exe,0x5B929,0x5D129,ASCII,EQdUfdd
+poison.exe,0x5B9B0,0x5D1B0,ASCII,LSmY&~
+poison.exe,0x5B9FD,0x5D1FD,ASCII,? 4u]
+poison.exe,0x5BA92,0x5D292,ASCII,nw'-7
+poison.exe,0x5BB1B,0x5D31B,ASCII,E>ot{
+poison.exe,0x5BBAB,0x5D3AB,ASCII,SfjeL
+poison.exe,0x5BBDB,0x5D3DB,ASCII,`.v|/
+poison.exe,0x5BBF4,0x5D3F4,ASCII,EUYjCd~
+poison.exe,0x5BC41,0x5D441,ASCII,u#{L:Gm
+poison.exe,0x5BC53,0x5D453,ASCII,l[<fFd
+poison.exe,0x5BC67,0x5D467,ASCII,i!'>#
+poison.exe,0x5BD0E,0x5D50E,ASCII,/\Xsg
+poison.exe,0x5BD2F,0x5D52F,ASCII,DIloXk
+poison.exe,0x5BE21,0x5D621,ASCII,)7^+|{
+poison.exe,0x5BE32,0x5D632,ASCII,M#$7^%
+poison.exe,0x5BF52,0x5D752,ASCII,HgJe'T
+poison.exe,0x5C065,0x5D865,ASCII,(*lB9
+poison.exe,0x5C0E2,0x5D8E2,ASCII,q\CaCBN
+poison.exe,0x5C123,0x5D923,ASCII,"iL""=E"
+poison.exe,0x5C27C,0x5DA7C,ASCII,T+yv3Cn
+poison.exe,0x5C341,0x5DB41,ASCII,m5`3F
+poison.exe,0x5C4B8,0x5DCB8,ASCII,]R+9h!
+poison.exe,0x5C5B6,0x5DDB6,ASCII,[6Gf}
+poison.exe,0x5C606,0x5DE06,ASCII,@[i`fOs
+poison.exe,0x5C640,0x5DE40,ASCII,>aXJ|
+poison.exe,0x5C7AE,0x5DFAE,ASCII,u#c-~
+poison.exe,0x5C7E0,0x5DFE0,ASCII,2c]I=Mp
+poison.exe,0x5C97F,0x5E17F,ASCII,7V6c}d=
+poison.exe,0x5CBC9,0x5E3C9,ASCII,.5rRc
+poison.exe,0x5CE9E,0x5E69E,ASCII,0zMsU
+poison.exe,0x5CF1B,0x5E71B,ASCII,{#{/[
+poison.exe,0x5CF25,0x5E725,ASCII,}-7Ma34
+poison.exe,0x5CF92,0x5E792,ASCII,dJ4X% 
+poison.exe,0x5D23A,0x5EA3A,ASCII,!>4DgZt(
+poison.exe,0x5D2C0,0x5EAC0,ASCII,q5(TEG.
+poison.exe,0x5D4E7,0x5ECE7,ASCII,l7o'$
+poison.exe,0x5D670,0x5EE70,ASCII,P2CL9
+poison.exe,0x5D680,0x5EE80,ASCII,"xv""ym"
+poison.exe,0x5D767,0x5EF67,ASCII,"\*_V? ,"
+poison.exe,0x5D82B,0x5F02B,ASCII,nayGP
+poison.exe,0x5D8B2,0x5F0B2,ASCII, a*oV
+poison.exe,0x5D8FF,0x5F0FF,ASCII,WRN`3
+poison.exe,0x5D906,0x5F106,ASCII,*T=Fw
+poison.exe,0x5D91C,0x5F11C,ASCII,C^G!(
+poison.exe,0x5DA22,0x5F222,ASCII,'DjcT|
+poison.exe,0x5DAB8,0x5F2B8,ASCII,FC$qK
+poison.exe,0x5DB90,0x5F390,ASCII,BqiR!
+poison.exe,0x5DC5D,0x5F45D,ASCII,Ezmc_
+poison.exe,0x5DC8C,0x5F48C,ASCII, -=p*
+poison.exe,0x5DE42,0x5F642,ASCII,HLW H
+poison.exe,0x5DF03,0x5F703,ASCII,"!!D!,P"
+poison.exe,0x5E0D2,0x5F8D2,ASCII,me?H}$
+poison.exe,0x5E1E6,0x5F9E6,ASCII,\D9M3
+poison.exe,0x5E221,0x5FA21,ASCII,@8jY'
+poison.exe,0x5E2F2,0x5FAF2,ASCII,Pr#_X
+poison.exe,0x5E336,0x5FB36,ASCII, KtW~
+poison.exe,0x5E4BF,0x5FCBF,ASCII,gS|).)qE
+poison.exe,0x5E522,0x5FD22,ASCII,8&hrV
+poison.exe,0x5E62F,0x5FE2F,ASCII,"fL-,^"
+poison.exe,0x5E650,0x5FE50,ASCII,g~qya!
+poison.exe,0x5E71D,0x5FF1D,ASCII,TB$K-\
+poison.exe,0x5E749,0x5FF49,ASCII,y|JtN
+poison.exe,0x5E7E2,0x5FFE2,ASCII,"""rTha"
+poison.exe,0x5EBB1,0x603B1,ASCII,&Z(Tw
+poison.exe,0x5EC27,0x60427,ASCII,_qXhb
+poison.exe,0x5EDBB,0x605BB,ASCII,e0A~<
+poison.exe,0x5EEAF,0x606AF,ASCII,v%'ud
+poison.exe,0x5EEF6,0x606F6,ASCII,'Pj+2Y
+poison.exe,0x5EF80,0x60780,ASCII,()>RTsl
+poison.exe,0x5F327,0x60B27,ASCII,Dzl&O
+poison.exe,0x5F355,0x60B55,ASCII,}+eAL
+poison.exe,0x5F365,0x60B65,ASCII,xRpta
+poison.exe,0x5F5CA,0x60DCA,ASCII,Tq~Ay2
+poison.exe,0x5F74C,0x60F4C,ASCII,pLQ4i
+poison.exe,0x5F911,0x61111,ASCII,W*rk)
+poison.exe,0x5F9C2,0x611C2,ASCII,q/_Z_
+poison.exe,0x5FAB9,0x612B9,ASCII,te.O}
+poison.exe,0x5FC78,0x61478,ASCII,KIW-=:C
+poison.exe,0x5FC8B,0x6148B,ASCII,sFb3W
+poison.exe,0x5FE29,0x61629,ASCII,|a$n_
+poison.exe,0x5FF30,0x61730,ASCII,P'}H-m`
+poison.exe,0x5FF7C,0x6177C,ASCII,&}`&\
+poison.exe,0x60078,0x61878,ASCII,wHzFT
+poison.exe,0x6011B,0x6191B,ASCII,mCdk^
+poison.exe,0x601A0,0x619A0,ASCII,nookJ
+poison.exe,0x601F4,0x619F4,ASCII,CYii-
+poison.exe,0x60278,0x61A78,ASCII,*KkXZ
+poison.exe,0x6036D,0x61B6D,ASCII,RjS|#
+poison.exe,0x604A0,0x61CA0,ASCII,`%=|F
+poison.exe,0x60562,0x61D62,ASCII,;wv4I
+poison.exe,0x6056B,0x61D6B,ASCII,>'q{'
+poison.exe,0x605C0,0x61DC0,ASCII,7WMqY
+poison.exe,0x6073D,0x61F3D,ASCII,VH;-kiyL
+poison.exe,0x607D2,0x61FD2,ASCII,\Z+dJI
+poison.exe,0x60821,0x62021,ASCII,v.->K
+poison.exe,0x608CF,0x620CF,ASCII,i$VsBG
+poison.exe,0x608E8,0x620E8,ASCII,oa{Y.
+poison.exe,0x6097E,0x6217E,ASCII,%?2h@
+poison.exe,0x60A24,0x62224,ASCII,M.Ex}
+poison.exe,0x60B1E,0x6231E,ASCII,q)OHyR
+poison.exe,0x60BE5,0x623E5,ASCII,1IrLB
+poison.exe,0x60BEE,0x623EE,ASCII,L2E&yT
+poison.exe,0x60C6D,0x6246D,ASCII,3.nxe]]
+poison.exe,0x60E1B,0x6261B,ASCII,"GpY""AnH "
+poison.exe,0x60F16,0x62716,ASCII,U^6_vR/
+poison.exe,0x6101C,0x6281C,ASCII,IV3=sO
+poison.exe,0x6113F,0x6293F,ASCII,^2tM4
+poison.exe,0x611F5,0x629F5,ASCII,qX8(+
+poison.exe,0x612A0,0x62AA0,ASCII,Bm5Z7b
+poison.exe,0x615CB,0x62DCB,ASCII,A4LS2LLLLL
+poison.exe,0x615D8,0x62DD8,ASCII,not compatible with this version of correction file!
+poison.exe,0x61610,0x62E10,ASCII,not compatible with this version of WavPack file!
+poison.exe,0x61642,0x62E42,ASCII,4.50.0
+poison.exe,0x61650,0x62E50,ASCII,can't unpack correction files alone!
+poison.exe,0x6195B,0x6315B,ASCII,"  !""#$$%&'(()*+,,-./001234556789::;<=>?@AABCDEFGHHIJKLMNOPQQRSTUVWXYZ[\]^^_`abcdefghijklmnopqrstuvwxyz{|}~"
+poison.exe,0x61A47,0x63247,ASCII," !""$%&()*,-./12346789;<=>?ABCDEGHIJKMNOPQRTUVWXYZ\]^_`abcdfghijklmnopqrtuvwxyz{|}~"
+poison.exe,0x61CD0,0x634D0,ASCII,-LIBGCCW32-EH-2-SJLJ-GTHR-MINGW32
+poison.exe,0x61CF4,0x634F4,ASCII,w32_sharedptr->size == sizeof(W32_EH_SHARED)
+poison.exe,0x61D21,0x63521,ASCII,%s:%u: failed assertion `%s'
+poison.exe,0x61D40,0x63540,ASCII,../../gcc/gcc/config/i386/w32-shared-ptr.c
+poison.exe,0x61D6C,0x6356C,ASCII,"GetAtomNameA (atom, s, sizeof(s)) != 0"
+poison.exe,0x6284E,0x6DA4E,ASCII,AddAtomA
+poison.exe,0x6285A,0x6DA5A,ASCII,EnterCriticalSection
+poison.exe,0x62872,0x6DA72,ASCII,ExitProcess
+poison.exe,0x62882,0x6DA82,ASCII,FindAtomA
+poison.exe,0x6288E,0x6DA8E,ASCII,GetAtomNameA
+poison.exe,0x6289E,0x6DA9E,ASCII,GetDiskFreeSpaceExA
+poison.exe,0x628B6,0x6DAB6,ASCII,GetProcessHeap
+poison.exe,0x628CA,0x6DACA,ASCII,HeapAlloc
+poison.exe,0x628D6,0x6DAD6,ASCII,HeapFree
+poison.exe,0x628E2,0x6DAE2,ASCII,InitializeCriticalSection
+poison.exe,0x628FE,0x6DAFE,ASCII,LeaveCriticalSection
+poison.exe,0x62916,0x6DB16,ASCII,SetUnhandledExceptionFilter
+poison.exe,0x62936,0x6DB36,ASCII,Sleep
+poison.exe,0x6293E,0x6DB3E,ASCII,_strdup
+poison.exe,0x6294A,0x6DB4A,ASCII,_unlink
+poison.exe,0x62956,0x6DB56,ASCII,_utime
+poison.exe,0x62962,0x6DB62,ASCII,__getmainargs
+poison.exe,0x62972,0x6DB72,ASCII,__mb_cur_max
+poison.exe,0x62982,0x6DB82,ASCII,__p__environ
+poison.exe,0x62992,0x6DB92,ASCII,__p__fmode
+poison.exe,0x629A2,0x6DBA2,ASCII,__set_app_type
+poison.exe,0x629B6,0x6DBB6,ASCII,_cexit
+poison.exe,0x629C2,0x6DBC2,ASCII,_chsize
+poison.exe,0x629CE,0x6DBCE,ASCII,_errno
+poison.exe,0x629E2,0x6DBE2,ASCII,_isctype
+poison.exe,0x629EE,0x6DBEE,ASCII,_onexit
+poison.exe,0x629FA,0x6DBFA,ASCII,_pctype
+poison.exe,0x62A06,0x6DC06,ASCII,_setmode
+poison.exe,0x62A12,0x6DC12,ASCII,_stricmp
+poison.exe,0x62A1E,0x6DC1E,ASCII,_vsnprintf
+poison.exe,0x62A2E,0x6DC2E,ASCII,abort
+poison.exe,0x62A36,0x6DC36,ASCII,atexit
+poison.exe,0x62A42,0x6DC42,ASCII,bsearch
+poison.exe,0x62A4E,0x6DC4E,ASCII,calloc
+poison.exe,0x62A62,0x6DC62,ASCII,fclose
+poison.exe,0x62A6E,0x6DC6E,ASCII,fflush
+poison.exe,0x62A7A,0x6DC7A,ASCII,fprintf
+poison.exe,0x62A86,0x6DC86,ASCII,fread
+poison.exe,0x62A96,0x6DC96,ASCII,fseek
+poison.exe,0x62A9E,0x6DC9E,ASCII,ftell
+poison.exe,0x62AA6,0x6DCA6,ASCII,fwrite
+poison.exe,0x62AB2,0x6DCB2,ASCII,localeconv
+poison.exe,0x62AC2,0x6DCC2,ASCII,malloc
+poison.exe,0x62ACE,0x6DCCE,ASCII,memcpy
+poison.exe,0x62ADA,0x6DCDA,ASCII,memmove
+poison.exe,0x62AE6,0x6DCE6,ASCII,memset
+poison.exe,0x62AF2,0x6DCF2,ASCII,printf
+poison.exe,0x62B06,0x6DD06,ASCII,qsort
+poison.exe,0x62B0E,0x6DD0E,ASCII,realloc
+poison.exe,0x62B1A,0x6DD1A,ASCII,signal
+poison.exe,0x62B2E,0x6DD2E,ASCII,sprintf
+poison.exe,0x62B3A,0x6DD3A,ASCII,sscanf
+poison.exe,0x62B46,0x6DD46,ASCII,strchr
+poison.exe,0x62B52,0x6DD52,ASCII,strcmp
+poison.exe,0x62B5E,0x6DD5E,ASCII,strcpy
+poison.exe,0x62B6A,0x6DD6A,ASCII,strerror
+poison.exe,0x62B76,0x6DD76,ASCII,strlen
+poison.exe,0x62B82,0x6DD82,ASCII,strncpy
+poison.exe,0x62B8E,0x6DD8E,ASCII,strpbrk
+poison.exe,0x62B9A,0x6DD9A,ASCII,strstr
+poison.exe,0x62BA6,0x6DDA6,ASCII,waveOutClose
+poison.exe,0x62BB6,0x6DDB6,ASCII,waveOutOpen
+poison.exe,0x62BC6,0x6DDC6,ASCII,waveOutPrepareHeader
+poison.exe,0x62BDE,0x6DDDE,ASCII,waveOutReset
+poison.exe,0x62BEE,0x6DDEE,ASCII,waveOutUnprepareHeader
+poison.exe,0x62C0A,0x6DE0A,ASCII,waveOutWrite
+poison.exe,0x62C1A,0x6DE1A,ASCII,gdk_color_parse
+poison.exe,0x62C2E,0x6DE2E,ASCII,gdk_cursor_new
+poison.exe,0x62C42,0x6DE42,ASCII,gdk_cursor_unref
+poison.exe,0x62C56,0x6DE56,ASCII,gdk_pixbuf_render_pixmap_and_mask
+poison.exe,0x62C7A,0x6DE7A,ASCII,gdk_window_set_cursor
+poison.exe,0x62C92,0x6DE92,ASCII,gdk_pixbuf_add_alpha
+poison.exe,0x62CAA,0x6DEAA,ASCII,gdk_pixbuf_new_from_inline
+poison.exe,0x62CCA,0x6DECA,ASCII,g_assertion_message_expr
+poison.exe,0x62CE6,0x6DEE6,ASCII,g_dir_close
+poison.exe,0x62CF6,0x6DEF6,ASCII,g_dir_open_utf8
+poison.exe,0x62D0A,0x6DF0A,ASCII,g_dir_read_name_utf8
+poison.exe,0x62D22,0x6DF22,ASCII,g_error_free
+poison.exe,0x62D32,0x6DF32,ASCII,g_file_test_utf8
+poison.exe,0x62D46,0x6DF46,ASCII,g_fopen
+poison.exe,0x62D52,0x6DF52,ASCII,g_free
+poison.exe,0x62D5E,0x6DF5E,ASCII,g_io_channel_new_file_utf8
+poison.exe,0x62D7E,0x6DF7E,ASCII,g_io_channel_read_line
+poison.exe,0x62D9A,0x6DF9A,ASCII,g_io_channel_set_encoding
+poison.exe,0x62DB6,0x6DFB6,ASCII,g_io_channel_unref
+poison.exe,0x62DCE,0x6DFCE,ASCII,g_list_append
+poison.exe,0x62DDE,0x6DFDE,ASCII,g_list_foreach
+poison.exe,0x62DF2,0x6DFF2,ASCII,g_list_free
+poison.exe,0x62E02,0x6E002,ASCII,g_locale_from_utf8
+poison.exe,0x62E1A,0x6E01A,ASCII,g_log
+poison.exe,0x62E22,0x6E022,ASCII,g_malloc0
+poison.exe,0x62E2E,0x6E02E,ASCII,g_mkdir
+poison.exe,0x62E3A,0x6E03A,ASCII,g_print
+poison.exe,0x62E46,0x6E046,ASCII,g_qsort_with_data
+poison.exe,0x62E5A,0x6E05A,ASCII,g_random_int
+poison.exe,0x62E6A,0x6E06A,ASCII,g_return_if_fail_warning
+poison.exe,0x62E86,0x6E086,ASCII,g_snprintf
+poison.exe,0x62E96,0x6E096,ASCII,g_stat
+poison.exe,0x62EA2,0x6E0A2,ASCII,g_strchomp
+poison.exe,0x62EB2,0x6E0B2,ASCII,g_strchug
+poison.exe,0x62EBE,0x6E0BE,ASCII,g_strdup
+poison.exe,0x62ECA,0x6E0CA,ASCII,g_strdup_printf
+poison.exe,0x62EDE,0x6E0DE,ASCII,g_strfreev
+poison.exe,0x62EEE,0x6E0EE,ASCII,g_strndup
+poison.exe,0x62EFA,0x6E0FA,ASCII,g_strsplit_set
+poison.exe,0x62F0E,0x6E10E,ASCII,g_strtod
+poison.exe,0x62F1A,0x6E11A,ASCII,g_thread_create_full
+poison.exe,0x62F32,0x6E132,ASCII,g_thread_exit
+poison.exe,0x62F42,0x6E142,ASCII,g_thread_self
+poison.exe,0x62F52,0x6E152,ASCII,g_thread_set_priority
+poison.exe,0x62F6A,0x6E16A,ASCII,g_timer_destroy
+poison.exe,0x62F7E,0x6E17E,ASCII,g_timer_elapsed
+poison.exe,0x62F92,0x6E192,ASCII,g_timer_new
+poison.exe,0x62FA2,0x6E1A2,ASCII,g_timer_start
+poison.exe,0x62FB2,0x6E1B2,ASCII,g_timer_stop
+poison.exe,0x62FC2,0x6E1C2,ASCII,g_usleep
+poison.exe,0x62FCE,0x6E1CE,ASCII,g_object_get
+poison.exe,0x62FDE,0x6E1DE,ASCII,g_object_get_data
+poison.exe,0x62FF2,0x6E1F2,ASCII,g_object_new
+poison.exe,0x63002,0x6E202,ASCII,g_object_ref
+poison.exe,0x63012,0x6E212,ASCII,g_object_set
+poison.exe,0x63022,0x6E222,ASCII,g_object_set_data
+poison.exe,0x63036,0x6E236,ASCII,g_object_unref
+poison.exe,0x6304A,0x6E24A,ASCII,g_signal_connect_data
+poison.exe,0x63062,0x6E262,ASCII,g_signal_handlers_block_matched
+poison.exe,0x63086,0x6E286,ASCII,g_signal_handlers_unblock_matched
+poison.exe,0x630AA,0x6E2AA,ASCII,g_signal_stop_emission_by_name
+poison.exe,0x630CE,0x6E2CE,ASCII,g_type_add_interface_static
+poison.exe,0x630EE,0x6E2EE,ASCII,g_type_check_instance_cast
+poison.exe,0x6310E,0x6E30E,ASCII,g_type_check_instance_is_a
+poison.exe,0x6312E,0x6E32E,ASCII,g_type_class_peek_parent
+poison.exe,0x6314A,0x6E34A,ASCII,g_type_register_static
+poison.exe,0x63166,0x6E366,ASCII,g_value_init
+poison.exe,0x63176,0x6E376,ASCII,g_value_set_pointer
+poison.exe,0x6318E,0x6E38E,ASCII,g_thread_init
+poison.exe,0x6319E,0x6E39E,ASCII,gtk_alignment_new
+poison.exe,0x631B2,0x6E3B2,ASCII,gtk_box_get_type
+poison.exe,0x631C6,0x6E3C6,ASCII,gtk_box_pack_start
+poison.exe,0x631DE,0x6E3DE,ASCII,gtk_button_get_type
+poison.exe,0x631F6,0x6E3F6,ASCII,gtk_button_new_from_stock
+poison.exe,0x63212,0x6E412,ASCII,gtk_button_new_with_label
+poison.exe,0x6322E,0x6E42E,ASCII,gtk_button_set_alignment
+poison.exe,0x6324A,0x6E44A,ASCII,gtk_cell_renderer_text_new
+poison.exe,0x6326A,0x6E46A,ASCII,gtk_container_add
+poison.exe,0x6327E,0x6E47E,ASCII,gtk_container_get_type
+poison.exe,0x6329A,0x6E49A,ASCII,gtk_container_set_border_width
+poison.exe,0x632BE,0x6E4BE,ASCII,gtk_container_set_focus_chain
+poison.exe,0x632DE,0x6E4DE,ASCII,gtk_dialog_get_type
+poison.exe,0x632F6,0x6E4F6,ASCII,gtk_dialog_run
+poison.exe,0x6330A,0x6E50A,ASCII,gtk_editable_insert_text
+poison.exe,0x63326,0x6E526,ASCII,gtk_entry_get_text
+poison.exe,0x6333E,0x6E53E,ASCII,gtk_entry_get_type
+poison.exe,0x63356,0x6E556,ASCII,gtk_entry_new
+poison.exe,0x63366,0x6E566,ASCII,gtk_entry_set_text
+poison.exe,0x6337E,0x6E57E,ASCII,gtk_entry_set_width_chars
+poison.exe,0x6339A,0x6E59A,ASCII,gtk_event_box_new
+poison.exe,0x633AE,0x6E5AE,ASCII,gtk_events_pending
+poison.exe,0x633C6,0x6E5C6,ASCII,gtk_file_chooser_dialog_new
+poison.exe,0x633E6,0x6E5E6,ASCII,gtk_file_chooser_get_current_folder_utf8
+poison.exe,0x63412,0x6E612,ASCII,gtk_file_chooser_get_filename_utf8
+poison.exe,0x6343A,0x6E63A,ASCII,gtk_file_chooser_get_type
+poison.exe,0x63456,0x6E656,ASCII,gtk_file_chooser_set_current_folder_utf8
+poison.exe,0x63482,0x6E682,ASCII,gtk_frame_new
+poison.exe,0x63492,0x6E692,ASCII,gtk_hbox_new
+poison.exe,0x634A2,0x6E6A2,ASCII,gtk_hseparator_new
+poison.exe,0x634BA,0x6E6BA,ASCII,gtk_image_new_from_pixmap
+poison.exe,0x634D6,0x6E6D6,ASCII,gtk_init_abi_check
+poison.exe,0x634EE,0x6E6EE,ASCII,gtk_label_get_type
+poison.exe,0x63506,0x6E706,ASCII,gtk_label_new
+poison.exe,0x63516,0x6E716,ASCII,gtk_label_set_ellipsize
+poison.exe,0x63532,0x6E732,ASCII,gtk_label_set_markup
+poison.exe,0x6354A,0x6E74A,ASCII,gtk_label_set_text
+poison.exe,0x63562,0x6E762,ASCII,gtk_main
+poison.exe,0x6356E,0x6E76E,ASCII,gtk_main_iteration
+poison.exe,0x63586,0x6E786,ASCII,gtk_main_quit
+poison.exe,0x63596,0x6E796,ASCII,gtk_message_dialog_new
+poison.exe,0x635B2,0x6E7B2,ASCII,gtk_misc_get_type
+poison.exe,0x635C6,0x6E7C6,ASCII,gtk_misc_set_alignment
+poison.exe,0x635E2,0x6E7E2,ASCII,gtk_notebook_append_page
+poison.exe,0x635FE,0x6E7FE,ASCII,gtk_notebook_get_current_page
+poison.exe,0x6361E,0x6E81E,ASCII,gtk_notebook_get_n_pages
+poison.exe,0x6363A,0x6E83A,ASCII,gtk_notebook_get_nth_page
+poison.exe,0x63656,0x6E856,ASCII,gtk_notebook_get_type
+poison.exe,0x6366E,0x6E86E,ASCII,gtk_notebook_new
+poison.exe,0x63682,0x6E882,ASCII,gtk_notebook_set_current_page
+poison.exe,0x636A2,0x6E8A2,ASCII,gtk_notebook_set_show_border
+poison.exe,0x636C2,0x6E8C2,ASCII,gtk_notebook_set_show_tabs
+poison.exe,0x636E2,0x6E8E2,ASCII,gtk_progress_bar_get_type
+poison.exe,0x636FE,0x6E8FE,ASCII,gtk_progress_bar_new
+poison.exe,0x63716,0x6E916,ASCII,gtk_progress_bar_set_fraction
+poison.exe,0x63736,0x6E936,ASCII,gtk_progress_bar_set_text
+poison.exe,0x63752,0x6E952,ASCII,gtk_scrolled_window_get_type
+poison.exe,0x63772,0x6E972,ASCII,gtk_scrolled_window_new
+poison.exe,0x6378E,0x6E98E,ASCII,gtk_scrolled_window_set_policy
+poison.exe,0x637B2,0x6E9B2,ASCII,gtk_table_attach
+poison.exe,0x637C6,0x6E9C6,ASCII,gtk_table_get_type
+poison.exe,0x637DE,0x6E9DE,ASCII,gtk_table_new
+poison.exe,0x637EE,0x6E9EE,ASCII,gtk_text_buffer_create_mark
+poison.exe,0x6380E,0x6EA0E,ASCII,gtk_text_buffer_create_tag
+poison.exe,0x6382E,0x6EA2E,ASCII,gtk_text_buffer_delete
+poison.exe,0x6384A,0x6EA4A,ASCII,gtk_text_buffer_get_end_iter
+poison.exe,0x6386A,0x6EA6A,ASCII,gtk_text_buffer_get_mark
+poison.exe,0x63886,0x6EA86,ASCII,gtk_text_buffer_insert
+poison.exe,0x638A2,0x6EAA2,ASCII,gtk_text_buffer_insert_with_tags_by_name
+poison.exe,0x638CE,0x6EACE,ASCII,gtk_text_buffer_move_mark
+poison.exe,0x638EA,0x6EAEA,ASCII,gtk_text_buffer_set_text
+poison.exe,0x63906,0x6EB06,ASCII,gtk_text_iter_get_offset
+poison.exe,0x63922,0x6EB22,ASCII,gtk_text_iter_set_line_offset
+poison.exe,0x63942,0x6EB42,ASCII,gtk_text_view_get_buffer
+poison.exe,0x6395E,0x6EB5E,ASCII,gtk_text_view_get_type
+poison.exe,0x6397A,0x6EB7A,ASCII,gtk_text_view_new
+poison.exe,0x6398E,0x6EB8E,ASCII,gtk_text_view_scroll_mark_onscreen
+poison.exe,0x639B6,0x6EBB6,ASCII,gtk_text_view_set_editable
+poison.exe,0x639D6,0x6EBD6,ASCII,gtk_text_view_set_wrap_mode
+poison.exe,0x639F6,0x6EBF6,ASCII,gtk_tree_model_get
+poison.exe,0x63A0E,0x6EC0E,ASCII,gtk_tree_model_get_iter
+poison.exe,0x63A2A,0x6EC2A,ASCII,gtk_tree_model_get_type
+poison.exe,0x63A46,0x6EC46,ASCII,gtk_tree_model_row_deleted
+poison.exe,0x63A66,0x6EC66,ASCII,gtk_tree_model_row_inserted
+poison.exe,0x63A86,0x6EC86,ASCII,gtk_tree_model_rows_reordered
+poison.exe,0x63AA6,0x6ECA6,ASCII,gtk_tree_path_append_index
+poison.exe,0x63AC6,0x6ECC6,ASCII,gtk_tree_path_free
+poison.exe,0x63ADE,0x6ECDE,ASCII,gtk_tree_path_get_depth
+poison.exe,0x63AFA,0x6ECFA,ASCII,gtk_tree_path_get_indices
+poison.exe,0x63B16,0x6ED16,ASCII,gtk_tree_path_new
+poison.exe,0x63B2A,0x6ED2A,ASCII,gtk_tree_selection_count_selected_rows
+poison.exe,0x63B56,0x6ED56,ASCII,gtk_tree_selection_get_selected_rows
+poison.exe,0x63B7E,0x6ED7E,ASCII,gtk_tree_selection_select_path
+poison.exe,0x63BA2,0x6EDA2,ASCII,gtk_tree_selection_set_mode
+poison.exe,0x63BC2,0x6EDC2,ASCII,gtk_tree_selection_unselect_all
+poison.exe,0x63BE6,0x6EDE6,ASCII,gtk_tree_sortable_get_type
+poison.exe,0x63C06,0x6EE06,ASCII,gtk_tree_view_append_column
+poison.exe,0x63C26,0x6EE26,ASCII,gtk_tree_view_column_add_attribute
+poison.exe,0x63C4E,0x6EE4E,ASCII,gtk_tree_view_column_new
+poison.exe,0x63C6A,0x6EE6A,ASCII,gtk_tree_view_column_pack_start
+poison.exe,0x63C8E,0x6EE8E,ASCII,gtk_tree_view_column_set_alignment
+poison.exe,0x63CB6,0x6EEB6,ASCII,gtk_tree_view_column_set_cell_data_func
+poison.exe,0x63CE2,0x6EEE2,ASCII,gtk_tree_view_column_set_sort_column_id
+poison.exe,0x63D0E,0x6EF0E,ASCII,gtk_tree_view_column_set_title
+poison.exe,0x63D32,0x6EF32,ASCII,gtk_tree_view_get_selection
+poison.exe,0x63D52,0x6EF52,ASCII,gtk_tree_view_get_type
+poison.exe,0x63D6E,0x6EF6E,ASCII,gtk_tree_view_new
+poison.exe,0x63D82,0x6EF82,ASCII,gtk_tree_view_scroll_to_cell
+poison.exe,0x63DA2,0x6EFA2,ASCII,gtk_tree_view_set_fixed_height_mode
+poison.exe,0x63DCA,0x6EFCA,ASCII,gtk_tree_view_set_model
+poison.exe,0x63DE6,0x6EFE6,ASCII,gtk_vbox_new
+poison.exe,0x63DF6,0x6EFF6,ASCII,gtk_widget_destroy
+poison.exe,0x63E0E,0x6F00E,ASCII,gtk_widget_get_settings
+poison.exe,0x63E2A,0x6F02A,ASCII,gtk_widget_get_type
+poison.exe,0x63E42,0x6F042,ASCII,gtk_widget_grab_focus
+poison.exe,0x63E5A,0x6F05A,ASCII,gtk_widget_hide
+poison.exe,0x63E6E,0x6F06E,ASCII,gtk_widget_modify_base
+poison.exe,0x63E8A,0x6F08A,ASCII,gtk_widget_modify_text
+poison.exe,0x63EA6,0x6F0A6,ASCII,gtk_widget_queue_draw
+poison.exe,0x63EBE,0x6F0BE,ASCII,gtk_widget_set_sensitive
+poison.exe,0x63EDA,0x6F0DA,ASCII,gtk_widget_set_size_request
+poison.exe,0x63EFA,0x6F0FA,ASCII,gtk_widget_shape_combine_mask
+poison.exe,0x63F1A,0x6F11A,ASCII,gtk_widget_show
+poison.exe,0x63F2E,0x6F12E,ASCII,gtk_widget_show_all
+poison.exe,0x63F46,0x6F146,ASCII,gtk_widget_size_request
+poison.exe,0x63F62,0x6F162,ASCII,gtk_window_get_type
+poison.exe,0x63F7A,0x6F17A,ASCII,gtk_window_new
+poison.exe,0x63F8E,0x6F18E,ASCII,gtk_window_set_default_size
+poison.exe,0x63FAE,0x6F1AE,ASCII,gtk_window_set_icon
+poison.exe,0x63FC6,0x6F1C6,ASCII,gtk_window_set_title
+poison.exe,0x63FDE,0x6F1DE,ASCII,pango_tab_array_free
+poison.exe,0x63FF6,0x6F1F6,ASCII,pango_tab_array_new_with_positions
+poison.exe,0x6401E,0x6F21E,ASCII,uncompress
+poison.exe,0x64060,0x6F260,ASCII,KERNEL32.dll
+poison.exe,0x6407C,0x6F27C,ASCII,msvcrt.dll
+poison.exe,0x6414C,0x6F34C,ASCII,msvcrt.dll
+poison.exe,0x64170,0x6F370,ASCII,WINMM.DLL
+poison.exe,0x64190,0x6F390,ASCII,libgdk-win32-2.0-0.dll
+poison.exe,0x641B0,0x6F3B0,ASCII,libgdk_pixbuf-2.0-0.dll
+poison.exe,0x64274,0x6F474,ASCII,libglib-2.0-0.dll
+poison.exe,0x642D0,0x6F4D0,ASCII,libgobject-2.0-0.dll
+poison.exe,0x642EC,0x6F4EC,ASCII,libgthread-2.0-0.dll
+poison.exe,0x6450C,0x6F70C,ASCII,libgtk-win32-2.0-0.dll
+poison.exe,0x6452C,0x6F72C,ASCII,libpango-1.0-0.dll
+poison.exe,0x64544,0x6F744,ASCII,zlib1.dll
+poison.exe,0x5259E,0x5399E,UTF-16LE,!$'*.159=AEIMRV[`ejouz
+poison.exe,0x52690,0x53A90,UTF-16LE, $'+/37;@DINSX]bgmrx~
+poison.exe,0x52778,0x53B78,UTF-16LE, (08@HPX`hpx
+patch.exe,0x4D,,ASCII,!This program cannot be run in DOS mode.
+patch.exe,0x178,,ASCII,.text
+patch.exe,0x19F,,ASCII,`.data
+patch.exe,0x1C8,,ASCII,.rdata
+patch.exe,0x1EF,,ASCII,@.bss
+patch.exe,0x218,,ASCII,.idata
+patch.exe,0x147E,0x207E,ASCII,",[^_]"
+patch.exe,0x14B0,0x20B0,ASCII,",[^_]"
+patch.exe,0x15A5,0x21A5,ASCII, namf
+patch.exe,0x1819,0x2419,ASCII,exisf
+patch.exe,0x1903,0x2503,ASCII,t fif
+patch.exe,0x2D74,0x4574,ASCII,H\!$! 
+patch.exe,0x2E96,0x4696,ASCII,!$#P(
+patch.exe,0x312A,0x492A,ASCII,!$dG!$<
+patch.exe,0x3400,0x5000,ASCII,carloc_rep
+patch.exe,0x340B,0x500B,ASCII,device_dialog
+patch.exe,0x3419,0x5019,ASCII,tpd_services
+patch.exe,0x3426,0x5026,ASCII,builder
+patch.exe,0x342E,0x502E,ASCII,Error
+patch.exe,0x3434,0x5034,ASCII,Patch
+patch.exe,0x343C,0x503C,ASCII,Unexpected value %08x during patch %08x %08x %08x
+patch.exe,0x3470,0x5070,ASCII,Unable to patch address %08x (address out of range)
+patch.exe,0x34A5,0x50A5,ASCII,navboot
+patch.exe,0x34B0,0x50B0,ASCII,Unable to patch module '%s' - module not found
+patch.exe,0x34E0,0x50E0,ASCII,Patching done.
+patch.exe,0x34EF,0x50EF,ASCII,Error: %s
+patch.exe,0x3560,0x5160,ASCII,Unexpected data at the end of file
+patch.exe,0x3583,0x5183,ASCII,Error at 0x%x: Unknown data
+patch.exe,0x359F,0x519F,ASCII,Error at 0x%x: %s
+patch.exe,0x35B4,0x51B4,ASCII,Error at 0x%x: Unable to get module size
+patch.exe,0x35DD,0x51DD,ASCII,Unknown file format
+patch.exe,0x35F4,0x51F4,ASCII,File '%s' is too small
+patch.exe,0x360B,0x520B,ASCII,Error reading '%s'
+patch.exe,0x361E,0x521E,ASCII,Failed to open '%s': %s
+patch.exe,0x3638,0x5238,ASCII,Saving pool with alignment not supported yet
+patch.exe,0x3668,0x5268,ASCII,Unable to get body for module %d
+patch.exe,0x3689,0x5289,ASCII,Error saving module %d
+patch.exe,0x36A0,0x52A0,ASCII,Module has invalid CRC
+patch.exe,0x36B7,0x52B7,ASCII,No error
+patch.exe,0x36C0,0x52C0,ASCII,Unknown module architecture
+patch.exe,0x36DC,0x52DC,ASCII,Module buffer too small
+patch.exe,0x36F4,0x52F4,ASCII,Invalid magic value
+patch.exe,0x3708,0x5308,ASCII,Module size not aligned
+patch.exe,0x3720,0x5320,ASCII,Invalid module size
+patch.exe,0x3734,0x5334,ASCII,Invalid module name
+patch.exe,0x3748,0x5348,ASCII,Module with empty name
+patch.exe,0x375F,0x535F,ASCII,Module data not aligned
+patch.exe,0x3778,0x5378,ASCII,Module has invalid header parity
+patch.exe,0x37C8,0x53C8,ASCII,program
+patch.exe,0x37D0,0x53D0,ASCII,subroutine
+patch.exe,0x37DB,0x53DB,ASCII,multi
+patch.exe,0x37E6,0x53E6,ASCII,configuration
+patch.exe,0x37F4,0x53F4,ASCII,trap library
+patch.exe,0x3801,0x5401,ASCII,system
+patch.exe,0x3808,0x5408,ASCII,file manager
+patch.exe,0x3815,0x5415,ASCII,device driver
+patch.exe,0x3823,0x5423,ASCII,device descriptor
+patch.exe,0x3835,0x5435,ASCII,user defined
+patch.exe,0x3842,0x5442,ASCII,unknown
+patch.exe,0x39E0,0x55E0,ASCII,-LIBGCCW32-EH-2-SJLJ-GTHR-MINGW32
+patch.exe,0x3A04,0x5604,ASCII,w32_sharedptr->size == sizeof(W32_EH_SHARED)
+patch.exe,0x3A31,0x5631,ASCII,%s:%u: failed assertion `%s'
+patch.exe,0x3A50,0x5650,ASCII,../../gcc/gcc/config/i386/w32-shared-ptr.c
+patch.exe,0x3A7C,0x567C,ASCII,"GetAtomNameA (atom, s, sizeof(s)) != 0"
+patch.exe,0x3DE6,0x71E6,ASCII,AddAtomA
+patch.exe,0x3DF2,0x71F2,ASCII,ExitProcess
+patch.exe,0x3E02,0x7202,ASCII,FindAtomA
+patch.exe,0x3E0E,0x720E,ASCII,GetAtomNameA
+patch.exe,0x3E1E,0x721E,ASCII,SetUnhandledExceptionFilter
+patch.exe,0x3E3E,0x723E,ASCII,_access
+patch.exe,0x3E4A,0x724A,ASCII,__getmainargs
+patch.exe,0x3E5A,0x725A,ASCII,__p__environ
+patch.exe,0x3E6A,0x726A,ASCII,__p__fmode
+patch.exe,0x3E7A,0x727A,ASCII,__set_app_type
+patch.exe,0x3E8E,0x728E,ASCII,_cexit
+patch.exe,0x3E9A,0x729A,ASCII,_errno
+patch.exe,0x3EAE,0x72AE,ASCII,_onexit
+patch.exe,0x3EBA,0x72BA,ASCII,_setmode
+patch.exe,0x3EC6,0x72C6,ASCII,_vsnprintf
+patch.exe,0x3ED6,0x72D6,ASCII,abort
+patch.exe,0x3EDE,0x72DE,ASCII,atexit
+patch.exe,0x3EEA,0x72EA,ASCII,calloc
+patch.exe,0x3EFE,0x72FE,ASCII,fclose
+patch.exe,0x3F0A,0x730A,ASCII,fflush
+patch.exe,0x3F16,0x7316,ASCII,fopen
+patch.exe,0x3F1E,0x731E,ASCII,fprintf
+patch.exe,0x3F2A,0x732A,ASCII,fread
+patch.exe,0x3F3A,0x733A,ASCII,fseek
+patch.exe,0x3F42,0x7342,ASCII,ftell
+patch.exe,0x3F4A,0x734A,ASCII,fwrite
+patch.exe,0x3F56,0x7356,ASCII,malloc
+patch.exe,0x3F62,0x7362,ASCII,memcpy
+patch.exe,0x3F6E,0x736E,ASCII,realloc
+patch.exe,0x3F7A,0x737A,ASCII,signal
+patch.exe,0x3F86,0x7386,ASCII,sprintf
+patch.exe,0x3F92,0x7392,ASCII,strcmp
+patch.exe,0x3F9E,0x739E,ASCII,strcpy
+patch.exe,0x3FAA,0x73AA,ASCII,strerror
+patch.exe,0x3FB6,0x73B6,ASCII,strlen
+patch.exe,0x3FC2,0x73C2,ASCII,strncpy
+patch.exe,0x3FCE,0x73CE,ASCII,MessageBoxA
+patch.exe,0x3FF0,0x73F0,ASCII,KERNEL32.dll
+patch.exe,0x4004,0x7404,ASCII,msvcrt.dll
+patch.exe,0x4094,0x7494,ASCII,msvcrt.dll
+patch.exe,0x40A4,0x74A4,ASCII,USER32.dll

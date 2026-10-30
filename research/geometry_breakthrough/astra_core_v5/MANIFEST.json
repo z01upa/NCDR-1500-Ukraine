@@ -1,0 +1,23 @@
+{
+  "ACCEPTANCE.md": "4d60f6d80881e2b8e2a1094cd657f5cda214b7441330e794be15c5bc28ef00c8",
+  "BINARY_FINDINGS.md": "b6f09d6e55324eeac52aba26d5b5b945cdca9bf5004e480d4dc10de31f76e471",
+  "border_identity.py": "ed76170f6a460482f9c7e687bdec3ee8b47673386a5529323a7afc97f471fa40",
+  "evidence\\border_identity.json": "89bfb31f066d24fe67bd576961e9511a0a2f5fcb5a69e5b4f11143b110c7706e",
+  "evidence\\continuations.json": "bf409716f8e8d75adb8a641cb06507fa25f1b259cf52aabe3176935f822e1726",
+  "evidence\\control_block_20.bin": "9d4ef2db5d1cfcca745dc38857a24f48708fff15072cb8deb1e4fe5dc75c3d50",
+  "evidence\\control_block_22.bin": "9a041c9ccc406d32f4977fe2c7123240b1cb5cb2d81db3bd9ec33228f3993ebd",
+  "evidence\\control_block_38.bin": "5ec9799f44f688b77306c38dbdacfa62b5598ade6c23417e471adb689d08cfc2",
+  "evidence\\control_block_572.bin": "dce5ebf2b701bf55e749aec323946ad926317c01446950cceba556355df7e600",
+  "evidence\\node_graph_validation.json": "21ee122e834fe0594c1c66f58f09833d4c00ccd918288efc3a32ac610d094bcd",
+  "evidence\\pass_a_binary.json": "553e03e5e88f3be0138d9181204f0ed0e7abc294682d82559c30b17535db0bc6",
+  "evidence\\pass_a_frozen_rule.json": "937691f1a33e88331b1bcd5e428b6b9bfdba893bff3def2d89fb6bb4b6f3c7e7",
+  "evidence\\tests.txt": "66efbfee7ebd7bb1bfd05ea882160d23d884cb939485007f5fd341322cad0b88",
+  "first_probe.py": "4cf82c2a5b00f88fad14163a75ec9152fe9ea104caebe117bca67537ba793322",
+  "header_probe.py": "b968e194850b225c4e8d0259e29b120531701720a97861ec8ebfa00d2a14f70e",
+  "make_manifest.py": "1bf334243837209157d36abb6705467f29c422c0e97a23809e90435202b968b1",
+  "NEXT_STEP.md": "0f8054a26266e0fc78876ea8fbe1831bbde1e5f4f7c3be7dab3b0c152f1d8f81",
+  "node_graph_probe.py": "fa9d20656463b9bbb7743f5f3c432b0cda84c18a0a864c6777cc2f8753373139",
+  "NODE_GRAPH_SPEC.md": "40ab7d3b26b91cd5b56f29b0524c167f28482d942750d38b9d814dbed28cf6d0",
+  "pass_a.py": "179425fc7420ea9c3e85637ce190d0b44299b42c2fdbf0b18df69e29f80fae7e",
+  "test_node_graph.py": "394c91f5ddf5abc9240e02f653ead5a3163216a2b471a091bdbfb1b39d1c907b"
+}

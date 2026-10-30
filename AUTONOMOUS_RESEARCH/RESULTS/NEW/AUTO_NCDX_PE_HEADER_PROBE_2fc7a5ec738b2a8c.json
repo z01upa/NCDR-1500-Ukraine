@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE01.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_2fc7a5ec738b2a8c.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "841f99b246c346a15119bd4db4a3cdfa6c798d8f71738ce5d65ddae44792b843",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_2fc7a5ec738b2a8c",
+  "updated_utc": "2026-10-27T20:01:44.304526+00:00",
+  "verified_by_independent_reviewer": false
+}

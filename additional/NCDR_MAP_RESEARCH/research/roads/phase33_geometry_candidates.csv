@@ -1,0 +1,7 @@
+candidate,encoding,objects_tested,vertices_recovered,geographic_validation,status
+1,signed 8-bit deltas,20,0,failed,rejected
+2,signed BE16 deltas,20,0,failed,rejected
+3,signed LE16 deltas,20,0,failed,rejected
+4,signed 24-bit deltas,20,0,failed,rejected
+5,packed 12-bit/bitfield deltas,20,0,failed,rejected
+6,variable-length signed integers,20,0,failed,rejected

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_a7871148e18a",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_AFF_BYTE_TRANSITION_PROFILE_1d04a1b6",
+  "selected_goal_id": "AUTO_NCDX_DATA_AFF_BYTE_TRANSITION_PROFILE_1d04a1b6",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected the AFF suffix experiment as it targets small byte counts (90-89 bytes) across all regions, providing high-resolution evidence for map storage and address/index data structures without risking physical compatibility or requiring writes to original media.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_AFF_BYTE_TRANSITION_PROFILE_1d04a1b6",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_a7871148e18a",
+  "remaining_unique_experiments": 2,
+  "created_utc": "2026-10-25T19:49:18.920379+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

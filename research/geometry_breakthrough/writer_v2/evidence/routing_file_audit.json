@@ -1,0 +1,52 @@
+{
+  "status": "PASS_CONTAINERS_DECODED_SEMANTICS_UNKNOWN",
+  "files": {
+    "RT": {
+      "suffix": "RT",
+      "source": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.RT",
+      "source_sha256_before": "eb2fc3e0c431d3eb69dd0cefe23463f0bc5c7d51c9eca86692062115a920c456",
+      "source_sha256_after": "eb2fc3e0c431d3eb69dd0cefe23463f0bc5c7d51c9eca86692062115a920c456",
+      "source_write_count": 0,
+      "physical_size_bytes": 2413793,
+      "container_magic": "zip\\x01",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 8333242,
+      "opaque_container_u32": 1178,
+      "compressed_stream_count": 2713,
+      "compressed_offsets_cover_file": true,
+      "all_streams_decoded": true,
+      "logical_sha256": "5f609e1eb8269d6df36b04f7f97af9251ea9584f4c10d40e93da0fe64f5cf56f",
+      "logical_type_id_u16_at_84": 22,
+      "logical_count_u32_at_86": 0,
+      "logical_u32_at_90_uninterpreted": 8333242,
+      "candidate_fixed_stride_bytes": null,
+      "logical_first_110_bytes_hex": "5349454d454e53000000000000000000284329205349454d454e532041470000322e302e300000000000000000000000455534343432303934302e3832000000342e342e34000000000000000000000000000000160000000000ba277f000000000000000000020000002a010000",
+      "semantic_status": "UNKNOWN; container/header facts only"
+    },
+    "RL": {
+      "suffix": "RL",
+      "source": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.RL",
+      "source_sha256_before": "fbe22e41a41a9cf58a629ebda7036ab8492c3ab52d093bbe199c9559509c53b4",
+      "source_sha256_after": "fbe22e41a41a9cf58a629ebda7036ab8492c3ab52d093bbe199c9559509c53b4",
+      "source_write_count": 0,
+      "physical_size_bytes": 2714542,
+      "container_magic": "zip\\x01",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 15234844,
+      "opaque_container_u32": 937,
+      "compressed_stream_count": 4960,
+      "compressed_offsets_cover_file": true,
+      "all_streams_decoded": true,
+      "logical_sha256": "9f682996cf62e16d81773ded7d27d4b3b670ab5ad5c07a258a9c64ae84e8efb7",
+      "logical_type_id_u16_at_84": 21,
+      "logical_count_u32_at_86": 249750,
+      "logical_u32_at_90_uninterpreted": 15234844,
+      "candidate_fixed_stride_bytes": 61,
+      "logical_first_110_bytes_hex": "5349454d454e53000000000000000000284329205349454d454e532041470000322e302e300000000000000000000000455534343432303934302e3832000000342e342e34000000000000000000000000000000150096cf03001c77e800000000000000005b305d000000000000",
+      "semantic_status": "UNKNOWN; container/header facts only"
+    }
+  },
+  "finding": "A separate EUZ.RT zip\\x01 container exists (logical type 22, 0 generic records, 8,333,242 logical bytes). This is an external companion to MP0, but its relation to Section 4/5 edge routing is not established.",
+  "routing_graph_inside_mp0_only": "UNPROVEN; EUZ.RT and Sections 6-9 remain potential dependencies",
+  "method": "Existing bounded NCDx container reader; complete zlib stream decode and source hashes; no logical RT records retained or interpreted."
+}

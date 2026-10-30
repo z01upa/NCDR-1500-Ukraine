@@ -1,0 +1,2 @@
+sector,span,type,compression,logical_header_hex,role,status
+0x76307,0x01,0x09,0x00,001400100034000600180000003400340038003C003400340038003C0040004000440048,flat child bucket/list,confirmed

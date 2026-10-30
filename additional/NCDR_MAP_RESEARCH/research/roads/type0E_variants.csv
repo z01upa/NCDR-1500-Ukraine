@@ -1,0 +1,11 @@
+sector,compressed,list1_count,list2_count,list3_count,six_byte_region_in_bounds,twentyfour_byte_region_in_bounds,brifs_matching_model,success_rate
+10240,True,1126,892,951,True,True,1126,1.0
+10273,True,1115,901,943,True,True,1115,1.0
+10306,True,1069,934,950,True,True,1069,1.0
+10338,True,1095,956,975,True,True,1095,1.0
+10371,True,1100,922,974,True,True,1100,1.0
+10404,True,1252,740,922,True,True,1252,1.0
+10435,True,894,741,988,True,True,894,1.0
+10467,True,1039,985,1022,True,True,1039,1.0
+10498,True,1042,954,1030,True,True,1042,1.0
+10530,True,1027,955,1038,True,True,1027,1.0

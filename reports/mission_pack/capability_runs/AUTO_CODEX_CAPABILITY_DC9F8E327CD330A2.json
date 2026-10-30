@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "task_id": "AUTO_CODEX_CAPABILITY_DC9F8E327CD330A2",
+  "request_id": "CAP_DC9F8E327CD330A2",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "VERIFIED",
+    "request_id": "CAP_DC9F8E327CD330A2",
+    "changed_paths": [
+      "src/agent/project_director.py"
+    ],
+    "report_path": "work\\autonomous_manager\\capability_results\\CAP_DC9F8E327CD330A2_ATTEMPT_1.json",
+    "patch_path": "work\\autonomous_manager\\capability_patches\\CAP_DC9F8E327CD330A2_ATTEMPT_1.patch"
+  },
+  "created_utc": "2026-10-26T12:50:57.971225+00:00",
+  "source_write_count": 1,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

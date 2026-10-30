@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_949de55d48c8",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG3_EXACT_BLOCK_ANCHOR_SCAN_824a4abe",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG3_EXACT_BLOCK_ANCHOR_SCAN_824a4abe",
+  "selection_source": "Ollama",
+  "selection_reason": "MG3 represents a logical progression from the current MG2 profile, likely expanding the dataset or refining the anchor scan parameters to further characterize the map storage structure without introducing new hardware or write operations.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG3_EXACT_BLOCK_ANCHOR_SCAN_824a4abe",
+  "candidate_fingerprint": "aba5377535f1f6873a32440600df9bef208f7dd711b21f1bf42f218fde892d31",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_949de55d48c8",
+  "remaining_unique_experiments": 14,
+  "created_utc": "2026-10-26T23:14:13.418036+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

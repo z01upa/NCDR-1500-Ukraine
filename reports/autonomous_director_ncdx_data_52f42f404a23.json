@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_52f42f404a23",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_CROSS_REGION_WINDOW_COMPARE_36b6f144",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_CROSS_REGION_WINDOW_COMPARE_36b6f144",
+  "selection_source": "Ollama",
+  "selection_reason": "The goal focusing on cross-region window comparison (MG1) directly addresses the need to analyze and reduce uncertainty regarding map storage structures across different geographic regions (SW, Italy, Scandinavia). This aligns with the priority of investigating map storage data. The other options focus on byte transition profiles for specific suffixes (ASC, CL, CNY, TYP, CFG), which are less directly related to the core uncertainty about map storage integrity or structure compared to a cross-reg",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_CROSS_REGION_WINDOW_COMPARE_36b6f144",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_52f42f404a23",
+  "remaining_unique_experiments": 54,
+  "created_utc": "2026-10-25T19:34:30.733810+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

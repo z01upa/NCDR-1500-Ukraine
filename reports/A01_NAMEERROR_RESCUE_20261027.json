@@ -1,0 +1,16 @@
+{
+  "status": "PATCH_INSTALLED",
+  "utc": "2026-10-27T11:59:53.490251+00:00",
+  "project": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH",
+  "backup": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\backups\\A01_AVAILABLE_MODELS_20261027_115953",
+  "before_hash": {
+    "src\\agent\\project_director.py": "99bfbc6a6829208b2d628d93395989b59ef61f443c57e6ae2a756b8d9a386b3a",
+    "src\\agent\\autonomous_manager.py": "edbf0d997ebb37410e548699ff8a7f4104545b8ff7760cfb059ebab2ad017a99"
+  },
+  "after_hash": {
+    "src\\agent\\project_director.py": "9f1ea35550bcd75668f6be427e8df9500d6eb19f132337282acdf6d93c50b9a4",
+    "src\\agent\\autonomous_manager.py": "59641b9ca5d1ba1b7bc8cd922057e21702187ffb6e35e176ed861faeea8dbd09"
+  },
+  "test": "A01 BRIDGE TEST: PASS",
+  "next": "Restart ONLY idle worker to load changed modules. Recovery logic retries the specific NameError A01 once."
+}

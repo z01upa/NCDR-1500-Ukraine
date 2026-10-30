@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_ac2764fdf53f",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_ASC_EXACT_BLOCK_ANCHOR_SCAN_0eadf781",
+  "selected_goal_id": "AUTO_NCDX_DATA_ASC_EXACT_BLOCK_ANCHOR_SCAN_0eadf781",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected to reduce uncertainty regarding map storage structures; prioritizes structural evidence over semantic inference.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_ASC_EXACT_BLOCK_ANCHOR_SCAN_0eadf781",
+  "candidate_fingerprint": "8cb7c679cdc4f3aabbeb8220069cf368f8db0a2f2c760e5b1c705ef2edb2535b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_ac2764fdf53f",
+  "remaining_unique_experiments": 8,
+  "created_utc": "2026-10-26T23:15:59.680796+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

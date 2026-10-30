@@ -1,0 +1,133 @@
+{
+  "source_relative": "NCDR_ASTRA_TRANSFER/originals/NCDR/SW/DB/EUZ.MP0",
+  "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "source_unchanged": true,
+  "block": 0,
+  "compressed_offset": 20703022,
+  "compressed_size": 5549,
+  "raw_size": 10333,
+  "raw_sha256": "0be6cde99dab3c2b3b841c1d8ac8e75b28105cdbcedbb5d94ac1b11f8bb98930",
+  "node_section_offset": 607,
+  "node_count": 128,
+  "edge_section_offset": 1887,
+  "edge_count": 151,
+  "node_routine": "0x0304d848",
+  "edge_routine": "0x0304d8a0",
+  "node_replay": {
+    "translations_executed": 1174,
+    "memcpy_hooks": 128,
+    "unique_instruction_addresses": 29
+  },
+  "edge_replay": {
+    "translations_executed": 14214,
+    "memcpy_hooks": 0,
+    "unique_instruction_addresses": 82
+  },
+  "node_exact": true,
+  "edge_exact": true,
+  "padding_10_11": "untouched sentinel A5 A5; NOT zeroed or copied",
+  "attribute_probes": [
+    {
+      "field": 4,
+      "value": 0,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 1,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 2,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 15,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 16,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 64,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 127,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 128,
+      "pass_through": true
+    },
+    {
+      "field": 4,
+      "value": 255,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 0,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 1,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 2,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 15,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 16,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 64,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 127,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 128,
+      "pass_through": true
+    },
+    {
+      "field": 5,
+      "value": 255,
+      "pass_through": true
+    }
+  ],
+  "attribute_forwarding": {
+    "start": "0x0301fd18",
+    "stop_before": "0x0301fd3a",
+    "edge4_to_cover16": true,
+    "edge5_to_cover17": true,
+    "execution": {
+      "translations_executed": 17,
+      "memcpy_hooks": 0,
+      "unique_instruction_addresses": 17
+    }
+  },
+  "limitation": "Static pcode replay on one block and 18 mutations; modeled memcpy only; no OS/hardware or route execution."
+}

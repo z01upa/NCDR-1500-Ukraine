@@ -1,0 +1,12 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.MG1",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG1",
+    "SW/DB/EUZ.MG1",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_878a0433.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_878a0433",
+  "updated_utc": "2026-10-27T17:45:53.165960+00:00"
+}

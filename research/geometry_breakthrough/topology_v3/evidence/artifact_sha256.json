@@ -1,0 +1,20 @@
+{
+  "source_mp0_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "artifacts": {
+    "README.md": "cd2c97bb4a60f8aaea79fa10f801f0b971f56af9f2df0fa1eb38e0bde256f52f",
+    "ACCEPTANCE.md": "a7f472f196108d7debb56787446547a0728114332faa671d01f078384a7c27c7",
+    "NEXT_STEP.md": "cc166be3153f163e35c1e02a8415c99a74e3dae964a76216dafee86c84a3c957",
+    "node_link_decoder.py": "9bdf28b92af665ac3d75eb63ff47f748d2ce2b7b740d9b36c01ace2da35dea7e",
+    "node_link_validator.py": "b2f141b0697599cea060d6af56111ecc4143fd7a9f742b61710a6437dd2d6d07",
+    "topology_editor.py": "1274ec35ae1d04273c5dbd0985ed8f530bbe8bf9a6661d492d67b467479dfb25",
+    "firmware_scope.py": "11453570a08fb73450244c1c79375aaef5994eb2c81a9cf430383db35180ffc7",
+    "tests/test_node_links.py": "8252c48e1c799e46126b83b0dd2a2b9d0d770bce751874c8af87eef94b81f9b9",
+    "evidence/node_link_validation.json": "bd5727e0951757ecdd9e2b700b0215fc3787c0071362875db3fb34da18d74cfb",
+    "evidence/block_layout_summary.json": "8c557127886f36712ec34f16a8b2b1837da4d0e9f0cd5b06398f135e953bf37a",
+    "evidence/firmware_scope.json": "4aacf00423a10f509f0ca6458a1bc6b1f664cfb8798ae74dee7d7c0ae6d790c4",
+    "evidence/topology_v3_tests.log": "087db2fed99b66ba179e7645f8cedf983dd6ac58db7e6be08188a2d03aba5c22",
+    "evidence/writer_v1_regression.log": "e220fba77d2dff193a3713e1bd555e68fa0924f8005ce175bed41c1057807b57",
+    "evidence/topology_v2_regression.log": "03edad90f4af70ac2e0093a7959823e280b8d34c6ec94bfb15ae5caf2dc6e3b8",
+    "evidence/test_run_summary.json": "6d5eda7f002a23834c02474a387da7d2efcc2ba594de63802334d921591031b3"
+  }
+}

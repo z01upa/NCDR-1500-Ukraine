@@ -1,0 +1,36 @@
+{
+  "verified_utc": "2026-10-25T15:35:00Z",
+  "cli": {
+    "installed": true,
+    "version": "codex-cli 0.164.0-alpha.11.1",
+    "login_status_exit_code": 0,
+    "login_status": "logged in",
+    "exec_help_exit_code": 0,
+    "options_present": [
+      "sandbox",
+      "approval",
+      "json",
+      "ephemeral"
+    ]
+  },
+  "automated_capabilities_e2e": {
+    "planning": "PASS",
+    "programming": "PASS",
+    "read_only_review": "PASS",
+    "all_codex_task_exit_codes": 0,
+    "evidence": "reports/autonomy_e2e.json"
+  },
+  "account_limit_snapshot": {
+    "ordinary_usage_allowed": true,
+    "plan_type": "plus",
+    "primary_window_used_percent": 37,
+    "primary_window_minutes": 300,
+    "weekly_window_used_percent": 6,
+    "weekly_window_minutes": 10080,
+    "extra_credits_available": false,
+    "spend_control_reached": false,
+    "rate_limit_reached": false
+  },
+  "scope_note": "Usage is a point-in-time account-wide snapshot from Codex. The CLI help and successful E2E establish supported commands and current authentication; they do not expose a separate fixed per-task quota. Limits can change after this check.",
+  "official_reference": "https://developers.openai.com/codex/cli"
+}

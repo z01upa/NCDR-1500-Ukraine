@@ -1,0 +1,23 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.CNY",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.CTY",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG1",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG2",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MG3",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+    "SW/DB/EUZ.CNY",
+    "SW/DB/EUZ.CTY",
+    "SW/DB/EUZ.MG1",
+    "SW/DB/EUZ.MG2",
+    "SW/DB/EUZ.MG3",
+    "SW/DB/EUZ.MP0",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_989d7eda.json",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_fa53f697.json",
+    "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_A9B45CFB00C415CC.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_GEOBLOCK_A9B45CFB00C415CC",
+  "updated_utc": "2026-10-28T21:15:24.806950+00:00"
+}

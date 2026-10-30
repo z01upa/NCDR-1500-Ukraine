@@ -1,0 +1,11 @@
+{
+  "artifact_pointers": [],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "e0d566928c26aab08141c7bd55e9a0326095c87dd9866a68fe2f096b3d7e176c",
+  "status": "BLOCKED",
+  "task_id": "AUTO_MISSION_EXEC_B03_557FA191",
+  "updated_utc": "2026-10-28T16:52:09.003715+00:00",
+  "verified_by_independent_reviewer": false
+}

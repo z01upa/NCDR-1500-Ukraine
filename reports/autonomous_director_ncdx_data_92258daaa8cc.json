@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_92258daaa8cc",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CL_BYTE_TRANSITION_PROFILE_99900482",
+  "selected_goal_id": "AUTO_NCDX_DATA_CL_BYTE_TRANSITION_PROFILE_99900482",
+  "selection_source": "Ollama",
+  "selection_reason": "The CL suffix dataset contains significantly larger byte counts (hundreds of thousands to millions) compared to CNY, TYP, or CFG, suggesting it holds substantial address/index or route data where byte transition profiles would yield meaningful evidence for map storage uncertainty reduction. SW and Italy regions show high variability in file sizes, indicating potential structural differences worth analyzing.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CL_BYTE_TRANSITION_PROFILE_99900482",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_92258daaa8cc",
+  "remaining_unique_experiments": 26,
+  "created_utc": "2026-10-25T19:42:27.417137+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

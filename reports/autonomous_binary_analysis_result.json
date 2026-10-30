@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "focus": "binary_analysis",
+  "acceptance": "python -B tests/unit/test_ncdx_mp0_header.py exits with code 0; all inputs are fixtures or read-only source files.",
+  "test": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.275s\n\nOK\n",
+    "test_file": "tests\\unit\\test_ncdx_mp0_header.py"
+  },
+  "scope": "read-only source files and fixtures",
+  "component_readiness": "PASS"
+}

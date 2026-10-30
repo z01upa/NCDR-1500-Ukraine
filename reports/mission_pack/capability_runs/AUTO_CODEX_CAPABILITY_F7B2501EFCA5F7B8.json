@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_F7B2501EFCA5F7B8",
+  "request_id": "CAP_F7B2501EFCA5F7B8",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_F7B2501EFCA5F7B8",
+    "reason": "RuntimeError: verification command failed (1): ...F\n======================================================================\nFAIL: test_test_runner_environment_points_only_to_the_isolated_checkout (tests.unit.test_capability_broker_isolation.CapabilityBrokerIsolationTests.test_test_runner_environment_points_only_to_the_isolated_checkout)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_F7B2501EFCA5F7B8_ATTEMPT_1\\tests\\unit\\test_capability_broker_isolation.py\", line 24, in test_test_runner_environment_points_only_to_the_isolated_checkout\n    self.assertNotIn(str(PROJECT_ROOT.resolve()), environment[\"PYTHONPATH\"])\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: '${NCDR_WORK_ROOT}\\\\NCDR_MAP_RESEARCH\\\\work\\\\autonomous_manager\\\\capability_worktrees\\\\CAP_F7B2501EFCA5F7B8_ATTEMPT_1' unexpectedly found in '${NCDR_WORK_ROOT}\\\\NCDR_MAP_RESEARCH\\\\work\\\\autonomous_manager\\\\capability_worktrees\\\\CAP_F7B2501EFCA5F7B8_ATTEMPT_1\\\\work\\\\tmp97gopnau'\n\n----------------------------------------------------------------------\nRan 4 tests in 0.053s\n\nFAILED (failures=1)\n"
+  },
+  "created_utc": "2026-10-26T15:29:53.941405+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_54134cc98b25",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MP0_EXACT_BLOCK_ANCHOR_SCAN_facf4910",
+  "selected_goal_id": "AUTO_NCDX_DATA_MP0_EXACT_BLOCK_ANCHOR_SCAN_facf4910",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizes evidence regarding map storage structures (MP0) with the largest input volume (416,655,331 bytes), providing the most significant reduction of uncertainty about address/index data within the read-only bounded structural constraints.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MP0_EXACT_BLOCK_ANCHOR_SCAN_facf4910",
+  "candidate_fingerprint": "df6e4bb8c8d73d8097476321064340be086f4ca12355c18ad3dbcd93c64600a2",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_54134cc98b25",
+  "remaining_unique_experiments": 13,
+  "created_utc": "2026-10-26T23:14:31.725194+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "nodes_in_broad_ukraine_bbox": 188
+  },
+  "blocks": [
+    {
+      "block": 886,
+      "count": 188,
+      "min": [
+        2200046,
+        4865475
+      ],
+      "max": [
+        2226570,
+        4878193
+      ]
+    }
+  ],
+  "available_osm": "data/osm/ukraine-latest.osm.pbf and kryvyi_rih_20261025.osm; broad bbox is only an overlap screen"
+}

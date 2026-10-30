@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_11633c31cf7a",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_6163e83f38cf77b3",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE01.DLL",
+  "selected_source_sha256": "f5fc79d18b2f2e0e16f618cda288853f71a52c941811a560740175b5baa3731f",
+  "selected_size_bytes": 73289,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "The source path 'HU_TMC_LOC' and filename 'TMCUPDATE01.DLL' strongly suggest a TMC (Traffic Message Channel) module, which is critical for navigation-format evidence and dynamic map data updates in automotive systems.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_6163e83f38cf77b3",
+  "candidate_fingerprint": "11633c31cf7a1e3a3788b806593973d9fd57f162bee3e8169b8e251d36e23c50",
+  "remaining_unseen_candidates": 11,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:02:34.270677+00:00"
+}

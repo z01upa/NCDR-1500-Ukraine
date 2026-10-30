@@ -1,0 +1,68 @@
+{
+  "task_id": "AUTO_RESEARCH_FOLLOWUP_6be2a1874a49",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"hypothesis\": \"Файли з різних регіонів з розширенням CT мають спільний префікс.\",\n  \"target_suffix\": \"CT\",\n  \"expected_observation\": \"Всі три регіони мають спільний префікс довжиною 8 байтів.\",\n  \"falsifier\": \"Якщо хоча б один з регіонів має різний префікс, гіпотеза не підтверджується.\",\n  \"script\": \"common_prefix = 0\\nfor i in range(8):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nprint(common_prefix)\"\n}",
+  "parsed": {
+    "hypothesis": "Файли з різних регіонів з розширенням CT мають спільний префікс.",
+    "target_suffix": "CT",
+    "expected_observation": "Всі три регіони мають спільний префікс довжиною 8 байтів.",
+    "falsifier": "Якщо хоча б один з регіонів має різний префікс, гіпотеза не підтверджується.",
+    "script": "common_prefix = 0\nfor i in range(8):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nprint(common_prefix)"
+  },
+  "script_validation": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 7
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.0331,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    },
+    {
+      "name": "sandbox_script_matches_independent_CT_target",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 7
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.0268,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "preview_test_expected": 8,
+  "selected_target": "CT",
+  "source_preview": [
+    {
+      "region": "SW",
+      "bytes": 233847,
+      "prefix_hex": "7a697001000c000068180a009d0500007403000011090000310d00009c110000b8150000d8190000e81d000063220000612600009d2a0000152f00007f330000"
+    },
+    {
+      "region": "Italy",
+      "bytes": 561969,
+      "prefix_hex": "7a697001000c000090071800c205000018080000da0d00002212000060160000aa1a00003a1f00007f2300009a270000b82b0000d92f00000d34000073380000"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 409615,
+      "prefix_hex": "7a697001000c0000ca961100c2050000f4050000b60b0000e40f000006140000a3180000b91c0000f020000053250000a1290000b72d00001c3200001e360000"
+    }
+  ],
+  "script_path": "research/runs/coordinator/AUTO_RESEARCH_FOLLOWUP_6be2a1874a49/model_generated_script.py",
+  "script_sha256": "f99088452755190882eadec977760cc9302ef407ab6c09e02fb175b58517c3e1",
+  "warning": "Hypothesis is proposed, not a confirmed format fact."
+}

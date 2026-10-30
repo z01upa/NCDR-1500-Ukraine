@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_PLAN_OSM_01",
+  "goal_id": "OSM_REAL_CONVERSION",
+  "selected_model": "qwen3.5:9b",
+  "benchmark_selected_model": "qwen3.5:9b",
+  "model_plan": {
+    "goal_id": "OSM_REAL_CONVERSION",
+    "depends_on": [],
+    "acceptance_tests": [
+      "Verify the output directory contains a valid SQLite database file (e.g., 'krivyi_rih.db') with non-zero size.",
+      "Confirm the database schema includes expected tables such as 'nodes', 'ways', and 'poi' derived from the input PBF."
+    ],
+    "requires_hardware": false,
+    "writes_original_media": false,
+    "reason": "The task involves parsing a local OSM PBF file into an offline SQLite database using standard software tools (e.g., osmium or custom Python scripts), which does not require specific hardware beyond the existing system and does not modify the original input media."
+  },
+  "schema_validation": {
+    "passed": {
+      "allowlisted_goal": true,
+      "dependency_exact": true,
+      "has_acceptance_tests": true,
+      "no_hardware_dependency": true,
+      "original_media_unchanged": true,
+      "reason_present": true
+    },
+    "score": 6,
+    "maximum": 6
+  },
+  "created_task_id": "AUTO_OSM_REAL_CONVERSION_20261025",
+  "depends_on": null,
+  "created_utc": "2026-10-25T18:08:21.095784+00:00",
+  "guard": "model output is data only; deterministic task registry selected the handler"
+}

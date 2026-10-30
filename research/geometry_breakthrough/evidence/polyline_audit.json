@@ -1,0 +1,13 @@
+{
+  "blocks_passed": 2956,
+  "failures": [],
+  "edges": 1090323,
+  "vertices": 3628951,
+  "shape_edges": 723217,
+  "within_5m_or_2percent": 1068767,
+  "ratio_median": 1.000563908516027,
+  "ratio_p01": 0.9919348675949126,
+  "ratio_p99": 448.2520136127347,
+  "error_median_m": 0.14228408778527069,
+  "external_geography_verified": false
+}

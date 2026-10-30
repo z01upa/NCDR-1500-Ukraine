@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_11ff68d134e2",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_FEA_EXACT_BLOCK_ANCHOR_SCAN_e64c9d79",
+  "selected_goal_id": "AUTO_NCDX_DATA_FEA_EXACT_BLOCK_ANCHOR_SCAN_e64c9d79",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the highest total_input_bytes (145255207) among eligible experiments, providing the largest bounded structural evidence sample to reduce uncertainty regarding map storage and data distribution without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_FEA_EXACT_BLOCK_ANCHOR_SCAN_e64c9d79",
+  "candidate_fingerprint": "4bb1d23a13b4a99f734359a683ce4b4281f9df99aec738379119389103b1aaa3",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_11ff68d134e2",
+  "remaining_unique_experiments": 21,
+  "created_utc": "2026-10-26T23:12:02.619174+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

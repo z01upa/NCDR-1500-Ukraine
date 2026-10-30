@@ -1,0 +1,29 @@
+P_node,Q_node,roads,occurrences,reason,P_ptrs,Q_ptrs
+13A5900014465000,13B1900014165000,00383A:1960;00383A:1980,2,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,8028;8028
+163B10001288D000,163C9000128D5000,0031D8:02D8;0035BB:0908;003787:0100,3,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,2596;2596;2596,
+164290001267D000,16531000127FD000,0032C4:01E0;003404:0CA0,2,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,1944;1944
+165010001279D000,167710001276D000,003217:06D8,1,missing road direction;ptr collision to multiple neighbors,,2748
+16531000127FD000,16561000127D9000,00339C:0568;003452:06C0,2,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,1944;1944,
+16561000127FD000,16591000127D9000,00327B:0848,1,missing road direction;ptr collision to multiple neighbors,,2052
+16591000127F1000,165C100012809000,003550:1458;003550:14C0;00371D:0B60;00371D:0B80,4,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,2704;2704;2704;2704
+1659100012809000,165C1000127F1000,00325C:0388;003404:01F0;003550:1468;003550:14D0,4,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,4648;4648;4648;4648
+165C1000127F1000,165F1000127D9000,0031D8:0700;0033C2:0968;00352C:1508;003550:00C8;0036F9:0C30;0036F9:0C80,6,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,1160;1160;1160;1160;1160;1160,
+165C10001282D000,1662100012839000,0037F3:0E50,1,missing road direction;ptr collision to multiple neighbors,,3636
+165F100012719000,1661500012731000,00325C:06A8;003817:04B0,2,missing road direction;different ptr for same neighbor;ptr collision to multiple neighbors;multiple roads sharing physical pair,,416;736
+1661500012731000,1668100012719000,0031BF:03B0;00325C:0408;00339C:0960,3,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,920;920;920
+166150001275B000,1662D00012749000,00325C:0518;00325C:0530;003373:00F8;003373:0110;003648:0180;003648:0450,6,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,2028;2028;2028;2028;2028;2028,
+1665100012791000,166B10001273D000,0031BF:03B0;00325C:0408;00339C:0960,3,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,5076;5076;5076,
+16651000127A9000,1665D00012779000,0032A4:0A78;0032A4:0A90;00334B:0550;00334B:0568;0035DE:0910;0035DE:09C0,6,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,1944;1944;1944;1944;1944;1944,
+16651000127C1000,16681000127D9000,0036B2:0EA8;0036B2:0EB8,2,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,584;584
+166510001282D000,166E10001282D000,003787:14A0,1,missing road direction;ptr collision to multiple neighbors,,2960
+1665D00012779000,1667500012761000,0031EF:0B80;0031EF:0B90;00325C:04D0;00325C:04E0;003550:0248;003550:03C0,12,missing road direction;different ptr for same neighbor;ptr collision to multiple neighbors;multiple roads sharing physical pair,,10588;7868;10588;7868;10588;7868;10588;7868;10588;7868;10588;7868
+166810001279D000,166B100012779000,0031BF:03B0;0031BF:03C8;00325C:0408;00325C:0420;00339C:0960;00339C:0978;003550:0160;003550:03B8;003550:06D8,9,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,11640;11640;11640;11640;11640;11640;11640;11640;11640,
+1668D00012749000,167410001270D000,00347F:0758,1,missing road direction;ptr collision to multiple neighbors,,5916
+166E1000127A9000,167890001279D000,003373:0688,1,missing road direction;ptr collision to multiple neighbors,,3288
+1671100012719000,1674100012731000,003624:0D58;003624:0DB8;003624:0DC8,3,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,3240;3240;3240
+1672900012695000,16789000127CD000,0032C4:0030,1,missing road direction;ptr collision to multiple neighbors,,2580
+1672900012815000,167710001276D000,0041E6:1870;0041E6:1880;004208:0FB8,3,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,2624;2624;2624,
+16735000127A9000,16789000127CD000,003373:0688;003373:0690;0034BF:11F8,3,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,2356;2356;2356
+167710001276D000,167E9000127B5000,004208:0F50;004208:1080,2,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,12240;12240
+16789000127CD000,167E900012755000,004208:0468;004208:05A0,2,ptr collision to multiple neighbors;missing road direction;multiple roads sharing physical pair,2580;2580,
+167B900012815000,167E9000127B5000,0041E6:1400;0041E6:1CA8;004208:0F28;004208:1078,4,missing road direction;ptr collision to multiple neighbors;multiple roads sharing physical pair,,1872;1872;1872;1872

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_OSM_FAILURE_REVIEW_CCE15BE0CEAF",
+  "model": "qwen3.5:4b",
+  "source_task": "AUTO_OSM_NATIONAL_CONVERSION_01",
+  "error": "ParseError: out of memory: line 35162295, column 0. Legacy monolithic ElementTree import exceeded available memory; source-bound extract passed complete gzip CRC/EOF verification.",
+  "checkpoint_token": "822ba7a5e9bdb9d4",
+  "root_cause_class": "MEMORY_MONOLITH",
+  "explanation": "The error indicates a memory exhaustion during the legacy monolithic ElementTree import process, specifically at line 35162295. The source-bound extract passed verification (CRC/EOF), and the checkpoint token is valid, suggesting the failure lies in the processing method's inability to handle the da",
+  "recommendation": "RESUME_CHECKPOINTED_SLICES",
+  "safety_note": "The legacy monolithic import approach has been identified as the source of the memory overflow. The system should switch to the new line-oriented SQLite slice processing method, which is designed to handle large datasets without exhausting memory. Do",
+  "deterministic_disposition": "continue only from the durable checkpoint; model recommendation cannot alter the queue",
+  "model_output_executed": false,
+  "original_media_write_count": 0,
+  "validation": [
+    {
+      "name": "fixed_schema_allowlist",
+      "status": "PASS"
+    },
+    {
+      "name": "model_output_not_executed",
+      "status": "PASS"
+    },
+    {
+      "name": "original_media_read_only",
+      "status": "PASS"
+    }
+  ],
+  "raw_response": "{\n  \"root_cause_class\": \"MEMORY_MONOLITH\",\n  \"explanation\": \"The error indicates a memory exhaustion during the legacy monolithic ElementTree import process, specifically at line 35162295. The source-bound extract passed verification (CRC/EOF), and the checkpoint token is valid, suggesting the failure lies in the processing method's inability to handle the data volume within available memory constraints.\",\n  \"next_action\": \"RESUME_CHECKPOINTED_SLICES\",\n  \"safety_note\": \"The legacy monolithic import approach has been identified as the source of the memory overflow. The system should switch to the new line-oriented SQLite slice processing method, which is designed to handle large datasets without exhausting memory. Do not attempt to re-run the failed monolithic import or modify the verified source data.\"\n}",
+  "parsed_response": {
+    "root_cause_class": "MEMORY_MONOLITH",
+    "explanation": "The error indicates a memory exhaustion during the legacy monolithic ElementTree import process, specifically at line 35162295. The source-bound extract passed verification (CRC/EOF), and the checkpoint token is valid, suggesting the failure lies in the processing method's inability to handle the data volume within available memory constraints.",
+    "next_action": "RESUME_CHECKPOINTED_SLICES",
+    "safety_note": "The legacy monolithic import approach has been identified as the source of the memory overflow. The system should switch to the new line-oriented SQLite slice processing method, which is designed to handle large datasets without exhausting memory. Do not attempt to re-run the failed monolithic import or modify the verified source data."
+  }
+}

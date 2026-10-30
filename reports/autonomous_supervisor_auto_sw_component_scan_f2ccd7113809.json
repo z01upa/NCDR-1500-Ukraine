@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_SW_COMPONENT_SCAN_f2ccd7113809",
+  "target_task": "AUTO_SW_COMPONENT_SCAN_f2ccd7113809",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "The semantic format of C161APPLUPDATE.DLL remains UNKNOWN despite PE signature at offset 224; further analysis requires full binary context beyond the 4096-byte read limit."
+    ],
+    "suggested_next_goal_id": "allowlisted goal"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_SW_COMPONENT_SCAN_f2ccd7113809",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "original_hash_unchanged": true,
+      "manifest_hash_match": true,
+      "source_size_match": true,
+      "read_limit_bytes": 4096,
+      "source_write_count": 0,
+      "source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_C161APPL_LOC_0040450000/C161APPLUPDATE.DLL",
+      "source_sha256": "d4584197b1bf2ba862f602539f5447695ab787336020e8934de745cf0e3ae719",
+      "printable_string_count": 16,
+      "observed_signatures_and_offsets": {
+        "MZ": 0,
+        "PE": 224
+      },
+      "semantic_format": "UNKNOWN; bounded observations only"
+    }
+  },
+  "created_utc": "2026-10-25T18:43:50.960593+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.json",
+      "sha256": "2fa5269a10362d31f9f1c079cffa5f501dc4303fb2462f6f28f673c30af1bf65",
+      "size_bytes": 19593,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.md",
+      "sha256": "debab6b5e7bec245c7dd8233f2d19f889520176f97e21a4d0544de4e39610d69",
+      "size_bytes": 3230,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.json",
+      "sha256": "b6cc5269404a5139a3d00ea82d82a9ceb8b625502866f52ee4fbe82d3013ea29",
+      "size_bytes": 19594,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.md",
+      "sha256": "a9c39e66d08e846788450697759636dd9806061af6415eb225a463672ed774c9",
+      "size_bytes": 3229,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "a1e6d3eebc8061e9be044429abfd6d92c8223755f189c8602b73943cbf839fd3",
+      "size_bytes": 19595,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "e6b2b3e423b747f9470ceeb35eaf2663bfa586e5f0816da9cad7d7207fd3d436",
+      "size_bytes": 3229,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

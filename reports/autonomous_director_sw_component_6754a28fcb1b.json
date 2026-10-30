@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_6754a28fcb1b",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_8ad6f7c70008a982",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE.DLL",
+  "selected_source_sha256": "b5fa74e9e721050c99e2b4a6a800fe88b3d6107d782cc2e5fb583c67e74b801f",
+  "selected_size_bytes": 69703,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "TMCUPDATE.DLL is a navigation-related update file that can provide NCDx software or format evidence.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_8ad6f7c70008a982",
+  "candidate_fingerprint": "6754a28fcb1bb2f13183f7bc11ba0f3caba63f6f5551fb51b1e7ec79e00d8277",
+  "remaining_unseen_candidates": 7,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:04:31.556092+00:00"
+}

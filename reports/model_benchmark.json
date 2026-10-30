@@ -1,0 +1,1424 @@
+{
+  "benchmark_version": 3,
+  "status": "COMPLETE",
+  "created_utc": "2026-10-25T13:36:02Z",
+  "api_base": "http://127.0.0.1:11434",
+  "context_tokens": 4096,
+  "models_in_order": [
+    "qwen3.5:4b",
+    "qwen2.5-coder:7b",
+    "qwen3.5:9b",
+    "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M"
+  ],
+  "model_metadata": [
+    {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "modified_at": "2026-10-20T23:53:42.5659925+03:00",
+      "size": 3324173934,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2560,
+        "runner": "llamacpp"
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ]
+    },
+    {
+      "name": "qwen2.5-coder:7b",
+      "model": "qwen2.5-coder:7b",
+      "modified_at": "2026-10-20T23:53:43.2484532+03:00",
+      "size": 4683087561,
+      "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 3584,
+        "runner": "ggml"
+      },
+      "capabilities": [
+        "completion",
+        "tools",
+        "insert"
+      ]
+    },
+    {
+      "name": "qwen3.5:9b",
+      "model": "qwen3.5:9b",
+      "modified_at": "2026-10-24T16:06:11.1096481+03:00",
+      "size": 6550825550,
+      "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "9.0B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "runner": "llamacpp"
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ]
+    },
+    {
+      "name": "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+      "model": "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+      "modified_at": "2026-10-25T14:59:25.9995079+02:00",
+      "size": 6657768737,
+      "digest": "5008e78bba127262f3f7ad86425bb49a5e0f47bb1959a4d30bfe17832ec45856",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "8.95B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 1048576,
+        "embedding_length": 4096,
+        "runner": "ggml"
+      },
+      "capabilities": [
+        "tools",
+        "thinking",
+        "completion",
+        "vision"
+      ]
+    }
+  ],
+  "missing_models": [],
+  "task_set_count": 18,
+  "selection_rule": "Maximize automatically verified NCDR tasks per minute; report incomplete runs separately.",
+  "recommended_model": "qwen3.5:4b",
+  "models": [
+    {
+      "model": "qwen3.5:4b",
+      "status": "COMPLETE",
+      "task_count": 18,
+      "passed": 8,
+      "failed_or_error": 10,
+      "useful_artifacts": 8,
+      "duration_seconds": 19.686,
+      "verified_results_per_minute": 24.3831,
+      "baseline_resources": {
+        "ram": {
+          "total_bytes": 33811132416,
+          "available_bytes": 12559073280,
+          "used_bytes": 21252059136,
+          "load_percent": 62
+        },
+        "gpu": {
+          "name": "NVIDIA RTX PRO 1000 Blackwell Generation Laptop GPU",
+          "memory_total_mib": 8151,
+          "memory_free_mib": 6864,
+          "memory_used_mib": 1047,
+          "utilization_percent": 2
+        }
+      },
+      "peak_vram_used_mib": 4791,
+      "peak_host_ram_used_bytes": 23905021952,
+      "ollama_ps_before": "NAME    ID    SIZE    PROCESSOR    CONTEXT    RUNNER    UNTIL \n",
+      "ollama_ps_during_or_after_load": "NAME          ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL               \nqwen3.5:4b    d8b0f5e9760c    3.1 GB    100% GPU     4096       llamacpp    29 seconds from now    \n",
+      "unload": "unload requested",
+      "tasks": [
+        {
+          "task_id": "NCDR_SIG_01",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: (*$siemens&^), 0x00",
+          "wall_ms": 4597,
+          "prompt_tokens": 132,
+          "output_tokens": 22,
+          "tokens_per_second": 67.6142912024587,
+          "load_duration_ns": 4084657300,
+          "total_duration_ns": 4582358600,
+          "result": {
+            "answer": "\"SIEMENS^&)\" at offset 0"
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_02",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: 0x00, 0x10, 0x20, 0x30",
+          "wall_ms": 1247,
+          "prompt_tokens": 159,
+          "output_tokens": 74,
+          "tokens_per_second": 67.43948673082531,
+          "load_duration_ns": 3502300,
+          "total_duration_ns": 1235921900,
+          "result": {
+            "answer": {
+              "marker": "(*$SIEMENS&^)",
+              "copyright": "Copyright 1998",
+              "internal_version": "2.0.0",
+              "raw_dataset_code": "EU44420940.82"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_ENDIAN_03",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 328,
+          "prompt_tokens": 111,
+          "output_tokens": 13,
+          "tokens_per_second": 76.70838422639594,
+          "load_duration_ns": 2677200,
+          "total_duration_ns": 313615000,
+          "result": {
+            "answer": 512
+          }
+        },
+        {
+          "task_id": "NCDR_OFFSET_04",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 355,
+          "prompt_tokens": 104,
+          "output_tokens": 17,
+          "tokens_per_second": 75.73226417195679,
+          "load_duration_ns": 3000300,
+          "total_duration_ns": 355143400,
+          "result": {
+            "answer": 4538976
+          }
+        },
+        {
+          "task_id": "NCDR_COMPRESSION_05",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1520,
+          "prompt_tokens": 93,
+          "output_tokens": 96,
+          "tokens_per_second": 69.24048953026099,
+          "load_duration_ns": 2500300,
+          "total_duration_ns": 1519108300,
+          "result": {
+            "answer": "Bounded Fact: In the existing DB_0 evidence, compression byte 0x02 was validated as zlib.\nScope: The validation applies specifically to the binary format analysis of DB_0 where the compression indicator byte at offset 0x02 (or equivalent position per NCDR standards) was examined and confirmed to match the hexadecimal value 0x02, which corresponds to the zlib compression method identifier."
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_RULE_06",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 464,
+          "prompt_tokens": 103,
+          "output_tokens": 22,
+          "tokens_per_second": 68.00744372384031,
+          "load_duration_ns": 3492200,
+          "total_duration_ns": 443519700,
+          "result": {
+            "answer": "byte 7 * 512 - 8"
+          }
+        },
+        {
+          "task_id": "NCDR_UNKNOWN_07",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: unknown",
+          "wall_ms": 822,
+          "prompt_tokens": 107,
+          "output_tokens": 45,
+          "tokens_per_second": 66.44233764814796,
+          "load_duration_ns": 4505500,
+          "total_duration_ns": 801542000,
+          "result": {
+            "answer": "Unresolved: Previous DB_0 analysis failed to decode compression 0x01 and reported a missing external logical buffer for sector 0x11576."
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_ITALY_08",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1329,
+          "prompt_tokens": 127,
+          "output_tokens": 84,
+          "tokens_per_second": 70.6382162841271,
+          "load_duration_ns": 3273000,
+          "total_duration_ns": 1310459400,
+          "result": {
+            "answer": {
+              "volume": "CD_7185",
+              "area": "Italy",
+              "db": "I(2009Q4)",
+              "version": "444.31.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_SCANDI_09",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1358,
+          "prompt_tokens": 127,
+          "output_tokens": 84,
+          "tokens_per_second": 70.442791647833,
+          "load_duration_ns": 11141600,
+          "total_duration_ns": 1343137500,
+          "result": {
+            "answer": {
+              "Volume": "CD_7186",
+              "Area": "SC",
+              "db": "SC(2009Q4)",
+              "Version": "444.42.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_EU_10",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1367,
+          "prompt_tokens": 127,
+          "output_tokens": 84,
+          "tokens_per_second": 69.12749579062927,
+          "load_duration_ns": 6990100,
+          "total_duration_ns": 1352461200,
+          "result": {
+            "answer": {
+              "Volume": "CD_7190",
+              "Area": "EU",
+              "db": "EU(2009Q4)",
+              "Version": "444.20.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_FILESYSTEM_11",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 921,
+          "prompt_tokens": 111,
+          "output_tokens": 56,
+          "tokens_per_second": 70.55767018573047,
+          "load_duration_ns": 2992500,
+          "total_duration_ns": 920912400,
+          "result": {
+            "answer": "The VERSION.TXT file states that the filesystem on the CD must be ISO9660 level 2, supporting long filenames up to 30 characters. However, this documented requirement alone does not prove NCDR compatibility."
+          }
+        },
+        {
+          "task_id": "NCDR_DIFF_12",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "expected {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}; got {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}",
+          "wall_ms": 682,
+          "prompt_tokens": 125,
+          "output_tokens": 39,
+          "tokens_per_second": 72.82124438436173,
+          "load_duration_ns": 9860500,
+          "total_duration_ns": 670838100,
+          "result": {
+            "matched": 113,
+            "same_sha256": 78,
+            "different_sha256": 35
+          }
+        },
+        {
+          "task_id": "NCDR_DATASET_CODE_13",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 292,
+          "prompt_tokens": 98,
+          "output_tokens": 10,
+          "tokens_per_second": 71.68767115431488,
+          "load_duration_ns": 7240600,
+          "total_duration_ns": 268655600,
+          "result": {
+            "answer": ""
+          }
+        },
+        {
+          "task_id": "NCDR_COMPAT_14",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: not proven, hardware_unverified",
+          "wall_ms": 300,
+          "prompt_tokens": 138,
+          "output_tokens": 10,
+          "tokens_per_second": 78.36499279042066,
+          "load_duration_ns": 3587800,
+          "total_duration_ns": 274378900,
+          "result": {
+            "answer": false
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_U24_15",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded byte tests",
+          "wall_ms": 1120,
+          "prompt_tokens": 110,
+          "output_tokens": 67,
+          "tokens_per_second": 69.11327666044647,
+          "load_duration_ns": 8283000,
+          "total_duration_ns": 1100947100,
+          "result": {
+            "code": "def read_u24_be(data):\n    if len(data) != 3:\n        raise ValueError(\"Expected exactly three bytes\")\n    return (data[0] << 16) | (data[1] << 8) | data[2]"
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_MP0_16",
+          "status": "ERROR",
+          "pass": false,
+          "wall_ms": 283,
+          "error": "TypeError: object of type 'NoneType' has no len()"
+        },
+        {
+          "task_id": "NCDR_HYPOTHESIS_17",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "complete falsifiable hypothesis structure required",
+          "wall_ms": 1736,
+          "prompt_tokens": 166,
+          "output_tokens": 109,
+          "tokens_per_second": 69.68703488699192,
+          "load_duration_ns": 7053200,
+          "total_duration_ns": 1714263400,
+          "result": {
+            "hypothesis": "The fixed header is shared across the three independent Z.MP0 files.",
+            "file_offset": "0x00",
+            "test": "Compare the 13-byte marker at offset 0x00 and the NUL-terminated dataset code at offset 0x30 for all three files.",
+            "falsifier": "If any byte in the 13-byte marker or any character in the dataset code differs between the files."
+          }
+        },
+        {
+          "task_id": "NCDR_CORRUPTION_TEST_18",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: read-only",
+          "wall_ms": 791,
+          "prompt_tokens": 106,
+          "output_tokens": 47,
+          "tokens_per_second": 72.48030694638925,
+          "load_duration_ns": 2948000,
+          "total_duration_ns": 773497300,
+          "result": {
+            "test": "Attempt to read EUZ.MP0 header with an incorrect expected SHA-256 hash value; verify that the reader rejects the mismatched header before any write operation is permitted."
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen2.5-coder:7b",
+      "status": "COMPLETE",
+      "task_count": 18,
+      "passed": 7,
+      "failed_or_error": 11,
+      "useful_artifacts": 7,
+      "duration_seconds": 20.571,
+      "verified_results_per_minute": 20.4175,
+      "baseline_resources": {
+        "ram": {
+          "total_bytes": 33811132416,
+          "available_bytes": 9904275456,
+          "used_bytes": 23906856960,
+          "load_percent": 70
+        },
+        "gpu": {
+          "name": "NVIDIA RTX PRO 1000 Blackwell Generation Laptop GPU",
+          "memory_total_mib": 8151,
+          "memory_free_mib": 6863,
+          "memory_used_mib": 1048,
+          "utilization_percent": 89
+        }
+      },
+      "peak_vram_used_mib": 5677,
+      "peak_host_ram_used_bytes": 23500505088,
+      "ollama_ps_before": "NAME    ID    SIZE    PROCESSOR    CONTEXT    RUNNER    UNTIL \n",
+      "ollama_ps_during_or_after_load": "NAME                ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL               \nqwen2.5-coder:7b    dae161e27b0e    4.8 GB    100% GPU     4096       llamacpp    29 seconds from now    \n",
+      "unload": "unload requested",
+      "tasks": [
+        {
+          "task_id": "NCDR_SIG_01",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: (*$siemens&^), 0x00",
+          "wall_ms": 4643,
+          "prompt_tokens": 127,
+          "output_tokens": 50,
+          "tokens_per_second": 49.028596419147426,
+          "load_duration_ns": 3468787100,
+          "total_duration_ns": 4620199100,
+          "result": {
+            "answer": "28 2A 24 53 49 45 4D 45 4E 53 26 5E 29 00"
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_02",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: 0x00, 0x10, 0x20, 0x30",
+          "wall_ms": 1408,
+          "prompt_tokens": 154,
+          "output_tokens": 67,
+          "tokens_per_second": 51.88786644837622,
+          "load_duration_ns": 4501700,
+          "total_duration_ns": 1390755300,
+          "result": {
+            "answer": {
+              "marker": "(*$SIEMENS&^)",
+              "copyright": "Copyright 1998",
+              "internal_version": "2.0.0",
+              "raw_dataset_code": "EU44420940.82"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_ENDIAN_03",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 274,
+          "prompt_tokens": 106,
+          "output_tokens": 12,
+          "tokens_per_second": 61.75031261095759,
+          "load_duration_ns": 5001300,
+          "total_duration_ns": 257975000,
+          "result": {
+            "answer": "512"
+          }
+        },
+        {
+          "task_id": "NCDR_OFFSET_04",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 345,
+          "prompt_tokens": 99,
+          "output_tokens": 15,
+          "tokens_per_second": 54.15573021781435,
+          "load_duration_ns": 2994100,
+          "total_duration_ns": 345448800,
+          "result": {
+            "answer": "574592"
+          }
+        },
+        {
+          "task_id": "NCDR_COMPRESSION_05",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 809,
+          "prompt_tokens": 88,
+          "output_tokens": 41,
+          "tokens_per_second": 55.01391449495885,
+          "load_duration_ns": 2999100,
+          "total_duration_ns": 809056800,
+          "result": {
+            "answer": "The compression byte 0x02 in the existing DB_0 evidence was validated as zlib. This fact is bounded to the specific evidence and compression method mentioned."
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_RULE_06",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: byte 7",
+          "wall_ms": 532,
+          "prompt_tokens": 98,
+          "output_tokens": 25,
+          "tokens_per_second": 54.404359312503,
+          "load_duration_ns": 2497000,
+          "total_duration_ns": 531124100,
+          "result": {
+            "answer": "((byte7 - 1) * 512) - 8"
+          }
+        },
+        {
+          "task_id": "NCDR_UNKNOWN_07",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: 0x01, unknown, logical buffer",
+          "wall_ms": 253,
+          "prompt_tokens": 102,
+          "output_tokens": 11,
+          "tokens_per_second": 61.038881767686014,
+          "load_duration_ns": 6831500,
+          "total_duration_ns": 238511300,
+          "result": {
+            "answer": "Unresolved"
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_ITALY_08",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1167,
+          "prompt_tokens": 122,
+          "output_tokens": 56,
+          "tokens_per_second": 52.85856275680058,
+          "load_duration_ns": 5163300,
+          "total_duration_ns": 1144706000,
+          "result": {
+            "answer": "Volume CD_7185, Area Italy, db I(2009Q4), Version 444.31.940.82, date 9.8.2010"
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_SCANDI_09",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1128,
+          "prompt_tokens": 122,
+          "output_tokens": 56,
+          "tokens_per_second": 53.634298367601815,
+          "load_duration_ns": 5034700,
+          "total_duration_ns": 1127838400,
+          "result": {
+            "answer": "Volume CD_7186, Area SC, db SC(2009Q4), Version 444.42.940.82, date 9.8.2010"
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_EU_10",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1113,
+          "prompt_tokens": 122,
+          "output_tokens": 56,
+          "tokens_per_second": 53.98891299108219,
+          "load_duration_ns": 3143600,
+          "total_duration_ns": 1100346200,
+          "result": {
+            "answer": "Volume CD_7190, Area EU, db EU(2009Q4), Version 444.20.940.82, date 9.8.2010"
+          }
+        },
+        {
+          "task_id": "NCDR_FILESYSTEM_11",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 880,
+          "prompt_tokens": 106,
+          "output_tokens": 44,
+          "tokens_per_second": 53.79729424063285,
+          "load_duration_ns": 3000100,
+          "total_duration_ns": 879922100,
+          "result": {
+            "answer": "The filesystem on the CD must be ISO9660 level 2 with long filenames up to 30 characters. This requirement alone does not prove NCDR compatibility."
+          }
+        },
+        {
+          "task_id": "NCDR_DIFF_12",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "expected {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}; got {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}",
+          "wall_ms": 757,
+          "prompt_tokens": 119,
+          "output_tokens": 36,
+          "tokens_per_second": 53.8772944618631,
+          "load_duration_ns": 4999700,
+          "total_duration_ns": 733517600,
+          "result": {
+            "matched": 113,
+            "same_sha256": 78,
+            "different_sha256": 35
+          }
+        },
+        {
+          "task_id": "NCDR_DATASET_CODE_13",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 374,
+          "prompt_tokens": 93,
+          "output_tokens": 14,
+          "tokens_per_second": 47.69188318213871,
+          "load_duration_ns": 5000400,
+          "total_duration_ns": 373967600,
+          "result": {
+            "answer": "Euz.MP0"
+          }
+        },
+        {
+          "task_id": "NCDR_COMPAT_14",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: hardware_unverified",
+          "wall_ms": 1209,
+          "prompt_tokens": 133,
+          "output_tokens": 60,
+          "tokens_per_second": 53.51246929722074,
+          "load_duration_ns": 3498800,
+          "total_duration_ns": 1190780400,
+          "result": {
+            "answer": "The compatibility of CD_7185/CD_7186/CD_7190 with a specific NCDR 1100/1500 in a real car is not proven and hardware is unverified."
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_U24_15",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded byte tests",
+          "wall_ms": 1317,
+          "prompt_tokens": 105,
+          "output_tokens": 67,
+          "tokens_per_second": 54.1076597064296,
+          "load_duration_ns": 3005000,
+          "total_duration_ns": 1316059100,
+          "result": {
+            "code": "def read_u24_be(data):\n    if len(data) != 3:\n        raise ValueError('Input must be exactly three bytes')\n    return (data[0] << 16) | (data[1] << 8) | data[2]"
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_MP0_16",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded header tests",
+          "wall_ms": 1471,
+          "prompt_tokens": 160,
+          "output_tokens": 71,
+          "tokens_per_second": 52.50687026513751,
+          "load_duration_ns": 5178600,
+          "total_duration_ns": 1448138000,
+          "result": {
+            "code": "def parse_mp0_dataset_code(data):\n    if len(data) < 0x31:\n        raise ValueError('Data too short to contain dataset code')\n    code = data[0x30:].decode('ascii').split('\\x00')[0]\n    return code"
+          }
+        },
+        {
+          "task_id": "NCDR_HYPOTHESIS_17",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "complete falsifiable hypothesis structure required",
+          "wall_ms": 1666,
+          "prompt_tokens": 161,
+          "output_tokens": 84,
+          "tokens_per_second": 53.819864912139074,
+          "load_duration_ns": 5998800,
+          "total_duration_ns": 1665447500,
+          "result": {
+            "hypothesis": "The fixed header is shared between the three *Z.MP0 files.",
+            "file_offset": "0x00",
+            "test": "Compare the bytes at offset 0x00 of all three files.",
+            "falsifier": "If the bytes at offset 0x00 differ between any two files, the hypothesis is false."
+          }
+        },
+        {
+          "task_id": "NCDR_CORRUPTION_TEST_18",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: mismatch, read-only",
+          "wall_ms": 868,
+          "prompt_tokens": 101,
+          "output_tokens": 42,
+          "tokens_per_second": 54.85549495329447,
+          "load_duration_ns": 3025800,
+          "total_duration_ns": 850648700,
+          "result": {
+            "test": "Attempt to write to a file with a wrong expected SHA-256 hash in the EUZ.MP0 header should be rejected before any write operation can occur."
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen3.5:9b",
+      "status": "COMPLETE",
+      "task_count": 18,
+      "passed": 8,
+      "failed_or_error": 10,
+      "useful_artifacts": 8,
+      "duration_seconds": 45.865,
+      "verified_results_per_minute": 10.4656,
+      "baseline_resources": {
+        "ram": {
+          "total_bytes": 33811132416,
+          "available_bytes": 11838222336,
+          "used_bytes": 21972910080,
+          "load_percent": 64
+        },
+        "gpu": {
+          "name": "NVIDIA RTX PRO 1000 Blackwell Generation Laptop GPU",
+          "memory_total_mib": 8151,
+          "memory_free_mib": 6864,
+          "memory_used_mib": 1047,
+          "utilization_percent": 95
+        }
+      },
+      "peak_vram_used_mib": 7248,
+      "peak_host_ram_used_bytes": 24526204928,
+      "ollama_ps_before": "NAME    ID    SIZE    PROCESSOR    CONTEXT    RUNNER    UNTIL \n",
+      "ollama_ps_during_or_after_load": "NAME          ID              SIZE      PROCESSOR          CONTEXT    RUNNER      UNTIL               \nqwen3.5:9b    56671c2ab938    6.2 GB    13%/87% CPU/GPU    4096       llamacpp    29 seconds from now    \n",
+      "unload": "unload requested",
+      "tasks": [
+        {
+          "task_id": "NCDR_SIG_01",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: (*$siemens&^), 0x00",
+          "wall_ms": 7432,
+          "prompt_tokens": 132,
+          "output_tokens": 26,
+          "tokens_per_second": 38.17102085459043,
+          "load_duration_ns": 6502448500,
+          "total_duration_ns": 7416744600,
+          "result": {
+            "answer": "The literal ASCII marker is 'SIMENS' starting at byte offset 4."
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_02",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: 0x00, 0x10, 0x20, 0x30",
+          "wall_ms": 2836,
+          "prompt_tokens": 159,
+          "output_tokens": 74,
+          "tokens_per_second": 29.653138424055907,
+          "load_duration_ns": 5147900,
+          "total_duration_ns": 2816330400,
+          "result": {
+            "answer": {
+              "marker": "(*$SIEMENS&^)",
+              "copyright": "Copyright 1998",
+              "internal_version": "2.0.0",
+              "raw_dataset_code": "EU44420940.82"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_ENDIAN_03",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "exact answer",
+          "wall_ms": 386,
+          "prompt_tokens": 111,
+          "output_tokens": 6,
+          "tokens_per_second": 32.899065666535066,
+          "load_duration_ns": 5996300,
+          "total_duration_ns": 385716800,
+          "result": {
+            "answer": "2"
+          }
+        },
+        {
+          "task_id": "NCDR_OFFSET_04",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 569,
+          "prompt_tokens": 104,
+          "output_tokens": 11,
+          "tokens_per_second": 32.33924455524719,
+          "load_duration_ns": 5144400,
+          "total_duration_ns": 545303100,
+          "result": {
+            "answer": "89344"
+          }
+        },
+        {
+          "task_id": "NCDR_COMPRESSION_05",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1684,
+          "prompt_tokens": 93,
+          "output_tokens": 43,
+          "tokens_per_second": 29.248318221702252,
+          "load_duration_ns": 5513500,
+          "total_duration_ns": 1682975900,
+          "result": {
+            "answer": {
+              "fact": "Compression byte 0x02 was validated as zlib",
+              "scope": "Existing DB_0 evidence"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_RULE_06",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: byte 7",
+          "wall_ms": 1106,
+          "prompt_tokens": 103,
+          "output_tokens": 27,
+          "tokens_per_second": 30.202220646238032,
+          "load_duration_ns": 4997800,
+          "total_duration_ns": 1105505200,
+          "result": {
+            "answer": "payload_length = (byte_7 * 512) - 8"
+          }
+        },
+        {
+          "task_id": "NCDR_UNKNOWN_07",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: unknown",
+          "wall_ms": 2209,
+          "prompt_tokens": 107,
+          "output_tokens": 59,
+          "tokens_per_second": 29.388778169019343,
+          "load_duration_ns": 3003400,
+          "total_duration_ns": 2208558400,
+          "result": {
+            "answer": {
+              "status": "unresolved",
+              "reason": "Previous DB_0 analysis cannot decode compression 0x01 and reports a missing external logical buffer for sector 0x11576."
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_ITALY_08",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 3110,
+          "prompt_tokens": 127,
+          "output_tokens": 84,
+          "tokens_per_second": 28.972230806586904,
+          "load_duration_ns": 5004800,
+          "total_duration_ns": 3110028500,
+          "result": {
+            "answer": {
+              "volume": "CD_7185",
+              "area": "Italy",
+              "db": "I(2009Q4)",
+              "version": "444.31.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_SCANDI_09",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 2953,
+          "prompt_tokens": 127,
+          "output_tokens": 84,
+          "tokens_per_second": 30.68464007282488,
+          "load_duration_ns": 3997800,
+          "total_duration_ns": 2952140700,
+          "result": {
+            "answer": {
+              "volume": "CD_7186",
+              "area": "SC",
+              "db": "SC(2009Q4)",
+              "version": "444.42.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_EU_10",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 3014,
+          "prompt_tokens": 127,
+          "output_tokens": 84,
+          "tokens_per_second": 29.999260732503377,
+          "load_duration_ns": 4493900,
+          "total_duration_ns": 3003683800,
+          "result": {
+            "answer": {
+              "volume": "CD_7190",
+              "area": "EU",
+              "db": "EU(2009Q4)",
+              "version": "444.20.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_FILESYSTEM_11",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1951,
+          "prompt_tokens": 111,
+          "output_tokens": 55,
+          "tokens_per_second": 31.493159399476987,
+          "load_duration_ns": 4500300,
+          "total_duration_ns": 1950478800,
+          "result": {
+            "answer": "The VERSION.TXT states that the filesystem on the CD must be ISO9660 level 2, with long filenames up to 30 characters. However, this documented requirement alone does not prove NCDR compatibility."
+          }
+        },
+        {
+          "task_id": "NCDR_DIFF_12",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "expected {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}; got {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}",
+          "wall_ms": 1463,
+          "prompt_tokens": 125,
+          "output_tokens": 39,
+          "tokens_per_second": 31.63704681958447,
+          "load_duration_ns": 4502900,
+          "total_duration_ns": 1440849100,
+          "result": {
+            "matched": 113,
+            "same_sha256": 78,
+            "different_sha256": 35
+          }
+        },
+        {
+          "task_id": "NCDR_DATASET_CODE_13",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 520,
+          "prompt_tokens": 98,
+          "output_tokens": 10,
+          "tokens_per_second": 30.44742490903832,
+          "load_duration_ns": 3505700,
+          "total_duration_ns": 519702200,
+          "result": {
+            "answer": "EUZ.MP0"
+          }
+        },
+        {
+          "task_id": "NCDR_COMPAT_14",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: hardware_unverified",
+          "wall_ms": 988,
+          "prompt_tokens": 138,
+          "output_tokens": 22,
+          "tokens_per_second": 30.013847297730546,
+          "load_duration_ns": 3999800,
+          "total_duration_ns": 969866700,
+          "result": {
+            "answer": "The correct conclusion is not proven and hardware is unverified."
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_U24_15",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded byte tests",
+          "wall_ms": 2393,
+          "prompt_tokens": 110,
+          "output_tokens": 68,
+          "tokens_per_second": 30.974545756008947,
+          "load_duration_ns": 3522900,
+          "total_duration_ns": 2392675600,
+          "result": {
+            "code": "def read_u24_be(data):\n    if len(data) != 3:\n        raise ValueError(\"Expected exactly 3 bytes\")\n    return (data[0] << 16) | (data[1] << 8) | data[2]"
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_MP0_16",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded header tests",
+          "wall_ms": 6588,
+          "prompt_tokens": 165,
+          "output_tokens": 192,
+          "tokens_per_second": 30.373614441134986,
+          "load_duration_ns": 6003200,
+          "total_duration_ns": 6586648300,
+          "result": {
+            "code": "def parse_mp0_dataset_code(data):\n    if len(data) < 0x31:\n        raise ValueError(\"Truncated data: insufficient length to read MP0 dataset code\")\n    \n    # Read from offset 0x30 up to the NUL terminator\n    start_offset = 0x30\n    end_offset = data.find(b'\\x00', start_offset)\n    \n    if end_offset == -1:\n        # No NUL terminator found; read until the end of available data\n        end_offset = len(data)\n    \n    raw_bytes = data[start_offset:end_offset]\n    \n    try:\n        code = raw_bytes.decode('ascii')\n        return code\n    except UnicodeDecodeError:\n        raise ValueError(\"Invalid ASCII characters found in MP0 dataset code field\")"
+          }
+        },
+        {
+          "task_id": "NCDR_HYPOTHESIS_17",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "complete falsifiable hypothesis structure required",
+          "wall_ms": 4482,
+          "prompt_tokens": 166,
+          "output_tokens": 128,
+          "tokens_per_second": 30.44126999075822,
+          "load_duration_ns": 4218400,
+          "total_duration_ns": 4467075200,
+          "result": {
+            "hypothesis": "The fixed header is shared across the three files, evidenced by identical 13-byte markers at offset 0 and a NUL-terminated dataset code at offset 0x30.",
+            "file_offset": "0x00",
+            "test": "Compare the 13 bytes at offset 0 of all three Z.MP0 files; they must be byte-for-byte identical.",
+            "falsifier": "If any single file has a different 13-byte sequence at offset 0 than the others, the hypothesis is false."
+          }
+        },
+        {
+          "task_id": "NCDR_CORRUPTION_TEST_18",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: mismatch, read-only",
+          "wall_ms": 1976,
+          "prompt_tokens": 106,
+          "output_tokens": 55,
+          "tokens_per_second": 31.042631692720843,
+          "load_duration_ns": 5000600,
+          "total_duration_ns": 1975346700,
+          "result": {
+            "test": "Attempt to read EUZ.MP0 header with an intentionally incorrect expected SHA-256 hash value; verify that the reader immediately rejects the operation and throws a validation error before allowing any subsequent write operations on the file."
+          }
+        }
+      ]
+    },
+    {
+      "model": "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+      "status": "COMPLETE",
+      "task_count": 18,
+      "passed": 8,
+      "failed_or_error": 10,
+      "useful_artifacts": 8,
+      "duration_seconds": 45.02,
+      "verified_results_per_minute": 10.6618,
+      "baseline_resources": {
+        "ram": {
+          "total_bytes": 33811132416,
+          "available_bytes": 9588633600,
+          "used_bytes": 24222498816,
+          "load_percent": 71
+        },
+        "gpu": {
+          "name": "NVIDIA RTX PRO 1000 Blackwell Generation Laptop GPU",
+          "memory_total_mib": 8151,
+          "memory_free_mib": 6864,
+          "memory_used_mib": 1047,
+          "utilization_percent": 76
+        }
+      },
+      "peak_vram_used_mib": 7343,
+      "peak_host_ram_used_bytes": 24444358656,
+      "ollama_ps_before": "NAME    ID    SIZE    PROCESSOR    CONTEXT    RUNNER    UNTIL \n",
+      "ollama_ps_during_or_after_load": "NAME                                         ID              SIZE      PROCESSOR          CONTEXT    RUNNER      UNTIL               \nhf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M    5008e78bba12    6.3 GB    12%/88% CPU/GPU    4096       llamacpp    29 seconds from now    \n",
+      "unload": "unload requested",
+      "tasks": [
+        {
+          "task_id": "NCDR_SIG_01",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: (*$siemens&^), 0x00",
+          "wall_ms": 8708,
+          "prompt_tokens": 158,
+          "output_tokens": 52,
+          "tokens_per_second": 27.58829980205395,
+          "load_duration_ns": 6505139600,
+          "total_duration_ns": 8687800000,
+          "result": {
+            "answer": "The ASCII marker is 'SIMENS^' (bytes 49 53 45 4D 45 4E 53 26) starting at offset 4."
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_02",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: 0x00, 0x10, 0x20, 0x30",
+          "wall_ms": 2823,
+          "prompt_tokens": 185,
+          "output_tokens": 74,
+          "tokens_per_second": 29.019892351885805,
+          "load_duration_ns": 3499900,
+          "total_duration_ns": 2810220600,
+          "result": {
+            "answer": {
+              "marker": "(*$SIEMENS&^)",
+              "copyright": "Copyright 1998",
+              "internal_version": "2.0.0",
+              "raw_dataset_code": "EU44420940.82"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_ENDIAN_03",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 498,
+          "prompt_tokens": 137,
+          "output_tokens": 9,
+          "tokens_per_second": 35.81248582422436,
+          "load_duration_ns": 3003300,
+          "total_duration_ns": 479750600,
+          "result": {
+            "answer": "512"
+          }
+        },
+        {
+          "task_id": "NCDR_OFFSET_04",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 587,
+          "prompt_tokens": 130,
+          "output_tokens": 11,
+          "tokens_per_second": 31.527658354829466,
+          "load_duration_ns": 2647700,
+          "total_duration_ns": 572844200,
+          "result": {
+            "answer": "88448"
+          }
+        },
+        {
+          "task_id": "NCDR_COMPRESSION_05",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 1242,
+          "prompt_tokens": 119,
+          "output_tokens": 30,
+          "tokens_per_second": 29.688361271730646,
+          "load_duration_ns": 4180900,
+          "total_duration_ns": 1227632100,
+          "result": {
+            "answer": "In the existing DB_0 evidence, compression byte 0x02 was validated as zlib."
+          }
+        },
+        {
+          "task_id": "NCDR_HEADER_RULE_06",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 919,
+          "prompt_tokens": 129,
+          "output_tokens": 22,
+          "tokens_per_second": 32.06529660399359,
+          "load_duration_ns": 2500500,
+          "total_duration_ns": 918371100,
+          "result": {
+            "answer": "byte 7 * 512 - 8"
+          }
+        },
+        {
+          "task_id": "NCDR_UNKNOWN_07",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: unknown",
+          "wall_ms": 1913,
+          "prompt_tokens": 133,
+          "output_tokens": 52,
+          "tokens_per_second": 30.73743843645744,
+          "load_duration_ns": 3498500,
+          "total_duration_ns": 1912235100,
+          "result": {
+            "answer": "Previous DB_0 analysis cannot decode compression 0x01 and reports a missing external logical buffer for sector 0x11576. State this as unresolved, not as a decoded format."
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_ITALY_08",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 3026,
+          "prompt_tokens": 153,
+          "output_tokens": 84,
+          "tokens_per_second": 30.273084848969745,
+          "load_duration_ns": 2500400,
+          "total_duration_ns": 3009787400,
+          "result": {
+            "answer": {
+              "Volume": "CD_7185",
+              "Area": "Italy",
+              "db": "I(2009Q4)",
+              "Version": "444.31.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_SCANDI_09",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 3019,
+          "prompt_tokens": 153,
+          "output_tokens": 84,
+          "tokens_per_second": 30.36329684677162,
+          "load_duration_ns": 2502600,
+          "total_duration_ns": 3004025300,
+          "result": {
+            "answer": {
+              "Volume": "CD_7186",
+              "Area": "SC",
+              "db": "SC(2009Q4)",
+              "Version": "444.42.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_TOC_EU_10",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 3052,
+          "prompt_tokens": 153,
+          "output_tokens": 84,
+          "tokens_per_second": 29.99477233967794,
+          "load_duration_ns": 3367100,
+          "total_duration_ns": 3028674600,
+          "result": {
+            "answer": {
+              "volume": "CD_7190",
+              "area": "EU",
+              "db": "EU(2009Q4)",
+              "version": "444.20.940.82",
+              "date": "9.8.2010"
+            }
+          }
+        },
+        {
+          "task_id": "NCDR_FILESYSTEM_11",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "missing: ",
+          "wall_ms": 2033,
+          "prompt_tokens": 137,
+          "output_tokens": 54,
+          "tokens_per_second": 30.068020544253447,
+          "load_duration_ns": 3003500,
+          "total_duration_ns": 2021159100,
+          "result": {
+            "answer": "The VERSION.TXT file states that the filesystem on the CD must be ISO9660 level 2, with long filenames up to 30 characters. This documented requirement alone does not prove NCDR compatibility."
+          }
+        },
+        {
+          "task_id": "NCDR_DIFF_12",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "expected {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}; got {'matched': 113, 'same_sha256': 78, 'different_sha256': 35}",
+          "wall_ms": 1280,
+          "prompt_tokens": 151,
+          "output_tokens": 31,
+          "tokens_per_second": 30.171578956588935,
+          "load_duration_ns": 5330100,
+          "total_duration_ns": 1261857800,
+          "result": {
+            "matched": 113,
+            "same_sha256": 78,
+            "different_sha256": 35
+          }
+        },
+        {
+          "task_id": "NCDR_DATASET_CODE_13",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "exact answer",
+          "wall_ms": 710,
+          "prompt_tokens": 124,
+          "output_tokens": 16,
+          "tokens_per_second": 33.49887360037519,
+          "load_duration_ns": 2982300,
+          "total_duration_ns": 691490100,
+          "result": {
+            "answer": "EUZ.MP0"
+          }
+        },
+        {
+          "task_id": "NCDR_COMPAT_14",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: hardware_unverified",
+          "wall_ms": 2339,
+          "prompt_tokens": 164,
+          "output_tokens": 62,
+          "tokens_per_second": 29.842355365579618,
+          "load_duration_ns": 3999800,
+          "total_duration_ns": 2338084100,
+          "result": {
+            "answer": "The compatibility of CD_7185/CD_7186/CD_7190 with a specific NCDR 1100/1500 in a real car is not proven; hardware is unverified."
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_U24_15",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded byte tests",
+          "wall_ms": 2406,
+          "prompt_tokens": 136,
+          "output_tokens": 67,
+          "tokens_per_second": 30.64553679774266,
+          "load_duration_ns": 2498800,
+          "total_duration_ns": 2405680500,
+          "result": {
+            "code": "def read_u24_be(data):\n    if len(data) != 3:\n        raise ValueError(\"Expected 3 bytes\")\n    return (data[0] << 16) | (data[1] << 8) | data[2]"
+          }
+        },
+        {
+          "task_id": "NCDR_CODE_MP0_16",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "code passed or failed bounded header tests",
+          "wall_ms": 2501,
+          "prompt_tokens": 191,
+          "output_tokens": 67,
+          "tokens_per_second": 30.094762568044484,
+          "load_duration_ns": 3188200,
+          "total_duration_ns": 2482161000,
+          "result": {
+            "code": "def parse_mp0_dataset_code(data):\n    if len(data) < 0x31:\n        raise ValueError(\"Truncated data\")\n    code = data[0x30:0x31].decode('ascii')\n    return code"
+          }
+        },
+        {
+          "task_id": "NCDR_HYPOTHESIS_17",
+          "status": "PASS",
+          "pass": true,
+          "score_detail": "complete falsifiable hypothesis structure required",
+          "wall_ms": 5562,
+          "prompt_tokens": 192,
+          "output_tokens": 162,
+          "tokens_per_second": 30.66109290897876,
+          "load_duration_ns": 2770800,
+          "total_duration_ns": 5541336600,
+          "result": {
+            "hypothesis": "The fixed header is shared across the three files, evidenced by identical 13-byte markers at offset 0 and identical NUL-terminated dataset codes at offset 0x30.",
+            "file_offset": "0x00",
+            "test": "Compare the 13-byte sequence at offset 0x00 and the NUL-terminated dataset code at offset 0x30 across all three Z.MP0 files; they must be byte-for-byte identical.",
+            "falsifier": "If any of the three files differs in the 13-byte marker at offset 0x00 or in the dataset code at offset 0x30, the hypothesis is falsified."
+          }
+        },
+        {
+          "task_id": "NCDR_CORRUPTION_TEST_18",
+          "status": "FAIL",
+          "pass": false,
+          "score_detail": "missing: mismatch",
+          "wall_ms": 2008,
+          "prompt_tokens": 132,
+          "output_tokens": 55,
+          "tokens_per_second": 30.871612261530828,
+          "load_duration_ns": 3499300,
+          "total_duration_ns": 2006776800,
+          "result": {
+            "test": "Verify that a read-only EUZ.MP0 header reader rejects a write operation when the provided expected SHA-256 hash does not match the actual hash of the header data, ensuring integrity before any modification is allowed."
+          }
+        }
+      ]
+    }
+  ]
+}

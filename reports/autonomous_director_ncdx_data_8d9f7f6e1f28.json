@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_8d9f7f6e1f28",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_DEFLATE_COMPRESSIBILITY_PROFILE_36b6f144",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_DEFLATE_COMPRESSIBILITY_PROFILE_36b6f144",
+  "selection_source": "Ollama",
+  "selection_reason": "MG1 offers the largest total_input_bytes (78667691) among eligible experiments, providing the most data to reduce uncertainty about map storage and address/index compressibility without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_DEFLATE_COMPRESSIBILITY_PROFILE_36b6f144",
+  "candidate_fingerprint": "c98674c15989f88b50a4938de60241465bcb2de693ee1e192f5d38ab961e44c4",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_8d9f7f6e1f28",
+  "remaining_unique_experiments": 16,
+  "created_utc": "2026-10-26T22:19:53.749549+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

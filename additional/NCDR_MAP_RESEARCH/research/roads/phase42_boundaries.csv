@@ -1,0 +1,2 @@
+target_sector,observed_min_ptr,observed_max_ptr,scanned_positions,proven_start,proven_end,boundary_evidence
+ALL_23,per-target,per-target,10757,0,0,"all positions classify Z/NZ; no sentinel/count/length boundary proven"

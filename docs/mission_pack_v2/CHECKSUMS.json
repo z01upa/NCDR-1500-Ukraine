@@ -1,0 +1,90 @@
+{
+  "package_version": "2.0",
+  "files": [
+    {
+      "name": "ARCHITECTURE_AND_RECOVERY.md",
+      "sha256": "f4d647acf9be19bcc31c9ffeeb8ffc7ce32e72cff2a463cba539030d7ac63558",
+      "bytes": 7282
+    },
+    {
+      "name": "CHECKSUMS.json",
+      "sha256": "c698fcd0702395c5b073cd200f5309f928a5034551857f651432bd3972225276",
+      "bytes": 2498
+    },
+    {
+      "name": "CODEX_ONE_TIME_IMPLEMENTATION_ORDER_UA.md",
+      "sha256": "f2cb07ba77fd791844cb70b11394d0cee5ba8d046c94293f1de4b79de9fb09aa",
+      "bytes": 7946
+    },
+    {
+      "name": "KNOWN_STATE_AND_INVARIANTS.md",
+      "sha256": "ab6ab301ef012e2d3bd2f37fc181285c856f2da2799cb5bcedfc4cf919515e39",
+      "bytes": 3461
+    },
+    {
+      "name": "README_START_HERE_UA.md",
+      "sha256": "9231b2caf36fcaa9cb7b022a8a970ad1df7bfc8df7c217ae2085ca8bdf9e3df7",
+      "bytes": 3558
+    },
+    {
+      "name": "plans/RECOVERY_BLOCKED_MAP.md",
+      "sha256": "8ed26dbe01e61899b2a5f14dc94bfd8f68bc5da8540ea118013591c7670fb040",
+      "bytes": 2553
+    },
+    {
+      "name": "plans/goal_gates.json",
+      "sha256": "a692b460c35eadbce282b71fa98aef7c73b78241e5dbdd0b9105cd3e28161404",
+      "bytes": 1649
+    },
+    {
+      "name": "plans/task_backlog.json",
+      "sha256": "7378f4900efd014acf84b2177aa2203bb9cd63c7559e9c5585a1eddf75f399d8",
+      "bytes": 50420
+    },
+    {
+      "name": "policies/model_and_resources.json",
+      "sha256": "df3e0f525a3f141d23b2a9be1c503d4cbb7a9d30a56ba390a06dae0687ea92a1",
+      "bytes": 1236
+    },
+    {
+      "name": "prompts/CODEX_ENGINEER_UA.md",
+      "sha256": "d6e0c6869f056722e9092d25fd9e46e5b2fe97fd17827c408ec43d42145d7547",
+      "bytes": 972
+    },
+    {
+      "name": "prompts/LOCAL_DIRECTOR_UA.md",
+      "sha256": "30cc7a97e48d1c2f716b674672921e7dc77d7eecd15bc68ef0939c8c5bcedd5f",
+      "bytes": 2066
+    },
+    {
+      "name": "prompts/LOCAL_SUPERVISOR_UA.md",
+      "sha256": "0e841b68cd9892fca7e8d85b8b823ecf790a4b605687eaf1d28005c7507243f2",
+      "bytes": 944
+    },
+    {
+      "name": "reports/REPORT_REQUIREMENTS.md",
+      "sha256": "4ff380b57fe2c41d1350beab1f905c5a1cd577373326649eecd36ad56a2532ec",
+      "bytes": 1280
+    },
+    {
+      "name": "schemas/capability_request.schema.json",
+      "sha256": "737408be9559505a29f608220f230bd832194ff3c8c6e9a610ce1697f0eb6b9f",
+      "bytes": 1117
+    },
+    {
+      "name": "schemas/task.schema.json",
+      "sha256": "2c6cb83c53911177f0e18f244d0a64cafc9ab8e70a7bf4607964dfb6ca6526cf",
+      "bytes": 1955
+    },
+    {
+      "name": "tests/ACCEPTANCE_TEST_PLAN.md",
+      "sha256": "c31fc797108e9080b49dc61889f60b03fff000d542cbf71f10ea721e4b4e0f94",
+      "bytes": 4491
+    },
+    {
+      "name": "tests/validate_pack.py",
+      "sha256": "1f9ae0ca3ac561746deedeaf5ccc80ab7e7d5a06749d3c25fc838f9ed9fa038d",
+      "bytes": 1125
+    }
+  ]
+}

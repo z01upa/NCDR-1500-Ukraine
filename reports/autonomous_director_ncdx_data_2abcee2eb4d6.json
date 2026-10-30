@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_2abcee2eb4d6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_EXACT_BLOCK_ANCHOR_SCAN_0e851c48",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_EXACT_BLOCK_ANCHOR_SCAN_0e851c48",
+  "selection_source": "Ollama",
+  "selection_reason": "MG2 represents a logical progression from the initial MG1 scan, offering a structured next step in the data family profiling sequence while adhering to read-only constraints and deterministic sampling requirements.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_EXACT_BLOCK_ANCHOR_SCAN_0e851c48",
+  "candidate_fingerprint": "26d95e8b2e37cc3534186acb52eab37efe7836d46dfb16aac017e1dd3ac1de5b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_2abcee2eb4d6",
+  "remaining_unique_experiments": 15,
+  "created_utc": "2026-10-26T23:13:55.502019+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

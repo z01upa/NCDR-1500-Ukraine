@@ -1,0 +1,2345 @@
+{
+  "source": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.MP0",
+  "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "blocks": 2956,
+  "all_streams_exactly_inflated": 2956,
+  "nodes": 956071,
+  "counts": {
+    "primary_a_endpoints": 1075703,
+    "primary_b_endpoints": 1075703,
+    "secondary_a_endpoints": 14620,
+    "nodes": 956071,
+    "actual_degree_2": 527552,
+    "stored_low_nibble_2": 527686,
+    "stored_high_nibble_2": 484420,
+    "inline_slot0_local_edge_id": 954022,
+    "inline_slot1_local_edge_id": 845470,
+    "degree_le4_local_incidence_refs_match": 952280,
+    "stored_high_nibble_0": 84663,
+    "actual_degree_3": 281489,
+    "stored_low_nibble_3": 281608,
+    "stored_high_nibble_4": 128728,
+    "inline_slot2_local_edge_id": 317775,
+    "stored_high_nibble_6": 126705,
+    "stored_high_nibble_5": 10584,
+    "stored_high_nibble_3": 25969,
+    "stored_high_nibble_7": 3973,
+    "actual_degree_1": 110228,
+    "stored_low_nibble_1": 110359,
+    "stored_high_nibble_1": 58248,
+    "secondary_b_endpoints": 14620,
+    "actual_degree_4": 32892,
+    "stored_low_nibble_4": 33019,
+    "stored_high_nibble_12": 24478,
+    "inline_slot3_local_edge_id": 36109,
+    "stored_high_nibble_14": 3224,
+    "actual_degree_5": 1712,
+    "stored_low_nibble_5": 1823,
+    "inline_slot0_outside_local_edge_range": 1930,
+    "degree_gt4_needs_overflow_representation": 3280,
+    "actual_degree_0": 1955,
+    "stored_low_nibble_9": 91,
+    "stored_high_nibble_8": 3330,
+    "stored_high_nibble_9": 527,
+    "actual_degree_6": 222,
+    "stored_low_nibble_6": 345,
+    "stored_low_nibble_15": 127,
+    "inline_slot3_outside_local_edge_range": 190,
+    "stored_low_nibble_0": 119,
+    "stored_high_nibble_10": 113,
+    "stored_low_nibble_13": 136,
+    "stored_high_nibble_13": 833,
+    "degree_le4_local_incidence_refs_mismatch": 511,
+    "stored_high_nibble_15": 153,
+    "stored_low_nibble_7": 142,
+    "stored_low_nibble_14": 127,
+    "stored_high_nibble_11": 123,
+    "inline_slot2_outside_local_edge_range": 132,
+    "inline_slot1_outside_local_edge_range": 123,
+    "stored_low_nibble_10": 103,
+    "stored_low_nibble_11": 122,
+    "stored_low_nibble_12": 120,
+    "stored_low_nibble_8": 144,
+    "actual_degree_7": 21
+  },
+  "degree_nibble_vs_actual_degree": {
+    "actual0_stored0": 119,
+    "actual0_stored1": 131,
+    "actual0_stored2": 134,
+    "actual0_stored3": 119,
+    "actual0_stored4": 127,
+    "actual0_stored5": 111,
+    "actual0_stored6": 123,
+    "actual0_stored7": 121,
+    "actual0_stored8": 144,
+    "actual0_stored9": 91,
+    "actual0_stored10": 103,
+    "actual0_stored11": 122,
+    "actual0_stored12": 120,
+    "actual0_stored13": 136,
+    "actual0_stored14": 127,
+    "actual0_stored15": 127,
+    "actual1_stored1": 110228,
+    "actual2_stored2": 527552,
+    "actual3_stored3": 281489,
+    "actual4_stored4": 32892,
+    "actual5_stored5": 1712,
+    "actual6_stored6": 222,
+    "actual7_stored7": 21
+  },
+  "edge_attribute_top_values": {
+    "flags": [
+      [
+        34052,
+        97846
+      ],
+      [
+        34308,
+        97150
+      ],
+      [
+        33556,
+        43628
+      ],
+      [
+        1284,
+        38266
+      ],
+      [
+        1540,
+        38229
+      ],
+      [
+        792,
+        29928
+      ],
+      [
+        36664,
+        29296
+      ],
+      [
+        33560,
+        28777
+      ],
+      [
+        33064,
+        28514
+      ],
+      [
+        33320,
+        28145
+      ],
+      [
+        33552,
+        24889
+      ],
+      [
+        788,
+        24493
+      ],
+      [
+        784,
+        19202
+      ],
+      [
+        33036,
+        16738
+      ],
+      [
+        33292,
+        16703
+      ],
+      [
+        49448,
+        16283
+      ],
+      [
+        49704,
+        16277
+      ],
+      [
+        33304,
+        15804
+      ],
+      [
+        33048,
+        15647
+      ],
+      [
+        3896,
+        13077
+      ],
+      [
+        33576,
+        12089
+      ],
+      [
+        33040,
+        11304
+      ],
+      [
+        33296,
+        11300
+      ],
+      [
+        33088,
+        11245
+      ],
+      [
+        33344,
+        11157
+      ],
+      [
+        536,
+        10198
+      ],
+      [
+        280,
+        10166
+      ],
+      [
+        33548,
+        9733
+      ],
+      [
+        33555,
+        9535
+      ],
+      [
+        33564,
+        8432
+      ]
+    ],
+    "attributes": [
+      [
+        1024,
+        215744
+      ],
+      [
+        1536,
+        161630
+      ],
+      [
+        3072,
+        148699
+      ],
+      [
+        1792,
+        135690
+      ],
+      [
+        3584,
+        84432
+      ],
+      [
+        1280,
+        68502
+      ],
+      [
+        1344,
+        31691
+      ],
+      [
+        1152,
+        26820
+      ],
+      [
+        3392,
+        25467
+      ],
+      [
+        3200,
+        23167
+      ],
+      [
+        1048,
+        20557
+      ],
+      [
+        3840,
+        14673
+      ],
+      [
+        1080,
+        10055
+      ],
+      [
+        0,
+        8738
+      ],
+      [
+        1027,
+        8468
+      ],
+      [
+        3328,
+        8239
+      ],
+      [
+        3904,
+        7105
+      ],
+      [
+        3128,
+        6813
+      ],
+      [
+        2048,
+        6651
+      ],
+      [
+        768,
+        4627
+      ],
+      [
+        3075,
+        4590
+      ],
+      [
+        1600,
+        4504
+      ],
+      [
+        1032,
+        4424
+      ],
+      [
+        3096,
+        3976
+      ],
+      [
+        256,
+        3069
+      ],
+      [
+        1856,
+        3024
+      ],
+      [
+        1064,
+        2624
+      ],
+      [
+        3648,
+        2342
+      ],
+      [
+        1728,
+        2331
+      ],
+      [
+        3073,
+        2290
+      ]
+    ],
+    "unresolved": [
+      [
+        0,
+        235656
+      ],
+      [
+        257,
+        190950
+      ],
+      [
+        514,
+        137217
+      ],
+      [
+        259,
+        49262
+      ],
+      [
+        516,
+        33975
+      ],
+      [
+        1538,
+        30822
+      ],
+      [
+        513,
+        29118
+      ],
+      [
+        1026,
+        28933
+      ],
+      [
+        769,
+        28315
+      ],
+      [
+        518,
+        24510
+      ],
+      [
+        1540,
+        21290
+      ],
+      [
+        258,
+        19912
+      ],
+      [
+        256,
+        16471
+      ],
+      [
+        2,
+        15405
+      ],
+      [
+        1,
+        12048
+      ],
+      [
+        512,
+        11974
+      ],
+      [
+        515,
+        11936
+      ],
+      [
+        1537,
+        10862
+      ],
+      [
+        1025,
+        9936
+      ],
+      [
+        4,
+        9305
+      ],
+      [
+        1028,
+        8769
+      ],
+      [
+        262,
+        8499
+      ],
+      [
+        1024,
+        7930
+      ],
+      [
+        3,
+        6950
+      ],
+      [
+        260,
+        6876
+      ],
+      [
+        1030,
+        6836
+      ],
+      [
+        1281,
+        6422
+      ],
+      [
+        772,
+        6088
+      ],
+      [
+        261,
+        5830
+      ],
+      [
+        1536,
+        5796
+      ]
+    ]
+  },
+  "bit_occurrences": {
+    "flags": {
+      "0": 108475,
+      "1": 131550,
+      "2": 497300,
+      "3": 515618,
+      "4": 449448,
+      "5": 224383,
+      "6": 41525,
+      "7": 31387,
+      "8": 722724,
+      "9": 721463,
+      "10": 367150,
+      "11": 54004,
+      "12": 14620,
+      "13": 14620,
+      "14": 65777,
+      "15": 723217
+    },
+    "attributes": {
+      "0": 22136,
+      "1": 22169,
+      "3": 52276,
+      "4": 47092,
+      "5": 22229,
+      "6": 88162,
+      "7": 60345,
+      "8": 313672,
+      "9": 426418,
+      "10": 1063497,
+      "11": 358300,
+      "12": 3480,
+      "13": 3406
+    },
+    "unresolved": {
+      "0": 402722,
+      "1": 389247,
+      "2": 168901,
+      "3": 18916,
+      "4": 1665,
+      "5": 299,
+      "6": 18,
+      "8": 381792,
+      "9": 394804,
+      "10": 181533,
+      "11": 21812,
+      "12": 1892,
+      "13": 315,
+      "14": 29
+    }
+  },
+  "representative_node_records": {
+    "2": [
+      {
+        "block": 0,
+        "node": 0,
+        "record_offset": 607,
+        "record_hex": "2204730074002800b300",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          115,
+          116
+        ],
+        "u16_offsets_2_4_6_8": [
+          115,
+          116,
+          40,
+          179
+        ]
+      },
+      {
+        "block": 0,
+        "node": 1,
+        "record_offset": 617,
+        "record_hex": "22047a007b0010001500",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          122,
+          123
+        ],
+        "u16_offsets_2_4_6_8": [
+          122,
+          123,
+          16,
+          21
+        ]
+      },
+      {
+        "block": 0,
+        "node": 2,
+        "record_offset": 627,
+        "record_hex": "22047500730011000f01",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          115,
+          117
+        ],
+        "u16_offsets_2_4_6_8": [
+          117,
+          115,
+          17,
+          271
+        ]
+      },
+      {
+        "block": 0,
+        "node": 3,
+        "record_offset": 637,
+        "record_hex": "220479007a0011003200",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          121,
+          122
+        ],
+        "u16_offsets_2_4_6_8": [
+          121,
+          122,
+          17,
+          50
+        ]
+      },
+      {
+        "block": 0,
+        "node": 4,
+        "record_offset": 647,
+        "record_hex": "220477007500a6007c01",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          117,
+          119
+        ],
+        "u16_offsets_2_4_6_8": [
+          119,
+          117,
+          166,
+          380
+        ]
+      },
+      {
+        "block": 0,
+        "node": 5,
+        "record_offset": 657,
+        "record_hex": "22047800790013004201",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          120,
+          121
+        ],
+        "u16_offsets_2_4_6_8": [
+          120,
+          121,
+          19,
+          322
+        ]
+      },
+      {
+        "block": 0,
+        "node": 6,
+        "record_offset": 667,
+        "record_hex": "22047600770029002001",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          118,
+          119
+        ],
+        "u16_offsets_2_4_6_8": [
+          118,
+          119,
+          41,
+          288
+        ]
+      },
+      {
+        "block": 0,
+        "node": 7,
+        "record_offset": 677,
+        "record_hex": "22047200780015010a00",
+        "degree_byte": 34,
+        "byte1": 4,
+        "expected_edges": [
+          114,
+          120
+        ],
+        "u16_offsets_2_4_6_8": [
+          114,
+          120,
+          277,
+          10
+        ]
+      }
+    ],
+    "3": [
+      {
+        "block": 0,
+        "node": 11,
+        "record_offset": 717,
+        "record_hex": "4308060007007c000201",
+        "degree_byte": 67,
+        "byte1": 8,
+        "expected_edges": [
+          6,
+          7,
+          124
+        ],
+        "u16_offsets_2_4_6_8": [
+          6,
+          7,
+          124,
+          258
+        ]
+      },
+      {
+        "block": 0,
+        "node": 12,
+        "record_offset": 727,
+        "record_hex": "63040000010002004601",
+        "degree_byte": 99,
+        "byte1": 4,
+        "expected_edges": [
+          0,
+          1,
+          2
+        ],
+        "u16_offsets_2_4_6_8": [
+          0,
+          1,
+          2,
+          326
+        ]
+      },
+      {
+        "block": 0,
+        "node": 13,
+        "record_offset": 737,
+        "record_hex": "4304030004000500e600",
+        "degree_byte": 67,
+        "byte1": 4,
+        "expected_edges": [
+          3,
+          4,
+          5
+        ],
+        "u16_offsets_2_4_6_8": [
+          3,
+          4,
+          5,
+          230
+        ]
+      },
+      {
+        "block": 0,
+        "node": 15,
+        "record_offset": 757,
+        "record_hex": "63041100070071000001",
+        "degree_byte": 99,
+        "byte1": 4,
+        "expected_edges": [
+          7,
+          17,
+          113
+        ],
+        "u16_offsets_2_4_6_8": [
+          17,
+          7,
+          113,
+          256
+        ]
+      },
+      {
+        "block": 0,
+        "node": 17,
+        "record_offset": 777,
+        "record_hex": "4304080009000400d100",
+        "degree_byte": 67,
+        "byte1": 4,
+        "expected_edges": [
+          4,
+          8,
+          9
+        ],
+        "u16_offsets_2_4_6_8": [
+          8,
+          9,
+          4,
+          209
+        ]
+      },
+      {
+        "block": 0,
+        "node": 19,
+        "record_offset": 797,
+        "record_hex": "53080300960006007701",
+        "degree_byte": 83,
+        "byte1": 8,
+        "expected_edges": [
+          3,
+          6,
+          150
+        ],
+        "u16_offsets_2_4_6_8": [
+          3,
+          150,
+          6,
+          375
+        ]
+      },
+      {
+        "block": 0,
+        "node": 25,
+        "record_offset": 857,
+        "record_hex": "43040a000b000c001100",
+        "degree_byte": 67,
+        "byte1": 4,
+        "expected_edges": [
+          10,
+          11,
+          12
+        ],
+        "u16_offsets_2_4_6_8": [
+          10,
+          11,
+          12,
+          17
+        ]
+      },
+      {
+        "block": 0,
+        "node": 26,
+        "record_offset": 867,
+        "record_hex": "43041300140012006701",
+        "degree_byte": 67,
+        "byte1": 4,
+        "expected_edges": [
+          18,
+          19,
+          20
+        ],
+        "u16_offsets_2_4_6_8": [
+          19,
+          20,
+          18,
+          359
+        ]
+      }
+    ],
+    "1": [
+      {
+        "block": 0,
+        "node": 81,
+        "record_offset": 1417,
+        "record_hex": "11184a00390052008701",
+        "degree_byte": 17,
+        "byte1": 24,
+        "expected_edges": [
+          74
+        ],
+        "u16_offsets_2_4_6_8": [
+          74,
+          57,
+          82,
+          391
+        ]
+      },
+      {
+        "block": 0,
+        "node": 92,
+        "record_offset": 1527,
+        "record_hex": "11203d005c005b008f00",
+        "degree_byte": 17,
+        "byte1": 32,
+        "expected_edges": [
+          61
+        ],
+        "u16_offsets_2_4_6_8": [
+          61,
+          92,
+          91,
+          143
+        ]
+      },
+      {
+        "block": 1,
+        "node": 98,
+        "record_offset": 3396,
+        "record_hex": "0120be016001c8002800",
+        "degree_byte": 1,
+        "byte1": 32,
+        "expected_edges": [
+          446
+        ],
+        "u16_offsets_2_4_6_8": [
+          446,
+          352,
+          200,
+          40
+        ]
+      },
+      {
+        "block": 1,
+        "node": 134,
+        "record_offset": 3756,
+        "record_hex": "01102b00410010001100",
+        "degree_byte": 1,
+        "byte1": 16,
+        "expected_edges": [
+          43
+        ],
+        "u16_offsets_2_4_6_8": [
+          43,
+          65,
+          16,
+          17
+        ]
+      },
+      {
+        "block": 1,
+        "node": 146,
+        "record_offset": 3876,
+        "record_hex": "0110cd016f0013008c00",
+        "degree_byte": 1,
+        "byte1": 16,
+        "expected_edges": [
+          461
+        ],
+        "u16_offsets_2_4_6_8": [
+          461,
+          111,
+          19,
+          140
+        ]
+      },
+      {
+        "block": 1,
+        "node": 169,
+        "record_offset": 4106,
+        "record_hex": "01183a016f016b011801",
+        "degree_byte": 1,
+        "byte1": 24,
+        "expected_edges": [
+          314
+        ],
+        "u16_offsets_2_4_6_8": [
+          314,
+          367,
+          363,
+          280
+        ]
+      },
+      {
+        "block": 1,
+        "node": 199,
+        "record_offset": 4406,
+        "record_hex": "11083d00860083003600",
+        "degree_byte": 17,
+        "byte1": 8,
+        "expected_edges": [
+          61
+        ],
+        "u16_offsets_2_4_6_8": [
+          61,
+          134,
+          131,
+          54
+        ]
+      },
+      {
+        "block": 1,
+        "node": 211,
+        "record_offset": 4526,
+        "record_hex": "010841006d006601a801",
+        "degree_byte": 1,
+        "byte1": 8,
+        "expected_edges": [
+          65
+        ],
+        "u16_offsets_2_4_6_8": [
+          65,
+          109,
+          358,
+          424
+        ]
+      }
+    ],
+    "4": [
+      {
+        "block": 1,
+        "node": 60,
+        "record_offset": 3016,
+        "record_hex": "c4042302cd00d8002102",
+        "degree_byte": 196,
+        "byte1": 4,
+        "expected_edges": [
+          205,
+          216,
+          545,
+          547
+        ],
+        "u16_offsets_2_4_6_8": [
+          547,
+          205,
+          216,
+          545
+        ]
+      },
+      {
+        "block": 1,
+        "node": 154,
+        "record_offset": 3956,
+        "record_hex": "e410d101320030003100",
+        "degree_byte": 228,
+        "byte1": 16,
+        "expected_edges": [
+          48,
+          49,
+          50,
+          465
+        ],
+        "u16_offsets_2_4_6_8": [
+          465,
+          50,
+          48,
+          49
+        ]
+      },
+      {
+        "block": 1,
+        "node": 212,
+        "record_offset": 4536,
+        "record_hex": "c4044000d8010c004100",
+        "degree_byte": 196,
+        "byte1": 4,
+        "expected_edges": [
+          12,
+          64,
+          65,
+          472
+        ],
+        "u16_offsets_2_4_6_8": [
+          64,
+          472,
+          12,
+          65
+        ]
+      },
+      {
+        "block": 1,
+        "node": 251,
+        "record_offset": 4926,
+        "record_hex": "c40453005200e401e501",
+        "degree_byte": 196,
+        "byte1": 4,
+        "expected_edges": [
+          82,
+          83,
+          484,
+          485
+        ],
+        "u16_offsets_2_4_6_8": [
+          83,
+          82,
+          484,
+          485
+        ]
+      },
+      {
+        "block": 1,
+        "node": 292,
+        "record_offset": 5336,
+        "record_hex": "c40445004600db01dc01",
+        "degree_byte": 196,
+        "byte1": 4,
+        "expected_edges": [
+          69,
+          70,
+          475,
+          476
+        ],
+        "u16_offsets_2_4_6_8": [
+          69,
+          70,
+          475,
+          476
+        ]
+      },
+      {
+        "block": 1,
+        "node": 320,
+        "record_offset": 5616,
+        "record_hex": "840483006a0061008100",
+        "degree_byte": 132,
+        "byte1": 4,
+        "expected_edges": [
+          97,
+          106,
+          129,
+          131
+        ],
+        "u16_offsets_2_4_6_8": [
+          131,
+          106,
+          97,
+          129
+        ]
+      },
+      {
+        "block": 1,
+        "node": 330,
+        "record_offset": 5716,
+        "record_hex": "8404e801e901ea01eb01",
+        "degree_byte": 132,
+        "byte1": 4,
+        "expected_edges": [
+          488,
+          489,
+          490,
+          491
+        ],
+        "u16_offsets_2_4_6_8": [
+          488,
+          489,
+          490,
+          491
+        ]
+      },
+      {
+        "block": 1,
+        "node": 392,
+        "record_offset": 6336,
+        "record_hex": "e404a100a2008400a000",
+        "degree_byte": 228,
+        "byte1": 4,
+        "expected_edges": [
+          132,
+          160,
+          161,
+          162
+        ],
+        "u16_offsets_2_4_6_8": [
+          161,
+          162,
+          132,
+          160
+        ]
+      }
+    ],
+    "5": [
+      {
+        "block": 1,
+        "node": 283,
+        "record_offset": 5246,
+        "record_hex": "251c04c2dd0147004800",
+        "degree_byte": 37,
+        "byte1": 28,
+        "expected_edges": [
+          71,
+          72,
+          73,
+          477,
+          478
+        ],
+        "u16_offsets_2_4_6_8": [
+          49668,
+          477,
+          71,
+          72
+        ]
+      },
+      {
+        "block": 3,
+        "node": 161,
+        "record_offset": 3859,
+        "record_hex": "451cfb7d5d015e011d00",
+        "degree_byte": 69,
+        "byte1": 28,
+        "expected_edges": [
+          29,
+          349,
+          350,
+          351,
+          352
+        ],
+        "u16_offsets_2_4_6_8": [
+          32251,
+          349,
+          350,
+          29
+        ]
+      },
+      {
+        "block": 3,
+        "node": 296,
+        "record_offset": 5209,
+        "record_hex": "451c20c802020302fe01",
+        "degree_byte": 69,
+        "byte1": 28,
+        "expected_edges": [
+          160,
+          165,
+          510,
+          514,
+          515
+        ],
+        "u16_offsets_2_4_6_8": [
+          51232,
+          514,
+          515,
+          510
+        ]
+      },
+      {
+        "block": 4,
+        "node": 11,
+        "record_offset": 2301,
+        "record_hex": "251c281c8d00b4018e00",
+        "degree_byte": 37,
+        "byte1": 28,
+        "expected_edges": [
+          141,
+          142,
+          428,
+          429,
+          436
+        ],
+        "u16_offsets_2_4_6_8": [
+          7208,
+          141,
+          436,
+          142
+        ]
+      },
+      {
+        "block": 5,
+        "node": 17,
+        "record_offset": 2151,
+        "record_hex": "2518081e19001f001c00",
+        "degree_byte": 37,
+        "byte1": 24,
+        "expected_edges": [
+          25,
+          28,
+          31,
+          32,
+          33
+        ],
+        "u16_offsets_2_4_6_8": [
+          7688,
+          25,
+          31,
+          28
+        ]
+      },
+      {
+        "block": 7,
+        "node": 55,
+        "record_offset": 2717,
+        "record_hex": "250cfbc137006c012e00",
+        "degree_byte": 37,
+        "byte1": 12,
+        "expected_edges": [
+          46,
+          49,
+          55,
+          56,
+          364
+        ],
+        "u16_offsets_2_4_6_8": [
+          49659,
+          55,
+          364,
+          46
+        ]
+      },
+      {
+        "block": 7,
+        "node": 156,
+        "record_offset": 3727,
+        "record_hex": "251008f9860087008800",
+        "degree_byte": 37,
+        "byte1": 16,
+        "expected_edges": [
+          119,
+          134,
+          135,
+          136,
+          413
+        ],
+        "u16_offsets_2_4_6_8": [
+          63752,
+          134,
+          135,
+          136
+        ]
+      },
+      {
+        "block": 7,
+        "node": 158,
+        "record_offset": 3747,
+        "record_hex": "251008fa820083008400",
+        "degree_byte": 37,
+        "byte1": 16,
+        "expected_edges": [
+          120,
+          130,
+          131,
+          132,
+          133
+        ],
+        "u16_offsets_2_4_6_8": [
+          64008,
+          130,
+          131,
+          132
+        ]
+      }
+    ],
+    "0": [
+      {
+        "block": 1,
+        "node": 284,
+        "record_offset": 5256,
+        "record_hex": "4900de019e01d0003f00",
+        "degree_byte": 73,
+        "byte1": 0,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          478,
+          414,
+          208,
+          63
+        ]
+      },
+      {
+        "block": 3,
+        "node": 32,
+        "record_offset": 2569,
+        "record_hex": "46004700b20121005d00",
+        "degree_byte": 70,
+        "byte1": 0,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          71,
+          434,
+          33,
+          93
+        ]
+      },
+      {
+        "block": 3,
+        "node": 162,
+        "record_offset": 3869,
+        "record_hex": "5f016001690158016202",
+        "degree_byte": 95,
+        "byte1": 1,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          352,
+          361,
+          344,
+          610
+        ]
+      },
+      {
+        "block": 3,
+        "node": 297,
+        "record_offset": 5219,
+        "record_hex": "a000a500be002301b100",
+        "degree_byte": 160,
+        "byte1": 0,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          165,
+          190,
+          291,
+          177
+        ]
+      },
+      {
+        "block": 4,
+        "node": 12,
+        "record_offset": 2311,
+        "record_hex": "ad01ac01a9009e009f00",
+        "degree_byte": 173,
+        "byte1": 1,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          428,
+          169,
+          158,
+          159
+        ]
+      },
+      {
+        "block": 5,
+        "node": 18,
+        "record_offset": 2161,
+        "record_hex": "200021000e000b000701",
+        "degree_byte": 32,
+        "byte1": 0,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          33,
+          14,
+          11,
+          263
+        ]
+      },
+      {
+        "block": 7,
+        "node": 56,
+        "record_offset": 2727,
+        "record_hex": "310038002f003a003700",
+        "degree_byte": 49,
+        "byte1": 0,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          56,
+          47,
+          58,
+          55
+        ]
+      },
+      {
+        "block": 7,
+        "node": 157,
+        "record_offset": 3737,
+        "record_hex": "9d0177005b009d008300",
+        "degree_byte": 157,
+        "byte1": 1,
+        "expected_edges": [],
+        "u16_offsets_2_4_6_8": [
+          119,
+          91,
+          157,
+          131
+        ]
+      }
+    ],
+    "6": [
+      {
+        "block": 3,
+        "node": 31,
+        "record_offset": 2559,
+        "record_hex": "26386232b0014500b101",
+        "degree_byte": 38,
+        "byte1": 56,
+        "expected_edges": [
+          69,
+          70,
+          71,
+          432,
+          433,
+          434
+        ],
+        "u16_offsets_2_4_6_8": [
+          12898,
+          432,
+          69,
+          433
+        ]
+      },
+      {
+        "block": 10,
+        "node": 128,
+        "record_offset": 3019,
+        "record_hex": "2618fbd0280017011801",
+        "degree_byte": 38,
+        "byte1": 24,
+        "expected_edges": [
+          38,
+          40,
+          41,
+          279,
+          280,
+          281
+        ],
+        "u16_offsets_2_4_6_8": [
+          53499,
+          40,
+          279,
+          280
+        ]
+      },
+      {
+        "block": 10,
+        "node": 207,
+        "record_offset": 3809,
+        "record_hex": "2638fb0210011700e800",
+        "degree_byte": 38,
+        "byte1": 56,
+        "expected_edges": [
+          23,
+          31,
+          232,
+          246,
+          272,
+          273
+        ],
+        "u16_offsets_2_4_6_8": [
+          763,
+          272,
+          23,
+          232
+        ]
+      },
+      {
+        "block": 38,
+        "node": 490,
+        "record_offset": 7449,
+        "record_hex": "263cdb653a0162025502",
+        "degree_byte": 38,
+        "byte1": 60,
+        "expected_edges": [
+          298,
+          300,
+          306,
+          314,
+          597,
+          610
+        ],
+        "u16_offsets_2_4_6_8": [
+          26075,
+          314,
+          610,
+          597
+        ]
+      },
+      {
+        "block": 40,
+        "node": 53,
+        "record_offset": 2912,
+        "record_hex": "5630fb1b370038006001",
+        "degree_byte": 86,
+        "byte1": 48,
+        "expected_edges": [
+          55,
+          56,
+          57,
+          58,
+          352,
+          353
+        ],
+        "u16_offsets_2_4_6_8": [
+          7163,
+          55,
+          56,
+          352
+        ]
+      },
+      {
+        "block": 41,
+        "node": 41,
+        "record_offset": 1475,
+        "record_hex": "263cd30f18009a001a00",
+        "degree_byte": 38,
+        "byte1": 60,
+        "expected_edges": [
+          17,
+          24,
+          26,
+          27,
+          28,
+          154
+        ],
+        "u16_offsets_2_4_6_8": [
+          4051,
+          24,
+          154,
+          26
+        ]
+      },
+      {
+        "block": 74,
+        "node": 52,
+        "record_offset": 1809,
+        "record_hex": "4638502432000d010e01",
+        "degree_byte": 70,
+        "byte1": 56,
+        "expected_edges": [
+          50,
+          268,
+          269,
+          270,
+          271,
+          272
+        ],
+        "u16_offsets_2_4_6_8": [
+          9296,
+          50,
+          269,
+          270
+        ]
+      },
+      {
+        "block": 97,
+        "node": 350,
+        "record_offset": 5718,
+        "record_hex": "2638bb721a011b011c01",
+        "degree_byte": 38,
+        "byte1": 56,
+        "expected_edges": [
+          279,
+          281,
+          282,
+          283,
+          284,
+          490
+        ],
+        "u16_offsets_2_4_6_8": [
+          29371,
+          282,
+          283,
+          284
+        ]
+      }
+    ],
+    "7": [
+      {
+        "block": 572,
+        "node": 414,
+        "record_offset": 6032,
+        "record_hex": "4778fa55f401f501f601",
+        "degree_byte": 71,
+        "byte1": 120,
+        "expected_edges": [
+          252,
+          489,
+          494,
+          500,
+          501,
+          502,
+          503
+        ],
+        "u16_offsets_2_4_6_8": [
+          22010,
+          500,
+          501,
+          502
+        ]
+      },
+      {
+        "block": 576,
+        "node": 375,
+        "record_offset": 5512,
+        "record_hex": "477808efcd01ce01cb01",
+        "degree_byte": 71,
+        "byte1": 120,
+        "expected_edges": [
+          451,
+          454,
+          459,
+          460,
+          461,
+          462,
+          463
+        ],
+        "u16_offsets_2_4_6_8": [
+          61192,
+          461,
+          462,
+          459
+        ]
+      },
+      {
+        "block": 725,
+        "node": 336,
+        "record_offset": 5621,
+        "record_hex": "2770fbea4d0145004e01",
+        "degree_byte": 39,
+        "byte1": 112,
+        "expected_edges": [
+          69,
+          70,
+          71,
+          333,
+          334,
+          335,
+          336
+        ],
+        "u16_offsets_2_4_6_8": [
+          60155,
+          333,
+          69,
+          334
+        ]
+      },
+      {
+        "block": 742,
+        "node": 250,
+        "record_offset": 4866,
+        "record_hex": "677810a3fb00fc00fd00",
+        "degree_byte": 103,
+        "byte1": 120,
+        "expected_edges": [
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257
+        ],
+        "u16_offsets_2_4_6_8": [
+          41744,
+          251,
+          252,
+          253
+        ]
+      },
+      {
+        "block": 755,
+        "node": 264,
+        "record_offset": 3960,
+        "record_hex": "2778faeba400a500a600",
+        "degree_byte": 39,
+        "byte1": 120,
+        "expected_edges": [
+          155,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168
+        ],
+        "u16_offsets_2_4_6_8": [
+          60410,
+          164,
+          165,
+          166
+        ]
+      },
+      {
+        "block": 763,
+        "node": 369,
+        "record_offset": 5558,
+        "record_hex": "2770fb2ae700ca01e800",
+        "degree_byte": 39,
+        "byte1": 112,
+        "expected_edges": [
+          231,
+          232,
+          233,
+          234,
+          458,
+          459,
+          460
+        ],
+        "u16_offsets_2_4_6_8": [
+          11003,
+          231,
+          458,
+          232
+        ]
+      },
+      {
+        "block": 802,
+        "node": 172,
+        "record_offset": 3904,
+        "record_hex": "6770fbacf4017b008500",
+        "degree_byte": 103,
+        "byte1": 112,
+        "expected_edges": [
+          123,
+          133,
+          171,
+          172,
+          500,
+          501,
+          502
+        ],
+        "u16_offsets_2_4_6_8": [
+          44283,
+          500,
+          123,
+          133
+        ]
+      },
+      {
+        "block": 868,
+        "node": 109,
+        "record_offset": 2670,
+        "record_hex": "277810057c017d013800",
+        "degree_byte": 39,
+        "byte1": 120,
+        "expected_edges": [
+          49,
+          56,
+          57,
+          58,
+          59,
+          380,
+          381
+        ],
+        "u16_offsets_2_4_6_8": [
+          1296,
+          380,
+          381,
+          56
+        ]
+      }
+    ]
+  },
+  "mismatch_examples": [
+    {
+      "block": 1,
+      "node": 283,
+      "record_offset": 5246,
+      "record_hex": "251c04c2dd0147004800",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 28,
+      "expected_local_edges": [
+        71,
+        72,
+        73,
+        477,
+        478
+      ],
+      "four_u16_slots": [
+        49668,
+        477,
+        71,
+        72
+      ]
+    },
+    {
+      "block": 1,
+      "node": 284,
+      "record_offset": 5256,
+      "record_hex": "4900de019e01d0003f00",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 9,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        478,
+        414,
+        208,
+        63
+      ]
+    },
+    {
+      "block": 3,
+      "node": 31,
+      "record_offset": 2559,
+      "record_hex": "26386232b0014500b101",
+      "actual_local_degree": 6,
+      "stored_degree_nibble": 6,
+      "byte1": 56,
+      "expected_local_edges": [
+        69,
+        70,
+        71,
+        432,
+        433,
+        434
+      ],
+      "four_u16_slots": [
+        12898,
+        432,
+        69,
+        433
+      ]
+    },
+    {
+      "block": 3,
+      "node": 32,
+      "record_offset": 2569,
+      "record_hex": "46004700b20121005d00",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 6,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        71,
+        434,
+        33,
+        93
+      ]
+    },
+    {
+      "block": 3,
+      "node": 161,
+      "record_offset": 3859,
+      "record_hex": "451cfb7d5d015e011d00",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 28,
+      "expected_local_edges": [
+        29,
+        349,
+        350,
+        351,
+        352
+      ],
+      "four_u16_slots": [
+        32251,
+        349,
+        350,
+        29
+      ]
+    },
+    {
+      "block": 3,
+      "node": 162,
+      "record_offset": 3869,
+      "record_hex": "5f016001690158016202",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 15,
+      "byte1": 1,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        352,
+        361,
+        344,
+        610
+      ]
+    },
+    {
+      "block": 3,
+      "node": 296,
+      "record_offset": 5209,
+      "record_hex": "451c20c802020302fe01",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 28,
+      "expected_local_edges": [
+        160,
+        165,
+        510,
+        514,
+        515
+      ],
+      "four_u16_slots": [
+        51232,
+        514,
+        515,
+        510
+      ]
+    },
+    {
+      "block": 4,
+      "node": 11,
+      "record_offset": 2301,
+      "record_hex": "251c281c8d00b4018e00",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 28,
+      "expected_local_edges": [
+        141,
+        142,
+        428,
+        429,
+        436
+      ],
+      "four_u16_slots": [
+        7208,
+        141,
+        436,
+        142
+      ]
+    },
+    {
+      "block": 4,
+      "node": 12,
+      "record_offset": 2311,
+      "record_hex": "ad01ac01a9009e009f00",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 13,
+      "byte1": 1,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        428,
+        169,
+        158,
+        159
+      ]
+    },
+    {
+      "block": 5,
+      "node": 17,
+      "record_offset": 2151,
+      "record_hex": "2518081e19001f001c00",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 24,
+      "expected_local_edges": [
+        25,
+        28,
+        31,
+        32,
+        33
+      ],
+      "four_u16_slots": [
+        7688,
+        25,
+        31,
+        28
+      ]
+    },
+    {
+      "block": 7,
+      "node": 55,
+      "record_offset": 2717,
+      "record_hex": "250cfbc137006c012e00",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 12,
+      "expected_local_edges": [
+        46,
+        49,
+        55,
+        56,
+        364
+      ],
+      "four_u16_slots": [
+        49659,
+        55,
+        364,
+        46
+      ]
+    },
+    {
+      "block": 7,
+      "node": 56,
+      "record_offset": 2727,
+      "record_hex": "310038002f003a003700",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 1,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "inline_refs": [
+        56
+      ]
+    },
+    {
+      "block": 7,
+      "node": 156,
+      "record_offset": 3727,
+      "record_hex": "251008f9860087008800",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 16,
+      "expected_local_edges": [
+        119,
+        134,
+        135,
+        136,
+        413
+      ],
+      "four_u16_slots": [
+        63752,
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "block": 7,
+      "node": 157,
+      "record_offset": 3737,
+      "record_hex": "9d0177005b009d008300",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 13,
+      "byte1": 1,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        119,
+        91,
+        157,
+        131
+      ]
+    },
+    {
+      "block": 7,
+      "node": 158,
+      "record_offset": 3747,
+      "record_hex": "251008fa820083008400",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 16,
+      "expected_local_edges": [
+        120,
+        130,
+        131,
+        132,
+        133
+      ],
+      "four_u16_slots": [
+        64008,
+        130,
+        131,
+        132
+      ]
+    },
+    {
+      "block": 7,
+      "node": 159,
+      "record_offset": 3757,
+      "record_hex": "85007800fa0000015101",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 5,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        120,
+        250,
+        256,
+        337
+      ]
+    },
+    {
+      "block": 10,
+      "node": 128,
+      "record_offset": 3019,
+      "record_hex": "2618fbd0280017011801",
+      "actual_local_degree": 6,
+      "stored_degree_nibble": 6,
+      "byte1": 24,
+      "expected_local_edges": [
+        38,
+        40,
+        41,
+        279,
+        280,
+        281
+      ],
+      "four_u16_slots": [
+        53499,
+        40,
+        279,
+        280
+      ]
+    },
+    {
+      "block": 10,
+      "node": 129,
+      "record_offset": 3029,
+      "record_hex": "29001901260057015101",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 9,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        281,
+        38,
+        343,
+        337
+      ]
+    },
+    {
+      "block": 10,
+      "node": 207,
+      "record_offset": 3809,
+      "record_hex": "2638fb0210011700e800",
+      "actual_local_degree": 6,
+      "stored_degree_nibble": 6,
+      "byte1": 56,
+      "expected_local_edges": [
+        23,
+        31,
+        232,
+        246,
+        272,
+        273
+      ],
+      "four_u16_slots": [
+        763,
+        272,
+        23,
+        232
+      ]
+    },
+    {
+      "block": 10,
+      "node": 208,
+      "record_offset": 3819,
+      "record_hex": "f6001f00110185008801",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 6,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        31,
+        273,
+        133,
+        392
+      ]
+    },
+    {
+      "block": 10,
+      "node": 220,
+      "record_offset": 3939,
+      "record_hex": "3518fb12750073007100",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 24,
+      "expected_local_edges": [
+        113,
+        114,
+        115,
+        117,
+        119
+      ],
+      "four_u16_slots": [
+        4859,
+        117,
+        115,
+        113
+      ]
+    },
+    {
+      "block": 10,
+      "node": 221,
+      "record_offset": 3949,
+      "record_hex": "720077000c0104010301",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 2,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "inline_refs": [
+        119,
+        268
+      ]
+    },
+    {
+      "block": 11,
+      "node": 117,
+      "record_offset": 2193,
+      "record_hex": "250e0883e80065006600",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 14,
+      "expected_local_edges": [
+        101,
+        102,
+        103,
+        104,
+        232
+      ],
+      "four_u16_slots": [
+        33544,
+        232,
+        101,
+        102
+      ]
+    },
+    {
+      "block": 11,
+      "node": 118,
+      "record_offset": 2203,
+      "record_hex": "670068009b00af006b00",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 7,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        104,
+        155,
+        175,
+        107
+      ]
+    },
+    {
+      "block": 15,
+      "node": 90,
+      "record_offset": 2464,
+      "record_hex": "6511d23a200021002200",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 17,
+      "expected_local_edges": [
+        28,
+        32,
+        33,
+        34,
+        345
+      ],
+      "four_u16_slots": [
+        15058,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "block": 15,
+      "node": 91,
+      "record_offset": 2474,
+      "record_hex": "59011c00340140008500",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 9,
+      "byte1": 1,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        28,
+        308,
+        64,
+        133
+      ]
+    },
+    {
+      "block": 16,
+      "node": 139,
+      "record_offset": 3702,
+      "record_hex": "6518eb8f330134013c00",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 24,
+      "expected_local_edges": [
+        60,
+        61,
+        307,
+        308,
+        309
+      ],
+      "four_u16_slots": [
+        36843,
+        307,
+        308,
+        60
+      ]
+    },
+    {
+      "block": 16,
+      "node": 140,
+      "record_offset": 3712,
+      "record_hex": "3d0035016f016e001702",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 13,
+      "byte1": 0,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        309,
+        367,
+        110,
+        535
+      ]
+    },
+    {
+      "block": 16,
+      "node": 276,
+      "record_offset": 5072,
+      "record_hex": "251cbb876b016c016d01",
+      "actual_local_degree": 5,
+      "stored_degree_nibble": 5,
+      "byte1": 28,
+      "expected_local_edges": [
+        361,
+        363,
+        364,
+        365,
+        366
+      ],
+      "four_u16_slots": [
+        34747,
+        363,
+        364,
+        365
+      ]
+    },
+    {
+      "block": 16,
+      "node": 277,
+      "record_offset": 5082,
+      "record_hex": "6e0169016a01d300a601",
+      "actual_local_degree": 0,
+      "stored_degree_nibble": 14,
+      "byte1": 1,
+      "expected_local_edges": [],
+      "four_u16_slots": [
+        361,
+        362,
+        211,
+        422
+      ]
+    }
+  ],
+  "all_local_adjacency_fully_validated": false,
+  "note": "The low nibble appears to be an adjacency degree count. For degree <=4, only that many u16 slots from +2 are candidate inline references. Degree >4 necessarily requires an overflow/continuation representation not yet identified."
+}

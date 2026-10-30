@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_60d1a84bc22f",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CT_DEFLATE_COMPRESSIBILITY_PROFILE_a894e96e",
+  "selected_goal_id": "AUTO_NCDX_DATA_CT_DEFLATE_COMPRESSIBILITY_PROFILE_a894e96e",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the instruction to prioritize evidence regarding map storage and address/index data; 'CT' (likely County-level) is a standard administrative unit for address indexing in spatial datasets, offering high utility for reducing uncertainty about address data structures without inferring specific file semantics.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CT_DEFLATE_COMPRESSIBILITY_PROFILE_a894e96e",
+  "candidate_fingerprint": "7d26c6af45de58851bf10da59bbf8cc718524ed3e4ff8f0f06a034746b7320f0",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_60d1a84bc22f",
+  "remaining_unique_experiments": 18,
+  "created_utc": "2026-10-26T22:26:26.504887+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

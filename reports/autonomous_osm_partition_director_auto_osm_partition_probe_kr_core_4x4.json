@@ -1,0 +1,16 @@
+{
+  "status": "PASS_WITH_BOUNDED_FALLBACK",
+  "task_id": "AUTO_DIRECTOR_OSM_PARTITION_4X4",
+  "model": null,
+  "model_error": "URLError: <urlopen error [WinError 10013] Сделана попытка доступа к сокету методом, запрещенным правами доступа>",
+  "model_choice": null,
+  "selected_goal_id": "AUTO_OSM_PARTITION_PROBE_KR_CORE_4X4",
+  "selection_source": "first remaining fixed candidate",
+  "selection_reason": "URLError: <urlopen error [WinError 10013] Сделана попытка доступа к сокету методом, запрещенным правами доступа>",
+  "safe_schema_validated": false,
+  "next_task_id": "AUTO_OSM_PARTITION_PROBE_KR_CORE_4X4",
+  "created_utc": "2026-10-26T22:11:18.085556+00:00",
+  "original_media_write_count": 0,
+  "codex_calls": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

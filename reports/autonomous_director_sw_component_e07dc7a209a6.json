@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_e07dc7a209a6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_676ba48b565b0af7",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_LANGUAGE_LOC_0090200006/LANGUAGEUPDATE01.DLL",
+  "selected_source_sha256": "1cd2b4b0299b7320eb9d200aa803732fd9aa979a3a28559bd95cd6a83e3b84d0",
+  "selected_size_bytes": 83534,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "This candidate (LANGUAGEUPDATE01.DLL) is a PE header probe for a language update module, which can provide evidence of NCDx software localization or navigation-format configuration without requiring hardware access or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_676ba48b565b0af7",
+  "candidate_fingerprint": "e07dc7a209a6b79297c863597555ed0b419262eb1b0d5a860c54f0026cec2423",
+  "remaining_unseen_candidates": 10,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:03:00.118333+00:00"
+}

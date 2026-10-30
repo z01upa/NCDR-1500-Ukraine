@@ -1,0 +1,11 @@
+{
+  "artifact_pointers": [],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "0da86cea162da4cf74e96c32a8d4a08c758a4fda4a696c7faf69c2d5b938c40b",
+  "status": "BLOCKED",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_IL_STANDALONE_ZLIB_STREAM_CENSUS_16215e89",
+  "updated_utc": "2026-10-27T13:29:27.479097+00:00",
+  "verified_by_independent_reviewer": false
+}

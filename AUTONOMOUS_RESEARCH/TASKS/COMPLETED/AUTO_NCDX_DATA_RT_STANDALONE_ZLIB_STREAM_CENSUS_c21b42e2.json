@@ -1,0 +1,12 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.RT",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.RT",
+    "SW/DB/EUZ.RT",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_RT_STANDALONE_ZLIB_STREAM_CENSUS_c21b42e2.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_RT_STANDALONE_ZLIB_STREAM_CENSUS_c21b42e2",
+  "updated_utc": "2026-10-27T13:31:47.680366+00:00"
+}

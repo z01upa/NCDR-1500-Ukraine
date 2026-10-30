@@ -1,0 +1,133 @@
+{
+  "verification_status": "PASS",
+  "dataset": "EU44420940.82",
+  "inputs": {
+    "RL": {
+      "size": 15234844,
+      "sha256": "9f682996cf62e16d81773ded7d27d4b3b670ab5ad5c07a258a9c64ae84e8efb7",
+      "type": 21,
+      "header_count": 249750,
+      "stride": 61
+    },
+    "IOF": {
+      "size": 901852,
+      "sha256": "55bd61a8ea16933516d0a28f3f61ced22ee2f99bd945ed064f4be22de993f7da",
+      "type": 21,
+      "header_count": 150293,
+      "stride": 6
+    },
+    "IL": {
+      "size": 999265,
+      "sha256": "720575e67a444bfe012328d91076d97f4d85125c48efa04ac41329625d516943",
+      "type": 20,
+      "header_count": 41172,
+      "stride": null
+    }
+  },
+  "counts": {
+    "RL_records": 249750,
+    "IOF_records": 150293,
+    "IL_variable_records": 41172,
+    "RL_unique_IOF_index_values": 132748,
+    "IOF_pointer_groups": 3709,
+    "IOF_inline_records": 146584,
+    "all_pointer_groups_validate_count": true,
+    "all_IL_ids_within_IOF_range": true,
+    "all_IL_ids_have_RL_aliases": true,
+    "IL_names_matching_an_RL_alias_after_basic_normalization": 22727,
+    "total_IL_names": 41172,
+    "IL_name_match_fraction": 0.552001
+  },
+  "verified": [
+    "RL u32 at +0 addresses IOF index range in entire checked file",
+    "IOF nonzero u32 at +0 addresses exact IL variable record boundary",
+    "IOF low u16 at +4 equals number of IL records to the next nonzero IOF pointer, including last group",
+    "IL consists of 11-byte prefix and NUL-terminated CP1252 string, with exact header_count and EOF",
+    "IL initial u32 is in IOF index range and maps to one or more RL alias records",
+    "Original files are only read and hashed, never written"
+  ],
+  "hypotheses_not_proved": [
+    "The IOF->IL groups could describe road-name neighborhood/intersection relationships, but no road geometry or physical junction is decoded",
+    "Meaning of IOF zero-pointer high-bit mode and other opaque fields is unknown",
+    "The IL name field is sometimes an abbreviated/local name; not all IL names match RL aliases directly",
+    "No MP0/MG/RT road geometry decoded; this is NOT an NCDR disc"
+  ],
+  "examples": [
+    {
+      "source_iof_index": 38,
+      "source_rl_example": "ALEXANDRE HERCULANO;RUA",
+      "target_iof_index": 36,
+      "il_name": "MANUEL BELMARCO RUA",
+      "il_record_offset": 94,
+      "il_opaque_bytes_4_10_hex": "e2f13f00000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 38,
+      "source_rl_example": "ALEXANDRE HERCULANO;RUA",
+      "target_iof_index": 37,
+      "il_name": "MARQUES DA SILVA TRAVESSA",
+      "il_record_offset": 125,
+      "il_opaque_bytes_4_10_hex": "e2f13f00000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 38,
+      "source_rl_example": "ALEXANDRE HERCULANO;RUA",
+      "target_iof_index": 33,
+      "il_name": "MISERICÓRDIA RUA DA",
+      "il_record_offset": 162,
+      "il_opaque_bytes_4_10_hex": "e2f13f00000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 38,
+      "source_rl_example": "ALEXANDRE HERCULANO;RUA",
+      "target_iof_index": 39,
+      "il_name": "PINHEIRO CHAGAS RUA",
+      "il_record_offset": 193,
+      "il_opaque_bytes_4_10_hex": "04008000000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 77,
+      "source_rl_example": "DA TRINDADE;RUA DO GENERAL TEÓFILO",
+      "target_iof_index": 67,
+      "il_name": "ABOIM ASCENÇÃO RUA",
+      "il_record_offset": 224,
+      "il_opaque_bytes_4_10_hex": "d6f13f00000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 77,
+      "source_rl_example": "DA TRINDADE;RUA DO GENERAL TEÓFILO",
+      "target_iof_index": 71,
+      "il_name": "ALPORTEL RUA DO",
+      "il_record_offset": 254,
+      "il_opaque_bytes_4_10_hex": "d6f13f00000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 77,
+      "source_rl_example": "DA TRINDADE;RUA DO GENERAL TEÓFILO",
+      "target_iof_index": 81,
+      "il_name": "DOUTOR CÂNDIDO GUERREIRO RUA",
+      "il_record_offset": 281,
+      "il_opaque_bytes_4_10_hex": "20008000000000",
+      "text_matches_rl_normalized": 1
+    },
+    {
+      "source_iof_index": 77,
+      "source_rl_example": "DA TRINDADE;RUA DO GENERAL TEÓFILO",
+      "target_iof_index": 91,
+      "il_name": "N2",
+      "il_record_offset": 321,
+      "il_opaque_bytes_4_10_hex": "d6f13f00000000",
+      "text_matches_rl_normalized": 1
+    }
+  ],
+  "outputs": [
+    "iof_il_groups.csv",
+    "il_road_relations.csv"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE.DLL",
+    "reports/autonomous_director_sw_component_6754a28fcb1b.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "fe735ddf6ece1e849d5f9022a1cb2b8464c12bc1a07f2583723f310a7a195423",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_6754a28fcb1b",
+  "updated_utc": "2026-10-27T20:04:32.006141+00:00",
+  "verified_by_independent_reviewer": false
+}

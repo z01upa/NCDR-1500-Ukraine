@@ -1,0 +1,8 @@
+target_sector,ptr,next_distinct_ptr,candidate_length,record_status
+214133,9900,11084,1184,candidate_extent_only
+214981,7004,13596,6592,candidate_extent_only
+215022,2064,2320,256,candidate_extent_only
+214662,10284,10956,672,candidate_extent_only
+214703,8912,9648,736,candidate_extent_only
+214550,7600,7952,352,candidate_extent_only
+216017,15304,40448,25144,candidate_extent_only

@@ -1,0 +1,13 @@
+{
+  "artifact_pointers": [
+    "reports/mission_pack/plans/AUTO_MISSION_DIRECTOR_EEE0D770C5D61B60.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "c705d75be1b6908db099e14e1b7998de0f51f340288b023df06204ee5351e8f4",
+  "status": "DONE",
+  "task_id": "AUTO_MISSION_DIRECTOR_EEE0D770C5D61B60",
+  "updated_utc": "2026-10-28T15:40:49.652808+00:00",
+  "verified_by_independent_reviewer": false
+}

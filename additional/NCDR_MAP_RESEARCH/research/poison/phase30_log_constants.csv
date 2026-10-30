@@ -1,0 +1,4 @@
+label,decimal,hex,locations_tested,interpretation
+ad5,2773,0x0AD5,type06 class counts,not matched
+primary_width,600000,0x000927C0,root/type08 context,not matched
+primary_total_nrec,10000,0x2710,root/type08 context,not matched

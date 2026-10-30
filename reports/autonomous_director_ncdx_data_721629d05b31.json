@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_721629d05b31",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6f770179",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6f770179",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (e.g., `alignment_4/scale_1000000_lat_lon`, `alignment_0/scale_1000000_lon_lat`). These entries represent decoded coordinate candidates derived from map storage or index data. Selecting this goal_id aligns with the constraint to prioritize evidence reducing uncertainty about map storage, address/index data, or route data, as these measurements directly correspond to such datasets.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6f770179",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "de7d02939ebc7597f7954063a6d2a7a225b35f9e33fe572087ccc68d6485d45a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_721629d05b31",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:33:59.962006+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

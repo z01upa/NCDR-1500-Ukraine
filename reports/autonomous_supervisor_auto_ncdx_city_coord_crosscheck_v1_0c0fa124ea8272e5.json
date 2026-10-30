@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_CITY_COORD_CROSSCHECK_V1_0C0FA124EA8272E5",
+  "target_task": "AUTO_NCDX_CITY_COORD_CROSSCHECK_V1_0C0FA124EA8272E5",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance",
+      "Physical compatibility in Opel NCDR vehicle"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_CITY_COORD_CROSSCHECK_V1_0C0FA124EA8272E5",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "status": "PASS",
+      "artifact_sha256": "9fadb960074e56462201d46a6d15eaaa16ea905ed1d47695a018a68f2545d4b6",
+      "verified_source_count": 6,
+      "regions": {
+        "SW": {
+          "prior_census_artifact_hash_matches": true,
+          "prior_full_stream_sha256_reproduced": true,
+          "current_map_source_unchanged": true,
+          "cty_cny_tables_verified": true,
+          "candidate_measurement_reproduced": true,
+          "city_bbox_hits_exceed_control": true
+        },
+        "Scandinavia": {
+          "prior_census_artifact_hash_matches": true,
+          "prior_full_stream_sha256_reproduced": true,
+          "current_map_source_unchanged": true,
+          "cty_cny_tables_verified": true,
+          "candidate_measurement_reproduced": true,
+          "city_bbox_hits_exceed_control": true
+        }
+      },
+      "hypothesis_result": "SUPPORTED",
+      "original_media_write_count": 0,
+      "claim_scope": "Validation of bounded signed-integer coordinate candidates against CTY city bounding boxes only; not road geometry, topology, routing, or physical disk compatibility.",
+      "task_id": "AUTO_NCDX_CITY_COORD_CROSSCHECK_V1_0C0FA124EA8272E5",
+      "all_original_media_write_count": 0,
+      "region_checks": {
+        "SW": {
+          "prior_census_artifact_hash_matches": true,
+          "prior_full_stream_sha256_reproduced": true,
+          "current_map_source_unchanged": true,
+          "cty_cny_tables_verified": true,
+          "candidate_measurement_reproduced": true,
+          "city_bbox_hits_exceed_control": true
+        },
+        "Scandinavia": {
+          "prior_census_artifact_hash_matches": true,
+          "prior_full_stream_sha256_reproduced": true,
+          "current_map_source_unchanged": true,
+          "cty_cny_tables_verified": true,
+          "candidate_measurement_reproduced": true,
+          "city_bbox_hits_exceed_control": true
+        }
+      }
+    }
+  },
+  "created_utc": "2026-10-28T15:30:28.964478+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-28.json",
+      "sha256": "fbbd671ac3bd35058af7944643cbf3e2d85f2714b98bb116bc4378dc23320c1c",
+      "size_bytes": 29790,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-28.md",
+      "sha256": "b9578e39b190d6cf53192e0e99839cacf75f1943fc80439849cc428e5d47e3b2",
+      "size_bytes": 5808,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "9b452bf6dd79905ec461a6eb51f860e0940dd1b3af176206d0eb072e1c73c2aa",
+      "size_bytes": 29791,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "7d7d221b4847b5803e01c80ba0e91016715e9ca93aba6a7de4611e048331bb88",
+      "size_bytes": 5807,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "ea52517a3154f1cc38133eaff78602651ac704dd95c9d7cc90e89cdd0d06aae1",
+      "size_bytes": 29792,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "87535d3b804a30a08a0ef31b32860c9bc871730b8ca1d0c1162683b8b1a9b7e1",
+      "size_bytes": 5807,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

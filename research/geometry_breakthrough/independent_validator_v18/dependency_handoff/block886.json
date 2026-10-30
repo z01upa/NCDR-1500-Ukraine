@@ -1,0 +1,76 @@
+{
+  "block": 886,
+  "compressed_offset": 28578738,
+  "compressed_size": 17471,
+  "decoded_size": 30061,
+  "raw_sha256": "c4fd95701be3301b999d7e8886d08a6d2e8a3461e9f6caa973a5128959d983a6",
+  "sections": [
+    {
+      "section": 0,
+      "offset": 46,
+      "count": 664,
+      "bytes": 3172
+    },
+    {
+      "section": 1,
+      "offset": 3218,
+      "count": 8,
+      "bytes": 24
+    },
+    {
+      "section": 2,
+      "offset": 3242,
+      "count": 4,
+      "bytes": 28
+    },
+    {
+      "section": 3,
+      "offset": 3270,
+      "count": 0,
+      "bytes": 0
+    },
+    {
+      "section": 4,
+      "offset": 3270,
+      "count": 664,
+      "bytes": 6640
+    },
+    {
+      "section": 5,
+      "offset": 9910,
+      "count": 706,
+      "bytes": 9884
+    },
+    {
+      "section": 6,
+      "offset": 19794,
+      "count": 4,
+      "bytes": 114
+    },
+    {
+      "section": 7,
+      "offset": 19908,
+      "count": 835,
+      "bytes": 5845
+    },
+    {
+      "section": 8,
+      "offset": 25753,
+      "count": 108,
+      "bytes": 1188
+    },
+    {
+      "section": 9,
+      "offset": 26941,
+      "count": 0,
+      "bytes": 0
+    },
+    {
+      "section": 10,
+      "offset": 26941,
+      "count": 369,
+      "bytes": 3120
+    }
+  ],
+  "scope": "Original block header only; no new-edge or dependency validation"
+}

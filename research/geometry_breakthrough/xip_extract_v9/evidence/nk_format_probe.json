@@ -1,0 +1,245 @@
+{
+  "generated_utc": "2026-10-29T13:28:56.400462+00:00",
+  "input": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+  "size": 11021915,
+  "sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "first_64_hex": "4c 4b 2d 30 31 2d 30 35 2d 30 30 30 2e 30 30 30 2e 30 30 30 30 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff",
+  "first_64_ascii": "LK-01-05-000.000.0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+  "checks": {
+    "standard_b000ff_magic_at_offset_0": false,
+    "ce1_ecec_free_structural_romhdr": {
+      "bounded_header_candidates": 1,
+      "candidates": [
+        {
+          "romhdr": {
+            "dllfirst": 3422290070,
+            "dlllast": 3425697942,
+            "physfirst": 3429105814,
+            "physlast": 3434872982,
+            "nummods": 150,
+            "ulRAMStart": 47662403,
+            "ulRAMFree": 2351875584,
+            "ulRAMEnd": 2560,
+            "ulCopyEntries": 229068,
+            "ulCopyOffset": 571263,
+            "ulProfileLen": 1738,
+            "ulProfileOffset": 31595852,
+            "numfiles": 16647,
+            "ulKernelFlags": 1232978,
+            "ulFSRamPercent": 4234221056,
+            "ulDrivglobStart": 2450260114,
+            "ulDrivglobLen": 550539625,
+            "usCPUType": 1633,
+            "usMiscFlags": 57755,
+            "pExtensions": 1629620388,
+            "ulTrackingStart": 2824949512,
+            "ulTrackingLen": 119800338,
+            "offset": 10319764,
+            "bounds_valid": true,
+            "ce_reasonable_counts": true
+          },
+          "toc": {
+            "start": 10319848,
+            "end_exclusive": 10324648,
+            "bounds_inside_file": true,
+            "printable_names_checked": 0,
+            "nk_exe_seen_in_first_32": false,
+            "sample_names": [
+              {
+                "index": 0,
+                "name": "",
+                "entry_offset": 10319848,
+                "attrs": 587227430,
+                "file_size": 3361811204,
+                "name_va": 319001129,
+                "e32_va": 620815002,
+                "o32_va": 2837971809,
+                "load_va": 572935265,
+                "name_offset": -3110104685
+              },
+              {
+                "index": 1,
+                "name": "",
+                "entry_offset": 10319880,
+                "attrs": 81952515,
+                "file_size": 1629226501,
+                "name_va": 101885404,
+                "e32_va": 134271491,
+                "o32_va": 1443209768,
+                "load_va": 313807457,
+                "name_offset": -3327220410
+              },
+              {
+                "index": 2,
+                "name": "",
+                "entry_offset": 10319912,
+                "attrs": 1649149959,
+                "file_size": 235036970,
+                "name_va": 1364746623,
+                "e32_va": 704971105,
+                "o32_va": 152218721,
+                "load_va": 1633702406,
+                "name_offset": -2064359191
+              },
+              {
+                "index": 3,
+                "name": "",
+                "entry_offset": 10319944,
+                "attrs": 10628416,
+                "file_size": 84579008,
+                "name_va": 708600125,
+                "e32_va": 1057399342,
+                "o32_va": 194165857,
+                "load_va": 22057993,
+                "name_offset": -2720505689
+              },
+              {
+                "index": 4,
+                "name": "",
+                "entry_offset": 10319976,
+                "attrs": 573694976,
+                "file_size": 857999186,
+                "name_va": 1631324066,
+                "e32_va": 227777610,
+                "o32_va": 874012990,
+                "load_va": 159452322,
+                "name_offset": -1797781748
+              },
+              {
+                "index": 5,
+                "name": "",
+                "entry_offset": 10320008,
+                "attrs": 573906017,
+                "file_size": 1222709259,
+                "name_va": 1375997842,
+                "e32_va": 975739912,
+                "o32_va": 265489058,
+                "load_va": 872747154,
+                "name_offset": -2053107972
+              },
+              {
+                "index": 6,
+                "name": "",
+                "entry_offset": 10320040,
+                "attrs": 2477812321,
+                "file_size": 308891654,
+                "name_va": 2198147711,
+                "e32_va": 574359778,
+                "o32_va": 2215793166,
+                "load_va": 68358745,
+                "name_offset": -1230958103
+              },
+              {
+                "index": 7,
+                "name": "",
+                "entry_offset": 10320072,
+                "attrs": 2450088468,
+                "file_size": 1023412931,
+                "name_va": 1361184609,
+                "e32_va": 353518802,
+                "o32_va": 98742282,
+                "load_va": 3524010558,
+                "name_offset": -2067921205
+              }
+            ],
+            "all_first_names_printable": false
+          }
+        }
+      ],
+      "validated_candidates": []
+    },
+    "ce00ff_marker_candidate": {
+      "offset": 1024,
+      "signature_bytes": "43 45 30 30 46 46 0a",
+      "bytes_after_signature_hex": "0b 00 00 1f 8c 24 be 10",
+      "le_start_candidate": 520093707,
+      "le_length_candidate": 280896652,
+      "length_within_image": false
+    },
+    "raw_ecec_candidates": [
+      {
+        "offset": 10283731,
+        "offset_mod_4": 3,
+        "ptoc_va": 2368693964,
+        "romhdr_offset_field": 39470403,
+        "ptoc_in_ce_kernel_range": true,
+        "romhdr_candidates": [
+          {
+            "interpretation": "as_stored",
+            "romhdr_offset": 49754070,
+            "romhdr_bounds_inside_file": false,
+            "romhdr": null
+          },
+          {
+            "interpretation": "offset_field_absent",
+            "romhdr_offset": 2368693964,
+            "romhdr_bounds_inside_file": false,
+            "romhdr": null
+          },
+          {
+            "interpretation": "offset_field_absent",
+            "romhdr_offset": 221210316,
+            "romhdr_bounds_inside_file": false,
+            "romhdr": null
+          },
+          {
+            "interpretation": "offset_field_absent",
+            "romhdr_offset": 3106508,
+            "romhdr_bounds_inside_file": true,
+            "romhdr": {
+              "dllfirst": 26184018,
+              "dlllast": 71042104,
+              "physfirst": 69207104,
+              "physlast": 69469256,
+              "nummods": 69731404,
+              "ulRAMStart": 69993552,
+              "ulRAMFree": 70254921,
+              "ulRAMEnd": 2449767566,
+              "ulCopyEntries": 2489942931,
+              "ulCopyOffset": 2443641980,
+              "ulProfileLen": 2090101123,
+              "ulProfileOffset": 2207423492,
+              "numfiles": 96769129,
+              "ulKernelFlags": 943494033,
+              "ulFSRamPercent": 71733378,
+              "ulDrivglobStart": 1038359592,
+              "ulDrivglobLen": 52273349,
+              "usCPUType": 13564,
+              "usMiscFlags": 50216,
+              "pExtensions": 1254429778,
+              "ulTrackingStart": 803602964,
+              "ulTrackingLen": 3290288842,
+              "offset": 3106508,
+              "bounds_valid": false,
+              "ce_reasonable_counts": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "target_name_strings": [
+    {
+      "name": "NavigationRem.dll",
+      "hits": [
+        {
+          "offset": 10461956,
+          "nul_terminated": true,
+          "prefix_hex": "00 c0 70 00 00 00 00 40 00 00 66 00 00 00 2d 7b 2e 8c 00 40 85 18 15 40",
+          "suffix_hex": "00 00 00 43 45 27 03 64 51 59 8c 94 0e 00 00 3b ab 05 00 7f 36 11 00 3f"
+        }
+      ]
+    },
+    {
+      "name": "nmicore_ce.dll",
+      "hits": [
+        {
+          "offset": 10465736,
+          "nul_terminated": true,
+          "prefix_hex": "79 25 4c 1c 2b 93 4c 52 48 38 16 4d 54 92 4d 07 43 05 61 dc 12 4e 06 15",
+          "suffix_hex": "00 43 45 10 04 44 c5 59 8c bc 0a 00 00 8a cf 03 00 7f 3e 0b 00 45 08 00"
+        }
+      ]
+    }
+  ]
+}

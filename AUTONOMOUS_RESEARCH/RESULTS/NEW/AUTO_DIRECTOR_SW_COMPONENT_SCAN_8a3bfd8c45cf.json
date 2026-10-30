@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_LANGUAGE_LOC_0090200006/LANGUAGEUPDATE.DLL",
+    "reports/autonomous_director_sw_component_8a3bfd8c45cf.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "3fc1d1fe5e3eefd748b911f7117dbb10545fb261c75fbb186ad47e5a160b4720",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_8a3bfd8c45cf",
+  "updated_utc": "2026-10-27T20:01:03.385862+00:00",
+  "verified_by_independent_reviewer": false
+}

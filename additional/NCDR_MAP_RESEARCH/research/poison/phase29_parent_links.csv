@@ -1,0 +1,2 @@
+owner_record,table_offset,parent_type,parent_pointer,parent_count,status
+0x06/0x7749B,0x0C66,,,unresolved,no parent update evidenced by A->B diff

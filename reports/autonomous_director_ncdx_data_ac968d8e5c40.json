@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_ac968d8e5c40",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CTY_EXACT_BLOCK_ANCHOR_SCAN_29be2da0",
+  "selected_goal_id": "AUTO_NCDX_DATA_CTY_EXACT_BLOCK_ANCHOR_SCAN_29be2da0",
+  "selection_source": "Ollama",
+  "selection_reason": "The 'CTY' dataset represents a significant volume of input bytes (4,145,523), suggesting it contains substantial address or index data relevant to map storage. Selecting an 'EXACT_BLOCK_ANCHOR_SCAN' on this large dataset provides high-value evidence regarding the integrity and structure of stored geographic entities, directly addressing uncertainty about map storage.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CTY_EXACT_BLOCK_ANCHOR_SCAN_29be2da0",
+  "candidate_fingerprint": "6c951f4d05714194d413394d56ba319f8c500fba0bf11cec3924e7b5b9b1c56b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_ac968d8e5c40",
+  "remaining_unique_experiments": 27,
+  "created_utc": "2026-10-26T22:23:39.237722+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_ed8879b8d5fd",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_RT_DEFLATE_COMPRESSIBILITY_PROFILE_32a58e38",
+  "selected_goal_id": "AUTO_NCDX_DATA_RT_DEFLATE_COMPRESSIBILITY_PROFILE_32a58e38",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on high total_input_bytes (68707775) indicating substantial data volume for compressibility analysis, which provides robust evidence regarding map storage characteristics without inferring semantic meaning or requiring hardware writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_RT_DEFLATE_COMPRESSIBILITY_PROFILE_32a58e38",
+  "candidate_fingerprint": "a6ea3699ebccb80bc98a48356e9901ceddc880475d7845cbd406b8b0c7674c53",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_ed8879b8d5fd",
+  "remaining_unique_experiments": 19,
+  "created_utc": "2026-10-26T22:19:00.113105+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_ad49606537f4",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_d819f7c86b5d2316",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE.DLL",
+  "selected_source_sha256": "82ef6cd5084b706e228ec9a39ad1fed35e4ba1b7257df9edd3601d9d5aef35c1",
+  "selected_size_bytes": 50688,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "Selected to analyze the MMIDISUPDATE.DLL binary for NCDx firmware structure evidence, adhering to the constraint of not inferring format from extension and avoiding hardware access.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_d819f7c86b5d2316",
+  "candidate_fingerprint": "ad49606537f4635c81b31056504a5e32a1854ccccef46669d699d1487114e51d",
+  "remaining_unseen_candidates": 0,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:07:49.323077+00:00"
+}

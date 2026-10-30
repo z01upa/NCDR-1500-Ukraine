@@ -1,0 +1,174 @@
+==========================================================================================
+FILE: 7185_MG1
+K=1 PAGES: 44
+
+PERFECT PAGE BY MODE:
+  prefix_delta             0 / 44
+  prefix_abs               0 / 44
+  suffix_delta             0 / 44
+  suffix_abs               0 / 44
+  prefix_delta_swapped     0 / 44
+  prefix_abs_swapped       0 / 44
+
+UNIQUE MODE+SPLIT SOLUTIONS:
+  prefix_delta             0
+  prefix_abs               0
+  suffix_delta             0
+  suffix_abs               0
+  prefix_delta_swapped     0
+  prefix_abs_swapped       0
+
+TOP TAGS:
+prefix_delta []
+prefix_abs []
+suffix_delta []
+suffix_abs []
+prefix_delta_swapped []
+prefix_abs_swapped []
+
+EXAMPLES:
+==========================================================================================
+FILE: 7185_MG2
+K=1 PAGES: 46
+
+PERFECT PAGE BY MODE:
+  prefix_delta             0 / 46
+  prefix_abs               0 / 46
+  suffix_delta             0 / 46
+  suffix_abs               0 / 46
+  prefix_delta_swapped     0 / 46
+  prefix_abs_swapped       0 / 46
+
+UNIQUE MODE+SPLIT SOLUTIONS:
+  prefix_delta             0
+  prefix_abs               0
+  suffix_delta             0
+  suffix_abs               0
+  prefix_delta_swapped     0
+  prefix_abs_swapped       0
+
+TOP TAGS:
+prefix_delta []
+prefix_abs []
+suffix_delta []
+suffix_abs []
+prefix_delta_swapped []
+prefix_abs_swapped []
+
+EXAMPLES:
+==========================================================================================
+FILE: 7185_MG3
+K=1 PAGES: 40
+
+PERFECT PAGE BY MODE:
+  prefix_delta             0 / 40
+  prefix_abs               0 / 40
+  suffix_delta             0 / 40
+  suffix_abs               0 / 40
+  prefix_delta_swapped     0 / 40
+  prefix_abs_swapped       0 / 40
+
+UNIQUE MODE+SPLIT SOLUTIONS:
+  prefix_delta             0
+  prefix_abs               0
+  suffix_delta             0
+  suffix_abs               0
+  prefix_delta_swapped     0
+  prefix_abs_swapped       0
+
+TOP TAGS:
+prefix_delta []
+prefix_abs []
+suffix_delta []
+suffix_abs []
+prefix_delta_swapped []
+prefix_abs_swapped []
+
+EXAMPLES:
+==========================================================================================
+FILE: 7186_MG1
+K=1 PAGES: 47
+
+PERFECT PAGE BY MODE:
+  prefix_delta             0 / 47
+  prefix_abs               0 / 47
+  suffix_delta             0 / 47
+  suffix_abs               0 / 47
+  prefix_delta_swapped     0 / 47
+  prefix_abs_swapped       0 / 47
+
+UNIQUE MODE+SPLIT SOLUTIONS:
+  prefix_delta             0
+  prefix_abs               0
+  suffix_delta             0
+  suffix_abs               0
+  prefix_delta_swapped     0
+  prefix_abs_swapped       0
+
+TOP TAGS:
+prefix_delta []
+prefix_abs []
+suffix_delta []
+suffix_abs []
+prefix_delta_swapped []
+prefix_abs_swapped []
+
+EXAMPLES:
+==========================================================================================
+FILE: 7186_MG2
+K=1 PAGES: 59
+
+PERFECT PAGE BY MODE:
+  prefix_delta             0 / 59
+  prefix_abs               0 / 59
+  suffix_delta             0 / 59
+  suffix_abs               0 / 59
+  prefix_delta_swapped     0 / 59
+  prefix_abs_swapped       0 / 59
+
+UNIQUE MODE+SPLIT SOLUTIONS:
+  prefix_delta             0
+  prefix_abs               0
+  suffix_delta             0
+  suffix_abs               0
+  prefix_delta_swapped     0
+  prefix_abs_swapped       0
+
+TOP TAGS:
+prefix_delta []
+prefix_abs []
+suffix_delta []
+suffix_abs []
+prefix_delta_swapped []
+prefix_abs_swapped []
+
+EXAMPLES:
+==========================================================================================
+FILE: 7186_MG3
+K=1 PAGES: 40
+
+PERFECT PAGE BY MODE:
+  prefix_delta             0 / 40
+  prefix_abs               0 / 40
+  suffix_delta             0 / 40
+  suffix_abs               0 / 40
+  prefix_delta_swapped     0 / 40
+  prefix_abs_swapped       0 / 40
+
+UNIQUE MODE+SPLIT SOLUTIONS:
+  prefix_delta             0
+  prefix_abs               0
+  suffix_delta             0
+  suffix_abs               0
+  prefix_delta_swapped     0
+  prefix_abs_swapped       0
+
+TOP TAGS:
+prefix_delta []
+prefix_abs []
+suffix_delta []
+suffix_abs []
+prefix_delta_swapped []
+prefix_abs_swapped []
+
+EXAMPLES:

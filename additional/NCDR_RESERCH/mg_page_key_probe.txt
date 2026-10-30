@@ -1,0 +1,348 @@
+==========================================================================================
+FILE: 7185_MG1
+LEVEL: 2
+PAGES: 3925
+UNIQUE META1: 3922 / 3925
+UNIQUE BBOX: 3925 / 3925
+UNIQUE RAW HASH: 3925 / 3925
+META1 TOP BIT SET: 0 / 3925
+==========================================================================================
+FILE: 7185_MG2
+LEVEL: 3
+PAGES: 2511
+UNIQUE META1: 2510 / 2511
+UNIQUE BBOX: 2511 / 2511
+UNIQUE RAW HASH: 2511 / 2511
+META1 TOP BIT SET: 0 / 2511
+==========================================================================================
+FILE: 7185_MG3
+LEVEL: 4
+PAGES: 1617
+UNIQUE META1: 1617 / 1617
+UNIQUE BBOX: 1617 / 1617
+UNIQUE RAW HASH: 1617 / 1617
+META1 TOP BIT SET: 0 / 1617
+==========================================================================================
+FILE: 7186_MG1
+LEVEL: 2
+PAGES: 3203
+UNIQUE META1: 3201 / 3203
+UNIQUE BBOX: 3203 / 3203
+UNIQUE RAW HASH: 3203 / 3203
+META1 TOP BIT SET: 0 / 3203
+==========================================================================================
+FILE: 7186_MG2
+LEVEL: 3
+PAGES: 2335
+UNIQUE META1: 2332 / 2335
+UNIQUE BBOX: 2335 / 2335
+UNIQUE RAW HASH: 2335 / 2335
+META1 TOP BIT SET: 0 / 2335
+==========================================================================================
+FILE: 7186_MG3
+LEVEL: 4
+PAGES: 1610
+UNIQUE META1: 1610 / 1610
+UNIQUE BBOX: 1610 / 1610
+UNIQUE RAW HASH: 1610 / 1610
+META1 TOP BIT SET: 0 / 1610
+
+==========================================================================================
+7185_MG1 <-> 7185_MG2
+COMMON BBOX: 1931
+UNIQUE COMMON BBOX: 1931
+  same META1: 900 / 1931
+  same RAW HASH: 871 / 1931
+COMMON META1: 900
+UNIQUE COMMON META1: 897
+  same BBOX: 896 / 897
+  same RAW HASH: 868 / 897
+COMMON RAW HASH: 872
+UNIQUE COMMON RAW HASH: 872
+  same BBOX: 871 / 872
+  same META1: 872 / 872
+SAME-BBOX EXAMPLES:
+  (590934, 5210316, 606311, 5225692) Akey=0x315A501E Bkey=0x274440B2 same_raw= False
+  (959992, 5287203, 990746, 5348711) Akey=0x33E4562E Bkey=0x33BE562E same_raw= False
+  (406405, 5194939, 437159, 5225692) Akey=0x2ACB4512 Bkey=0x201E334B same_raw= False
+  (1090700, 4533710, 1098388, 4541398) Akey=0x39CC5BB0 Bkey=0x1F2430A3 same_raw= False
+  (575557, 5210316, 590933, 5225692) Akey=0x05C30962 Bkey=0x05C30962 same_raw= True
+  (1052256, 5410222, 1113765, 5471731) Akey=0x15C822F0 Bkey=0x157922F0 same_raw= False
+  (836973, 5041165, 867727, 5102673) Akey=0x363D56F6 Bkey=0x35D756F6 same_raw= False
+  (590934, 5840790, 621688, 5902299) Akey=0x12111D56 Bkey=0x120F1D56 same_raw= False
+  (2220942, 6271358, 2251696, 6332866) Akey=0x2DA04D12 Bkey=0x2DA04D12 same_raw= True
+  (929237, 4595219, 944614, 4610595) Akey=0x1FE5352F Bkey=0x0C731428 same_raw= False
+  (2651510, 6763436, 2713019, 6824944) Akey=0x12CA1EAA Bkey=0x12CA1EAA same_raw= True
+  (744709, 5225693, 806217, 5348711) Akey=0x3624595E Bkey=0x3624595E same_raw= True
+  (990747, 5010410, 1021501, 5041164) Akey=0x0AAC1133 Bkey=0x0AAC1133 same_raw= True
+  (706266, 5079609, 713953, 5087296) Akey=0x0ACB11F7 Bkey=0x0AD211F7 same_raw= False
+  (544802, 5056543, 552490, 5071919) Akey=0x155522E7 Bkey=0x155522E7 same_raw= True
+
+==========================================================================================
+7185_MG1 <-> 7185_MG3
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 4
+UNIQUE COMMON META1: 4
+  same BBOX: 0 / 4
+  same RAW HASH: 0 / 4
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG1 <-> 7186_MG1
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 7
+UNIQUE COMMON META1: 6
+  same BBOX: 0 / 6
+  same RAW HASH: 1 / 6
+COMMON RAW HASH: 1
+UNIQUE COMMON RAW HASH: 1
+  same BBOX: 0 / 1
+  same META1: 1 / 1
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG1 <-> 7186_MG2
+COMMON BBOX: 1597
+UNIQUE COMMON BBOX: 1597
+  same META1: 607 / 1597
+  same RAW HASH: 581 / 1597
+COMMON META1: 608
+UNIQUE COMMON META1: 606
+  same BBOX: 605 / 606
+  same RAW HASH: 579 / 606
+COMMON RAW HASH: 581
+UNIQUE COMMON RAW HASH: 581
+  same BBOX: 581 / 581
+  same META1: 581 / 581
+SAME-BBOX EXAMPLES:
+  (959992, 5287203, 990746, 5348711) Akey=0x33E4562E Bkey=0x33BE562E same_raw= False
+  (590934, 5210316, 606311, 5225692) Akey=0x315A501E Bkey=0x274440B2 same_raw= False
+  (406405, 5194939, 437159, 5225692) Akey=0x2ACB4512 Bkey=0x201E334B same_raw= False
+  (575557, 5210316, 590933, 5225692) Akey=0x05C30962 Bkey=0x05C30962 same_raw= True
+  (1052256, 5410222, 1113765, 5471731) Akey=0x15C822F0 Bkey=0x160723A4 same_raw= False
+  (836973, 5041165, 867727, 5102673) Akey=0x363D56F6 Bkey=0x35D756F6 same_raw= False
+  (590934, 5840790, 621688, 5902299) Akey=0x12111D56 Bkey=0x3A0E5DEC same_raw= False
+  (2220942, 6271358, 2251696, 6332866) Akey=0x2DA04D12 Bkey=0x2E764E2E same_raw= False
+  (2651510, 6763436, 2713019, 6824944) Akey=0x12CA1EAA Bkey=0x12C21EAA same_raw= False
+  (744709, 5225693, 806217, 5348711) Akey=0x3624595E Bkey=0x3624595E same_raw= True
+  (990747, 5010410, 1021501, 5041164) Akey=0x0AAC1133 Bkey=0x0AAC1133 same_raw= True
+  (706266, 5079609, 713953, 5087296) Akey=0x0ACB11F7 Bkey=0x0AD211F7 same_raw= False
+  (544802, 5056543, 552490, 5071919) Akey=0x155522E7 Bkey=0x155522E7 same_raw= True
+  (775464, 4672106, 806217, 4733615) Akey=0x208934B8 Bkey=0x209F34B8 same_raw= False
+  (929237, 5225693, 959991, 5287202) Akey=0x143D217D Bkey=0x13D720DD same_raw= False
+
+==========================================================================================
+7185_MG1 <-> 7186_MG3
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 4
+UNIQUE COMMON META1: 4
+  same BBOX: 0 / 4
+  same RAW HASH: 0 / 4
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG2 <-> 7185_MG3
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 4
+UNIQUE COMMON META1: 4
+  same BBOX: 0 / 4
+  same RAW HASH: 0 / 4
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG2 <-> 7186_MG1
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 6
+UNIQUE COMMON META1: 6
+  same BBOX: 0 / 6
+  same RAW HASH: 1 / 6
+COMMON RAW HASH: 1
+UNIQUE COMMON RAW HASH: 1
+  same BBOX: 0 / 1
+  same META1: 1 / 1
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG2 <-> 7186_MG2
+COMMON BBOX: 1741
+UNIQUE COMMON BBOX: 1741
+  same META1: 1395 / 1741
+  same RAW HASH: 1387 / 1741
+COMMON META1: 1396
+UNIQUE COMMON META1: 1393
+  same BBOX: 1392 / 1393
+  same RAW HASH: 1384 / 1393
+COMMON RAW HASH: 1387
+UNIQUE COMMON RAW HASH: 1387
+  same BBOX: 1387 / 1387
+  same META1: 1387 / 1387
+SAME-BBOX EXAMPLES:
+  (959992, 5287203, 990746, 5348711) Akey=0x33BE562E Bkey=0x33BE562E same_raw= True
+  (590934, 5210316, 606311, 5225692) Akey=0x274440B2 Bkey=0x274440B2 same_raw= True
+  (406405, 5194939, 437159, 5225692) Akey=0x201E334B Bkey=0x201E334B same_raw= True
+  (575557, 5210316, 590933, 5225692) Akey=0x05C30962 Bkey=0x05C30962 same_raw= True
+  (1052256, 5410222, 1113765, 5471731) Akey=0x157922F0 Bkey=0x160723A4 same_raw= False
+  (836973, 5041165, 867727, 5102673) Akey=0x35D756F6 Bkey=0x35D756F6 same_raw= True
+  (590934, 5840790, 621688, 5902299) Akey=0x120F1D56 Bkey=0x3A0E5DEC same_raw= False
+  (2220942, 6271358, 2251696, 6332866) Akey=0x2DA04D12 Bkey=0x2E764E2E same_raw= False
+  (2651510, 6763436, 2713019, 6824944) Akey=0x12CA1EAA Bkey=0x12C21EAA same_raw= False
+  (744709, 5225693, 806217, 5348711) Akey=0x3624595E Bkey=0x3624595E same_raw= True
+  (990747, 5010410, 1021501, 5041164) Akey=0x0AAC1133 Bkey=0x0AAC1133 same_raw= True
+  (706266, 5079609, 713953, 5087296) Akey=0x0AD211F7 Bkey=0x0AD211F7 same_raw= True
+  (544802, 5056543, 552490, 5071919) Akey=0x155522E7 Bkey=0x155522E7 same_raw= True
+  (775464, 4672106, 806217, 4733615) Akey=0x209F34B8 Bkey=0x209F34B8 same_raw= True
+  (929237, 5225693, 959991, 5287202) Akey=0x13D720DD Bkey=0x13D720DD same_raw= True
+
+==========================================================================================
+7185_MG2 <-> 7186_MG3
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 4
+UNIQUE COMMON META1: 4
+  same BBOX: 0 / 4
+  same RAW HASH: 0 / 4
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG3 <-> 7186_MG1
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 1
+UNIQUE COMMON META1: 1
+  same BBOX: 0 / 1
+  same RAW HASH: 0 / 1
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG3 <-> 7186_MG2
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 3
+UNIQUE COMMON META1: 3
+  same BBOX: 0 / 3
+  same RAW HASH: 0 / 3
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7185_MG3 <-> 7186_MG3
+COMMON BBOX: 1603
+UNIQUE COMMON BBOX: 1603
+  same META1: 1125 / 1603
+  same RAW HASH: 1102 / 1603
+COMMON META1: 1125
+UNIQUE COMMON META1: 1125
+  same BBOX: 1125 / 1125
+  same RAW HASH: 1102 / 1125
+COMMON RAW HASH: 1102
+UNIQUE COMMON RAW HASH: 1102
+  same BBOX: 1102 / 1102
+  same META1: 1102 / 1102
+SAME-BBOX EXAMPLES:
+  (590637, 5254839, 621294, 5316155) Akey=0x30E45195 Bkey=0x30E45195 same_raw= True
+  (1357094, 5009573, 1418409, 5070889) Akey=0x23CC3BA8 Bkey=0x23CC3BA8 same_raw= True
+  (559978, 4457724, 590636, 4488382) Akey=0x198F2A27 Bkey=0x198F2A27 same_raw= True
+  (559978, 5101548, 590636, 5132205) Akey=0x2770422C Bkey=0x2770422C same_raw= True
+  (2123551, 4856282, 2138879, 4886939) Akey=0x39B85EBF Bkey=0x39B85EBF same_raw= True
+  (774586, 4519041, 805243, 4580357) Akey=0x2608406D Bkey=0x25F8406D same_raw= False
+  (2276842, 6174588, 2307500, 6205245) Akey=0x20B536EE Bkey=0x20C936EE same_raw= False
+  (989194, 4825624, 1019851, 4886939) Akey=0x26423FA4 Bkey=0x26423FA4 same_raw= True
+  (513991, 5178194, 529319, 5193522) Akey=0x1B0B2DFD Bkey=0x1B0B2DFD same_raw= True
+  (1801639, 5929322, 1809303, 5936986) Akey=0x278C4028 Bkey=0x27A74028 same_raw= False
+  (835903, 4886940, 866560, 4917598) Akey=0x2DCF4BB6 Bkey=0x2DCF4BB6 same_raw= True
+  (1602360, 4764307, 1633017, 4794965) Akey=0x1A762B80 Bkey=0x1A762B80 same_raw= True
+  (682611, 5316156, 743927, 5377471) Akey=0x16052397 Bkey=0x16052397 same_raw= True
+  (559978, 4335091, 621294, 4396406) Akey=0x28DF4279 Bkey=0x28DF4279 same_raw= True
+  (1234461, 5868005, 1295776, 5929321) Akey=0x38CE5CF8 Bkey=0x38F45CF8 same_raw= False
+
+==========================================================================================
+7186_MG1 <-> 7186_MG2
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 4
+UNIQUE COMMON META1: 3
+  same BBOX: 0 / 3
+  same RAW HASH: 1 / 3
+COMMON RAW HASH: 1
+UNIQUE COMMON RAW HASH: 1
+  same BBOX: 0 / 1
+  same META1: 1 / 1
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7186_MG1 <-> 7186_MG3
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 1
+UNIQUE COMMON META1: 1
+  same BBOX: 0 / 1
+  same RAW HASH: 0 / 1
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:
+
+==========================================================================================
+7186_MG2 <-> 7186_MG3
+COMMON BBOX: 0
+UNIQUE COMMON BBOX: 0
+  same META1: 0 / 0
+  same RAW HASH: 0 / 0
+COMMON META1: 3
+UNIQUE COMMON META1: 3
+  same BBOX: 0 / 3
+  same RAW HASH: 0 / 3
+COMMON RAW HASH: 0
+UNIQUE COMMON RAW HASH: 0
+  same BBOX: 0 / 0
+  same META1: 0 / 0
+SAME-BBOX EXAMPLES:

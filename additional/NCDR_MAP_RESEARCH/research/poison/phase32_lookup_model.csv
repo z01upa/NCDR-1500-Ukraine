@@ -1,0 +1,6 @@
+stage,operation,status
+lon_lat_to_type08_family,select family member from coordinate key,unresolved
+type08_to_type09,read 4-byte BL_ADDR entries; target 0x76307 is referenced at logical 0x2BC8 in 0x75F47,confirmed
+type09_to_leaf,read count candidate at +0x06 and six BL_ADDRs at +0x2C,confirmed
+leaf_selection,choose child using decoded coordinate/range key,unresolved
+leaf_decode,parse target type06 entries,partially confirmed for 0x7749B

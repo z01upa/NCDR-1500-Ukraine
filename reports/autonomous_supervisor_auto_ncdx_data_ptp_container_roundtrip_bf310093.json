@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PTP_CONTAINER_ROUNDTRIP_bf310093",
+  "target_task": "AUTO_NCDX_DATA_PTP_CONTAINER_ROUNDTRIP_bf310093",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:software_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_PTP_CONTAINER_ROUNDTRIP_bf310093",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_source_readback": true,
+      "independent_parser": "research.ncdx_container_experiment.inspect_container",
+      "independent_full_decode_count": 3,
+      "source_and_output_sha256_equal": true,
+      "regional_results": [
+        {
+          "region": "SW",
+          "relative_path": "SW/DB/EUZ.PTP",
+          "source_sha256": "1bb5564c0fba9c6a324c1f1c85b15f86c541ef67148a20a12b882675b0363ca4",
+          "output_sha256": "1bb5564c0fba9c6a324c1f1c85b15f86c541ef67148a20a12b882675b0363ca4",
+          "independent_decoded_sha256": "723e9d74f6e9edce9731bbd7debefb9ab4896dfd8037bf0c30ecf343cd768541",
+          "physical_size_bytes": 348,
+          "logical_size_bytes": 990,
+          "block_count": 1,
+          "independent_decode_status": "PASS"
+        },
+        {
+          "region": "Italy",
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.PTP",
+          "source_sha256": "e1d9c34b1761ded72a05ad7e427e675e1203777effcfb8c2c7c3582755f4d2c6",
+          "output_sha256": "e1d9c34b1761ded72a05ad7e427e675e1203777effcfb8c2c7c3582755f4d2c6",
+          "independent_decoded_sha256": "4999d60a78f1f39d174a0b9da2abe0b621af203a1da325bfb3ed225cdaf768e5",
+          "physical_size_bytes": 805,
+          "logical_size_bytes": 3230,
+          "block_count": 2,
+          "independent_decode_status": "PASS"
+        },
+        {
+          "region": "Scandinavia",
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.PTP",
+          "source_sha256": "202f9128acc4d6a9712dc0d2dd063c831c66b5dffda40c3e2fce1f8960e30397",
+          "output_sha256": "202f9128acc4d6a9712dc0d2dd063c831c66b5dffda40c3e2fce1f8960e30397",
+          "independent_decoded_sha256": "5de644604b8f1dee3372b5a7c96033fd5aebaf0e3a6960cef38404494ce4f9b9",
+          "physical_size_bytes": 832,
+          "logical_size_bytes": 3398,
+          "block_count": 2,
+          "independent_decode_status": "PASS"
+        }
+      ],
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; block container framing only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-26T22:33:10.136693+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.json",
+      "sha256": "0b945d706db979ea421445431c8a53608c86833ea19756932b9a9b3aaea7ba8e",
+      "size_bytes": 29267,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.md",
+      "sha256": "ebbd793fd4fb27a1549bfbaa24b81f9ff5abf8cc1d5e3e572bc55d8865b9e789",
+      "size_bytes": 5741,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "ef22ad751d510d23c3be65657c4e7a06f30322625a25b0e54d73bf6d3b23dfd8",
+      "size_bytes": 29268,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "3213c8dceb5a8cf291c5d55963a73c81133d9df9875924c609caecbfb83e6cdc",
+      "size_bytes": 5740,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "4222c443673ce9630d2d242a462ea9fc92a12fc8347be82a3961557e9c693fa7",
+      "size_bytes": 29269,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "758ca057166cc5a061eee6b8da3750fc26b11f152247fdfe163cf1b03f745bd7",
+      "size_bytes": 5740,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_WITH_BOUNDED_FALLBACK",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_b8939b11ee21",
+  "model": "qwen3.5:9b",
+  "model_error": "ValueError: local model returned invalid structured JSON: Expecting ',' delimiter: line 5 column 33 (char 275)",
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_a9635cb7c1ee175e",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/WINDOWS/MMIDIS.EXE",
+  "selected_source_sha256": "4eeaa86bb01c4fd74aad2b5c73746a963d8d5546a743e5b6e644cb4b4211d744",
+  "selected_size_bytes": 6724,
+  "selection_source": "deterministic fallback",
+  "selection_reason": "deterministic first-candidate fallback; model output was unavailable or outside the fixed contract",
+  "safe_schema_validated": false,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_a9635cb7c1ee175e",
+  "candidate_fingerprint": "b8939b11ee2173d1c7c1ca8837a88caac23d5020f5bd0a398e8a1f569802867e",
+  "remaining_unseen_candidates": 6,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:04:57.929143+00:00"
+}

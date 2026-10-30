@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_8ad6f7c70008a982.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "41a1683ba831eda5b68f76e7c9b548f3a7db69ca7e8816a8d9abe7f006306a8f",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_8ad6f7c70008a982",
+  "updated_utc": "2026-10-27T20:04:34.434923+00:00",
+  "verified_by_independent_reviewer": false
+}

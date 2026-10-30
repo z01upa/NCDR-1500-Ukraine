@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_3016028846CF552D_R03",
+  "request_id": "CAP_3016028846CF552D",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_3016028846CF552D",
+    "reason": "RuntimeError: verification command failed (1): Traceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_3016028846CF552D_ATTEMPT_3\\src\\osm\\extract_pbf.py\", line 28, in <module>\n    import osmium\nModuleNotFoundError: No module named 'osmium'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_3016028846CF552D_ATTEMPT_3\\tests\\unit\\test_build_ukraine.py\", line 11, in <module>\n    from src.osm import build_ukraine\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_3016028846CF552D_ATTEMPT_3\\src\\osm\\build_ukraine.py\", line 21, in <module>\n    from src.osm.extract_pbf import extract_city\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_3016028846CF552D_ATTEMPT_3\\src\\osm\\extract_pbf.py\", line 30, in <module>\n    raise RuntimeError(\"PyOsmium is not installed. Install the free wheel into build/osmium_runtime first.\") from exc\nRuntimeError: PyOsmium is not installed. Install the free wheel into build/osmium_runtime first.\n"
+  },
+  "created_utc": "2026-10-26T16:38:40.523332+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

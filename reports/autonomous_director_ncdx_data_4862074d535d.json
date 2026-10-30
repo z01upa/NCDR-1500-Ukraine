@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_4862074d535d",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CFG_BYTE_TRANSITION_PROFILE_74868727",
+  "selected_goal_id": "AUTO_NCDX_DATA_CFG_BYTE_TRANSITION_PROFILE_74868727",
+  "selection_source": "Ollama",
+  "selection_reason": "The CFG files (zones configuration) are critical for map storage and address indexing structures. Comparing the byte counts and SHA256 hashes across SW, Italy, and Scandinavia reveals significant data divergence (e.g., Italy's zone config is ~1KB larger than others), providing strong evidence of regional variations in stored map metadata that directly impacts uncertainty about address/index data integrity.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CFG_BYTE_TRANSITION_PROFILE_74868727",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_4862074d535d",
+  "remaining_unique_experiments": 6,
+  "created_utc": "2026-10-25T19:48:08.265501+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

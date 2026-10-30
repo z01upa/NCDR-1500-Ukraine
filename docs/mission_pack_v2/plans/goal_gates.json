@@ -1,0 +1,70 @@
+{
+  "mission": "Working modern Ukraine navigation disc for exact Opel NCDR hardware",
+  "progress_formula": "weighted_accepted_evidence_only",
+  "excluded_active_modules": [
+    "virtual_cid_gui",
+    "standalone_poi_editor"
+  ],
+  "gates": [
+    {
+      "id": "G0",
+      "label": "Autonomous reliability",
+      "weight": 10,
+      "done_when": [
+        "A12 accepted",
+        "A08 boot/logon verified",
+        "A04 empty-queue planning verified"
+      ]
+    },
+    {
+      "id": "G1",
+      "label": "NCDx semantic decoder",
+      "weight": 25,
+      "done_when": [
+        "B08 geometry proof",
+        "B09 road graph proof",
+        "B11 independent decoder test",
+        "B10 encoding/text evidence"
+      ]
+    },
+    {
+      "id": "G2",
+      "label": "NCDx writer and indices",
+      "weight": 20,
+      "done_when": [
+        "C01 no-op verified",
+        "C02 controlled semantically valid mutation",
+        "C04 new minimal map decoded by independent reader"
+      ]
+    },
+    {
+      "id": "G3",
+      "label": "Ukraine OSM intermediate dataset",
+      "weight": 15,
+      "done_when": [
+        "D07 national import",
+        "D06 test-region topology",
+        "D08 labels validation"
+      ]
+    },
+    {
+      "id": "G4",
+      "label": "Integrated NCDx candidate",
+      "weight": 15,
+      "done_when": [
+        "E01 minimal bridge",
+        "E02 national integrity",
+        "E04 disc image independently verified"
+      ]
+    },
+    {
+      "id": "G5",
+      "label": "Physical Opel acceptance",
+      "weight": 15,
+      "done_when": [
+        "E06 exact-device test"
+      ],
+      "never_auto_pass": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+relation,test_scope,result,status
+slot_field equals A/B/C/D/F,original 101-row sample,no exact relation established,incomplete sample
+slot_index versus caller fields,full saturated set unavailable,not established,blocked
+F versus slot bytes,Phase 37 summary,97.1% invariant and 2.9% exceptions,exceptions unresolved

@@ -1,0 +1,62 @@
+{
+  "status": "PASS_PENDING_INDEPENDENT_SUPERVISOR",
+  "task_id": "AUTO_OSM_NATIONAL_PUBLISHED_RECOVERY_01",
+  "output_directory": "work/autonomous_manager/osm_pipeline/ukraine_national/ukraine-2026-09-08-9eb8b42b2687",
+  "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+  "dataset_content_timestamp": "2026-09-08T20:21:01Z (reported upstream content timestamp)",
+  "extract_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+  "deterministic_build_readback": {
+    "status": "PASS",
+    "database": "work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.sqlite",
+    "database_size_bytes": 31425310720,
+    "extract": "work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.osm.gz",
+    "extract_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+    "source_pbf": "data\\osm\\ukraine-latest.osm.pbf",
+    "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+    "source_sha256_unchanged": true,
+    "sqlite_integrity_check": "ok",
+    "integrity_evidence_source": "streaming importer before atomic publication",
+    "independent_full_integrity_check_repeated": false,
+    "counts": {
+      "nodes": 112493890,
+      "ways": 13440203,
+      "directed_edges": 40414539,
+      "features": 2904148
+    },
+    "geographic_extent": {
+      "south": 40.9734066,
+      "west": 19.6899006,
+      "north": 54.9761417,
+      "east": 44.6484589
+    },
+    "unresolved_way_node_references": 0,
+    "kyiv_name_search_results": 20,
+    "kryvyi_rih_route": {
+      "start_street": "вулиця Соборності",
+      "end_street": "вулиця Героїв АТО",
+      "start_node": "1232315390",
+      "end_node": "9899669185",
+      "distance_m": 1452.379425327918,
+      "node_count": 45,
+      "way_count": 44,
+      "routing_bounds": [
+        47.58,
+        32.5,
+        48.23,
+        33.95
+      ],
+      "limitations": []
+    },
+    "read_only_readback": true,
+    "source_write_count": 0,
+    "database_sha256": "daa0c10991a26e3b53c2e41b1d907fa77b68a5422eb3a37e8f03312cbce0c92b",
+    "limitations": [
+      "Full PRAGMA integrity_check was not repeated during recovery; the publisher ran it before atomic publication.",
+      "OSM relations, including turn restrictions, are not yet exported by the extractor.",
+      "This is an internal OSM preparation database, not an NCDx image or Opel compatibility test."
+    ]
+  },
+  "recovered_published_database": true,
+  "original_disc_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

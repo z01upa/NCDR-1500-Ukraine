@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b06361c5ea4f",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_75cf0f40",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_75cf0f40",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements (e.g., alignment_6/scale_1000000_lon_lat) with associated metadata like region_candidate_pairs and adjacent_pairs_within_5km. Selecting this goal_id directly addresses the requirement to choose an exact identifier from eligible experiments while focusing on coordinate-related data (map storage/address/index context implied by 'alignment' and 'scale'). The suffix '_CENSUS' aligns with the instruction to treat suffixes as labels wit",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_75cf0f40",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "4bb6e559489c57002ce452269e1aceb5aee592515d3bce8cff1c4bb6abfbd4fb",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b06361c5ea4f",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:05:17.844304+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,18 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.IL",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.IOF",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.RL",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IL",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IOF",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.RL",
+    "SW/DB/EUZ.IL",
+    "SW/DB/EUZ.IOF",
+    "SW/DB/EUZ.RL",
+    "work/autonomous_manager/ncdx/roadlink_name_consistency/AUTO_NCDX_ROADLINK_NAME_CONSISTENCY_V1_93291C06050E22EF.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_ROADLINK_NAME_CONSISTENCY_V1_93291C06050E22EF",
+  "updated_utc": "2026-10-28T16:24:01.992353+00:00"
+}

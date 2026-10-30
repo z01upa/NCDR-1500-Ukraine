@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE01.DLL",
+    "reports/autonomous_director_sw_component_be09024253dd.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "7277cf2f43d14b8e82e666a1d71ba57aca54dd98a31dcb4e7d95841b83c2b8c4",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_be09024253dd",
+  "updated_utc": "2026-10-27T20:03:27.625386+00:00",
+  "verified_by_independent_reviewer": false
+}

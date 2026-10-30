@@ -1,0 +1,87 @@
+{
+  "available_ram_bytes": 23016710144,
+  "committed_rows": {
+    "edges": {
+      "rows": 39998,
+      "sha256": "ad1c6598e6c574852879427d921b71c0507355ffe9e0fb31ad45125d40e699ab"
+    },
+    "feature_names": {
+      "rows": 19999,
+      "sha256": "aa3b3b7c3b9c54991191388989d069f2ffbdfc52192e46d37db563246a0738b6"
+    },
+    "features": {
+      "rows": 19999,
+      "sha256": "d6f8a8dca5c9c55021acb071ab480f3ed9742b1e1327dc3574bc97d16311d5ec"
+    },
+    "nodes": {
+      "rows": 20000,
+      "sha256": "d29de09a73f4fbc52b8d878c07b6a34843fc5c346ccba72982e0e3aed947e23b"
+    },
+    "relations": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "way_nodes": {
+      "rows": 39998,
+      "sha256": "9932cdcd6589dfcaaee0ec6a12acd3fbf19405cea71d306a153dbd4e18d20cd7"
+    },
+    "ways": {
+      "rows": 19999,
+      "sha256": "8a2fe6db6c090f05541f1945cf53c87af26f64d195e60c34e1e1cbc39f2a8f98"
+    }
+  },
+  "decompress_chunk_bytes": 33554432,
+  "extract_sha256": "f00270799b3ec12153ea648ea29b5fde8e4a7c18905d37a44b3c81224f0664aa",
+  "extraction": {
+    "extract_bytes": 260146,
+    "format": "synthetic line-oriented OSM XML gzip",
+    "source_bytes": 3355522
+  },
+  "first_checkpoint_tokens": [
+    "37380918ad90db41",
+    "d20e27bec1db7d91"
+  ],
+  "fixture": {
+    "chunk_records": 1000,
+    "generator": "deterministic XML chain v1",
+    "nodes": 20000,
+    "ways": 19999
+  },
+  "historical_oom_peak_rss_bytes": null,
+  "historical_peak_status": "NOT_RECORDED",
+  "max_xml_record_bytes": 1048576,
+  "measurement_scope": "current synthetic verification process lifetime high-water mark",
+  "memory": {
+    "available_physical_memory_bytes": 23016710144,
+    "diagnostic_peak_working_set_bytes": 54231040,
+    "historical_peak_status": "NOT_RECORDED",
+    "historical_peak_working_set_bytes": null,
+    "measured_utc": "2026-10-26T16:36:57.134439+00:00",
+    "measurement_api": "GetProcessMemoryInfo / GlobalMemoryStatusEx",
+    "measurement_scope": "current diagnostic process; not the historical failed importer",
+    "pid": 28020
+  },
+  "memory_before": {
+    "available_physical_memory_bytes": 23019585536,
+    "diagnostic_peak_working_set_bytes": 43425792,
+    "historical_peak_status": "NOT_RECORDED",
+    "historical_peak_working_set_bytes": null,
+    "measured_utc": "2026-10-26T16:36:51.235092+00:00",
+    "measurement_api": "GetProcessMemoryInfo / GlobalMemoryStatusEx",
+    "measurement_scope": "current diagnostic process; not the historical failed importer",
+    "pid": 28020
+  },
+  "national_checkpoint_access_count": 0,
+  "original_media_write_count": 0,
+  "peak_rss_bytes": 54231040,
+  "resume_matches_baseline": true,
+  "slice_counts": [
+    24,
+    88
+  ],
+  "source_hashes_unchanged": true,
+  "source_identity_scope": "temporary synthetic XML only; no national source accessed",
+  "source_sha256": "19cc5dc787888e683760e5cddca402e18680d071c0b1b9b373bb275236b55f4f",
+  "status": "PASS",
+  "verification": "separate read-only SQLite connections and canonical ordered row hashes"
+}

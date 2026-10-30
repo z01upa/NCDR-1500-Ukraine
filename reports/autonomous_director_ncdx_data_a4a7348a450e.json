@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_a4a7348a450e",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e4dafb3f",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e4dafb3f",
+  "selection_source": "Ollama",
+  "selection_reason": "The candidate stream contains multiple measurements with high region_candidate_pairs counts (e.g., 80, 77, 67) and adjacent_pairs_within_5km values, indicating dense coordinate data relevant to map storage and route planning. Selecting this goal aligns with reducing uncertainty about address/index or route data without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e4dafb3f",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "28cbd40ad4a60610e7e60621748794fae7e25cca2d53b8ff4af90f38b5539025",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_a4a7348a450e",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T18:33:20.178571+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

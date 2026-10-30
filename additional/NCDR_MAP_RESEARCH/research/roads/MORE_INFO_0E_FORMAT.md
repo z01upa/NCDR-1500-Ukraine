@@ -1,0 +1,7 @@
+# MORE_INFO_0x0E
+
+For the 185-road Moscow sublist, extended_info pointers are unique, sorted in 6-byte increments from 0x1F9E through 0x23EE. The isolated record is `54b401010000`. No LIST or FAR_LIST was validated in this 6-byte family. The first uint16 is a consistent in-bounds local-pointer candidate; its target semantics remain unresolved.
+
+Control blocks parsed with the same BRIF/pointer method: 10.
+
+[{'sector': 10240, 'items': 1126, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.6924}, {'sector': 10273, 'items': 1115, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.7056}, {'sector': 10306, 'items': 1069, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.8024}, {'sector': 10338, 'items': 1095, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.7971}, {'sector': 10371, 'items': 1100, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.7652}, {'sector': 10404, 'items': 1252, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.8977}, {'sector': 10435, 'items': 894, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.7828}, {'sector': 10467, 'items': 1039, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.9094}, {'sector': 10498, 'items': 1042, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.8588}, {'sector': 10530, 'items': 1027, 'valid_name_and_ptr_fraction': 1.0, 'six_byte_stride_fraction': 0.885}]

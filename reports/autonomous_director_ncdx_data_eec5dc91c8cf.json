@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_eec5dc91c8cf",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_f23fdd72",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_f23fdd72",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritize PTI (Point of Interest) container roundtrip to validate map storage and address/index data integrity across inventoried regions.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_f23fdd72",
+  "candidate_fingerprint": "786ff63f66867122430e81f2e6a63338b62611d9b956197df7da09c0000f7be4",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_eec5dc91c8cf",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-26T22:28:21.952644+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

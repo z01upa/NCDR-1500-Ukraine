@@ -1,0 +1,38 @@
+{
+  "README.md": {
+    "sha256": "1377a2ba7eaddd514570da639c918dcba57a60af1bd26d4edc8e7ff5d0c2fcb2",
+    "size_bytes": 1033
+  },
+  "ACCEPTANCE.md": {
+    "sha256": "799f2acbb94cb65c660c32e78d7577ac315710bcd8b0ed295e358c0ec88e6ad4",
+    "size_bytes": 5128
+  },
+  "NEXT_STEP.md": {
+    "sha256": "86c7979a3193e2b42457ff239cf7362707830cc5c30bce93d41702251bf544d5",
+    "size_bytes": 1296
+  },
+  "sh4_scan.py": {
+    "sha256": "410b9f686d6774072fe22ffd9a73987a6fc073d7869b6b01d615e3961a1c31a5",
+    "size_bytes": 28921
+  },
+  "tests/test_sh4_scan.py": {
+    "sha256": "2862118cf973b7aadec62587a5497130f91727006aca5953235dc107e4021af3",
+    "size_bytes": 5594
+  },
+  "evidence/sh4_scan.json": {
+    "sha256": "70f8302eff03119ac5f5a4e6f36f580f31bcfb4c7d87208c971b108e4ad37f6f",
+    "size_bytes": 284697
+  },
+  "evidence/bounded_disassembly.txt": {
+    "sha256": "06869d56c68f8bc7b8bfb0efeec918d5992b576b8a6415648eb654c8dac0d7ad",
+    "size_bytes": 47736
+  },
+  "evidence/import_thunks.txt": {
+    "sha256": "930caefdc3da100f07fdc0337e2a282d677a2f55bb6490e8422e377220301e27",
+    "size_bytes": 5980
+  },
+  "evidence/tests.log": {
+    "sha256": "0e9050b7123267a4cb41fdf833914085325cbe0fe580dfdb3500f3a6c7e84cb3",
+    "size_bytes": 1335
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b5c74e63f998",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_RT_EXACT_BLOCK_ANCHOR_SCAN_c21b42e2",
+  "selected_goal_id": "AUTO_NCDX_DATA_RT_EXACT_BLOCK_ANCHOR_SCAN_c21b42e2",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the highest total_input_bytes (68707775) among eligible experiments, providing the most extensive structural evidence for map storage analysis within the read-only bounded constraints.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_RT_EXACT_BLOCK_ANCHOR_SCAN_c21b42e2",
+  "candidate_fingerprint": "e600b2e21c2305a4e8fce221e40bcfa9a8c229ecc2c96163facdcec7f368f9ac",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b5c74e63f998",
+  "remaining_unique_experiments": 19,
+  "created_utc": "2026-10-26T23:12:39.832350+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

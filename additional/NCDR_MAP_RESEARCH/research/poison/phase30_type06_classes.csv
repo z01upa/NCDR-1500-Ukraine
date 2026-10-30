@@ -1,0 +1,9 @@
+class,count,status,evidence
+type06_total,5433,confirmed,main-chain inventory in A/B
+type06_compression0,4624,confirmed,header compression byte 0
+type06_changed_leaf,1,confirmed,only A/B changed record at 0x7749B
+root,0,not_proven,no complete graph classification
+internal_index,0,not_proven,no complete graph classification
+leaf_poi,1,partial,local 28-byte sequence in 0x7749B
+id_block,0,not_proven,log hypothesis only
+lookup_block,0,not_proven,no complete graph classification

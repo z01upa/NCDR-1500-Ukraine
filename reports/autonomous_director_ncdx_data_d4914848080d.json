@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_d4914848080d",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2c12f977",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2c12f977",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for alignment layers (e.g., `alignment_4/scale_1000000_lat_lon`, `alignment_6/scale_1000000_lon_lat`) with varying region candidate pair counts. Selecting the goal ID associated with decoding these coordinate candidates directly addresses the need to reduce uncertainty about map storage and address/index data structures by validating the integrity and content of the decompressed alignment layers.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_2c12f977",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "c16b965d5f79b1ecaa51ad9b09cd95d3fb2e0e513b26418d62b5d835f74753a2",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_d4914848080d",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T20:27:07.510774+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

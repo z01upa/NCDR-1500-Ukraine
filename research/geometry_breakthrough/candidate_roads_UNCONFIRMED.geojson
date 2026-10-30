@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "block": 0,
+        "edge": 0,
+        "flags": 34052,
+        "length_raw": 2809,
+        "source_offset": 20703022,
+        "record_offset": 1887,
+        "record_hex": "0485000604020c000e00f90a0000",
+        "independent_geography_confirmed": false,
+        "selection": "first edge with >=4 vertices in block 0,1,2; no length filter",
+        "calculated_m": 857.93007035665
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.9792,
+            56.49577
+          ],
+          [
+            9.97947,
+            56.49471
+          ],
+          [
+            9.98017,
+            56.48912
+          ],
+          [
+            9.98028,
+            56.48808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "block": 1,
+        "edge": 0,
+        "flags": 34052,
+        "length_raw": 403,
+        "source_offset": 11673569,
+        "record_offset": 7846,
+        "record_hex": "0485000e02023f00430093010000",
+        "independent_geography_confirmed": false,
+        "selection": "first edge with >=4 vertices in block 0,1,2; no length filter",
+        "calculated_m": 122.62415883689185
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.15933,
+            48.87477
+          ],
+          [
+            2.15953,
+            48.87488
+          ],
+          [
+            2.16011,
+            48.87528
+          ],
+          [
+            2.16048,
+            48.87557
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "block": 2,
+        "edge": 0,
+        "flags": 37651,
+        "length_raw": 1816,
+        "source_offset": 24655066,
+        "record_offset": 1583,
+        "record_hex": "1393000000000000000018070000",
+        "independent_geography_confirmed": false,
+        "selection": "first edge with >=4 vertices in block 0,1,2; no length filter",
+        "calculated_m": 553.24274795581
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.82176,
+            50.78942
+          ],
+          [
+            14.82251,
+            50.78963
+          ],
+          [
+            14.82552,
+            50.79054
+          ],
+          [
+            14.82888,
+            50.79154
+          ]
+        ]
+      }
+    }
+  ]
+}

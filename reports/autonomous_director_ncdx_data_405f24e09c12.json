@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_405f24e09c12",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_9849cc8a",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_9849cc8a",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the constraint to prioritize evidence reducing uncertainty about map storage; PTI (Point of Interest) data is a primary component of map storage and address/index datasets, whereas PTP typically refers to Point-to-Point route data which is secondary in this specific prioritization context.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_9849cc8a",
+  "candidate_fingerprint": "ab9b700ca3e7b9a8830799a9ced562111ce049bbe94180368eb3600aa5c759c0",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_405f24e09c12",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-26T22:32:45.096461+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

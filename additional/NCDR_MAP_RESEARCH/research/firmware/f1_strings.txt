@@ -1,0 +1,40 @@
+Static strings from patch.exe; ASCII and UTF-16LE scan. No UTF-16LE strings were found.
+
+0x34A5  navboot
+0x3400  carloc_rep
+0x340B  device_dialog
+0x3419  tpd_services
+0x3426  builder
+0x3434  Error
+0x343C  Patch
+0x3440  Unexpected value %08x during patch %08x %08x %08x
+0x3470  Unable to patch address %08x (address out of range)
+0x34B0  Unable to patch module '%s' - module not found
+0x34E0  Patching done.
+0x34EF  Error: %s
+0x3560  Unexpected data at the end of file
+0x3583  Error at 0x%x: Unknown data
+0x359F  Error at 0x%x: %s
+0x35B4  Error at 0x%x: Unable to get module size
+0x35DD  Unknown file format
+0x35F4  rb
+0x35F7  File '%s' is too small
+0x360B  Error reading '%s'
+0x361E  Failed to open '%s': %s
+0x3638  Saving pool with alignment not supported yet
+0x3668  Unable to get body for module %d
+0x3689  Error saving module %d
+0x36A0  Module has invalid CRC
+0x36B7  No error
+0x36C0  Unknown module architecture
+0x36DC  Module buffer too small
+0x36F4  Invalid magic value
+0x3708  Module size not aligned
+0x3720  Invalid module size
+0x3734  Invalid module name
+0x3748  Module with empty name
+0x375F  Module data not aligned
+0x3778  Module has invalid header parity
+0x37C8..0x3842  module type labels: program, subroutine, multi, data, configuration, trap library, system, file manager, device driver, device descriptor, user defined, unknown
+
+UTF-16LE: none.

@@ -1,0 +1,286 @@
+{
+  "test": "Recent NCDx full-payload batch frontier audit",
+  "observed_local": "2026-10-27T20:28:39.5977051+02:00",
+  "soak_status": "IN_PROGRESS",
+  "soak_heartbeat": "2026-10-27T20:28:27.237669+02:00",
+  "batch_range": [
+    131,
+    144
+  ],
+  "verified_batch_count": 14,
+  "source_path": "SW/DB/EUZ.MG1",
+  "source_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+  "source_stream_count": 2167,
+  "selected_stream_count": 28,
+  "distinct_stream_count": 28,
+  "duplicate_stream_selections": 0,
+  "scope": "Hashes and stream indices confirm 14 distinct, verifier-passed selected payload audits from one unchanged inventory. The result proves selection progression only; semantic road/navigation decoding and physical compatibility remain unproven.",
+  "cycles": [
+    {
+      "batch_index": 131,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_b6a81119",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        2014,
+        2020
+      ],
+      "selected_payload_sha256": [
+        "5d923d9635573130ecc748fa96d1f5fd9d14ee77683f968f054c0b49206ab2b1",
+        "f5e3ed6dd0d640287bbaf56f0afe794d09f3c77881ee79178d9b92a564852a93"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_b6a81119.json",
+      "artifact_sha256": "2ae529b342502a074786b0f0c25141dfeb446ae3a3ef9434011201d372f0fc8c",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_b6a81119",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 132,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0d7d30a3",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        2141,
+        154
+      ],
+      "selected_payload_sha256": [
+        "610b867b74ec6c5ccff8c0e42cf83ec45cb3303a9f8ae7a77831cc1490053741",
+        "356313bc4f0bfa2ad4aa85cc31ee6839e82d6d68caf649236245d7d415c4fb28"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0d7d30a3.json",
+      "artifact_sha256": "788a22666f0cf4b6b7ca01d0d5244049146acd2b97219b93ace4f2d566bda481",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0d7d30a3",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 133,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_442c065b",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        507,
+        841
+      ],
+      "selected_payload_sha256": [
+        "caa7b4a9a3e76b23db7b6879dbffc89dd5819c386a9fe4ff07fa4650c68d6c4c",
+        "ae8f61fc44b8d8e0abd624aeeb36ea10312453c31830d2d2c175b00533c946f0"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_442c065b.json",
+      "artifact_sha256": "3e8897d12d55e12074e185aeef7655a5cec0480ec7efd1a84e126bdc047acd3b",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_442c065b",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 134,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_d354c9b8",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        940,
+        2082
+      ],
+      "selected_payload_sha256": [
+        "8bd9e1c0a654d75f456e6c1680ef47090e2158e6190bd6553def69d789488d37",
+        "fedaaa1b6e55ef47da8c1c4832d8fdd7a74b0587fd446d3d7773e95de532b78a"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_d354c9b8.json",
+      "artifact_sha256": "a12ed5182a32d097d43d5d2b75ee16e4f695656f5ce39789371f4892bc1c9cbc",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_d354c9b8",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 135,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_c8208638",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        2088,
+        201
+      ],
+      "selected_payload_sha256": [
+        "eff1fb019210fce55343a65037a509edd06e23ab0a3621bcf1db4c58c8e809a4",
+        "8fc47e501e463fa9fba486106be1f4895f62f2c5bd85ab81ab3d7a36bb64a10b"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_c8208638.json",
+      "artifact_sha256": "72a8090a0c41e1613f1eafe85021522d772cfa1cdbac8175a3d1f389231fb2bb",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_c8208638",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 136,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6bfbd794",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        323,
+        1366
+      ],
+      "selected_payload_sha256": [
+        "2c217bb03e0ed3c5575c73c889005bc2e462f5671f7952b4695ec24b0d5f61bb",
+        "00ba9051d7ac60686c5ab8894ee2dde91ae4deade4cc2489ed29e2b5eeb514a8"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6bfbd794.json",
+      "artifact_sha256": "c9dd088e3ffcf58a5f13bd3429889edcc3d28a3a2311c40938973b4239b4e793",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6bfbd794",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 137,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4384b2e1",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        1413,
+        1586
+      ],
+      "selected_payload_sha256": [
+        "2d25be00250a0ae817862c0dd7342b8c9b0b428cec44a32a4a31e02189eba7cb",
+        "b794098eb43ef21cb808723bb07b547ef4d204171cc98c99fb9e933e11a4ae59"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4384b2e1.json",
+      "artifact_sha256": "54dc889cbfd4a0a01fb5e3770528c62ce3fb68b994366d028deaa3fb5b316120",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4384b2e1",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 138,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_64f8635d",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        1833,
+        153
+      ],
+      "selected_payload_sha256": [
+        "3635e7e60c3c58a41642802b5f4ac4ead58e3a67e6e2b634dae300b28dd22a6a",
+        "b5ba24e39b6a73dc781fa73cae2145f5f2824221c99d98698296043a41452278"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_64f8635d.json",
+      "artifact_sha256": "077ef409ea2fb35566f4ffb1c56afcc72b9a28d12bdaeca9f8aa265b4d9bf021",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_64f8635d",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 139,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1bf6c135",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        1027,
+        1065
+      ],
+      "selected_payload_sha256": [
+        "d39a60ed3e20b4128f4ddf3fe85c0ec8468a8f10446d5ec1c4a8552a10093848",
+        "45636134e061324a08109d9571ec45ad7bc18a3aba24091ab847f2c9ee1a1242"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1bf6c135.json",
+      "artifact_sha256": "11af4fa0ff89a57ac6cfe216eb77c3bcf7c93eb97f99cd83ade40b6e96b7c82a",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1bf6c135",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 140,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1c8c7da4",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        1077,
+        1712
+      ],
+      "selected_payload_sha256": [
+        "eb9863fe4ebfff5f5429880b68af2d73d5f920a7fdfcd753c9f573b4da199359",
+        "6ea7fe8c1f4abe97ae26ed6bf9b6371acd88af70a3fe25212520da0c3595c064"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1c8c7da4.json",
+      "artifact_sha256": "ebe922b4b616e20100a512f32ebd0a9e56782f191965e195969c0162f31445d3",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_1c8c7da4",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 141,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_446fb21f",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        1761,
+        300
+      ],
+      "selected_payload_sha256": [
+        "fee518a59c89ff26e2fc2eeb3c882ab395383e9b3fd75434e45e46bd6f505627",
+        "87444a38fb4f6e17f0e528d5abfefd14ef45f32f3af525f677dc5e0e20fd943b"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_446fb21f.json",
+      "artifact_sha256": "c87d79ef4c4fed783837ff2f26e12b7545d67dfb2f8939eb4ac291b04c0d6a67",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_446fb21f",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 142,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_63d50b61",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        349,
+        403
+      ],
+      "selected_payload_sha256": [
+        "4ea2d4bb320eb551fb7785205fc618e69fefdc909c89a2838c588663bbfb956a",
+        "c4f5d89f439fca298f26140eed841bdaab41a4f909884b2199344f066260d412"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_63d50b61.json",
+      "artifact_sha256": "b5f9224796031994a61b54633e5e54af01c90e1bf3fbf6592e492104c4adbea3",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_63d50b61",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 143,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_a8c9e687",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        444,
+        719
+      ],
+      "selected_payload_sha256": [
+        "d78e1e93bdcf7f1e485ee36ecc53491d784f7890c9553363076431850a10e032",
+        "7a94dbf47a6d2551fdf66837b31089452b91ab7823bb91dcc9eeeff630ead691"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_a8c9e687.json",
+      "artifact_sha256": "c66142cef4fe09293706ff392d1883ebd7c1809c410c09575d5aef174477f4e2",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_a8c9e687",
+      "verifier_model": "qwen3.5:4b"
+    },
+    {
+      "batch_index": 144,
+      "task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_d4355f4c",
+      "source_path": "SW/DB/EUZ.MG1",
+      "source_sha256": "b9e23ad44a3ab70d6c61ff96fcf5e21fdc0ffa8d2c63036c62eb023922fd57ab",
+      "stream_inventory_sha256": "c8bfe1df4912b7e623627586e15f44602dab112483872204b4581be2fb601d9e",
+      "stream_indices": [
+        1090,
+        1337
+      ],
+      "selected_payload_sha256": [
+        "5a9daa9d26c88ed6e3f28bf63c2123abcd72df2499762d2d00517d5ff363d731",
+        "f3b2c3cf1963732c27cac65234001b4791c42532bf971a93818bf3a7a1909c8d"
+      ],
+      "artifact_path": "work\\autonomous_manager\\ncdx\\data_family_profiles\\AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_d4355f4c.json",
+      "artifact_sha256": "4468c74731c0a1d9b1c18999e43c0418e96993800714cb8945419532937355a2",
+      "verifier_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_d4355f4c",
+      "verifier_model": "qwen3.5:4b"
+    }
+  ]
+}

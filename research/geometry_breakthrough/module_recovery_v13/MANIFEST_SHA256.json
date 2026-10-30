@@ -1,0 +1,422 @@
+{
+  "CHECKPOINT.md": {
+    "size": 2880,
+    "sha256": "17767d6f682ad49d2a29fb45e49e137049989bd574417cf3bb74c16e25fdb86d"
+  },
+  "GRAPH_READER_SPEC.md": {
+    "size": 3598,
+    "sha256": "12cd4a1dc7a84bb3b089673af6aec30f0abdc51e82c0a8defab298048b1e96bd"
+  },
+  "README.md": {
+    "size": 3525,
+    "sha256": "ac1c2a1cb76cae59a657c66ddec45fc6877c414cb664387cfa8a2d9e46c7adcf"
+  },
+  "extract_function.py": {
+    "size": 964,
+    "sha256": "95f0afce0f10449a27ce543cb73ec33fc1add7e9d20b5e2bad9b77fefb20405f"
+  },
+  "modules/NavigationRem.dll/e32_rom.bin": {
+    "size": 100,
+    "sha256": "ea376a81a152f6509a253da0b01840d9e517d0be5ca77c66cb728ec0505e4bd9"
+  },
+  "modules/NavigationRem.dll/module.json": {
+    "size": 47643,
+    "sha256": "24dc5c116a460d0dc86bba81b58e9b74c1ffe471180dd87e74751dc2dd8a8a0f"
+  },
+  "modules/NavigationRem.dll/o32_rom.bin": {
+    "size": 120,
+    "sha256": "0d6105be5f531ab456acbc5e997df0766ec2c490918d3367e7c1d51ff834918b"
+  },
+  "modules/NavigationRem.dll/reachable.jsonl.gz": {
+    "size": 3506698,
+    "sha256": "1f3b969e0c812b284f028713e0dff6ed0752dba7015578e12d3b5e7e7cc0b5d6"
+  },
+  "modules/NavigationRem.dll/section_0.bin": {
+    "size": 929724,
+    "sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9"
+  },
+  "modules/NavigationRem.dll/section_0.stored.bin": {
+    "size": 929724,
+    "sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9"
+  },
+  "modules/NavigationRem.dll/section_1.bin": {
+    "size": 140842,
+    "sha256": "87de7ed999f8a2daa6b453095e388db9296d6714050f3d2abb304caf70df8751"
+  },
+  "modules/NavigationRem.dll/section_1.stored.bin": {
+    "size": 140842,
+    "sha256": "87de7ed999f8a2daa6b453095e388db9296d6714050f3d2abb304caf70df8751"
+  },
+  "modules/NavigationRem.dll/section_2.bin": {
+    "size": 22041,
+    "sha256": "f8c2a55f0897b13d03681c89619e9d83874d4c622ab776fccf43de476addcbe3"
+  },
+  "modules/NavigationRem.dll/section_2.stored.bin": {
+    "size": 11211,
+    "sha256": "1ef995d0472f1f4f5ba3f739f269f7cb2975cfd6102ab5c0f8860020c435ac29"
+  },
+  "modules/NavigationRem.dll/section_3.bin": {
+    "size": 32438,
+    "sha256": "781947e5f45fc07a307c58e4a4396a7121636fbc0bb049bb02abf2e0607201f6"
+  },
+  "modules/NavigationRem.dll/section_3.stored.bin": {
+    "size": 24968,
+    "sha256": "b8564b080b838788aefb522c876efe19cea211a5c4e2b7529ab67855b6492ddc"
+  },
+  "modules/NavigationRem.dll/section_4.bin": {
+    "size": 37540,
+    "sha256": "5783369285e91b1c73b0ae0efd7e9b6aa220832ac0551f8e162458a3e10115db"
+  },
+  "modules/NavigationRem.dll/section_4.stored.bin": {
+    "size": 37540,
+    "sha256": "5783369285e91b1c73b0ae0efd7e9b6aa220832ac0551f8e162458a3e10115db"
+  },
+  "modules/NavigationRem.dll/sh4_analysis.json": {
+    "size": 11336943,
+    "sha256": "f7cbd11122c9754fb9c09225a47edadb3039b2df2a4250998c8aa3ed5e7f3633"
+  },
+  "modules/NavigationRem.dll/string_xrefs.tsv": {
+    "size": 262270,
+    "sha256": "993a018c30ff4bb6e92d22857aaf5d83184a1d346a843e0a71df1479effbb52b"
+  },
+  "modules/nmicore_ce.dll/e32_rom.bin": {
+    "size": 100,
+    "sha256": "8db90bf037a3244a30af3ae50ccc29cb0d5b702219d0c48e2032fc2df4fed607"
+  },
+  "modules/nmicore_ce.dll/module.json": {
+    "size": 48201,
+    "sha256": "ac1830371a051396fded56cd06e16587c9809df6023fcd5600a94b606e2f6a63"
+  },
+  "modules/nmicore_ce.dll/o32_rom.bin": {
+    "size": 120,
+    "sha256": "982d6c7b176da7768a9764395fd016d4a87b267b373d24e8b035eeb12208bec6"
+  },
+  "modules/nmicore_ce.dll/reachable.jsonl.gz": {
+    "size": 394100,
+    "sha256": "04d1051cbb6eee7da85fe75db13085bede63ecbec34fb816dadb4dd5edb6abee"
+  },
+  "modules/nmicore_ce.dll/section_0.bin": {
+    "size": 117668,
+    "sha256": "759c2aaf78bffb5f1237216ed893d3f75f5775d644c531ff383c3eaea6075ebf"
+  },
+  "modules/nmicore_ce.dll/section_0.stored.bin": {
+    "size": 117668,
+    "sha256": "759c2aaf78bffb5f1237216ed893d3f75f5775d644c531ff383c3eaea6075ebf"
+  },
+  "modules/nmicore_ce.dll/section_1.bin": {
+    "size": 40242,
+    "sha256": "89a9e2bdf620069df42f01916a9a97c2b23dbff6b5536900f602d23526afd54f"
+  },
+  "modules/nmicore_ce.dll/section_1.stored.bin": {
+    "size": 40242,
+    "sha256": "89a9e2bdf620069df42f01916a9a97c2b23dbff6b5536900f602d23526afd54f"
+  },
+  "modules/nmicore_ce.dll/section_2.bin": {
+    "size": 1447,
+    "sha256": "5fbaf3459c60ededada4ea9a1188c1ed6a2e760a45179e2f4ba0dc111386bc51"
+  },
+  "modules/nmicore_ce.dll/section_2.stored.bin": {
+    "size": 1160,
+    "sha256": "d6e40dc1c737fab3ce1ced0d993928993c664fa5f8c12ea9747debe01484436a"
+  },
+  "modules/nmicore_ce.dll/section_3.bin": {
+    "size": 4246,
+    "sha256": "c1bc325e7dc2c5aea01cdc30557a7ba1d5253274e3524d4c649a4976d8e0d32a"
+  },
+  "modules/nmicore_ce.dll/section_3.stored.bin": {
+    "size": 3123,
+    "sha256": "74b3dabce01c33d3d70a64bae2537a87079242f906ef72e9055f910c209d3cd3"
+  },
+  "modules/nmicore_ce.dll/section_4.bin": {
+    "size": 2880,
+    "sha256": "ab1422c1139840d4a1f4c9f57133d17cdd913f49d789915e76797cde1d585957"
+  },
+  "modules/nmicore_ce.dll/section_4.stored.bin": {
+    "size": 2880,
+    "sha256": "ab1422c1139840d4a1f4c9f57133d17cdd913f49d789915e76797cde1d585957"
+  },
+  "modules/nmicore_ce.dll/sh4_analysis.json": {
+    "size": 1877107,
+    "sha256": "1c0c61def3b5ef616956dca7ae2dfeb2a3367843422f2a6752afdb4edd5c6dd2"
+  },
+  "modules/nmicore_ce.dll/string_xrefs.tsv": {
+    "size": 9807,
+    "sha256": "ea009eeda3d176c676a0bfb42234ac0d3a8e12b36f49571cdef95b07fc662977"
+  },
+  "recover_modules.py": {
+    "size": 7541,
+    "sha256": "90f0d80ea6a2f686863de1e908ca66c0f44992645e00e99c90c489750ef7ce2b"
+  },
+  "recovery.json": {
+    "size": 110905,
+    "sha256": "b1843ca2b0211d510ce80e8f38c2803a93b0440b4462b6f0b1f47b2bfa871ac8"
+  },
+  "requirements.txt": {
+    "size": 15,
+    "sha256": "4609c65b2d0eb60211431a40dc46ee0f7a590351ad4c0058c66386ce9160130f"
+  },
+  "routing/02ff7740.asm": {
+    "size": 3788,
+    "sha256": "05521a6f70adbecc65b437665a8fbd229ad27eb01e26a137204ab6c62a41d3a2"
+  },
+  "routing/02ff7de4.asm": {
+    "size": 5311,
+    "sha256": "278f3e6556652b9448da36981d243968aed8eaedd556ae72b19e9c4a45e3dd8f"
+  },
+  "routing/02ffb92c.asm": {
+    "size": 5318,
+    "sha256": "edc2f9c82e0c9c9b744ca8db5cef6c79b0f94984ba69bfd02c804e561e1639d1"
+  },
+  "routing/02ffbb00.asm": {
+    "size": 5318,
+    "sha256": "64a790a2031352f43dc017d15ecf57870c9b3f31c4b545acd77bf4c01493a2cd"
+  },
+  "routing/02ffbe10.asm": {
+    "size": 4187,
+    "sha256": "86d6d26d6f6aae6a46a47b1654550cccfb7c63d865a5117c3cee5f085c451b8d"
+  },
+  "routing/03001978.asm": {
+    "size": 2375,
+    "sha256": "30a03802d3b1bf53921669d232cc58f5ef139310efaf0e42b79d772eca4382e8"
+  },
+  "routing/03003694.asm": {
+    "size": 3116,
+    "sha256": "2b0f08a7db1b998652ee4bae7bc0a356155ddd138dc279061852b39c97a79aa4"
+  },
+  "routing/03012570.asm": {
+    "size": 3878,
+    "sha256": "0c0286bf31885ca7ef9cc24ed713629199424c5dbf6267dd99b03f9d85597ae8"
+  },
+  "routing/03012690.asm": {
+    "size": 1903,
+    "sha256": "4d1f02ffb1fcb43473e9665bacf0a80f931d7746c4ea8e002db0c8895b05c4be"
+  },
+  "routing/0301271c.asm": {
+    "size": 2064,
+    "sha256": "3de01c9bc6220be82ff986b4d89a82bf3f1c2aabef29a00d79b835b2fff21c4b"
+  },
+  "routing/030127b4.asm": {
+    "size": 1543,
+    "sha256": "3dace02a3e89fd0c80a6ada7d56489634ef050f96ce1876a8bae5b9fdb2b6cc6"
+  },
+  "routing/03012824.asm": {
+    "size": 1354,
+    "sha256": "137d2bbca3940f2bdc73cb3bf5e4df9810d57804356d914f56ed02b3f105b443"
+  },
+  "routing/030129b8.asm": {
+    "size": 1378,
+    "sha256": "f9f8e44158b36cd60dd5ab631c013b509297c2aecb11edd7f877fbf7c8dbd90e"
+  },
+  "routing/03012b90.asm": {
+    "size": 1376,
+    "sha256": "54548194576a1db4282316a3fe605b5962bc80f00cb6fd2a109d0ac6e47e8597"
+  },
+  "routing/03012f9c.asm": {
+    "size": 3447,
+    "sha256": "d941668c876fee4fcf66468a5269396197fc9ec673d99052147b6de80a027702"
+  },
+  "routing/030130b8.asm": {
+    "size": 7515,
+    "sha256": "394b770927173233e378eddd57d2674aeb0e140c4d1bb365c54b06b97a7f4d76"
+  },
+  "routing/0301330c.asm": {
+    "size": 3197,
+    "sha256": "6251e68ee7cd78778283a87ab541bdc818e60e75ef0be73bb6de46f951c8bfbd"
+  },
+  "routing/030133fc.asm": {
+    "size": 3729,
+    "sha256": "b16f8ad46e5f844fb5b2b5a61fbf1803668c2fa002fe5264419bb90df6791a74"
+  },
+  "routing/0301391c.asm": {
+    "size": 1078,
+    "sha256": "2035daf880d74a72e5223bf03ea52a68b6058dfcdc46dac4ba26b66cff81cefa"
+  },
+  "routing/03014c0c.asm": {
+    "size": 5127,
+    "sha256": "f41d8a5784fa1a774390b27977585454c40f47db0e8484c34aa2eb836643ad4d"
+  },
+  "routing/03014d9c.asm": {
+    "size": 3279,
+    "sha256": "9a85062a816fd93fa1d0097e620aab4bcea178e79e9c0ef35b7e521f8de7a196"
+  },
+  "routing/0301b428.asm": {
+    "size": 512,
+    "sha256": "9e2894e37b828b6f0570337f83752300e054a9c2d079bb95cac191e35d217b59"
+  },
+  "routing/0301f984.asm": {
+    "size": 4729,
+    "sha256": "52bc037b12da67e4d000d2a1f35df3374e60e48ead881a408d15f2c2817f865e"
+  },
+  "routing/0301fcd8.asm": {
+    "size": 5032,
+    "sha256": "ae30ee3b02f0174e0fbe7b4b61d6df30c08a873f0bf3dc06acabe1586b014fb2"
+  },
+  "routing/0302002c.asm": {
+    "size": 5200,
+    "sha256": "ef1540b584706ca0e0ba64227fa37635a8bbac419232cc08ccd40b831fc7d45b"
+  },
+  "routing/03029944.asm": {
+    "size": 6656,
+    "sha256": "dd7a58b7d743c8d6415c4644f6c268f513f0300146b3d5b4146782bc9b9c55c5"
+  },
+  "routing/0303dda4.asm": {
+    "size": 1865,
+    "sha256": "f1e0144e2f6e2d8823b1bd94371e4f99def52f2ea4e2f00ade8d1ff8733595b2"
+  },
+  "routing/0303ea2c.asm": {
+    "size": 5335,
+    "sha256": "b5b1309231b56eb57e076c00ad87b2659bcd55a2105df8b15f6edb27ed3bf697"
+  },
+  "routing/03040638.asm": {
+    "size": 4322,
+    "sha256": "b9835ec4e1d2feb2bac55c9b06d7652990ad9a257ad3c730fbc4eaa88b639b53"
+  },
+  "routing/0304d588.asm": {
+    "size": 2457,
+    "sha256": "318a26b62bcbdce979f2ff088f9abeb9e0c86eda3513fce81d6d011183740cbc"
+  },
+  "routing/0304d640.asm": {
+    "size": 1553,
+    "sha256": "5a6dfe1a8b0747511642e3fe756bb3638d2857287937ade29d5fdc4b52a32402"
+  },
+  "routing/0304d6b4.asm": {
+    "size": 847,
+    "sha256": "3d5295b430363298071331135c0c4d54cf20c5746c6ea95c1ca0b90216322d51"
+  },
+  "routing/0304d6f0.asm": {
+    "size": 3050,
+    "sha256": "3b30bb29a2a33d0925a32e2f094f05b3d02bd78f392bf2ad2e17beea51cf3647"
+  },
+  "routing/0304d7e4.asm": {
+    "size": 1358,
+    "sha256": "eb7b5b515f8882fe1cbd145149e1e6361c0760a917c85e43abd2c0458c00c336"
+  },
+  "routing/0304d848.asm": {
+    "size": 1212,
+    "sha256": "6e20063b25e33554feb182347b867f721e9eda6c2bd4945c0eac82b6c883cf39"
+  },
+  "routing/0304d8a0.asm": {
+    "size": 2674,
+    "sha256": "e0ec3e154bdd2fcf126c4a69c370c01f1c5a305387ed057e3d0b75f5e5a4e195"
+  },
+  "routing/0304d994.asm": {
+    "size": 1865,
+    "sha256": "819db5deafbd2b2af6f2329faf352e20f1fe51aefde24cadd3642674d29aa4e2"
+  },
+  "routing/0304da1c.asm": {
+    "size": 1676,
+    "sha256": "a8b22e1a5b37cf3bbc3cdd5bab26673d005200af59c0ed4c8476359896b25a5b"
+  },
+  "routing/0304da98.asm": {
+    "size": 2033,
+    "sha256": "30244e7fbe6ae4883a7140f8afa151d19e4f29b57c39dc102a437cb61efb7ee2"
+  },
+  "routing/0304db44.asm": {
+    "size": 2223,
+    "sha256": "e6257efc5fe27adaf3fa366fa3c7a03dfcfeedb99c80761a124575167e5037db"
+  },
+  "routing/0304dbe8.asm": {
+    "size": 9104,
+    "sha256": "518cf07cc816931fea1c77e8a9aeffbd2bcbe1689b3b7aabc14a072283348747"
+  },
+  "routing/03060620.asm": {
+    "size": 5968,
+    "sha256": "df06877e2f521fcb6f94f6214ba56659991a9cd093b6b2e2ffc5ddc2192e1cf7"
+  },
+  "routing/030607f4.asm": {
+    "size": 4625,
+    "sha256": "c21fd46503ce93a41ffd9abec9b14bbf6b86012fc012cc1c8aab1397ed0eafd1"
+  },
+  "routing/03062d50.asm": {
+    "size": 2070,
+    "sha256": "02c5cb3af10998dee4608534e8900fb0406d4cf6d60016ab7852d0769fff9258"
+  },
+  "routing/030724b4.asm": {
+    "size": 7035,
+    "sha256": "b54f2a3e6f5c03e8ddc3a0e86c0ea906917d7c8c9f9edde24da306f31a99afb7"
+  },
+  "routing/03098ae8.asm": {
+    "size": 23561,
+    "sha256": "3a571475b556e66270604eb0fefe0ca19be30c32dbcbf78d0286fc5f64391711"
+  },
+  "routing/030ab4d0.asm": {
+    "size": 19113,
+    "sha256": "ee25beae0e77fcf4972dc01ba78448ddc0f46afda37b0fc2143d06876586313e"
+  },
+  "routing/030abd34.asm": {
+    "size": 4420,
+    "sha256": "283b71a659fb78995180dde15c9f16d78997dda6b4aea4a1e7c4154912b7d7b4"
+  },
+  "routing/030abe98.asm": {
+    "size": 2896,
+    "sha256": "47de688f949341f3708c84758628ac6a0f9e0267d1a581442708ff92637c00cc"
+  },
+  "routing/030abf84.asm": {
+    "size": 1429,
+    "sha256": "f3b900aa0d2dd193280b0b5fb71a58b9177896514cfd05bf6b11ce50cc985d26"
+  },
+  "routing/030ac04c.asm": {
+    "size": 16198,
+    "sha256": "9e901ebf1f7e5ca0148e598019a4bcf7bae532d3093f4081a474facf62c785c8"
+  },
+  "routing/030ac5ac.asm": {
+    "size": 1388,
+    "sha256": "bcc301fb4ee351376a2444829b56b4d15b313f3a8d63a121677b327fd872896a"
+  },
+  "routing/030ac610.asm": {
+    "size": 3645,
+    "sha256": "123fa71962e897f18a83b17b0b72dbefe7e05462d3ce6f327211675d12be9312"
+  },
+  "routing/attribute_load_candidates.json": {
+    "size": 53080,
+    "sha256": "d763a74a7cf04426c3afeb78c7ce1736fd54b63c950c276f63db41f54e7e3c7a"
+  },
+  "routing/block0_runtime_edges.bin": {
+    "size": 2416,
+    "sha256": "9e3bb8e6c03b40bfa0f0b0c9976aed704996e8606f8f89e097c6b8599295b617"
+  },
+  "routing/edge_accessors.json": {
+    "size": 397498,
+    "sha256": "b7ec7a878b911af207750c92aebce941f146c46259cf18db120cc52f62c1ddd1"
+  },
+  "routing/edge_table_candidates.json": {
+    "size": 1064617,
+    "sha256": "41f7c199ff447680a06f175ac67bafd2f7082aa99bdd4170050224d3177635b0"
+  },
+  "routing/memcpy_import.json": {
+    "size": 354,
+    "sha256": "a70b2131b2c636658dcfd0b9210b2f6dbf2d38bcac5218a05f0b567090b20324"
+  },
+  "routing/mp0_block0.bin": {
+    "size": 10333,
+    "sha256": "0be6cde99dab3c2b3b841c1d8ac8e75b28105cdbcedbb5d94ac1b11f8bb98930"
+  },
+  "routing/reader_verification.json": {
+    "size": 2713,
+    "sha256": "017f2ea0238ea77a50465fcbbbee2b984d9f2d867b2340238db5371d3dcb4195"
+  },
+  "routing/selected_functions.json": {
+    "size": 675416,
+    "sha256": "396c07ec932f51ed57a2b4c17aaa2594f6abf0904578bc534b07ba1419c81df4"
+  },
+  "scan_sh4.py": {
+    "size": 5261,
+    "sha256": "cbe3d3bf600f8c22df5f160921d2522ae6c40dbbe5a607eb3d41616b544c0f08"
+  },
+  "sections.csv": {
+    "size": 1546,
+    "sha256": "09c03054449f06165f32275ff8d8c201da867428ac438b5a8d7bafc9c08a487a"
+  },
+  "verification.json": {
+    "size": 2923,
+    "sha256": "0d499e5048aa69dfd89926b2b01d3009b60fe4f703df841ce8088f4bd92ebdb2"
+  },
+  "verify_graph_readers.py": {
+    "size": 7539,
+    "sha256": "9d84894bd2844699c48d085d8e8741e42f8126f7c9c03418fadb5d9771259ec7"
+  },
+  "verify_recovery.py": {
+    "size": 4140,
+    "sha256": "ab6557de7e798f128dbd4487df1704423d0048bc4ad3185d7ac0b6b056ee56ee"
+  }
+}

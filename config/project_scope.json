@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "scope_revision": "2026-10-25-disc-first-national-osm",
+  "global_goal": "Створити перевірений навігаційний диск із сучасними картами України для Opel NCDR. Фінальну апаратну сумісність підтверджувати лише випробуванням у сумісному автомобілі.",
+  "director_policy": {
+    "authoritative_scope_source": "config/project_scope.json and the persisted project_configuration.active_scope row",
+    "schedule_only_active_tracks": true,
+    "never_reactivate_excluded_tracks_from_history": true,
+    "continue_independent_software_work_while_hardware_acceptance_is_unavailable": true,
+    "require_measurable_acceptance_criteria_and_saved_evidence": true,
+    "do_not_promote_unverified_model_output_to_release_artifacts": true
+  },
+  "reporting_policy": {
+    "daily_codex_handoff": "On worker start, task completion, and UTC day rollover; derive from persisted tasks, evidence, model runs, active scope and current blockers.",
+    "daily_weekly_monthly_supervisor_reports": "On independently supervised task results; include the active scope and filter archived tasks from activity and counts.",
+    "exclude_archived_tracks_from_readiness_and_active_reports": true,
+    "always_report_physical_compatibility_as_not_tested_until_vehicle_acceptance": true
+  },
+  "active_tracks": [
+    {
+      "id": "NCDX_REVERSE_ENGINEERING",
+      "goal": "Встановити структури оригінального NCDx і прошивки з відтворюваними доказами; невідомі поля не трактувати як відомі."
+    },
+    {
+      "id": "NCDX_READER_WRITER",
+      "goal": "Розвивати reader/writer через підтверджені структури, копії оригіналів, no-op round-trip та контрольовані зміни з незалежною перевіркою."
+    },
+    {
+      "id": "UKRAINE_OSM_DISC_DATA",
+      "goal": "Перетворити актуальні OSM-дані України у внутрішню базу підготовки диска; пошук, маршрутизація та POI є лише перевірками і підготовкою даних для фізичного диска."
+    },
+    {
+      "id": "DISC_IMAGE_AND_VERIFICATION",
+      "goal": "Побудувати експериментальний образ лише після підтвердження необхідного формату та перевіряти його незалежним парсером."
+    },
+    {
+      "id": "PHYSICAL_COMPATIBILITY",
+      "goal": "Підтвердити фінальний диск на сумісному Opel NCDR у автомобілі; до цього сумісність має стан NOT_TESTED."
+    }
+  ],
+  "excluded_tracks": [
+    {
+      "id": "VIRTUAL_CID_GUI_SIMULATION",
+      "description": "GUI-симуляція навігації Virtual CID, включно з її пошуком і маршрутизацією.",
+      "archive": "archive/excluded_tracks_2026-10-25"
+    },
+    {
+      "id": "PERSONAL_KRYVYI_RIH_POI_EDITOR",
+      "description": "Окремий редактор користувацьких POI Кривого Рогу.",
+      "archive": "archive/excluded_tracks_2026-10-25"
+    }
+  ],
+  "readiness_policy": {
+    "task_counts_score": false,
+    "statistical_profiles_score": false,
+    "progress_criteria": {
+      "F1": ["target_device_identity", "disc_acceptance_evidence", "format_matrix", "image_layout_evidence"],
+      "F2": ["header_reader", "independent_disc_golden_tests", "corruption_detection", "semantic_records", "firmware_hex_structures"],
+      "F3": ["no_op_roundtrip", "controlled_change", "independent_readback"],
+      "F4": ["dated_osm_source", "road_graph_tests", "target_conversion", "whole_ukraine_osm_database"],
+      "F5": ["encoding_support_proof", "ukrainian_names_test"],
+      "F7": ["final_image_interpreter"],
+      "F8": ["target_disc_layout", "independent_image_verifier"],
+      "F9": ["software_acceptance", "hardware_acceptance"]
+    },
+    "progress_components": {
+      "OSM data preparation": ["F4:dated_osm_source", "F4:road_graph_tests", "F4:whole_ukraine_osm_database", "F5:ukrainian_names_test", "F5:encoding_support_proof"],
+      "NCDx reverse engineering": ["F2:header_reader", "F2:independent_disc_golden_tests", "F2:corruption_detection", "F2:semantic_records"],
+      "NCDx reader/writer": ["F3:no_op_roundtrip", "F3:controlled_change", "F3:independent_readback"],
+      "Disc image and verification": ["F1:format_matrix", "F1:image_layout_evidence", "F4:target_conversion", "F7:final_image_interpreter", "F8:target_disc_layout", "F8:independent_image_verifier", "F9:software_acceptance"]
+    },
+    "score_only_from": [
+      "підтверджені структури NCDx або прошивки з незалежним тестом",
+      "працюючі reader/writer функції з no-op і контрольованими round-trip перевірками",
+      "успішні перевірки сформованої бази або образу незалежним парсером",
+      "OSM-конвертація та перевірки даних, призначених для диска",
+      "апаратне приймання у сумісному автомобілі"
+    ],
+    "physical_compatibility": "NOT_TESTED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "focus": "virtual_cid",
+  "acceptance": "python -B tests/unit/test_virtual_cid_poi.py exits with code 0; all inputs are fixtures or read-only source files.",
+  "test": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.089s\n\nOK\n",
+    "test_file": "tests\\unit\\test_virtual_cid_poi.py"
+  },
+  "scope": "temporary SQLite/XML fixtures",
+  "component_readiness": "PASS for local personal POI persistence; native NCDx editor remains hardware/format blocked."
+}

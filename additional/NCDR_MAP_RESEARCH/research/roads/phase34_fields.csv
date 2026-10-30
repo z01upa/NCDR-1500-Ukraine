@@ -1,0 +1,6 @@
+field,observed_result,classification,status
+E&0x3FFF,valid in-bounds local offset for readable objects,pointer candidate,confirmed candidate
+F,values 1..20 in readable sample,count-like,unresolved
+16-byte positions,phase-dependent repeated byte patterns,unknown,unresolved
+A/B/C/D,ordered pair-like values,unknown,unresolved
+terminal bytes,no uniform sentinel/count/trailer,unknown,unresolved

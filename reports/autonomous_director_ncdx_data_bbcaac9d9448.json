@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_bbcaac9d9448",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_42c43473",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_42c43473",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for `alignment_*` with varying scales and coordinate orders (lat_lon/lon_lat). The evidence shows a mix of high-compression-ratio streams (e.g., stream_index 32) and larger datasets. Prioritizing the reduction of uncertainty about map storage involves selecting a representative sample that covers different alignment indices (0, 2, 4, 6, 7) and scales (1,000,000 vs 10,000,000). The selected goal ID reflects the decoding of these zl",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_42c43473",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "d64e11dfc0ee13490f0f7c7eeef2c001c1ebc074cee0416259fbd1738955dbc3",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_bbcaac9d9448",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:57:17.483481+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

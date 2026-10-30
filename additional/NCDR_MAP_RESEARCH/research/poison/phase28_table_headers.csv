@@ -1,0 +1,2 @@
+table_sector,table_start,preceding_window,originX_literal_found,originY_literal_found,parent_structure,status
+0x7749B,0x0C66,64_bytes_before_table,0,0,unresolved,only scoped table examined

@@ -1,0 +1,53 @@
+{
+  "test": "Independent NCDx queue progress while an unrelated Supervisor task is BLOCKED",
+  "blocked_task": {
+    "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_f23fdd72",
+    "status": "BLOCKED",
+    "verdict": "BLOCKED",
+    "updated_utc": "2026-10-26T22:28:23.857218+00:00"
+  },
+  "director_task": {
+    "id": "AUTO_DIRECTOR_NCDX_DATA_0e9bc3cc81e7",
+    "status": "DONE",
+    "verdict": "PASS",
+    "updated_utc": "2026-10-27T18:36:20.187869+00:00"
+  },
+  "selected_target_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_f3dfa0bf",
+  "target_task": {
+    "id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_f3dfa0bf",
+    "status": "DONE",
+    "verdict": "PASS",
+    "updated_utc": "2026-10-27T18:36:27.198824+00:00"
+  },
+  "independent_supervisor_task": {
+    "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_f3dfa0bf",
+    "status": "DONE",
+    "verdict": "PASS",
+    "updated_utc": "2026-10-27T18:36:40.721524+00:00"
+  },
+  "worker_control": {
+    "desired_state": "RUNNING",
+    "worker_pid": 30032,
+    "session_id": "6b4ce75f-51a5-4b67-9a40-b597d69f6acc",
+    "current_task": "AUTO_DIRECTOR_NCDX_DATA_9e9502b6e73c",
+    "last_error": "",
+    "updated_utc": "2026-10-27T18:37:23.776602+00:00"
+  },
+  "task_status_counts": {
+    "BLOCKED": 12,
+    "CANCELLED": 1,
+    "DONE": 2416,
+    "PENDING": 1,
+    "SUPERSEDED": 2,
+    "WAITING_CODEX": 48,
+    "WAITING_CODEX_QUOTA": 3,
+    "WAITING_EXTERNAL": 3,
+    "WAITING_LOCAL": 2
+  },
+  "codex_calls_since_soak_start": 0,
+  "pending_or_blocked_national_osm_steps": 0,
+  "worker_lock_held": true,
+  "result": "PASS",
+  "scope_note": "Confirms an independent evidence-backed MG1 batch was processed after the PTI supervisor remained blocked; it does not claim road semantics or physical compatibility.",
+  "observed_utc": "2026-10-27T18:37:14.139100+00:00"
+}

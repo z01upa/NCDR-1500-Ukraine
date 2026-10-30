@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_1bacbf4ec798",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_IOF_EXACT_BLOCK_ANCHOR_SCAN_e7b4c084",
+  "selected_goal_id": "AUTO_NCDX_DATA_IOF_EXACT_BLOCK_ANCHOR_SCAN_e7b4c084",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the constraint to prioritize evidence reducing uncertainty about map storage, address/index data, or route data; 'IOF' is chosen as a deterministic label from the eligible set without asserting semantic meaning.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_IOF_EXACT_BLOCK_ANCHOR_SCAN_e7b4c084",
+  "candidate_fingerprint": "170d661a28babc134e423c288d5f54f63e34e3e0a63848cc623182fef3fa9ff0",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_1bacbf4ec798",
+  "remaining_unique_experiments": 17,
+  "created_utc": "2026-10-26T23:13:17.756412+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

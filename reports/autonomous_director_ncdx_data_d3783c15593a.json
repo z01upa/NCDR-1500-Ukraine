@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_d3783c15593a",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CFG_DEFLATE_COMPRESSIBILITY_PROFILE_74868727",
+  "selected_goal_id": "AUTO_NCDX_DATA_CFG_DEFLATE_COMPRESSIBILITY_PROFILE_74868727",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CFG_DEFLATE_COMPRESSIBILITY_PROFILE_74868727",
+  "candidate_fingerprint": "1f59f9b910b0cfd6a62be7fa8b7f15e2a59bbbe50501aa35ff71711aa3fe7a9b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_d3783c15593a",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-26T22:28:05.083114+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

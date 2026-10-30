@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "block": 886,
+        "edge": 1,
+        "vertices": 4,
+        "length_m": 182.61666882295347,
+        "sample_count": 11,
+        "median_residual_m": 1.0410435843812187,
+        "max_residual_m": 2.004309460807205,
+        "shift500_median_m": 113.35165537874367,
+        "osm_way_ids": [
+          1295825030
+        ],
+        "reference_ways": [
+          {
+            "id": 1295825030,
+            "tags": {
+              "highway": "primary",
+              "int_ref": "E 50;E 58",
+              "lanes": "2",
+              "maxspeed:backward": "90",
+              "maxspeed:forward": "60",
+              "old_ref": "50",
+              "ref": "19",
+              "sidewalk:both": "no",
+              "smoothness": "good",
+              "source:maxspeed:backward": "SK:rural",
+              "source:maxspeed:forward": "sign",
+              "surface": "asphalt",
+              "toll:hgv": "yes"
+            }
+          }
+        ],
+        "validation": "local OSM fixed-position point-to-road comparison, no transform fit",
+        "source_offset": 28578738,
+        "record_offset": 9924,
+        "record_hex": "1483000000008b028c0257020000"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.26157,
+            48.65529
+          ],
+          [
+            22.26176,
+            48.65541
+          ],
+          [
+            22.26274,
+            48.65618
+          ],
+          [
+            22.26318,
+            48.65654
+          ]
+        ]
+      }
+    }
+  ]
+}

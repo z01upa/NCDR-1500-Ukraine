@@ -1,0 +1,349 @@
+{
+  "status": "PASS_WITH_REPORTED_UNRESOLVED_CASES",
+  "source_sha256_before": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "source_sha256_after": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "blocks": 2956,
+  "blocks_inflated": 2956,
+  "nodes": 956071,
+  "edges": 1090323,
+  "edge_endpoint_out_of_range": 0,
+  "degree_le4_local_adjacency_exact": {
+    "pass": 952280,
+    "fail": 511,
+    "failures_at_duplicate_coordinates": 511,
+    "examples": [
+      {
+        "block": 7,
+        "node": 56,
+        "record_hex": "310038002f003a003700",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          56
+        ],
+        "coordinate": [
+          -251700,
+          4160671
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 10,
+        "node": 221,
+        "record_hex": "720077000c0104010301",
+        "stored_degree_low_nibble": 2,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          119,
+          268
+        ],
+        "coordinate": [
+          589817,
+          5198636
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 16,
+        "node": 329,
+        "record_hex": "a300bc010a01b4001f02",
+        "stored_degree_low_nibble": 3,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          444,
+          266,
+          180
+        ],
+        "coordinate": [
+          -168454,
+          4810544
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 18,
+        "node": 153,
+        "record_hex": "630064005f008a012200",
+        "stored_degree_low_nibble": 3,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          100,
+          95,
+          394
+        ],
+        "coordinate": [
+          616536,
+          4869972
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 18,
+        "node": 302,
+        "record_hex": "a100a0001b0112017001",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          160
+        ],
+        "coordinate": [
+          618010,
+          4867873
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 22,
+        "node": 401,
+        "record_hex": "c200c300060230010201",
+        "stored_degree_low_nibble": 2,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          195
+        ],
+        "coordinate": [
+          863689,
+          5949734
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 28,
+        "node": 284,
+        "record_hex": "9101c300c801a5012900",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          195
+        ],
+        "coordinate": [
+          1294919,
+          5770863
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 38,
+        "node": 345,
+        "record_hex": "1402150205011801de01",
+        "stored_degree_low_nibble": 4,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          533,
+          261,
+          280,
+          478
+        ],
+        "coordinate": [
+          758139,
+          4754390
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 38,
+        "node": 378,
+        "record_hex": "f200ec00170190002c02",
+        "stored_degree_low_nibble": 2,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          236,
+          279
+        ],
+        "coordinate": [
+          758422,
+          4754677
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 38,
+        "node": 557,
+        "record_hex": "41021c0188016502d200",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          284
+        ],
+        "coordinate": [
+          759909,
+          4757548
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 40,
+        "node": 144,
+        "record_hex": "330134014600d600a701",
+        "stored_degree_low_nibble": 3,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          308,
+          70,
+          214
+        ],
+        "coordinate": [
+          439211,
+          5084601
+        ],
+        "same_coordinate_nodes": 3
+      },
+      {
+        "block": 41,
+        "node": 42,
+        "record_hex": "11001b001c0009001b00",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          27
+        ],
+        "coordinate": [
+          -296754,
+          5343712
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 41,
+        "node": 230,
+        "record_hex": "12017200840085008600",
+        "stored_degree_low_nibble": 2,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          114,
+          132
+        ],
+        "coordinate": [
+          -293591,
+          5345000
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 42,
+        "node": 31,
+        "record_hex": "34016e00db01dc01b300",
+        "stored_degree_low_nibble": 4,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          110,
+          179
+        ],
+        "coordinate": [
+          491054,
+          5237159
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 45,
+        "node": 11,
+        "record_hex": "330034000a010e005500",
+        "stored_degree_low_nibble": 3,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          52,
+          266,
+          14
+        ],
+        "coordinate": [
+          844140,
+          5546535
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 46,
+        "node": 203,
+        "record_hex": "83011c00c000c800da00",
+        "stored_degree_low_nibble": 3,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          28,
+          192,
+          200
+        ],
+        "coordinate": [
+          945825,
+          5358647
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 52,
+        "node": 308,
+        "record_hex": "d400df004e0150017701",
+        "stored_degree_low_nibble": 4,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          223,
+          334,
+          336,
+          375
+        ],
+        "coordinate": [
+          1728212,
+          4094175
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 54,
+        "node": 335,
+        "record_hex": "a100d40135011500e001",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          468
+        ],
+        "coordinate": [
+          1930269,
+          4908497
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 56,
+        "node": 181,
+        "record_hex": "53014c01f00002017d00",
+        "stored_degree_low_nibble": 3,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          332,
+          240,
+          258
+        ],
+        "coordinate": [
+          1337180,
+          5250906
+        ],
+        "same_coordinate_nodes": 2
+      },
+      {
+        "block": 56,
+        "node": 194,
+        "record_hex": "210038014d0289008400",
+        "stored_degree_low_nibble": 1,
+        "local_edges_from_section5": [],
+        "candidate_refs": [
+          312
+        ],
+        "coordinate": [
+          1337201,
+          5250511
+        ],
+        "same_coordinate_nodes": 2
+      }
+    ]
+  },
+  "stored_low_nibble_gt4_records_unresolved": 3280,
+  "primary_endpoint_reference_membership_for_degree_le4": {
+    "pass": 2141367,
+    "fail": 0
+  },
+  "secondary_coordinates_matching_primary_in_other_blocks": {
+    "pass": 29240,
+    "fail": 0
+  },
+  "method": "Standalone struct/zlib parser; no project decoder, encoder, topology validator, or Writer imports."
+}

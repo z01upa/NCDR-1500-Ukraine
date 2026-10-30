@@ -1,0 +1,70 @@
+{
+  "test": "NCDR Worker restart and checkpoint lease recovery",
+  "observed_utc": "2026-10-27T18:21:17.243097+00:00",
+  "soak_baseline_session": "856a14f8-31e7-443f-806a-90a849df42e5",
+  "current_session": "6b4ce75f-51a5-4b67-9a40-b597d69f6acc",
+  "restart_observed": true,
+  "worker_restart_events": [
+    {
+      "utc": "2026-10-27T18:18:53.437470+00:00",
+      "event": "worker_started",
+      "session_id": "7af07a00-3d1f-41ee-91d9-a8b3e11e74c2",
+      "pid": 31816,
+      "recovered_leases": 1
+    },
+    {
+      "utc": "2026-10-27T18:21:06.419641+00:00",
+      "event": "worker_started",
+      "session_id": "6b4ce75f-51a5-4b67-9a40-b597d69f6acc",
+      "pid": 30032,
+      "recovered_leases": 1
+    }
+  ],
+  "recovered_task_events": [
+    {
+      "utc": "2026-10-27T18:16:41.009899+00:00",
+      "event": "task_started",
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_12d1b3974e5e",
+      "session_id": "e4125309-478b-4fc8-a739-c0efb82b9111",
+      "pid": 32000
+    },
+    {
+      "utc": "2026-10-27T18:18:54.345084+00:00",
+      "event": "task_started",
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_12d1b3974e5e",
+      "session_id": "7af07a00-3d1f-41ee-91d9-a8b3e11e74c2",
+      "pid": 31816
+    },
+    {
+      "utc": "2026-10-27T18:21:07.315906+00:00",
+      "event": "task_started",
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_12d1b3974e5e",
+      "session_id": "6b4ce75f-51a5-4b67-9a40-b597d69f6acc",
+      "pid": 30032
+    },
+    {
+      "utc": "2026-10-27T18:21:17.243097+00:00",
+      "event": "task_accepted",
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_12d1b3974e5e",
+      "session_id": "6b4ce75f-51a5-4b67-9a40-b597d69f6acc"
+    }
+  ],
+  "recovered_director": {
+    "id": "AUTO_DIRECTOR_NCDX_DATA_12d1b3974e5e",
+    "status": "DONE",
+    "verdict": "PASS",
+    "attempts": 1,
+    "updated_utc": "2026-10-27T18:21:17.157425+00:00",
+    "result_status": "PASS",
+    "result_model": "qwen3.5:9b",
+    "selected_target_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_442c065b"
+  },
+  "selected_target": {
+    "id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_442c065b",
+    "status": "DONE",
+    "verdict": "PASS",
+    "updated_utc": "2026-10-27T18:21:23.391798+00:00"
+  },
+  "result": "PASS",
+  "scope_note": "Worker restarted twice with recovered leases, resumed the same Director task, then committed PASS and a selected MG1 target that also committed PASS. This proves checkpoint/lease recovery for this observed chain, not physical compatibility."
+}

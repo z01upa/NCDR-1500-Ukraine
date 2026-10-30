@@ -1,0 +1,13 @@
+{
+  "README.md": "59c70a7955dd5b12311ff4c7e666c27b6866bccca98b50b11e736e0f04921ea2",
+  "SH4_EVIDENCE.md": "c0acf47dd2378a262b1193b9eab72ec9e0e96a3245e52e210626736aba8418d9",
+  "VALIDATION_CONTRACT.md": "9d5a684d905f545f75d10599df3e6af478fd026acb8ee099c18f322493a85acc",
+  "validate_new_edge.py": "d60ed7b7b16d64c1f3db3c4a424420d0ff1bc4f5ddbdbe600c7497f3ae6078ee",
+  "UNRESOLVED.md": "cd28c78bb16bf61d76759435755f35ea75b53963b4c92b3f6d336f79e8341fcb",
+  "evidence/original.json": "8195b4b41f47f41badce504308d241d382abe43ff9e801745c069558edff2ece",
+  "evidence/sh4_selected.json": "7bf29dca6011e02c45a35e2bb4b0b460f1a1f9a51c2536b63152b8dd200b4004",
+  "evidence/test_summary.json": "142b8c3a6780a98edaa089673f210c88ac247834e56f3850776f605130846898",
+  "evidence/existing_geometry_edit.json": "43ee1d031c1ea7e9959bb2dd4aed2a570589e8cfbe2c22e91e00685b45a1b39f",
+  "dependencies/research/geometry_breakthrough/independent_verify.py": "5c058aa0565a9a9d52e2fc56c4385f1343b8179175a2a333d6ce6d8ff8f5bf50",
+  "dependencies/research/geometry_breakthrough/topology_v6/topology_decoder.py": "332e2e8c7dc3d5f6a78fd48a004d565145739d276e4d7965e642a3ef8477e188"
+}

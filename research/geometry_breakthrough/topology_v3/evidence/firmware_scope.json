@@ -1,0 +1,70 @@
+{
+  "status": "PASS_BOUNDED_STATIC_SURVEY",
+  "navimain": {
+    "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_MMIDIS_LOC_0130170000\\WINDOWS\\NAVIMAIN.EXE",
+    "size_bytes": 9798,
+    "sha256": "8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07",
+    "pe_offset": 208,
+    "machine_hex": "0x01a6",
+    "machine_name_from_existing_census": "SH4",
+    "targeted_graph_map_strings": [],
+    "disassembly_tools_found": {}
+  },
+  "nk_bin": {
+    "path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+    "size_bytes": 11021915,
+    "sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+    "mz_marker_count": 15,
+    "first_20_mz_offsets": [
+      1115242,
+      1559094,
+      2487152,
+      2492419,
+      2494452,
+      8958996,
+      9184524,
+      9236150,
+      9962759,
+      9966599,
+      10106077,
+      10282685,
+      10283526,
+      10747387,
+      10943845
+    ],
+    "existing_embedded_pe_valid_image_count": 0
+  },
+  "existing_import_census": {
+    "architecture": "SH4",
+    "modules": [
+      {
+        "module": "coredll.dll",
+        "named_import_count": 0,
+        "ordinal_import_count": 18
+      },
+      {
+        "module": "commgr.dll",
+        "named_import_count": 7,
+        "ordinal_import_count": 0
+      },
+      {
+        "module": "mfcce212.dll",
+        "named_import_count": 0,
+        "ordinal_import_count": 9
+      },
+      {
+        "module": "ole32.dll",
+        "named_import_count": 2,
+        "ordinal_import_count": 0
+      },
+      {
+        "module": "memmgr.dll",
+        "named_import_count": 3,
+        "ordinal_import_count": 0
+      }
+    ]
+  },
+  "conclusion": "No node-record reader implementation located. Existing import census is OS/framework oriented with ordinal imports; NK.BIN scan has no valid embedded PE. No SH4 disassembler is installed, so code-level structure proof remains unavailable.",
+  "scope": "Only exact inventoried NAVIMAIN.EXE and NK.BIN; no whole-firmware recursive scan or source writes.",
+  "originals_written": false
+}

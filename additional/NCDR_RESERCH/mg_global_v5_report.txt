@@ -1,0 +1,789 @@
+NCDR MG GLOBAL MINER V5
+2026-09-24 14:22:53
+
+====================================================================================================
+S2 / S4 GRAPH SEMANTICS
+
+DATASET 7185_MG1
+
+ S2
+records 38157 
+valid 37982 
+bad_target 175 (0.4607% of valid)
+same_chain 37363 (98.3703% of valid)
+unique_directed 37982 (100.0000% of valid)
+unique_undirected 37875 (99.7183% of valid)
+reciprocal_pairs 107 (0.2817% of valid)
+vertices 65340 (172.0289% of valid)
+components 27465 (72.3106% of valid)
+chainlike_components 27413 (72.1737% of valid)
+cycle_or_complex_components 107 (0.2817% of valid)
+components_ge3 7604 (20.0200% of valid)
+components_ge10 30 (0.0790% of valid)
+is_s6_edge 7294 (19.2038% of valid)
+source_chain_start 719 (1.8930% of valid)
+source_chain_end 633 (1.6666% of valid)
+target_chain_start 632 (1.6639% of valid)
+target_chain_end 770 (2.0273% of valid)
+invalid_at_chain_start 27 (0.0711% of valid)
+invalid_at_chain_end 161 (0.4239% of valid)
+
+ S4
+records 5179 
+valid 5039 
+bad_target 140 (2.7783% of valid)
+same_chain 4806 (95.3761% of valid)
+unique_directed 5039 (100.0000% of valid)
+unique_undirected 5032 (99.8611% of valid)
+reciprocal_pairs 7 (0.1389% of valid)
+vertices 9330 (185.1558% of valid)
+components 4298 (85.2947% of valid)
+chainlike_components 4294 (85.2153% of valid)
+cycle_or_complex_components 7 (0.1389% of valid)
+components_ge3 569 (11.2919% of valid)
+components_ge10 3 (0.0595% of valid)
+source_chain_start 339 (6.7275% of valid)
+source_chain_end 237 (4.7033% of valid)
+target_chain_start 235 (4.6636% of valid)
+target_chain_end 282 (5.5963% of valid)
+invalid_at_chain_start 47 (0.9327% of valid)
+invalid_at_chain_end 125 (2.4807% of valid)
+
+DATASET 7185_MG2
+
+ S2
+records 33069 
+valid 32924 
+bad_target 145 (0.4404% of valid)
+same_chain 32294 (98.0865% of valid)
+unique_directed 32924 (100.0000% of valid)
+unique_undirected 32833 (99.7236% of valid)
+reciprocal_pairs 91 (0.2764% of valid)
+vertices 55269 (167.8684% of valid)
+components 22436 (68.1448% of valid)
+chainlike_components 22388 (67.9990% of valid)
+cycle_or_complex_components 91 (0.2764% of valid)
+components_ge3 7394 (22.4578% of valid)
+components_ge10 32 (0.0972% of valid)
+is_s6_edge 6558 (19.9186% of valid)
+source_chain_start 722 (2.1929% of valid)
+source_chain_end 639 (1.9408% of valid)
+target_chain_start 640 (1.9439% of valid)
+target_chain_end 751 (2.2810% of valid)
+invalid_at_chain_start 23 (0.0699% of valid)
+invalid_at_chain_end 135 (0.4100% of valid)
+
+ S4
+records 3721 
+valid 3609 
+bad_target 112 (3.1034% of valid)
+same_chain 3417 (94.6800% of valid)
+unique_directed 3609 (100.0000% of valid)
+unique_undirected 3603 (99.8337% of valid)
+reciprocal_pairs 6 (0.1663% of valid)
+vertices 6646 (184.1507% of valid)
+components 3043 (84.3170% of valid)
+chainlike_components 3041 (84.2616% of valid)
+cycle_or_complex_components 6 (0.1663% of valid)
+components_ge3 443 (12.2749% of valid)
+components_ge10 2 (0.0554% of valid)
+source_chain_start 269 (7.4536% of valid)
+source_chain_end 197 (5.4586% of valid)
+target_chain_start 193 (5.3477% of valid)
+target_chain_end 235 (6.5115% of valid)
+invalid_at_chain_start 38 (1.0529% of valid)
+invalid_at_chain_end 103 (2.8540% of valid)
+
+DATASET 7185_MG3
+
+ S2
+records 25020 
+valid 24938 
+bad_target 82 (0.3288% of valid)
+same_chain 24410 (97.8827% of valid)
+unique_directed 24938 (100.0000% of valid)
+unique_undirected 24872 (99.7353% of valid)
+reciprocal_pairs 66 (0.2647% of valid)
+vertices 40790 (163.5656% of valid)
+components 15918 (63.8303% of valid)
+chainlike_components 15878 (63.6699% of valid)
+cycle_or_complex_components 66 (0.2647% of valid)
+components_ge3 6341 (25.4271% of valid)
+components_ge10 24 (0.0962% of valid)
+is_s6_edge 5096 (20.4347% of valid)
+source_chain_start 604 (2.4220% of valid)
+source_chain_end 528 (2.1173% of valid)
+target_chain_start 536 (2.1493% of valid)
+target_chain_end 681 (2.7308% of valid)
+invalid_at_chain_start 8 (0.0321% of valid)
+invalid_at_chain_end 77 (0.3088% of valid)
+
+ S4
+records 2268 
+valid 2203 
+bad_target 65 (2.9505% of valid)
+same_chain 2050 (93.0549% of valid)
+unique_directed 2203 (100.0000% of valid)
+unique_undirected 2199 (99.8184% of valid)
+reciprocal_pairs 4 (0.1816% of valid)
+vertices 3998 (181.4798% of valid)
+components 1799 (81.6614% of valid)
+chainlike_components 1797 (81.5706% of valid)
+cycle_or_complex_components 4 (0.1816% of valid)
+components_ge3 321 (14.5710% of valid)
+components_ge10 1 (0.0454% of valid)
+source_chain_start 195 (8.8516% of valid)
+source_chain_end 164 (7.4444% of valid)
+target_chain_start 158 (7.1720% of valid)
+target_chain_end 178 (8.0799% of valid)
+invalid_at_chain_start 16 (0.7263% of valid)
+invalid_at_chain_end 64 (2.9051% of valid)
+
+DATASET 7186_MG1
+
+ S2
+records 34090 
+valid 33951 
+bad_target 139 (0.4094% of valid)
+same_chain 33407 (98.3977% of valid)
+unique_directed 33951 (100.0000% of valid)
+unique_undirected 33869 (99.7585% of valid)
+reciprocal_pairs 82 (0.2415% of valid)
+vertices 57200 (168.4781% of valid)
+components 23331 (68.7196% of valid)
+chainlike_components 23283 (68.5782% of valid)
+cycle_or_complex_components 82 (0.2415% of valid)
+components_ge3 7496 (22.0789% of valid)
+components_ge10 32 (0.0943% of valid)
+is_s6_edge 6809 (20.0554% of valid)
+source_chain_start 642 (1.8910% of valid)
+source_chain_end 548 (1.6141% of valid)
+target_chain_start 555 (1.6347% of valid)
+target_chain_end 718 (2.1148% of valid)
+invalid_at_chain_start 16 (0.0471% of valid)
+invalid_at_chain_end 130 (0.3829% of valid)
+
+ S4
+records 3943 
+valid 3816 
+bad_target 127 (3.3281% of valid)
+same_chain 3518 (92.1908% of valid)
+unique_directed 3816 (100.0000% of valid)
+unique_undirected 3810 (99.8428% of valid)
+reciprocal_pairs 6 (0.1572% of valid)
+vertices 6938 (181.8134% of valid)
+components 3128 (81.9706% of valid)
+chainlike_components 3125 (81.8920% of valid)
+cycle_or_complex_components 6 (0.1572% of valid)
+components_ge3 510 (13.3648% of valid)
+components_ge10 6 (0.1572% of valid)
+source_chain_start 374 (9.8008% of valid)
+source_chain_end 305 (7.9927% of valid)
+target_chain_start 303 (7.9403% of valid)
+target_chain_end 305 (7.9927% of valid)
+invalid_at_chain_start 38 (0.9958% of valid)
+invalid_at_chain_end 122 (3.1971% of valid)
+
+DATASET 7186_MG2
+
+ S2
+records 30713 
+valid 30573 
+bad_target 140 (0.4579% of valid)
+same_chain 29834 (97.5828% of valid)
+unique_directed 30573 (100.0000% of valid)
+unique_undirected 30490 (99.7285% of valid)
+reciprocal_pairs 83 (0.2715% of valid)
+vertices 50905 (166.5031% of valid)
+components 20415 (66.7746% of valid)
+chainlike_components 20368 (66.6209% of valid)
+cycle_or_complex_components 83 (0.2715% of valid)
+components_ge3 7138 (23.3474% of valid)
+components_ge10 35 (0.1145% of valid)
+is_s6_edge 6045 (19.7723% of valid)
+source_chain_start 815 (2.6658% of valid)
+source_chain_end 749 (2.4499% of valid)
+target_chain_start 750 (2.4531% of valid)
+target_chain_end 873 (2.8555% of valid)
+invalid_at_chain_start 27 (0.0883% of valid)
+invalid_at_chain_end 128 (0.4187% of valid)
+
+ S4
+records 3296 
+valid 3185 
+bad_target 111 (3.4851% of valid)
+same_chain 2927 (91.8995% of valid)
+unique_directed 3185 (100.0000% of valid)
+unique_undirected 3182 (99.9058% of valid)
+reciprocal_pairs 3 (0.0942% of valid)
+vertices 5779 (181.4443% of valid)
+components 2597 (81.5385% of valid)
+chainlike_components 2597 (81.5385% of valid)
+cycle_or_complex_components 3 (0.0942% of valid)
+components_ge3 430 (13.5008% of valid)
+components_ge10 4 (0.1256% of valid)
+source_chain_start 320 (10.0471% of valid)
+source_chain_end 262 (8.2261% of valid)
+target_chain_start 257 (8.0691% of valid)
+target_chain_end 285 (8.9482% of valid)
+invalid_at_chain_start 33 (1.0361% of valid)
+invalid_at_chain_end 105 (3.2967% of valid)
+
+DATASET 7186_MG3
+
+ S2
+records 25019 
+valid 24937 
+bad_target 82 (0.3288% of valid)
+same_chain 24408 (97.8787% of valid)
+unique_directed 24937 (100.0000% of valid)
+unique_undirected 24871 (99.7353% of valid)
+reciprocal_pairs 66 (0.2647% of valid)
+vertices 40788 (163.5642% of valid)
+components 15917 (63.8288% of valid)
+chainlike_components 15877 (63.6684% of valid)
+cycle_or_complex_components 66 (0.2647% of valid)
+components_ge3 6341 (25.4281% of valid)
+components_ge10 24 (0.0962% of valid)
+is_s6_edge 5093 (20.4235% of valid)
+source_chain_start 606 (2.4301% of valid)
+source_chain_end 529 (2.1213% of valid)
+target_chain_start 537 (2.1534% of valid)
+target_chain_end 682 (2.7349% of valid)
+invalid_at_chain_start 8 (0.0321% of valid)
+invalid_at_chain_end 77 (0.3088% of valid)
+
+ S4
+records 2265 
+valid 2200 
+bad_target 65 (2.9545% of valid)
+same_chain 2047 (93.0455% of valid)
+unique_directed 2200 (100.0000% of valid)
+unique_undirected 2196 (99.8182% of valid)
+reciprocal_pairs 4 (0.1818% of valid)
+vertices 3994 (181.5455% of valid)
+components 1798 (81.7273% of valid)
+chainlike_components 1796 (81.6364% of valid)
+cycle_or_complex_components 4 (0.1818% of valid)
+components_ge3 321 (14.5909% of valid)
+components_ge10 1 (0.0455% of valid)
+source_chain_start 196 (8.9091% of valid)
+source_chain_end 164 (7.4545% of valid)
+target_chain_start 158 (7.1818% of valid)
+target_chain_end 179 (8.1364% of valid)
+invalid_at_chain_start 16 (0.7273% of valid)
+invalid_at_chain_end 64 (2.9091% of valid)
+
+EXACT GEOMETRY INTERSECTIONS
+
+ S2
+7185_MG1 <-> 7185_MG2 common= 29460 A%= 77.784 B%= 89.730
+7185_MG1 <-> 7185_MG3 common= 19411 A%= 51.252 B%= 78.047
+7185_MG1 <-> 7186_MG1 common= 23100 A%= 60.992 B%= 68.206
+7185_MG1 <-> 7186_MG2 common= 25724 A%= 67.920 B%= 84.371
+7185_MG1 <-> 7186_MG3 common= 19409 A%= 51.246 B%= 78.042
+7185_MG2 <-> 7185_MG3 common= 20168 A%= 61.428 B%= 81.090
+7185_MG2 <-> 7186_MG1 common= 22691 A%= 69.112 B%= 66.998
+7185_MG2 <-> 7186_MG2 common= 27115 A%= 82.587 B%= 88.934
+7185_MG2 <-> 7186_MG3 common= 20166 A%= 61.422 B%= 81.086
+7185_MG3 <-> 7186_MG1 common= 19362 A%= 77.850 B%= 57.169
+7185_MG3 <-> 7186_MG2 common= 20658 A%= 83.061 B%= 67.756
+7185_MG3 <-> 7186_MG3 common= 24867 A%= 99.984 B%= 99.988
+7186_MG1 <-> 7186_MG2 common= 24630 A%= 72.724 B%= 80.783
+7186_MG1 <-> 7186_MG3 common= 19362 A%= 57.169 B%= 77.853
+7186_MG2 <-> 7186_MG3 common= 20658 A%= 67.756 B%= 83.064
+
+ S4
+7185_MG1 <-> 7185_MG2 common= 3000 A%= 59.809 B%= 83.542
+7185_MG1 <-> 7185_MG3 common= 1032 A%= 20.574 B%= 47.016
+7185_MG1 <-> 7186_MG1 common= 1436 A%= 28.628 B%= 37.819
+7185_MG1 <-> 7186_MG2 common= 2353 A%= 46.910 B%= 74.251
+7185_MG1 <-> 7186_MG3 common= 1027 A%= 20.474 B%= 46.852
+7185_MG2 <-> 7185_MG3 common= 1110 A%= 30.911 B%= 50.569
+7185_MG2 <-> 7186_MG1 common= 1248 A%= 34.754 B%= 32.868
+7185_MG2 <-> 7186_MG2 common= 2610 A%= 72.682 B%= 82.360
+7185_MG2 <-> 7186_MG3 common= 1105 A%= 30.771 B%= 50.411
+7185_MG3 <-> 7186_MG1 common= 902 A%= 41.093 B%= 23.756
+7185_MG3 <-> 7186_MG2 common= 1102 A%= 50.205 B%= 34.774
+7185_MG3 <-> 7186_MG3 common= 2189 A%= 99.727 B%= 99.863
+7186_MG1 <-> 7186_MG2 common= 1439 A%= 37.898 B%= 45.409
+7186_MG1 <-> 7186_MG3 common= 902 A%= 23.756 B%= 41.150
+7186_MG2 <-> 7186_MG3 common= 1104 A%= 34.837 B%= 50.365
+
+====================================================================================================
+S11 AS 2 x UINT32
+
+DATASET 7185_MG1 records 1165792
+q1_ge_q0 594756 / 1165792 (51.017334%)
+q_equal 28464 / 1165792 (2.441602%)
+q0.inside_mg_file 1165792 / 1165792 (100.000000%)
+q1.inside_mg_file 1165792 / 1165792 (100.000000%)
+q0.inside_packed_stream 0 / 1165792 (0.000000%)
+q1.inside_packed_stream 0 / 1165792 (0.000000%)
+q0.inside_own_packed_stream 0 / 1165792 (0.000000%)
+q1.inside_own_packed_stream 0 / 1165792 (0.000000%)
+q0.equals_stream_start 87 / 1165792 (0.007463%)
+q1.equals_stream_start 82 / 1165792 (0.007034%)
+orient01 vertices all-same: 7654 / 1084745 (0.705604%) dominant assigned: 1094413 / 2291325 (47.763325%)
+orient10 vertices all-same: 8141 / 1084745 (0.750499%) dominant assigned: 1094950 / 2291325 (47.786761%)
+unordered endpoint common q: 23877 / 1084745 (2.201162%)
+q1-q0 top: [[0, 28464], [-65537, 11098], [65537, 11041], [131074, 6284], [-131074, 6155], [196611, 4138], [-196611, 4081], [1, 3088], [-1, 3083], [262148, 2840], [-262148, 2757], [2, 2335], [327685, 2323], [-2, 2288], [-5897970, 2271], [-327685, 2198], [3, 2010], [-3, 1978], [5897970, 1969], [4, 1941], [-4, 1892], [-393222, 1820], [393222, 1815], [-5, 1729], [-5963507, 1696], [5, 1684], [-5832433, 1630], [-7, 1630], [6, 1609], [7, 1599]]
+
+DATASET 7185_MG2 records 728843
+q1_ge_q0 373482 / 728843 (51.243135%)
+q_equal 21426 / 728843 (2.939728%)
+q0.inside_mg_file 728116 / 728843 (99.900253%)
+q1.inside_mg_file 728128 / 728843 (99.901899%)
+q0.inside_packed_stream 6663 / 728843 (0.914189%)
+q1.inside_packed_stream 6581 / 728843 (0.902938%)
+q0.inside_own_packed_stream 1 / 728843 (0.000137%)
+q1.inside_own_packed_stream 2 / 728843 (0.000274%)
+q0.equals_stream_start 24 / 728843 (0.003293%)
+q1.equals_stream_start 22 / 728843 (0.003018%)
+orient01 vertices all-same: 5399 / 689800 (0.782691%) dominant assigned: 696212 / 1436095 (48.479523%)
+orient10 vertices all-same: 5842 / 689800 (0.846912%) dominant assigned: 696749 / 1436095 (48.516916%)
+unordered endpoint common q: 16057 / 689800 (2.327776%)
+q1-q0 top: [[0, 21426], [-65537, 7922], [65537, 7859], [-131074, 4090], [131074, 4088], [196611, 2502], [-196611, 2493], [1, 2453], [-1, 2386], [262148, 1672], [-262148, 1648], [2, 1629], [-2, 1610], [65536, 1541], [-65536, 1500], [3, 1370], [327685, 1368], [-3, 1356], [-327685, 1352], [-4, 1234], [4, 1170], [5, 1085], [393222, 1070], [-5, 1067], [-393222, 1055], [8, 999], [-7, 998], [-458759, 991], [6, 986], [7, 974]]
+
+DATASET 7185_MG3 records 485080
+q1_ge_q0 249334 / 485080 (51.400594%)
+q_equal 15451 / 485080 (3.185248%)
+q0.inside_mg_file 391570 / 485080 (80.722767%)
+q1.inside_mg_file 391684 / 485080 (80.746269%)
+q0.inside_packed_stream 0 / 485080 (0.000000%)
+q1.inside_packed_stream 0 / 485080 (0.000000%)
+q0.inside_own_packed_stream 0 / 485080 (0.000000%)
+q1.inside_own_packed_stream 0 / 485080 (0.000000%)
+q0.equals_stream_start 1 / 485080 (0.000206%)
+q1.equals_stream_start 0 / 485080 (0.000000%)
+orient01 vertices all-same: 3676 / 466477 (0.788035%) dominant assigned: 470575 / 958104 (49.115232%)
+orient10 vertices all-same: 3970 / 466477 (0.851060%) dominant assigned: 470909 / 958104 (49.150092%)
+unordered endpoint common q: 10552 / 466477 (2.262062%)
+q1-q0 top: [[0, 15451], [-65537, 5419], [65537, 5415], [131074, 2804], [-131074, 2747], [1, 1875], [-1, 1848], [196611, 1656], [-196611, 1638], [65536, 1350], [-65536, 1335], [2, 1220], [-2, 1184], [262148, 1135], [-262148, 1134], [3, 963], [-327685, 952], [327685, 874], [-3, 869], [-4, 824], [4, 780], [-393222, 722], [393222, 721], [458759, 681], [5, 679], [-5, 674], [131072, 665], [-458759, 648], [-65535, 646], [-131072, 645]]
+
+DATASET 7186_MG1 records 915579
+q1_ge_q0 468784 / 915579 (51.200825%)
+q_equal 23416 / 915579 (2.557507%)
+q0.inside_mg_file 915579 / 915579 (100.000000%)
+q1.inside_mg_file 915579 / 915579 (100.000000%)
+q0.inside_packed_stream 0 / 915579 (0.000000%)
+q1.inside_packed_stream 0 / 915579 (0.000000%)
+q0.inside_own_packed_stream 0 / 915579 (0.000000%)
+q1.inside_own_packed_stream 0 / 915579 (0.000000%)
+q0.equals_stream_start 17 / 915579 (0.001857%)
+q1.equals_stream_start 19 / 915579 (0.002075%)
+orient01 vertices all-same: 6153 / 861810 (0.713962%) dominant assigned: 869135 / 1801873 (48.235086%)
+orient10 vertices all-same: 6262 / 861810 (0.726610%) dominant assigned: 869338 / 1801873 (48.246353%)
+unordered endpoint common q: 17793 / 861810 (2.064608%)
+q1-q0 top: [[0, 23416], [65537, 8693], [-65537, 8587], [131074, 4622], [-131074, 4467], [196611, 2904], [-196611, 2890], [1, 2559], [-1, 2480], [262148, 2069], [-262148, 2056], [2, 1848], [-2, 1820], [327685, 1670], [-327685, 1592], [65536, 1486], [-3, 1479], [-65536, 1474], [3, 1462], [4, 1385], [-5897970, 1349], [-4, 1337], [-393222, 1329], [393222, 1304], [-458759, 1253], [-7, 1196], [458759, 1187], [5, 1183], [5897970, 1182], [-5, 1148]]
+
+DATASET 7186_MG2 records 686824
+q1_ge_q0 351948 / 686824 (51.242822%)
+q_equal 20133 / 686824 (2.931319%)
+q0.inside_mg_file 685567 / 686824 (99.816984%)
+q1.inside_mg_file 685554 / 686824 (99.815091%)
+q0.inside_packed_stream 12564 / 686824 (1.829290%)
+q1.inside_packed_stream 12524 / 686824 (1.823466%)
+q0.inside_own_packed_stream 3 / 686824 (0.000437%)
+q1.inside_own_packed_stream 9 / 686824 (0.001310%)
+q0.equals_stream_start 66 / 686824 (0.009609%)
+q1.equals_stream_start 64 / 686824 (0.009318%)
+orient01 vertices all-same: 5009 / 652378 (0.767806%) dominant assigned: 658247 / 1354094 (48.611618%)
+orient10 vertices all-same: 5412 / 652378 (0.829580%) dominant assigned: 658685 / 1354094 (48.643964%)
+unordered endpoint common q: 14634 / 652378 (2.243178%)
+q1-q0 top: [[0, 20133], [-65537, 7322], [65537, 7149], [-131074, 3703], [131074, 3676], [1, 2323], [196611, 2320], [-196611, 2312], [-1, 2225], [-262148, 1549], [262148, 1537], [2, 1514], [-2, 1492], [65536, 1491], [-65536, 1459], [-327685, 1268], [3, 1241], [-3, 1239], [327685, 1225], [-4, 1119], [4, 1092], [393222, 1011], [-393222, 979], [5, 951], [-5, 924], [-7, 908], [-458759, 885], [6, 877], [458759, 874], [7, 861]]
+
+DATASET 7186_MG3 records 485088
+q1_ge_q0 249362 / 485088 (51.405518%)
+q_equal 15454 / 485088 (3.185814%)
+q0.inside_mg_file 391559 / 485088 (80.719168%)
+q1.inside_mg_file 391658 / 485088 (80.739577%)
+q0.inside_packed_stream 0 / 485088 (0.000000%)
+q1.inside_packed_stream 0 / 485088 (0.000000%)
+q0.inside_own_packed_stream 0 / 485088 (0.000000%)
+q1.inside_own_packed_stream 0 / 485088 (0.000000%)
+q0.equals_stream_start 0 / 485088 (0.000000%)
+q1.equals_stream_start 2 / 485088 (0.000412%)
+orient01 vertices all-same: 3681 / 466488 (0.789088%) dominant assigned: 470590 / 958126 (49.115670%)
+orient10 vertices all-same: 3969 / 466488 (0.850826%) dominant assigned: 470919 / 958126 (49.150007%)
+unordered endpoint common q: 10554 / 466488 (2.262438%)
+q1-q0 top: [[0, 15454], [-65537, 5428], [65537, 5410], [131074, 2805], [-131074, 2749], [1, 1873], [-1, 1846], [196611, 1658], [-196611, 1636], [65536, 1353], [-65536, 1336], [2, 1223], [-2, 1181], [-262148, 1138], [262148, 1134], [3, 965], [-327685, 954], [327685, 871], [-3, 868], [-4, 824], [4, 778], [-393222, 723], [393222, 721], [458759, 681], [5, 678], [-5, 676], [131072, 667], [-458759, 648], [-7, 645], [-65535, 645]]
+
+====================================================================================================
+SAME-BBOX SECTION DIFFERENTIAL
+
+ 7185_MG2 <-> 7186_MG2 common pages 1741
+raw_exact 1387 / 1741 (79.6669%)
+header_exact 1543 / 1741 (88.6272%)
+S1.exact 1544 / 1741 (88.6847%)
+S2.exact 1567 / 1741 (90.0057%)
+S3.exact 1534 / 1741 (88.1103%)
+S4.exact 1644 / 1741 (94.4285%)
+S5.exact 1398 / 1741 (80.2987%)
+S6.exact 1436 / 1741 (82.4813%)
+S11.exact 1532 / 1741 (87.9954%)
+topology_exact 1387 / 1741 (79.6669%)
+topology_exact_s11_diff 0 / 1741 (0.0000%)
+page_q0_const_shift 0 / 1741 (0.0000%)
+page_q1_const_shift 0 / 1741 (0.0000%)
+q0 delta top: []
+q1 delta top: []
+
+ 7185_MG3 <-> 7186_MG3 common pages 1603
+raw_exact 1102 / 1603 (68.7461%)
+header_exact 1593 / 1603 (99.3762%)
+S1.exact 1601 / 1603 (99.8752%)
+S2.exact 1601 / 1603 (99.8752%)
+S3.exact 1595 / 1603 (99.5009%)
+S4.exact 1596 / 1603 (99.5633%)
+S5.exact 1363 / 1603 (85.0281%)
+S6.exact 1121 / 1603 (69.9314%)
+S11.exact 1593 / 1603 (99.3762%)
+topology_exact 1102 / 1603 (68.7461%)
+topology_exact_s11_diff 0 / 1603 (0.0000%)
+page_q0_const_shift 0 / 1603 (0.0000%)
+page_q1_const_shift 0 / 1603 (0.0000%)
+q0 delta top: []
+q1 delta top: []
+
+====================================================================================================
+LOD LOOKUP TABLES
+
+ 7185_MG1 -> 7185_MG2
+
+ low3
+[0] n= 10964 survival= 60.908428%
+[1] n= 656 survival= 22.103659%
+[2] n= 434576 survival= 0.042340%
+[3] n= 240125 survival= 99.946278%
+[4] n= 478648 survival= 99.984958%
+
+ low3_s61hi
+[0, 4] n= 1264 survival= 61.708861%
+[0, 5] n= 2373 survival= 86.978508%
+[0, 7] n= 105 survival= 90.476190%
+[0, 12] n= 2210 survival= 28.733032%
+[0, 13] n= 4205 survival= 61.212842%
+[0, 15] n= 698 survival= 67.048711%
+[1, 5] n= 252 survival= 13.492063%
+[1, 13] n= 221 survival= 35.294118%
+[2, 4] n= 194918 survival= 0.001539%
+[2, 5] n= 23877 survival= 0.242912%
+[2, 6] n= 6499 survival= 0.015387%
+[2, 7] n= 999 survival= 2.302302%
+[2, 12] n= 178403 survival= 0.005605%
+[2, 13] n= 13447 survival= 0.438760%
+[2, 14] n= 13996 survival= 0.000000%
+[2, 15] n= 1371 survival= 2.188184%
+[2, 20] n= 115 survival= 0.000000%
+[2, 28] n= 244 survival= 0.000000%
+[2, 36] n= 121 survival= 0.000000%
+[2, 44] n= 241 survival= 0.000000%
+[3, 0] n= 3744 survival= 100.000000%
+[3, 1] n= 536 survival= 100.000000%
+[3, 2] n= 379 survival= 100.000000%
+[3, 3] n= 563 survival= 100.000000%
+[3, 4] n= 86082 survival= 99.970958%
+[3, 5] n= 14237 survival= 99.943808%
+[3, 6] n= 26409 survival= 99.943201%
+[3, 7] n= 3945 survival= 99.974651%
+[3, 8] n= 2887 survival= 100.000000%
+[3, 10] n= 107 survival= 100.000000%
+[3, 12] n= 64699 survival= 99.919628%
+[3, 13] n= 6879 survival= 99.854630%
+[3, 14] n= 25111 survival= 99.948230%
+[3, 15] n= 2545 survival= 99.842829%
+[3, 20] n= 187 survival= 100.000000%
+[3, 21] n= 139 survival= 100.000000%
+[3, 22] n= 101 survival= 100.000000%
+[3, 28] n= 220 survival= 100.000000%
+[3, 30] n= 221 survival= 100.000000%
+[3, 36] n= 199 survival= 100.000000%
+[3, 37] n= 122 survival= 100.000000%
+[3, 44] n= 234 survival= 99.572650%
+[3, 46] n= 194 survival= 100.000000%
+[4, 0] n= 3249 survival= 100.000000%
+[4, 1] n= 600 survival= 100.000000%
+[4, 3] n= 3859 survival= 100.000000%
+[4, 4] n= 94429 survival= 99.993646%
+[4, 5] n= 14105 survival= 99.992910%
+[4, 6] n= 133714 survival= 99.989530%
+[4, 7] n= 126769 survival= 99.980279%
+[4, 8] n= 2901 survival= 100.000000%
+[4, 9] n= 156 survival= 100.000000%
+[4, 12] n= 38312 survival= 99.984339%
+[4, 13] n= 3334 survival= 100.000000%
+[4, 14] n= 40529 survival= 99.967924%
+[4, 15] n= 13861 survival= 99.949499%
+[4, 20] n= 182 survival= 100.000000%
+[4, 21] n= 132 survival= 100.000000%
+[4, 22] n= 377 survival= 100.000000%
+[4, 23] n= 181 survival= 100.000000%
+[4, 28] n= 110 survival= 100.000000%
+[4, 30] n= 263 survival= 100.000000%
+[4, 36] n= 195 survival= 100.000000%
+[4, 37] n= 130 survival= 100.000000%
+[4, 38] n= 375 survival= 100.000000%
+[4, 39] n= 166 survival= 100.000000%
+[4, 44] n= 131 survival= 100.000000%
+[4, 46] n= 274 survival= 100.000000%
+
+ 7185_MG2 -> 7185_MG3
+
+ low3
+[0] n= 6727 survival= 49.219563%
+[1] n= 152 survival= 2.631579%
+[2] n= 188 survival= 5.319149%
+[3] n= 241425 survival= 0.006213%
+[4] n= 479719 survival= 98.916449%
+
+ low3_s61hi
+[0, 4] n= 791 survival= 73.704172%
+[0, 5] n= 2069 survival= 81.101982%
+[0, 12] n= 654 survival= 17.889908%
+[0, 13] n= 2586 survival= 30.123743%
+[0, 15] n= 469 survival= 17.270789%
+[3, 0] n= 3745 survival= 0.000000%
+[3, 1] n= 537 survival= 0.000000%
+[3, 2] n= 379 survival= 0.000000%
+[3, 3] n= 563 survival= 0.000000%
+[3, 4] n= 86554 survival= 0.000000%
+[3, 5] n= 14292 survival= 0.027988%
+[3, 6] n= 26738 survival= 0.003740%
+[3, 7] n= 3973 survival= 0.000000%
+[3, 8] n= 2887 survival= 0.000000%
+[3, 10] n= 107 survival= 0.000000%
+[3, 12] n= 64926 survival= 0.000000%
+[3, 13] n= 6895 survival= 0.087020%
+[3, 14] n= 25274 survival= 0.000000%
+[3, 15] n= 2550 survival= 0.156863%
+[3, 20] n= 187 survival= 0.000000%
+[3, 21] n= 140 survival= 0.000000%
+[3, 22] n= 101 survival= 0.000000%
+[3, 28] n= 220 survival= 0.000000%
+[3, 30] n= 221 survival= 0.000000%
+[3, 36] n= 199 survival= 0.000000%
+[3, 37] n= 122 survival= 0.000000%
+[3, 44] n= 234 survival= 0.000000%
+[3, 46] n= 195 survival= 0.000000%
+[4, 0] n= 3249 survival= 99.384426%
+[4, 1] n= 600 survival= 99.666667%
+[4, 3] n= 3865 survival= 98.835705%
+[4, 4] n= 94458 survival= 99.198586%
+[4, 5] n= 14122 survival= 99.560969%
+[4, 6] n= 134049 survival= 98.696745%
+[4, 7] n= 127301 survival= 98.719570%
+[4, 8] n= 2901 survival= 99.758704%
+[4, 9] n= 156 survival= 100.000000%
+[4, 12] n= 38334 survival= 99.465227%
+[4, 13] n= 3337 survival= 99.490560%
+[4, 14] n= 40595 survival= 98.706737%
+[4, 15] n= 13917 survival= 98.807214%
+[4, 20] n= 182 survival= 97.802198%
+[4, 21] n= 132 survival= 99.242424%
+[4, 22] n= 377 survival= 99.469496%
+[4, 23] n= 182 survival= 100.000000%
+[4, 28] n= 110 survival= 98.181818%
+[4, 30] n= 263 survival= 98.859316%
+[4, 36] n= 195 survival= 99.487179%
+[4, 37] n= 130 survival= 100.000000%
+[4, 38] n= 377 survival= 100.000000%
+[4, 39] n= 166 survival= 99.397590%
+[4, 44] n= 132 survival= 100.000000%
+[4, 46] n= 274 survival= 99.635036%
+
+ 7186_MG1 -> 7186_MG2
+
+ low3
+[0] n= 10005 survival= 66.796602%
+[1] n= 650 survival= 47.384615%
+[2] n= 226643 survival= 0.076773%
+[3] n= 198467 survival= 98.893015%
+[4] n= 479147 survival= 98.598134%
+
+ low3_s61hi
+[0, 4] n= 1758 survival= 57.337884%
+[0, 5] n= 2144 survival= 94.263060%
+[0, 12] n= 1056 survival= 46.306818%
+[0, 13] n= 4178 survival= 62.063188%
+[0, 15] n= 665 survival= 62.706767%
+[1, 13] n= 462 survival= 49.350649%
+[1, 15] n= 122 survival= 31.967213%
+[2, 4] n= 120170 survival= 0.001664%
+[2, 5] n= 2737 survival= 0.694191%
+[2, 6] n= 2029 survival= 0.049285%
+[2, 7] n= 170 survival= 5.294118%
+[2, 12] n= 81390 survival= 0.006143%
+[2, 13] n= 4834 survival= 1.923873%
+[2, 14] n= 13400 survival= 0.007463%
+[2, 15] n= 1388 survival= 3.170029%
+[2, 28] n= 138 survival= 0.000000%
+[2, 44] n= 126 survival= 0.000000%
+[3, 0] n= 3743 survival= 99.278653%
+[3, 1] n= 531 survival= 98.870056%
+[3, 2] n= 379 survival= 98.944591%
+[3, 3] n= 569 survival= 98.594025%
+[3, 4] n= 79805 survival= 98.898565%
+[3, 5] n= 4972 survival= 98.753017%
+[3, 6] n= 16673 survival= 98.350627%
+[3, 7] n= 2776 survival= 98.414986%
+[3, 8] n= 2884 survival= 99.757282%
+[3, 10] n= 107 survival= 100.000000%
+[3, 12] n= 51571 survival= 99.226309%
+[3, 13] n= 4200 survival= 99.023810%
+[3, 14] n= 26400 survival= 98.473485%
+[3, 15] n= 2377 survival= 98.822045%
+[3, 28] n= 177 survival= 98.870056%
+[3, 30] n= 225 survival= 99.111111%
+[3, 36] n= 103 survival= 97.087379%
+[3, 44] n= 196 survival= 98.469388%
+[3, 46] n= 197 survival= 99.492386%
+[4, 0] n= 3256 survival= 98.925061%
+[4, 1] n= 603 survival= 98.673300%
+[4, 3] n= 3870 survival= 97.881137%
+[4, 4] n= 94091 survival= 99.070049%
+[4, 5] n= 14118 survival= 98.937527%
+[4, 6] n= 133796 survival= 98.284702%
+[4, 7] n= 127524 survival= 98.359524%
+[4, 8] n= 2898 survival= 99.723948%
+[4, 9] n= 156 survival= 100.000000%
+[4, 12] n= 38272 survival= 99.357232%
+[4, 13] n= 3331 survival= 99.339538%
+[4, 14] n= 40418 survival= 98.384383%
+[4, 15] n= 13979 survival= 98.419057%
+[4, 20] n= 186 survival= 97.311828%
+[4, 21] n= 133 survival= 99.248120%
+[4, 22] n= 379 survival= 99.208443%
+[4, 23] n= 176 survival= 99.431818%
+[4, 28] n= 110 survival= 100.000000%
+[4, 30] n= 265 survival= 99.245283%
+[4, 36] n= 196 survival= 98.979592%
+[4, 37] n= 130 survival= 98.461538%
+[4, 38] n= 379 survival= 98.944591%
+[4, 39] n= 162 survival= 100.000000%
+[4, 44] n= 131 survival= 98.473282%
+[4, 46] n= 278 survival= 97.482014%
+
+ 7186_MG2 -> 7186_MG3
+
+ low3
+[0] n= 6759 survival= 46.338216%
+[1] n= 309 survival= 34.304207%
+[2] n= 176 survival= 27.840909%
+[3] n= 198941 survival= 0.025636%
+[4] n= 480035 survival= 98.915912%
+
+ low3_s61hi
+[0, 4] n= 1023 survival= 56.891496%
+[0, 5] n= 2035 survival= 81.031941%
+[0, 12] n= 509 survival= 22.200393%
+[0, 13] n= 2616 survival= 26.032110%
+[0, 15] n= 420 survival= 10.238095%
+[1, 13] n= 229 survival= 30.567686%
+[3, 0] n= 3745 survival= 0.000000%
+[3, 1] n= 537 survival= 0.000000%
+[3, 2] n= 379 survival= 0.000000%
+[3, 3] n= 563 survival= 0.000000%
+[3, 4] n= 80034 survival= 0.000000%
+[3, 5] n= 4947 survival= 0.202143%
+[3, 6] n= 16695 survival= 0.005990%
+[3, 7] n= 2778 survival= 0.215983%
+[3, 8] n= 2887 survival= 0.000000%
+[3, 10] n= 107 survival= 0.000000%
+[3, 12] n= 51703 survival= 0.000000%
+[3, 13] n= 4185 survival= 0.430108%
+[3, 14] n= 26518 survival= 0.000000%
+[3, 15] n= 2379 survival= 0.672551%
+[3, 28] n= 178 survival= 0.000000%
+[3, 30] n= 226 survival= 0.000000%
+[3, 36] n= 100 survival= 0.000000%
+[3, 44] n= 194 survival= 0.000000%
+[3, 46] n= 201 survival= 0.000000%
+[4, 0] n= 3249 survival= 99.384426%
+[4, 1] n= 600 survival= 99.666667%
+[4, 3] n= 3865 survival= 98.835705%
+[4, 4] n= 94386 survival= 99.201153%
+[4, 5] n= 14138 survival= 99.561466%
+[4, 6] n= 134015 survival= 98.700146%
+[4, 7] n= 127741 survival= 98.712238%
+[4, 8] n= 2901 survival= 99.758704%
+[4, 9] n= 156 survival= 100.000000%
+[4, 12] n= 38321 survival= 99.467655%
+[4, 13] n= 3340 survival= 99.520958%
+[4, 14] n= 40551 survival= 98.702868%
+[4, 15] n= 13938 survival= 98.809011%
+[4, 20] n= 182 survival= 97.802198%
+[4, 21] n= 133 survival= 99.248120%
+[4, 22] n= 377 survival= 99.469496%
+[4, 23] n= 182 survival= 100.000000%
+[4, 28] n= 110 survival= 98.181818%
+[4, 30] n= 263 survival= 98.859316%
+[4, 36] n= 195 survival= 99.487179%
+[4, 37] n= 130 survival= 100.000000%
+[4, 38] n= 377 survival= 100.000000%
+[4, 39] n= 166 survival= 99.397590%
+[4, 44] n= 131 survival= 100.000000%
+[4, 46] n= 273 survival= 99.633700%
+
+====================================================================================================
+S6[5] CROSS-DISC PREDICTION
+
+TRAIN 7185_MG1 TEST 7186_MG1 classes 200 covered 720273 uncovered 195306
+MAE 205.63173579166096 mean relative error 0.2995865570609122
+within 1: 5749 / 720273 (0.798170%)
+within 2: 11606 / 720273 (1.611333%)
+within 5: 29309 / 720273 (4.069152%)
+within 10: 58247 / 720273 (8.086795%)
+within 20: 112747 / 720273 (15.653370%)
+within 50: 253771 / 720273 (35.232613%)
+within 100: 405236 / 720273 (56.261445%)
+
+TRAIN 7185_MG2 TEST 7186_MG2 classes 142 covered 544888 uncovered 141936
+MAE 170.48085668544581 mean relative error 0.25938987343875414
+within 1: 4269 / 544888 (0.783464%)
+within 2: 8617 / 544888 (1.581426%)
+within 5: 21760 / 544888 (3.993481%)
+within 10: 43536 / 544888 (7.989899%)
+within 20: 86202 / 544888 (15.820132%)
+within 50: 199010 / 544888 (36.523102%)
+within 100: 321008 / 544888 (58.912657%)
+
+TRAIN 7185_MG3 TEST 7186_MG3 classes 86 covered 412765 uncovered 72323
+MAE 161.08848482971467 mean relative error 0.2398561591237822
+within 1: 3054 / 412765 (0.739888%)
+within 2: 6126 / 412765 (1.484137%)
+within 5: 15491 / 412765 (3.752983%)
+within 10: 31377 / 412765 (7.601662%)
+within 20: 62731 / 412765 (15.197752%)
+within 50: 149220 / 412765 (36.151321%)
+within 100: 244493 / 412765 (59.232978%)
+
+TRAIN 7186_MG1 TEST 7185_MG1 classes 150 covered 841666 uncovered 324126
+MAE 136.58858709420753 mean relative error 0.2862583731903513
+within 1: 8518 / 841666 (1.012040%)
+within 2: 17406 / 841666 (2.068041%)
+within 5: 43411 / 841666 (5.157747%)
+within 10: 86858 / 841666 (10.319771%)
+within 20: 172805 / 841666 (20.531303%)
+within 50: 378537 / 841666 (44.974729%)
+within 100: 556091 / 841666 (66.070270%)
+
+TRAIN 7186_MG2 TEST 7185_MG2 classes 125 covered 548149 uncovered 180694
+MAE 143.16524724942704 mean relative error 0.24002322046202312
+within 1: 5009 / 548149 (0.913803%)
+within 2: 10086 / 548149 (1.840011%)
+within 5: 24835 / 548149 (4.530702%)
+within 10: 50225 / 548149 (9.162655%)
+within 20: 100380 / 548149 (18.312539%)
+within 50: 225704 / 548149 (41.175666%)
+within 100: 351051 / 548149 (64.042988%)
+
+TRAIN 7186_MG3 TEST 7185_MG3 classes 86 covered 412760 uncovered 72320
+MAE 161.10052965805346 mean relative error 0.2399549177277919
+within 1: 3058 / 412760 (0.740866%)
+within 2: 6108 / 412760 (1.479795%)
+within 5: 15487 / 412760 (3.752059%)
+within 10: 31365 / 412760 (7.598847%)
+within 20: 62711 / 412760 (15.193090%)
+within 50: 149143 / 412760 (36.133104%)
+within 100: 244471 / 412760 (59.228365%)

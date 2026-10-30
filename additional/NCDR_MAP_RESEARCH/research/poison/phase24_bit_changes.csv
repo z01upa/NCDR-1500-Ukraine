@@ -1,0 +1,7 @@
+control,raw6,xor_against_B,changed_bit_positions_lsb0,changed_bytes,interpretation
+L1,264B5A3D001C,000900000000,"32,35","0,1",longitude-only
+L2,26995A3D001C,00DB00000000,"32,33,35,36,38,39","0,1",longitude-only
+XCARRY,27475A3D001C,010500000000,"32,34,40","0,1,2",longitude-only
+T1,26425A46001C,0000007B0000,"16,17,19,20,21,22","3,4",latitude-only
+T2,26425A94001C,000000A90000,"16,19,21,23","3,4",latitude-only
+YCARRY,26425B42001C,0000017F0000,"16,17,18,19,20,21,22,24","3,4,5",latitude-only

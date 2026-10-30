@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_204dac66e426",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_a75c8fed",
+  "selected_goal_id": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_a75c8fed",
+  "selection_source": "Ollama",
+  "selection_reason": "PDX offers the largest data volume (23.5 MB) across 3 regions, providing the strongest signal for map storage and address/index data uncertainty reduction; CONTAINER_ROUNDTRIP is read-only and deterministic.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_a75c8fed",
+  "candidate_fingerprint": "0decc5e01a7777dcb6f5116587794844bd4a1bbd98f72a993dd91aa7a3fe653f",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_204dac66e426",
+  "remaining_unique_experiments": 2,
+  "created_utc": "2026-10-26T22:27:54.564148+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,68 @@
+{
+  "task_id": "AUTO_RESEARCH_FOLLOWUP_47fffc785fbd",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"hypothesis\": \"Файли з різних регіонів з розширенням PTI мають спільний префікс.\",\n  \"target_suffix\": \"PTI\",\n  \"expected_observation\": \"Всі три регіони мають спільний префікс довжиною 8 байтів.\",\n  \"falsifier\": \"Якщо хоча б один з регіонів має різний префікс, гіпотеза не підтверджується.\",\n  \"script\": \"common_prefix = 0\\nfor i in range(8):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nprint(common_prefix)\"\n}",
+  "parsed": {
+    "hypothesis": "Файли з різних регіонів з розширенням PTI мають спільний префікс.",
+    "target_suffix": "PTI",
+    "expected_observation": "Всі три регіони мають спільний префікс довжиною 8 байтів.",
+    "falsifier": "Якщо хоча б один з регіонів має різний префікс, гіпотеза не підтверджується.",
+    "script": "common_prefix = 0\nfor i in range(8):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nprint(common_prefix)"
+  },
+  "script_validation": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 7
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.036,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    },
+    {
+      "name": "sandbox_script_matches_independent_PTI_target",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 7
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.0271,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "preview_test_expected": 8,
+  "selected_target": "PTI",
+  "source_preview": [
+    {
+      "region": "SW",
+      "bytes": 1765,
+      "prefix_hex": "7a697001000c00001e1d0000ec020000200000000c03000099050000e506000078da9596df6ed33014c63d24d02e40da3d5cf80221864457aa0ab1cbb5ebda89"
+    },
+    {
+      "region": "Italy",
+      "bytes": 5649,
+      "prefix_hex": "7a697001000c0000fe6400000d0300003800000002030000c704000063070000b10900002d0c0000fa0e000074110000811400001116000078da9d56cd6adb40"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 5784,
+      "prefix_hex": "7a697001000c0000626a0000d702000038000000ff020000a40400005d0700007b0900000d0c0000a10e000008110000df1300009816000078da9d56c16a1b31"
+    }
+  ],
+  "script_path": "research/runs/coordinator/AUTO_RESEARCH_FOLLOWUP_47fffc785fbd/model_generated_script.py",
+  "script_sha256": "f99088452755190882eadec977760cc9302ef407ab6c09e02fb175b58517c3e1",
+  "warning": "Hypothesis is proposed, not a confirmed format fact."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_30EF479CFE143025_R03",
+  "request_id": "CAP_30EF479CFE143025",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_30EF479CFE143025",
+    "reason": "RuntimeError: verification command failed (1): F\n======================================================================\nFAIL: test_historical_errors_are_classified_and_blank_diagnostics_wait_for_evidence (tests.unit.test_mission_a05.MissionA05Tests.test_historical_errors_are_classified_and_blank_diagnostics_wait_for_evidence) (error='ScriptRejected: script field is missing or too large')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_30EF479CFE143025_ATTEMPT_3\\tests\\unit\\test_mission_a05.py\", line 29, in test_historical_errors_are_classified_and_blank_diagnostics_wait_for_evidence\n    self.assertEqual(classify_failure(error)[\"class\"], expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'TOOL_MISSING' != 'TEST_FAILURE'\n- TOOL_MISSING\n+ TEST_FAILURE\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.026s\n\nFAILED (failures=1)\n"
+  },
+  "created_utc": "2026-10-26T14:55:17.531132+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

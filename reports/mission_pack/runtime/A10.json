@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "canonical_id": "A10",
+  "objective": "Інтеграція Ollama з JSON schema, GPU mutex, модельними квотами, retry і fallback без зміни доказів.",
+  "acceptance": {
+    "task_id": "AUTO_RETRY_D04E97C8B972A22C",
+    "prompt": "Return exactly {\"decision\":\"continue\"}. This is a small local JSON routing check.",
+    "schema": {
+      "type": "object",
+      "required": [
+        "decision"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "type": "string",
+          "enum": [
+            "continue"
+          ]
+        }
+      }
+    },
+    "models": [
+      "qwen3.5:4b",
+      "qwen3.5:9b"
+    ],
+    "original_evidence": {
+      "canonical_id": "A10",
+      "runtime_task_id": "AUTO_RETRY_D04E97C8B972A22C",
+      "objective": "Інтеграція Ollama з JSON schema, GPU mutex, модельними квотами, retry і fallback без зміни доказів.",
+      "original_media_write_count": 0
+    },
+    "original_evidence_sha256": "9cd199a4121d799c2e9dd456dccd016a672daeed74aadfb675998e38f994560f",
+    "status": "PASS",
+    "schema_sha256": "180cae518649f92b182472df39ae3795320acdf5a8decbaa4a60652551106b3e",
+    "attempts": [
+      {
+        "model": "qwen3.5:4b",
+        "retry": 0,
+        "original_evidence_sha256": "9cd199a4121d799c2e9dd456dccd016a672daeed74aadfb675998e38f994560f",
+        "schema_sha256": "180cae518649f92b182472df39ae3795320acdf5a8decbaa4a60652551106b3e",
+        "started_utc": "2026-10-26T16:09:38.900741+00:00",
+        "resource": {
+          "day": "2026-10-26",
+          "reservation": 2,
+          "daily_limit": 100,
+          "mutex": "Local\\NCDR-Ollama-GPU",
+          "pid": 16928
+        },
+        "response_sha256": "bfa5704006fcaddc8fa04fbb99e77ee13a998be40cf7d043a23aea96d83ec124",
+        "status": "PASS",
+        "elapsed_seconds": 3.217318199996953,
+        "evidence_after_sha256": "9cd199a4121d799c2e9dd456dccd016a672daeed74aadfb675998e38f994560f"
+      }
+    ],
+    "resumable": false,
+    "value": {
+      "decision": "continue"
+    },
+    "model": "qwen3.5:4b",
+    "created_utc": "2026-10-26T16:09:42.136817+00:00",
+    "local_model_discovery_error": null,
+    "live_local_call": true
+  },
+  "created_utc": "2026-10-26T16:09:42.136836+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_e05284c99942",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9beb0dab",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9beb0dab",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains multiple candidate measurements with varying counts of region_candidate_pairs and adjacent_pairs_within_5km. The goal is to select one exact goal_id from eligible_next_experiments that reduces uncertainty about map storage, address/index data or route data. The selected executor is a fixed deterministic sampler; never return code, paths, shell commands or new acceptance criteria.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9beb0dab",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "16a01eac9cb83161e99087ce25e34e5e212b9daf54143bd556e0a1d56db28aa7",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_e05284c99942",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T18:12:27.517074+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

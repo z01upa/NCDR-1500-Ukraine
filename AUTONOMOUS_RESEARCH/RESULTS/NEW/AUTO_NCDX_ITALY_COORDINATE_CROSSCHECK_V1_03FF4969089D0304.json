@@ -1,0 +1,16 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.CNY",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.CTY",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.MG1",
+    "work/autonomous_manager/ncdx/city_coordinate_crosscheck/AUTO_NCDX_ITALY_COORDINATE_CROSSCHECK_V1_03FF4969089D0304.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "4990ff6a795eaf63d1347baf66859f990b99b328785f3b080e21cdb6925ee5c7",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_ITALY_COORDINATE_CROSSCHECK_V1_03FF4969089D0304",
+  "updated_utc": "2026-10-28T16:19:14.972398+00:00",
+  "verified_by_independent_reviewer": false
+}

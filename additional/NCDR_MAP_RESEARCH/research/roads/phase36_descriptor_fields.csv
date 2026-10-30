@@ -1,0 +1,6 @@
+field_or_test,coverage,result,status
+E&0x3FFF,10615/10615,in-bounds 4-byte-aligned local offsets,confirmed candidate
+first_4_bytes_at_ptr,10615,variable values; no universal descriptor signature,unresolved
+first_8_bytes_at_ptr,10615,variable values; no stable field map,unresolved
+aligned_local_subpointer_fields,not established,no additional statistically strong pointer,unresolved
+road_object_order,101 named sample,retained where existing object order is known,partial

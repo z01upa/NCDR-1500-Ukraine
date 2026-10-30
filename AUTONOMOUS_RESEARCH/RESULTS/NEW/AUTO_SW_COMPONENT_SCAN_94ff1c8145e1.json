@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/SW/LA2MATE.ABS",
+    "work/autonomous_manager/ncdx/component_surveys/AUTO_SW_COMPONENT_SCAN_94ff1c8145e1.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "595885cea5e937763dd54bbe1c605068ea91dfc563be37973dc9fd09ed5998c3",
+  "status": "DONE",
+  "task_id": "AUTO_SW_COMPONENT_SCAN_94ff1c8145e1",
+  "updated_utc": "2026-10-27T19:57:01.765808+00:00",
+  "verified_by_independent_reviewer": false
+}

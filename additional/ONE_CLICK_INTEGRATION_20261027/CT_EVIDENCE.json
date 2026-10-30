@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "format": "NCDR1500-EUZ-CT",
+  "scope": "CT tree structure and association with CL index positions ONLY; no navigation geometry or disc compatibility",
+  "ct_sha256": "552aaed46ec96cf5afc46af49d63d89bf989c675f6e4013514a269266dc9809e",
+  "ct_record_count": 47251,
+  "cl_record_count": 26949,
+  "root_interval": [
+    0,
+    26949
+  ],
+  "root_children": 45,
+  "all_child_count_words_divisible_by_256": true,
+  "all_children_match_nested_intervals": true,
+  "all_intervals_nested_without_crossing": true,
+  "leaf_records": 26949,
+  "leaf_positions_form_complete_cl_index": true,
+  "non_leaf_records": 20302,
+  "maximum_depth_observed": 34,
+  "uncertainty": [
+    "opaque key semantics unknown",
+    "whether index is used for search and its exact algorithm are not proven"
+  ]
+}

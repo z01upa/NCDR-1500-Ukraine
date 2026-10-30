@@ -1,0 +1,288 @@
+{
+  "contract": "NCDR-ASTRA-MAC-018/1",
+  "original": "NCDR_ASTRA_TRANSFER/originals/NCDR/SW/DB/EUZ.MP0",
+  "candidate": "NCDR_ASTRA_TRANSFER/project/research/geometry_breakthrough/writer_v1/EUZ_MP0_block886_edge1_geometry_experiment.MP0",
+  "scope": "Comparative offline insertion validation; NOT device compatibility",
+  "rules": {
+    "append_contract_blocks": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "global_header_preserved": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_index_preserved": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "node_lossless_reader": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "primary_incidence": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "no_endpoint_to_continuation": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "local_id_width": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "node_orientation": {
+      "status": "PASS",
+      "observations": 4302812,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "section_7_record_extent": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "section_8_record_extent": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "section_9_record_extent": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "shape_table": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "old_bbox_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "no_deleted_records": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "old_node_identity": {
+      "status": "PASS",
+      "observations": 954116,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "old_adjacency_members_retained": {
+      "status": "PASS",
+      "observations": 954116,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "old_node_opaque_bytes": {
+      "status": "PASS",
+      "observations": 3349666,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "low_degree_byte1_preserved": {
+      "status": "PASS",
+      "observations": 952161,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "old_edge_nonmask_fields": {
+      "status": "FAIL",
+      "observations": 1090323,
+      "failures": 1,
+      "unknowns": 0,
+      "examples": [
+        {
+          "block": 886,
+          "edge": 1
+        }
+      ]
+    },
+    "unaffected_transition_masks_preserved": {
+      "status": "PASS",
+      "observations": 1090323,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_section_1_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_section_3_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_section_6_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_section_7_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_section_8_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "opaque_section_9_preserved": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "existing_coordinate_identity": {
+      "status": "PASS",
+      "observations": 5912,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "old_edge_geometry": {
+      "status": "FAIL",
+      "observations": 2956,
+      "failures": 1,
+      "unknowns": 0,
+      "examples": [
+        {
+          "block": 886
+        }
+      ]
+    },
+    "block_structure": {
+      "status": "PASS",
+      "observations": 2956,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "high_degree_upper_nibble_preserved": {
+      "status": "PASS",
+      "observations": 1955,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "new_primary_coordinates_in_bbox": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "container_stream_extents": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "existing_border_copy_signatures": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "border_copy_multiplicity": {
+      "status": "PASS",
+      "observations": 14620,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    },
+    "inputs_unchanged": {
+      "status": "PASS",
+      "observations": 1,
+      "failures": 0,
+      "unknowns": 0,
+      "examples": []
+    }
+  },
+  "changed_blocks": [
+    886
+  ],
+  "added_edges": 0,
+  "limitations": [
+    "No complete Windows CE emulation or hardware test.",
+    "Latest Lenovo transition-mask proof and insertion artifact are not bundled."
+  ],
+  "dependencies": [
+    {
+      "file": "${NCDR_SOURCE_ROOT}/NCDR_ASTRA_TRANSFER/project/research/geometry_breakthrough/topology_v6/topology_decoder.py",
+      "sha256": "332e2e8c7dc3d5f6a78fd48a004d565145739d276e4d7965e642a3ef8477e188"
+    },
+    {
+      "file": "${NCDR_SOURCE_ROOT}/NCDR_ASTRA_TRANSFER/project/research/geometry_breakthrough/independent_verify.py",
+      "sha256": "5c058aa0565a9a9d52e2fc56c4385f1343b8179175a2a333d6ce6d8ff8f5bf50"
+    }
+  ],
+  "original_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "candidate_sha256": "f7def93e7a5233c556448aab56b3373b07a078ba6641a7d418de3b15b92be19b",
+  "verdict": "FAIL",
+  "hardware_compatibility": "UNKNOWN",
+  "rule_counts": {
+    "PASS": 33,
+    "FAIL": 2
+  }
+}

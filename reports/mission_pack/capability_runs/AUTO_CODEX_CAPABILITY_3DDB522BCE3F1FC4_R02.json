@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "task_id": "AUTO_CODEX_CAPABILITY_3DDB522BCE3F1FC4_R02",
+  "request_id": "CAP_3DDB522BCE3F1FC4",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "VERIFIED",
+    "request_id": "CAP_3DDB522BCE3F1FC4",
+    "changed_paths": [
+      "src/agent/model_router.py"
+    ],
+    "report_path": "work\\autonomous_manager\\capability_results\\CAP_3DDB522BCE3F1FC4_ATTEMPT_2.json",
+    "patch_path": "work\\autonomous_manager\\capability_patches\\CAP_3DDB522BCE3F1FC4_ATTEMPT_2.patch"
+  },
+  "created_utc": "2026-10-26T16:09:30.277978+00:00",
+  "source_write_count": 1,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "NCDR_SIG_01",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["(*$siemens&^)", "0x00"],
+    "prompt": "A verified EUZ.MP0 begins with hex bytes `28 2A 24 53 49 45 4D 45 4E 53 26 5E 29 00`. State the literal ASCII marker and its starting byte offset. Return JSON with one string field `answer`."
+  },
+  {
+    "id": "NCDR_HEADER_02",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["0x00", "0x10", "0x20", "0x30", "copyright 1998", "2.0.0", "eu44420940.82"],
+    "prompt": "For this original EUZ.MP0 header, verified values are marker `(*$SIEMENS&^)` at 0x00, `Copyright 1998` at 0x10, internal version `2.0.0` at 0x20, and raw dataset code `EU44420940.82` at 0x30. Describe these as literal observed fields only. Return JSON with field `answer`."
+  },
+  {
+    "id": "NCDR_ENDIAN_03",
+    "kind": "exact",
+    "field": "answer",
+    "expected": "2",
+    "prompt": "In the confirmed DB_0 layout only, bytes 0..2 are an unsigned 24-bit big-endian sector value. Decode hex `00 00 02`. Return JSON with string field `answer` containing only the decimal value."
+  },
+  {
+    "id": "NCDR_OFFSET_04",
+    "kind": "exact",
+    "field": "answer",
+    "expected": "36367360",
+    "prompt": "For the confirmed DB_0 layout only, a sector is 512 bytes. Compute byte offset for sector 0x11576. Return JSON with string field `answer` containing only the decimal number."
+  },
+  {
+    "id": "NCDR_COMPRESSION_05",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["0x02", "zlib", "db_0"],
+    "prompt": "In the existing DB_0 evidence, compression byte 0x02 was validated as zlib. State that bounded fact and its scope. Return JSON with field `answer`."
+  },
+  {
+    "id": "NCDR_HEADER_RULE_06",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["byte 7", "512", "- 8"],
+    "prompt": "In the confirmed DB_0 BL_HEAD rule, byte 7 gives logical uncompressed size in 512-byte units, including an 8-byte header. State the payload-length expression. Return JSON with field `answer`."
+  },
+  {
+    "id": "NCDR_UNKNOWN_07",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["0x01", "unknown", "logical buffer"],
+    "prompt": "Previous DB_0 analysis cannot decode compression 0x01 and reports a missing external logical buffer for sector 0x11576. State this as unresolved, not as a decoded format. Return JSON with field `answer`."
+  },
+  {
+    "id": "NCDR_TOC_ITALY_08",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["cd_7185", "italy", "i(2009q4)", "444.31.940.82"],
+    "prompt": "The original CDROM.TOC for the Italian tree states Volume CD_7185, Area Italy, db I(2009Q4), Version 444.31.940.82, date 9.8.2010. Return these exact values in JSON field `answer`."
+  },
+  {
+    "id": "NCDR_TOC_SCANDI_09",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["cd_7186", "sc", "sc(2009q4)", "444.42.940.82"],
+    "prompt": "The original CDROM.TOC for the Scandinavian tree states Volume CD_7186, Area SC, db SC(2009Q4), Version 444.42.940.82, date 9.8.2010. Return these exact values in JSON field `answer`."
+  },
+  {
+    "id": "NCDR_TOC_EU_10",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["cd_7190", "eu", "eu(2009q4)", "444.20.940.82"],
+    "prompt": "The original CDROM.TOC for the EU tree states Volume CD_7190, Area EU, db EU(2009Q4), Version 444.20.940.82, date 9.8.2010. Return these exact values in JSON field `answer`."
+  },
+  {
+    "id": "NCDR_FILESYSTEM_11",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["iso9660", "level 2", "30"],
+    "prompt": "The included VERSION.TXT says the filesystem on CD must be ISO9660 level 2, with long filenames up to 30 characters. State this documented requirement and clarify that it alone does not prove NCDR compatibility. Return JSON field `answer`."
+  },
+  {
+    "id": "NCDR_DIFF_12",
+    "kind": "fields",
+    "fields": {"matched": 113, "same_sha256": 78, "different_sha256": 35},
+    "prompt": "An independently hashed normalized Italy↔Scandinavia comparison matched 113 relative paths: 78 pairs had identical SHA-256 and 35 pairs differed. Return JSON fields `matched`, `same_sha256`, and `different_sha256` as integers. Do not infer file semantics."
+  },
+  {
+    "id": "NCDR_DATASET_CODE_13",
+    "kind": "exact",
+    "field": "answer",
+    "expected": "EU44420940.82",
+    "prompt": "The observed EUZ.MP0 raw header dataset code starts at byte offset 0x30 and is NUL-terminated. Return the literal code in JSON string field `answer` only."
+  },
+  {
+    "id": "NCDR_COMPAT_14",
+    "kind": "contains",
+    "field": "answer",
+    "must_contain": ["not proven", "hardware_unverified"],
+    "prompt": "Given only three CDROM.TOC files and static headers, is any of CD_7185/CD_7186/CD_7190 proven compatible with a specific NCDR 1100/1500 in a real car? The correct conclusion is not proven and hardware is unverified. Return JSON field `answer` with that conclusion."
+  },
+  {
+    "id": "NCDR_CODE_U24_15",
+    "kind": "code_u24",
+    "prompt": "Generate a small Python function named `read_u24_be(data)` that accepts exactly three bytes and returns the unsigned big-endian integer; raise ValueError for other lengths. Return JSON with string field `code` containing only the function body as valid Python source."
+  },
+  {
+    "id": "NCDR_CODE_MP0_16",
+    "kind": "code_mp0",
+    "prompt": "Repair this parser bug: it reads the MP0 dataset code from offset 0x31, but tested EUZ.MP0/IZ.MP0/SCZ.MP0 place the NUL-terminated ASCII code at byte 0x30 within 16 bytes. Produce a generic function `parse_mp0_dataset_code(data)` that rejects truncated data, reads from 0x30, and ASCII-decodes up to NUL. Return JSON with string field `code` containing only valid Python source."
+  },
+  {
+    "id": "NCDR_HYPOTHESIS_17",
+    "kind": "hypothesis",
+    "prompt": "Use only this evidence: three independent *Z.MP0 files have the same 13-byte marker at offset 0 and a NUL-terminated dataset code at offset 0x30. State a narrow, falsifiable hypothesis that the fixed header is shared, with an objective test and a falsifier. Return JSON fields `hypothesis`, `file_offset`, `test`, and `falsifier`; file_offset must be `0x00` or `0x30`. Do not infer record semantics."
+  },
+  {
+    "id": "NCDR_CORRUPTION_TEST_18",
+    "kind": "contains",
+    "field": "test",
+    "must_contain": ["sha-256", "mismatch", "read-only"],
+    "prompt": "Design one negative test for the read-only EUZ.MP0 header reader. It must prove that a wrong expected SHA-256 is rejected before any write can occur. Return JSON string field `test` containing the test description."
+  }
+]

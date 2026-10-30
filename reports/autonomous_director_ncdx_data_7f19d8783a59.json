@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_7f19d8783a59",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_a6fbfb9d",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_a6fbfb9d",
+  "selection_source": "Ollama",
+  "selection_reason": "Selecting the 32-byte context profile as it provides a balance between capturing sufficient local byte history for hash verification while maintaining lower computational overhead compared to larger contexts, suitable for initial uncertainty reduction in map storage data.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_a6fbfb9d",
+  "candidate_fingerprint": "e279bc13bcfa94539c0956fb01f780dbf74abe9f23d936e2dad542943c8d7669",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_7f19d8783a59",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-27T13:50:13.572657+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

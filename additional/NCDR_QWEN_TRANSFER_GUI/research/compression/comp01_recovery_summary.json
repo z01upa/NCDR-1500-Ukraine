@@ -1,0 +1,9 @@
+{
+  "comp01_samples": 100,
+  "comp02_controls": 100,
+  "global_comp01_blocks": 5240,
+  "global_comp02_blocks": 3036,
+  "known_control_11576_header": "0115760d00000117",
+  "known_control_11576_payload_prefix": "007400030094000500c80012017c0007019c00bc193c00991e0400051e54017f",
+  "standard_codec_successes": 0
+}

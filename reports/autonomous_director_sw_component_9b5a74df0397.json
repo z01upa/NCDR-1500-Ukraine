@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_9b5a74df0397",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_861d7731f6075856",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE01.DLL",
+  "selected_source_sha256": "7fe9dc178edade5eb6989e2815ede28ea05fa76d536823baf953bfbf8fc4726b",
+  "selected_size_bytes": 48203,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "AUDIOUPDATE01.DLL provides audio subsystem update evidence relevant to navigation-format validation.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_861d7731f6075856",
+  "candidate_fingerprint": "9b5a74df0397b279eec3d104beb64f3803246cefefa9386d94a61869ee0b9aae",
+  "remaining_unseen_candidates": 8,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:03:53.781759+00:00"
+}

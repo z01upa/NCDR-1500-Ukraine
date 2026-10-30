@@ -1,0 +1,1022 @@
+{
+  "MP0": {
+    "counts": {
+      "secondary_points": 29240,
+      "degree_2": 527686,
+      "degree_3": 281608,
+      "degree_1": 110359,
+      "edges": 1090323,
+      "reciprocal": 1048952,
+      "length_shorter_than_chord": 21393,
+      "degree_4": 33019,
+      "degree_5": 1823,
+      "degree_9": 91,
+      "nonreciprocal": 41371,
+      "degree_6": 345,
+      "degree_15": 127,
+      "degree_0": 119,
+      "degree_13": 136,
+      "degree_7": 142,
+      "degree_14": 127,
+      "degree_10": 103,
+      "degree_11": 122,
+      "degree_12": 120,
+      "degree_8": 144
+    },
+    "candidates_NOT_geographically_verified": [
+      {
+        "block": 0,
+        "edge": 33,
+        "source_offset": 20703022,
+        "record_offset": 2349,
+        "hex": "40820004010429002b0092000000",
+        "endpoints_integer": [
+          [
+            999796,
+            5645013
+          ],
+          [
+            999837,
+            5645045
+          ]
+        ],
+        "length_field": 146,
+        "chord_m": 43.599692533894846
+      },
+      {
+        "block": 0,
+        "edge": 126,
+        "source_offset": 20703022,
+        "record_offset": 3651,
+        "hex": "8803400502001c001f0030000000",
+        "endpoints_integer": [
+          [
+            998521,
+            5646764
+          ],
+          [
+            998544,
+            5646761
+          ]
+        ],
+        "length_field": 48,
+        "chord_m": 14.516243508020064
+      },
+      {
+        "block": 0,
+        "edge": 130,
+        "source_offset": 20703022,
+        "record_offset": 3707,
+        "hex": "4001000402062d002f0072000000",
+        "endpoints_integer": [
+          [
+            999940,
+            5644987
+          ],
+          [
+            999980,
+            5644965
+          ]
+        ],
+        "length_field": 114,
+        "chord_m": 34.67977593660569
+      },
+      {
+        "block": 0,
+        "edge": 131,
+        "source_offset": 20703022,
+        "record_offset": 3721,
+        "hex": "4001000404042a002b0075000000",
+        "endpoints_integer": [
+          [
+            999833,
+            5645077
+          ],
+          [
+            999837,
+            5645045
+          ]
+        ],
+        "length_field": 117,
+        "chord_m": 35.667204168985826
+      },
+      {
+        "block": 0,
+        "edge": 134,
+        "source_offset": 20703022,
+        "record_offset": 3763,
+        "hex": "400200040201360037004b000000",
+        "endpoints_integer": [
+          [
+            1000213,
+            5644858
+          ],
+          [
+            1000221,
+            5644838
+          ]
+        ],
+        "length_field": 75,
+        "chord_m": 22.7759716546724
+      },
+      {
+        "block": 0,
+        "edge": 135,
+        "source_offset": 20703022,
+        "record_offset": 3777,
+        "hex": "400200040102350036003f000000",
+        "endpoints_integer": [
+          [
+            1000206,
+            5644875
+          ],
+          [
+            1000213,
+            5644858
+          ]
+        ],
+        "length_field": 63,
+        "chord_m": 19.386474831331167
+      },
+      {
+        "block": 0,
+        "edge": 139,
+        "source_offset": 20703022,
+        "record_offset": 3833,
+        "hex": "0406000601015e0060008a000000",
+        "endpoints_integer": [
+          [
+            1005934,
+            5642271
+          ],
+          [
+            1005995,
+            5642254
+          ]
+        ],
+        "length_field": 138,
+        "chord_m": 42.00718310528673
+      },
+      {
+        "block": 0,
+        "edge": 142,
+        "source_offset": 20703022,
+        "record_offset": 3875,
+        "hex": "10034005010249004a002d000000",
+        "endpoints_integer": [
+          [
+            1003714,
+            5642958
+          ],
+          [
+            1003729,
+            5642949
+          ]
+        ],
+        "length_field": 45,
+        "chord_m": 13.609359451866283
+      },
+      {
+        "block": 1,
+        "edge": 12,
+        "source_offset": 11673569,
+        "record_offset": 8014,
+        "hex": "1482000c0101d100d4007e000000",
+        "endpoints_integer": [
+          [
+            218620,
+            4889278
+          ],
+          [
+            218668,
+            4889292
+          ]
+        ],
+        "length_field": 126,
+        "chord_m": 38.3895084922034
+      },
+      {
+        "block": 1,
+        "edge": 23,
+        "source_offset": 11673569,
+        "record_offset": 8168,
+        "hex": "28c2000c01017700790067000000",
+        "endpoints_integer": [
+          [
+            216815,
+            4888912
+          ],
+          [
+            216848,
+            4888929
+          ]
+        ],
+        "length_field": 103,
+        "chord_m": 30.650436420805526
+      },
+      {
+        "block": 1,
+        "edge": 33,
+        "source_offset": 11673569,
+        "record_offset": 8308,
+        "hex": "2881000c02067000720077000000",
+        "endpoints_integer": [
+          [
+            216755,
+            4888785
+          ],
+          [
+            216765,
+            4888817
+          ]
+        ],
+        "length_field": 119,
+        "chord_m": 36.3258077151305
+      },
+      {
+        "block": 1,
+        "edge": 35,
+        "source_offset": 11673569,
+        "record_offset": 8336,
+        "hex": "2882000c010176007c008f000000",
+        "endpoints_integer": [
+          [
+            216806,
+            4888752
+          ],
+          [
+            216862,
+            4888738
+          ]
+        ],
+        "length_field": 143,
+        "chord_m": 43.804035757857974
+      }
+    ]
+  },
+  "MG1": {
+    "counts": {
+      "secondary_points": 206199,
+      "degree_3": 188352,
+      "degree_2": 388768,
+      "degree_4": 23272,
+      "degree_5": 1258,
+      "edges": 824034,
+      "nonreciprocal": 28058,
+      "reciprocal": 795976,
+      "length_shorter_than_chord": 194395,
+      "degree_13": 83,
+      "degree_15": 78,
+      "degree_9": 61,
+      "degree_6": 251,
+      "degree_1": 130,
+      "degree_0": 91,
+      "degree_11": 92,
+      "degree_8": 94,
+      "degree_7": 96,
+      "degree_10": 82,
+      "degree_14": 95,
+      "degree_12": 77
+    },
+    "candidates_NOT_geographically_verified": [
+      {
+        "block": 0,
+        "edge": 179,
+        "source_offset": 9163663,
+        "record_offset": 7529,
+        "hex": "1382000e0301fa00fc0078000000",
+        "endpoints_integer": [
+          [
+            771555,
+            4943874
+          ],
+          [
+            771605,
+            4943869
+          ]
+        ],
+        "length_field": 120,
+        "chord_m": 36.577890679645904
+      },
+      {
+        "block": 0,
+        "edge": 214,
+        "source_offset": 9163663,
+        "record_offset": 8019,
+        "hex": "1881000c01063f0140015c000000",
+        "endpoints_integer": [
+          [
+            775335,
+            4944309
+          ],
+          [
+            775342,
+            4944287
+          ]
+        ],
+        "length_field": 92,
+        "chord_m": 24.980929395257352
+      },
+      {
+        "block": 0,
+        "edge": 223,
+        "source_offset": 9163663,
+        "record_offset": 8145,
+        "hex": "2bc100050202c700cb007a000000",
+        "endpoints_integer": [
+          [
+            770439,
+            4944636
+          ],
+          [
+            770461,
+            4944666
+          ]
+        ],
+        "length_field": 122,
+        "chord_m": 36.95605953742456
+      },
+      {
+        "block": 0,
+        "edge": 224,
+        "source_offset": 9163663,
+        "record_offset": 8159,
+        "hex": "1b8180040402d900dc005e000000",
+        "endpoints_integer": [
+          [
+            770556,
+            4944665
+          ],
+          [
+            770580,
+            4944682
+          ]
+        ],
+        "length_field": 94,
+        "chord_m": 25.65873324327545
+      },
+      {
+        "block": 0,
+        "edge": 226,
+        "source_offset": 9163663,
+        "record_offset": 8187,
+        "hex": "1b8180040504d500d90053000000",
+        "endpoints_integer": [
+          [
+            770534,
+            4944681
+          ],
+          [
+            770556,
+            4944665
+          ]
+        ],
+        "length_field": 83,
+        "chord_m": 23.86389200294461
+      },
+      {
+        "block": 0,
+        "edge": 227,
+        "source_offset": 9163663,
+        "record_offset": 8201,
+        "hex": "2b8100050205d100d50059000000",
+        "endpoints_integer": [
+          [
+            770497,
+            4944678
+          ],
+          [
+            770534,
+            4944681
+          ]
+        ],
+        "length_field": 89,
+        "chord_m": 26.95593396326669
+      },
+      {
+        "block": 0,
+        "edge": 228,
+        "source_offset": 9163663,
+        "record_offset": 8215,
+        "hex": "2b8100050202cb00d10061000000",
+        "endpoints_integer": [
+          [
+            770461,
+            4944666
+          ],
+          [
+            770497,
+            4944678
+          ]
+        ],
+        "length_field": 97,
+        "chord_m": 29.24705351679215
+      },
+      {
+        "block": 0,
+        "edge": 230,
+        "source_offset": 9163663,
+        "record_offset": 8243,
+        "hex": "1b8280040101d600d80039000000",
+        "endpoints_integer": [
+          [
+            770536,
+            4944687
+          ],
+          [
+            770555,
+            4944696
+          ]
+        ],
+        "length_field": 57,
+        "chord_m": 16.994800909329182
+      },
+      {
+        "block": 0,
+        "edge": 232,
+        "source_offset": 9163663,
+        "record_offset": 8271,
+        "hex": "1b8280040103d800db0045000000",
+        "endpoints_integer": [
+          [
+            770555,
+            4944696
+          ],
+          [
+            770579,
+            4944687
+          ]
+        ],
+        "length_field": 69,
+        "chord_m": 20.02973684883753
+      },
+      {
+        "block": 0,
+        "edge": 266,
+        "source_offset": 9163663,
+        "record_offset": 8747,
+        "hex": "048500070202160117016e000000",
+        "endpoints_integer": [
+          [
+            773978,
+            4945457
+          ],
+          [
+            774019,
+            4945471
+          ]
+        ],
+        "length_field": 110,
+        "chord_m": 33.47563155119785
+      },
+      {
+        "block": 0,
+        "edge": 283,
+        "source_offset": 9163663,
+        "record_offset": 8985,
+        "hex": "040600070101070009006e000000",
+        "endpoints_integer": [
+          [
+            745429,
+            4946156
+          ],
+          [
+            745461,
+            4946134
+          ]
+        ],
+        "length_field": 110,
+        "chord_m": 33.66447890845878
+      },
+      {
+        "block": 0,
+        "edge": 285,
+        "source_offset": 9163663,
+        "record_offset": 9013,
+        "hex": "0405000702020600080068000000",
+        "endpoints_integer": [
+          [
+            745420,
+            4946146
+          ],
+          [
+            745450,
+            4946125
+          ]
+        ],
+        "length_field": 104,
+        "chord_m": 31.86477217292384
+      }
+    ]
+  },
+  "MG2": {
+    "counts": {
+      "secondary_points": 187104,
+      "degree_2": 381086,
+      "degree_3": 173036,
+      "degree_4": 18660,
+      "degree_5": 781,
+      "degree_0": 67,
+      "degree_6": 164,
+      "degree_12": 46,
+      "edges": 773446,
+      "reciprocal": 751815,
+      "length_shorter_than_chord": 175300,
+      "nonreciprocal": 21631,
+      "degree_8": 49,
+      "degree_14": 59,
+      "degree_7": 59,
+      "degree_1": 101,
+      "degree_13": 38,
+      "degree_15": 53,
+      "degree_10": 56,
+      "degree_11": 54,
+      "degree_9": 42
+    },
+    "candidates_NOT_geographically_verified": [
+      {
+        "block": 0,
+        "edge": 5,
+        "source_offset": 7076584,
+        "record_offset": 6853,
+        "hex": "0485000702020b000e0090000000",
+        "endpoints_integer": [
+          [
+            721748,
+            4372121
+          ],
+          [
+            721790,
+            4372146
+          ]
+        ],
+        "length_field": 144,
+        "chord_m": 43.725996491255714
+      },
+      {
+        "block": 0,
+        "edge": 7,
+        "source_offset": 7076584,
+        "record_offset": 6881,
+        "hex": "1381000c04020a000c006a000000",
+        "endpoints_integer": [
+          [
+            721745,
+            4367078
+          ],
+          [
+            721774,
+            4367098
+          ]
+        ],
+        "length_field": 106,
+        "chord_m": 32.22741334289165
+      },
+      {
+        "block": 0,
+        "edge": 9,
+        "source_offset": 7076584,
+        "record_offset": 6909,
+        "hex": "1381000c020409000a003d000000",
+        "endpoints_integer": [
+          [
+            721739,
+            4367062
+          ],
+          [
+            721745,
+            4367078
+          ]
+        ],
+        "length_field": 61,
+        "chord_m": 18.434069422570996
+      },
+      {
+        "block": 0,
+        "edge": 13,
+        "source_offset": 7076584,
+        "record_offset": 6965,
+        "hex": "1381000c02020800090063000000",
+        "endpoints_integer": [
+          [
+            721735,
+            4367035
+          ],
+          [
+            721739,
+            4367062
+          ]
+        ],
+        "length_field": 99,
+        "chord_m": 30.194533642033917
+      },
+      {
+        "block": 0,
+        "edge": 18,
+        "source_offset": 7076584,
+        "record_offset": 7035,
+        "hex": "3b8e000c0304140015004c000000",
+        "endpoints_integer": [
+          [
+            721863,
+            4367194
+          ],
+          [
+            721871,
+            4367213
+          ]
+        ],
+        "length_field": 76,
+        "chord_m": 22.085096754053648
+      },
+      {
+        "block": 0,
+        "edge": 39,
+        "source_offset": 7076584,
+        "record_offset": 7329,
+        "hex": "0486000701012600280069000000",
+        "endpoints_integer": [
+          [
+            722227,
+            4372243
+          ],
+          [
+            722266,
+            4372247
+          ]
+        ],
+        "length_field": 105,
+        "chord_m": 31.65452707331383
+      },
+      {
+        "block": 0,
+        "edge": 48,
+        "source_offset": 7076584,
+        "record_offset": 7455,
+        "hex": "048500070202320034007a000000",
+        "endpoints_integer": [
+          [
+            722741,
+            4372295
+          ],
+          [
+            722781,
+            4372312
+          ]
+        ],
+        "length_field": 122,
+        "chord_m": 37.290098008981225
+      },
+      {
+        "block": 0,
+        "edge": 51,
+        "source_offset": 7076584,
+        "record_offset": 7497,
+        "hex": "1382000c01033600380045000000",
+        "endpoints_integer": [
+          [
+            722819,
+            4368069
+          ],
+          [
+            722838,
+            4368082
+          ]
+        ],
+        "length_field": 69,
+        "chord_m": 21.033472566319634
+      },
+      {
+        "block": 0,
+        "edge": 68,
+        "source_offset": 7076584,
+        "record_offset": 7735,
+        "hex": "13c2000c01014400460050000000",
+        "endpoints_integer": [
+          [
+            723147,
+            4368285
+          ],
+          [
+            723170,
+            4368299
+          ]
+        ],
+        "length_field": 80,
+        "chord_m": 24.174520358931193
+      },
+      {
+        "block": 0,
+        "edge": 77,
+        "source_offset": 7076584,
+        "record_offset": 7861,
+        "hex": "048600070101500051006c000000",
+        "endpoints_integer": [
+          [
+            723456,
+            4372893
+          ],
+          [
+            723480,
+            4372917
+          ]
+        ],
+        "length_field": 108,
+        "chord_m": 32.92522802487693
+      },
+      {
+        "block": 0,
+        "edge": 98,
+        "source_offset": 7076584,
+        "record_offset": 8155,
+        "hex": "0486000701017800790085000000",
+        "endpoints_integer": [
+          [
+            724215,
+            4373441
+          ],
+          [
+            724261,
+            4373456
+          ]
+        ],
+        "length_field": 133,
+        "chord_m": 40.54764587323635
+      },
+      {
+        "block": 0,
+        "edge": 112,
+        "source_offset": 7076584,
+        "record_offset": 8351,
+        "hex": "1382000c01019000920081000000",
+        "endpoints_integer": [
+          [
+            725001,
+            4369956
+          ],
+          [
+            725039,
+            4369978
+          ]
+        ],
+        "length_field": 129,
+        "chord_m": 39.13622331456536
+      }
+    ]
+  },
+  "MG3": {
+    "counts": {
+      "secondary_points": 148579,
+      "degree_3": 138714,
+      "degree_2": 328435,
+      "degree_4": 11531,
+      "edges": 634490,
+      "reciprocal": 622006,
+      "length_shorter_than_chord": 137848,
+      "nonreciprocal": 12484,
+      "degree_5": 265,
+      "degree_14": 22,
+      "degree_0": 24,
+      "degree_8": 17,
+      "degree_1": 67,
+      "degree_6": 35,
+      "degree_11": 13,
+      "degree_15": 24,
+      "degree_10": 11,
+      "degree_9": 13,
+      "degree_7": 18,
+      "degree_12": 16,
+      "degree_13": 12
+    },
+    "candidates_NOT_geographically_verified": [
+      {
+        "block": 0,
+        "edge": 69,
+        "source_offset": 8680794,
+        "record_offset": 3430,
+        "hex": "1483000400005200530090000000",
+        "endpoints_integer": [
+          [
+            1010182,
+            6035146
+          ],
+          [
+            1010222,
+            6035112
+          ]
+        ],
+        "length_field": 144,
+        "chord_m": 43.74268687563962
+      },
+      {
+        "block": 0,
+        "edge": 213,
+        "source_offset": 8680794,
+        "record_offset": 5446,
+        "hex": "1403000c0000730074005f000000",
+        "endpoints_integer": [
+          [
+            1018516,
+            6026717
+          ],
+          [
+            1018521,
+            6026691
+          ]
+        ],
+        "length_field": 95,
+        "chord_m": 29.041898206594972
+      },
+      {
+        "block": 0,
+        "edge": 214,
+        "source_offset": 8680794,
+        "record_offset": 5460,
+        "hex": "1403400d04047100720043000000",
+        "endpoints_integer": [
+          [
+            1018464,
+            6027140
+          ],
+          [
+            1018472,
+            6027158
+          ]
+        ],
+        "length_field": 67,
+        "chord_m": 20.495446411114195
+      },
+      {
+        "block": 0,
+        "edge": 215,
+        "source_offset": 8680794,
+        "record_offset": 5474,
+        "hex": "1403400d04007000710029000000",
+        "endpoints_integer": [
+          [
+            1018460,
+            6027129
+          ],
+          [
+            1018464,
+            6027140
+          ]
+        ],
+        "length_field": 41,
+        "chord_m": 12.42872423526777
+      },
+      {
+        "block": 0,
+        "edge": 218,
+        "source_offset": 8680794,
+        "record_offset": 5516,
+        "hex": "1403000c0000760077004c000000",
+        "endpoints_integer": [
+          [
+            1018620,
+            6027334
+          ],
+          [
+            1018638,
+            6027353
+          ]
+        ],
+        "length_field": 76,
+        "chord_m": 23.342069339540974
+      },
+      {
+        "block": 0,
+        "edge": 219,
+        "source_offset": 8680794,
+        "record_offset": 5530,
+        "hex": "1403000c00007b007c007a000000",
+        "endpoints_integer": [
+          [
+            1018885,
+            6027607
+          ],
+          [
+            1018915,
+            6027637
+          ]
+        ],
+        "length_field": 122,
+        "chord_m": 37.23377416915418
+      },
+      {
+        "block": 0,
+        "edge": 220,
+        "source_offset": 8680794,
+        "record_offset": 5544,
+        "hex": "140300040000840085002d000000",
+        "endpoints_integer": [
+          [
+            1019537,
+            6028340
+          ],
+          [
+            1019544,
+            6028328
+          ]
+        ],
+        "length_field": 45,
+        "chord_m": 13.890064910291274
+      },
+      {
+        "block": 0,
+        "edge": 229,
+        "source_offset": 8680794,
+        "record_offset": 5670,
+        "hex": "1403400d0100660067003c000000",
+        "endpoints_integer": [
+          [
+            1015445,
+            6031205
+          ],
+          [
+            1015465,
+            6031192
+          ]
+        ],
+        "length_field": 60,
+        "chord_m": 18.17348528388102
+      },
+      {
+        "block": 0,
+        "edge": 234,
+        "source_offset": 8680794,
+        "record_offset": 5740,
+        "hex": "140300040000540055004b000000",
+        "endpoints_integer": [
+          [
+            1010341,
+            6034921
+          ],
+          [
+            1010350,
+            6034901
+          ]
+        ],
+        "length_field": 75,
+        "chord_m": 22.783421181633717
+      },
+      {
+        "block": 0,
+        "edge": 238,
+        "source_offset": 8680794,
+        "record_offset": 5796,
+        "hex": "1403000400003f00410084000000",
+        "endpoints_integer": [
+          [
+            1008731,
+            6035942
+          ],
+          [
+            1008804,
+            6035943
+          ]
+        ],
+        "length_field": 132,
+        "chord_m": 40.15979058787718
+      },
+      {
+        "block": 0,
+        "edge": 245,
+        "source_offset": 8680794,
+        "record_offset": 5894,
+        "hex": "1403000400003800390030000000",
+        "endpoints_integer": [
+          [
+            1008429,
+            6041236
+          ],
+          [
+            1008440,
+            6041248
+          ]
+        ],
+        "length_field": 48,
+        "chord_m": 14.646491258094777
+      },
+      {
+        "block": 0,
+        "edge": 247,
+        "source_offset": 8680794,
+        "record_offset": 5922,
+        "hex": "1403000400004500460020000000",
+        "endpoints_integer": [
+          [
+            1009226,
+            6044067
+          ],
+          [
+            1009242,
+            6044063
+          ]
+        ],
+        "length_field": 32,
+        "chord_m": 9.839505372736776
+      }
+    ]
+  }
+}

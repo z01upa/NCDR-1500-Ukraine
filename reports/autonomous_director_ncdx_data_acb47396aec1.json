@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_acb47396aec1",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_69628cbf",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_69628cbf",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizing evidence that reduces uncertainty about map storage and address/index data by selecting a goal with a verified prior status of 'PASS' and parameters designed to census coordinate candidates across multiple scales, which directly informs the integrity and structure of stored geospatial metadata.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_69628cbf",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dbaad083",
+  "candidate_fingerprint": "a1a75ce57b78499b381a70955f698dcf640dfb3577c5fd77210ab64be689619c",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_acb47396aec1",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-27T14:46:52.733830+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

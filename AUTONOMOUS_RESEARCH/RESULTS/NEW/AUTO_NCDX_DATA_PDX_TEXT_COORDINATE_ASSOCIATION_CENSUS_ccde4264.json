@@ -1,0 +1,16 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.PDX",
+    "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.PDX",
+    "SW/DB/EUZ.PDX",
+    "work/autonomous_manager/ncdx/data_family_profiles/AUTO_NCDX_DATA_PDX_TEXT_COORDINATE_ASSOCIATION_CENSUS_ccde4264.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "47bd98dc21539dbf818d273edb4c1f876be5b8c0f18eea76998763de7196655b",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_DATA_PDX_TEXT_COORDINATE_ASSOCIATION_CENSUS_ccde4264",
+  "updated_utc": "2026-10-27T13:16:21.941965+00:00",
+  "verified_by_independent_reviewer": false
+}

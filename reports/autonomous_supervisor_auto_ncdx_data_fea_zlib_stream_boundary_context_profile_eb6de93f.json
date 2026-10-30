@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_eb6de93f",
+  "target_task": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_eb6de93f",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "NCDx binary semantic record structures",
+      "Physical compatibility with Opel NCDR hardware"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_eb6de93f",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_boundary_rescan": true,
+      "independent_region_count": 3,
+      "stream_count_by_region": {
+        "SW": 4068,
+        "Italy": 4068,
+        "Scandinavia": 4065
+      },
+      "prefix_context_trace_sha256_by_region": {
+        "SW": "f40722a2090ae01de0ea6db896f997d0a90a877280ee26a1e566a5d1a51002d6",
+        "Italy": "53343939de1009b98c03596f530b5ed97abe844a8cce3bfcb7d2b9dcbb2f0a08",
+        "Scandinavia": "afa8565b870d7a55be2c94d4a15371ded9b436214187514314676d3aecf86e2e"
+      },
+      "suffix_context_trace_sha256_by_region": {
+        "SW": "751ed35195852e08f4a31c484deb5106b048c1eeaee3b975d237bb82fc247415",
+        "Italy": "27e482053d9ccb77a36dec6e19a970f2ba9473cdd17f48b3ed47a8bdb0ab3446",
+        "Scandinavia": "c84a54fbade211d845359b1533952f6af2298ba8f26e2ba9d5dddd2da4adaec4"
+      },
+      "raw_context_bytes_retained": false,
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; hash-only zlib boundary contexts",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T13:46:18.810369+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "local Project Director is choosing the next verified-format round-trip over real regional map data",
+  "followup_task_id": "AUTO_DIRECTOR_NCDX_DATA_877531fdd187",
+  "followup_created": true,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "3162bfef1aee96c9a21012fcb11ba83a6f65d27184e27d1376cef3b93109bde1",
+      "size_bytes": 28796,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "3c22da7324a79c4318edd7848f79baa1293bc0ce8f4da01c0fe6ec4a6472700a",
+      "size_bytes": 4992,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "5238c31345470dbf4789d6aabe7f892876facbe1073b9cce92aa9d66d360ff6b",
+      "size_bytes": 28797,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "aced5c2fbac7f7d9669000ebfe53ea289eda55ee668c7c733734706c505f7bd3",
+      "size_bytes": 4991,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "3a9dfd6ff3c04912339366c3846173f69e47636bc78ebfc3f38999ec72e93b34",
+      "size_bytes": 28798,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "298ac56a43e0848464f9ce919be4ba5e2cf6554d63d4b6dd85962a7eed3275b9",
+      "size_bytes": 4991,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

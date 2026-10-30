@@ -1,0 +1,2 @@
+comparison,block_type,sector,physical_span,logical_size,changed_bytes,status
+A->E,0x06,0x76CE2,0x11,8696,0,"OUTPUT_E DB_0 is byte-identical to OUTPUT_A; no persisted latitude delta"

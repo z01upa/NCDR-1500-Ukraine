@@ -1,0 +1,84 @@
+{
+  "status": "PASS_WITH_ROUTING_OWNER_UNRESOLVED",
+  "checks_passed": 12,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "physical_inventory_counts",
+      "status": "PASS",
+      "detail": "5635 files, 11086850742 bytes"
+    },
+    {
+      "name": "prior_manifest_reconciliation",
+      "status": "PASS",
+      "detail": "5600 prior paths+sizes match; 35 added paths; no size changes or missing old paths"
+    },
+    {
+      "name": "installed_navigation_autostart_config",
+      "status": "PASS",
+      "detail": "MMIDISLOADER.CFG marks NaviMain.exe and mmidis.exe AutoStart=1"
+    },
+    {
+      "name": "inventory_complete_without_io_errors",
+      "status": "PASS",
+      "detail": "0 unreadable paths and 0 bounded candidate skips"
+    },
+    {
+      "name": "pe_candidate_count",
+      "status": "PASS",
+      "detail": "18 unique executable contents"
+    },
+    {
+      "name": "core_executable_hashes",
+      "status": "PASS",
+      "detail": "NAVIMAIN.EXE and MMIDIS.EXE hash before/after targeted scan match"
+    },
+    {
+      "name": "core_sh4_decode",
+      "status": "PASS",
+      "detail": "SH4 byte-order controls pass; 0 CFG decode failures in NAVIMAIN and MMIDIS"
+    },
+    {
+      "name": "navimain_call_signature_and_guids",
+      "status": "PASS",
+      "detail": "decorated signature and both 16-byte GUID arguments independently recovered"
+    },
+    {
+      "name": "mmidis_mtl_activation",
+      "status": "PASS",
+      "detail": "MMIDIS MTL call has two valid GUID-shaped arguments; service names unresolved"
+    },
+    {
+      "name": "NK_candidate_module_names_and_source_hash",
+      "status": "PASS",
+      "detail": "NK hash matches xref_v4; candidate module-looking names found at recorded offsets"
+    },
+    {
+      "name": "no_validated_NK_PE_or_map_reader",
+      "status": "PASS",
+      "detail": "no valid embedded PE or literal EUZ.MP0 string; XIP layout remains unparsed"
+    },
+    {
+      "name": "original_module_hashes_unchanged",
+      "status": "PASS",
+      "detail": "6 directly analyzed original PE modules still match inventory SHA-256"
+    }
+  ],
+  "routing_owner": "NOT_CONFIRMED",
+  "best_module_candidates": [
+    {
+      "name": "NavigationRem.dll",
+      "evidence": "NK filename-cluster candidate at file offset 0x009fa304; code not extracted or decoded"
+    },
+    {
+      "name": "nmicore_ce.dll",
+      "evidence": "NK filename-cluster candidate at file offset 0x009fb1c8; code not extracted or decoded"
+    },
+    {
+      "name": "MMIDIS.EXE",
+      "evidence": "SH4 auto-start app in MMIDISLOADER.CFG; activates an MTL object, but no MP0/Section5 read path found"
+    }
+  ],
+  "blocker": "The original NK.BIN wrapper/XIP module table and per-module address/compression records are not decoded; no executable code from NavigationRem.dll or nmicore_ce.dll is available for SH4 call/data-flow analysis.",
+  "read_only": true
+}

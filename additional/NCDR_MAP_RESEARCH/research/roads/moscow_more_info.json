@@ -1,0 +1,21 @@
+{
+  "logical_offset": 8688,
+  "raw_hex": "001b19244a10001e4b6c00280347011909e4000000000000",
+  "ch_roads": {
+    "raw_bl_addr": "001b1924",
+    "target_sector": 6937,
+    "target_physical_span": 36,
+    "target_header_bl_addr": "001b1924",
+    "target_block_type": "0x0f",
+    "list_ptr": 18960,
+    "list_count": 30
+  },
+  "poi_category_list": {
+    "ptr": 19308,
+    "count": 40
+  },
+  "block_type_00": "03470119",
+  "city_id_candidate": 2532,
+  "zero_u16": 0,
+  "zero_or_variant": "00000000"
+}

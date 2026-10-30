@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_5239e3ffbc15",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MP0_SIGNATURE_SWEEP_65e558d6",
+  "selected_goal_id": "AUTO_NCDX_DATA_MP0_SIGNATURE_SWEEP_65e558d6",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizing evidence that reduces uncertainty about map storage and address/index data by selecting the MP0 signature sweep, which directly probes core map structure integrity across regions without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MP0_SIGNATURE_SWEEP_65e558d6",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_5239e3ffbc15",
+  "remaining_unique_experiments": 76,
+  "created_utc": "2026-10-25T19:28:16.121411+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

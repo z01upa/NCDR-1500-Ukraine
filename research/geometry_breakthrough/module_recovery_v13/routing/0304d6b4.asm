@@ -1,0 +1,31 @@
+K:\siemens\src\db\db_upack.c
+0304d6b4  mov.l    r8,@-r15
+0304d6b6  mov.l    r9,@-r15
+0304d6b8  sts.l    PR,@-r15
+0304d6ba  mov      r4,r8
+0304d6bc  mov      r5,r9
+0304d6be  add      #-0x10,r15
+0304d6c0  tst      r8,r8
+0304d6c2  bf       0x304d6ce
+0304d6c4  mov.l    0x304d784,r0
+0304d6c6  mov      #0x6c,r5
+0304d6c8  mov.l    0x304d790,r4
+0304d6ca  jsr      @r0
+0304d6cc  shll     r5
+0304d6ce  tst      r9,r9
+0304d6d0  bf       0x304d6dc
+0304d6d2  mov      #0x7f,r5
+0304d6d4  mov.l    0x304d784,r0
+0304d6d6  mov.l    0x304d790,r4
+0304d6d8  jsr      @r0
+0304d6da  add      #0x5a,r5
+0304d6dc  mov.l    0x304d788,r0
+0304d6de  mov      r9,r5
+0304d6e0  mov      #0x2e,r6
+0304d6e2  jsr      @r0
+0304d6e4  mov      r8,r4
+0304d6e6  add      #0x10,r15
+0304d6e8  lds.l    @r15+,PR
+0304d6ea  mov.l    @r15+,r9
+0304d6ec  rts      
+0304d6ee  mov.l    @r15+,r8

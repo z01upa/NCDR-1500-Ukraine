@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_5aaf3c24255a",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PDX_BLOCK_BOUNDARY_PROFILE_ccde4264",
+  "selected_goal_id": "AUTO_NCDX_DATA_PDX_BLOCK_BOUNDARY_PROFILE_ccde4264",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PDX_BLOCK_BOUNDARY_PROFILE_ccde4264",
+  "candidate_fingerprint": "11a5b6a45164c07662a2394801c53645f37cd37d7bd472cd4c19302984dbee7b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_5aaf3c24255a",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-26T23:01:39.476847+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

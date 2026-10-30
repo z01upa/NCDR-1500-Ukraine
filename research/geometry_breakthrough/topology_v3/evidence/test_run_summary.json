@@ -1,0 +1,36 @@
+{
+  "status": "PASS_WITH_TOPOLOGY_MUTATION_BLOCKED",
+  "suites": [
+    {
+      "suite": "topology_v3",
+      "log": "topology_v3_tests.log",
+      "tests": 8,
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "suite": "writer_v1",
+      "log": "writer_v1_regression.log",
+      "tests": 16,
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "suite": "topology_v2",
+      "log": "topology_v2_regression.log",
+      "tests": 10,
+      "failures": 0,
+      "status": "PASS"
+    }
+  ],
+  "total_tests": 34,
+  "all_suites_pass": true,
+  "source_mp0_sha256_before": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "source_mp0_sha256_after": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "original_mp0_unchanged": true,
+  "navimain_sha256": "8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07",
+  "nk_bin_sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "original_media_written": false,
+  "topology_mutation_performed": false,
+  "new_edge_added": false
+}

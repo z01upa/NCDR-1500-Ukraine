@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE.DLL",
+    "reports/autonomous_director_sw_component_11073575fcfc.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_11073575fcfc",
+  "updated_utc": "2026-10-27T20:02:08.841801+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_94341567edbb",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_b109aee43bea1df2",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE01.DLL",
+  "selected_source_sha256": "e1c5724e0f88ed780af966e042b3f408405b8964fb29a5c596444324cd3165a5",
+  "selected_size_bytes": 45129,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "Selected for header probe analysis to gather evidence on NCDx firmware structures and software components without requiring hardware access or modifying original media.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_b109aee43bea1df2",
+  "candidate_fingerprint": "94341567edbb55392f98ba526d3f0fd8af1efe05df8fbd50276c42deab32440b",
+  "remaining_unseen_candidates": 1,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:07:21.438664+00:00"
+}

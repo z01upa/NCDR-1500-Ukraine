@@ -1,0 +1,133 @@
+{
+  "status": "DONE_ADJACENCY_ONLY",
+  "source": "${NCDR_SOURCE_ROOT}\\SW\\DB\\EUZ.MP0",
+  "source_sha256_before": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "source_sha256_after": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "counts": {
+    "blocks": 2956,
+    "physical_records": 956071,
+    "logical_nodes": 954116,
+    "continuations": 1955,
+    "high_degree_heads": 1955,
+    "edge_records": 1090323,
+    "noop_blocks": 2956,
+    "missing_primary_memberships": 0,
+    "extra_or_foreign_primary_memberships": 0,
+    "primary_endpoint_sides": 2151406,
+    "secondary_endpoint_sides": 29240,
+    "repeated_memberships_within_node": 0,
+    "edges_with_2_primary_sides": 1061083,
+    "edges_with_1_primary_sides": 29240,
+    "continuations_targeted_by_primary_edges": 0
+  },
+  "logical_degree_counts": {
+    "2": 527552,
+    "3": 281489,
+    "1": 110228,
+    "4": 32892,
+    "5": 1712,
+    "6": 222,
+    "7": 21
+  },
+  "legacy_cohorts": {
+    "1325_apparent_high": 1325,
+    "119_apparent_zero": 119,
+    "511_old_mismatches": 511
+  },
+  "old511_exact_identity_set_equal": true,
+  "border": {
+    "copy_group_size_2": 14620,
+    "resolved_secondary_sides": 29240
+  },
+  "unique_edges_under_verified_two_copy_rule": 1075703,
+  "adjacency_membership_sha256": "616e6af7818fcdd009cf3c181f60cfd0a3e5bf16e7550153d668ed82b84b88d9",
+  "section5_primary_membership_sha256": "616e6af7818fcdd009cf3c181f60cfd0a3e5bf16e7550153d668ed82b84b88d9",
+  "problems": [],
+  "examples": {
+    "2": {
+      "block": 0,
+      "physical_node": 0,
+      "degree": 2,
+      "edges": [
+        115,
+        116
+      ],
+      "record_hex": "2204730074002800b300"
+    },
+    "3": {
+      "block": 0,
+      "physical_node": 11,
+      "degree": 3,
+      "edges": [
+        6,
+        7,
+        124
+      ],
+      "record_hex": "4308060007007c000201"
+    },
+    "1": {
+      "block": 0,
+      "physical_node": 81,
+      "degree": 1,
+      "edges": [
+        74
+      ],
+      "record_hex": "11184a00390052008701"
+    },
+    "4": {
+      "block": 1,
+      "physical_node": 60,
+      "degree": 4,
+      "edges": [
+        547,
+        205,
+        216,
+        545
+      ],
+      "record_hex": "c4042302cd00d8002102"
+    },
+    "5": {
+      "block": 1,
+      "physical_node": 283,
+      "degree": 5,
+      "edges": [
+        477,
+        71,
+        72,
+        73,
+        478
+      ],
+      "record_hex": "251c04c2dd01470048004900de019e01d0003f00"
+    },
+    "6": {
+      "block": 3,
+      "physical_node": 31,
+      "degree": 6,
+      "edges": [
+        432,
+        69,
+        433,
+        70,
+        71,
+        434
+      ],
+      "record_hex": "26386232b0014500b10146004700b20121005d00"
+    },
+    "7": {
+      "block": 572,
+      "physical_node": 414,
+      "degree": 7,
+      "edges": [
+        500,
+        501,
+        502,
+        494,
+        252,
+        489,
+        503
+      ],
+      "record_hex": "4778fa55f401f501f601ee01fc00e901f7016f02"
+    }
+  },
+  "scope": "Full endpoint adjacency for exact EU MP0; no routing semantics, direction, costs or insertion safety claim"
+}

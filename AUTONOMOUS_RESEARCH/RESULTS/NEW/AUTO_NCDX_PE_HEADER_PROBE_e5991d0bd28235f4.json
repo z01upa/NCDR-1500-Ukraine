@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE.DLL",
+    "work/autonomous_manager/ncdx/pe_headers/AUTO_NCDX_PE_HEADER_PROBE_e5991d0bd28235f4.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "c2fadcb173cbe868b87520f01ede0bd6240a7283638dfd942839ccc9574cb4e0",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_PE_HEADER_PROBE_e5991d0bd28235f4",
+  "updated_utc": "2026-10-27T20:06:29.808639+00:00",
+  "verified_by_independent_reviewer": false
+}

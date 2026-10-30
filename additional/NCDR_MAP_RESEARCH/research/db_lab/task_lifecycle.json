@@ -1,0 +1,57 @@
+{
+  "auto_archive_mode": "after_success",
+  "tasks": {
+    "CUSTOM_RE_01": {
+      "state": "archived",
+      "archived_at": "2026-10-06T13:08:53.009572+00:00"
+    },
+    "NAVIMAIN_SH4_DEEP_TRACE": {
+      "state": "archived",
+      "archived_at": "2026-10-06T14:40:24.026814+00:00"
+    },
+    "FOUNDATION_AUDIT_DB_DIFF": {
+      "state": "archived",
+      "archived_at": "2026-10-06T13:15:27.805932+00:00"
+    },
+    "NAVIBASE_CREATEINSTANCE_TRACE": {
+      "state": "archived",
+      "archived_at": "2026-10-06T17:57:54.617800+00:00"
+    },
+    "NAVIBASE_CREATEINSTANCE_TRACE_2": {
+      "state": "archived",
+      "archived_at": "2026-10-06T18:25:25.679309+00:00"
+    },
+    "NAVIBASE_CREATEINSTANCE_TRACE_3": {
+      "state": "archived",
+      "archived_at": "2026-10-06T18:26:09.756224+00:00"
+    },
+    "NAVIBASE_GUID_CORPUS_TRACE": {
+      "state": "archived",
+      "archived_at": "2026-10-06T19:29:44.284497+00:00"
+    },
+    "STRICT_PLAN_V1_FIXTURE": {
+      "state": "active"
+    },
+    "4_GUID": {
+      "state": "active"
+    },
+    "NAVIBASE_GUID_SEARCH_V1": {
+      "state": "active"
+    },
+    "NAVIBASE_GUID_SEARCH_V1_2": {
+      "state": "active"
+    },
+    "NAVIBASE_GUID_RAW_SEARCH_CD7190": {
+      "state": "active"
+    },
+    "NK_BIN_GUID_C_CONTEXT_SEARCH": {
+      "state": "active"
+    },
+    "NK_BIN_MODULE_IDENTITY_SEARCH_V2": {
+      "state": "active"
+    },
+    "NK_BIN_GUID_C_EXACT_IDENTITY_SEARCH": {
+      "state": "active"
+    }
+  }
+}

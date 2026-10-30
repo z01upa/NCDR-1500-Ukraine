@@ -1,0 +1,2 @@
+readable_objects,unique_targets,targets_with_2plus_distinct_ptrs,ptr_alignment,duplicate_pointer_groups
+101,23,20,4-byte,4

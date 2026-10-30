@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_9b6075995447",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_29e3fafc",
+  "selected_goal_id": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_29e3fafc",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected to reduce uncertainty regarding map storage and boundary context profiles for the NCDx format, aligning with F4/F5 readiness criteria without requiring hardware.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_29e3fafc",
+  "candidate_fingerprint": "a9fc0e175cad2d92a1a4897e26b7ac6f5d974bec8825295bdef62c8c524563d3",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_9b6075995447",
+  "remaining_unique_experiments": 3,
+  "created_utc": "2026-10-27T13:41:24.123260+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

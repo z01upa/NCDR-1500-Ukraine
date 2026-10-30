@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_aab5dbdbf186",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_31e2abe2",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_31e2abe2",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for `alignment_*` with varying scales (`scale_1000000`, `scale_10000000`) and coordinate orders (`lat_lon`, `lon_lat`). The presence of high counts in `region_candidate_pairs` (e.g., 97, 95, 93) alongside specific decompressed SHA256 hashes indicates a dataset focused on geographic coordinate candidates. Selecting this goal directly addresses the requirement to reduce uncertainty about map storage and address/index data by focusin",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_31e2abe2",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "4ab0b8fac7bf325758dcb96469019e2bef8496626ed23b453a621a95f9964b02",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_aab5dbdbf186",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T16:28:41.223153+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

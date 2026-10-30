@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "status": "COMPLETE",
+  "created_utc": "2026-10-25T18:19:27.961042+00:00",
+  "candidate_models": [
+    "qwen3.5:9b",
+    "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M"
+  ],
+  "selected_model": "qwen3.5:9b",
+  "selection_reason": "highest validated planning score, then lower measured elapsed time, then configured preference",
+  "measurements": [
+    {
+      "model": "qwen3.5:9b",
+      "score": 12,
+      "maximum": 12,
+      "elapsed_ms": 20501,
+      "scenarios": [
+        {
+          "scenario": 1,
+          "goal_id": "OSM_REAL_CONVERSION",
+          "model": "qwen3.5:9b",
+          "passed": {
+            "allowlisted_goal": true,
+            "dependency_exact": true,
+            "fixed_acceptance_criteria": true,
+            "no_hardware_dependency": true,
+            "original_media_unchanged": true,
+            "reason_present": true
+          },
+          "score": 6,
+          "maximum": 6,
+          "response": {
+            "goal_id": "OSM_REAL_CONVERSION",
+            "depends_on": [],
+            "acceptance_criteria": [
+              "source_pbf_hash_unchanged",
+              "sqlite_integrity_ok",
+              "ukrainian_street_search",
+              "connected_city_route"
+            ],
+            "requires_hardware": false,
+            "writes_original_media": false,
+            "reason": "Convert the provided Ukraine OSM PBF into a localized SQLite graph for Kryvyi Rih using standard geospatial tools (e.g., osmium or custom Python scripts), ensuring data integrity via hash verification and SQL checks without modifying the original source file."
+          },
+          "elapsed_ms": 10069
+        },
+        {
+          "scenario": 2,
+          "goal_id": "NCDX_NK_SURVEY",
+          "model": "qwen3.5:9b",
+          "passed": {
+            "allowlisted_goal": true,
+            "dependency_exact": true,
+            "fixed_acceptance_criteria": true,
+            "no_hardware_dependency": true,
+            "original_media_unchanged": true,
+            "reason_present": true
+          },
+          "score": 6,
+          "maximum": 6,
+          "response": {
+            "goal_id": "NCDX_NK_SURVEY",
+            "depends_on": [
+              "AUTO_SUPERVISOR_OSM_READBACK_01"
+            ],
+            "acceptance_criteria": [
+              "ledger_hash_matches",
+              "source_hash_unchanged",
+              "bounded_byte_observations",
+              "semantic_format_unknown"
+            ],
+            "requires_hardware": false,
+            "writes_original_media": false,
+            "reason": "Execute read-only byte inspection of the inventoried NK.BIN file to document signatures and unknown semantics without modifying source data or requiring specific hardware; acceptance relies on hash verification against the ledger and confirming no writes occurred."
+          },
+          "elapsed_ms": 10432
+        }
+      ]
+    },
+    {
+      "model": "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+      "score": 12,
+      "maximum": 12,
+      "elapsed_ms": 23791,
+      "scenarios": [
+        {
+          "scenario": 1,
+          "goal_id": "OSM_REAL_CONVERSION",
+          "model": "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+          "passed": {
+            "allowlisted_goal": true,
+            "dependency_exact": true,
+            "fixed_acceptance_criteria": true,
+            "no_hardware_dependency": true,
+            "original_media_unchanged": true,
+            "reason_present": true
+          },
+          "score": 6,
+          "maximum": 6,
+          "response": {
+            "goal_id": "OSM_REAL_CONVERSION",
+            "depends_on": [],
+            "acceptance_criteria": [
+              "source_pbf_hash_unchanged",
+              "sqlite_integrity_ok",
+              "ukrainian_street_search",
+              "connected_city_route"
+            ],
+            "requires_hardware": false,
+            "writes_original_media": false,
+            "reason": "Convert the existing Ukraine PBF read-only into a derived Kryvyi Rih OSM extract and SQLite graph; verify by comparing the PBF hash before/after, running sqlite3 integrity_check, querying Ukrainian street names, and confirming a connected route through Kryvyi Rih."
+          },
+          "elapsed_ms": 10818
+        },
+        {
+          "scenario": 2,
+          "goal_id": "NCDX_NK_SURVEY",
+          "model": "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+          "passed": {
+            "allowlisted_goal": true,
+            "dependency_exact": true,
+            "fixed_acceptance_criteria": true,
+            "no_hardware_dependency": true,
+            "original_media_unchanged": true,
+            "reason_present": true
+          },
+          "score": 6,
+          "maximum": 6,
+          "response": {
+            "goal_id": "NCDX_NK_SURVEY",
+            "depends_on": [
+              "AUTO_SUPERVISOR_OSM_READBACK_01"
+            ],
+            "acceptance_criteria": [
+              "ledger_hash_matches",
+              "source_hash_unchanged",
+              "bounded_byte_observations",
+              "semantic_format_unknown"
+            ],
+            "requires_hardware": false,
+            "writes_original_media": false,
+            "reason": "The candidate goal is to inspect the inventoried NK.BIN file as bytes-read-only to document signatures and unknown semantics. This aligns with the global goal of building a modern Ukraine navigation dataset by processing available OSM data without altering the original media. The required acceptance criteria (ledger hash match, source hash unchanged, bounded byte observations, and acknowledging unknown semantics) are directly supported by a read-only inspection workflow. No hardware is needed for this step, and it does not write to the original media, satisfying all constraints."
+          },
+          "elapsed_ms": 12973
+        }
+      ]
+    }
+  ],
+  "execution_policy": "sequential Ollama calls with keep_alive=0; no generated code is executed"
+}

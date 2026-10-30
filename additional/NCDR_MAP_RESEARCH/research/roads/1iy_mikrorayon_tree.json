@@ -1,0 +1,45 @@
+{
+  "road": "1 iy mikrorayon",
+  "brif_offset": 3872,
+  "moreinfo_offset": 8094,
+  "field0": 21684,
+  "object_count": 1,
+  "flag": 1,
+  "reserved": 0,
+  "objects": [
+    {
+      "road_index": 0,
+      "road_name": "1 iy mikrorayon",
+      "field0": 21684,
+      "element_index": 0,
+      "target_offset": 21684,
+      "object_size": 24,
+      "raw_hex": "16411000128bd000006400a6006500a7035329214df8001f",
+      "longitude": 37.205291,
+      "latitude": 56.007481,
+      "moscow_coordinate": true,
+      "u16_08": 100,
+      "u16_0a": 166,
+      "u16_0c": 101,
+      "u16_0e": 167,
+      "bladdr_raw": "03532921",
+      "bladdr_valid": true,
+      "target_sector": 217897,
+      "target_type": "0x00",
+      "tail_u16_0": 19960,
+      "tail_u16_1": 31,
+      "tail_list_valid_in_target": false
+    }
+  ],
+  "confirmed_external_references": [
+    {
+      "depth": 3,
+      "source": "field0_object",
+      "source_offset": 21700,
+      "field": "BL_ADDR",
+      "target_type": "0x00",
+      "target_sector": 217897,
+      "validation": "raw address equals target BL_HEAD; span matches"
+    }
+  ]
+}

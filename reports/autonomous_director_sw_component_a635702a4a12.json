@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_a635702a4a12",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_8f3ac8e42ac5b463",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE01.DLL",
+  "selected_source_sha256": "86ea43f7a5154be4bf7cd121202f7dabb93b5c64122e6b569a2ba17518bbd66b",
+  "selected_size_bytes": 45644,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "KERNELUPDATE01.DLL is the most critical candidate for NCDx reverse engineering as it likely contains core firmware structures and boot logic required to define the disc image format and header reader capabilities.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_8f3ac8e42ac5b463",
+  "candidate_fingerprint": "a635702a4a120a3e41f06ecfc691f749f796a02aa0a5b098efeb974fb8dbc776",
+  "remaining_unseen_candidates": 4,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:06:02.284034+00:00"
+}

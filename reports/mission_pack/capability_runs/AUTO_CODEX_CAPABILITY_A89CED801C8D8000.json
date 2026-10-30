@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_A89CED801C8D8000",
+  "request_id": "CAP_A89CED801C8D8000",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_A89CED801C8D8000",
+    "reason": "RuntimeError: verification command failed (1): E\n======================================================================\nERROR: test_historical_errors_are_classified_and_blank_diagnostics_wait_for_evidence (tests.unit.test_mission_a05.MissionA05Tests.test_historical_errors_are_classified_and_blank_diagnostics_wait_for_evidence)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_A89CED801C8D8000_ATTEMPT_1\\tests\\unit\\test_mission_a05.py\", line 31, in test_historical_errors_are_classified_and_blank_diagnostics_wait_for_evidence\n    self.assertEqual(classify_failure(\"\")[\"status\"], \"WAITING_EXTERNAL\")\n                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\nKeyError: 'status'\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (errors=1)\n"
+  },
+  "created_utc": "2026-10-26T14:57:56.225621+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_174ae0e97dae",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_133326a6",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_133326a6",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (alignment streams) with varying scales and coordinate orders. The goal is to select a specific experiment ID that aligns with the analysis of these decoded coordinate candidates, prioritizing evidence that reduces uncertainty about map storage or route data structures represented by these alignment streams.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_133326a6",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "cdff05f7304a5bf864f1a0a5ec7c27eb57f575b7325456840d416cd5aaefd34a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_174ae0e97dae",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:40:05.152334+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

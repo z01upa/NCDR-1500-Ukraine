@@ -1,0 +1,2 @@
+distinct_pointer_deltas,minimum,max,median,all_divisible_by_4,common_deltas
+74,32,12608,1152,yes,"32:4;352:3;2528:2;1184:2;256:2;640:2;736:2;1760:2;160:2"

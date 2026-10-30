@@ -1,0 +1,743 @@
+{
+  "generated_utc": "2026-10-29T13:58:30.890033+00:00",
+  "input": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+  "size": 11021915,
+  "sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "manifest": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\research\\geometry_breakthrough\\routing_owner_v8\\evidence\\nk_targeted_inspection.json",
+  "manifest_count": 74,
+  "candidate_count": 48,
+  "secondary_reference_distribution": {
+    "1": 46,
+    "0": 2
+  },
+  "checks": {
+    "74_of_74_names_match": true,
+    "48_CE_record_candidates": true,
+    "all_48_plus4_aligned_kernel_VAs": true,
+    "plus4_values_unique": true,
+    "strictly_increasing_all_47_transitions": true,
+    "46_one_secondary_and_2_no_secondary": true,
+    "heldout_indexes_37_73_validate_26_of_26": true,
+    "both_target_names_present": true
+  },
+  "status": "PASS",
+  "failures": [],
+  "rows": [
+    {
+      "index": 0,
+      "name": "nnk.exe",
+      "name_offset": 10305266,
+      "marker_offset": 10305275,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 e2 02 c0 94 21 8c 3c 0b 00 00 7c 1a 04 00",
+      "u16_plus_2": 738,
+      "u32_plus_4": 2351011008,
+      "u32_plus_8": 2876,
+      "u32_plus_12": 268924,
+      "secondary_offsets": [
+        10409427
+      ]
+    },
+    {
+      "index": 1,
+      "name": "coredll.dll",
+      "name_offset": 10311263,
+      "marker_offset": 10311275,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 80 03 e0 98 28 8c 20 07 00 00 9f 8c 02 00",
+      "u16_plus_2": 896,
+      "u32_plus_4": 2351470816,
+      "u32_plus_8": 1824,
+      "u32_plus_12": 167071,
+      "secondary_offsets": [
+        10431982
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Bgwes.exe",
+      "name_offset": 10323798,
+      "marker_offset": 10323810,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 8a 03 58 e5 2f 8c a8 0a 00 00 0e cf 03 00",
+      "u16_plus_2": 906,
+      "u32_plus_4": 2351949144,
+      "u32_plus_8": 2728,
+      "u32_plus_12": 249614,
+      "secondary_offsets": [
+        10472367
+      ]
+    },
+    {
+      "index": 4,
+      "name": "fatfs.dll",
+      "name_offset": 10329642,
+      "marker_offset": 10329654,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 43 03 18 5e 30 8c e8 01 00 00 9d 8b 00 00",
+      "u16_plus_2": 835,
+      "u32_plus_4": 2351980056,
+      "u32_plus_8": 488,
+      "u32_plus_12": 35741,
+      "secondary_offsets": [
+        10480457
+      ]
+    },
+    {
+      "index": 6,
+      "name": "toolhelp.dll",
+      "name_offset": 10335266,
+      "marker_offset": 10335293,
+      "marker_distance_after_nul": 14,
+      "record_hex": "43 45 bb 02 00 0c 34 8c 00 04 00 00 ed fe 00 00",
+      "u16_plus_2": 699,
+      "u32_plus_4": 2352221184,
+      "u32_plus_8": 1024,
+      "u32_plus_12": 65261,
+      "secondary_offsets": []
+    },
+    {
+      "index": 7,
+      "name": "atadisk.dll",
+      "name_offset": 10335949,
+      "marker_offset": 10335970,
+      "marker_distance_after_nul": 9,
+      "record_hex": "43 45 21 02 8c 33 34 8c 70 0c 00 00 05 1d 04 00",
+      "u16_plus_2": 545,
+      "u32_plus_4": 2352231308,
+      "u32_plus_8": 3184,
+      "u32_plus_12": 269573,
+      "secondary_offsets": [
+        10489832
+      ]
+    },
+    {
+      "index": 12,
+      "name": "xircce2.dll",
+      "name_offset": 10348890,
+      "marker_offset": 10348916,
+      "marker_distance_after_nul": 14,
+      "record_hex": "43 45 c0 03 e8 64 3a 8c 18 0b 00 00 89 ff 03 00",
+      "u16_plus_2": 960,
+      "u32_plus_4": 2352637160,
+      "u32_plus_8": 2840,
+      "u32_plus_12": 262025,
+      "secondary_offsets": [
+        10520256
+      ]
+    },
+    {
+      "index": 16,
+      "name": "CF_L.dll",
+      "name_offset": 10361560,
+      "marker_offset": 10361570,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 f4 03 24 d3 3b 8c d8 0c 00 00 69 e5 04 00",
+      "u16_plus_2": 1012,
+      "u32_plus_4": 2352730916,
+      "u32_plus_8": 3288,
+      "u32_plus_12": 320873,
+      "secondary_offsets": [
+        10532739
+      ]
+    },
+    {
+      "index": 18,
+      "name": "AXHMIWidgetSet.dll",
+      "name_offset": 10367104,
+      "marker_offset": 10367124,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 f3 03 f4 b2 3d 8c 08 0d 00 00 ac bf 04 00",
+      "u16_plus_2": 1011,
+      "u32_plus_4": 2352853748,
+      "u32_plus_8": 3336,
+      "u32_plus_12": 311212,
+      "secondary_offsets": [
+        10557497
+      ]
+    },
+    {
+      "index": 19,
+      "name": "BRCore.dll",
+      "name_offset": 10370456,
+      "marker_offset": 10370468,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 5c 03 00 f6 3d 8c fc 09 00 00 08 8d 03 00",
+      "u16_plus_2": 860,
+      "u32_plus_4": 2352870912,
+      "u32_plus_8": 2556,
+      "u32_plus_12": 232712,
+      "secondary_offsets": [
+        10571961
+      ]
+    },
+    {
+      "index": 20,
+      "name": "BRH_Control_LK_841.dll",
+      "name_offset": 10377107,
+      "marker_offset": 10377138,
+      "marker_distance_after_nul": 8,
+      "record_hex": "43 45 0a 03 9c 06 3f 8c 64 09 00 00 e9 44 03 00",
+      "u16_plus_2": 778,
+      "u32_plus_4": 2352940700,
+      "u32_plus_8": 2404,
+      "u32_plus_12": 214249,
+      "secondary_offsets": [
+        10575106
+      ]
+    },
+    {
+      "index": 21,
+      "name": "Buffer2Debug.exe",
+      "name_offset": 10381841,
+      "marker_offset": 10381861,
+      "marker_distance_after_nul": 3,
+      "record_hex": "43 45 38 04 dc f0 3f 8c 24 0f 00 00 a8 c1 05 00",
+      "u16_plus_2": 1080,
+      "u32_plus_4": 2353000668,
+      "u32_plus_8": 3876,
+      "u32_plus_12": 377256,
+      "secondary_offsets": [
+        10560410
+      ]
+    },
+    {
+      "index": 23,
+      "name": "CCH_Control.dll",
+      "name_offset": 10385713,
+      "marker_offset": 10385735,
+      "marker_distance_after_nul": 6,
+      "record_hex": "43 45 7d 03 14 0b 40 8c ec 04 00 00 f1 b0 01 00",
+      "u16_plus_2": 893,
+      "u32_plus_4": 2353007380,
+      "u32_plus_8": 1260,
+      "u32_plus_12": 110833,
+      "secondary_offsets": [
+        10577168
+      ]
+    },
+    {
+      "index": 25,
+      "name": "CDCH_Control.dll",
+      "name_offset": 10392286,
+      "marker_offset": 10392304,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 a5 02 7c 95 40 8c 84 0a 00 00 32 04 04 00",
+      "u16_plus_2": 677,
+      "u32_plus_4": 2353042812,
+      "u32_plus_8": 2692,
+      "u32_plus_12": 263218,
+      "secondary_offsets": [
+        10586432
+      ]
+    },
+    {
+      "index": 28,
+      "name": "CF_CVoice.dll",
+      "name_offset": 10398599,
+      "marker_offset": 10398615,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 af 03 04 18 44 8c f8 07 00 00 fb c7 02 00",
+      "u16_plus_2": 943,
+      "u32_plus_4": 2353272836,
+      "u32_plus_8": 2040,
+      "u32_plus_12": 182267,
+      "secondary_offsets": [
+        10591329
+      ]
+    },
+    {
+      "index": 30,
+      "name": "CommonData.dll",
+      "name_offset": 10402088,
+      "marker_offset": 10402110,
+      "marker_distance_after_nul": 7,
+      "record_hex": "43 45 2d 03 00 92 44 8c 00 0e 00 00 d9 df 05 00",
+      "u16_plus_2": 813,
+      "u32_plus_4": 2353304064,
+      "u32_plus_8": 3584,
+      "u32_plus_12": 384985,
+      "secondary_offsets": [
+        10583904
+      ]
+    },
+    {
+      "index": 31,
+      "name": "CSMain.dll",
+      "name_offset": 10405724,
+      "marker_offset": 10405736,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 36 03 b0 45 45 8c 50 0a 00 00 2c e7 03 00",
+      "u16_plus_2": 822,
+      "u32_plus_4": 2353350064,
+      "u32_plus_8": 2640,
+      "u32_plus_12": 255788,
+      "secondary_offsets": [
+        10591130
+      ]
+    },
+    {
+      "index": 32,
+      "name": "MTL.dll",
+      "name_offset": 10408347,
+      "marker_offset": 10408355,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 bb 02 48 2b 48 8c b8 04 00 00 42 75 01 00",
+      "u16_plus_2": 699,
+      "u32_plus_4": 2353539912,
+      "u32_plus_8": 1208,
+      "u32_plus_12": 95554,
+      "secondary_offsets": [
+        10595050
+      ]
+    },
+    {
+      "index": 33,
+      "name": "dsa_car.dll",
+      "name_offset": 10409521,
+      "marker_offset": 10409533,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 24 04 64 53 48 8c 9c 0c 00 00 f5 f8 04 00",
+      "u16_plus_2": 1060,
+      "u32_plus_4": 2353550180,
+      "u32_plus_8": 3228,
+      "u32_plus_12": 325877,
+      "secondary_offsets": [
+        10586639
+      ]
+    },
+    {
+      "index": 34,
+      "name": "DarLk841Hmi.dll",
+      "name_offset": 10416571,
+      "marker_offset": 10416591,
+      "marker_distance_after_nul": 4,
+      "record_hex": "43 45 e9 03 80 95 4c 8c 80 0a 00 00 a5 ca 03 00",
+      "u16_plus_2": 1001,
+      "u32_plus_4": 2353829248,
+      "u32_plus_8": 2688,
+      "u32_plus_12": 248485,
+      "secondary_offsets": [
+        10593171
+      ]
+    },
+    {
+      "index": 35,
+      "name": "DiagnosisLD.dll",
+      "name_offset": 10419293,
+      "marker_offset": 10419310,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 c1 03 c0 fe 4c 8c 3c 01 00 00 8f 5f 00 00",
+      "u16_plus_2": 961,
+      "u32_plus_4": 2353856192,
+      "u32_plus_8": 316,
+      "u32_plus_12": 24463,
+      "secondary_offsets": []
+    },
+    {
+      "index": 36,
+      "name": "COMPMonitorConnector.dll",
+      "name_offset": 10419617,
+      "marker_offset": 10419645,
+      "marker_distance_after_nul": 3,
+      "record_hex": "43 45 54 03 bc 14 4d 8c 40 0b 00 00 cb 91 04 00",
+      "u16_plus_2": 852,
+      "u32_plus_4": 2353861820,
+      "u32_plus_8": 2880,
+      "u32_plus_12": 299467,
+      "secondary_offsets": [
+        10593326
+      ]
+    },
+    {
+      "index": 37,
+      "name": "DiagnosisCore.dll",
+      "name_offset": 10422465,
+      "marker_offset": 10422484,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 2f 03 04 73 52 8c fc 0c 00 00 72 5b 05 00",
+      "u16_plus_2": 815,
+      "u32_plus_4": 2354213636,
+      "u32_plus_8": 3324,
+      "u32_plus_12": 351090,
+      "secondary_offsets": [
+        10590958
+      ]
+    },
+    {
+      "index": 38,
+      "name": "DisLogDev.dll",
+      "name_offset": 10425821,
+      "marker_offset": 10425847,
+      "marker_distance_after_nul": 12,
+      "record_hex": "43 45 50 03 40 23 53 8c bc 0c 00 00 cb 78 03 00",
+      "u16_plus_2": 848,
+      "u32_plus_4": 2354258752,
+      "u32_plus_8": 3260,
+      "u32_plus_12": 227531,
+      "secondary_offsets": [
+        10593481
+      ]
+    },
+    {
+      "index": 39,
+      "name": "dsr_car.dll",
+      "name_offset": 10428156,
+      "marker_offset": 10428182,
+      "marker_distance_after_nul": 14,
+      "record_hex": "43 45 81 03 34 91 53 8c cc 0e 00 00 bd 40 06 00",
+      "u16_plus_2": 897,
+      "u32_plus_4": 2354286900,
+      "u32_plus_8": 3788,
+      "u32_plus_12": 409789,
+      "secondary_offsets": [
+        10572136
+      ]
+    },
+    {
+      "index": 40,
+      "name": "ErrorManagerHMI.dll",
+      "name_offset": 10431993,
+      "marker_offset": 10432013,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 c5 02 8c 0e 54 8c 70 01 00 00 ab 2f 00 00",
+      "u16_plus_2": 709,
+      "u32_plus_4": 2354318988,
+      "u32_plus_8": 368,
+      "u32_plus_12": 12203,
+      "secondary_offsets": [
+        10284063
+      ]
+    },
+    {
+      "index": 41,
+      "name": "ErrorManagerCore.dll",
+      "name_offset": 10434639,
+      "marker_offset": 10434663,
+      "marker_distance_after_nul": 3,
+      "record_hex": "43 45 ae 03 10 40 54 8c f0 0f 00 00 e3 96 06 00",
+      "u16_plus_2": 942,
+      "u32_plus_4": 2354331664,
+      "u32_plus_8": 4080,
+      "u32_plus_12": 431843,
+      "secondary_offsets": [
+        10574957
+      ]
+    },
+    {
+      "index": 42,
+      "name": "ddi.dll",
+      "name_offset": 10438695,
+      "marker_offset": 10438703,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 19 03 cc 7e 54 8c 34 01 00 00 9a 20 00 00",
+      "u16_plus_2": 793,
+      "u32_plus_4": 2354347724,
+      "u32_plus_8": 308,
+      "u32_plus_12": 8346,
+      "secondary_offsets": [
+        10284172
+      ]
+    },
+    {
+      "index": 43,
+      "name": "FrLib.dll",
+      "name_offset": 10438930,
+      "marker_offset": 10438942,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 39 03 74 ab 54 8c 88 04 00 00 3f 6e 01 00",
+      "u16_plus_2": 825,
+      "u32_plus_4": 2354359156,
+      "u32_plus_8": 1160,
+      "u32_plus_12": 93759,
+      "secondary_offsets": [
+        10595900
+      ]
+    },
+    {
+      "index": 44,
+      "name": "HardwareAPI.dll",
+      "name_offset": 10440109,
+      "marker_offset": 10440125,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 5c 04 40 b4 54 8c c0 0b 00 00 ca ef 04 00",
+      "u16_plus_2": 1116,
+      "u32_plus_4": 2354361408,
+      "u32_plus_8": 3008,
+      "u32_plus_12": 323530,
+      "secondary_offsets": [
+        10593632
+      ]
+    },
+    {
+      "index": 45,
+      "name": "HMIServicesMain.dll",
+      "name_offset": 10443063,
+      "marker_offset": 10443083,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 5d 03 18 43 55 8c e8 0c 00 00 65 c4 04 00",
+      "u16_plus_2": 861,
+      "u32_plus_4": 2354397976,
+      "u32_plus_8": 3304,
+      "u32_plus_12": 312421,
+      "secondary_offsets": [
+        10593925
+      ]
+    },
+    {
+      "index": 48,
+      "name": "mmidis.exe",
+      "name_offset": 10452879,
+      "marker_offset": 10452892,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 e6 02 b0 83 57 8c 4c 0c 00 00 0d 67 04 00",
+      "u16_plus_2": 742,
+      "u32_plus_4": 2354545584,
+      "u32_plus_8": 3148,
+      "u32_plus_12": 288525,
+      "secondary_offsets": [
+        10594902
+      ]
+    },
+    {
+      "index": 50,
+      "name": "Main.exe",
+      "name_offset": 10457153,
+      "marker_offset": 10457163,
+      "marker_distance_after_nul": 1,
+      "record_hex": "43 45 a3 03 64 c9 57 8c 9c 06 00 00 b9 36 02 00",
+      "u16_plus_2": 931,
+      "u32_plus_4": 2354563428,
+      "u32_plus_8": 1692,
+      "u32_plus_12": 145081,
+      "secondary_offsets": [
+        10596813
+      ]
+    },
+    {
+      "index": 51,
+      "name": "NavigationRem.dll",
+      "name_offset": 10461956,
+      "marker_offset": 10461976,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 27 03 64 51 59 8c 94 0e 00 00 3b ab 05 00",
+      "u16_plus_2": 807,
+      "u32_plus_4": 2354663780,
+      "u32_plus_8": 3732,
+      "u32_plus_12": 371515,
+      "secondary_offsets": [
+        10595359
+      ]
+    },
+    {
+      "index": 52,
+      "name": "nmicore_ce.dll",
+      "name_offset": 10465736,
+      "marker_offset": 10465751,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 10 04 44 c5 59 8c bc 0a 00 00 8a cf 03 00",
+      "u16_plus_2": 1040,
+      "u32_plus_4": 2354693444,
+      "u32_plus_8": 2748,
+      "u32_plus_12": 249738,
+      "secondary_offsets": [
+        10596684
+      ]
+    },
+    {
+      "index": 53,
+      "name": "PM_Main.dll",
+      "name_offset": 10468484,
+      "marker_offset": 10468496,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 84 03 f8 d7 59 8c 08 08 00 00 5f 5f 02 00",
+      "u16_plus_2": 900,
+      "u32_plus_4": 2354698232,
+      "u32_plus_8": 2056,
+      "u32_plus_12": 155487,
+      "secondary_offsets": [
+        10597117
+      ]
+    },
+    {
+      "index": 54,
+      "name": "nmihmi_ce.dll",
+      "name_offset": 10470456,
+      "marker_offset": 10470472,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 89 03 38 ab 5a 8c c4 04 00 00 83 74 01 00",
+      "u16_plus_2": 905,
+      "u32_plus_4": 2354752312,
+      "u32_plus_8": 1220,
+      "u32_plus_12": 95363,
+      "secondary_offsets": [
+        10597813
+      ]
+    },
+    {
+      "index": 55,
+      "name": "Onmihelper_ce.dll",
+      "name_offset": 10471579,
+      "marker_offset": 10471597,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 41 02 ec 3b 5b 8c 14 04 00 00 16 04 01 00",
+      "u16_plus_2": 577,
+      "u32_plus_4": 2354789356,
+      "u32_plus_8": 1044,
+      "u32_plus_12": 66582,
+      "secondary_offsets": [
+        10599129
+      ]
+    },
+    {
+      "index": 56,
+      "name": "PchServices.dll",
+      "name_offset": 10472587,
+      "marker_offset": 10472603,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 ce 03 38 44 5b 8c c4 0b 00 00 ea ae 04 00",
+      "u16_plus_2": 974,
+      "u32_plus_4": 2354791480,
+      "u32_plus_8": 3012,
+      "u32_plus_12": 306922,
+      "secondary_offsets": [
+        10596510
+      ]
+    },
+    {
+      "index": 58,
+      "name": "RM_HandlerProxyStub.dll",
+      "name_offset": 10481802,
+      "marker_offset": 10481835,
+      "marker_distance_after_nul": 9,
+      "record_hex": "43 45 f7 02 94 52 69 8c 6c 0d 00 00 97 07 05 00",
+      "u16_plus_2": 759,
+      "u32_plus_4": 2355712660,
+      "u32_plus_8": 3436,
+      "u32_plus_12": 329623,
+      "secondary_offsets": [
+        10597278
+      ]
+    },
+    {
+      "index": 60,
+      "name": "TelematicCore.dll",
+      "name_offset": 10488163,
+      "marker_offset": 10488193,
+      "marker_distance_after_nul": 12,
+      "record_hex": "43 45 d6 03 38 d9 6a 8c c8 06 00 00 a7 58 02 00",
+      "u16_plus_2": 982,
+      "u32_plus_4": 2355812664,
+      "u32_plus_8": 1736,
+      "u32_plus_12": 153767,
+      "secondary_offsets": [
+        10598119
+      ]
+    },
+    {
+      "index": 62,
+      "name": "TmcMachineText.dll",
+      "name_offset": 10493552,
+      "marker_offset": 10493571,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 5f 03 8c 48 6c 8c 74 07 00 00 fa 1c 02 00",
+      "u16_plus_2": 863,
+      "u32_plus_4": 2355906700,
+      "u32_plus_8": 1908,
+      "u32_plus_12": 138490,
+      "secondary_offsets": [
+        10600641
+      ]
+    },
+    {
+      "index": 64,
+      "name": "TVH_Control.dll",
+      "name_offset": 10499821,
+      "marker_offset": 10499851,
+      "marker_distance_after_nul": 14,
+      "record_hex": "43 45 2c 04 b0 f3 6e 8c 48 0c 00 00 44 f3 04 00",
+      "u16_plus_2": 1068,
+      "u32_plus_4": 2356081584,
+      "u32_plus_8": 3144,
+      "u32_plus_12": 324420,
+      "secondary_offsets": [
+        10598548
+      ]
+    },
+    {
+      "index": 66,
+      "name": "FlashFx.Dll",
+      "name_offset": 10505042,
+      "marker_offset": 10505054,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 d1 03 b4 e6 6f 8c 4c 09 00 00 e1 02 04 00",
+      "u16_plus_2": 977,
+      "u32_plus_4": 2356143796,
+      "u32_plus_8": 2380,
+      "u32_plus_12": 262881,
+      "secondary_offsets": [
+        10599964
+      ]
+    },
+    {
+      "index": 67,
+      "name": "VoiceRecorderHMI.dll",
+      "name_offset": 10511894,
+      "marker_offset": 10511917,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 60 02 90 13 70 8c 70 0c 00 00 30 10 05 00",
+      "u16_plus_2": 608,
+      "u32_plus_4": 2356155280,
+      "u32_plus_8": 3184,
+      "u32_plus_12": 331824,
+      "secondary_offsets": [
+        10599264
+      ]
+    },
+    {
+      "index": 70,
+      "name": "serial.dll",
+      "name_offset": 10517128,
+      "marker_offset": 10517141,
+      "marker_distance_after_nul": 2,
+      "record_hex": "43 45 8f 03 c4 33 70 8c 38 0c 00 00 85 cf 04 00",
+      "u16_plus_2": 911,
+      "u32_plus_4": 2356163524,
+      "u32_plus_8": 3128,
+      "u32_plus_12": 315269,
+      "secondary_offsets": [
+        10599529
+      ]
+    },
+    {
+      "index": 71,
+      "name": "wavedev.dll",
+      "name_offset": 10520266,
+      "marker_offset": 10520278,
+      "marker_distance_after_nul": 0,
+      "record_hex": "43 45 af 03 40 cb 70 8c c0 04 00 00 5c 87 01 00",
+      "u16_plus_2": 943,
+      "u32_plus_4": 2356202304,
+      "u32_plus_8": 1216,
+      "u32_plus_12": 100188,
+      "secondary_offsets": [
+        10601815
+      ]
+    },
+    {
+      "index": 72,
+      "name": "pcmcia.dll",
+      "name_offset": 10521446,
+      "marker_offset": 10521468,
+      "marker_distance_after_nul": 11,
+      "record_hex": "43 45 cc 02 c4 11 71 8c 3c 0e 00 00 15 96 05 00",
+      "u16_plus_2": 716,
+      "u32_plus_4": 2356220356,
+      "u32_plus_8": 3644,
+      "u32_plus_12": 366101,
+      "secondary_offsets": [
+        10598139
+      ]
+    }
+  ]
+}

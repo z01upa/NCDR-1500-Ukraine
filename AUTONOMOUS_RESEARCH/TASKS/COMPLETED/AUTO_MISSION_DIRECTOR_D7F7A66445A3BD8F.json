@@ -1,0 +1,9 @@
+{
+  "artifact_pointers": [
+    "reports/mission_pack/plans/AUTO_MISSION_DIRECTOR_D7F7A66445A3BD8F.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_MISSION_DIRECTOR_D7F7A66445A3BD8F",
+  "updated_utc": "2026-10-28T16:03:47.972208+00:00"
+}

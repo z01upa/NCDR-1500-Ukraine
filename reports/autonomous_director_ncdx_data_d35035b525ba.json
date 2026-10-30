@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_d35035b525ba",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_3d130a1e",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_3d130a1e",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (alignment streams) with varying scales and coordinate orders. The evidence shows a mix of `lat_lon` and `lon_lat` formats across different alignment indices (0, 2, 4, 6, 7). To reduce uncertainty about the map storage structure, specifically regarding how coordinate candidates are indexed and stored, selecting the goal that encompasses the decoded census data for these coordinate candidates",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_3d130a1e",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "f7f3d7c94c1fa6eac32430b8c3422c1890be3e049690a819e801f1cbc60b51f3",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_d35035b525ba",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T17:09:59.312983+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,20 @@
+poison.exe
+SHA256=5c19ea123d11dba5904c687f938b98833efbaaafcd29ec86082915e4b29637d1
+PE32 i386; timestamp=0x4982EDC1; image_base=0x400000; entry_rva=0x1240; entry_va=0x401240; image_size=0x70000; file_size=411136
+section name=.text RVA=0x1000 virtual=0x50664 raw_off=0x400 raw=0x50800 chars=0x60000060
+section name=.data RVA=0x52000 virtual=0x2BD0 raw_off=0x50C00 raw=0x2C00 chars=0xC0000040
+section name=.rdata RVA=0x55000 virtual=0xE5C0 raw_off=0x53800 raw=0xE600 chars=0x40000040
+section name=.bss RVA=0x64000 virtual=0x88D0 raw_off=0x0 raw=0x0 chars=0xC0000080
+section name=.idata RVA=0x6D000 virtual=0x2750 raw_off=0x61E00 raw=0x2800 chars=0xC0000040
+No export/resource/debug directories reported by objdump PE data directories. Symbols and relocations stripped.
+
+patch.exe
+SHA256=459ac4587f6bf84c64dc5f32c1d6596a2f5d7b0c0b6cb8fee4f852be6e6626a8
+PE32 i386; timestamp=0x4982EE1C; image_base=0x400000; entry_rva=0x1240; entry_va=0x401240; image_size=0x8000; file_size=16896
+section name=.text RVA=0x1000 virtual=0x2264 raw_off=0x400 raw=0x2400 chars=0x60000060
+section name=.data RVA=0x4000 virtual=0xAA0 raw_off=0x2800 raw=0xC00 chars=0xC0000040
+section name=.rdata RVA=0x5000 virtual=0x6C0 raw_off=0x3400 raw=0x800 chars=0x40000040
+section name=.bss RVA=0x6000 virtual=0xB0 raw_off=0x0 raw=0x0 chars=0xC0000080
+section name=.idata RVA=0x7000 virtual=0x4B0 raw_off=0x3C00 raw=0x600 chars=0xC0000040
+No export/resource/debug directories reported by objdump PE data directories. Symbols and relocations stripped.
+

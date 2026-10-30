@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_283b7fc32160",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_RD_EXACT_BLOCK_ANCHOR_SCAN_ca740496",
+  "selected_goal_id": "AUTO_NCDX_DATA_RD_EXACT_BLOCK_ANCHOR_SCAN_ca740496",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected the EXACT_BLOCK_ANCHOR_SCAN goal for region RD as it offers the highest total_input_bytes (152025462), providing the most substantial data volume to reduce uncertainty regarding map storage and address/index structures.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_RD_EXACT_BLOCK_ANCHOR_SCAN_ca740496",
+  "candidate_fingerprint": "dce30712a2da4bedce46378e8abf8b8ece1ccab43063b2b9aeff00365c82235b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_283b7fc32160",
+  "remaining_unique_experiments": 30,
+  "created_utc": "2026-10-26T22:22:41.200885+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

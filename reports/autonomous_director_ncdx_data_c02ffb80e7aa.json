@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_c02ffb80e7aa",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4e83bd65",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4e83bd65",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple streams (indices 18, 19, 32, 35, 46) containing candidate measurements of alignment scales and coordinate systems (lat_lon/lon_lat). This evidence directly addresses the need to reduce uncertainty about map storage formats and coordinate data structures by validating specific decompressed blocks against known hashes. The selection prioritizes this specific goal_id as it aligns with the analysis of decoded coordina",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_4e83bd65",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "c916eb8f6946db4cc1d4c576e1516e517a8bfa967d7ca2a42089e324b7c40cc2",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_c02ffb80e7aa",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T20:24:40.067174+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

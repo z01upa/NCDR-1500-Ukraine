@@ -1,0 +1,2 @@
+target_count,known_gap_intermediate_slots,structurally_same,structurally_different,uncertain,status
+23,not reproducible from saved row-level saturation,0,0,unavailable,requires persisted saturation rows

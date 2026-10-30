@@ -1,0 +1,13 @@
+test_complete_export_has_exact_counts_and_unique_ids (test_topology_v6.ConsolidationTests.test_complete_export_has_exact_counts_and_unique_ids) ... ok
+test_degree1_through7_noop (test_topology_v6.ConsolidationTests.test_degree1_through7_noop) ... ok
+test_degree_changes_refuse_opaque_overwrite (test_topology_v6.ConsolidationTests.test_degree_changes_refuse_opaque_overwrite) ... ok
+test_full_evidence_acceptance_and_source_hash (test_topology_v6.ConsolidationTests.test_full_evidence_acceptance_and_source_hash) ... ok
+test_inmemory_active_word_permutation_preserves_abstract_adjacency (test_topology_v6.ConsolidationTests.test_inmemory_active_word_permutation_preserves_abstract_adjacency) ... ok
+test_missing_continuation_rejected (test_topology_v6.ConsolidationTests.test_missing_continuation_rejected) ... ok
+test_wrong_inmemory_edge_detected_by_endpoint_oracle (test_topology_v6.ConsolidationTests.test_wrong_inmemory_edge_detected_by_endpoint_oracle) ... ok
+test_zero_head_is_not_invented (test_topology_v6.ConsolidationTests.test_zero_head_is_not_invented) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.456s
+
+OK

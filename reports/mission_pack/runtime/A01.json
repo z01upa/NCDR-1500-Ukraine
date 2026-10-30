@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "canonical_id": "A01",
+  "objective": "Встановити фактичну версію репозиторію, стан процесу, журналів, конфігурацій, SQLite і справжніх викликів моделей без повторного хешування всіх джерел.",
+  "acceptance": {
+    "status": "PASS",
+    "runtime_worker_pid": 13276,
+    "worker_executable": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+    "git_commit": null,
+    "git_probe": {
+      "available": false,
+      "error": "FileNotFoundError: [WinError 2] Не удается найти указанный файл"
+    },
+    "sqlite_integrity": {
+      "project_state": "ok",
+      "task_backlog": "ok",
+      "evidence_ledger": "ok"
+    },
+    "task_counts": {
+      "BLOCKED": 15,
+      "CANCELLED": 1,
+      "DONE": 1126,
+      "LEASED": 1,
+      "WAITING_CODEX": 48,
+      "WAITING_CODEX_QUOTA": 3,
+      "WAITING_EXTERNAL": 3,
+      "WAITING_LOCAL": 2
+    },
+    "blocked_tasks": [
+      {
+        "id": "AUTO_MISSION_EXEC_D02_04B54E91",
+        "error": "RuntimeError: {\"error\": \"ValueError: artifact path escaped the manager work area: ${NCDR_WORK_ROOT}\\\\NCDR_MAP_RESEARCH\\\\osm\\\\source-manifest.json\"}\r\n"
+      },
+      {
+        "id": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_a75c8fed",
+        "error": "RuntimeError: {\"error\": \"ValueError: unregistered data profile mode: CONTAINER_ROUNDTRIP\"}\r\n"
+      },
+      {
+        "id": "AUTO_NCDX_DATA_PDX_STRING_COORDINATE_PROXIMITY_AUDIT_ccde4264",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: proximity audit text anchors are not bound to the current source inventory\"}\r\n"
+      },
+      {
+        "id": "AUTO_OSM_FAILURE_REVIEW_B749A7021693",
+        "error": "RuntimeError: {\"error\": \"TimeoutError: Ollama API did not become available within 45 seconds\"}\r\n"
+      },
+      {
+        "id": "AUTO_OSM_NATIONAL_STEP_78A9CBADA5CFA3A8",
+        "error": "RuntimeError: could not start or capture bounded task process: задача перевищила ліміт 900 секунд"
+      },
+      {
+        "id": "AUTO_OSM_NATIONAL_STEP_822BA7A5E9BDB9D4",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: stale OSM continuation: expected checkpoint 822ba7a5e9bdb9d4, current is c03cc6b57b6f3dff\"}\r\n"
+      },
+      {
+        "id": "AUTO_OSM_PARTITION_PROBE_KR_CORE_4X4",
+        "error": "RuntimeError: {\"error\": \"ValueError: bbox contains 446623 nodes, above the 200000 node bound\"}\r\n"
+      },
+      {
+        "id": "AUTO_RESEARCH_BOOTSTRAP",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: model-generated script failed the isolated independent test: ScriptRejected: Traceback (most recent call last):\\r\\n  File \\\"<string>\\\", line 57, in <module>\\r\\n    exec(compile(tree, \\\"<bounded-research-script>\\\", \\\"exec\\\"), env, env)\\r\\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\r\\n  File \\\"<bounded-research-script>\\\", line 3, in <module>\\r\\nKeyError: 'PDX'\"}\n"
+      },
+      {
+        "id": "AUTO_RESEARCH_FOLLOWUP_0cd28fa7886a",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: model-generated script failed the isolated independent test: ScriptRejected: script field is missing or too large\"}\n"
+      },
+      {
+        "id": "AUTO_SCHEDULED_PROBE_IL_1972c6720eba",
+        "error": "RuntimeError: {\"error\": \"KeyError: 'IL'\"}\n"
+      },
+      {
+        "id": "AUTO_SCHEDULED_PROBE_IOF_9fd63c433fdd",
+        "error": "RuntimeError: {\"error\": \"KeyError: 'IOF'\"}\n"
+      },
+      {
+        "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_f23fdd72",
+        "error": "RuntimeError: {\"error\": \"RuntimeError: Supervisor refused incomplete read-only proof for AUTO_NCDX_DATA_PTI_CONTAINER_ROUNDTRIP_f23fdd72\"}\r\n"
+      },
+      {
+        "id": "F1_TARGET_COMPATIBILITY",
+        "error": ""
+      },
+      {
+        "id": "F3_WRITER",
+        "error": ""
+      },
+      {
+        "id": "F4_OSM_PIPELINE",
+        "error": ""
+      }
+    ],
+    "ollama_version": {
+      "available": true,
+      "returncode": 0,
+      "version": "ollama version is 0.40.11"
+    },
+    "available_local_models": [
+      "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+      "qwen2.5-coder:7b",
+      "qwen3.5:4b",
+      "qwen3.5:9b"
+    ],
+    "codex_cli": {
+      "path": null,
+      "available": false
+    },
+    "source_tree_hashes_recomputed": 0,
+    "created_utc": "2026-10-27T12:43:22.906054+00:00"
+  },
+  "created_utc": "2026-10-27T12:43:22.906069+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

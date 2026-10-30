@@ -1,0 +1,20 @@
+CONFIRMED
+- `suffix4_BE` is exactly `struct.pack(">HH", s65, s66)` from the existing scan code (mg_24h_autoresearch.py:2339-2345).
+- RD files are mounted and readable: Italy I.RD 74,781,874 bytes; Scandinavia SC.RD 68,225,914 bytes.
+- The bridge database schema and 20,000 MG-edge corpus were created in bridge.sqlite.
+
+STRONG EVIDENCE
+- Existing logical-stream scan: Italy RD real/control ratio 25.36×; Scandinavia RD 47.88× for suffix4_BE.
+- Existing scan also showed RT/RL enrichment, but raw hits were not yet tied to RD records and therefore are not a validated bridge.
+
+OPEN
+- Locate RD record/block grammar from clustered hit spacing, headers, lengths, and controls.
+- Complete the all-edge resumable scan with bounded hit storage and per-signature frequency controls.
+- Establish a reproducible RD candidate field → RT/RL reference and validate routing topology.
+
+REJECTED
+- Treating suffix4_BE as a unique road ID: rejected pending structural clustering because raw occurrences are non-unique.
+- Treating suffix4_LE as primary: rejected by prior control comparison.
+
+STATUS
+The implementation scaffold and initial database are present. The primary scan was stopped before its first commit of RD hits because the unbounded hit fan-out is too large; this is an engineering stop condition, not positive evidence of failure. The next run must cap per-pattern/per-file hits and store aggregate counts before contexts.

@@ -1,0 +1,3 @@
+class,referenced_slots,caller_records,lon_min,lon_max,lat_min,lat_max,per_slot_median_spread_m,per_slot_p90_spread_m,per_slot_max_spread_m,road_name_data
+Z,2299,9874,37.5591849959,37.8423005442,55.6535863654,55.8570756657,0,0,0,blank in phase39 expanded dataset
+NZ,159,741,37.5591849959,37.8423005442,55.6535863654,55.8570756657,0,0,0,blank in phase39 expanded dataset

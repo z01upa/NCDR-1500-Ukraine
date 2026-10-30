@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_A20_LOC_0000050060/A20UPDATE.DLL",
+    "reports/autonomous_director_sw_component_0a972bcf2f9f.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_0a972bcf2f9f",
+  "updated_utc": "2026-10-27T20:06:28.022227+00:00"
+}

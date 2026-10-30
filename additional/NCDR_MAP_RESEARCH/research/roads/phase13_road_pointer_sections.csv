@@ -1,0 +1,484 @@
+target_sector,pointer,F,flags,road_name,exact_descriptor_target,inside_known_range,range_class,section_start,section_end,relative_offset,alignment2,alignment4,alignment8
+217897,3576,31,1,1 iy mikrorayon,False,False,before_sections,,,,True,True,True
+210160,3204,3,1,1 maya ulitsa,False,True,inside_section,3072,31364,132,True,True,False
+215443,12536,1,1,1 sel'skokhozyaystvenniy proezd,False,True,inside_section,1536,34936,11000,True,True,True
+215489,12484,4,0,1 sel'skokhozyaystvenniy proezd,False,True,inside_section,1536,15620,10948,True,True,False
+215540,6440,4,0,1 sel'skokhozyaystvenniy proezd,False,False,before_sections,,,,True,True,True
+211281,12876,1,0,1 y ambulatorniy proezd,False,False,before_sections,,,,True,True,False
+211281,16300,2,0,1 y ambulatorniy proezd,False,False,before_sections,,,,True,True,False
+214133,9900,1,0,1 y arkhivniy pereulok,False,False,no_known_sections,,,,True,True,False
+213100,6968,2,0,1 y avtozavodskiy proezd,False,False,before_sections,,,,True,True,True
+213100,7672,4,0,1 y avtozavodskiy proezd,False,False,before_sections,,,,True,True,True
+214272,5164,2,0,1 y bab'egorodskiy pereulok,False,False,before_sections,,,,True,True,False
+214272,13548,1,0,1 y bab'egorodskiy pereulok,False,False,before_sections,,,,True,True,False
+214597,10568,2,0,1 y bab'egorodskiy pereulok,False,True,inside_section,1536,21128,9032,True,True,True
+211281,3020,2,0,1 y baltiyskiy pereulok,False,False,before_sections,,,,True,True,False
+214981,7004,6,0,1 y basmanniy pereulok,False,False,no_known_sections,,,,True,True,False
+216161,9184,2,0,1 y belokamenniy proezd,False,False,before_sections,,,,True,True,True
+212131,9716,2,0,1 y bogucharskiy pereulok,False,True,inside_section,3072,30868,6644,True,True,False
+216613,3984,8,0,1 y botanicheskiy proezd,False,False,before_sections,,,,True,True,True
+216613,6576,2,0,1 y botanicheskiy proezd,False,False,before_sections,,,,True,True,True
+216613,3056,5,1,1 y botanicheskiy proezd,False,False,before_sections,,,,True,True,True
+215022,2320,5,0,1 y botkinskiy proezd,False,False,no_known_sections,,,,True,True,True
+215022,8592,4,0,1 y botkinskiy proezd,False,False,no_known_sections,,,,True,True,True
+215022,2064,3,1,1 y botkinskiy proezd,False,False,no_known_sections,,,,True,True,True
+209427,11012,5,0,1 y dachno meshcherskiy proezd,False,True,inside_section,3072,24004,7940,True,True,False
+214662,10284,2,0,1 y derbenevskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214703,14864,5,0,1 y derbenevskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214597,8296,4,0,1 y dobryninskiy pereulok,False,True,inside_section,1536,21128,6760,True,True,True
+214550,7600,2,0,1 y dobryninskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214597,9160,2,0,1 y dobryninskiy pereulok,False,True,inside_section,1536,21128,7624,True,True,True
+214198,4444,2,0,1 y donskoy proezd,False,True,inside_section,1536,20956,2908,True,True,False
+212439,7292,2,0,1 y dorozhniy proezd,False,True,inside_section,3072,31100,4220,True,True,False
+212551,5232,7,0,1 y dorozhniy proezd,False,True,inside_section,3072,17616,2160,True,True,True
+212551,7632,3,0,1 y dorozhniy proezd,False,True,inside_section,3072,17616,4560,True,True,True
+214662,8844,1,0,1 y dubrovskiy proezd,False,False,no_known_sections,,,,True,True,False
+214662,3596,1,1,1 y dubrovskiy proezd,False,False,no_known_sections,,,,True,True,False
+214745,13976,1,0,1 y dubrovskiy proezd,False,True,inside_section,768,28696,13208,True,True,True
+216017,15304,1,0,1 y elektrozavodskiy pereulok,False,False,no_known_sections,,,,True,True,True
+216017,9288,1,1,1 y elektrozavodskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214272,8780,1,0,1 y golutvinskiy pereulok,False,False,before_sections,,,,True,True,False
+214597,13736,1,0,1 y golutvinskiy pereulok,False,True,inside_section,1536,21128,12200,True,True,True
+214597,11080,2,0,1 y golutvinskiy pereulok,False,True,inside_section,1536,21128,9544,True,True,True
+214703,11408,1,0,1 y goncharniy pereulok,False,False,no_known_sections,,,,True,True,True
+214703,5552,5,1,1 y goncharniy pereulok,False,False,no_known_sections,,,,True,True,True
+215169,6232,1,0,1 y goncharovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+215255,8712,2,0,1 y goncharovskiy pereulok,False,True,inside_section,1536,28968,7176,True,True,True
+215597,8056,2,0,1 y grayvoronovskiy proezd,False,True,inside_section,1152,23864,6904,True,True,True
+215762,6828,4,0,1 y institutskiy proezd,False,True,inside_section,1536,26092,5292,True,True,False
+215762,12396,2,0,1 y institutskiy proezd,False,True,inside_section,1536,26092,10860,True,True,False
+215799,3236,6,0,1 y institutskiy proezd,False,True,inside_section,1536,19876,1700,True,True,False
+215799,12068,3,0,1 y institutskiy proezd,False,True,inside_section,1536,19876,10532,True,True,False
+215799,12164,1,0,1 y institutskiy proezd,False,True,inside_section,1536,19876,10628,True,True,False
+215762,12460,2,0,1 y institutskiy proezd,False,True,inside_section,1536,26092,10924,True,True,False
+215676,8556,3,0,1 y irininskiy pereulok,False,True,inside_section,1536,29388,7020,True,True,False
+216017,12072,2,0,1 y irininskiy pereulok,False,False,no_known_sections,,,,True,True,True
+216134,6228,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216134,8212,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216220,8756,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216220,9524,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216334,3588,2,0,1 y irtyshskiy proezd,False,True,inside_section,3072,14084,516,True,True,False
+216334,8100,1,0,1 y irtyshskiy proezd,False,True,inside_section,3072,14084,5028,True,True,False
+216134,6228,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216134,8212,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216220,8756,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216220,9524,1,0,1 y irtyshskiy proezd,False,False,before_sections,,,,True,True,False
+216334,3588,2,0,1 y irtyshskiy proezd,False,True,inside_section,3072,14084,516,True,True,False
+216334,8100,1,0,1 y irtyshskiy proezd,False,True,inside_section,3072,14084,5028,True,True,False
+215646,6292,2,0,1 y kabel'niy proezd,False,True,inside_section,1152,18516,5140,True,True,False
+214597,10472,1,0,1 y kadashevskiy pereulok,False,True,inside_section,1536,21128,8936,True,True,True
+214785,8548,2,0,1 y kadashevskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214785,8868,2,0,1 y kadashevskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214785,8612,1,0,1 y kadashevskiy tupik,False,False,no_known_sections,,,,True,True,False
+215627,13448,5,0,1 y karacharovskiy proezd,False,True,inside_section,1536,14120,11912,True,True,True
+214597,12168,5,0,1 y kazachiy pereulok,False,True,inside_section,1536,21128,10632,True,True,True
+215799,3428,2,0,1 y kazanskiy prosek,False,True,inside_section,1536,19876,1892,True,True,False
+215799,12196,3,0,1 y kazanskiy prosek,False,True,inside_section,1536,19876,10660,True,True,False
+215863,2864,1,0,1 y ketcherskiy proezd,False,True,inside_section,768,17552,2096,True,True,True
+215863,48,6,1,1 y ketcherskiy proezd,False,False,before_sections,,,,True,True,True
+214346,4364,10,0,1 y khoroshevskiy proezd,False,False,no_known_sections,,,,True,True,False
+214346,12940,9,0,1 y khoroshevskiy proezd,False,False,no_known_sections,,,,True,True,False
+215022,4816,1,1,1 y khoroshevskiy proezd,False,False,no_known_sections,,,,True,True,True
+215169,12600,5,0,1 y khutorskoy pereulok,False,False,no_known_sections,,,,True,True,True
+214597,11784,10,0,1 y khvostov pereulok,False,True,inside_section,1536,21128,10248,True,True,True
+215720,9232,10,0,1 y kirpichniy pereulok,False,True,inside_section,3072,29712,6160,True,True,True
+215720,5552,7,1,1 y kirpichniy pereulok,False,True,inside_section,3072,29712,2480,True,True,True
+216099,8956,2,0,1 y kirpichniy pereulok,False,True,inside_section,1536,24668,7420,True,True,False
+215720,10192,1,1,1 y kirpichniy pereulok,False,True,inside_section,3072,29712,7120,True,True,True
+214847,7684,2,0,1 y kolobovskiy pereulok,False,True,inside_section,1536,19748,6148,True,True,False
+214878,5264,6,0,1 y koptel'skiy pereulok,False,False,no_known_sections,,,,True,True,True
+214810,8376,5,0,1 y kotel'nicheskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214810,152,1,1,1 y kotel'nicheskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214912,9308,1,0,1 y kotel'nicheskiy pereulok,False,False,no_known_sections,,,,True,True,False
+212941,16116,7,0,1 y kotlyakovskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214630,11264,9,0,1 y kozhevnicheskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214703,15024,2,0,1 y kozhevnicheskiy pereulok,False,False,no_known_sections,,,,True,True,True
+213828,13296,1,0,1 y kozhukhovskiy pereulok,False,True,inside_section,3072,25968,10224,True,True,True
+213100,6680,6,0,1 y kozhukhovskiy proezd,False,False,before_sections,,,,True,True,True
+214662,3468,1,0,1 y kozhukhovskiy proezd,False,False,no_known_sections,,,,True,True,False
+214662,9484,3,0,1 y kozhukhovskiy proezd,False,False,no_known_sections,,,,True,True,False
+213100,1656,7,1,1 y kozhukhovskiy proezd,False,False,before_sections,,,,True,True,True
+214662,10956,1,1,1 y kozhukhovskiy proezd,False,False,no_known_sections,,,,True,True,False
+217249,13908,3,0,1 y kraskovskiy proezd,False,True,inside_section,6144,29364,7764,True,True,False
+211190,11228,3,0,1 y krasnogorskiy proezd,False,True,inside_section,1536,33180,9692,True,True,False
+211321,4944,2,0,1 y krasnogorskiy proezd,False,False,before_sections,,,,True,True,True
+211321,8848,3,0,1 y krasnogorskiy proezd,False,False,before_sections,,,,True,True,True
+210927,7188,4,0,1 y krasnogvardeyskiy proezd,False,True,inside_section,1536,21012,5652,True,True,False
+210927,212,3,1,1 y krasnogvardeyskiy proezd,False,False,before_sections,,,,True,True,False
+210927,8596,2,0,1 y krasnogvardeyskiy proezd,False,True,inside_section,1536,21012,7060,True,True,False
+214302,12656,3,0,1 y krasnogvardeyskiy proezd,False,False,no_known_sections,,,,True,True,True
+215676,5900,1,0,1 y krasnokursantskiy proezd,False,True,inside_section,1536,29388,4364,True,True,False
+215646,4372,2,0,1 y krasnokursantskiy proezd,False,True,inside_section,1152,18516,3220,True,True,False
+215646,8564,3,0,1 y krasnokursantskiy proezd,False,True,inside_section,1152,18516,7412,True,True,False
+215646,15028,2,0,1 y krasnokursantskiy proezd,False,True,inside_section,1152,18516,13876,True,True,False
+215676,7276,3,0,1 y krasnokursantskiy proezd,False,True,inside_section,1536,29388,5740,True,True,False
+215397,4120,1,0,1 y krasnosel'skiy pereulok,False,True,inside_section,1152,31736,2968,True,True,True
+215397,15032,4,0,1 y krasnosel'skiy pereulok,False,True,inside_section,1152,31736,13880,True,True,True
+215397,13912,2,1,1 y krasnosel'skiy pereulok,False,True,inside_section,1152,31736,12760,True,True,True
+214703,9648,3,0,1 y krutitskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214703,8912,5,0,1 y krutitskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214745,6232,1,0,1 y krutitskiy pereulok,False,True,inside_section,768,28696,5464,True,True,True
+214745,15288,1,0,1 y krutitskiy pereulok,False,True,inside_section,768,28696,14520,True,True,True
+214703,9648,3,0,1 y krutitskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214703,8912,5,0,1 y krutitskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214745,6232,1,0,1 y krutitskiy pereulok,False,True,inside_section,768,28696,5464,True,True,True
+214745,15288,1,0,1 y krutitskiy pereulok,False,True,inside_section,768,28696,14520,True,True,True
+213305,4704,15,0,1 y kur'yanovskiy proezd,False,True,inside_section,1536,24640,3168,True,True,True
+213305,13408,2,0,1 y kur'yanovskiy proezd,False,True,inside_section,1536,24640,11872,True,True,True
+215121,12292,2,0,1 y lesnoy pereulok,False,False,no_known_sections,,,,True,True,False
+215121,3428,1,1,1 y lesnoy pereulok,False,False,no_known_sections,,,,True,True,False
+211418,7504,5,0,1 y likhachevskiy pereulok,False,True,inside_section,768,26128,6736,True,True,True
+215397,11800,4,0,1 y luchevoy prosek,False,True,inside_section,1152,31736,10648,True,True,True
+215397,13368,3,0,1 y luchevoy prosek,False,True,inside_section,1152,31736,12216,True,True,True
+215397,8280,2,1,1 y luchevoy prosek,False,True,inside_section,1152,31736,7128,True,True,True
+210309,6272,1,0,1 y lykovskiy proezd,False,True,inside_section,3072,15456,3200,True,True,True
+210309,10720,3,0,1 y lykovskiy proezd,False,True,inside_section,3072,15456,7648,True,True,True
+210427,4964,1,1,1 y lykovskiy proezd,False,True,inside_section,3072,22564,1892,True,True,False
+213828,688,6,1,1 y lyuberetskiy proezd,False,False,before_sections,,,,True,True,True
+214597,9224,4,0,1 y lyusinovskiy pereulok,False,True,inside_section,1536,21128,7688,True,True,True
+214597,14824,1,0,1 y lyusinovskiy pereulok,False,True,inside_section,1536,21128,13288,True,True,True
+210959,8756,5,0,1 y magistral'niy proezd,False,True,inside_section,1536,17172,7220,True,True,False
+210959,2836,4,0,1 y magistral'niy tupik,False,True,inside_section,1536,17172,1300,True,True,False
+212131,6612,2,0,1 y mirgorodskiy pereulok,False,True,inside_section,3072,30868,3540,True,True,False
+212131,9780,4,0,1 y mirgorodskiy pereulok,False,True,inside_section,3072,30868,6708,True,True,False
+210505,6664,11,0,1 y mitinskiy pereulok,False,True,inside_section,3072,25160,3592,True,True,True
+210505,12392,1,0,1 y mitinskiy pereulok,False,True,inside_section,3072,25160,9320,True,True,True
+214597,8584,1,0,1 y monetchikovskiy pereulok,False,True,inside_section,1536,21128,7048,True,True,True
+214302,9616,1,0,1 y mozhayskiy tupik,False,False,no_known_sections,,,,True,True,True
+213028,7408,2,0,1 y nagatinskiy proezd,False,False,no_known_sections,,,,True,True,True
+213028,7728,7,0,1 y nagatinskiy proezd,False,False,no_known_sections,,,,True,True,True
+213028,8016,3,0,1 y nagatinskiy proezd,False,False,no_known_sections,,,,True,True,True
+214302,10384,1,0,1 y nikoloshchepovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214380,5388,4,0,1 y nikoloshchepovskiy pereulok,False,True,inside_section,512,25324,4876,True,True,False
+214380,364,1,1,1 y nikoloshchepovskiy pereulok,False,False,before_sections,,,,True,True,False
+215221,8300,1,0,1 y nizhnelikhoborskiy proezd,False,True,inside_section,768,23500,7532,True,True,False
+216387,5000,1,0,1 y nizhnelikhoborskiy proezd,False,False,before_sections,,,,True,True,True
+213028,12336,2,0,1 y nizhniy mikhaylovskiy proezd,False,False,no_known_sections,,,,True,True,True
+213028,6768,1,1,1 y nizhniy mikhaylovskiy proezd,False,False,no_known_sections,,,,True,True,True
+214198,9020,2,0,1 y nizhniy mikhaylovskiy proezd,False,True,inside_section,1536,20956,7484,True,True,False
+214550,15984,2,0,1 y nizhniy mikhaylovskiy proezd,False,False,no_known_sections,,,,True,True,True
+214597,9960,2,0,1 y novokuznetskiy pereulok,False,True,inside_section,1536,21128,8424,True,True,True
+214597,13640,1,0,1 y novokuznetskiy pereulok,False,True,inside_section,1536,21128,12104,True,True,True
+214630,9728,4,0,1 y novokuznetskiy pereulok,False,False,no_known_sections,,,,True,True,True
+211418,7888,10,0,1 y novomikhalkovskiy proezd,False,True,inside_section,768,26128,7120,True,True,True
+211418,7248,7,1,1 y novomikhalkovskiy proezd,False,True,inside_section,768,26128,6480,True,True,True
+211321,9808,1,0,1 y novopodmoskovniy pereulok,False,False,before_sections,,,,True,True,True
+211321,9840,2,0,1 y novopodmoskovniy pereulok,False,False,before_sections,,,,True,True,True
+211321,8336,2,0,1 y novopodmoskovniy pereulok,False,False,before_sections,,,,True,True,True
+211321,592,1,1,1 y novopodmoskovniy pereulok,False,False,before_sections,,,,True,True,True
+214437,9512,7,0,1 y obydenskiy pereulok,False,True,inside_section,384,22600,9128,True,True,True
+209506,2716,4,0,1 y ochakovskiy pereulok,False,True,inside_section,1920,35324,796,True,True,False
+209506,3484,5,1,1 y ochakovskiy pereulok,False,True,inside_section,1920,35324,1564,True,True,False
+214981,13596,1,0,1 y ol'khovskiy tupik,False,False,no_known_sections,,,,True,True,False
+214550,12240,4,0,1 y paveletskiy proezd,False,False,no_known_sections,,,,True,True,True
+214550,13168,6,0,1 y pavlovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+211190,2556,9,0,1 y pekhotniy pereulok,False,True,inside_section,1536,33180,1020,True,True,False
+211190,16316,1,0,1 y pekhotniy pereulok,False,True,inside_section,1536,33180,14780,True,True,False
+210461,2632,3,0,1 y penyaginskiy proezd,False,False,before_sections,,,,True,True,True
+215886,13024,1,1,1 y plekhanovskiy pereulok,False,False,before_sections,,,,True,True,True
+215397,11928,4,0,1 y polevoy pereulok,False,True,inside_section,1152,31736,10776,True,True,True
+215397,4440,1,1,1 y polevoy pereulok,False,True,inside_section,1152,31736,3288,True,True,True
+216017,13256,3,0,1 y polevoy pereulok,False,False,no_known_sections,,,,True,True,True
+213828,3472,1,1,1 y polevoy proezd,False,True,inside_section,3072,25968,400,True,True,True
+215443,10648,2,0,1 y poperechniy proezd,False,True,inside_section,1536,34936,9112,True,True,True
+215443,12632,1,1,1 y poperechniy proezd,False,True,inside_section,1536,34936,11096,True,True,True
+217186,12188,2,0,1 y prospekt novogireevo,False,False,no_known_sections,,,,True,True,False
+215974,6844,3,0,1 y prospekt novogireevo,False,True,inside_section,768,17020,6076,True,True,False
+217186,11452,4,0,1 y prospekt novogireevo,False,False,no_known_sections,,,,True,True,False
+217186,12188,2,0,1 y prospekt novogireevo,False,False,no_known_sections,,,,True,True,False
+215974,6844,3,0,1 y prospekt novogireevo,False,True,inside_section,768,17020,6076,True,True,False
+217186,11452,4,0,1 y prospekt novogireevo,False,False,no_known_sections,,,,True,True,False
+215646,5044,3,0,1 y rabochiy pereulok,False,True,inside_section,1152,18516,3892,True,True,False
+214785,8356,1,0,1 y raushskiy pereulok,False,False,no_known_sections,,,,True,True,False
+215397,11032,3,0,1 y rizhskiy pereulok,False,True,inside_section,1152,31736,9880,True,True,True
+215397,536,1,1,1 y rizhskiy pereulok,False,False,before_sections,,,,True,True,True
+214198,4508,5,0,1 y roshchinskiy proezd,False,True,inside_section,1536,20956,2972,True,True,False
+214198,860,2,1,1 y roshchinskiy proezd,False,True,inside_section,768,1536,92,True,True,False
+214519,6432,1,0,1 y samotechniy pereulok,False,False,no_known_sections,,,,True,True,True
+214847,7012,5,0,1 y samotechniy pereulok,False,True,inside_section,1536,19748,5476,True,True,False
+214847,12932,1,0,1 y samotechniy pereulok,False,True,inside_section,1536,19748,11396,True,True,False
+215121,11716,5,0,1 y samotechniy pereulok,False,False,no_known_sections,,,,True,True,False
+215121,2980,2,1,1 y samotechniy pereulok,False,False,no_known_sections,,,,True,True,False
+215316,116,2,1,1 y samotechniy pereulok,False,False,no_known_sections,,,,True,True,False
+215597,4888,23,0,1 y saratovskiy proezd,False,True,inside_section,1152,23864,3736,True,True,True
+215597,5080,4,1,1 y saratovskiy proezd,False,True,inside_section,1152,23864,3928,True,True,True
+210845,7836,3,0,1 y setun'skiy proezd,False,True,inside_section,1536,18300,6300,True,True,False
+214133,4588,2,0,1 y setun'skiy proezd,False,False,no_known_sections,,,,True,True,False
+214133,9548,2,0,1 y setun'skiy proezd,False,False,no_known_sections,,,,True,True,False
+214519,6464,1,0,1 y shchemilovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214519,12544,1,0,1 y shchemilovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+215121,11876,1,0,1 y shchemilovskiy pereulok,False,False,no_known_sections,,,,True,True,False
+215121,3044,1,1,1 y shchemilovskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214550,3312,5,0,1 y shchipkovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214550,7952,6,0,1 y shchipkovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214550,528,15,1,1 y shchipkovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214597,15656,1,0,1 y shchipkovskiy pereulok,False,True,inside_section,1536,21128,14120,True,True,True
+214630,11040,2,0,1 y shchipkovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214630,3104,6,1,1 y shchipkovskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214133,11084,1,0,1 y shibaevskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214630,6176,2,0,1 y shlyuzovoy pereulok,False,False,no_known_sections,,,,True,True,True
+210959,5876,4,0,1 y silikatniy proezd,False,True,inside_section,1536,17172,4340,True,True,False
+210959,6164,4,0,1 y silikatniy proezd,False,True,inside_section,1536,17172,4628,True,True,False
+214380,5516,10,0,1 y smolenskiy pereulok,False,True,inside_section,512,25324,5004,True,True,False
+214597,10760,2,0,1 y spasonalivkovskiy pereulok,False,True,inside_section,1536,21128,9224,True,True,True
+214597,12328,10,0,1 y spasonalivkovskiy pereulok,False,True,inside_section,1536,21128,10792,True,True,True
+214597,4456,1,1,1 y spasonalivkovskiy pereulok,False,True,inside_section,1536,21128,2920,True,True,True
+215169,7064,1,0,1 y streletskiy pereulok,False,False,no_known_sections,,,,True,True,True
+214912,7676,1,1,1 y syromyatnicheskiy pereulok,False,False,no_known_sections,,,,True,True,False
+214912,9692,1,1,1 y syromyatnicheskiy pereulok,False,False,no_known_sections,,,,True,True,False
+215121,9860,2,1,1 y tikhvinskiy tupik,False,False,no_known_sections,,,,True,True,False
+214847,8868,2,0,1 y troitskiy pereulok,False,True,inside_section,1536,19748,7332,True,True,False
+215316,12724,1,0,1 y troitskiy pereulok,False,False,no_known_sections,,,,True,True,False
+212168,9092,3,0,1 y trudovoy pereulok,False,True,inside_section,1536,11364,7556,True,True,False
+214133,8012,6,0,1 y truzhenikov pereulok,False,False,no_known_sections,,,,True,True,False
+213028,11632,1,0,1 y tul'skiy pereulok,False,False,no_known_sections,,,,True,True,True
+214550,10480,1,0,1 y tul'skiy pereulok,False,False,no_known_sections,,,,True,True,True
+211067,7248,5,0,1 y tushinskiy proezd,False,True,inside_section,3072,20720,4176,True,True,True
+211067,8432,1,0,1 y tushinskiy proezd,False,True,inside_section,3072,20720,5360,True,True,True
+214489,3984,2,0,1 y tverskoy yamskoy pereulok,False,True,inside_section,1536,18960,2448,True,True,True
+214519,8544,7,0,1 y tverskoy yamskoy pereulok,False,False,no_known_sections,,,,True,True,True
+214519,768,3,1,1 y tverskoy yamskoy pereulok,False,False,no_known_sections,,,,True,True,True
+215559,10700,1,0,1 y ugreshskiy proezd,False,False,no_known_sections,,,,True,True,False
+214198,4316,4,0,1 y v mikhaylovskiy proezd,False,True,inside_section,1536,20956,2780,True,True,False
+212941,10260,4,0,1 y varshavskiy proezd,False,False,no_known_sections,,,,True,True,False
+215762,14668,1,0,1 y veshnyakovskiy proezd,False,True,inside_section,1536,26092,13132,True,True,False
+215799,6916,3,0,1 y veshnyakovskiy proezd,False,True,inside_section,1536,19876,5380,True,True,False
+215799,14052,1,0,1 y veshnyakovskiy proezd,False,True,inside_section,1536,19876,12516,True,True,False
+215825,6920,3,0,1 y veshnyakovskiy proezd,False,True,inside_section,1536,26728,5384,True,True,True
+215825,13960,2,0,1 y veshnyakovskiy proezd,False,True,inside_section,1536,26728,12424,True,True,True
+215863,3632,1,0,1 y veshnyakovskiy proezd,False,True,inside_section,768,17552,2864,True,True,True
+215762,14700,1,0,1 y veshnyakovskiy proezd,False,True,inside_section,1536,26092,13164,True,True,False
+214847,6980,1,0,1 y volkonskiy pereulok,False,True,inside_section,1536,19748,5444,True,True,False
+211190,5244,6,0,1 y volokolamskiy proezd,False,True,inside_section,1536,33180,3708,True,True,False
+211190,11708,3,0,1 y volokolamskiy proezd,False,True,inside_section,1536,33180,10172,True,True,False
+211190,8572,8,1,1 y volokolamskiy proezd,False,True,inside_section,1536,33180,7036,True,True,False
+211321,5840,10,0,1 y voykovskiy proezd,False,False,before_sections,,,,True,True,True
+211321,496,3,1,1 y voykovskiy proezd,False,False,before_sections,,,,True,True,True
+211321,1456,1,1,1 y voykovskiy proezd,False,False,before_sections,,,,True,True,True
+215762,6764,2,0,1 y vyazovskiy proezd,False,True,inside_section,1536,26092,5228,True,True,False
+215762,12364,1,0,1 y vyazovskiy proezd,False,True,inside_section,1536,26092,10828,True,True,False
+213399,3568,3,0,1 y yuzhnoportoviy proezd,False,True,inside_section,3072,19504,496,True,True,True
+217897,1624,4,0,1 y zapadniy proezd,False,False,before_sections,,,,True,True,True
+217897,6296,8,0,1 y zapadniy proezd,False,False,before_sections,,,,True,True,True
+217897,3416,4,1,1 y zapadniy proezd,False,False,before_sections,,,,True,True,True
+216059,13952,3,0,1 y zborovskiy pereulok,False,False,before_sections,,,,True,True,True
+216059,9056,4,1,1 y zborovskiy pereulok,False,False,before_sections,,,,True,True,True
+214346,8300,1,0,1 y zemel'niy pereulok,False,False,no_known_sections,,,,True,True,False
+211281,11244,3,0,1 ya aeroportovskaya ulitsa,False,False,before_sections,,,,True,True,False
+211281,13036,3,0,1 ya aeroportovskaya ulitsa,False,False,before_sections,,,,True,True,False
+209188,11684,1,0,1 ya chobotovskaya alleya,False,True,inside_section,2048,23428,9636,True,True,False
+216902,6428,5,0,1 ya naprudnaya ulitsa,False,True,inside_section,768,26684,5660,True,True,False
+216902,10076,4,0,1 ya naprudnaya ulitsa,False,True,inside_section,768,26684,9308,True,True,False
+216902,6044,2,1,1 ya naprudnaya ulitsa,False,True,inside_section,768,26684,5276,True,True,False
+212439,14364,6,0,1 ya pokrovskaya ulitsa,False,True,inside_section,3072,31100,11292,True,True,False
+212551,10512,2,0,1 ya pokrovskaya ulitsa,False,True,inside_section,3072,17616,7440,True,True,True
+212578,7344,2,0,1 ya radial'naya ulitsa,False,False,before_sections,,,,True,True,True
+212578,10352,2,0,1 ya radial'naya ulitsa,False,False,before_sections,,,,True,True,True
+212578,12432,1,1,1 ya stekol'naya ulitsa,False,False,before_sections,,,,True,True,True
+213469,5380,11,0,1 ya tekstil'shchikov ulitsa,False,True,inside_section,768,29444,4612,True,True,False
+213469,16292,5,0,1 ya tekstil'shchikov ulitsa,False,True,inside_section,768,29444,15524,True,True,False
+213869,3168,1,1,1 ya vol'skaya ulitsa,False,False,before_sections,,,,True,True,True
+213869,3232,2,1,1 ya vol'skaya ulitsa,False,False,before_sections,,,,True,True,True
+210160,12900,13,1,10 iy mikrorayon,False,True,inside_section,3072,31364,9828,True,True,False
+217863,4860,1,1,10 iy mikrorayon,False,True,inside_section,2048,23292,2812,True,True,False
+214099,4256,4,0,10 letiya oktyabrya ulitsa,False,True,inside_section,1536,23424,2720,True,True,True
+214133,7116,6,0,10 letiya oktyabrya ulitsa,False,False,no_known_sections,,,,True,True,False
+215169,9528,1,0,10 y proezd mar'inoy roshchi,False,False,no_known_sections,,,,True,True,True
+215357,8696,3,0,10 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,7928,True,True,True
+215357,9752,1,0,10 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,8984,True,True,True
+209188,11716,1,0,10 ya chobotovskaya alleya,False,True,inside_section,2048,23428,9668,True,True,False
+216283,3852,1,0,10 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,4844,6,0,10 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,15212,5,0,10 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216256,440,4,1,10 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,True
+216256,7608,1,0,10 ya parkovaya ulitsa,False,True,inside_section,1536,21496,6072,True,True,True
+216256,4472,2,1,10 ya parkovaya ulitsa,False,True,inside_section,1536,21496,2936,True,True,True
+216283,6668,3,0,10 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,2636,1,1,10 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+212578,10576,1,0,10 ya radial'naya ulitsa,False,False,before_sections,,,,True,True,True
+213469,6692,5,0,10 ya tekstil'shchikov ulitsa,False,True,inside_section,768,29444,5924,True,True,False
+209188,12452,4,0,10 ya ulitsa novye sady,False,True,inside_section,2048,23428,10404,True,True,False
+215720,14832,5,0,10 ya ulitsa sokolinoy gory,False,True,inside_section,3072,29712,11760,True,True,True
+215720,9776,15,0,10 ya ulitsa sokolinoy gory,False,True,inside_section,3072,29712,6704,True,True,True
+215720,7184,3,1,10 ya ulitsa sokolinoy gory,False,True,inside_section,3072,29712,4112,True,True,True
+217863,4924,2,0,11 iy mikrorayon,False,True,inside_section,2048,23292,2876,True,True,False
+217863,4892,18,1,11 iy mikrorayon,False,True,inside_section,2048,23292,2844,True,True,False
+217897,10072,5,1,11 iy mikrorayon,False,False,before_sections,,,,True,True,True
+215169,9560,1,0,11 y proezd mar'inoy roshchi,False,False,no_known_sections,,,,True,True,True
+215357,8792,5,0,11 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,8024,True,True,True
+215945,3932,10,0,11 y prospekt novogireevo,False,True,inside_section,1536,21660,2396,True,True,False
+215945,220,1,1,11 y prospekt novogireevo,False,False,before_sections,,,,True,True,False
+215999,1340,2,0,11 y prospekt novogireevo,False,True,inside_section,768,12188,572,True,True,False
+209188,11748,6,0,11 ya chobotovskaya alleya,False,True,inside_section,2048,23428,9700,True,True,False
+216256,14744,1,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,13208,True,True,True
+216283,12684,1,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,15372,23,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,6444,4,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216256,568,7,1,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,True
+216283,2668,1,1,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,2380,11,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,10636,24,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216308,7220,8,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,19604,5684,True,True,False
+216256,7672,4,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,6136,True,True,True
+216256,792,8,0,11 ya parkovaya ulitsa,False,True,inside_section,768,1024,24,True,True,True
+216283,3020,5,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216256,10488,3,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,8952,True,True,True
+216256,3256,3,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,1720,True,True,True
+216283,3340,4,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,12108,1,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216256,14744,1,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,13208,True,True,True
+216283,12684,1,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,15372,23,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,6444,4,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216256,568,7,1,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,True
+216283,2668,1,1,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,2380,11,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,10636,24,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216308,7220,8,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,19604,5684,True,True,False
+216256,7672,4,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,6136,True,True,True
+216256,792,8,0,11 ya parkovaya ulitsa,False,True,inside_section,768,1024,24,True,True,True
+216283,3020,5,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216256,10488,3,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,8952,True,True,True
+216256,3256,3,0,11 ya parkovaya ulitsa,False,True,inside_section,1536,21496,1720,True,True,True
+216283,3340,4,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+216283,12108,1,0,11 ya parkovaya ulitsa,False,False,before_sections,,,,True,True,False
+212578,10608,1,0,11 ya radial'naya ulitsa,False,False,before_sections,,,,True,True,True
+209188,12580,1,0,11 ya ulitsa novye sady,False,True,inside_section,2048,23428,10532,True,True,False
+213469,7812,11,0,11 ya ulitsa tekstil'shchikov,False,True,inside_section,768,29444,7044,True,True,False
+213469,4708,2,1,11 ya ulitsa tekstil'shchikov,False,True,inside_section,768,29444,3940,True,True,False
+215597,8568,4,0,11 ya ulitsa tekstil'shchikov,False,True,inside_section,1152,23864,7416,True,True,True
+215597,6008,3,1,11 ya ulitsa tekstil'shchikov,False,True,inside_section,1152,23864,4856,True,True,True
+213469,9412,6,0,114a volzhskiy bul'var kvartal,False,True,inside_section,768,29444,8644,True,True,False
+213469,12772,7,1,114a volzhskiy bul'var kvartal,False,True,inside_section,768,29444,12004,True,True,False
+217897,10232,13,1,12 iy mikrorayon,False,False,before_sections,,,,True,True,True
+215357,8952,3,0,12 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,8184,True,True,True
+216682,12200,5,0,12 ya liniya krasnoy sosny,False,False,no_known_sections,,,,True,True,True
+216888,7900,5,0,12 ya liniya krasnoy sosny,False,True,inside_section,1536,9404,6364,True,True,False
+215762,9516,4,0,12 ya novokuz'minskaya ulitsa,False,True,inside_section,1536,26092,7980,True,True,False
+216256,1176,8,0,12 ya parkovaya ulitsa,False,True,inside_section,1024,1536,152,True,True,True
+215357,9048,3,0,13 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,8280,True,True,True
+216888,3964,1,0,13 ya liniya krasnoy sosny,False,True,inside_section,1536,9404,2428,True,True,False
+216888,8060,1,0,13 ya liniya krasnoy sosny,False,True,inside_section,1536,9404,6524,True,True,False
+216308,1684,1,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,148,True,True,False
+216308,7476,34,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,5940,True,True,False
+216308,1716,2,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,180,True,True,False
+216308,1780,15,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,244,True,True,False
+216308,11252,13,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,9716,True,True,False
+216256,1432,5,0,13 ya parkovaya ulitsa,False,True,inside_section,1024,1536,408,True,True,True
+216256,10584,3,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,21496,9048,True,True,True
+216256,3352,1,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,21496,1816,True,True,True
+216308,4596,11,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,3060,True,True,False
+216308,2164,11,1,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,628,True,True,False
+216308,1684,1,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,148,True,True,False
+216308,7476,34,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,5940,True,True,False
+216308,1716,2,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,180,True,True,False
+216308,1780,15,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,244,True,True,False
+216308,11252,13,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,9716,True,True,False
+216256,1432,5,0,13 ya parkovaya ulitsa,False,True,inside_section,1024,1536,408,True,True,True
+216256,10584,3,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,21496,9048,True,True,True
+216256,3352,1,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,21496,1816,True,True,True
+216308,4596,11,0,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,3060,True,True,False
+216308,2164,11,1,13 ya parkovaya ulitsa,False,True,inside_section,1536,19604,628,True,True,False
+215646,3476,3,0,137 proezd proektiruemiy,False,True,inside_section,1152,18516,2324,True,True,False
+210134,1572,20,1,14 iy mikrorayon,False,True,inside_section,1536,21476,36,True,True,False
+210160,3364,25,1,14 iy mikrorayon,False,True,inside_section,3072,31364,292,True,True,False
+215357,2488,1,0,14 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,1720,True,True,True
+215357,9144,5,0,14 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,8376,True,True,True
+216256,7032,7,0,14 ya parkovaya ulitsa,False,True,inside_section,1536,21496,5496,True,True,True
+216256,10680,11,0,14 ya parkovaya ulitsa,False,True,inside_section,1536,21496,9144,True,True,True
+209486,6536,2,0,1438 proezd proektiruemiy,False,True,inside_section,1536,12104,5000,True,True,True
+209506,10812,1,0,1438 proezd proektiruemiy,False,True,inside_section,1920,35324,8892,True,True,False
+209506,15452,2,1,1438 proezd proektiruemiy,False,True,inside_section,1920,35324,13532,True,True,False
+210134,2212,12,1,15 iy mikrorayon,False,True,inside_section,1536,21476,676,True,True,False
+210160,4164,29,1,15 iy mikrorayon,False,True,inside_section,3072,31364,1092,True,True,False
+216308,1492,2,0,15 ya parkovaya ulitsa,False,True,inside_section,768,1536,724,True,True,False
+216308,2644,1,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1108,True,True,False
+216308,2676,9,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1140,True,True,False
+216308,11668,46,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,10132,True,True,False
+217292,14488,2,0,15 ya parkovaya ulitsa,False,True,inside_section,3072,18968,11416,True,True,True
+216256,1592,13,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,21496,56,True,True,True
+216256,7256,1,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,21496,5720,True,True,True
+216256,11032,18,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,21496,9496,True,True,True
+216308,2964,1,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1428,True,True,False
+216308,13524,12,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,11988,True,True,False
+216308,3412,3,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1876,True,True,False
+216308,14772,12,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,13236,True,True,False
+216308,3604,4,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,2068,True,True,False
+216308,4948,6,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,3412,True,True,False
+216308,2516,8,1,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,980,True,True,False
+216308,1492,2,0,15 ya parkovaya ulitsa,False,True,inside_section,768,1536,724,True,True,False
+216308,2644,1,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1108,True,True,False
+216308,2676,9,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1140,True,True,False
+216308,11668,46,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,10132,True,True,False
+217292,14488,2,0,15 ya parkovaya ulitsa,False,True,inside_section,3072,18968,11416,True,True,True
+216256,1592,13,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,21496,56,True,True,True
+216256,7256,1,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,21496,5720,True,True,True
+216256,11032,18,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,21496,9496,True,True,True
+216308,2964,1,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1428,True,True,False
+216308,13524,12,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,11988,True,True,False
+216308,3412,3,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1876,True,True,False
+216308,14772,12,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,13236,True,True,False
+216308,3604,4,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,2068,True,True,False
+216308,4948,6,0,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,3412,True,True,False
+216308,2516,8,1,15 ya parkovaya ulitsa,False,True,inside_section,1536,19604,980,True,True,False
+210873,3504,1,0,153 proezd proektiruemiy,False,False,before_sections,,,,True,True,True
+210892,6708,2,0,153 proezd proektiruemiy,False,True,inside_section,1536,25492,5172,True,True,False
+210134,2596,10,1,16 iy mikrorayon,False,True,inside_section,1536,21476,1060,True,True,False
+210160,5092,21,1,16 iy mikrorayon,False,True,inside_section,3072,31364,2020,True,True,False
+216256,3864,2,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,21496,2328,True,True,True
+217292,3352,2,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,280,True,True,True
+217321,7060,1,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,22260,5524,True,True,False
+217292,3736,3,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,664,True,True,True
+217292,12952,4,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,9880,True,True,True
+217292,3832,9,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,760,True,True,True
+217292,14552,7,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,11480,True,True,True
+217321,7092,1,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,22260,5556,True,True,False
+216256,2008,6,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,21496,472,True,True,True
+216256,11608,5,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,21496,10072,True,True,True
+216308,2996,1,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1460,True,True,False
+216308,3508,3,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1972,True,True,False
+216308,15156,14,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,19604,13620,True,True,False
+217292,4280,8,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,1208,True,True,True
+217292,15160,20,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,12088,True,True,True
+217292,15928,4,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,12856,True,True,True
+216256,3864,2,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,21496,2328,True,True,True
+217292,3352,2,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,280,True,True,True
+217321,7060,1,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,22260,5524,True,True,False
+217292,3736,3,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,664,True,True,True
+217292,12952,4,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,9880,True,True,True
+217292,3832,9,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,760,True,True,True
+217292,14552,7,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,11480,True,True,True
+217321,7092,1,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,22260,5556,True,True,False
+216256,2008,6,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,21496,472,True,True,True
+216256,11608,5,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,21496,10072,True,True,True
+216308,2996,1,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1460,True,True,False
+216308,3508,3,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,19604,1972,True,True,False
+216308,15156,14,0,16 ya parkovaya ulitsa,False,True,inside_section,1536,19604,13620,True,True,False
+217292,4280,8,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,1208,True,True,True
+217292,15160,20,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,12088,True,True,True
+217292,15928,4,0,16 ya parkovaya ulitsa,False,True,inside_section,3072,18968,12856,True,True,True
+215169,9592,3,0,17 y proezd mar'inoy roshchi,False,False,no_known_sections,,,,True,True,True
+215357,9304,1,0,17 y proezd mar'inoy roshchi,False,True,inside_section,768,28088,8536,True,True,True
+210160,5764,29,1,18 iy mikrorayon,False,True,inside_section,3072,31364,2692,True,True,False
+210845,3068,7,0,1812 go goda ulitsa,False,True,inside_section,1536,18300,1532,True,True,False
+210845,3356,1,0,1812 go goda ulitsa,False,True,inside_section,1536,18300,1820,True,True,False
+210845,6396,5,0,1812 go goda ulitsa,False,True,inside_section,1536,18300,4860,True,True,False
+210927,6900,3,0,1812 go goda ulitsa,False,True,inside_section,1536,21012,5364,True,True,False
+210845,4028,5,0,1812 go goda ulitsa,False,True,inside_section,1536,18300,2492,True,True,False
+210845,13372,4,0,1812 go goda ulitsa,False,True,inside_section,1536,18300,11836,True,True,False
+210160,6692,1,1,19 iy mikrorayon,False,True,inside_section,3072,31364,3620,True,True,False
+214346,2444,20,0,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,False
+214346,5388,1,0,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,False
+214346,8716,1,0,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,False
+214346,2092,8,1,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,False
+214302,8496,8,0,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,True
+214302,10960,2,1,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,True
+214346,5580,1,0,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,False
+214346,4396,1,1,1905 go goda ulitsa,False,False,no_known_sections,,,,True,True,False
+209427,10180,1,0,1980 proezd proektiruemiy,False,True,inside_section,3072,24004,7108,True,True,False
+209460,3600,1,0,1980 proezd proektiruemiy,False,True,inside_section,3072,16464,528,True,True,True
+209460,6480,1,0,1980 proezd proektiruemiy,False,True,inside_section,3072,16464,3408,True,True,True
+209506,4028,8,0,1980 proezd proektiruemiy,False,True,inside_section,1920,35324,2108,True,True,False
+209506,10012,1,0,1980 proezd proektiruemiy,False,True,inside_section,1920,35324,8092,True,True,False
+209506,4924,2,1,1980 proezd proektiruemiy,False,True,inside_section,1920,35324,3004,True,True,False
+213399,3024,1,1,1b shlyuzy,False,True,inside_section,1920,3072,1104,True,True,True

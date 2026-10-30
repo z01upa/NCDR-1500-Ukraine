@@ -1,0 +1,7 @@
+component,evidence,address_or_status
+entry,PE entry point,poison.exe 0x00401240; patch.exe 0x00401240
+file_io,msvcrt fopen/fread/fseek/fwrite imports,imported; callers require disassembly
+compression,no zlib/inflate/deflate imports,likely statically linked or custom; not resolved statically here
+coordinate,5555555/MULCOORD constant scan,not yet uniquely identified
+writer,fwrite/fseek imports in poison.exe,writer path not uniquely recovered
+patch,small PE with fopen/fread/fwrite and MessageBoxA,database patch utility likely; exact transformation unresolved

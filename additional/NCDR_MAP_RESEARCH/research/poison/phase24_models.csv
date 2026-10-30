@@ -1,0 +1,9 @@
+model,controls,result,reason
+byte-swizzled_X24_Y24,all verified controls,fails,XCARRY does not match the supplied Qlon delta
+mixed_radix,B/L1/L2/XC,fails,no single inferred radix explains all longitude payloads
+interleaved_bitfields,all axis controls,not supported,changed bits stay in longitude or latitude byte groups
+Morton_Z_order,all axis controls,not supported,no cross-axis bit response observed
+coarse_cell_plus_local,all controls,possible unresolved,rank movement may alter cell/local origin
+sorted_key_plus_payload,all controls,possible unresolved,entry movement follows longitude change
+delta_from_predecessor,B/L2/XC,fails so far,predecessor changes with rank and no common delta established
+20_neighbor_validation,raw neighbors,not performed,neighbor displayed coordinates are absent

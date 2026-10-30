@@ -1,0 +1,34 @@
+NCDR LOD FUZZY V2
+
+7185_MG1__TO__7185_MG2
+  task_count: 204
+  direct_shifted_edge: 86
+  exact_endpoint_path: 19
+  fuzzy_path: 49
+  unresolved: 50
+  minutes: 0.00
+
+7185_MG2__TO__7185_MG3
+  task_count: 246651
+  direct_shifted_edge: 13111
+  exact_endpoint_path: 34
+  fuzzy_path: 2135
+  unresolved: 231371
+  minutes: 0.17
+
+7186_MG1__TO__7186_MG2
+  task_count: 8918
+  direct_shifted_edge: 1033
+  exact_endpoint_path: 10
+  fuzzy_path: 327
+  unresolved: 7548
+  minutes: 0.01
+
+7186_MG2__TO__7186_MG3
+  task_count: 204125
+  direct_shifted_edge: 9064
+  exact_endpoint_path: 29
+  fuzzy_path: 1724
+  unresolved: 193308
+  minutes: 0.15
+

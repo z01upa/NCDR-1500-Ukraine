@@ -1,0 +1,1995 @@
+{
+  "schema_version": 1,
+  "captured_utc": "2026-10-28T21:14:56.851931+00:00",
+  "project": "NCDR_MAP_RESEARCH",
+  "experiment": "evidence-driven cross-region MP0/MG1/MG2/MG3 geoblock research expansion",
+  "scope": "actual NCDx sources read-only; output artifacts restricted to project-owned work directory",
+  "empty_queue_transition_verified": true,
+  "local_director_model": "qwen3.5:9b",
+  "worker_pid": 34220,
+  "worker_desired_state": "RUNNING",
+  "worker_current_task": "AUTO_NCDX_GEOBLOCK_015F77FEE342467B",
+  "worker_health": {
+    "ollama_models": [
+      "hf.co/empero-ai/Qwythos-9B-v2-GGUF:Q4_K_M",
+      "qwen2.5-coder:7b",
+      "qwen3.5:4b",
+      "qwen3.5:9b"
+    ],
+    "ollama_error": null,
+    "selected_model": "qwen3.5:9b",
+    "codex_cli": null
+  },
+  "codex_cli_used_by_worker": true,
+  "codex_call_ledger_rows_since_2026_10_28T20_59Z": 0,
+  "local_coder": {
+    "model": "qwen2.5-coder:7b",
+    "status": "LOCAL_FAILED",
+    "attempts": 2,
+    "request_ids": [
+      "CAP_FE0984F28D8A06A6",
+      "CAP_E2E536253399B6C2"
+    ],
+    "failure": "neither response supplied the required unified diff; generated text was not executed or installed",
+    "manual_fallback_registered": true,
+    "registry_status": "VERIFIED_MANUAL",
+    "registry_sha256": "0c36c55275e7b23f2c302083ba000b3d3c4887a6b4eeaf2dd024cb3d36951be2"
+  },
+  "director_decisions": [
+    {
+      "created_utc": "2026-10-28T21:00:40.326229+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_BFA88D27304C3D5F",
+      "candidate_id": "BFA88D27304C3D5F",
+      "payload_sha256": "c95d68e22dfd51c205ad52d8c41f807695247bf2a9549ae62b2b2d3542519ba8",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_6/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:00:55.452041+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_341AC0CFF3E0ED55",
+      "candidate_id": "341AC0CFF3E0ED55",
+      "payload_sha256": "8de5ff29722500f81c20d348f89a28553783c5cb600010307a300c9638f4a572",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_7/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:01:11.994383+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_BA3C444E00617475",
+      "candidate_id": "BA3C444E00617475",
+      "payload_sha256": "5b9eb07e96753bfc8d3436f66c0d1a3b0c9d14f9abbf57a77d6e0b87c3b67d34",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_4/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:03:33.519384+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_3752A93B6481ED19",
+      "candidate_id": "3752A93B6481ED19",
+      "payload_sha256": "e564ac2bf41e29285e16b703e97a74c5de7d2adee67d23d216034f827afbc3c2",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_0/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:07:36.474314+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_5C72A97B0FB31AA3",
+      "candidate_id": "5C72A97B0FB31AA3",
+      "payload_sha256": "d19a4b07ad105a4162534929a01cc14b498ac6cbf278fb4abfcd23e0ee077f53",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_3/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:08:04.317247+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_5535ABAEF49A5DAD",
+      "candidate_id": "5535ABAEF49A5DAD",
+      "payload_sha256": "0d5bde25f0a562e4a82d505ce2e7e34246a66b6bb613933a164faa180d480e72",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_1/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:08:32.264011+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_B904AF0391CD6F9A",
+      "candidate_id": "B904AF0391CD6F9A",
+      "payload_sha256": "c4df171426345ec2ccd7ffd182ab9314b94630818d2dfb73976545d2d5024dfd",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_6/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:08:59.989403+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_576B24667DC698DD",
+      "candidate_id": "576B24667DC698DD",
+      "payload_sha256": "267113a6ee82065029a2d0cb412828ce22842bbe3c8cbaaaed408bee0e7e4ac4",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_4/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:09:26.267269+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_51AE81FEEFA1C452",
+      "candidate_id": "51AE81FEEFA1C452",
+      "payload_sha256": "65efb2c150e16c31ac41da29b4b9b3f3f2badd957a04ad414f3d73e25154ab09",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_4/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:09:55.015177+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_5233221EB766E434",
+      "candidate_id": "5233221EB766E434",
+      "payload_sha256": "4ef439e1cbef644b4c0036c530901ec5d784630c07f71c44bf9f8510351a624f",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_0/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:10:22.722544+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_AD0205875F2E39D2",
+      "candidate_id": "AD0205875F2E39D2",
+      "payload_sha256": "fa9cc2e07f238e15268d7e23cdba60bc70fc32eef5c89723ff2f52ce3f63ae94",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_3/scale_1000000_lon_lat",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:10:48.275178+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_4EE3FC29B57CB637",
+      "candidate_id": "4EE3FC29B57CB637",
+      "payload_sha256": "9ed9229fb977ac1e58b7d36df809b1a7a0257bbdf10e5fa8b1ef55f69ba12203",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_7/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:11:15.481577+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_7AB262D765C9B6C7",
+      "candidate_id": "7AB262D765C9B6C7",
+      "payload_sha256": "21118d9ff325b7f0ae4262fe8e8c8053ed84141abcc710f9c6ac6d550cb0acb0",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_2/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:11:43.133553+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_56583AA77D7CAEF4",
+      "candidate_id": "56583AA77D7CAEF4",
+      "payload_sha256": "91e9f3138eca2e511c444578d4854af97a1ce3826a887a16f4735f15193101d2",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_3/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:12:09.486877+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_CE5FBBC147AA786B",
+      "candidate_id": "CE5FBBC147AA786B",
+      "payload_sha256": "508594b02bd48e1b7bbc86e3bdfd004f4a0e37f9b2d39adac31180c4e8078d21",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_5/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:12:37.207985+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_F58FDD73EAC982FE",
+      "candidate_id": "F58FDD73EAC982FE",
+      "payload_sha256": "3f2d51ac66b7b45eb3325496850f3e1f0c74e71b2d72185cb8ada601e473423c",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_2/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:13:04.437149+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_20D438B3C488E26A",
+      "candidate_id": "20D438B3C488E26A",
+      "payload_sha256": "72f5626eef8c20af5b10c8dabfdaed2a2fea5e1ba4e522ea8f1b9da0f1b0bd43",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_4/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:13:32.078064+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_DE488BA33B387766",
+      "candidate_id": "DE488BA33B387766",
+      "payload_sha256": "96f94dfbe2c94b8df1349ab7882e24e5fbe719d6180a2546fed13c45891d27fa",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_6/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:13:59.433114+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_C59EDB28A70FA06C",
+      "candidate_id": "C59EDB28A70FA06C",
+      "payload_sha256": "58cfbc5b0913563f7532ee0f6d27fba8114bf0ee6aa67e5354a957d74690e120",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_6/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:14:27.279900+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_C1556287BF455F6D",
+      "candidate_id": "C1556287BF455F6D",
+      "payload_sha256": "dba423b35c251cf21b8568bae02a3b4c0f643ebe850c8d0960adc17d187c0b19",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_4/scale_1000000_lon_lat",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    },
+    {
+      "created_utc": "2026-10-28T21:14:53.393803+00:00",
+      "task_id": "AUTO_NCDX_GEOBLOCK_015F77FEE342467B",
+      "candidate_id": "015F77FEE342467B",
+      "payload_sha256": "d10b0dcd96717e140dbc2194c9f0da6ed4ed7910f7dd1c82754f15155f3ca264",
+      "regions": [
+        "SW",
+        "Scandinavia"
+      ],
+      "measurement": "alignment_2/scale_1000000_lat_lon",
+      "director": "qwen3.5:9b",
+      "codex_cli_used": false
+    }
+  ],
+  "geoblock_task_count": 21,
+  "geoblock_superseded_count": 1,
+  "independently_accepted_experiment_count": 19,
+  "accepted_experiments": [
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_BFA88D27304C3D5F",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_BFA88D27304C3D5F",
+      "candidate_id": "BFA88D27304C3D5F",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_BFA88D27304C3D5F.json",
+      "artifact_sha256_recorded": "a13d692c0a02e73e92e76c0e00568fcb8a88cca365c5ac4fc1618632cc1c2e1a",
+      "artifact_sha256_readback": "a13d692c0a02e73e92e76c0e00568fcb8a88cca365c5ac4fc1618632cc1c2e1a",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "c95d68e22dfd51c205ad52d8c41f807695247bf2a9549ae62b2b2d3542519ba8",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 255,
+            "coordinate_pairs_in_displaced_control": 39,
+            "points_inside_cty_city_bounding_boxes": 29,
+            "distinct_cty_city_boxes_hit": 19,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 17040,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "c95d68e22dfd51c205ad52d8c41f807695247bf2a9549ae62b2b2d3542519ba8",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 208,
+            "coordinate_pairs_in_displaced_control": 81,
+            "points_inside_cty_city_bounding_boxes": 109,
+            "distinct_cty_city_boxes_hit": 65,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 17040,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "a13d692c0a02e73e92e76c0e00568fcb8a88cca365c5ac4fc1618632cc1c2e1a",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_BFA88D27304C3D5F"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_BA3C444E00617475",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_BA3C444E00617475",
+      "candidate_id": "BA3C444E00617475",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_BA3C444E00617475.json",
+      "artifact_sha256_recorded": "6191409d4e8a54808519af0434ba35ebf3181325e3757884a798ac5cf6cf5306",
+      "artifact_sha256_readback": "6191409d4e8a54808519af0434ba35ebf3181325e3757884a798ac5cf6cf5306",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "5b9eb07e96753bfc8d3436f66c0d1a3b0c9d14f9abbf57a77d6e0b87c3b67d34",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 206,
+            "coordinate_pairs_in_displaced_control": 13,
+            "points_inside_cty_city_bounding_boxes": 26,
+            "distinct_cty_city_boxes_hit": 10,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 16120,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "5b9eb07e96753bfc8d3436f66c0d1a3b0c9d14f9abbf57a77d6e0b87c3b67d34",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 178,
+            "coordinate_pairs_in_displaced_control": 50,
+            "points_inside_cty_city_bounding_boxes": 97,
+            "distinct_cty_city_boxes_hit": 42,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 16120,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "6191409d4e8a54808519af0434ba35ebf3181325e3757884a798ac5cf6cf5306",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_BA3C444E00617475"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_3752A93B6481ED19",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_3752A93B6481ED19",
+      "candidate_id": "3752A93B6481ED19",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_3752A93B6481ED19.json",
+      "artifact_sha256_recorded": "a7620508db294799278fc45dee8741171683218ececd5baaba2379d61086a061",
+      "artifact_sha256_readback": "a7620508db294799278fc45dee8741171683218ececd5baaba2379d61086a061",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "e564ac2bf41e29285e16b703e97a74c5de7d2adee67d23d216034f827afbc3c2",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_0/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 158,
+            "coordinate_pairs_in_displaced_control": 6,
+            "points_inside_cty_city_bounding_boxes": 5,
+            "distinct_cty_city_boxes_hit": 5,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 9430,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "e564ac2bf41e29285e16b703e97a74c5de7d2adee67d23d216034f827afbc3c2",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_0/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 111,
+            "coordinate_pairs_in_displaced_control": 28,
+            "points_inside_cty_city_bounding_boxes": 19,
+            "distinct_cty_city_boxes_hit": 10,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 9430,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "a7620508db294799278fc45dee8741171683218ececd5baaba2379d61086a061",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_3752A93B6481ED19"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_5C72A97B0FB31AA3",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_5C72A97B0FB31AA3",
+      "candidate_id": "5C72A97B0FB31AA3",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_5C72A97B0FB31AA3.json",
+      "artifact_sha256_recorded": "a7cc674ccd7dc01590714b37dc3381a153651a65b5d49b59df7e1bdc35221e62",
+      "artifact_sha256_readback": "a7cc674ccd7dc01590714b37dc3381a153651a65b5d49b59df7e1bdc35221e62",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "d19a4b07ad105a4162534929a01cc14b498ac6cbf278fb4abfcd23e0ee077f53",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_3/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 232,
+            "coordinate_pairs_in_displaced_control": 53,
+            "points_inside_cty_city_bounding_boxes": 30,
+            "distinct_cty_city_boxes_hit": 16,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19897,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "d19a4b07ad105a4162534929a01cc14b498ac6cbf278fb4abfcd23e0ee077f53",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_3/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 172,
+            "coordinate_pairs_in_displaced_control": 106,
+            "points_inside_cty_city_bounding_boxes": 86,
+            "distinct_cty_city_boxes_hit": 62,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19897,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "a7cc674ccd7dc01590714b37dc3381a153651a65b5d49b59df7e1bdc35221e62",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_5C72A97B0FB31AA3"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_5535ABAEF49A5DAD",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_5535ABAEF49A5DAD",
+      "candidate_id": "5535ABAEF49A5DAD",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_5535ABAEF49A5DAD.json",
+      "artifact_sha256_recorded": "2957eca522b9ca172509a1811424d16cc42b85134387c6c14b8bcfa9269bf000",
+      "artifact_sha256_readback": "2957eca522b9ca172509a1811424d16cc42b85134387c6c14b8bcfa9269bf000",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "0d5bde25f0a562e4a82d505ce2e7e34246a66b6bb613933a164faa180d480e72",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_1/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 235,
+            "coordinate_pairs_in_displaced_control": 26,
+            "points_inside_cty_city_bounding_boxes": 23,
+            "distinct_cty_city_boxes_hit": 9,
+            "adjacent_pairs_within_5km": 6,
+            "adjacent_pairs_within_max_step_km": 6,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19277,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "0d5bde25f0a562e4a82d505ce2e7e34246a66b6bb613933a164faa180d480e72",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_1/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 187,
+            "coordinate_pairs_in_displaced_control": 77,
+            "points_inside_cty_city_bounding_boxes": 87,
+            "distinct_cty_city_boxes_hit": 40,
+            "adjacent_pairs_within_5km": 6,
+            "adjacent_pairs_within_max_step_km": 6,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19277,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "2957eca522b9ca172509a1811424d16cc42b85134387c6c14b8bcfa9269bf000",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_5535ABAEF49A5DAD"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_B904AF0391CD6F9A",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_B904AF0391CD6F9A",
+      "candidate_id": "B904AF0391CD6F9A",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_B904AF0391CD6F9A.json",
+      "artifact_sha256_recorded": "9be1ef8c7a0488b0349d8067f725773b2ddb10ad8c87a752dff2d0f300cad5aa",
+      "artifact_sha256_readback": "9be1ef8c7a0488b0349d8067f725773b2ddb10ad8c87a752dff2d0f300cad5aa",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "c4df171426345ec2ccd7ffd182ab9314b94630818d2dfb73976545d2d5024dfd",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 218,
+            "coordinate_pairs_in_displaced_control": 56,
+            "points_inside_cty_city_bounding_boxes": 35,
+            "distinct_cty_city_boxes_hit": 16,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19450,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "c4df171426345ec2ccd7ffd182ab9314b94630818d2dfb73976545d2d5024dfd",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 167,
+            "coordinate_pairs_in_displaced_control": 86,
+            "points_inside_cty_city_bounding_boxes": 105,
+            "distinct_cty_city_boxes_hit": 64,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19450,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "9be1ef8c7a0488b0349d8067f725773b2ddb10ad8c87a752dff2d0f300cad5aa",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_B904AF0391CD6F9A"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_576B24667DC698DD",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_576B24667DC698DD",
+      "candidate_id": "576B24667DC698DD",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_576B24667DC698DD.json",
+      "artifact_sha256_recorded": "8f91f75e507fd790f209e9320976f8cb5950ca8fde92271b44a51deefa444654",
+      "artifact_sha256_readback": "8f91f75e507fd790f209e9320976f8cb5950ca8fde92271b44a51deefa444654",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "267113a6ee82065029a2d0cb412828ce22842bbe3c8cbaaaed408bee0e7e4ac4",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 176,
+            "coordinate_pairs_in_displaced_control": 14,
+            "points_inside_cty_city_bounding_boxes": 22,
+            "distinct_cty_city_boxes_hit": 19,
+            "adjacent_pairs_within_5km": 7,
+            "adjacent_pairs_within_max_step_km": 7,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 17218,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "267113a6ee82065029a2d0cb412828ce22842bbe3c8cbaaaed408bee0e7e4ac4",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 128,
+            "coordinate_pairs_in_displaced_control": 105,
+            "points_inside_cty_city_bounding_boxes": 50,
+            "distinct_cty_city_boxes_hit": 45,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 17218,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "8f91f75e507fd790f209e9320976f8cb5950ca8fde92271b44a51deefa444654",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_576B24667DC698DD"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_51AE81FEEFA1C452",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_51AE81FEEFA1C452",
+      "candidate_id": "51AE81FEEFA1C452",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_51AE81FEEFA1C452.json",
+      "artifact_sha256_recorded": "d3b423babcdf711ef4ea8b204ec03c2c9c904d62270eaf2564e84397fe03d28d",
+      "artifact_sha256_readback": "d3b423babcdf711ef4ea8b204ec03c2c9c904d62270eaf2564e84397fe03d28d",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "WEAK_OR_DIVERGENT_CANDIDATE",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "65efb2c150e16c31ac41da29b4b9b3f3f2badd957a04ad414f3d73e25154ab09",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 243,
+            "coordinate_pairs_in_displaced_control": 86,
+            "points_inside_cty_city_bounding_boxes": 32,
+            "distinct_cty_city_boxes_hit": 22,
+            "adjacent_pairs_within_5km": 6,
+            "adjacent_pairs_within_max_step_km": 6,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 23774,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "65efb2c150e16c31ac41da29b4b9b3f3f2badd957a04ad414f3d73e25154ab09",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 148,
+            "coordinate_pairs_in_displaced_control": 171,
+            "points_inside_cty_city_bounding_boxes": 78,
+            "distinct_cty_city_boxes_hit": 62,
+            "adjacent_pairs_within_5km": 6,
+            "adjacent_pairs_within_max_step_km": 6,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 23774,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "d3b423babcdf711ef4ea8b204ec03c2c9c904d62270eaf2564e84397fe03d28d",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "WEAK_OR_DIVERGENT_CANDIDATE",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_51AE81FEEFA1C452"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_5233221EB766E434",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_5233221EB766E434",
+      "candidate_id": "5233221EB766E434",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_5233221EB766E434.json",
+      "artifact_sha256_recorded": "c50d2153af5fddd23f5d7f3e1d2a50e2433ee3b2dbcc2014671fbcbbec34efc2",
+      "artifact_sha256_readback": "c50d2153af5fddd23f5d7f3e1d2a50e2433ee3b2dbcc2014671fbcbbec34efc2",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "4ef439e1cbef644b4c0036c530901ec5d784630c07f71c44bf9f8510351a624f",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_0/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 163,
+            "coordinate_pairs_in_displaced_control": 18,
+            "points_inside_cty_city_bounding_boxes": 9,
+            "distinct_cty_city_boxes_hit": 9,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 15836,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "4ef439e1cbef644b4c0036c530901ec5d784630c07f71c44bf9f8510351a624f",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_0/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 134,
+            "coordinate_pairs_in_displaced_control": 52,
+            "points_inside_cty_city_bounding_boxes": 43,
+            "distinct_cty_city_boxes_hit": 31,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 15836,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "c50d2153af5fddd23f5d7f3e1d2a50e2433ee3b2dbcc2014671fbcbbec34efc2",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_5233221EB766E434"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_AD0205875F2E39D2",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_AD0205875F2E39D2",
+      "candidate_id": "AD0205875F2E39D2",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_AD0205875F2E39D2.json",
+      "artifact_sha256_recorded": "d47aab65c0ad325a765e748812fa1ff00576c7b2f5001f249b883211ade2f055",
+      "artifact_sha256_readback": "d47aab65c0ad325a765e748812fa1ff00576c7b2f5001f249b883211ade2f055",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "fa9cc2e07f238e15268d7e23cdba60bc70fc32eef5c89723ff2f52ce3f63ae94",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_3/scale_1000000_lon_lat",
+            "coordinate_candidate_pairs_in_region": 106,
+            "coordinate_pairs_in_displaced_control": 33,
+            "points_inside_cty_city_bounding_boxes": 8,
+            "distinct_cty_city_boxes_hit": 6,
+            "adjacent_pairs_within_5km": 6,
+            "adjacent_pairs_within_max_step_km": 6,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 10915,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "fa9cc2e07f238e15268d7e23cdba60bc70fc32eef5c89723ff2f52ce3f63ae94",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_3/scale_1000000_lon_lat",
+            "coordinate_candidate_pairs_in_region": 90,
+            "coordinate_pairs_in_displaced_control": 14,
+            "points_inside_cty_city_bounding_boxes": 23,
+            "distinct_cty_city_boxes_hit": 27,
+            "adjacent_pairs_within_5km": 6,
+            "adjacent_pairs_within_max_step_km": 6,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 10915,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "d47aab65c0ad325a765e748812fa1ff00576c7b2f5001f249b883211ade2f055",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_AD0205875F2E39D2"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_4EE3FC29B57CB637",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_4EE3FC29B57CB637",
+      "candidate_id": "4EE3FC29B57CB637",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_4EE3FC29B57CB637.json",
+      "artifact_sha256_recorded": "d8dda6a40657f1a949f8f9fb312467cc72afda167b9e87af8db476284b047ce5",
+      "artifact_sha256_readback": "d8dda6a40657f1a949f8f9fb312467cc72afda167b9e87af8db476284b047ce5",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "9ed9229fb977ac1e58b7d36df809b1a7a0257bbdf10e5fa8b1ef55f69ba12203",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_7/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 205,
+            "coordinate_pairs_in_displaced_control": 19,
+            "points_inside_cty_city_bounding_boxes": 15,
+            "distinct_cty_city_boxes_hit": 11,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 17569,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "9ed9229fb977ac1e58b7d36df809b1a7a0257bbdf10e5fa8b1ef55f69ba12203",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_7/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 150,
+            "coordinate_pairs_in_displaced_control": 89,
+            "points_inside_cty_city_bounding_boxes": 62,
+            "distinct_cty_city_boxes_hit": 57,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 17569,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "d8dda6a40657f1a949f8f9fb312467cc72afda167b9e87af8db476284b047ce5",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_4EE3FC29B57CB637"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_7AB262D765C9B6C7",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_7AB262D765C9B6C7",
+      "candidate_id": "7AB262D765C9B6C7",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_7AB262D765C9B6C7.json",
+      "artifact_sha256_recorded": "0c6f52a9568258bcb7fc09cbeb44770037731d4b8d75956bc30e2772af34a250",
+      "artifact_sha256_readback": "0c6f52a9568258bcb7fc09cbeb44770037731d4b8d75956bc30e2772af34a250",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "21118d9ff325b7f0ae4262fe8e8c8053ed84141abcc710f9c6ac6d550cb0acb0",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_2/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 231,
+            "coordinate_pairs_in_displaced_control": 92,
+            "points_inside_cty_city_bounding_boxes": 17,
+            "distinct_cty_city_boxes_hit": 13,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 22614,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "21118d9ff325b7f0ae4262fe8e8c8053ed84141abcc710f9c6ac6d550cb0acb0",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_2/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 148,
+            "coordinate_pairs_in_displaced_control": 102,
+            "points_inside_cty_city_bounding_boxes": 65,
+            "distinct_cty_city_boxes_hit": 48,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 22614,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "0c6f52a9568258bcb7fc09cbeb44770037731d4b8d75956bc30e2772af34a250",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_7AB262D765C9B6C7"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_56583AA77D7CAEF4",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_56583AA77D7CAEF4",
+      "candidate_id": "56583AA77D7CAEF4",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_56583AA77D7CAEF4.json",
+      "artifact_sha256_recorded": "86711d1aaed1286545de4b97fd2d0981a2c13116ca157b5cb4b61218c569ae5d",
+      "artifact_sha256_readback": "86711d1aaed1286545de4b97fd2d0981a2c13116ca157b5cb4b61218c569ae5d",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "91e9f3138eca2e511c444578d4854af97a1ce3826a887a16f4735f15193101d2",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_3/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 185,
+            "coordinate_pairs_in_displaced_control": 35,
+            "points_inside_cty_city_bounding_boxes": 17,
+            "distinct_cty_city_boxes_hit": 11,
+            "adjacent_pairs_within_5km": 5,
+            "adjacent_pairs_within_max_step_km": 5,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19963,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "91e9f3138eca2e511c444578d4854af97a1ce3826a887a16f4735f15193101d2",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_3/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 123,
+            "coordinate_pairs_in_displaced_control": 89,
+            "points_inside_cty_city_bounding_boxes": 59,
+            "distinct_cty_city_boxes_hit": 44,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19963,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "86711d1aaed1286545de4b97fd2d0981a2c13116ca157b5cb4b61218c569ae5d",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_56583AA77D7CAEF4"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_CE5FBBC147AA786B",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_CE5FBBC147AA786B",
+      "candidate_id": "CE5FBBC147AA786B",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_CE5FBBC147AA786B.json",
+      "artifact_sha256_recorded": "21fd54d823e130652ccbbfa8b928757d9b72181705255e192ebb76c6d7a5fcf9",
+      "artifact_sha256_readback": "21fd54d823e130652ccbbfa8b928757d9b72181705255e192ebb76c6d7a5fcf9",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "508594b02bd48e1b7bbc86e3bdfd004f4a0e37f9b2d39adac31180c4e8078d21",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_5/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 273,
+            "coordinate_pairs_in_displaced_control": 42,
+            "points_inside_cty_city_bounding_boxes": 30,
+            "distinct_cty_city_boxes_hit": 18,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 22037,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "508594b02bd48e1b7bbc86e3bdfd004f4a0e37f9b2d39adac31180c4e8078d21",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_5/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 165,
+            "coordinate_pairs_in_displaced_control": 94,
+            "points_inside_cty_city_bounding_boxes": 62,
+            "distinct_cty_city_boxes_hit": 49,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 22037,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "21fd54d823e130652ccbbfa8b928757d9b72181705255e192ebb76c6d7a5fcf9",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_CE5FBBC147AA786B"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_F58FDD73EAC982FE",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_F58FDD73EAC982FE",
+      "candidate_id": "F58FDD73EAC982FE",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_F58FDD73EAC982FE.json",
+      "artifact_sha256_recorded": "9199c3d5f0a1cf288856dd943de1371e43d0526887ea458931eff498ff85eb7d",
+      "artifact_sha256_readback": "9199c3d5f0a1cf288856dd943de1371e43d0526887ea458931eff498ff85eb7d",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "3f2d51ac66b7b45eb3325496850f3e1f0c74e71b2d72185cb8ada601e473423c",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_2/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 203,
+            "coordinate_pairs_in_displaced_control": 6,
+            "points_inside_cty_city_bounding_boxes": 22,
+            "distinct_cty_city_boxes_hit": 16,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19310,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "3f2d51ac66b7b45eb3325496850f3e1f0c74e71b2d72185cb8ada601e473423c",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_2/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 159,
+            "coordinate_pairs_in_displaced_control": 89,
+            "points_inside_cty_city_bounding_boxes": 77,
+            "distinct_cty_city_boxes_hit": 69,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 19310,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "9199c3d5f0a1cf288856dd943de1371e43d0526887ea458931eff498ff85eb7d",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_F58FDD73EAC982FE"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_20D438B3C488E26A",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_20D438B3C488E26A",
+      "candidate_id": "20D438B3C488E26A",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_20D438B3C488E26A.json",
+      "artifact_sha256_recorded": "87c5702073d2d8f40a57bf0e51737f8c4d11a35466a614386dc921d131a0dcea",
+      "artifact_sha256_readback": "87c5702073d2d8f40a57bf0e51737f8c4d11a35466a614386dc921d131a0dcea",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "72f5626eef8c20af5b10c8dabfdaed2a2fea5e1ba4e522ea8f1b9da0f1b0bd43",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 253,
+            "coordinate_pairs_in_displaced_control": 96,
+            "points_inside_cty_city_bounding_boxes": 25,
+            "distinct_cty_city_boxes_hit": 19,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 21470,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "72f5626eef8c20af5b10c8dabfdaed2a2fea5e1ba4e522ea8f1b9da0f1b0bd43",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 156,
+            "coordinate_pairs_in_displaced_control": 121,
+            "points_inside_cty_city_bounding_boxes": 62,
+            "distinct_cty_city_boxes_hit": 62,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 21470,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "87c5702073d2d8f40a57bf0e51737f8c4d11a35466a614386dc921d131a0dcea",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_20D438B3C488E26A"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_DE488BA33B387766",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_DE488BA33B387766",
+      "candidate_id": "DE488BA33B387766",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_DE488BA33B387766.json",
+      "artifact_sha256_recorded": "1dab2d5084035536ee3e481a4aaaa2196bb3366cba20c52ea7c19e7ae4f02889",
+      "artifact_sha256_readback": "1dab2d5084035536ee3e481a4aaaa2196bb3366cba20c52ea7c19e7ae4f02889",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "96f94dfbe2c94b8df1349ab7882e24e5fbe719d6180a2546fed13c45891d27fa",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 248,
+            "coordinate_pairs_in_displaced_control": 125,
+            "points_inside_cty_city_bounding_boxes": 26,
+            "distinct_cty_city_boxes_hit": 16,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 22844,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "96f94dfbe2c94b8df1349ab7882e24e5fbe719d6180a2546fed13c45891d27fa",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 148,
+            "coordinate_pairs_in_displaced_control": 140,
+            "points_inside_cty_city_bounding_boxes": 76,
+            "distinct_cty_city_boxes_hit": 56,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 22844,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "1dab2d5084035536ee3e481a4aaaa2196bb3366cba20c52ea7c19e7ae4f02889",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_DE488BA33B387766"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_C59EDB28A70FA06C",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C59EDB28A70FA06C",
+      "candidate_id": "C59EDB28A70FA06C",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_C59EDB28A70FA06C.json",
+      "artifact_sha256_recorded": "3767d8e31f72b1c8218e0e153071d7df7a023f94661e0770f8eecb23b36a25ad",
+      "artifact_sha256_readback": "3767d8e31f72b1c8218e0e153071d7df7a023f94661e0770f8eecb23b36a25ad",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "58cfbc5b0913563f7532ee0f6d27fba8114bf0ee6aa67e5354a957d74690e120",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 185,
+            "coordinate_pairs_in_displaced_control": 24,
+            "points_inside_cty_city_bounding_boxes": 12,
+            "distinct_cty_city_boxes_hit": 6,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 12444,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "58cfbc5b0913563f7532ee0f6d27fba8114bf0ee6aa67e5354a957d74690e120",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_6/scale_1000000_lat_lon",
+            "coordinate_candidate_pairs_in_region": 141,
+            "coordinate_pairs_in_displaced_control": 36,
+            "points_inside_cty_city_bounding_boxes": 47,
+            "distinct_cty_city_boxes_hit": 37,
+            "adjacent_pairs_within_5km": 3,
+            "adjacent_pairs_within_max_step_km": 3,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 12444,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "3767d8e31f72b1c8218e0e153071d7df7a023f94661e0770f8eecb23b36a25ad",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_C59EDB28A70FA06C"
+      }
+    },
+    {
+      "task_id": "AUTO_NCDX_GEOBLOCK_C1556287BF455F6D",
+      "supervisor_task_id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_C1556287BF455F6D",
+      "candidate_id": "C1556287BF455F6D",
+      "status": "DONE/PASS",
+      "supervisor": "DONE/PASS",
+      "artifact_path": "work/autonomous_manager/ncdx/geoblock_research/AUTO_NCDX_GEOBLOCK_C1556287BF455F6D.json",
+      "artifact_sha256_recorded": "8cadff63d223782016e2baee161868c57b39faaa9a11d123b2615a7ad60b0e5f",
+      "artifact_sha256_readback": "8cadff63d223782016e2baee161868c57b39faaa9a11d123b2615a7ad60b0e5f",
+      "artifact_hash_matches": true,
+      "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+      "road_geometry_decoded": false,
+      "source_write_count": 0,
+      "original_media_write_count": 0,
+      "regions": [
+        {
+          "name": "SW",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "dba423b35c251cf21b8568bae02a3b4c0f643ebe850c8d0960adc17d187c0b19",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lon_lat",
+            "coordinate_candidate_pairs_in_region": 160,
+            "coordinate_pairs_in_displaced_control": 22,
+            "points_inside_cty_city_bounding_boxes": 16,
+            "distinct_cty_city_boxes_hit": 13,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 12618,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        },
+        {
+          "name": "Scandinavia",
+          "relative_path": null,
+          "source_sha256": null,
+          "decompressed_sha256": "dba423b35c251cf21b8568bae02a3b4c0f643ebe850c8d0960adc17d187c0b19",
+          "header_families": [
+            "MP0",
+            "MG1",
+            "MG2",
+            "MG3"
+          ],
+          "metrics": {
+            "measurement": "alignment_4/scale_1000000_lon_lat",
+            "coordinate_candidate_pairs_in_region": 108,
+            "coordinate_pairs_in_displaced_control": 23,
+            "points_inside_cty_city_bounding_boxes": 34,
+            "distinct_cty_city_boxes_hit": 42,
+            "adjacent_pairs_within_5km": 4,
+            "adjacent_pairs_within_max_step_km": 4,
+            "max_step_km": 5.0,
+            "max_continuous_region_candidate_points": 2,
+            "payload_bytes_examined": 12618,
+            "raw_coordinate_values_retained": false,
+            "road_geometry_decoded": false,
+            "semantic_claim": "geographic coordinate candidates only; road geometry unproven"
+          }
+        }
+      ],
+      "supervisor_model": "qwen3.5:4b",
+      "supervisor_deterministic_proof": {
+        "artifact_sha256": "8cadff63d223782016e2baee161868c57b39faaa9a11d123b2615a7ad60b0e5f",
+        "fresh_source_and_table_hashes_match": true,
+        "full_payload_zlib_eof_and_hash_match": true,
+        "independent_coordinate_replay_match": true,
+        "cross_region_geographic_cty_controls_match": true,
+        "header_family_count": 8,
+        "region_count": 2,
+        "hypothesis_result": "SUPPORTED_COORDINATE_CANDIDATE_ONLY",
+        "road_geometry_decoded": false,
+        "source_write_count": 0,
+        "original_media_write_count": 0,
+        "claim_scope": "reproducible geographic coordinate candidates and header/CTY comparisons only; no route, road, or navigation semantics proven",
+        "task_id": "AUTO_NCDX_GEOBLOCK_C1556287BF455F6D"
+      }
+    }
+  ],
+  "active_queue_at_capture": [
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_GEOBLOCK_015F77FEE342467B",
+      "status": "PENDING",
+      "agent": "ollama-research-supervisor"
+    }
+  ],
+  "acceptance": {
+    "unit_tests": "84 passed",
+    "tests": [
+      "tests.unit.test_ncdx_geoblock_analyzer",
+      "tests.unit.test_ncdx_geoblock_research",
+      "tests.unit.test_autonomous_manager",
+      "tests.unit.test_empty_queue_replan",
+      "tests.unit.test_project_director"
+    ],
+    "per_task_fresh_source_verifier": "PASS",
+    "per_task_independent_local_supervisor": "PASS",
+    "road_geometry_decoded": false,
+    "original_source_or_media_writes": 0,
+    "sqlite_reset": false,
+    "gui_modified": false,
+    "osm_import_restarted": false
+  }
+}

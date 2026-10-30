@@ -1,0 +1,6 @@
+output,block_type,sector,logical_size,item_offset,item_size,lon24_be,lat24_be,identity_basis
+OUTPUT_B,0x06,0x7749B,16376,0x0C7B,6,26425A,3D001C,"six-byte coordinate signature"
+OUTPUT_L1,0x06,0x7749B,16376,0x0C7B,6,264B5A,3D001C,"same table position/signature"
+OUTPUT_L2,0x06,0x7749B,16376,0x0CA9,6,26995A,3D001C,"same six-byte signature; sorted relocation"
+OUTPUT_T1,0x06,0x7749B,16376,0x0C7B,6,26425A,46001C,"same table position/signature"
+OUTPUT_T2,0x06,0x7749B,16376,0x0C7B,6,26425A,94001C,"same table position/signature"

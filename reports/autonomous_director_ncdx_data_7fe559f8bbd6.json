@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_7fe559f8bbd6",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CL_DEFLATE_COMPRESSIBILITY_PROFILE_99900482",
+  "selected_goal_id": "AUTO_NCDX_DATA_CL_DEFLATE_COMPRESSIBILITY_PROFILE_99900482",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on available structural evidence for CL region; reduces uncertainty regarding data storage characteristics without inferring semantics or requiring hardware changes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CL_DEFLATE_COMPRESSIBILITY_PROFILE_99900482",
+  "candidate_fingerprint": "440064aeb14666da83e8eed7d4738cdcc0b0e7af40f4843f3952a79130a4f9c6",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_7fe559f8bbd6",
+  "remaining_unique_experiments": 20,
+  "created_utc": "2026-10-26T22:25:49.701676+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

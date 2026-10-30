@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b6118734d905",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_b9dacee9",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_b9dacee9",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for `alignment_4/scale_1000000_lat_lon` and other coordinate-based alignments with significant region candidate pairs (e.g., 47, 93, 95, 73). These entries directly address the need to reduce uncertainty regarding map storage and index data by providing decoded coordinate candidates. The evidence is derived from decompressed byte counts and SHA256 hashes confirming data integrity without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_b9dacee9",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "6569f30b541a37f2056f9487366b41c546cc5f59e58fb8d347ca9781d9ea6d17",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b6118734d905",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T15:18:52.250726+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

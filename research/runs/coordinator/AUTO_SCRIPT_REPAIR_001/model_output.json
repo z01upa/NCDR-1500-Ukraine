@@ -1,0 +1,49 @@
+{
+  "task_id": "AUTO_SCRIPT_REPAIR_001",
+  "repair_of": "AUTO_RESEARCH_BOOTSTRAP",
+  "diagnostic": "ScriptRejected: Traceback (most recent call last):\r\n  File \"<string>\", line 57, in <module>\r\n    exec(compile(tree, \"<bounded-research-script>\", \"exec\"), env, env)\r\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"<bounded-research-script>\", line 3, in <module>\r\nKeyError: 'PDX'; expected data['prefixes'][0..2][0..63] integer arrays and result variable common_prefix",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"script\": \"common_prefix = 0\\nfor i in range(64):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nprint(common_prefix)\"\n}",
+  "parsed": {
+    "script": "common_prefix = 0\nfor i in range(64):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nprint(common_prefix)"
+  },
+  "script_test": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 8
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.0529,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "selected_target": "PDX",
+  "script_path": "research/runs/coordinator/AUTO_SCRIPT_REPAIR_001/model_generated_script.py",
+  "script_sha256": "908d9fafdb377a47661cb6e1a408b5dd3ef2dc64b58dea9144942436debc3bac",
+  "preview": [
+    {
+      "region": "SW",
+      "bytes": 754475,
+      "prefix_hex": "7a697001000c00009b3a1b006507000028090000a70f000026150000f91a0000c420000066250000a72a00006d2f000083340000e8390000633f0000c7440000"
+    },
+    {
+      "region": "Italy",
+      "bytes": 14951766,
+      "prefix_hex": "7a697001000c00005ebb0102ca07000054ab000034b100006fb8000008bf0000cec400008aca00007fd0000065d6000036dc00000de20000bfe700007bed0000"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 7828535,
+      "prefix_hex": "7a697001000c00002f4e1b0186070000845e00004e640000bf6a00003e7000009e7600005a7c0000ea81000093870000308d0000ec9200003c9900006e9f0000"
+    }
+  ],
+  "claim_status": "CODE_TESTED_NOT_A_DISK_WRITER"
+}

@@ -1,0 +1,10 @@
+{
+  "original": "PASS: 34 rules",
+  "existing_geometry_edit": "FAIL",
+  "failed_rules": [
+    "old_edge_nonmask_fields",
+    "old_edge_geometry"
+  ],
+  "new_edge_test": "NOT AVAILABLE; none created",
+  "bundled_dependencies": "byte-identical to original existing readers; import discovery tested"
+}

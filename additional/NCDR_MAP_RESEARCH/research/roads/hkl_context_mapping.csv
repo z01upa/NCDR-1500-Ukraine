@@ -1,0 +1,7 @@
+context,keys,one_neighbor_keys,one_neighbor_rate
+"target,ptr",1285,1059,0.824124513618677
+"target,ptr,road",7945,6952,0.875015733165513
+"target,ptr,A,B,C,D",1296,1074,0.8287037037037037
+"target,ptr,F",1294,1071,0.8276661514683153
+"target,ptr,flags",1296,1074,0.8287037037037037
+"target,ptr,road,direction",10280,10280,1.0

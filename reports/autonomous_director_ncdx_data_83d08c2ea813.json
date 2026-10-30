@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_83d08c2ea813",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_1708fbb9",
+  "selected_goal_id": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_1708fbb9",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the highest total_input_bytes (23534776) and inventoried_region_count (3), prioritizing evidence that reduces uncertainty about map storage and data integrity for the NCDx format.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PDX_CONTAINER_ROUNDTRIP_1708fbb9",
+  "candidate_fingerprint": "4d1f4ab0b3f561b95f3693325cd1c4602cb589b40391489e7ffab6ce035c4460",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_83d08c2ea813",
+  "remaining_unique_experiments": 2,
+  "created_utc": "2026-10-26T22:32:24.230813+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

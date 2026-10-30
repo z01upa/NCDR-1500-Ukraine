@@ -1,0 +1,20 @@
+{
+  "artifact_pointers": [
+    "SW/SW/AR2MATE.ABS",
+    "reports/autonomous_supervisor_auto_sw_component_scan_e4416a9cf703.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "14f39f30fa740caa630a639e71f7041ac4a122e2b7343eabe7dc3286e8cb9817",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_SW_COMPONENT_SCAN_e4416a9cf703",
+  "updated_utc": "2026-10-27T19:56:50.938290+00:00",
+  "verified_by_independent_reviewer": false
+}

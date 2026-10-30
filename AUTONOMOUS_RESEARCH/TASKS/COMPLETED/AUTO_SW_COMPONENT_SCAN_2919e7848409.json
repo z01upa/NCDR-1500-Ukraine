@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/SW/PO2MATE.ABS",
+    "work/autonomous_manager/ncdx/component_surveys/AUTO_SW_COMPONENT_SCAN_2919e7848409.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_SW_COMPONENT_SCAN_2919e7848409",
+  "updated_utc": "2026-10-27T19:57:39.384253+00:00"
+}

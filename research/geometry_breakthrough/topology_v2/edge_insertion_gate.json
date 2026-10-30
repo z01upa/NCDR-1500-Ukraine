@@ -1,0 +1,88 @@
+{
+  "status": "REFUSED_BEFORE_MP0_MUTATION",
+  "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+  "candidate": {
+    "block": 886,
+    "nodes": [
+      {
+        "node": 412,
+        "coordinate_integer": [
+          2192516,
+          4874545
+        ],
+        "record_offset": 7390,
+        "record_hex": "6308c5002702b0000602",
+        "degree_low_nibble": 3,
+        "active_candidate_refs": [
+          197,
+          551,
+          176
+        ],
+        "local_incident_edges": [
+          176,
+          197,
+          551
+        ],
+        "active_local_refs_match_incidence": true,
+        "coordinate_duplicate_count": 1,
+        "next_slot_u16_at_plus_8": 518
+      },
+      {
+        "node": 414,
+        "coordinate_integer": [
+          2192529,
+          4874543
+        ],
+        "record_offset": 7410,
+        "record_hex": "4308c300c40029020f01",
+        "degree_low_nibble": 3,
+        "active_candidate_refs": [
+          195,
+          196,
+          553
+        ],
+        "local_incident_edges": [
+          195,
+          196,
+          553
+        ],
+        "active_local_refs_match_incidence": true,
+        "coordinate_duplicate_count": 1,
+        "next_slot_u16_at_plus_8": 271
+      }
+    ],
+    "approximate_straight_line_separation_m": 9.787931397778104,
+    "already_connected_by_local_primary_edge": false,
+    "current_edge_count": 706,
+    "hypothetical_new_edge_id_if_appended": 706,
+    "known_inline_adjacency_capacity": true
+  },
+  "layout_only_if_supported": {
+    "new_section5_record_size_bytes": 14,
+    "new_edge_count": 707,
+    "downstream_section_offsets_if_inserted_at_section5_end_shift_bytes": 14,
+    "section6_to_9_existing_count_and_size": {
+      "counts": {
+        "6": 4,
+        "7": 835,
+        "8": 108,
+        "9": 0
+      },
+      "byte_lengths": {
+        "6": 114,
+        "7": 5845,
+        "8": 1188,
+        "9": 0
+      }
+    },
+    "mutation_performed": false,
+    "mp0_file_written": false
+  },
+  "specific_write_blockers": [
+    "Both candidate nodes have low-nibble degree 3 and the three active references match their actual local incident edges, but each next u16 slot at +8 is already nonzero (518 and 271). It is not established whether raising degree to 4 permits replacing these bytes or whether another firmware consumer uses them.",
+    "Section 5 attributes at +2 and unresolved at +4 have not been assigned safe semantics/defaults; copying arbitrary values or zeroing them would invent route behavior.",
+    "Only coordinate-table selectors 0x1000/0x2000 and shape-present 0x8000 are interpreted. Other flag bits and direction/access semantics remain unresolved.",
+    "Sections 7, 8, and 9 are present after section 5 (7-byte records in section 7 for all blocks; 11-byte records when section 8 has entries; 13-byte section-9 records in 26 blocks). Their association with edge indexes is not known, so appending 14 bytes and shifting offsets alone is not proven sufficient."
+  ],
+  "decision": "Do not serialize a new edge until the inactive section-4 slot and the section-5/sections-7-9 dependencies are resolved. A syntactically parseable edge with guessed fields is not a safe topology result."
+}

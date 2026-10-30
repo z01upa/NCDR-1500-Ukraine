@@ -1,0 +1,19 @@
+{
+  "artifact_pointers": [
+    "reports/autonomous_supervisor_auto_ncdx_data_pdx_repeated_text_coordinate_association_census_9d520f81.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "e356487074747dda12d9db543be3dc97acb0c75486e0cb97a6985a58812366a1",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_ASSOCIATION_CENSUS_9d520f81",
+  "updated_utc": "2026-10-27T13:16:59.719147+00:00",
+  "verified_by_independent_reviewer": false
+}

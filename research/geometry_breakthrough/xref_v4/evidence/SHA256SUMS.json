@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "NK_BIN": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+    "NAVIMAIN_EXE": "8bbeb2a919a4b5e470dd1eaaf47dd029dd2ccf12586b1a4ebb0ea9729087fb07"
+  },
+  "evidence": [
+    {
+      "file": "firmware_xref_tests.log",
+      "bytes": 1248,
+      "sha256": "e2c70f42500c81aef1c9e70d4a432fd4b25e9038995d8cd3173af36f31345dc9"
+    },
+    {
+      "file": "firmware_xref.json",
+      "bytes": 26784,
+      "sha256": "6c45fe3b08634e731aa93454250390c20881d35454b9c282c1d87bf120a138f0"
+    }
+  ]
+}

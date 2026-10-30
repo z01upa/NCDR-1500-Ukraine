@@ -1,0 +1,50 @@
+K:\siemens\src\sx\sx_expnd.c
+030ac5ac  mov.l    r8,@-r15
+030ac5ae  sts.l    PR,@-r15
+030ac5b0  add      #-0x44,r15
+030ac5b2  mov      #0x0,r7
+030ac5b4  bra      0x30ac5bc
+030ac5b6  mov      #0x0,r8
+030ac5b8  add      #0x1,r7
+030ac5ba  add      #0x34,r5
+030ac5bc  cmp/gt   r7,r6
+030ac5be  bf       0x30ac5d2
+030ac5c0  mov.l    @(0x18,r5),r3
+030ac5c2  mov.l    @(0x4,r4),r1
+030ac5c4  cmp/eq   r1,r3
+030ac5c6  bf       0x30ac5b8
+030ac5c8  mov      #0x1,r3
+030ac5ca  nop      
+030ac5cc  shad     r7,r3
+030ac5ce  bra      0x30ac5b8
+030ac5d0  or       r3,r8
+030ac5d2  mov      #0x38,r0
+030ac5d4  mov.l    0x30ac6b8,r3
+030ac5d6  mov      #0x1,r1
+030ac5d8  mov.w    r8,@(r0,r4)
+030ac5da  ldc      r3,GBR
+030ac5dc  mov.l    @(0x50,GBR),r0
+030ac5de  cmp/gt   r1,r0
+030ac5e0  bf       0x30ac604
+030ac5e2  mov      #0x10,r5
+030ac5e4  mov.l    0x30ac6bc,r0
+030ac5e6  mov.l    @(0x4,r4),r4
+030ac5e8  jsr      @r0
+030ac5ea  add      r15,r5
+030ac5ec  mov      #0x10,r3
+030ac5ee  add      r15,r3
+030ac5f0  mov      #0x12,r0
+030ac5f2  mov.b    @(r0,r3),r3
+030ac5f4  extu.b   r3,r4
+030ac5f6  cmp/eq   r8,r4
+030ac5f8  bt       0x30ac604
+030ac5fa  mov.l    0x30ac6ac,r0
+030ac5fc  mov.l    0x30ac6c0,r4
+030ac5fe  mov.w    0x30ac6aa,r5
+030ac600  jsr      @r0
+030ac602  nop      
+030ac604  mov      #0x0,r0
+030ac606  add      #0x44,r15
+030ac608  lds.l    @r15+,PR
+030ac60a  rts      
+030ac60c  mov.l    @r15+,r8

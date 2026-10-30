@@ -1,0 +1,7 @@
+parent_sector,child_index,child_bl_addr,child_sector,child_span,first_local_x16_y16,last_local_x16_y16,entry_count_candidate,table_start,status
+0x76307,0,07743F03,0x7743F,0x03,,,unresolved,,header validates
+0x76307,1,07744B29,0x7744B,0x29,,,unresolved,,header validates
+0x76307,2,07747427,0x77474,0x27,,,unresolved,,header validates
+0x76307,3,07744209,0x77442,0x09,,,unresolved,,header validates
+0x76307,4,07749B20,0x7749B,0x20,,,unresolved,0x0C66 local neighborhood,changed leaf
+0x76307,5,0774BB2B,0x774BB,0x2B,,,unresolved,,header validates

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_131c0ac54ac5",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_DEFLATE_COMPRESSIBILITY_PROFILE_94ea1548",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_DEFLATE_COMPRESSIBILITY_PROFILE_94ea1548",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected MG2 with DEFLATE_COMPRESSIBILITY_PROFILE as it provides a lightweight, deterministic assessment of data compressibility for the 'MG2' region without requiring hardware changes or writing to original media, aligning with constraints to reduce uncertainty about data characteristics.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_DEFLATE_COMPRESSIBILITY_PROFILE_94ea1548",
+  "candidate_fingerprint": "e20d6712cc2e4206cde7c1e0cda5827d94786ca4cc342f0c31267d2e68afe1ed",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_131c0ac54ac5",
+  "remaining_unique_experiments": 38,
+  "created_utc": "2026-10-26T22:20:12.956525+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

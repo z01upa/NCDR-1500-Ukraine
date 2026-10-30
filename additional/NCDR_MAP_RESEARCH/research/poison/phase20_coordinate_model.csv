@@ -1,0 +1,4 @@
+axis,field_offset,width,endianness,B_value,L1_or_T1_value,L2_or_T2_value,delta_small,delta_large,model_status
+longitude,0x0C7B,3,BE,0x26425A,0x264B5A,0x26995A,0x900,0x5700,"confirmed separate 24-bit field; quantized/nonlinear scale"
+latitude,0x0C7E,3,BE,0x3D001C,0x46001C,0x94001C,0x90000,0x570000,"confirmed separate 24-bit field; quantized/nonlinear scale"
+pair,0x0C7B,6,BE,"26425A3D001C","264B5A3D001C / 26425A46001C","26995A3D001C / 26425A94001C",NA,NA,"two-field coordinate item"

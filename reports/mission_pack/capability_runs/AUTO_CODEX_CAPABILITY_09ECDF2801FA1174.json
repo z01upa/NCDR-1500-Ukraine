@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_09ECDF2801FA1174",
+  "request_id": "CAP_09ECDF2801FA1174",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_09ECDF2801FA1174",
+    "reason": "RuntimeError: verification command failed (1): ..E.\n======================================================================\nERROR: test_untracked_allowed_source_is_included_in_the_patch_candidate_set (__main__.CapabilityBrokerIsolationTests.test_untracked_allowed_source_is_included_in_the_patch_candidate_set)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_09ECDF2801FA1174_ATTEMPT_1\\tests\\unit\\test_capability_broker_isolation.py\", line 51, in test_untracked_allowed_source_is_included_in_the_patch_candidate_set\n    candidates = capability_broker._candidate_paths(changed, untracked)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'src.agent.capability_broker' has no attribute '_candidate_paths'\n\n----------------------------------------------------------------------\nRan 4 tests in 1.686s\n\nFAILED (errors=1)\n"
+  },
+  "created_utc": "2026-10-26T15:53:56.963834+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,260 @@
+{
+  "canonical_id": "B07",
+  "created_utc": "2026-10-28T16:08:15.887324+00:00",
+  "experiment": "ncdx_index_integrity_v1",
+  "format_version": 1,
+  "independent_suffix_count": 2,
+  "interpretation": {
+    "endianness": "little-endian container header/offset table as used by the existing reader",
+    "original_media_write_count": 0,
+    "record_lengths": "logical block lengths verified; application-level record lengths remain UNKNOWN",
+    "reference_scope": "absolute compressed-block offsets only; semantic record references remain UNKNOWN",
+    "road_geometry_proven": false,
+    "routing_proven": false,
+    "unexpected_segments": "no bytes remain beyond the terminal absolute offset in these inputs"
+  },
+  "invalid_reference_negative_control_rejection_count": 3,
+  "invalid_reference_negative_controls": [
+    {
+      "case": "first_offset_before_table_end",
+      "reason": "absolute-offset table does not exactly span the payload",
+      "rejected": true
+    },
+    {
+      "case": "zero_length_block_reference",
+      "reason": "absolute-offset table does not exactly span the payload",
+      "rejected": true
+    },
+    {
+      "case": "last_offset_before_eof",
+      "reason": "absolute-offset table does not exactly span the payload",
+      "rejected": true
+    }
+  ],
+  "observations": [
+    {
+      "absolute_offsets_validated": true,
+      "block_count": 1537,
+      "block_size_bytes": 3072,
+      "decoded_sha256": "e51428012b4d4a399eb299712b3990e2af1623730dd43450fe8722e7e9fe38e9",
+      "decoded_size_bytes": 4721544,
+      "first_decoded_block_bytes": 3072,
+      "last_decoded_block_bytes": 2952,
+      "logical_size_bytes": 4721544,
+      "marker_hex": "7a697001",
+      "offset_count": 1538,
+      "offsets_head": [
+        6168,
+        6736,
+        7283,
+        7833
+      ],
+      "offsets_sha256": "dcc3143b2d8f60bfcc147cba69586e15b230b758ecd2fe50542dca0543df70e0",
+      "offsets_tail": [
+        768818,
+        769322,
+        769851,
+        770254
+      ],
+      "opaque_header_u32_le": 604,
+      "physical_size_bytes": 770254,
+      "reader": "src.readers.ncdx_container.read_index+iter_decoded_blocks",
+      "record_semantics": "UNKNOWN",
+      "region": "SW",
+      "relative_path": "SW/DB/EUZ.CTY",
+      "source_mtime_ns": 1281304800000000000,
+      "source_sha256": "c35ba56c33a9155148e2f9865d60a81ecd2e2cf7338c6c32c66474c70e125095",
+      "source_size_bytes": 770254,
+      "suffix": "CTY",
+      "unexplained_trailing_bytes": 0
+    },
+    {
+      "absolute_offsets_validated": true,
+      "block_count": 3663,
+      "block_size_bytes": 3072,
+      "decoded_sha256": "536f12686b9cb8b921f4ce0ca23113a680a9a33b37093bb976a40ac3ff7792e5",
+      "decoded_size_bytes": 11250762,
+      "first_decoded_block_bytes": 3072,
+      "last_decoded_block_bytes": 1098,
+      "logical_size_bytes": 11250762,
+      "marker_hex": "7a697001",
+      "offset_count": 3664,
+      "offsets_head": [
+        14672,
+        15241,
+        15788,
+        16338
+      ],
+      "offsets_sha256": "c279d169ab262fd7e3cd1fe43d838dcbde05c982c200b92ddd07af393a27de9e",
+      "offsets_tail": [
+        1880833,
+        1881355,
+        1881815,
+        1881994
+      ],
+      "opaque_header_u32_le": 615,
+      "physical_size_bytes": 1881994,
+      "reader": "src.readers.ncdx_container.read_index+iter_decoded_blocks",
+      "record_semantics": "UNKNOWN",
+      "region": "Italy",
+      "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.CTY",
+      "source_mtime_ns": 1281304800000000000,
+      "source_sha256": "ac549e6a4292e18e99364088ed22f29741b95dbd50c8076112568430c42a122a",
+      "source_size_bytes": 1881994,
+      "suffix": "CTY",
+      "unexplained_trailing_bytes": 0
+    },
+    {
+      "absolute_offsets_validated": true,
+      "block_count": 3013,
+      "block_size_bytes": 3072,
+      "decoded_sha256": "ac885928ef52b400ce27595271e26c6f7fa31682244caf852d7609aa10125626",
+      "decoded_size_bytes": 9255738,
+      "first_decoded_block_bytes": 3072,
+      "last_decoded_block_bytes": 2874,
+      "logical_size_bytes": 9255738,
+      "marker_hex": "7a697001",
+      "offset_count": 3014,
+      "offsets_head": [
+        12072,
+        12639,
+        13186,
+        13736
+      ],
+      "offsets_sha256": "4ea7f88c34db35b31668d0f2bbfc4f613781c2980ccc8c5ff254ffbabaa578f5",
+      "offsets_tail": [
+        1491890,
+        1492351,
+        1492820,
+        1493275
+      ],
+      "opaque_header_u32_le": 604,
+      "physical_size_bytes": 1493275,
+      "reader": "src.readers.ncdx_container.read_index+iter_decoded_blocks",
+      "record_semantics": "UNKNOWN",
+      "region": "Scandinavia",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.CTY",
+      "source_mtime_ns": 1281304800000000000,
+      "source_sha256": "3ea03c66c082a1a87e0aae68d860b1f5f08698b4e10f15d5036c68979d7bb75b",
+      "source_size_bytes": 1493275,
+      "suffix": "CTY",
+      "unexplained_trailing_bytes": 0
+    },
+    {
+      "absolute_offsets_validated": true,
+      "block_count": 326,
+      "block_size_bytes": 3072,
+      "decoded_sha256": "720575e67a444bfe012328d91076d97f4d85125c48efa04ac41329625d516943",
+      "decoded_size_bytes": 999265,
+      "first_decoded_block_bytes": 3072,
+      "last_decoded_block_bytes": 865,
+      "logical_size_bytes": 999265,
+      "marker_hex": "7a697001",
+      "offset_count": 327,
+      "offsets_head": [
+        1324,
+        2608,
+        3703,
+        4543
+      ],
+      "offsets_sha256": "bf128ceac30ad52671d00196b85a69a71d42e8fe02d2cdf3e5fe7759a4dd94ff",
+      "offsets_tail": [
+        332555,
+        333345,
+        334049,
+        334345
+      ],
+      "opaque_header_u32_le": 1581,
+      "physical_size_bytes": 334345,
+      "reader": "src.readers.ncdx_container.read_index+iter_decoded_blocks",
+      "record_semantics": "UNKNOWN",
+      "region": "SW",
+      "relative_path": "SW/DB/EUZ.IL",
+      "source_mtime_ns": 1281304800000000000,
+      "source_sha256": "8f525568740707a78632fc2914f11317c7277daabd96c67e406c01ca664f0458",
+      "source_size_bytes": 334345,
+      "suffix": "IL",
+      "unexplained_trailing_bytes": 0
+    },
+    {
+      "absolute_offsets_validated": true,
+      "block_count": 9876,
+      "block_size_bytes": 3072,
+      "decoded_sha256": "301570a9f9a214766a68b239ee8a5ee04f4b0d6f5e7e97a08477abbcdc1fec06",
+      "decoded_size_bytes": 30338747,
+      "first_decoded_block_bytes": 3072,
+      "last_decoded_block_bytes": 2747,
+      "logical_size_bytes": 30338747,
+      "marker_hex": "7a697001",
+      "offset_count": 9877,
+      "offsets_head": [
+        39524,
+        40562,
+        41546,
+        42997
+      ],
+      "offsets_sha256": "14287f68af6d3042c17fdb0122925e429ce0552eedd1de8b02d7d19126850abd",
+      "offsets_tail": [
+        10771122,
+        10772477,
+        10773737,
+        10774732
+      ],
+      "opaque_header_u32_le": 1580,
+      "physical_size_bytes": 10774732,
+      "reader": "src.readers.ncdx_container.read_index+iter_decoded_blocks",
+      "record_semantics": "UNKNOWN",
+      "region": "Italy",
+      "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.IL",
+      "source_mtime_ns": 1281304800000000000,
+      "source_sha256": "7f731e3082da763075776792fea24970d6c68fa87f9e61fa0a3d9c639a252cd0",
+      "source_size_bytes": 10774732,
+      "suffix": "IL",
+      "unexplained_trailing_bytes": 0
+    },
+    {
+      "absolute_offsets_validated": true,
+      "block_count": 6841,
+      "block_size_bytes": 3072,
+      "decoded_sha256": "fed3b315e1cb1d6c512b6324e60fa09e322259df8a0653548979c1f417a44f78",
+      "decoded_size_bytes": 21013356,
+      "first_decoded_block_bytes": 3072,
+      "last_decoded_block_bytes": 876,
+      "logical_size_bytes": 21013356,
+      "marker_hex": "7a697001",
+      "offset_count": 6842,
+      "offsets_head": [
+        27384,
+        28790,
+        30114,
+        31472
+      ],
+      "offsets_sha256": "7db2f8ab9156e2f02bcdbbf2c311abccce5c3e7b66034eafc431db280ee92e14",
+      "offsets_tail": [
+        7258654,
+        7259676,
+        7260649,
+        7260990
+      ],
+      "opaque_header_u32_le": 1588,
+      "physical_size_bytes": 7260990,
+      "reader": "src.readers.ncdx_container.read_index+iter_decoded_blocks",
+      "record_semantics": "UNKNOWN",
+      "region": "Scandinavia",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.IL",
+      "source_mtime_ns": 1281304800000000000,
+      "source_sha256": "e19449c4dd42d5d3f364a910cf5b1d5e2c212135abf59d729770c28df9308cb7",
+      "source_size_bytes": 7260990,
+      "suffix": "IL",
+      "unexplained_trailing_bytes": 0
+    }
+  ],
+  "source_catalog": {
+    "path": "evidence/ncdx-structure-catalog.json",
+    "sha256": "3bf3fe4e91e746668c6c6775d64637a985cae0f2db886836c8da119f4af0b436",
+    "task_id": "AUTO_MISSION_EXEC_B06_3F986967"
+  },
+  "source_count": 6,
+  "status": "PASS",
+  "valid_source_absolute_offset_error_count": 0
+}

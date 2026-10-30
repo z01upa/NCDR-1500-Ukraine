@@ -1,0 +1,5 @@
+path_id,depth,sector,type,logical_offset,child_bl_addr,status
+root_to_primary,0,0x000003,0x07,0x30,075EB730,confirmed partial
+root_to_primary,1,0x075EB7,0x08,,,terminal; no proven link to 0x76307
+leaf_parent,0,0x76307,0x09,0x44,07749B20,confirmed partial
+leaf_parent,1,0x7749B,0x06,,,leaf

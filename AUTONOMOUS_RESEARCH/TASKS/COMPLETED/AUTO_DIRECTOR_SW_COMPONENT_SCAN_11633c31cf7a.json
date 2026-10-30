@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_TMC_LOC_0000100001/TMCUPDATE01.DLL",
+    "reports/autonomous_director_sw_component_11633c31cf7a.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_11633c31cf7a",
+  "updated_utc": "2026-10-27T20:02:34.629474+00:00"
+}

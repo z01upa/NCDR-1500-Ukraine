@@ -1,0 +1,12 @@
+sector,span,type,logical_size,relation,incoming,outgoing_09_refs,status
+0x075EB7,0x30,0x08,0,sibling/family first member,0x000003,not decoded,member confirmed
+0x075EE7,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x075F17,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x075F47,0x30,0x08,0,physical-next family member,none proven,07630701 at logical 0x2BC8,bridge confirmed
+0x075F77,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x075FA7,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x075FD7,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x076007,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x076037,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x076067,0x30,0x08,0,physical-next family member,none proven,not decoded,member confirmed
+0x076097,0x21,0x08,0,tail family member,none proven,not decoded,member confirmed

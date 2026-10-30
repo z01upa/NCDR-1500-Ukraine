@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE.DLL",
+    "reports/autonomous_director_sw_component_25f5515ab373.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_25f5515ab373",
+  "updated_utc": "2026-10-27T20:06:55.580377+00:00"
+}

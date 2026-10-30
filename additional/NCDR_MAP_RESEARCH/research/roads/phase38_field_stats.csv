@@ -1,0 +1,3 @@
+field_form,statistics_scope,result,status
+BE16 offsets 0x00..0x1E,complete 2458-slot set unavailable,no semantic field proven,blocked by missing row-level saturation
+BE32 offsets 0x00..0x1C,complete 2458-slot set unavailable,no semantic field proven,blocked by missing row-level saturation

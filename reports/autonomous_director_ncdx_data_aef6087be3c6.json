@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WITH_BOUNDED_FALLBACK",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_aef6087be3c6",
+  "model": "qwen3.5:9b",
+  "model_error": "ValueError: local model returned invalid structured JSON: Unterminated string starting at: line 3 column 13 (char 88)",
+  "model_choice": null,
+  "selected_goal_id": "AUTO_NCDX_DATA_IL_STANDALONE_ZLIB_STREAM_CENSUS_16215e89",
+  "selection_source": "first remaining fixed candidate",
+  "selection_reason": "ValueError: local model returned invalid structured JSON: Unterminated string starting at: line 3 column 13 (char 88)",
+  "safe_schema_validated": false,
+  "next_task_id": "AUTO_NCDX_DATA_IL_STANDALONE_ZLIB_STREAM_CENSUS_16215e89",
+  "candidate_fingerprint": "e0c1ce1a8b40d4a48d103c188348a0d435976554dbdbb05a70a6b07979541a26",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_aef6087be3c6",
+  "remaining_unique_experiments": 12,
+  "created_utc": "2026-10-27T13:23:16.628380+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

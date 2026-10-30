@@ -1,0 +1,20 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE01.DLL",
+    "reports/autonomous_supervisor_auto_ncdx_pe_header_probe_768e79991df1ffe5.json",
+    "reports/periodic/daily/2026-10-27.json",
+    "reports/periodic/daily/2026-10-27.md",
+    "reports/periodic/monthly/2026-10.json",
+    "reports/periodic/monthly/2026-10.md",
+    "reports/periodic/weekly/2026-W44.json",
+    "reports/periodic/weekly/2026-W44.md"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "43a3c04342e6ea15b351c8623a047be8a8c502fae2e6cde79cc1102a113579bf",
+  "status": "DONE",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_PE_HEADER_PROBE_768e79991df1ffe5",
+  "updated_utc": "2026-10-27T20:03:39.015707+00:00",
+  "verified_by_independent_reviewer": false
+}

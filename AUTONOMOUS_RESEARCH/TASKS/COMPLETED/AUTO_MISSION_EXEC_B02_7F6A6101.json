@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "evidence/region-diff-records.json",
+    "reports/mission_pack/runtime/B02.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_MISSION_EXEC_B02_7F6A6101",
+  "updated_utc": "2026-10-28T15:49:40.163542+00:00"
+}

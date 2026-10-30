@@ -1,0 +1,3 @@
+sample_count,pointer_model,observed_structure,F_interpretation,model_status
+20,E & 0x3FFF,in-bounds local offset; repeated 16-byte-looking records nearby,unresolved,confirmed pointer candidate only
+20,E & 0x3FFF,variable range to next pointer,not fixed vertex count,not validated

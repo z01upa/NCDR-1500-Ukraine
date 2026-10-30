@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "canonical_id": "B03",
+  "objective": "Ідентифікувати PE/CE/архітектури виконуваних файлів і формат NK.BIN, не припускаючи тип процесора.",
+  "acceptance": {
+    "inventory_path": "firmware/binary-format-inventory.json",
+    "inventory_sha256": "93b3f1026db2e24672741c7970865fc876843265e51c5658fdb89d20c23e47ce",
+    "component_count": 28,
+    "pe_header_count": 16,
+    "architecture_counts": {
+      "SH4": 16
+    },
+    "nk_bin_included": true,
+    "original_media_write_count": 0,
+    "resumed_existing_artifact": true,
+    "resumed_artifact_verification": {
+      "independent_source_readback": "PASS",
+      "component_count": 28,
+      "pe_header_count": 16,
+      "architecture_counts": {
+        "SH4": 16
+      },
+      "nk_bin_included": true,
+      "original_media_write_count": 0,
+      "semantic_formats_proven": []
+    },
+    "binary_inventory_artifact": {
+      "path": "firmware\\binary-format-inventory.json",
+      "sha256": "93b3f1026db2e24672741c7970865fc876843265e51c5658fdb89d20c23e47ce",
+      "size_bytes": 24479,
+      "description": "B03 manifest-bound firmware and executable format inventory",
+      "acceptance": "PASS: source hashes, CRC32, bounded magic observations, and confirmed PE fields only"
+    },
+    "status": "PASS",
+    "created_utc": "2026-10-28T16:56:28.427353+00:00"
+  },
+  "created_utc": "2026-10-28T16:56:28.427373+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_491b5b632cbe",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_7722bf8d",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_7722bf8d",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements (e.g., alignment_6, alignment_0, alignment_4) with varying counts of region_candidate_pairs and adjacent_pairs_within_5km. Selecting this goal_id prioritizes evidence that reduces uncertainty about map storage and coordinate data structures by analyzing the decoded zlib-compressed census blocks containing these specific alignment and scale measurements.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_7722bf8d",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "2deae10d026865698704b2f09b7e6a4f5569ca3821ae0a0e8a5718fe3e1f700a",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_491b5b632cbe",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T19:35:33.426891+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

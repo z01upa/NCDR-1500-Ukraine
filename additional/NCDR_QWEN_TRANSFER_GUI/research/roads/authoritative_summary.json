@@ -1,0 +1,29 @@
+{
+  "roads": 33381,
+  "owned_objects": 95119,
+  "readable_objects": 20156,
+  "invalid_ch_idx": 0,
+  "invalid_brif": 0,
+  "duplicate_owned_offsets": 29340,
+  "readable_ptr_in_bounds": 20156,
+  "ptr_mod32_distinct_by_target": 1,
+  "unique_readable_slots": 2886,
+  "readable_targets": 30,
+  "Z_slots": 12,
+  "NZ_slots": 2874,
+  "F_invariant_slots": 2797,
+  "physical_nodes": 354,
+  "nodes_one_target": 354,
+  "nodes_multi_target": 0,
+  "targets_one_node": 354,
+  "targets_multi_node": 0,
+  "multi_object_roads": 21112,
+  "transition_occurrences": 24419,
+  "unique_physical_pairs": 1002,
+  "coverage": {
+    "UU": 16339,
+    "RR": 2200,
+    "UR": 2978,
+    "RU": 2902
+  }
+}

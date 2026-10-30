@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_f186a3bf95c1",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6e862e8e",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6e862e8e",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (alignment streams) derived from compressed input. The goal is to identify a specific dataset related to coordinate candidates (implied by 'candidate_measurements' containing alignment scales like 'scale_1000000_lat_lon'). The selected goal_id matches the pattern of processing zlib-decoded coordinate candidate data associated with census blocks or similar grid units, prioritizing the reducti",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6e862e8e",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "3796545b1c9dd1e5f905c9529f8180ddd1ee9602383960af85af741ad0fb4986",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_f186a3bf95c1",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T15:33:20.356247+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

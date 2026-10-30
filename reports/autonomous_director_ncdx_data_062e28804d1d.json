@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_062e28804d1d",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTI_EXACT_BLOCK_ANCHOR_SCAN_8ed43340",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTI_EXACT_BLOCK_ANCHOR_SCAN_8ed43340",
+  "selection_source": "Ollama",
+  "selection_reason": "PTI data offers the largest input volume (13198 bytes) among eligible experiments, providing the most robust structural evidence for map storage and index validation under the EXACT_BLOCK_ANCHOR_SCAN method.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTI_EXACT_BLOCK_ANCHOR_SCAN_8ed43340",
+  "candidate_fingerprint": "ef7b04d58f08b3530cefd7bafbaccccd2fdab18227c4d73dad778a6336bc65a7",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_062e28804d1d",
+  "remaining_unique_experiments": 3,
+  "created_utc": "2026-10-26T23:17:27.739493+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

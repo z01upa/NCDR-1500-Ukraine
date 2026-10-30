@@ -1,0 +1,20 @@
+{
+  "module": {
+    "index": 1,
+    "name": "coredll.dll",
+    "size": 375394,
+    "name_va": 2351370228,
+    "e32_va": 2353303428,
+    "o32_va": 2353352428,
+    "load_va": 2352209920,
+    "attributes": 4103
+  },
+  "export_directory_rva": 229840,
+  "resolved": [
+    {
+      "ordinal": 1044,
+      "name": "memcpy",
+      "export_rva": 176804
+    }
+  ]
+}

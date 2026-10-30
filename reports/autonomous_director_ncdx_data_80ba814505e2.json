@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_80ba814505e2",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_83eb81b9",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_83eb81b9",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains decompressed GeoJSON-like measurements (alignment/scale/lat_lon) with candidate region pairs, directly addressing map storage and coordinate index data. The evidence shows multiple streams (indices 18, 19, 46) containing high counts of candidate pairs for alignment layers, which reduces uncertainty about the spatial structure of the map data. This aligns with the priority to analyze address/index or route data structures without requiring hardware or writing to ",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_83eb81b9",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "b33b89c01b0eedcc7317b5cab42f947b0d226b30c3afaadf47294e75af184722",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_80ba814505e2",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T16:43:32.338151+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

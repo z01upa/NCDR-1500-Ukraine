@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_2ece55e935af",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_3067f66f",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_3067f66f",
+  "selection_source": "Ollama",
+  "selection_reason": "Selecting the MG3 experiment with 8 context bytes offers a balanced trade-off between capturing sufficient local byte patterns for map/address data verification while maintaining lower computational overhead compared to larger context windows, directly addressing uncertainty in storage layout without requiring hardware changes or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG3_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_3067f66f",
+  "candidate_fingerprint": "2f702fd15fbc0c93380ce45ffebbd5ac6fb605edd6c60c2fce743d655074843f",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_2ece55e935af",
+  "remaining_unique_experiments": 2,
+  "created_utc": "2026-10-27T13:49:49.371157+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

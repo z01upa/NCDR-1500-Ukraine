@@ -1,0 +1,13 @@
+{
+  "artifact_pointers": [
+    "work/autonomous_manager/requests/CODEX/CAP_53FC916BDC83DDC9.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "a204400d49b2dda46f61033a0ba18d2e78cce5aac383d993974f224a2d1027bf",
+  "status": "DONE",
+  "task_id": "AUTO_MISSION_EXEC_B02_18200912",
+  "updated_utc": "2026-10-28T15:40:51.422778+00:00",
+  "verified_by_independent_reviewer": false
+}

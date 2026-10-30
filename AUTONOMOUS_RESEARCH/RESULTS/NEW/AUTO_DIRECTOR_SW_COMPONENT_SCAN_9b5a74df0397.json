@@ -1,0 +1,14 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE01.DLL",
+    "reports/autonomous_director_sw_component_9b5a74df0397.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "5e3952ac365bdfb13d81094da703c09f423dd64fed681ca9836df910008d9f16",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_9b5a74df0397",
+  "updated_utc": "2026-10-27T20:03:54.490462+00:00",
+  "verified_by_independent_reviewer": false
+}

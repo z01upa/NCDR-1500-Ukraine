@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_SW_COMPONENT_SCAN_2919e7848409",
+  "target_task": "AUTO_SW_COMPONENT_SCAN_2919e7848409",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:dated_osm_source",
+      "F5:ukrainian_names_test",
+      "F7:final_image_interpreter",
+      "F8:target_disc_layout",
+      "F9:hardware_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_SW_COMPONENT_SCAN_2919e7848409",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_readback": true,
+      "source_path": "SW/SW/PO2MATE.ABS",
+      "source_size_bytes": 4177920,
+      "source_sha256": "ab5d3b3031538237373748a4cd3c39d2ddcd9589a05ae483333d671e3e52c689",
+      "header_sha256": "fd86e098870cf75c2ddd2044b61440348b5cef360a7009c5e2aa6f977070b828",
+      "signature_offsets_reproduced": {},
+      "printable_string_count_reproduced": 11,
+      "read_limit_bytes": 4096,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; bounded observations only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T19:57:47.527207+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "33df692ab6125f02579ca2bb6d4acdef5d8e08e063faf0686303ed0befb45996",
+      "size_bytes": 28147,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "4f7ba48c9c8e15ae3da0639833baa3b3ef68691c8ee3028b3aa303335eb499fd",
+      "size_bytes": 4272,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "3249e0ecd67d4e4ee97ac12e483ee66f458203f5e283d3efd68231b6c6043978",
+      "size_bytes": 28148,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "431edeb0f93a3d61d4fed4c383f29400c1c4a007c76cdea08452e09dc172f81b",
+      "size_bytes": 4271,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "1d34e10d9c4e22feb690cb7e9b4fdc9c8441bbae09fd3f648a48060916cbe66b",
+      "size_bytes": 28149,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "5562dcac48084cb57c42c3ae5e507d446d84b634ea4f6beabc5c55d87bbec44f",
+      "size_bytes": 4271,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

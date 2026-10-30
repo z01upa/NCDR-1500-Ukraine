@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-29T13:28:57.165734+00:00",
+  "original_path": "${NCDR_SOURCE_ROOT}\\SW\\LK841\\HU_HARDWARE_LOC_0000000001\\HU_KERNEL_LOC_0101000870\\NK.BIN",
+  "original_size": 11021915,
+  "original_sha256": "d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847",
+  "checks": [
+    {
+      "check": "original_sha256_unchanged",
+      "status": "PASS",
+      "detail": "current=d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847; expected=d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847"
+    },
+    {
+      "check": "probe_sha256_matches_original",
+      "status": "PASS",
+      "detail": "probe=d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847; current=d5a626f03cd1ef945d699b17332d57acf8f7c6fd7bbe765fbbcc771e14d90847"
+    },
+    {
+      "check": "no_validated_standard_romhdr_toc",
+      "status": "PASS",
+      "detail": "bounded candidates=1; validated=0"
+    },
+    {
+      "check": "ecec_addresses_do_not_resolve",
+      "status": "PASS",
+      "detail": "raw ECEC count=1; no candidate has a validated module TOC"
+    },
+    {
+      "check": "target_names_are_only_string_hits",
+      "status": "PASS",
+      "detail": "one literal hit per target; no validated TOC row or module bytes"
+    },
+    {
+      "check": "extractor_emitted_no_module_files",
+      "status": "PASS",
+      "detail": "[{\"directory\":\"extractor_parse_only\",\"files\":[]},{\"directory\":\"extractor_parse_only_no_override\",\"files\":[]}]"
+    },
+    {
+      "check": "parser_attempt_logs_preserved",
+      "status": "PASS",
+      "detail": "both bounded tool invocations completed; exit code is not extraction success"
+    }
+  ],
+  "product_acceptance": {
+    "nk_format_confirmed": false,
+    "NavigationRem_dll_extracted": false,
+    "nmicore_ce_dll_extracted": false,
+    "navigation_or_routing_role_proven": false,
+    "blocker": "No internally consistent ROMHDR+TOC/XIP region; filename literals are not a module table."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "dataset": "",
+  "claim": "CTY city records and CNY region index linkage decoded; no route graph or navigable disc",
+  "evidence_verified_against_manifest": true,
+  "files": {
+    "CTY": {
+      "type_id": 3,
+      "records": 26525,
+      "record_bytes": 178,
+      "header_bytes": 94,
+      "size_bytes": 4721544,
+      "header_word_90": 4721544,
+      "data_code": "",
+      "sha256": "e51428012b4d4a399eb299712b3990e2af1623730dd43450fe8722e7e9fe38e9"
+    },
+    "CNY": {
+      "type_id": 12,
+      "records": 1109,
+      "record_bytes": 174,
+      "header_bytes": 94,
+      "size_bytes": 193060,
+      "header_word_90": 193060,
+      "data_code": "",
+      "sha256": "206b89402415bbd9366c52063e5e6a0d6adadcd7791f32ef8f196ff0658c0867"
+    },
+    "RL": {
+      "type_id": 21,
+      "records": 249750,
+      "record_bytes": 61,
+      "header_bytes": 94,
+      "size_bytes": 15234844,
+      "header_word_90": 15234844,
+      "data_code": "",
+      "sha256": "9f682996cf62e16d81773ded7d27d4b3b670ab5ad5c07a258a9c64ae84e8efb7"
+    },
+    "TYP": {
+      "type_id": 1,
+      "records": 1252,
+      "record_bytes": 54,
+      "header_bytes": 94,
+      "size_bytes": 67702,
+      "header_word_90": 67702,
+      "data_code": "",
+      "sha256": "50e322ae15176cfec0e237768388143072e24c69b25b0544ebb92511eabfc6d8"
+    },
+    "CL": {
+      "type_id": 19,
+      "records": 26949,
+      "record_bytes": 44,
+      "header_bytes": 94,
+      "size_bytes": 1185850,
+      "header_word_90": 1185850,
+      "data_code": "",
+      "sha256": "864b36120cef6d7baa20f4f46f472b77f670a4b166b537c9e30516437cc08427"
+    },
+    "CT": {
+      "type_id": 20,
+      "records": 47251,
+      "record_bytes": 14,
+      "header_bytes": 94,
+      "size_bytes": 661608,
+      "header_word_90": 661608,
+      "data_code": "",
+      "sha256": "552aaed46ec96cf5afc46af49d63d89bf989c675f6e4013514a269266dc9809e"
+    },
+    "IOF": {
+      "type_id": 21,
+      "records": 150293,
+      "record_bytes": 6,
+      "header_bytes": 94,
+      "size_bytes": 901852,
+      "header_word_90": 901758,
+      "data_code": "",
+      "sha256": "55bd61a8ea16933516d0a28f3f61ced22ee2f99bd945ed064f4be22de993f7da"
+    }
+  },
+  "validated": {
+    "city_records": 26525,
+    "region_records": 1109,
+    "city_ids_sequential": true,
+    "all_city_region_ids_in_range": true,
+    "all_regions_referenced": true,
+    "bbox_coordinate_scale": 100000,
+    "bbox_order_and_degree_range_all_pass": true,
+    "road_name_entries": 249750,
+    "type_name_entries": 1252,
+    "city_lookup_alias_entries": 26949,
+    "alias_exact_city_name": 24286,
+    "alias_not_exact_city_name": 2663,
+    "alias_distinct_city_ids": 25929,
+    "rl_reference_candidates_in_iof_range": true,
+    "iof_records": 150293
+  },
+  "examples": [
+    {
+      "city_id": 0,
+      "name": "TEXUGUEIRAS,ALBUFEIRA",
+      "region_id": 0,
+      "region_name": "FARO",
+      "lon_min": -8.24615,
+      "lat_min": 37.13622,
+      "lon_max": -8.24353,
+      "lat_max": 37.13667,
+      "lon_center": -8.24484,
+      "lat_center": 37.136445
+    },
+    {
+      "city_id": 1,
+      "name": "LOULÉ",
+      "region_id": 0,
+      "region_name": "FARO",
+      "lon_min": -8.1706,
+      "lat_min": 37.05941,
+      "lon_max": -7.96404,
+      "lat_max": 37.15131,
+      "lon_center": -8.06732,
+      "lat_center": 37.10536
+    },
+    {
+      "city_id": 10,
+      "name": "OLHÃO",
+      "region_id": 0,
+      "region_name": "FARO",
+      "lon_min": -7.83488,
+      "lat_min": 37.0879,
+      "lon_max": -7.76077,
+      "lat_max": 37.12862,
+      "lon_center": -7.797825,
+      "lat_center": 37.10826
+    },
+    {
+      "city_id": 100,
+      "name": "POMBAL",
+      "region_id": 5,
+      "region_name": "LEIRIA",
+      "lon_min": -8.72134,
+      "lat_min": 39.8347,
+      "lon_max": -8.58783,
+      "lat_max": 40.0281,
+      "lon_center": -8.654585,
+      "lat_center": 39.9314
+    },
+    {
+      "city_id": 1000,
+      "name": "FRESNO ALHÁNDIGA",
+      "region_id": 37,
+      "region_name": "SALAMANCA",
+      "lon_min": -5.63145,
+      "lat_min": 40.69888,
+      "lon_max": -5.61817,
+      "lat_max": 40.72786,
+      "lon_center": -5.62481,
+      "lat_center": 40.71337
+    },
+    {
+      "city_id": 5000,
+      "name": "DALMENY,SOUTH QUEENSFERRY",
+      "region_id": 107,
+      "region_name": "WEST LOTHIAN",
+      "lon_min": -3.38965,
+      "lat_min": 55.9712,
+      "lon_max": -3.37472,
+      "lat_max": 55.97948,
+      "lon_center": -3.382185,
+      "lat_center": 55.97534
+    },
+    {
+      "city_id": 20000,
+      "name": "BAHRENFELD,HAMBURG",
+      "region_id": 807,
+      "region_name": "HAMBURG",
+      "lon_min": 9.89729,
+      "lat_min": 53.56026,
+      "lon_max": 9.93385,
+      "lat_max": 53.58936,
+      "lon_center": 9.91557,
+      "lat_center": 53.57481
+    },
+    {
+      "city_id": 26524,
+      "name": "TÖRMÄNEN,INARI",
+      "region_id": 1108,
+      "region_name": "LAPPI",
+      "lon_min": 27.47951,
+      "lat_min": 68.60298,
+      "lon_max": 27.54931,
+      "lat_max": 68.63098,
+      "lon_center": 27.51441,
+      "lat_center": 68.61698
+    }
+  ],
+  "limitations": [
+    "City coordinate fields are bounding rectangles, not roads nor confirmed official city centers",
+    "Assumes CP1252 on observed name fields; verify across other disc datasets",
+    "Record layout proven on EU44420940.82 only",
+    "RL first u32 points within IOF index space, but semantics are not yet proven",
+    "CL alternate names may include length-limited or translated labels, not all are strict synonyms",
+    "Does not decode EUZ.RT or MP0/MG1/MG2/MG3 or routing indexes",
+    "This output is not a disk and must not be burned for NCDR 1500"
+  ]
+}

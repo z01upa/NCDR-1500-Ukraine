@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_cbe531e034f3",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_STT_EXACT_BLOCK_ANCHOR_SCAN_aa88916f",
+  "selected_goal_id": "AUTO_NCDX_DATA_STT_EXACT_BLOCK_ANCHOR_SCAN_aa88916f",
+  "selection_source": "Ollama",
+  "selection_reason": "The artifact metadata explicitly identifies 'STT' as the region for a 'Read-only STT regional data profile'. Selecting the corresponding 'EXACT_BLOCK_ANCHOR_SCAN' goal with suffix 'STT' directly targets the specific map storage and address/index data associated with this inventoried region, thereby reducing uncertainty about that specific dataset's structure.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_STT_EXACT_BLOCK_ANCHOR_SCAN_aa88916f",
+  "candidate_fingerprint": "f59dd4450aa2250f7448963701e4576d2a10f32a778a67cf6bcd84bc934e9c25",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_cbe531e034f3",
+  "remaining_unique_experiments": 23,
+  "created_utc": "2026-10-26T22:24:55.858666+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

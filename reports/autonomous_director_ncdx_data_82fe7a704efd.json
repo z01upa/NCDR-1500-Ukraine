@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_82fe7a704efd",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTP_SIGNATURE_SWEEP_81cebfdc",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTP_SIGNATURE_SWEEP_81cebfdc",
+  "selection_source": "Ollama",
+  "selection_reason": "The PTP signature sweep provides direct evidence regarding the storage format and integrity of map data (address/index/route), which is critical for reducing uncertainty about map storage. It avoids physical compatibility claims and does not require writing to original media.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTP_SIGNATURE_SWEEP_81cebfdc",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_82fe7a704efd",
+  "remaining_unique_experiments": 63,
+  "created_utc": "2026-10-25T19:31:57.043626+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

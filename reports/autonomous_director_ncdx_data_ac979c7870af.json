@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_ac979c7870af",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_STANDALONE_ZLIB_STREAM_CENSUS_0e851c48",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_STANDALONE_ZLIB_STREAM_CENSUS_0e851c48",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected MG2 experiment to process a substantial volume of input data (approx. 56MB) for map storage and index preparation, aligning with the active track 'NCDX_REVERSE_ENGINEERING' and 'UKRAINE_OSM_DISC_DATA'. This step contributes to building the internal database without requiring hardware acceptance.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_STANDALONE_ZLIB_STREAM_CENSUS_0e851c48",
+  "candidate_fingerprint": "32a1e663e18bd2429d57562eed5c6702b28bd7a36f33613f15f99686c19e1a74",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_ac979c7870af",
+  "remaining_unique_experiments": 10,
+  "created_utc": "2026-10-27T13:23:51.665947+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

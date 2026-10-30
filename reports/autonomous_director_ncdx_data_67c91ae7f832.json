@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_67c91ae7f832",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG3_LAG_CORRELATION_SCAN_924810c1",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG3_LAG_CORRELATION_SCAN_924810c1",
+  "selection_source": "Ollama",
+  "selection_reason": "Prioritizing evidence that reduces uncertainty about map storage and address/index data by selecting the MG3 LAG Correlation Scan, which directly analyzes latency correlations in map-related datasets across regions.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG3_LAG_CORRELATION_SCAN_924810c1",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_67c91ae7f832",
+  "remaining_unique_experiments": 33,
+  "created_utc": "2026-10-25T19:40:29.237910+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

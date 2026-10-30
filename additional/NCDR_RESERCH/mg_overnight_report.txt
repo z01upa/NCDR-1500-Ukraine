@@ -1,0 +1,1151 @@
+NCDR MG OVERNIGHT MEGAPROBE
+2026-09-23 18:54:34
+
+====================================================================================================
+DATASET: 7185_MG1
+pages: 3925
+S1 exact: 3925 / 3925
+S3 exact: 3925 / 3925
+S3 points equal S1: 835 / 484102 (0.172484%)
+S3 segments equal clean edge: 15 / 476186 (0.003150%)
+clean fanin2 edges: 1165792
+S6[3] == vertex A: 1165656 / 1165792 (99.988334%)
+S6[4] == vertex B: 1165386 / 1165792 (99.965174%)
+
+S6[5] RANGE TESTS:
+h1 621319 / 1165792 (53.295871%)
+h3 5451 / 1165792 (0.467579%)
+h5 322471 / 1165792 (27.661109%)
+h7 18 / 1165792 (0.001544%)
+h11 748390 / 1165792 (64.195843%)
+s3chains 206 / 1165792 (0.017670%)
+S6[5] as S3 endpoint exact: 4
+
+S11 EDGE-REF TESTS:
+w0 raw valid= 922319 shareA= 5030 (0.545%) shareB= 5017 (0.544%) shareAny= 8416 (0.912%) self= 1620
+w0 minus1 valid= 910735 shareA= 4988 (0.548%) shareB= 4928 (0.541%) shareAny= 8352 (0.917%) self= 1554
+w0 plus1 valid= 921624 shareA= 4954 (0.538%) shareB= 4908 (0.533%) shareAny= 8379 (0.909%) self= 1477
+w0 mask15 valid= 922319 shareA= 5030 (0.545%) shareB= 5017 (0.544%) shareAny= 8416 (0.912%) self= 1620
+w0 mask14 valid= 922342 shareA= 5031 (0.545%) shareB= 5017 (0.544%) shareAny= 8417 (0.913%) self= 1620
+w0 mask12 valid= 924919 shareA= 5054 (0.546%) shareB= 5032 (0.544%) shareAny= 8450 (0.914%) self= 1625
+w2 raw valid= 922837 shareA= 5011 (0.543%) shareB= 4865 (0.527%) shareAny= 8277 (0.897%) self= 1592
+w2 minus1 valid= 911204 shareA= 4968 (0.545%) shareB= 4902 (0.538%) shareAny= 8362 (0.918%) self= 1501
+w2 plus1 valid= 922107 shareA= 4927 (0.534%) shareB= 4800 (0.521%) shareAny= 8213 (0.891%) self= 1506
+w2 mask15 valid= 922837 shareA= 5011 (0.543%) shareB= 4865 (0.527%) shareAny= 8277 (0.897%) self= 1592
+w2 mask14 valid= 922869 shareA= 5011 (0.543%) shareB= 4866 (0.527%) shareAny= 8278 (0.897%) self= 1592
+w2 mask12 valid= 925430 shareA= 5023 (0.543%) shareB= 4883 (0.528%) shareAny= 8300 (0.897%) self= 1599
+
+BEST ANGLE TESTS (<=2 deg):
+ 17.43539% 877/5030 angle.turn.w0w1.A.SMALL
+ 17.39563% 875/5030 angle.turn.w0w1.A.CW
+ 17.35586% 873/5030 angle.turn.w0w1.A.CCW
+ 17.34104% 870/5017 angle.turn.w0w1.B.CCW
+ 17.26619% 840/4865 angle.turn.w2w3.B.SMALL
+ 17.26131% 866/5017 angle.turn.w0w1.B.SMALL
+ 17.22508% 838/4865 angle.turn.w2w3.B.CW
+ 17.20452% 837/4865 angle.turn.w2w3.B.CCW
+ 17.10185% 858/5017 angle.turn.w0w1.B.CW
+ 17.04251% 854/5011 angle.turn.w2w3.A.CW
+ 17.04251% 854/5011 angle.turn.w2w3.A.CCW
+ 17.02255% 853/5011 angle.turn.w2w3.A.SMALL
+  1.89583% 95/5011 angle.neighbor.w2w3.A.E_CW
+  1.89583% 95/5011 angle.neighbor.w2w3.A.E_CCW
+  1.79981% 20982/1165792 angle.own.w3.AB.E_CW
+  1.79783% 20959/1165792 angle.own.w1.AB.E_CW
+  1.79063% 20875/1165792 angle.own.w1.AB.E_CCW
+  1.78857% 20851/1165792 angle.own.w3.AB.E_CCW
+  1.72962% 87/5030 angle.neighbor.w0w1.A.E_CCW
+  1.47996% 72/4865 angle.neighbor.w2w3.B.E_CCW
+  1.46441% 17072/1165792 angle.own.w3.BA.E_CCW
+  1.43808% 16765/1165792 angle.own.w1.BA.E_CCW
+  1.35663% 66/4865 angle.neighbor.w2w3.B.E_CW
+  1.33201% 67/5030 angle.neighbor.w0w1.A.E_CW
+  1.29496% 63/4865 angle.neighbor.w2w3.B.N_CCW
+
+S11 ANGLE-LIKE RANGE:
+w1 min/max/distinct/<=359: 0 359 330 1165792 / 1165792
+w3 min/max/distinct/<=359: 0 359 330 1165792 / 1165792
+
+TOP INVARIANT S6 SIGNATURES:
+(794, 3072, 0, 66, 0, 387)
+(794, 3072, 0, 70, 0, 364)
+(794, 3072, 0, 55, 0, 354)
+(794, 3072, 0, 44, 0, 353)
+(794, 3072, 0, 67, 0, 349)
+(794, 3072, 0, 58, 0, 343)
+(794, 3072, 0, 84, 0, 341)
+(794, 3072, 0, 77, 0, 336)
+(794, 3072, 0, 40, 0, 334)
+(794, 3072, 0, 88, 0, 333)
+(794, 3072, 0, 74, 0, 332)
+(794, 3072, 0, 69, 0, 331)
+(794, 3072, 0, 52, 0, 328)
+(794, 3072, 0, 62, 0, 326)
+(794, 3072, 0, 73, 0, 326)
+(794, 3072, 0, 51, 0, 324)
+(794, 3072, 0, 95, 0, 322)
+(794, 3072, 0, 33, 0, 320)
+(794, 3072, 0, 64, 0, 318)
+(794, 3072, 0, 47, 0, 316)
+(794, 3072, 0, 48, 0, 314)
+(794, 3072, 0, 80, 0, 312)
+(794, 3072, 0, 102, 0, 305)
+(794, 3072, 0, 76, 0, 302)
+(794, 3072, 0, 59, 0, 301)
+(794, 3072, 0, 91, 0, 300)
+(794, 3072, 0, 63, 0, 299)
+(794, 3072, 0, 56, 0, 298)
+(794, 3072, 0, 113, 0, 297)
+(794, 3072, 0, 57, 0, 296)
+
+====================================================================================================
+DATASET: 7185_MG2
+pages: 2511
+S1 exact: 2511 / 2511
+S3 exact: 2511 / 2511
+S3 points equal S1: 493 / 250949 (0.196454%)
+S3 segments equal clean edge: 3 / 244322 (0.001228%)
+clean fanin2 edges: 728843
+S6[3] == vertex A: 728794 / 728843 (99.993277%)
+S6[4] == vertex B: 728689 / 728843 (99.978871%)
+
+S6[5] RANGE TESTS:
+h1 330965 / 728843 (45.409642%)
+h3 4768 / 728843 (0.654188%)
+h5 123770 / 728843 (16.981709%)
+h7 9 / 728843 (0.001235%)
+h11 400428 / 728843 (54.940227%)
+s3chains 206 / 728843 (0.028264%)
+S6[5] as S3 endpoint exact: 3
+
+S11 EDGE-REF TESTS:
+w0 raw valid= 541220 shareA= 2854 (0.527%) shareB= 2768 (0.511%) shareAny= 4688 (0.866%) self= 929
+w0 minus1 valid= 534511 shareA= 2821 (0.528%) shareB= 2824 (0.528%) shareAny= 4690 (0.877%) self= 950
+w0 plus1 valid= 540741 shareA= 2808 (0.519%) shareB= 2813 (0.520%) shareAny= 4692 (0.868%) self= 927
+w0 mask15 valid= 541222 shareA= 2854 (0.527%) shareB= 2768 (0.511%) shareAny= 4688 (0.866%) self= 929
+w0 mask14 valid= 541245 shareA= 2855 (0.527%) shareB= 2768 (0.511%) shareAny= 4689 (0.866%) self= 929
+w0 mask12 valid= 543376 shareA= 2868 (0.528%) shareB= 2779 (0.511%) shareAny= 4712 (0.867%) self= 930
+w2 raw valid= 541967 shareA= 2785 (0.514%) shareB= 2749 (0.507%) shareAny= 4593 (0.847%) self= 938
+w2 minus1 valid= 535110 shareA= 2810 (0.525%) shareB= 2804 (0.524%) shareAny= 4657 (0.870%) self= 954
+w2 plus1 valid= 541471 shareA= 2807 (0.518%) shareB= 2717 (0.502%) shareAny= 4612 (0.852%) self= 905
+w2 mask15 valid= 541968 shareA= 2785 (0.514%) shareB= 2749 (0.507%) shareAny= 4593 (0.847%) self= 938
+w2 mask14 valid= 541987 shareA= 2785 (0.514%) shareB= 2749 (0.507%) shareAny= 4593 (0.847%) self= 938
+w2 mask12 valid= 544094 shareA= 2799 (0.514%) shareB= 2762 (0.508%) shareAny= 4614 (0.848%) self= 944
+
+BEST ANGLE TESTS (<=2 deg):
+ 16.98384% 473/2785 angle.turn.w2w3.A.SMALL
+ 16.91203% 471/2785 angle.turn.w2w3.A.CW
+ 16.73250% 466/2785 angle.turn.w2w3.A.CCW
+ 16.66060% 458/2749 angle.turn.w2w3.B.SMALL
+ 16.55147% 455/2749 angle.turn.w2w3.B.CCW
+ 16.51510% 454/2749 angle.turn.w2w3.B.CW
+ 16.36300% 467/2854 angle.turn.w0w1.A.SMALL
+ 16.25723% 450/2768 angle.turn.w0w1.B.SMALL
+ 16.18781% 462/2854 angle.turn.w0w1.A.CW
+ 16.14884% 447/2768 angle.turn.w0w1.B.CCW
+ 16.01261% 457/2854 angle.turn.w0w1.A.CCW
+ 15.96821% 442/2768 angle.turn.w0w1.B.CW
+  2.10231% 60/2854 angle.neighbor.w0w1.A.E_CCW
+  2.04668% 57/2785 angle.neighbor.w2w3.A.E_CW
+  1.91660% 13969/728843 angle.own.w1.AB.E_CW
+  1.90768% 13904/728843 angle.own.w3.AB.E_CW
+  1.90480% 13883/728843 angle.own.w1.AB.E_CCW
+  1.90305% 53/2785 angle.neighbor.w2w3.A.E_CCW
+  1.89890% 13840/728843 angle.own.w3.AB.E_CCW
+  1.75193% 50/2854 angle.neighbor.w0w1.A.E_CW
+  1.70971% 47/2749 angle.neighbor.w2w3.B.E_CCW
+  1.52845% 11140/728843 angle.own.w3.BA.E_CCW
+  1.50430% 10964/728843 angle.own.w1.BA.E_CCW
+  1.40896% 39/2768 angle.neighbor.w0w1.B.E_CCW
+  1.37283% 38/2768 angle.neighbor.w0w1.B.N_CCW
+
+S11 ANGLE-LIKE RANGE:
+w1 min/max/distinct/<=359: 0 359 329 728843 / 728843
+w3 min/max/distinct/<=359: 0 359 330 728843 / 728843
+
+TOP INVARIANT S6 SIGNATURES:
+(795, 3072, 0, 66, 0, 109)
+(795, 3072, 0, 106, 0, 101)
+(795, 3072, 0, 55, 0, 99)
+(795, 3072, 0, 95, 0, 96)
+(795, 3072, 0, 81, 0, 94)
+(795, 3072, 0, 73, 0, 93)
+(795, 3072, 0, 76, 0, 90)
+(795, 3072, 0, 52, 0, 89)
+(795, 3072, 0, 74, 0, 89)
+(795, 3072, 0, 59, 0, 88)
+(795, 3072, 0, 90, 0, 88)
+(795, 3072, 0, 44, 0, 87)
+(795, 3072, 0, 146, 0, 87)
+(795, 3072, 0, 62, 0, 86)
+(795, 3072, 0, 79, 0, 85)
+(795, 3072, 0, 102, 0, 85)
+(795, 3072, 0, 51, 0, 84)
+(795, 3072, 0, 120, 0, 84)
+(795, 3072, 0, 88, 0, 83)
+(795, 3072, 0, 69, 0, 82)
+(795, 3072, 0, 46, 0, 81)
+(795, 3072, 0, 68, 0, 81)
+(795, 3072, 0, 91, 0, 81)
+(795, 3072, 0, 113, 0, 81)
+(795, 3072, 0, 47, 0, 80)
+(795, 3072, 0, 78, 0, 80)
+(795, 3072, 0, 82, 0, 80)
+(795, 3072, 0, 121, 0, 80)
+(795, 3072, 0, 125, 0, 80)
+(795, 3072, 0, 80, 0, 79)
+
+====================================================================================================
+DATASET: 7185_MG3
+pages: 1617
+S1 exact: 1617 / 1617
+S3 exact: 1617 / 1617
+S3 points equal S1: 228 / 148584 (0.153449%)
+S3 segments equal clean edge: 2 / 143086 (0.001398%)
+clean fanin2 edges: 485080
+S6[3] == vertex A: 485064 / 485080 (99.996702%)
+S6[4] == vertex B: 485050 / 485080 (99.993815%)
+
+S6[5] RANGE TESTS:
+h1 182728 / 485080 (37.669663%)
+h3 3147 / 485080 (0.648759%)
+h5 49119 / 485080 (10.125959%)
+h7 3 / 485080 (0.000618%)
+h11 223671 / 485080 (46.110126%)
+s3chains 211 / 485080 (0.043498%)
+S6[5] as S3 endpoint exact: 1
+
+S11 EDGE-REF TESTS:
+w0 raw valid= 338571 shareA= 1692 (0.500%) shareB= 1685 (0.498%) shareAny= 2794 (0.825%) self= 581
+w0 minus1 valid= 334249 shareA= 1687 (0.505%) shareB= 1654 (0.495%) shareAny= 2723 (0.815%) self= 617
+w0 plus1 valid= 338226 shareA= 1685 (0.498%) shareB= 1686 (0.498%) shareAny= 2796 (0.827%) self= 574
+w0 mask15 valid= 338574 shareA= 1692 (0.500%) shareB= 1685 (0.498%) shareAny= 2794 (0.825%) self= 581
+w0 mask14 valid= 338589 shareA= 1692 (0.500%) shareB= 1685 (0.498%) shareAny= 2794 (0.825%) self= 581
+w0 mask12 valid= 340538 shareA= 1699 (0.499%) shareB= 1696 (0.498%) shareAny= 2811 (0.825%) self= 582
+w2 raw valid= 338878 shareA= 1629 (0.481%) shareB= 1622 (0.479%) shareAny= 2731 (0.806%) self= 515
+w2 minus1 valid= 334588 shareA= 1610 (0.481%) shareB= 1676 (0.501%) shareAny= 2702 (0.808%) self= 580
+w2 plus1 valid= 338518 shareA= 1660 (0.490%) shareB= 1782 (0.526%) shareAny= 2828 (0.835%) self= 611
+w2 mask15 valid= 338879 shareA= 1629 (0.481%) shareB= 1622 (0.479%) shareAny= 2731 (0.806%) self= 515
+w2 mask14 valid= 338896 shareA= 1629 (0.481%) shareB= 1622 (0.479%) shareAny= 2731 (0.806%) self= 515
+w2 mask12 valid= 340820 shareA= 1639 (0.481%) shareB= 1631 (0.479%) shareAny= 2745 (0.805%) self= 520
+
+BEST ANGLE TESTS (<=2 deg):
+ 14.18440% 240/1692 angle.turn.w0w1.A.SMALL
+ 14.18440% 240/1692 angle.turn.w0w1.A.CCW
+ 14.00709% 237/1692 angle.turn.w0w1.A.CW
+ 14.00593% 236/1685 angle.turn.w0w1.B.SMALL
+ 13.94659% 235/1685 angle.turn.w0w1.B.CCW
+ 13.87354% 226/1629 angle.turn.w2w3.A.CCW
+ 13.81215% 225/1629 angle.turn.w2w3.A.SMALL
+ 13.64985% 230/1685 angle.turn.w0w1.B.CW
+ 13.50185% 219/1622 angle.turn.w2w3.B.SMALL
+ 13.37855% 217/1622 angle.turn.w2w3.B.CCW
+ 13.32106% 217/1629 angle.turn.w2w3.A.CW
+ 13.13194% 213/1622 angle.turn.w2w3.B.CW
+  2.14856% 35/1629 angle.neighbor.w2w3.A.E_CCW
+  1.97555% 9583/485080 angle.own.w1.AB.E_CW
+  1.97473% 9579/485080 angle.own.w3.AB.E_CW
+  1.96133% 9514/485080 angle.own.w1.AB.E_CCW
+  1.95968% 9506/485080 angle.own.w3.AB.E_CCW
+  1.66172% 28/1685 angle.neighbor.w0w1.B.E_CCW
+  1.65485% 28/1692 angle.neighbor.w0w1.A.N_CW
+  1.53468% 25/1629 angle.neighbor.w2w3.A.E_CW
+  1.53439% 7443/485080 angle.own.w3.BA.E_CCW
+  1.47965% 24/1622 angle.neighbor.w2w3.B.E_CCW
+  1.47754% 25/1692 angle.neighbor.w0w1.A.E_CW
+  1.47172% 7139/485080 angle.own.w1.BA.E_CCW
+  1.35635% 22/1622 angle.neighbor.w2w3.B.E_CW
+
+S11 ANGLE-LIKE RANGE:
+w1 min/max/distinct/<=359: 0 359 330 485080 / 485080
+w3 min/max/distinct/<=359: 0 359 329 485080 / 485080
+
+TOP INVARIANT S6 SIGNATURES:
+(788, 1024, 0, 142, 0, 67)
+(788, 1024, 0, 124, 0, 61)
+(788, 1024, 0, 113, 0, 59)
+(1284, 1536, 514, 64, 0, 57)
+(1540, 1536, 257, 63, 0, 57)
+(1540, 1536, 257, 67, 0, 57)
+(788, 1024, 0, 112, 0, 56)
+(788, 1024, 0, 154, 0, 56)
+(788, 1024, 0, 148, 0, 55)
+(1540, 1536, 257, 66, 0, 54)
+(788, 1024, 0, 76, 0, 53)
+(1540, 1792, 257, 124, 0, 53)
+(788, 1024, 0, 106, 0, 52)
+(788, 1024, 0, 109, 0, 52)
+(788, 1024, 0, 117, 0, 52)
+(788, 1024, 0, 155, 0, 52)
+(1540, 1536, 257, 64, 0, 52)
+(788, 1024, 0, 88, 0, 51)
+(788, 1024, 0, 153, 0, 51)
+(788, 1024, 0, 95, 0, 50)
+(788, 1024, 0, 126, 0, 50)
+(788, 1024, 0, 131, 0, 50)
+(788, 1024, 0, 164, 0, 50)
+(1284, 1536, 514, 63, 0, 50)
+(1540, 1792, 257, 100, 0, 50)
+(1540, 1792, 257, 121, 0, 50)
+(1540, 1792, 257, 161, 0, 50)
+(788, 1024, 0, 127, 0, 49)
+(788, 1024, 0, 139, 0, 49)
+(788, 1024, 0, 157, 0, 49)
+
+====================================================================================================
+DATASET: 7186_MG1
+pages: 3203
+S1 exact: 3203 / 3203
+S3 exact: 3203 / 3203
+S3 points equal S1: 455 / 447444 (0.101689%)
+S3 segments equal clean edge: 4 / 437900 (0.000913%)
+clean fanin2 edges: 915579
+S6[3] == vertex A: 915503 / 915579 (99.991699%)
+S6[4] == vertex B: 915349 / 915579 (99.974879%)
+
+S6[5] RANGE TESTS:
+h1 381535 / 915579 (41.671445%)
+h3 5549 / 915579 (0.606065%)
+h5 194884 / 915579 (21.285329%)
+h7 14 / 915579 (0.001529%)
+h11 498399 / 915579 (54.435390%)
+s3chains 538 / 915579 (0.058761%)
+S6[5] as S3 endpoint exact: 2
+
+S11 EDGE-REF TESTS:
+w0 raw valid= 687169 shareA= 3693 (0.537%) shareB= 3732 (0.543%) shareAny= 6306 (0.918%) self= 1112
+w0 minus1 valid= 678366 shareA= 3716 (0.548%) shareB= 3671 (0.541%) shareAny= 6308 (0.930%) self= 1073
+w0 plus1 valid= 686616 shareA= 3632 (0.529%) shareB= 3683 (0.536%) shareAny= 6247 (0.910%) self= 1058
+w0 mask15 valid= 687172 shareA= 3693 (0.537%) shareB= 3732 (0.543%) shareAny= 6306 (0.918%) self= 1112
+w0 mask14 valid= 687202 shareA= 3693 (0.537%) shareB= 3733 (0.543%) shareAny= 6307 (0.918%) self= 1112
+w0 mask12 valid= 689909 shareA= 3713 (0.538%) shareB= 3753 (0.544%) shareAny= 6341 (0.919%) self= 1118
+w2 raw valid= 687439 shareA= 3763 (0.547%) shareB= 3654 (0.532%) shareAny= 6342 (0.923%) self= 1068
+w2 minus1 valid= 678660 shareA= 3682 (0.543%) shareB= 3673 (0.541%) shareAny= 6257 (0.922%) self= 1088
+w2 plus1 valid= 686856 shareA= 3590 (0.523%) shareB= 3618 (0.527%) shareAny= 6138 (0.894%) self= 1063
+w2 mask15 valid= 687446 shareA= 3763 (0.547%) shareB= 3654 (0.532%) shareAny= 6342 (0.923%) self= 1068
+w2 mask14 valid= 687475 shareA= 3763 (0.547%) shareB= 3654 (0.532%) shareAny= 6342 (0.923%) self= 1068
+w2 mask12 valid= 690241 shareA= 3781 (0.548%) shareB= 3672 (0.532%) shareAny= 6371 (0.923%) self= 1075
+
+BEST ANGLE TESTS (<=2 deg):
+ 15.21620% 556/3654 angle.turn.w2w3.B.SMALL
+ 14.99726% 548/3654 angle.turn.w2w3.B.CCW
+ 14.86043% 543/3654 angle.turn.w2w3.B.CW
+ 14.58942% 549/3763 angle.turn.w2w3.A.CW
+ 14.45655% 544/3763 angle.turn.w2w3.A.SMALL
+ 14.32368% 539/3763 angle.turn.w2w3.A.CCW
+ 14.18901% 524/3693 angle.turn.w0w1.A.SMALL
+ 14.18901% 524/3693 angle.turn.w0w1.A.CW
+ 14.06752% 525/3732 angle.turn.w0w1.B.CW
+ 14.05361% 519/3693 angle.turn.w0w1.A.CCW
+ 13.90675% 519/3732 angle.turn.w0w1.B.SMALL
+ 13.85316% 517/3732 angle.turn.w0w1.B.CCW
+  2.00955% 18399/915579 angle.own.w3.AB.E_CW
+  2.00955% 18399/915579 angle.own.w1.AB.E_CW
+  2.00769% 18382/915579 angle.own.w1.AB.E_CCW
+  2.00583% 18365/915579 angle.own.w3.AB.E_CCW
+  1.67420% 63/3763 angle.neighbor.w2w3.A.E_CW
+  1.58092% 59/3732 angle.neighbor.w0w1.B.E_CCW
+  1.53257% 56/3654 angle.neighbor.w2w3.B.E_CW
+  1.47783% 54/3654 angle.neighbor.w2w3.B.E_CCW
+  1.47374% 55/3732 angle.neighbor.w0w1.B.E_CW
+  1.44138% 13197/915579 angle.own.w3.BA.E_CCW
+  1.43515% 53/3693 angle.neighbor.w0w1.A.E_CW
+  1.42456% 13043/915579 angle.own.w1.BA.E_CCW
+  1.40807% 52/3693 angle.neighbor.w0w1.A.E_CCW
+
+S11 ANGLE-LIKE RANGE:
+w1 min/max/distinct/<=359: 0 359 330 915579 / 915579
+w3 min/max/distinct/<=359: 0 359 329 915579 / 915579
+
+TOP INVARIANT S6 SIGNATURES:
+(786, 1024, 0, 26, 0, 150)
+(786, 1024, 0, 29, 0, 130)
+(786, 1024, 0, 22, 0, 126)
+(786, 1024, 0, 33, 0, 126)
+(786, 1024, 0, 37, 0, 123)
+(786, 1024, 0, 40, 0, 122)
+(786, 1024, 0, 23, 0, 118)
+(786, 1024, 0, 36, 0, 110)
+(786, 1024, 0, 84, 0, 110)
+(786, 1024, 0, 19, 0, 108)
+(786, 1024, 0, 31, 0, 107)
+(786, 1024, 0, 27, 0, 104)
+(786, 1024, 0, 20, 0, 102)
+(786, 1024, 0, 41, 0, 99)
+(786, 1024, 0, 153, 0, 99)
+(786, 1024, 0, 30, 0, 98)
+(786, 1024, 0, 106, 0, 98)
+(786, 1024, 0, 34, 0, 97)
+(786, 1024, 0, 44, 0, 97)
+(786, 1024, 0, 120, 0, 97)
+(786, 1024, 0, 135, 0, 97)
+(786, 1024, 0, 73, 0, 95)
+(786, 1024, 0, 95, 0, 95)
+(786, 1024, 0, 62, 0, 92)
+(786, 1024, 0, 45, 0, 91)
+(786, 1024, 0, 146, 0, 91)
+(786, 1024, 0, 92, 0, 89)
+(786, 1024, 0, 48, 0, 88)
+(786, 1024, 0, 54, 0, 88)
+(786, 1024, 0, 125, 0, 88)
+
+====================================================================================================
+DATASET: 7186_MG2
+pages: 2335
+S1 exact: 2335 / 2335
+S3 exact: 2335 / 2335
+S3 points equal S1: 370 / 256559 (0.144216%)
+S3 segments equal clean edge: 2 / 248850 (0.000804%)
+clean fanin2 edges: 686824
+S6[3] == vertex A: 686795 / 686824 (99.995778%)
+S6[4] == vertex B: 686734 / 686824 (99.986896%)
+
+S6[5] RANGE TESTS:
+h1 286851 / 686824 (41.764848%)
+h3 4409 / 686824 (0.641940%)
+h5 109271 / 686824 (15.909607%)
+h7 5 / 686824 (0.000728%)
+h11 357211 / 686824 (52.009103%)
+s3chains 339 / 686824 (0.049358%)
+S6[5] as S3 endpoint exact: 2
+
+S11 EDGE-REF TESTS:
+w0 raw valid= 502892 shareA= 2607 (0.518%) shareB= 2582 (0.513%) shareAny= 4365 (0.868%) self= 822
+w0 minus1 valid= 496573 shareA= 2638 (0.531%) shareB= 2556 (0.515%) shareAny= 4336 (0.873%) self= 854
+w0 plus1 valid= 502459 shareA= 2543 (0.506%) shareB= 2572 (0.512%) shareAny= 4309 (0.858%) self= 802
+w0 mask15 valid= 502893 shareA= 2607 (0.518%) shareB= 2582 (0.513%) shareAny= 4365 (0.868%) self= 822
+w0 mask14 valid= 502912 shareA= 2607 (0.518%) shareB= 2582 (0.513%) shareAny= 4365 (0.868%) self= 822
+w0 mask12 valid= 505186 shareA= 2623 (0.519%) shareB= 2592 (0.513%) shareAny= 4390 (0.869%) self= 823
+w2 raw valid= 503512 shareA= 2602 (0.517%) shareB= 2498 (0.496%) shareAny= 4270 (0.848%) self= 826
+w2 minus1 valid= 497097 shareA= 2525 (0.508%) shareB= 2508 (0.505%) shareAny= 4218 (0.849%) self= 809
+w2 plus1 valid= 503065 shareA= 2532 (0.503%) shareB= 2506 (0.498%) shareAny= 4230 (0.841%) self= 801
+w2 mask15 valid= 503513 shareA= 2602 (0.517%) shareB= 2498 (0.496%) shareAny= 4270 (0.848%) self= 826
+w2 mask14 valid= 503535 shareA= 2602 (0.517%) shareB= 2499 (0.496%) shareAny= 4271 (0.848%) self= 826
+w2 mask12 valid= 505824 shareA= 2615 (0.517%) shareB= 2511 (0.496%) shareAny= 4291 (0.848%) self= 831
+
+BEST ANGLE TESTS (<=2 deg):
+ 15.65017% 408/2607 angle.turn.w0w1.A.SMALL
+ 15.49674% 404/2607 angle.turn.w0w1.A.CW
+ 15.38166% 401/2607 angle.turn.w0w1.A.CCW
+ 15.18203% 392/2582 angle.turn.w0w1.B.SMALL
+ 15.18203% 392/2582 angle.turn.w0w1.B.CCW
+ 14.93195% 373/2498 angle.turn.w2w3.B.CW
+ 14.91092% 385/2582 angle.turn.w0w1.B.CW
+ 14.89191% 372/2498 angle.turn.w2w3.B.SMALL
+ 14.75788% 384/2602 angle.turn.w2w3.A.SMALL
+ 14.73179% 368/2498 angle.turn.w2w3.B.CCW
+ 14.60415% 380/2602 angle.turn.w2w3.A.CW
+ 14.48885% 377/2602 angle.turn.w2w3.A.CCW
+  1.99673% 13714/686824 angle.own.w1.AB.E_CW
+  1.98654% 13644/686824 angle.own.w3.AB.E_CW
+  1.98610% 13641/686824 angle.own.w1.AB.E_CCW
+  1.98042% 13602/686824 angle.own.w3.AB.E_CCW
+  1.88151% 47/2498 angle.neighbor.w2w3.B.E_CCW
+  1.82029% 47/2582 angle.neighbor.w0w1.B.E_CCW
+  1.80630% 47/2602 angle.neighbor.w2w3.A.E_CW
+  1.80284% 47/2607 angle.neighbor.w0w1.A.E_CCW
+  1.69101% 44/2602 angle.neighbor.w2w3.A.E_CCW
+  1.61105% 42/2607 angle.neighbor.w0w1.A.E_CW
+  1.51046% 39/2582 angle.neighbor.w0w1.B.N_CCW
+  1.51046% 39/2582 angle.neighbor.w0w1.B.E_CW
+  1.47173% 38/2582 angle.neighbor.w0w1.B.N_CW
+
+S11 ANGLE-LIKE RANGE:
+w1 min/max/distinct/<=359: 0 359 330 686824 / 686824
+w3 min/max/distinct/<=359: 0 359 330 686824 / 686824
+
+TOP INVARIANT S6 SIGNATURES:
+(788, 1024, 0, 142, 0, 67)
+(787, 1024, 0, 26, 0, 61)
+(788, 1024, 0, 124, 0, 61)
+(787, 1024, 0, 132, 0, 60)
+(787, 1024, 0, 106, 0, 59)
+(787, 1024, 0, 113, 0, 59)
+(788, 1024, 0, 113, 0, 59)
+(787, 1024, 0, 103, 0, 57)
+(787, 1024, 0, 168, 0, 57)
+(1284, 1536, 514, 64, 0, 57)
+(1540, 1536, 257, 63, 0, 57)
+(1540, 1536, 257, 67, 0, 57)
+(787, 1024, 0, 77, 0, 56)
+(787, 1024, 0, 120, 0, 56)
+(788, 1024, 0, 112, 0, 56)
+(788, 1024, 0, 154, 0, 56)
+(787, 1024, 0, 146, 0, 55)
+(787, 1024, 0, 153, 0, 55)
+(788, 1024, 0, 148, 0, 55)
+(787, 1024, 0, 33, 0, 54)
+(787, 1024, 0, 161, 0, 54)
+(1540, 1536, 257, 66, 0, 54)
+(787, 1024, 0, 66, 0, 53)
+(787, 1024, 0, 121, 0, 53)
+(1540, 1792, 257, 124, 0, 53)
+(787, 1024, 0, 22, 0, 52)
+(787, 1024, 0, 143, 0, 52)
+(787, 1024, 0, 179, 0, 52)
+(788, 1024, 0, 76, 0, 52)
+(788, 1024, 0, 106, 0, 52)
+
+====================================================================================================
+DATASET: 7186_MG3
+pages: 1610
+S1 exact: 1610 / 1610
+S3 exact: 1610 / 1610
+S3 points equal S1: 228 / 148571 (0.153462%)
+S3 segments equal clean edge: 2 / 143064 (0.001398%)
+clean fanin2 edges: 485088
+S6[3] == vertex A: 485070 / 485088 (99.996289%)
+S6[4] == vertex B: 485055 / 485088 (99.993197%)
+
+S6[5] RANGE TESTS:
+h1 183215 / 485088 (37.769436%)
+h3 3147 / 485088 (0.648748%)
+h5 49473 / 485088 (10.198768%)
+h7 3 / 485088 (0.000618%)
+h11 224260 / 485088 (46.230787%)
+s3chains 214 / 485088 (0.044116%)
+S6[5] as S3 endpoint exact: 1
+
+S11 EDGE-REF TESTS:
+w0 raw valid= 339042 shareA= 1695 (0.500%) shareB= 1682 (0.496%) shareAny= 2794 (0.824%) self= 581
+w0 minus1 valid= 334714 shareA= 1683 (0.503%) shareB= 1648 (0.492%) shareAny= 2712 (0.810%) self= 618
+w0 plus1 valid= 338697 shareA= 1689 (0.499%) shareB= 1682 (0.497%) shareAny= 2798 (0.826%) self= 572
+w0 mask15 valid= 339045 shareA= 1695 (0.500%) shareB= 1682 (0.496%) shareAny= 2794 (0.824%) self= 581
+w0 mask14 valid= 339061 shareA= 1695 (0.500%) shareB= 1682 (0.496%) shareAny= 2794 (0.824%) self= 581
+w0 mask12 valid= 341009 shareA= 1702 (0.499%) shareB= 1693 (0.496%) shareAny= 2811 (0.824%) self= 582
+w2 raw valid= 339297 shareA= 1621 (0.478%) shareB= 1622 (0.478%) shareAny= 2725 (0.803%) self= 514
+w2 minus1 valid= 335020 shareA= 1598 (0.477%) shareB= 1665 (0.497%) shareAny= 2683 (0.801%) self= 576
+w2 plus1 valid= 338938 shareA= 1657 (0.489%) shareB= 1788 (0.528%) shareAny= 2825 (0.833%) self= 616
+w2 mask15 valid= 339298 shareA= 1621 (0.478%) shareB= 1622 (0.478%) shareAny= 2725 (0.803%) self= 514
+w2 mask14 valid= 339315 shareA= 1621 (0.478%) shareB= 1622 (0.478%) shareAny= 2725 (0.803%) self= 514
+w2 mask12 valid= 341244 shareA= 1631 (0.478%) shareB= 1631 (0.478%) shareAny= 2739 (0.803%) self= 519
+
+BEST ANGLE TESTS (<=2 deg):
+ 14.21829% 241/1695 angle.turn.w0w1.A.SMALL
+ 14.21829% 241/1695 angle.turn.w0w1.A.CCW
+ 14.09037% 237/1682 angle.turn.w0w1.B.SMALL
+ 14.04130% 238/1695 angle.turn.w0w1.A.CW
+ 14.03092% 236/1682 angle.turn.w0w1.B.CCW
+ 13.88032% 225/1621 angle.turn.w2w3.A.SMALL
+ 13.88032% 225/1621 angle.turn.w2w3.A.CCW
+ 13.73365% 231/1682 angle.turn.w0w1.B.CW
+ 13.38680% 217/1621 angle.turn.w2w3.A.CW
+ 13.37855% 217/1622 angle.turn.w2w3.B.SMALL
+ 13.25524% 215/1622 angle.turn.w2w3.B.CCW
+ 13.00863% 211/1622 angle.turn.w2w3.B.CW
+  2.15916% 35/1621 angle.neighbor.w2w3.A.E_CCW
+  1.97428% 9577/485088 angle.own.w1.AB.E_CW
+  1.97346% 9573/485088 angle.own.w3.AB.E_CW
+  1.96150% 9515/485088 angle.own.w1.AB.E_CCW
+  1.95841% 9500/485088 angle.own.w3.AB.E_CCW
+  1.72414% 29/1682 angle.neighbor.w0w1.B.E_CCW
+  1.65192% 28/1695 angle.neighbor.w0w1.A.N_CW
+  1.54226% 25/1621 angle.neighbor.w2w3.A.E_CW
+  1.53392% 26/1695 angle.neighbor.w0w1.A.E_CW
+  1.53374% 7440/485088 angle.own.w3.BA.E_CCW
+  1.47965% 24/1622 angle.neighbor.w2w3.B.E_CCW
+  1.46633% 7113/485088 angle.own.w1.BA.E_CCW
+  1.35693% 23/1695 angle.neighbor.w0w1.A.E_CCW
+
+S11 ANGLE-LIKE RANGE:
+w1 min/max/distinct/<=359: 0 359 330 485088 / 485088
+w3 min/max/distinct/<=359: 0 359 329 485088 / 485088
+
+TOP INVARIANT S6 SIGNATURES:
+(788, 1024, 0, 142, 0, 67)
+(788, 1024, 0, 124, 0, 61)
+(788, 1024, 0, 113, 0, 59)
+(1284, 1536, 514, 64, 0, 57)
+(1540, 1536, 257, 63, 0, 57)
+(1540, 1536, 257, 67, 0, 57)
+(788, 1024, 0, 112, 0, 56)
+(788, 1024, 0, 154, 0, 56)
+(788, 1024, 0, 148, 0, 55)
+(1540, 1536, 257, 66, 0, 54)
+(788, 1024, 0, 76, 0, 53)
+(1540, 1792, 257, 124, 0, 53)
+(788, 1024, 0, 106, 0, 52)
+(788, 1024, 0, 109, 0, 52)
+(788, 1024, 0, 117, 0, 52)
+(788, 1024, 0, 155, 0, 52)
+(1540, 1536, 257, 64, 0, 52)
+(788, 1024, 0, 88, 0, 51)
+(788, 1024, 0, 153, 0, 51)
+(788, 1024, 0, 95, 0, 50)
+(788, 1024, 0, 126, 0, 50)
+(788, 1024, 0, 131, 0, 50)
+(788, 1024, 0, 164, 0, 50)
+(1284, 1536, 514, 63, 0, 50)
+(1540, 1792, 257, 100, 0, 50)
+(1540, 1792, 257, 121, 0, 50)
+(1540, 1792, 257, 161, 0, 50)
+(788, 1024, 0, 127, 0, 49)
+(788, 1024, 0, 139, 0, 49)
+(788, 1024, 0, 157, 0, 49)
+
+====================================================================================================
+CROSS-DATASET EXACT GEOMETRY
+
+ 7185_MG1 <-> 7185_MG2
+matches: 725579
+s60 725579 / 725579 (100.000000%)
+s61 725579 / 725579 (100.000000%)
+s62 725579 / 725579 (100.000000%)
+s63 452844 / 725579 (62.411398%)
+s64 450754 / 725579 (62.123353%)
+s65 725579 / 725579 (100.000000%)
+s66 725579 / 725579 (100.000000%)
+w0 432820 / 725579 (59.651671%)
+w1 560895 / 725579 (77.303092%)
+w2 432803 / 725579 (59.649328%)
+w3 560785 / 725579 (77.287931%)
+S6 exact: 450436 / 725579 (62.079525%)
+S11 exact: 429997 / 725579 (59.262603%)
+
+ 7185_MG1 <-> 7185_MG3
+matches: 476794
+s60 476794 / 476794 (100.000000%)
+s61 476794 / 476794 (100.000000%)
+s62 476794 / 476794 (100.000000%)
+s63 13154 / 476794 (2.758843%)
+s64 12795 / 476794 (2.683549%)
+s65 476794 / 476794 (100.000000%)
+s66 476794 / 476794 (100.000000%)
+w0 16815 / 476794 (3.526680%)
+w1 204499 / 476794 (42.890431%)
+w2 16896 / 476794 (3.543669%)
+w3 204020 / 476794 (42.789968%)
+S6 exact: 12147 / 476794 (2.547641%)
+S11 exact: 13281 / 476794 (2.785480%)
+
+ 7185_MG1 <-> 7186_MG1
+matches: 602547
+s60 602120 / 602547 (99.929134%)
+s61 602547 / 602547 (100.000000%)
+s62 602538 / 602547 (99.998506%)
+s63 7155 / 602547 (1.187459%)
+s64 6991 / 602547 (1.160241%)
+s65 602547 / 602547 (100.000000%)
+s66 602547 / 602547 (100.000000%)
+w0 12076 / 602547 (2.004159%)
+w1 244188 / 602547 (40.525967%)
+w2 11871 / 602547 (1.970137%)
+w3 243307 / 602547 (40.379755%)
+S6 exact: 6375 / 602547 (1.058009%)
+S11 exact: 8221 / 602547 (1.364375%)
+
+ 7185_MG1 <-> 7186_MG2
+matches: 580762
+s60 580425 / 580762 (99.941973%)
+s61 580762 / 580762 (100.000000%)
+s62 580753 / 580762 (99.998450%)
+s63 374857 / 580762 (64.545718%)
+s64 373185 / 580762 (64.257820%)
+s65 580762 / 580762 (100.000000%)
+s66 580762 / 580762 (100.000000%)
+w0 355089 / 580762 (61.141914%)
+w1 450748 / 580762 (77.613205%)
+w2 355102 / 580762 (61.144152%)
+w3 450688 / 580762 (77.602873%)
+S6 exact: 372943 / 580762 (64.216151%)
+S11 exact: 352988 / 580762 (60.780147%)
+
+ 7185_MG1 <-> 7186_MG3
+matches: 476797
+s60 476608 / 476797 (99.960360%)
+s61 476797 / 476797 (100.000000%)
+s62 476792 / 476797 (99.998951%)
+s63 13126 / 476797 (2.752954%)
+s64 12765 / 476797 (2.677240%)
+s65 476797 / 476797 (100.000000%)
+s66 476797 / 476797 (100.000000%)
+w0 16819 / 476797 (3.527497%)
+w1 204504 / 476797 (42.891209%)
+w2 16897 / 476797 (3.543856%)
+w3 204029 / 476797 (42.791586%)
+S6 exact: 12121 / 476797 (2.542172%)
+S11 exact: 13288 / 476797 (2.786930%)
+
+ 7185_MG2 <-> 7185_MG3
+matches: 477861
+s60 477861 / 477861 (100.000000%)
+s61 477861 / 477861 (100.000000%)
+s62 477861 / 477861 (100.000000%)
+s63 14230 / 477861 (2.977853%)
+s64 13858 / 477861 (2.900006%)
+s65 477861 / 477861 (100.000000%)
+s66 477861 / 477861 (100.000000%)
+w0 18320 / 477861 (3.833751%)
+w1 204762 / 477861 (42.849699%)
+w2 18451 / 477861 (3.861165%)
+w3 204284 / 477861 (42.749670%)
+S6 exact: 13228 / 477861 (2.768169%)
+S11 exact: 14657 / 477861 (3.067210%)
+
+ 7185_MG2 <-> 7186_MG1
+matches: 573803
+s60 573469 / 573803 (99.941792%)
+s61 573803 / 573803 (100.000000%)
+s62 573794 / 573803 (99.998432%)
+s63 6090 / 573803 (1.061340%)
+s64 5936 / 573803 (1.034501%)
+s65 573803 / 573803 (100.000000%)
+s66 573803 / 573803 (100.000000%)
+w0 11189 / 573803 (1.949972%)
+w1 229892 / 573803 (40.064621%)
+w2 11021 / 573803 (1.920694%)
+w3 229043 / 573803 (39.916661%)
+S6 exact: 5354 / 573803 (0.933073%)
+S11 exact: 7535 / 573803 (1.313168%)
+
+ 7185_MG2 <-> 7186_MG2
+matches: 582243
+s60 581908 / 582243 (99.942464%)
+s61 582243 / 582243 (100.000000%)
+s62 582234 / 582243 (99.998454%)
+s63 468126 / 582243 (80.400451%)
+s64 467619 / 582243 (80.313374%)
+s65 582243 / 582243 (100.000000%)
+s66 582243 / 582243 (100.000000%)
+w0 462563 / 582243 (79.445008%)
+w1 512283 / 582243 (87.984398%)
+w2 462500 / 582243 (79.434188%)
+w3 512182 / 582243 (87.967052%)
+S6 exact: 467403 / 582243 (80.276276%)
+S11 exact: 461533 / 582243 (79.268106%)
+
+ 7185_MG2 <-> 7186_MG3
+matches: 477862
+s60 477673 / 477862 (99.960449%)
+s61 477862 / 477862 (100.000000%)
+s62 477857 / 477862 (99.998954%)
+s63 14206 / 477862 (2.972825%)
+s64 13834 / 477862 (2.894978%)
+s65 477862 / 477862 (100.000000%)
+s66 477862 / 477862 (100.000000%)
+w0 18318 / 477862 (3.833324%)
+w1 204775 / 477862 (42.852330%)
+w2 18452 / 477862 (3.861366%)
+w3 204300 / 477862 (42.752929%)
+S6 exact: 13203 / 477862 (2.762932%)
+S11 exact: 14663 / 477862 (3.068459%)
+
+ 7185_MG3 <-> 7186_MG1
+matches: 476806
+s60 476617 / 476806 (99.960361%)
+s61 476806 / 476806 (100.000000%)
+s62 476801 / 476806 (99.998951%)
+s63 5397 / 476806 (1.131907%)
+s64 5187 / 476806 (1.087864%)
+s65 476806 / 476806 (100.000000%)
+s66 476806 / 476806 (100.000000%)
+w0 9493 / 476806 (1.990956%)
+w1 184775 / 476806 (38.752658%)
+w2 9465 / 476806 (1.985084%)
+w3 184126 / 476806 (38.616544%)
+S6 exact: 4753 / 476806 (0.996841%)
+S11 exact: 6713 / 476806 (1.407910%)
+
+ 7185_MG3 <-> 7186_MG2
+matches: 478161
+s60 477972 / 478161 (99.960474%)
+s61 478161 / 478161 (100.000000%)
+s62 478156 / 478161 (99.998954%)
+s63 13836 / 478161 (2.893586%)
+s64 13461 / 478161 (2.815161%)
+s65 478161 / 478161 (100.000000%)
+s66 478161 / 478161 (100.000000%)
+w0 18584 / 478161 (3.886557%)
+w1 204517 / 478161 (42.771577%)
+w2 18654 / 478161 (3.901196%)
+w3 204008 / 478161 (42.665127%)
+S6 exact: 12848 / 478161 (2.686961%)
+S11 exact: 14751 / 478161 (3.084944%)
+
+ 7185_MG3 <-> 7186_MG3
+matches: 484543
+s60 484354 / 484543 (99.960994%)
+s61 484543 / 484543 (100.000000%)
+s62 484538 / 484543 (99.998968%)
+s63 482123 / 484543 (99.500560%)
+s64 482105 / 484543 (99.496845%)
+s65 484543 / 484543 (100.000000%)
+s66 484543 / 484543 (100.000000%)
+w0 480533 / 484543 (99.172416%)
+w1 482352 / 484543 (99.547821%)
+w2 480524 / 484543 (99.170559%)
+w3 482363 / 484543 (99.550092%)
+S6 exact: 481911 / 484543 (99.456808%)
+S11 exact: 480484 / 484543 (99.162303%)
+
+ 7186_MG1 <-> 7186_MG2
+matches: 675865
+s60 675865 / 675865 (100.000000%)
+s61 675865 / 675865 (100.000000%)
+s62 675865 / 675865 (100.000000%)
+s63 7250 / 675865 (1.072699%)
+s64 7075 / 675865 (1.046807%)
+s65 675865 / 675865 (100.000000%)
+s66 675865 / 675865 (100.000000%)
+w0 13228 / 675865 (1.957196%)
+w1 267361 / 675865 (39.558344%)
+w2 13111 / 675865 (1.939884%)
+w3 266433 / 675865 (39.421038%)
+S6 exact: 6377 / 675865 (0.943532%)
+S11 exact: 9046 / 675865 (1.338433%)
+
+ 7186_MG1 <-> 7186_MG3
+matches: 476813
+s60 476813 / 476813 (100.000000%)
+s61 476813 / 476813 (100.000000%)
+s62 476813 / 476813 (100.000000%)
+s63 5387 / 476813 (1.129793%)
+s64 5175 / 476813 (1.085331%)
+s65 476813 / 476813 (100.000000%)
+s66 476813 / 476813 (100.000000%)
+w0 9499 / 476813 (1.992186%)
+w1 184803 / 476813 (38.757962%)
+w2 9452 / 476813 (1.982329%)
+w3 184157 / 476813 (38.622479%)
+S6 exact: 4744 / 476813 (0.994939%)
+S11 exact: 6711 / 476813 (1.407470%)
+
+ 7186_MG2 <-> 7186_MG3
+matches: 478169
+s60 478169 / 478169 (100.000000%)
+s61 478169 / 478169 (100.000000%)
+s62 478169 / 478169 (100.000000%)
+s63 13813 / 478169 (2.888728%)
+s64 13438 / 478169 (2.810303%)
+s65 478169 / 478169 (100.000000%)
+s66 478169 / 478169 (100.000000%)
+w0 18568 / 478169 (3.883146%)
+w1 204559 / 478169 (42.779645%)
+w2 18636 / 478169 (3.897367%)
+w3 204054 / 478169 (42.674034%)
+S6 exact: 12834 / 478169 (2.683988%)
+S11 exact: 14736 / 478169 (3.081756%)
+
+====================================================================================================
+NON-MG SIGNATURE SCAN
+
+FILE: /Volumes/CD_7185/DB/I.ABC
+logical size: 170
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/I.RD
+logical size: 74781874
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/I.STT
+logical size: 36346
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.AFF
+logical size: 138
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.ASC
+logical size: 1202989
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.CL
+logical size: 2792114
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.CNY
+logical size: 195148
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.CT
+logical size: 1574800
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.CTY
+logical size: 11250762
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.FEA
+logical size: 49271198
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.IL
+logical size: 30338747
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.IOF
+logical size: 7478272
+S6 prefix6 hits: 2
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 1
+top packed10: []
+top wild14: [['0314/0400/0000/0080/0000', 1]]
+examples: [['wild14', 474773, '0314/0400/0000/0080/0000']]
+
+FILE: /Volumes/CD_7185/DB/IZ.MP0
+logical size: 165510023
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.PDX
+logical size: 33667934
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.PTI
+logical size: 25854
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.PTP
+logical size: 3230
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.RL
+logical size: 217165340
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.RT
+logical size: 134415994
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/IZ.TYP
+logical size: 94324
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7185/DB/ZONE.CFG
+logical size: 78
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SC.ABC
+logical size: 170
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SC.RD
+logical size: 68225914
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SC.STT
+logical size: 36460
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.AFF
+logical size: 138
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.ASC
+logical size: 868953
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.CL
+logical size: 2064354
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.CNY
+logical size: 193234
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.CT
+logical size: 1152714
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.CTY
+logical size: 9255738
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.FEA
+logical size: 65801872
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.IL
+logical size: 21013356
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.IOF
+logical size: 6822676
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.MP0
+logical size: 220863350
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.PDX
+logical size: 18566703
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.PTI
+logical size: 27234
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.PTP
+logical size: 3398
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.RL
+logical size: 127742329
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.RT
+logical size: 67525118
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/SCZ.TYP
+logical size: 73750
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []
+
+FILE: /Volumes/CD_7186/DB/ZONE.CFG
+logical size: 79
+S6 prefix6 hits: 0
+S6 packed10 hits: 0
+S6 prefix + any4 + suffix hits: 0
+top packed10: []
+top wild14: []

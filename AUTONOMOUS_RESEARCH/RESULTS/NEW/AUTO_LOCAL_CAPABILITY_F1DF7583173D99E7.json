@@ -1,0 +1,13 @@
+{
+  "artifact_pointers": [
+    "reports/mission_pack/capability_runs/AUTO_LOCAL_CAPABILITY_F1DF7583173D99E7.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "authoritative_state_db": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\project_state.sqlite",
+  "original_media_write_count": 0,
+  "result_sha256": "7b11a91edcb61788ff130e89f0780582d4d63ddc26a8f174a2cf3faefe6a0f9a",
+  "status": "DONE",
+  "task_id": "AUTO_LOCAL_CAPABILITY_F1DF7583173D99E7",
+  "updated_utc": "2026-10-28T15:52:35.260569+00:00",
+  "verified_by_independent_reviewer": false
+}

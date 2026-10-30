@@ -1,0 +1,70 @@
+{
+  "schema_version": 3,
+  "verified_utc": "2026-10-25T16:19:48.279458+00:00",
+  "build": {
+    "name": "NCDR Ukraine OSM disk-data preparation",
+    "bytes": 2298026,
+    "osm_database": "data/osm/kryvyi_rih_20261025.sqlite",
+    "osm_database_sha256": "b36ca4ade520dea4ae6a796323f9d444dafb06024f31c76ae3e0ff4792f55c39",
+    "osm_database_bytes": 260255744,
+    "osm_retrieved_utc": "2026-10-25T15:23:00.088436+00:00",
+    "osm_dataset_timestamp": "retrieved from Overpass; exact upstream base timestamp is not separately asserted"
+  },
+  "checks": {
+    "map_database_integrity": {
+      "pass": true,
+      "evidence": "SQLite PRAGMA integrity_check=ok",
+      "sha256": "b36ca4ade520dea4ae6a796323f9d444dafb06024f31c76ae3e0ff4792f55c39",
+      "bytes": 260255744
+    },
+    "versioned_osm_provenance": {
+      "pass": true,
+      "evidence": "Overpass source XML SHA-256 verified; retrieved 2026-10-25T15:23:00.088436+00:00; base snapshot timestamp is not asserted",
+      "source_sha256": "17602c7ace2a37eea6a0dd46df67f8c6de6ed65b74f68d6fc416777988f5a94f",
+      "features": 56247
+    },
+    "city_search_and_connected_route": {
+      "pass": true,
+      "evidence": "tests.integration.test_city_acceptance: Ukrainian street search and connected route against the selected current snapshot; 3/3 integration checks passed."
+    },
+    "autonomous_coordinator_e2e": {
+      "pass": true,
+      "evidence": "Local model task, failing acceptance, bounded repair, retest, checkpoint recovery in fresh worker processes, next task generation, and actual authenticated Codex CLI planning/programming/review are recorded in reports/autonomy_e2e.json."
+    },
+    "original_media_unchanged": {
+      "pass": true,
+      "evidence": "NCDx end-to-end report records zero original-media writes and identical before/after hashes."
+    },
+    "codex_cli_preflight": {
+      "pass": true,
+      "evidence": "Installed codex-cli 0.164.0-alpha.11.1; login status exit 0; exec options include sandbox/approval/JSON; real planning, programming and review passed. Current account snapshot: 37% of 5h and 6% of 7d used. See reports/codex_cli_preflight.json."
+    }
+  },
+  "tracks": {
+    "OSM Ukraine": {
+      "status": "DATA_PREPARATION_VERIFIED",
+      "artifact": "data/osm/kryvyi_rih_20261025.sqlite",
+      "verified": "SQLite integrity; versioned OSM source hash; Ukrainian street search and connected route as disk-data checks.",
+      "limitations": "OSM preparation only; not converted to a confirmed NCDx format; no GUI/CID or physical compatibility claim."
+    },
+    "Autonomous Research Manager": {
+      "status": "E2E_VERIFIED",
+      "artifact": "reports/autonomy_e2e.json",
+      "verified": "Autonomous local task, repair and retest, dependent next task, persisted SQLite results and fresh-process recovery; Codex CLI authentic planning/programming/review recorded."
+    },
+    "NCDx container research": {
+      "status": "FRAMING_CONFIRMED_SEMANTICS_UNKNOWN",
+      "artifact": "reports/ncdx_container_experiment.json",
+      "verified": "Nine manifest-matched copies passed block-offset and bounded zlib framing checks.",
+      "limitations": "Record semantics, indexes, POI fields, and Opel compatibility are not confirmed."
+    },
+    "NCDx writer": {
+      "status": "BLOCKED",
+      "artifact": "reports/autonomous_writer_boundary_result.json",
+      "verified": "Source-write boundary remains DISK_NOT_READY.",
+      "limitations": "No verified hardware target or payload semantics; original media remain protected."
+    }
+  },
+  "active_scope": "config/project_scope.json",
+  "archived_scope_evidence": "archive/excluded_tracks_2026-10-25/reports/product_acceptance.json"
+}

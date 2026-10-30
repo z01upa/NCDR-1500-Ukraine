@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WITH_BOUNDED_FALLBACK",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b2d11352b852",
+  "model": "qwen3.5:9b",
+  "model_error": "ValueError: local model returned invalid structured JSON: Expecting ',' delimiter: line 5 column 33 (char 350)",
+  "model_choice": null,
+  "selected_goal_id": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_9c7c1a75",
+  "selection_source": "first remaining fixed candidate",
+  "selection_reason": "ValueError: local model returned invalid structured JSON: Expecting ',' delimiter: line 5 column 33 (char 350)",
+  "safe_schema_validated": false,
+  "next_task_id": "AUTO_NCDX_DATA_FEA_ZLIB_STREAM_BOUNDARY_CONTEXT_PROFILE_9c7c1a75",
+  "candidate_fingerprint": "76fb59f773370868c878ebbf825bb563e9de5a768170763145726a74faaef838",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b2d11352b852",
+  "remaining_unique_experiments": 11,
+  "created_utc": "2026-10-27T13:45:21.739234+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

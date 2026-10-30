@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_b87c3ee354a7",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_STT_EXACT_BLOCK_ANCHOR_SCAN_a4028280",
+  "selected_goal_id": "AUTO_NCDX_DATA_STT_EXACT_BLOCK_ANCHOR_SCAN_a4028280",
+  "selection_source": "Ollama",
+  "selection_reason": "STT suffix selected as it represents a minimal evidence footprint (109152 bytes) suitable for reducing uncertainty in map storage structures without exceeding read limits or requiring hardware changes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_STT_EXACT_BLOCK_ANCHOR_SCAN_a4028280",
+  "candidate_fingerprint": "1795758d56e8ecc95813e2d0a056976c0588ffdd291c69b0e03f12dd1de4464b",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_b87c3ee354a7",
+  "remaining_unique_experiments": 10,
+  "created_utc": "2026-10-26T23:15:24.507043+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "component_readiness": "BLOCKED",
+  "reason": "F1 hardware target and F3 format proofs are not available.",
+  "f1_gate": "BLOCKED",
+  "f3_gate": "BLOCKED",
+  "source_writes": 0,
+  "disk_status": "DISK_NOT_READY",
+  "markdown_report": "reports\\autonomous_writer_boundary.md"
+}

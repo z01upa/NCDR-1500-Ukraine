@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_CODEX_CAPABILITY_62AC093CCD01312E_R02",
+  "request_id": "CAP_62AC093CCD01312E",
+  "executor": "Codex CLI capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_62AC093CCD01312E",
+    "reason": "RuntimeError: verification command failed (1): ...EE\n======================================================================\nERROR: test_static_scopes_cover_real_code_deliverables_and_exclude_forbidden_tracks (__main__.MissionPackTests.test_static_scopes_cover_real_code_deliverables_and_exclude_forbidden_tracks) (canonical_id='A08')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_62AC093CCD01312E_ATTEMPT_2\\tests\\unit\\test_mission_pack.py\", line 73, in test_static_scopes_cover_real_code_deliverables_and_exclude_forbidden_tracks\n    scope = mission_pack.capability_scope(canonical_id)\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_62AC093CCD01312E_ATTEMPT_2\\src\\agent\\mission_pack.py\", line 105, in capability_scope\n    raise ValueError(f\"Invalid static mission capability path: {relative}\")\nValueError: Invalid static mission capability path: windows/install_manager.ps1\n\n======================================================================\nERROR: test_static_scopes_cover_real_code_deliverables_and_exclude_forbidden_tracks (__main__.MissionPackTests.test_static_scopes_cover_real_code_deliverables_and_exclude_forbidden_tracks) (canonical_id='A08')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_62AC093CCD01312E_ATTEMPT_2\\tests\\unit\\test_mission_pack.py\", line 78, in test_static_scopes_cover_real_code_deliverables_and_exclude_forbidden_tracks\n    scope = mission_pack.capability_scope(canonical_id)\n  File \"${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH\\work\\autonomous_manager\\capability_worktrees\\CAP_62AC093CCD01312E_ATTEMPT_2\\src\\agent\\mission_pack.py\", line 105, in capability_scope\n    raise ValueError(f\"Invalid static mission capability path: {relative}\")\nValueError: Invalid static mission capability path: windows/install_manager.ps1\n\n----------------------------------------------------------------------\nRan 4 tests in 0.158s\n\nFAILED (errors=2)\n"
+  },
+  "created_utc": "2026-10-26T16:39:41.250668+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

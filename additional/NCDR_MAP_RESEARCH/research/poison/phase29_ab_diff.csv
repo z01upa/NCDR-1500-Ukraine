@@ -1,0 +1,2 @@
+output_a,output_b,record_type,sector,span,compression,logical_size,changed_range,status
+OUTPUT_A,OUTPUT_B,0x06,0x7749B,0x20,0x00,0,logical payload rewritten,only changed record

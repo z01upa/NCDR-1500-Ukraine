@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_06c3e3109580",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6f3fb3ed",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6f3fb3ed",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on the presence of candidate measurements containing coordinate alignment data (e.g., 'alignment_6/scale_1000000_lon_lat') across multiple streams, which directly addresses uncertainty regarding map storage and address/index data structures. The choice prioritizes evidence from decompressed byte counts and SHA256 hashes that validate the integrity of this specific dataset without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_6f3fb3ed",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "94036749e8a7faa7674243150664e9ad9659ce8630426404089c0b0e01d6262c",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_06c3e3109580",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T18:50:03.459642+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

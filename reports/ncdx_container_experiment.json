@@ -1,0 +1,897 @@
+{
+  "experiment": "bounded_ncdx_zip3kb_candidate_container",
+  "status": "PASS",
+  "created_utc": "2026-10-25T15:23:53.037593+00:00",
+  "scope": "Nine manifest-verified PTI/PDX/PTP files only; all decoding used verified work copies.",
+  "hypothesis": {
+    "magic": "zip\\x01",
+    "header_words": [
+      "block_size_u32_le",
+      "logical_size_u32_le",
+      "opaque_u32_le"
+    ],
+    "offset_table": "chunk_count+1 absolute u32 LE offsets beginning at byte 16",
+    "chunk_count": "ceil(logical_size / block_size)",
+    "payload": "one independent zlib stream per adjacent offset pair",
+    "bounds": {
+      "compressed_file_bytes": 16777216,
+      "logical_bytes": 67108864,
+      "block_bytes": 65536,
+      "compressed_chunk_bytes": 1048576,
+      "chunk_count": 32768
+    }
+  },
+  "copy_verification": [
+    {
+      "region": "Italy",
+      "relative_path": "OPEL NCDx Italia 2010-2011\\DB\\IZ.PTI",
+      "copy_path": "work/ncdx_container_experiment/inputs/Italy/IZ.PTI",
+      "size_bytes": 5649,
+      "manifest_sha256": "5795afc3ee62da2ecb3b9ecf1fdeba69cdaf828aea11f4f5cbdbf608809c8bf1",
+      "source_sha256": "5795afc3ee62da2ecb3b9ecf1fdeba69cdaf828aea11f4f5cbdbf608809c8bf1",
+      "copy_sha256": "5795afc3ee62da2ecb3b9ecf1fdeba69cdaf828aea11f4f5cbdbf608809c8bf1",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "Italy",
+      "relative_path": "OPEL NCDx Italia 2010-2011\\DB\\IZ.PDX",
+      "copy_path": "work/ncdx_container_experiment/inputs/Italy/IZ.PDX",
+      "size_bytes": 14951766,
+      "manifest_sha256": "2e0a3084bedc88c4c8460535623ba7d730ecd2665ff8077bd8af98dbea4361af",
+      "source_sha256": "2e0a3084bedc88c4c8460535623ba7d730ecd2665ff8077bd8af98dbea4361af",
+      "copy_sha256": "2e0a3084bedc88c4c8460535623ba7d730ecd2665ff8077bd8af98dbea4361af",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "Italy",
+      "relative_path": "OPEL NCDx Italia 2010-2011\\DB\\IZ.PTP",
+      "copy_path": "work/ncdx_container_experiment/inputs/Italy/IZ.PTP",
+      "size_bytes": 805,
+      "manifest_sha256": "e1d9c34b1761ded72a05ad7e427e675e1203777effcfb8c2c7c3582755f4d2c6",
+      "source_sha256": "e1d9c34b1761ded72a05ad7e427e675e1203777effcfb8c2c7c3582755f4d2c6",
+      "copy_sha256": "e1d9c34b1761ded72a05ad7e427e675e1203777effcfb8c2c7c3582755f4d2c6",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "Scandinavia",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.PTI",
+      "copy_path": "work/ncdx_container_experiment/inputs/Scandinavia/SCZ.PTI",
+      "size_bytes": 5784,
+      "manifest_sha256": "f0202aa6a0782f7a26d1b9828e12c6bf324ad1fdfb402ab35cd7bf6398e9ba43",
+      "source_sha256": "f0202aa6a0782f7a26d1b9828e12c6bf324ad1fdfb402ab35cd7bf6398e9ba43",
+      "copy_sha256": "f0202aa6a0782f7a26d1b9828e12c6bf324ad1fdfb402ab35cd7bf6398e9ba43",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "Scandinavia",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.PDX",
+      "copy_path": "work/ncdx_container_experiment/inputs/Scandinavia/SCZ.PDX",
+      "size_bytes": 7828535,
+      "manifest_sha256": "313d4b1f4b548f2403eec7d9d3ed0f27ebfc396a9e37ef3fd3bb276dfd8490a1",
+      "source_sha256": "313d4b1f4b548f2403eec7d9d3ed0f27ebfc396a9e37ef3fd3bb276dfd8490a1",
+      "copy_sha256": "313d4b1f4b548f2403eec7d9d3ed0f27ebfc396a9e37ef3fd3bb276dfd8490a1",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "Scandinavia",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.PTP",
+      "copy_path": "work/ncdx_container_experiment/inputs/Scandinavia/SCZ.PTP",
+      "size_bytes": 832,
+      "manifest_sha256": "202f9128acc4d6a9712dc0d2dd063c831c66b5dffda40c3e2fce1f8960e30397",
+      "source_sha256": "202f9128acc4d6a9712dc0d2dd063c831c66b5dffda40c3e2fce1f8960e30397",
+      "copy_sha256": "202f9128acc4d6a9712dc0d2dd063c831c66b5dffda40c3e2fce1f8960e30397",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "EU",
+      "relative_path": "SW\\DB\\EUZ.PTI",
+      "copy_path": "work/ncdx_container_experiment/inputs/EU/EUZ.PTI",
+      "size_bytes": 1765,
+      "manifest_sha256": "f634f9a41941b51caf1112de0cedeefc05d7b36da58b9d0710bec308fb201690",
+      "source_sha256": "f634f9a41941b51caf1112de0cedeefc05d7b36da58b9d0710bec308fb201690",
+      "copy_sha256": "f634f9a41941b51caf1112de0cedeefc05d7b36da58b9d0710bec308fb201690",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "EU",
+      "relative_path": "SW\\DB\\EUZ.PDX",
+      "copy_path": "work/ncdx_container_experiment/inputs/EU/EUZ.PDX",
+      "size_bytes": 754475,
+      "manifest_sha256": "ee7e72fe92a966e11249d629db0dafb2ddfa52e7fd1cbcea18c43035854045c9",
+      "source_sha256": "ee7e72fe92a966e11249d629db0dafb2ddfa52e7fd1cbcea18c43035854045c9",
+      "copy_sha256": "ee7e72fe92a966e11249d629db0dafb2ddfa52e7fd1cbcea18c43035854045c9",
+      "copy_status": "copied_from_verified_source"
+    },
+    {
+      "region": "EU",
+      "relative_path": "SW\\DB\\EUZ.PTP",
+      "copy_path": "work/ncdx_container_experiment/inputs/EU/EUZ.PTP",
+      "size_bytes": 348,
+      "manifest_sha256": "1bb5564c0fba9c6a324c1f1c85b15f86c541ef67148a20a12b882675b0363ca4",
+      "source_sha256": "1bb5564c0fba9c6a324c1f1c85b15f86c541ef67148a20a12b882675b0363ca4",
+      "copy_sha256": "1bb5564c0fba9c6a324c1f1c85b15f86c541ef67148a20a12b882675b0363ca4",
+      "copy_status": "copied_from_verified_source"
+    }
+  ],
+  "family_checks": {
+    "PTI": {
+      "regions": [
+        "Italy",
+        "Scandinavia",
+        "EU"
+      ],
+      "all_pass": true,
+      "block_sizes": [
+        3072
+      ],
+      "magic_values": [
+        "7a 69 70 01"
+      ],
+      "each_offset_table_exactly_spans_payload": true,
+      "logical_sizes_bytes": {
+        "Italy": 25854,
+        "Scandinavia": 27234,
+        "EU": 7454
+      },
+      "chunk_counts": {
+        "Italy": 9,
+        "Scandinavia": 9,
+        "EU": 3
+      },
+      "opaque_header_words": {
+        "Italy": 781,
+        "Scandinavia": 727,
+        "EU": 748
+      },
+      "decoded_hashes_differ_across_regions": true
+    },
+    "PDX": {
+      "regions": [
+        "Italy",
+        "Scandinavia",
+        "EU"
+      ],
+      "all_pass": true,
+      "block_sizes": [
+        3072
+      ],
+      "magic_values": [
+        "7a 69 70 01"
+      ],
+      "each_offset_table_exactly_spans_payload": true,
+      "logical_sizes_bytes": {
+        "Italy": 33667934,
+        "Scandinavia": 18566703,
+        "EU": 1784475
+      },
+      "chunk_counts": {
+        "Italy": 10960,
+        "Scandinavia": 6044,
+        "EU": 581
+      },
+      "opaque_header_words": {
+        "Italy": 1994,
+        "Scandinavia": 1926,
+        "EU": 1893
+      },
+      "decoded_hashes_differ_across_regions": true
+    },
+    "PTP": {
+      "regions": [
+        "Italy",
+        "Scandinavia",
+        "EU"
+      ],
+      "all_pass": true,
+      "block_sizes": [
+        3072
+      ],
+      "magic_values": [
+        "7a 69 70 01"
+      ],
+      "each_offset_table_exactly_spans_payload": true,
+      "logical_sizes_bytes": {
+        "Italy": 3230,
+        "Scandinavia": 3398,
+        "EU": 990
+      },
+      "chunk_counts": {
+        "Italy": 2,
+        "Scandinavia": 2,
+        "EU": 1
+      },
+      "opaque_header_words": {
+        "Italy": 715,
+        "Scandinavia": 691,
+        "EU": 324
+      },
+      "decoded_hashes_differ_across_regions": true
+    }
+  },
+  "files": [
+    {
+      "region": "Italy",
+      "file": "IZ.PTI",
+      "relative_path": "OPEL NCDx Italia 2010-2011\\DB\\IZ.PTI",
+      "copy_path": "work/ncdx_container_experiment/inputs/Italy/IZ.PTI",
+      "source_sha256": "5795afc3ee62da2ecb3b9ecf1fdeba69cdaf828aea11f4f5cbdbf608809c8bf1",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 25854,
+      "opaque_header_u32_le": 781,
+      "physical_size_bytes": 5649,
+      "chunk_count": 9,
+      "offset_table_start": 16,
+      "offset_table_end": 56,
+      "first_payload_offset": 56,
+      "last_payload_offset": 5649,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 25854,
+      "decoded_sha256": "ad6d42227af94461bc78597824c2bad87fa2f08be0edcc71523b986bd38db8bd",
+      "compressed_chunk_min_bytes": 400,
+      "compressed_chunk_max_bytes": 781,
+      "decoded_block_size_counts": {
+        "1278": 1,
+        "3072": 8
+      },
+      "zlib_header_counts": {
+        "78da": 9
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 56,
+          "offset_end": 770,
+          "compressed_bytes": 714,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "5aba61d962629fcf966dba1c0e040691985e42bbd2c56f20ab8930ecfbd05cd6"
+        },
+        {
+          "index": 1,
+          "offset_start": 770,
+          "offset_end": 1223,
+          "compressed_bytes": 453,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "0ddf6f15616f496f4f473209306aff0ce02cf8474c332ba8c4f3887f807eb705"
+        },
+        {
+          "index": 2,
+          "offset_start": 1223,
+          "offset_end": 1891,
+          "compressed_bytes": 668,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "35f618d137ab32928e4551554b4803ddb6fa5890e7e99f8dc9068a3eb1aebcaf"
+        },
+        {
+          "index": 6,
+          "offset_start": 3834,
+          "offset_end": 4468,
+          "compressed_bytes": 634,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "d85156cdd69907089efcf2d0ae9b91f9004ea75f15525d46ddb4fe516d837c37"
+        },
+        {
+          "index": 7,
+          "offset_start": 4468,
+          "offset_end": 5249,
+          "compressed_bytes": 781,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "a191c1721123fe79c2e9b8d773e9309e9b41b5f1cef38207bdc4e86703c5d883"
+        },
+        {
+          "index": 8,
+          "offset_start": 5249,
+          "offset_end": 5649,
+          "compressed_bytes": 400,
+          "expected_output_bytes": 1278,
+          "observed_output_bytes": 1278,
+          "zlib_header_hex": "78da",
+          "output_sha256": "08908c9915a68e7f2319b1fa74a2815da4514000b3d39323c24364dfe94ecd76"
+        }
+      ]
+    },
+    {
+      "region": "Italy",
+      "file": "IZ.PDX",
+      "relative_path": "OPEL NCDx Italia 2010-2011\\DB\\IZ.PDX",
+      "copy_path": "work/ncdx_container_experiment/inputs/Italy/IZ.PDX",
+      "source_sha256": "2e0a3084bedc88c4c8460535623ba7d730ecd2665ff8077bd8af98dbea4361af",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 33667934,
+      "opaque_header_u32_le": 1994,
+      "physical_size_bytes": 14951766,
+      "chunk_count": 10960,
+      "offset_table_start": 16,
+      "offset_table_end": 43860,
+      "first_payload_offset": 43860,
+      "last_payload_offset": 14951766,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 33667934,
+      "decoded_sha256": "eab4d703d80a4b45333439da457beec535b6c8a5a2587edf7b64241e9c5b2951",
+      "compressed_chunk_min_bytes": 548,
+      "compressed_chunk_max_bytes": 1994,
+      "decoded_block_size_counts": {
+        "1886": 1,
+        "3072": 10959
+      },
+      "zlib_header_counts": {
+        "78da": 10960
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 43860,
+          "offset_end": 45364,
+          "compressed_bytes": 1504,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "05d307ad1107cbccdf7e6bd25e432b7e61110927247d33da26698b8117cc4c2e"
+        },
+        {
+          "index": 1,
+          "offset_start": 45364,
+          "offset_end": 47215,
+          "compressed_bytes": 1851,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "1034a774efdec7f64e5ed246c26a71e6546a4f2ab33ec0af22bd1411ad67ba81"
+        },
+        {
+          "index": 2,
+          "offset_start": 47215,
+          "offset_end": 48904,
+          "compressed_bytes": 1689,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "b4ff70edd8fb66ca2e83b56445e81d136438e1ebd094914cf2a5528c4be1a9fd"
+        },
+        {
+          "index": 10957,
+          "offset_start": 14947145,
+          "offset_end": 14948860,
+          "compressed_bytes": 1715,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "940551a49c7285df4cb386ce0490f9d5cc2316f47d86e22f2f9fbf0a2fe9ef2b"
+        },
+        {
+          "index": 10958,
+          "offset_start": 14948860,
+          "offset_end": 14950708,
+          "compressed_bytes": 1848,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "1bbe870e6a3b6c222d6748d4c50d07e06a6cb49c958905f58c5a87c8729cc296"
+        },
+        {
+          "index": 10959,
+          "offset_start": 14950708,
+          "offset_end": 14951766,
+          "compressed_bytes": 1058,
+          "expected_output_bytes": 1886,
+          "observed_output_bytes": 1886,
+          "zlib_header_hex": "78da",
+          "output_sha256": "09c0ff936ad29c993b39cfaaa307a3543db999e0b6caaecc5fcbb2f0a82fd2fd"
+        }
+      ]
+    },
+    {
+      "region": "Italy",
+      "file": "IZ.PTP",
+      "relative_path": "OPEL NCDx Italia 2010-2011\\DB\\IZ.PTP",
+      "copy_path": "work/ncdx_container_experiment/inputs/Italy/IZ.PTP",
+      "source_sha256": "e1d9c34b1761ded72a05ad7e427e675e1203777effcfb8c2c7c3582755f4d2c6",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 3230,
+      "opaque_header_u32_le": 715,
+      "physical_size_bytes": 805,
+      "chunk_count": 2,
+      "offset_table_start": 16,
+      "offset_table_end": 28,
+      "first_payload_offset": 28,
+      "last_payload_offset": 805,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 3230,
+      "decoded_sha256": "4999d60a78f1f39d174a0b9da2abe0b621af203a1da325bfb3ed225cdaf768e5",
+      "compressed_chunk_min_bytes": 62,
+      "compressed_chunk_max_bytes": 715,
+      "decoded_block_size_counts": {
+        "158": 1,
+        "3072": 1
+      },
+      "zlib_header_counts": {
+        "78da": 2
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 28,
+          "offset_end": 743,
+          "compressed_bytes": 715,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "b45e80095229073c1ba38d59f326d5e753518e49cd79a9a6b000f06250a151f8"
+        },
+        {
+          "index": 1,
+          "offset_start": 743,
+          "offset_end": 805,
+          "compressed_bytes": 62,
+          "expected_output_bytes": 158,
+          "observed_output_bytes": 158,
+          "zlib_header_hex": "78da",
+          "output_sha256": "aa06b83b700523f9b4736983bc1999894200292ccb0da9465ea0f1100ed9f5fe"
+        }
+      ]
+    },
+    {
+      "region": "Scandinavia",
+      "file": "SCZ.PTI",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.PTI",
+      "copy_path": "work/ncdx_container_experiment/inputs/Scandinavia/SCZ.PTI",
+      "source_sha256": "f0202aa6a0782f7a26d1b9828e12c6bf324ad1fdfb402ab35cd7bf6398e9ba43",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 27234,
+      "opaque_header_u32_le": 727,
+      "physical_size_bytes": 5784,
+      "chunk_count": 9,
+      "offset_table_start": 16,
+      "offset_table_end": 56,
+      "first_payload_offset": 56,
+      "last_payload_offset": 5784,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 27234,
+      "decoded_sha256": "5feff4fd6f63e1cba9d30900447df82e54e627b22b763b4a88be31d9d6106df6",
+      "compressed_chunk_min_bytes": 421,
+      "compressed_chunk_max_bytes": 727,
+      "decoded_block_size_counts": {
+        "2658": 1,
+        "3072": 8
+      },
+      "zlib_header_counts": {
+        "78da": 9
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 56,
+          "offset_end": 767,
+          "compressed_bytes": 711,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "9136e94fc9590d6de493db2cfa5b1d7f19723b26fa7571ac149614377fc8508e"
+        },
+        {
+          "index": 1,
+          "offset_start": 767,
+          "offset_end": 1188,
+          "compressed_bytes": 421,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "e935567cc4900613108871b20fa04f3c88b74f68dd5790669445cd186c666537"
+        },
+        {
+          "index": 2,
+          "offset_start": 1188,
+          "offset_end": 1885,
+          "compressed_bytes": 697,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "f0384187cba1858378b1b06f11c82085e7fafb1f21127b07cd18ccc28e679006"
+        },
+        {
+          "index": 6,
+          "offset_start": 3745,
+          "offset_end": 4360,
+          "compressed_bytes": 615,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "182395ab9ddc7ad6c248ce9115a6c9f1ed4ac7f1d1e9ed230fff05d82f61a82e"
+        },
+        {
+          "index": 7,
+          "offset_start": 4360,
+          "offset_end": 5087,
+          "compressed_bytes": 727,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "2a4791b7bad65fe7c018f4d101a1baa29f6551c431e745488dfcd9005a136d3e"
+        },
+        {
+          "index": 8,
+          "offset_start": 5087,
+          "offset_end": 5784,
+          "compressed_bytes": 697,
+          "expected_output_bytes": 2658,
+          "observed_output_bytes": 2658,
+          "zlib_header_hex": "78da",
+          "output_sha256": "d83e0f90d0902f5b4c7fb0d021d99788fc2f5e82217cf95769fc513997f807d5"
+        }
+      ]
+    },
+    {
+      "region": "Scandinavia",
+      "file": "SCZ.PDX",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.PDX",
+      "copy_path": "work/ncdx_container_experiment/inputs/Scandinavia/SCZ.PDX",
+      "source_sha256": "313d4b1f4b548f2403eec7d9d3ed0f27ebfc396a9e37ef3fd3bb276dfd8490a1",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 18566703,
+      "opaque_header_u32_le": 1926,
+      "physical_size_bytes": 7828535,
+      "chunk_count": 6044,
+      "offset_table_start": 16,
+      "offset_table_end": 24196,
+      "first_payload_offset": 24196,
+      "last_payload_offset": 7828535,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 18566703,
+      "decoded_sha256": "91a1dceb89ad362e04b3d2277d3bec6f3f422768400fb3e13310ed1c49043557",
+      "compressed_chunk_min_bytes": 450,
+      "compressed_chunk_max_bytes": 1926,
+      "decoded_block_size_counts": {
+        "2607": 1,
+        "3072": 6043
+      },
+      "zlib_header_counts": {
+        "78da": 6044
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 24196,
+          "offset_end": 25678,
+          "compressed_bytes": 1482,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "815d73e51bed9b40b58568cae1d381be0a49d0fdcefa42cdd218364d918defdf"
+        },
+        {
+          "index": 1,
+          "offset_start": 25678,
+          "offset_end": 27327,
+          "compressed_bytes": 1649,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "9ae9b58f8b80d9dc2e9c89525e3910c87a4570811ec99833e383a6d54ee99f85"
+        },
+        {
+          "index": 2,
+          "offset_start": 27327,
+          "offset_end": 28734,
+          "compressed_bytes": 1407,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "5c1bb4393f43faecd30f43b60bcf54c7087c6d71d7e246bc47ec4bc0a5df75b0"
+        },
+        {
+          "index": 6041,
+          "offset_start": 7823279,
+          "offset_end": 7825145,
+          "compressed_bytes": 1866,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "f89ea5ef988802d4a4458924807c9d74d827c4667dc7e45ff0544d16939ad5f0"
+        },
+        {
+          "index": 6042,
+          "offset_start": 7825145,
+          "offset_end": 7827010,
+          "compressed_bytes": 1865,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "03ce918398aeb23529a149bf9c83905090f159df8221c24a845edaeccc1a008b"
+        },
+        {
+          "index": 6043,
+          "offset_start": 7827010,
+          "offset_end": 7828535,
+          "compressed_bytes": 1525,
+          "expected_output_bytes": 2607,
+          "observed_output_bytes": 2607,
+          "zlib_header_hex": "78da",
+          "output_sha256": "db8187ca620c16a251ad0aab2fe6e2f15fc0827eab2be431b80e379103b08a6a"
+        }
+      ]
+    },
+    {
+      "region": "Scandinavia",
+      "file": "SCZ.PTP",
+      "relative_path": "OPEL NCDx Scandinavia 2010-2011\\DB\\SCZ.PTP",
+      "copy_path": "work/ncdx_container_experiment/inputs/Scandinavia/SCZ.PTP",
+      "source_sha256": "202f9128acc4d6a9712dc0d2dd063c831c66b5dffda40c3e2fce1f8960e30397",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 3398,
+      "opaque_header_u32_le": 691,
+      "physical_size_bytes": 832,
+      "chunk_count": 2,
+      "offset_table_start": 16,
+      "offset_table_end": 28,
+      "first_payload_offset": 28,
+      "last_payload_offset": 832,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 3398,
+      "decoded_sha256": "5de644604b8f1dee3372b5a7c96033fd5aebaf0e3a6960cef38404494ce4f9b9",
+      "compressed_chunk_min_bytes": 113,
+      "compressed_chunk_max_bytes": 691,
+      "decoded_block_size_counts": {
+        "326": 1,
+        "3072": 1
+      },
+      "zlib_header_counts": {
+        "78da": 2
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 28,
+          "offset_end": 719,
+          "compressed_bytes": 691,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "379e061ea7183644744236bc561c5b6c65bca51ab16c1c6e4e635deeb802bb1c"
+        },
+        {
+          "index": 1,
+          "offset_start": 719,
+          "offset_end": 832,
+          "compressed_bytes": 113,
+          "expected_output_bytes": 326,
+          "observed_output_bytes": 326,
+          "zlib_header_hex": "78da",
+          "output_sha256": "4455d73d829c1106fe7d35e29d322614cc5d3f312c40cf77d15f164eb6cb8d92"
+        }
+      ]
+    },
+    {
+      "region": "EU",
+      "file": "EUZ.PTI",
+      "relative_path": "SW\\DB\\EUZ.PTI",
+      "copy_path": "work/ncdx_container_experiment/inputs/EU/EUZ.PTI",
+      "source_sha256": "f634f9a41941b51caf1112de0cedeefc05d7b36da58b9d0710bec308fb201690",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 7454,
+      "opaque_header_u32_le": 748,
+      "physical_size_bytes": 1765,
+      "chunk_count": 3,
+      "offset_table_start": 16,
+      "offset_table_end": 32,
+      "first_payload_offset": 32,
+      "last_payload_offset": 1765,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 7454,
+      "decoded_sha256": "998228f539143f28d7e2696d50f8360cec584acd0dbaec1495dd71aff8771092",
+      "compressed_chunk_min_bytes": 332,
+      "compressed_chunk_max_bytes": 748,
+      "decoded_block_size_counts": {
+        "1310": 1,
+        "3072": 2
+      },
+      "zlib_header_counts": {
+        "78da": 3
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 32,
+          "offset_end": 780,
+          "compressed_bytes": 748,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "dfe4db888397017278ad11b4600713c5b8ec820e95bcb4f12cb0e614c67fdf4c"
+        },
+        {
+          "index": 1,
+          "offset_start": 780,
+          "offset_end": 1433,
+          "compressed_bytes": 653,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "c168b49d62916a51d95c69c76858c3feef6d0bca4b698f3826733757db7093d7"
+        },
+        {
+          "index": 2,
+          "offset_start": 1433,
+          "offset_end": 1765,
+          "compressed_bytes": 332,
+          "expected_output_bytes": 1310,
+          "observed_output_bytes": 1310,
+          "zlib_header_hex": "78da",
+          "output_sha256": "f32db3ca59fdc2d7a3b9aeb99be2dddf873f18310f4c341445d74023140a5946"
+        }
+      ]
+    },
+    {
+      "region": "EU",
+      "file": "EUZ.PDX",
+      "relative_path": "SW\\DB\\EUZ.PDX",
+      "copy_path": "work/ncdx_container_experiment/inputs/EU/EUZ.PDX",
+      "source_sha256": "ee7e72fe92a966e11249d629db0dafb2ddfa52e7fd1cbcea18c43035854045c9",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 1784475,
+      "opaque_header_u32_le": 1893,
+      "physical_size_bytes": 754475,
+      "chunk_count": 581,
+      "offset_table_start": 16,
+      "offset_table_end": 2344,
+      "first_payload_offset": 2344,
+      "last_payload_offset": 754475,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 1784475,
+      "decoded_sha256": "8fbff0bc8655f2a6e6329a38b2aaa6616e7c30ced8457992851e59b097d15678",
+      "compressed_chunk_min_bytes": 696,
+      "compressed_chunk_max_bytes": 1893,
+      "decoded_block_size_counts": {
+        "2715": 1,
+        "3072": 580
+      },
+      "zlib_header_counts": {
+        "78da": 581
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 2344,
+          "offset_end": 4007,
+          "compressed_bytes": 1663,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "623712f08a4897e5463a89d62efb49a7d6d50249a2fb2854203a9623bafa5001"
+        },
+        {
+          "index": 1,
+          "offset_start": 4007,
+          "offset_end": 5414,
+          "compressed_bytes": 1407,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "6f7f75c4a37cd890010e3f37753be805089167f29b76518f90697694cce2115f"
+        },
+        {
+          "index": 2,
+          "offset_start": 5414,
+          "offset_end": 6905,
+          "compressed_bytes": 1491,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "79c832c2a0f7f8165bb7089f0d4e88438a5d4bc7d58d35418bf72dbcbc3aeb8c"
+        },
+        {
+          "index": 578,
+          "offset_start": 749923,
+          "offset_end": 751411,
+          "compressed_bytes": 1488,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "6a14252f481f541bcaaaa7901eaa4f228dbf43b63d9f02e5ce5ca8cabdd822f4"
+        },
+        {
+          "index": 579,
+          "offset_start": 751411,
+          "offset_end": 752987,
+          "compressed_bytes": 1576,
+          "expected_output_bytes": 3072,
+          "observed_output_bytes": 3072,
+          "zlib_header_hex": "78da",
+          "output_sha256": "e65a19c5403429eb13f86cfb5eb9fd9e390ed3b3b09123bd5d79c169741775be"
+        },
+        {
+          "index": 580,
+          "offset_start": 752987,
+          "offset_end": 754475,
+          "compressed_bytes": 1488,
+          "expected_output_bytes": 2715,
+          "observed_output_bytes": 2715,
+          "zlib_header_hex": "78da",
+          "output_sha256": "03801eaffae862268efb18412cca16683fc2af043b2bb9c20a769ec48a42a673"
+        }
+      ]
+    },
+    {
+      "region": "EU",
+      "file": "EUZ.PTP",
+      "relative_path": "SW\\DB\\EUZ.PTP",
+      "copy_path": "work/ncdx_container_experiment/inputs/EU/EUZ.PTP",
+      "source_sha256": "1bb5564c0fba9c6a324c1f1c85b15f86c541ef67148a20a12b882675b0363ca4",
+      "status": "PASS",
+      "magic_hex": "7a 69 70 01",
+      "magic_ascii": "zip\u0001",
+      "block_size_bytes": 3072,
+      "logical_size_bytes": 990,
+      "opaque_header_u32_le": 324,
+      "physical_size_bytes": 348,
+      "chunk_count": 1,
+      "offset_table_start": 16,
+      "offset_table_end": 24,
+      "first_payload_offset": 24,
+      "last_payload_offset": 348,
+      "offset_table_covers_file": true,
+      "decoded_size_bytes": 990,
+      "decoded_sha256": "723e9d74f6e9edce9731bbd7debefb9ab4896dfd8037bf0c30ecf343cd768541",
+      "compressed_chunk_min_bytes": 324,
+      "compressed_chunk_max_bytes": 324,
+      "decoded_block_size_counts": {
+        "990": 1
+      },
+      "zlib_header_counts": {
+        "78da": 1
+      },
+      "block_previews": [
+        {
+          "index": 0,
+          "offset_start": 24,
+          "offset_end": 348,
+          "compressed_bytes": 324,
+          "expected_output_bytes": 990,
+          "observed_output_bytes": 990,
+          "zlib_header_hex": "78da",
+          "output_sha256": "723e9d74f6e9edce9731bbd7debefb9ab4896dfd8037bf0c30ecf343cd768541"
+        }
+      ]
+    }
+  ],
+  "semantic_status": "UNCONFIRMED",
+  "interpretation_limits": [
+    "The experiment validates container framing, offsets, and bounded zlib decoding only.",
+    "The opaque header word and record semantics are not assigned meaning.",
+    "No POI, address, routing, coordinate, or NCDx compatibility claim is made.",
+    "No existing database, inventory manifest, or original source file was modified."
+  ],
+  "next_experiment": "Map decoded PTI/PDX/PTP record references across regions and test candidate labels/coordinates against independently sourced records before assigning POI semantics."
+}

@@ -1,0 +1,9 @@
+field,value,evidence,confidence
+expected_module_name,navboot,RVA/file offset 0x50A5/0x34A5; lookup call path,confirmed
+outer_magic,4D AD 00 02,compare at code 0x4015B9 after bswap,confirmed
+target_extension,none embedded,no filename/extension literal,confirmed absent
+target_size,unknown,no fixed size comparison; size is header-derived,confirmed absent
+version_text,none found,no VERSION/SW/version literal,confirmed absent
+target_cpu,unknown,patch.exe only proves host i386; target bytes absent,unresolved
+lng_rel.tbl,not referenced,no string/import/reference,confirmed absent
+voice.lst,not referenced,no string/import/reference,confirmed absent

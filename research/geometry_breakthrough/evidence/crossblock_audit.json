@@ -1,0 +1,269 @@
+{
+  "counts": {
+    "secondary_points": 29240,
+    "exact_other_block_main_match": 29240
+  },
+  "matches": [
+    {
+      "source_block": 0,
+      "xy": [
+        1012506,
+        5625335
+      ],
+      "matching_nodes": [
+        [
+          190,
+          284
+        ]
+      ]
+    },
+    {
+      "source_block": 0,
+      "xy": [
+        1012488,
+        5625335
+      ],
+      "matching_nodes": [
+        [
+          190,
+          283
+        ]
+      ]
+    },
+    {
+      "source_block": 0,
+      "xy": [
+        990641,
+        5654051
+      ],
+      "matching_nodes": [
+        [
+          1531,
+          336
+        ]
+      ]
+    },
+    {
+      "source_block": 0,
+      "xy": [
+        990670,
+        5654057
+      ],
+      "matching_nodes": [
+        [
+          1531,
+          338
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        215729,
+        4887279
+      ],
+      "matching_nodes": [
+        [
+          617,
+          249
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        215720,
+        4887287
+      ],
+      "matching_nodes": [
+        [
+          617,
+          246
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        215675,
+        4887286
+      ],
+      "matching_nodes": [
+        [
+          617,
+          239
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        215628,
+        4887279
+      ],
+      "matching_nodes": [
+        [
+          617,
+          234
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        221899,
+        4889783
+      ],
+      "matching_nodes": [
+        [
+          2575,
+          2
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        205555,
+        4890633
+      ],
+      "matching_nodes": [
+        [
+          2473,
+          264
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        205598,
+        4890613
+      ],
+      "matching_nodes": [
+        [
+          2473,
+          266
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        221831,
+        4891331
+      ],
+      "matching_nodes": [
+        [
+          2575,
+          0
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        221848,
+        4891323
+      ],
+      "matching_nodes": [
+        [
+          2575,
+          1
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        222043,
+        4906920
+      ],
+      "matching_nodes": [
+        [
+          2578,
+          7
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        222003,
+        4901312
+      ],
+      "matching_nodes": [
+        [
+          643,
+          9
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        222018,
+        4901325
+      ],
+      "matching_nodes": [
+        [
+          643,
+          10
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        222003,
+        4901312
+      ],
+      "matching_nodes": [
+        [
+          643,
+          9
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        221786,
+        4901538
+      ],
+      "matching_nodes": [
+        [
+          643,
+          0
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        221786,
+        4901538
+      ],
+      "matching_nodes": [
+        [
+          643,
+          0
+        ]
+      ]
+    },
+    {
+      "source_block": 1,
+      "xy": [
+        221804,
+        4901570
+      ],
+      "matching_nodes": [
+        [
+          643,
+          1
+        ]
+      ]
+    }
+  ],
+  "unmatched": []
+}

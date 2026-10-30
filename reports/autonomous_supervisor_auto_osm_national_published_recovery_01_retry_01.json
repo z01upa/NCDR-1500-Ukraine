@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_OSM_NATIONAL_01",
+  "target_task": "AUTO_OSM_NATIONAL_PUBLISHED_RECOVERY_01_RETRY_01",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "NCDx binary structure and firmware hex definitions",
+      "Physical compatibility with Opel NCDR hardware"
+    ],
+    "suggested_next_goal_id": "NCDX_REVERSE_ENGINEERING"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_OSM_NATIONAL_PUBLISHED_RECOVERY_01_RETRY_01",
+    "saved_result_status": "PASS_PENDING_INDEPENDENT_SUPERVISOR",
+    "deterministic_proof": {
+      "status": "PASS",
+      "database": "work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.sqlite",
+      "database_size_bytes": 31425310720,
+      "extract": "work\\autonomous_manager\\osm_pipeline\\ukraine_national\\ukraine-2026-09-08-9eb8b42b2687\\ukraine.osm.gz",
+      "extract_sha256": "402224d75a173f78b2159e7e2369a59ccd5ce1d3cf14a64b936fecbc86e8884b",
+      "source_pbf": "data\\osm\\ukraine-latest.osm.pbf",
+      "source_pbf_sha256": "9eb8b42b2687d856779a81e7da2d5750ff664ea027556e86460d5ef08c5426f7",
+      "source_sha256_unchanged": true,
+      "sqlite_integrity_check": "ok",
+      "integrity_evidence_source": "streaming importer before atomic publication",
+      "independent_full_integrity_check_repeated": false,
+      "counts": {
+        "nodes": 112493890,
+        "ways": 13440203,
+        "directed_edges": 40414539,
+        "features": 2904148
+      },
+      "geographic_extent": {
+        "south": 40.9734066,
+        "west": 19.6899006,
+        "north": 54.9761417,
+        "east": 44.6484589
+      },
+      "unresolved_way_node_references": 0,
+      "kyiv_name_search_results": 20,
+      "kryvyi_rih_route": {
+        "start_street": "вулиця Соборності",
+        "end_street": "вулиця Героїв АТО",
+        "start_node": "1232315390",
+        "end_node": "9899669185",
+        "distance_m": 1452.379425327918,
+        "node_count": 45,
+        "way_count": 44,
+        "routing_bounds": [
+          47.58,
+          32.5,
+          48.23,
+          33.95
+        ],
+        "limitations": []
+      },
+      "read_only_readback": true,
+      "source_write_count": 0,
+      "database_sha256": "daa0c10991a26e3b53c2e41b1d907fa77b68a5422eb3a37e8f03312cbce0c92b",
+      "limitations": [
+        "Full PRAGMA integrity_check was not repeated during recovery; the publisher ran it before atomic publication.",
+        "OSM relations, including turn restrictions, are not yet exported by the extractor.",
+        "This is an internal OSM preparation database, not an NCDx image or Opel compatibility test."
+      ]
+    }
+  },
+  "created_utc": "2026-10-26T12:31:12.757774+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All 22 eligible manifest-backed SW components already have a task or are unavailable.",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.json",
+      "sha256": "427b5e19d5a51159e8a9bfdb5419b35244dc369531a040470c458f82a32789c8",
+      "size_bytes": 28380,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-26.md",
+      "sha256": "9c87dcbadf6e568a41f6ea8b1c34043f98d189d171d395c3e2c89e4a45c53dde",
+      "size_bytes": 5426,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "644946f9cef8686e017ba9a0a9df8bcf50b85de898324e56cd5135ff4800d9ee",
+      "size_bytes": 28381,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "65b86d1d141d34e7ae8408842c16c064ef52bf187e4b510bcfcd623d533e84f6",
+      "size_bytes": 5425,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "d2affcf247c5624cdfe3b85d2640659a40925c88434d701770042397d28339e3",
+      "size_bytes": 28382,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "a26011a3ca0ea50f0364f3cba50c159e20649610e80b80e0d3ca4490ab71ea6d",
+      "size_bytes": 5425,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

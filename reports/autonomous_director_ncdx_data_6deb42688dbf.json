@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_6deb42688dbf",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CTY_DEFLATE_COMPRESSIBILITY_PROFILE_29be2da0",
+  "selected_goal_id": "AUTO_NCDX_DATA_CTY_DEFLATE_COMPRESSIBILITY_PROFILE_29be2da0",
+  "selection_source": "Ollama",
+  "selection_reason": "Selected based on highest total_input_bytes (4145523) among DEFLATE_COMPRESSIBILITY_PROFILE candidates, maximizing structural evidence gathering while adhering to read-only constraints.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CTY_DEFLATE_COMPRESSIBILITY_PROFILE_29be2da0",
+  "candidate_fingerprint": "1dba083293a97c6508481b6d84c3757ea16ecb9f0022601e19ae9d94f84a8fff",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_6deb42688dbf",
+  "remaining_unique_experiments": 17,
+  "created_utc": "2026-10-26T22:26:44.468185+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

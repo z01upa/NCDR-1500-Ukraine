@@ -1,0 +1,63 @@
+{
+  "schema": "ncdr.e03.optical-layout-evidence.v1",
+  "canonical_id": "E03",
+  "status": "WAITING_EXTERNAL",
+  "source_groups": [
+    "SW",
+    "OPEL NCDx Italia 2010-2011",
+    "OPEL NCDx Scandinavia 2010-2011"
+  ],
+  "ledger_entry_count_by_group": {
+    "SW": 529,
+    "OPEL NCDx Italia 2010-2011": 113,
+    "OPEL NCDx Scandinavia 2010-2011": 113
+  },
+  "source_fingerprint": "17b47a47308c29790d49df9673278a2edf0b072cf22b347b7d7ff891e9027111",
+  "inspected_metadata_sources": [
+    {
+      "source_group": "OPEL NCDx Italia 2010-2011",
+      "source_path": "OPEL NCDx Italia 2010-2011/CDROM.TOC",
+      "extension": ".TOC",
+      "size_bytes": 349,
+      "sha256": "bd824bca3d9654e4cf05647177928391489c49e401bc8faac9f3927b6bc2d6c2",
+      "role": "textual_cdrom_toc_metadata"
+    },
+    {
+      "source_group": "OPEL NCDx Scandinavia 2010-2011",
+      "source_path": "OPEL NCDx Scandinavia 2010-2011/CDROM.TOC",
+      "extension": ".TOC",
+      "size_bytes": 347,
+      "sha256": "61d8b80cc80e934e1d29bfbb83a466ac15329adbdb2979c46b282777eefe0b08",
+      "role": "textual_cdrom_toc_metadata"
+    },
+    {
+      "source_group": "SW",
+      "source_path": "SW/CDROM.TOC",
+      "extension": ".TOC",
+      "size_bytes": 385,
+      "sha256": "ebe7a41f4044236936d0a269bd53a05e1d30f02f8d281e9f84a89cc18fa37584",
+      "role": "textual_cdrom_toc_metadata"
+    },
+    {
+      "source_group": "SW",
+      "source_path": "SW/VERSION.TXT",
+      "extension": ".TXT",
+      "size_bytes": 664,
+      "sha256": "0865a1e56ec68516469a1f78121d57cc799c2ee994763b29f5771116a2b3b747",
+      "role": "textual_firmware_filesystem_requirement"
+    }
+  ],
+  "sector_image_candidates": [],
+  "sector_image_candidate_count": 0,
+  "version_requirement_lines": [
+    "The filesystem on CD must be ISO9660 level 2",
+    "(with long filenames up to 30 characters)"
+  ],
+  "filesystem_requirement_classification": "DOCUMENTED_REQUIREMENT_ONLY",
+  "track_layout": "NOT_PROVEN",
+  "sector_geometry": "NOT_PROVEN",
+  "physical_compatibility": "NOT_TESTED",
+  "original_media_write_count": 0,
+  "reason": "No manifest-backed optical sector image or cue/track image is present in the three original source groups; CDROM.TOC and VERSION.TXT are text metadata, not sector-layout proof. Supply a read-only sector image or cue/bin pair.",
+  "created_utc": "2026-10-28T17:01:52.428193+00:00"
+}

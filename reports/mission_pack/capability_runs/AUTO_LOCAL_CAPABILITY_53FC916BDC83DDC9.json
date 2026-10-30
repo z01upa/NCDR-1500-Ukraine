@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_CODEX",
+  "task_id": "AUTO_LOCAL_CAPABILITY_53FC916BDC83DDC9",
+  "request_id": "CAP_53FC916BDC83DDC9",
+  "executor": "Local-first capability broker",
+  "outcome": {
+    "status": "WAITING_CODEX",
+    "request_id": "CAP_53FC916BDC83DDC9",
+    "reason": "Codex CLI is unavailable."
+  },
+  "created_utc": "2026-10-28T15:40:53.852185+00:00",
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "edge": 0,
+    "flags": 34052,
+    "length_field": 2809,
+    "coordinates_integer": [
+      [
+        997920,
+        5649577
+      ],
+      [
+        997947,
+        5649471
+      ],
+      [
+        998017,
+        5648912
+      ],
+      [
+        998028,
+        5648808
+      ]
+    ],
+    "record_offset": 1887,
+    "block": 0,
+    "source_offset": 20703022,
+    "calculated_m": 857.9294513204379,
+    "length_field_times_0_3048": 856.1832
+  },
+  {
+    "edge": 1,
+    "flags": 49704,
+    "length_field": 1226,
+    "coordinates_integer": [
+      [
+        997798,
+        5649258
+      ],
+      [
+        997912,
+        5649371
+      ],
+      [
+        997934,
+        5649449
+      ],
+      [
+        997920,
+        5649577
+      ]
+    ],
+    "record_offset": 1901,
+    "block": 0,
+    "source_offset": 20703022,
+    "calculated_m": 374.1881650491928,
+    "length_field_times_0_3048": 373.6848
+  },
+  {
+    "edge": 2,
+    "flags": 34052,
+    "length_field": 782,
+    "coordinates_integer": [
+      [
+        997854,
+        5649789
+      ],
+      [
+        997865,
+        5649759
+      ],
+      [
+        997881,
+        5649710
+      ],
+      [
+        997920,
+        5649577
+      ]
+    ],
+    "record_offset": 1915,
+    "block": 0,
+    "source_offset": 20703022,
+    "calculated_m": 239.21242497083733,
+    "length_field_times_0_3048": 238.3536
+  },
+  {
+    "edge": 0,
+    "flags": 34052,
+    "length_field": 403,
+    "coordinates_integer": [
+      [
+        215933,
+        4887477
+      ],
+      [
+        215953,
+        4887488
+      ],
+      [
+        216011,
+        4887528
+      ],
+      [
+        216048,
+        4887557
+      ]
+    ],
+    "record_offset": 7846,
+    "block": 1,
+    "source_offset": 11673569,
+    "calculated_m": 122.62407035690438,
+    "length_field_times_0_3048": 122.8344
+  },
+  {
+    "edge": 1,
+    "flags": 34052,
+    "length_field": 255,
+    "coordinates_integer": [
+      [
+        215829,
+        4887420
+      ],
+      [
+        215847,
+        4887431
+      ],
+      [
+        215890,
+        4887454
+      ],
+      [
+        215910,
+        4887465
+      ]
+    ],
+    "record_offset": 7860,
+    "block": 1,
+    "source_offset": 11673569,
+    "calculated_m": 77.5709107734441,
+    "length_field_times_0_3048": 77.724
+  },
+  {
+    "edge": 2,
+    "flags": 37160,
+    "length_field": 570,
+    "coordinates_integer": [
+      [
+        215729,
+        4887279
+      ],
+      [
+        215743,
+        4887317
+      ],
+      [
+        215799,
+        4887388
+      ],
+      [
+        215829,
+        4887420
+      ]
+    ],
+    "record_offset": 7874,
+    "block": 1,
+    "source_offset": 11673569,
+    "calculated_m": 174.2195262138219,
+    "length_field_times_0_3048": 173.73600000000002
+  },
+  {
+    "edge": 0,
+    "flags": 37651,
+    "length_field": 1816,
+    "coordinates_integer": [
+      [
+        1482176,
+        5078942
+      ],
+      [
+        1482251,
+        5078963
+      ],
+      [
+        1482552,
+        5079054
+      ],
+      [
+        1482888,
+        5079154
+      ]
+    ],
+    "record_offset": 1583,
+    "block": 2,
+    "source_offset": 24655066,
+    "calculated_m": 553.2423488178886,
+    "length_field_times_0_3048": 553.5168
+  },
+  {
+    "edge": 1,
+    "flags": 33560,
+    "length_field": 381,
+    "coordinates_integer": [
+      [
+        1485336,
+        5079381
+      ],
+      [
+        1485350,
+        5079451
+      ],
+      [
+        1485353,
+        5079485
+      ]
+    ],
+    "record_offset": 1597,
+    "block": 2,
+    "source_offset": 24655066,
+    "calculated_m": 116.32109913218673,
+    "length_field_times_0_3048": 116.12880000000001
+  },
+  {
+    "edge": 2,
+    "flags": 33555,
+    "length_field": 607,
+    "coordinates_integer": [
+      [
+        1485353,
+        5079485
+      ],
+      [
+        1485400,
+        5079481
+      ],
+      [
+        1485569,
+        5079474
+      ],
+      [
+        1485615,
+        5079477
+      ]
+    ],
+    "record_offset": 1611,
+    "block": 2,
+    "source_offset": 24655066,
+    "calculated_m": 184.87469436233516,
+    "length_field_times_0_3048": 185.0136
+  }
+]

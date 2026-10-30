@@ -1,0 +1,13 @@
+{
+  "item_index": 0,
+  "item_start_offset": 3872,
+  "item_end_offset": 3880,
+  "name_pointer": 37159,
+  "name": "1 iy mikrorayon",
+  "place_bitemask": 0,
+  "language": 21,
+  "region_pointer": 37175,
+  "region": "matushkino savelki",
+  "extended_info_ptr": 8094,
+  "raw_hex": "9127001591371f9e"
+}

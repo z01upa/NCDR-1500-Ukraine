@@ -1,0 +1,168 @@
+====================================================================================================
+FILE: 7185_MG1
+S3 TOTAL: 484102
+S3 INSIDE PAGE BBOX: 439398 / 484102 (90.7656%)
+S3 EXACTLY MATCHES S1 POINT: 835 / 484102
+S3 CHAIN START IN S1: 11 / 7916
+S3 CHAIN END IN S1: 5 / 7916
+EDGE TOTAL: 1165792
+S6[3] == endpoint A: 1165656 / 1165792
+S6[4] == endpoint B: 1165386 / 1165792
+S6[5] < S3 count: 322471 / 1165792
+S6[5] S3 point == endpoint: 4
+S6[5] S3 point distance to edge <=.01: 9107
+S6[5] S3 point distance to edge <=.05: 40426
+S6[6] VALUES: [(0, 1165735), (1, 28), (2, 20), (3, 3), (6, 2), (5, 2), (4, 1), (7, 1)]
+S6[5] GROUPS: 944201
+MULTI-EDGE GROUPS: 167341
+CONNECTED: 1979 / 167341
+CONNECTED + DEGREE<=2: 1975 / 167341
+S11 FIELD < S3 COUNT:
+ w0: 440279 / 1165792
+ w1: 768839 / 1165792
+ w2: 441323 / 1165792
+ w3: 768241 / 1165792
+S11 U32 ORDER: Counter({'q1<q0': 571036, 'q1>q0': 566292, 'equal': 28464})
+corr(|u32_1-u32_0|, edge_length): -0.08033518174995097
+corr(|w2-w0|, edge_length): 0.12640341988745665
+S11 BEARING TESTS: Counter({'n': 1165792, 'w1_forward_2deg': 20875, 'w3_reverse_2deg': 17064, 'w1_forward_exact': 6057, 'w3_forward_exact': 6043, 'w3_reverse_exact': 4436, 'w1_reverse_exact': 4257})
+====================================================================================================
+FILE: 7185_MG2
+S3 TOTAL: 250949
+S3 INSIDE PAGE BBOX: 228600 / 250949 (91.0942%)
+S3 EXACTLY MATCHES S1 POINT: 493 / 250949
+S3 CHAIN START IN S1: 11 / 6627
+S3 CHAIN END IN S1: 6 / 6627
+EDGE TOTAL: 728843
+S6[3] == endpoint A: 728794 / 728843
+S6[4] == endpoint B: 728689 / 728843
+S6[5] < S3 count: 123770 / 728843
+S6[5] S3 point == endpoint: 3
+S6[5] S3 point distance to edge <=.01: 5029
+S6[5] S3 point distance to edge <=.05: 20458
+S6[6] VALUES: [(0, 728798), (1, 26), (2, 15), (3, 1), (5, 1), (6, 1), (7, 1)]
+S6[5] GROUPS: 615524
+MULTI-EDGE GROUPS: 89840
+CONNECTED: 1000 / 89840
+CONNECTED + DEGREE<=2: 998 / 89840
+S11 FIELD < S3 COUNT:
+ w0: 231217 / 728843
+ w1: 440710 / 728843
+ w2: 231693 / 728843
+ w3: 440071 / 728843
+S11 U32 ORDER: Counter({'q1<q0': 355361, 'q1>q0': 352056, 'equal': 21426})
+corr(|u32_1-u32_0|, edge_length): -0.07018873165629726
+corr(|w2-w0|, edge_length): 0.12373359307975665
+S11 BEARING TESTS: Counter({'n': 728843, 'w1_forward_2deg': 13883, 'w3_reverse_2deg': 11137, 'w1_forward_exact': 3758, 'w3_forward_exact': 3734, 'w3_reverse_exact': 2902, 'w1_reverse_exact': 2831})
+====================================================================================================
+FILE: 7185_MG3
+S3 TOTAL: 148584
+S3 INSIDE PAGE BBOX: 135478 / 148584 (91.1794%)
+S3 EXACTLY MATCHES S1 POINT: 228 / 148584
+S3 CHAIN START IN S1: 6 / 5498
+S3 CHAIN END IN S1: 3 / 5498
+EDGE TOTAL: 485080
+S6[3] == endpoint A: 485064 / 485080
+S6[4] == endpoint B: 485050 / 485080
+S6[5] < S3 count: 49119 / 485080
+S6[5] S3 point == endpoint: 1
+S6[5] S3 point distance to edge <=.01: 2085
+S6[5] S3 point distance to edge <=.05: 7994
+S6[6] VALUES: [(0, 485034), (1, 17), (2, 13), (3, 7), (5, 4), (4, 3), (6, 1), (7, 1)]
+S6[5] GROUPS: 424622
+MULTI-EDGE GROUPS: 50370
+CONNECTED: 527 / 50370
+CONNECTED + DEGREE<=2: 527 / 50370
+S11 FIELD < S3 COUNT:
+ w0: 134065 / 485080
+ w1: 278406 / 485080
+ w2: 134399 / 485080
+ w3: 278104 / 485080
+S11 U32 ORDER: Counter({'q1<q0': 235746, 'q1>q0': 233883, 'equal': 15451})
+corr(|u32_1-u32_0|, edge_length): -0.049298666233620295
+corr(|w2-w0|, edge_length): 0.09714888728326293
+S11 BEARING TESTS: Counter({'n': 485080, 'w1_forward_2deg': 9514, 'w3_reverse_2deg': 7442, 'w3_forward_exact': 2480, 'w1_forward_exact': 2475, 'w3_reverse_exact': 1938, 'w1_reverse_exact': 1850})
+====================================================================================================
+FILE: 7186_MG1
+S3 TOTAL: 447444
+S3 INSIDE PAGE BBOX: 414007 / 447444 (92.5271%)
+S3 EXACTLY MATCHES S1 POINT: 455 / 447444
+S3 CHAIN START IN S1: 7 / 9544
+S3 CHAIN END IN S1: 2 / 9544
+EDGE TOTAL: 915579
+S6[3] == endpoint A: 915503 / 915579
+S6[4] == endpoint B: 915349 / 915579
+S6[5] < S3 count: 194884 / 915579
+S6[5] S3 point == endpoint: 2
+S6[5] S3 point distance to edge <=.01: 6438
+S6[5] S3 point distance to edge <=.05: 27405
+S6[6] VALUES: [(0, 915488), (1, 50), (2, 20), (3, 14), (4, 3), (6, 2), (5, 2)]
+S6[5] GROUPS: 785948
+MULTI-EDGE GROUPS: 104325
+CONNECTED: 1295 / 104325
+CONNECTED + DEGREE<=2: 1294 / 104325
+S11 FIELD < S3 COUNT:
+ w0: 340827 / 915579
+ w1: 635096 / 915579
+ w2: 341282 / 915579
+ w3: 634174 / 915579
+S11 U32 ORDER: Counter({'q1<q0': 446795, 'q1>q0': 445368, 'equal': 23416})
+corr(|u32_1-u32_0|, edge_length): -0.06537922569693551
+corr(|w2-w0|, edge_length): 0.1293549819365078
+S11 BEARING TESTS: Counter({'n': 915579, 'w1_forward_2deg': 18382, 'w3_reverse_2deg': 13196, 'w1_forward_exact': 4995, 'w3_forward_exact': 4983, 'w3_reverse_exact': 3458, 'w1_reverse_exact': 3311})
+====================================================================================================
+FILE: 7186_MG2
+S3 TOTAL: 256559
+S3 INSIDE PAGE BBOX: 235516 / 256559 (91.7980%)
+S3 EXACTLY MATCHES S1 POINT: 370 / 256559
+S3 CHAIN START IN S1: 9 / 7709
+S3 CHAIN END IN S1: 4 / 7709
+EDGE TOTAL: 686824
+S6[3] == endpoint A: 686795 / 686824
+S6[4] == endpoint B: 686734 / 686824
+S6[5] < S3 count: 109271 / 686824
+S6[5] S3 point == endpoint: 2
+S6[5] S3 point distance to edge <=.01: 4330
+S6[5] S3 point distance to edge <=.05: 16890
+S6[6] VALUES: [(0, 686754), (1, 39), (2, 19), (5, 5), (9, 3), (4, 2), (3, 1), (6, 1)]
+S6[5] GROUPS: 590848
+MULTI-EDGE GROUPS: 77988
+CONNECTED: 878 / 77988
+CONNECTED + DEGREE<=2: 877 / 77988
+S11 FIELD < S3 COUNT:
+ w0: 219389 / 686824
+ w1: 430932 / 686824
+ w2: 219627 / 686824
+ w3: 430330 / 686824
+S11 U32 ORDER: Counter({'q1<q0': 334876, 'q1>q0': 331815, 'equal': 20133})
+corr(|u32_1-u32_0|, edge_length): -0.05101765213245184
+corr(|w2-w0|, edge_length): 0.09585078955138267
+S11 BEARING TESTS: Counter({'n': 686824, 'w1_forward_2deg': 13641, 'w3_reverse_2deg': 10097, 'w1_forward_exact': 3617, 'w3_forward_exact': 3598, 'w3_reverse_exact': 2637, 'w1_reverse_exact': 2573})
+====================================================================================================
+FILE: 7186_MG3
+S3 TOTAL: 148571
+S3 INSIDE PAGE BBOX: 135481 / 148571 (91.1894%)
+S3 EXACTLY MATCHES S1 POINT: 228 / 148571
+S3 CHAIN START IN S1: 6 / 5507
+S3 CHAIN END IN S1: 3 / 5507
+EDGE TOTAL: 485088
+S6[3] == endpoint A: 485070 / 485088
+S6[4] == endpoint B: 485055 / 485088
+S6[5] < S3 count: 49473 / 485088
+S6[5] S3 point == endpoint: 1
+S6[5] S3 point distance to edge <=.01: 2086
+S6[5] S3 point distance to edge <=.05: 8009
+S6[6] VALUES: [(0, 485042), (1, 17), (2, 13), (3, 7), (5, 4), (4, 3), (6, 1), (7, 1)]
+S6[5] GROUPS: 424506
+MULTI-EDGE GROUPS: 50477
+CONNECTED: 527 / 50477
+CONNECTED + DEGREE<=2: 527 / 50477
+S11 FIELD < S3 COUNT:
+ w0: 134573 / 485088
+ w1: 279131 / 485088
+ w2: 134959 / 485088
+ w3: 278824 / 485088
+S11 U32 ORDER: Counter({'q1<q0': 235726, 'q1>q0': 233908, 'equal': 15454})
+corr(|u32_1-u32_0|, edge_length): -0.04942080105797606
+corr(|w2-w0|, edge_length): 0.0971753823701214
+S11 BEARING TESTS: Counter({'n': 485088, 'w1_forward_2deg': 9515, 'w3_reverse_2deg': 7439, 'w3_forward_exact': 2478, 'w1_forward_exact': 2474, 'w3_reverse_exact': 1935, 'w1_reverse_exact': 1835})

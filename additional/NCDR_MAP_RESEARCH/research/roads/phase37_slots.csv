@@ -1,0 +1,2 @@
+targets,unique_target_ptr_pairs,known_slots,base_rule,alignment_success,global_base_success
+23,2458,2458,base=min referenced ptr per target,2458/2458,not applicable

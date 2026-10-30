@@ -1,0 +1,2 @@
+sector,header_length,child_count_offset,child_count,child_list_offset,child_stride,layout_status
+0x76307,0x2C,0x06,6,0x2C,4,header/list boundaries confirmed; range semantics unresolved

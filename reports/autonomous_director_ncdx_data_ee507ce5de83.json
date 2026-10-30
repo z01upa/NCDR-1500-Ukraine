@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_ee507ce5de83",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dd1f04be",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dd1f04be",
+  "selection_source": "Ollama",
+  "selection_reason": "The candidate stream summary contains 138 entries with measurements like 'alignment_6/scale_1000000_lon_lat' and associated region_candidate_pairs/adjacent_pairs_within_5km metrics, which directly relate to map storage (coordinate candidates) and address/index data (region pairs). Selecting this goal_id prioritizes evidence reducing uncertainty about these specific data types without requiring hardware or media writes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_dd1f04be",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG1_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_e9a50d6d",
+  "candidate_fingerprint": "d53d28b6dcd4925367d4070ccdb273143ea2206b28ae695a877384573b6a0316",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_ee507ce5de83",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T19:11:09.446670+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

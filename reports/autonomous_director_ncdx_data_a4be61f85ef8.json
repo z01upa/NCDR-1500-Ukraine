@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_a4be61f85ef8",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PDX_DECODED_STRUCTURE_SCAN_1708fbb9",
+  "selected_goal_id": "AUTO_NCDX_DATA_PDX_DECODED_STRUCTURE_SCAN_1708fbb9",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PDX_DECODED_STRUCTURE_SCAN_1708fbb9",
+  "candidate_fingerprint": "c210fce0a31a35232b96f4a217766fcaa190b4e4fddfd36392802e17ee85326f",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_a4be61f85ef8",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-26T22:38:55.613714+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

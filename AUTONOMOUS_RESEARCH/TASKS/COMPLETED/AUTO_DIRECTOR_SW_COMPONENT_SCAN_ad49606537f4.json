@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_MMIDIS_LOC_0130170000/MMIDISUPDATE.DLL",
+    "reports/autonomous_director_sw_component_ad49606537f4.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_ad49606537f4",
+  "updated_utc": "2026-10-27T20:07:49.672917+00:00"
+}

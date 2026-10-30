@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_25f5515ab373",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_907cac8282a91cbb",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_AUDIO_LOC_0020200002/AUDIOUPDATE.DLL",
+  "selected_source_sha256": "82bea46e85ed75cbcd1cf23ea4263358ce870aee2d49aa89365339af36911d48",
+  "selected_size_bytes": 23040,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "AUDIOUPDATE.DLL is a high-priority candidate for reverse engineering the NCDx firmware structure, specifically regarding audio navigation integration and header validation, without requiring hardware access or modifying original media.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_907cac8282a91cbb",
+  "candidate_fingerprint": "25f5515ab373e719f5b7cfe20ad33ddf93da70674329828183f5f687f6c3f8fa",
+  "remaining_unseen_candidates": 2,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:06:54.867347+00:00"
+}

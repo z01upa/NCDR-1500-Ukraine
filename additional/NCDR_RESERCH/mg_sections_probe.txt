@@ -1,0 +1,514 @@
+==========================================================================================
+DATASET: 7185
+
+------------------------------------------------------------------------------------------
+FILE: IZ.MG1
+N: 3925
+SECTION A bbox: 0x72..0xF5C2
+SECTION B meta: 0xF5C2..0x1706A
+SECTION C zero: 0x1706A..0x1ADBE
+ZLIB AREA: 0x1ADBE..0x2043CDB
+
+BBOX TEST:
+contained: 3925 / 3925
+ordered x0<=x1 y0<=y1: 3925 / 3925
+contained+ordered: 3925 / 3925
+zero-width: 0
+zero-height: 0
+top widths: [(7688, 758), (30754, 620), (15376, 599), (15377, 462), (7687, 327), (61509, 294), (3843, 197), (30753, 165), (61508, 164), (3844, 104), (123018, 47), (30755, 40), (123019, 39), (61510, 36), (7689, 13)]
+top heights: [(15376, 768), (30754, 698), (15377, 560), (61509, 520), (7688, 424), (61508, 240), (7687, 200), (123018, 152), (30753, 125), (123019, 97), (3843, 60), (246038, 35), (3844, 33), (246037, 6), (492077, 5)]
+FIRST BOXES:
+  #0000 (1067634, 5963810, 1083010, 5979187)
+  #0001 (959992, 4564465, 963836, 4572153)
+  #0002 (1129144, 4518332, 1144520, 4533709)
+  #0003 (798530, 4464511, 802373, 4472199)
+  #0004 (537114, 5210316, 544801, 5225692)
+  #0005 (1359805, 3718705, 1367493, 3726393)
+  #0006 (1421315, 6271358, 1452069, 6332866)
+  #0007 (590934, 4303048, 621688, 4333802)
+  #0008 (975370, 4472200, 990746, 4487576)
+  #0009 (-254822, 5133429, -239447, 5164183)
+
+TABLE C ALL ZERO: True
+STREAM COUNT: 3925
+STREAM COUNT MATCH: True
+
+META CORRELATIONS:
+meta0
+  start_abs  same-index=0/3925 anywhere=3925/3925
+  start_rel  same-index=0/3925 anywhere=1/3925
+  end_abs    same-index=0/3925 anywhere=3924/3925
+  end_rel    same-index=0/3925 anywhere=1/3925
+  packed     same-index=0/3925 anywhere=0/3925
+  raw_len    same-index=0/3925 anywhere=0/3925
+  adler      same-index=0/3925 anywhere=0/3925
+meta1
+  start_abs  same-index=0/3925 anywhere=0/3925
+  start_rel  same-index=0/3925 anywhere=0/3925
+  end_abs    same-index=0/3925 anywhere=0/3925
+  end_rel    same-index=0/3925 anywhere=0/3925
+  packed     same-index=0/3925 anywhere=0/3925
+  raw_len    same-index=0/3925 anywhere=0/3925
+  adler      same-index=0/3925 anywhere=0/3925
+
+FIRST META:
+  #0000 meta0=  31708348 0x01E3D4BC meta1= 353247577 0x150E2159 rel_stream=None abs_stream=3664
+  #0001 meta0=  17310787 0x01082443 meta1= 608450834 0x24443912 rel_stream=None abs_stream=2014
+  #0002 meta0=  25769402 0x018935BA meta1= 977296769 0x3A405D81 rel_stream=None abs_stream=2965
+  #0003 meta0=  15363547 0x00EA6DDB meta1= 415705000 0x18C727A8 rel_stream=None abs_stream=1810
+  #0004 meta0=  19452399 0x0128D1EF meta1= 768297507 0x2DCB4A23 rel_stream=None abs_stream=2259
+  #0005 meta0=   5590139 0x00554C7B meta1=  52233486 0x031D050E rel_stream=None abs_stream=686
+  #0006 meta0=  32151618 0x01EA9842 meta1= 264575347 0x0FC51973 rel_stream=None abs_stream=3711
+  #0007 meta0=  12909105 0x00C4FA31 meta1= 838357717 0x31F852D5 rel_stream=None abs_stream=1532
+  #0008 meta0=  16959747 0x0102C903 meta1= 618872386 0x24E33E42 rel_stream=None abs_stream=1978
+  #0009 meta0=   2657455 0x00288CAF meta1= 213718134 0x0CBD1476 rel_stream=None abs_stream=340
+  #0010 meta0=  20497722 0x0138C53A meta1= 905664624 0x35FB5870 rel_stream=None abs_stream=2384
+  #0011 meta0=  22801090 0x015BEAC2 meta1= 861229854 0x3355531E rel_stream=None abs_stream=2650
+  #0012 meta0=   9701871 0x009409EF meta1= 618544515 0x24DE3D83 rel_stream=None abs_stream=1122
+  #0013 meta0=  27640547 0x01A5C2E3 meta1= 739330236 0x2C1148BC rel_stream=None abs_stream=3170
+  #0014 meta0=  33019002 0x01F7D47A meta1= 658784778 0x2744420A rel_stream=None abs_stream=3823
+  #0015 meta0=   1006606 0x000F5C0E meta1= 580729401 0x229D3A39 rel_stream=None abs_stream=129
+  #0016 meta0=  11077098 0x00A905EA meta1= 715277990 0x2AA246A6 rel_stream=None abs_stream=1283
+  #0017 meta0=   4792811 0x004921EB meta1= 876892966 0x34445326 rel_stream=None abs_stream=592
+  #0018 meta0=  17495461 0x010AF5A5 meta1= 591804110 0x234636CE rel_stream=None abs_stream=2032
+  #0019 meta0=  11490669 0x00AF556D meta1= 692142950 0x29414366 rel_stream=None abs_stream=1334
+  #0020 meta0=   3884130 0x003B4462 meta1= 868766023 0x33C85147 rel_stream=None abs_stream=489
+  #0021 meta0=  20324241 0x01361F91 meta1= 242358273 0x0E721801 rel_stream=None abs_stream=2361
+  #0022 meta0=  20030150 0x0131A2C6 meta1= 433596836 0x19D829A4 rel_stream=None abs_stream=2329
+  #0023 meta0=   5359160 0x0051C638 meta1= 525481064 0x1F523468 rel_stream=None abs_stream=661
+  #0024 meta0=  25458782 0x0184785E meta1= 364782195 0x15BE2273 rel_stream=None abs_stream=2934
+  #0025 meta0=   8819079 0x00869187 meta1= 608583074 0x24463DA2 rel_stream=None abs_stream=1032
+  #0026 meta0=   8033868 0x007A964C meta1= 902780957 0x35CF581D rel_stream=None abs_stream=947
+  #0027 meta0=  27099694 0x019D822E meta1= 605633229 0x24193ACD rel_stream=None abs_stream=3111
+  #0028 meta0=  31228674 0x01DC8302 meta1= 930437646 0x37755A0E rel_stream=None abs_stream=3609
+  #0029 meta0=  30704249 0x01D48279 meta1= 655769208 0x27163E78 rel_stream=None abs_stream=3540
+meta0 <= compressed-area-size: 3914 / 3925
+meta0 unique: 3925 / 3925
+meta1 unique: 3922 / 3925
+
+------------------------------------------------------------------------------------------
+FILE: IZ.MG2
+N: 2511
+SECTION A bbox: 0x72..0x9D62
+SECTION B meta: 0x9D62..0xEBDA
+SECTION C zero: 0xEBDA..0x11316
+ZLIB AREA: 0x11316..0x1364E52
+
+BBOX TEST:
+contained: 2511 / 2511
+ordered x0<=x1 y0<=y1: 2511 / 2511
+contained+ordered: 2511 / 2511
+zero-width: 0
+zero-height: 0
+top widths: [(30754, 679), (15376, 383), (61509, 303), (15377, 295), (7688, 180), (61508, 173), (30753, 168), (7687, 87), (123018, 48), (123019, 38), (61510, 37), (30755, 36), (3843, 21), (7689, 12), (15375, 11)]
+top heights: [(30754, 683), (61509, 536), (15376, 286), (61508, 245), (15377, 202), (123018, 157), (30753, 124), (123019, 100), (7688, 87), (7687, 40), (246038, 38), (246037, 6), (492077, 5), (984154, 1), (492076, 1)]
+FIRST BOXES:
+  #0000 (1052256, 5994565, 1083010, 6025319)
+  #0001 (867728, 5041165, 898482, 5102673)
+  #0002 (1452070, 4795126, 1482824, 4856634)
+  #0003 (498670, 5010410, 529424, 5041164)
+  #0004 (475604, 5225693, 483292, 5241070)
+  #0005 (1344428, 4349180, 1352116, 4356868)
+  #0006 (1575089, 4979655, 1605843, 5010409)
+  #0007 (129611, 4364557, 160365, 4395311)
+  #0008 (652444, 4549087, 683198, 4610595)
+  #0009 (-916055, 5225693, -885300, 5287202)
+
+TABLE C ALL ZERO: True
+STREAM COUNT: 2511
+STREAM COUNT MATCH: True
+
+META CORRELATIONS:
+meta0
+  start_abs  same-index=2/2511 anywhere=2511/2511
+  start_rel  same-index=0/2511 anywhere=0/2511
+  end_abs    same-index=1/2511 anywhere=2510/2511
+  end_rel    same-index=0/2511 anywhere=0/2511
+  packed     same-index=0/2511 anywhere=0/2511
+  raw_len    same-index=0/2511 anywhere=0/2511
+  adler      same-index=0/2511 anywhere=0/2511
+meta1
+  start_abs  same-index=0/2511 anywhere=0/2511
+  start_rel  same-index=0/2511 anywhere=0/2511
+  end_abs    same-index=0/2511 anywhere=0/2511
+  end_rel    same-index=0/2511 anywhere=0/2511
+  packed     same-index=0/2511 anywhere=0/2511
+  raw_len    same-index=0/2511 anywhere=0/2511
+  adler      same-index=0/2511 anywhere=0/2511
+
+FIRST META:
+  #0000 meta0=  18241632 0x01165860 meta1= 211096530 0x0C9513D2 rel_stream=None abs_stream=2256
+  #0001 meta0=  12586663 0x00C00EA7 meta1= 813715784 0x30805148 rel_stream=None abs_stream=1545
+  #0002 meta0=  16686795 0x00FE9ECB meta1= 186192347 0x0B1911DB rel_stream=None abs_stream=2055
+  #0003 meta0=   7858279 0x0077E867 meta1= 662847893 0x27824195 rel_stream=None abs_stream=972
+  #0004 meta0=   8200247 0x007D2037 meta1= 383002191 0x16D4264F rel_stream=None abs_stream=1019
+  #0005 meta0=  15587823 0x00EDD9EF meta1= 376120099 0x166B2323 rel_stream=None abs_stream=1911
+  #0006 meta0=  17202916 0x01067EE4 meta1= 988045935 0x3AE4626F rel_stream=None abs_stream=2130
+  #0007 meta0=   5814291 0x0058B813 meta1= 645414260 0x26783D74 rel_stream=None abs_stream=710
+  #0008 meta0=   8571657 0x0082CB09 meta1= 585644311 0x22E83917 rel_stream=None abs_stream=1066
+  #0009 meta0=   1527958 0x00175096 meta1= 180359387 0x0AC010DB rel_stream=None abs_stream=195
+  #0010 meta0=  16259126 0x00F81836 meta1= 511586969 0x1E7E3299 rel_stream=None abs_stream=1999
+  #0011 meta0=  13883302 0x00D3D7A6 meta1= 581253533 0x22A5399D rel_stream=None abs_stream=1705
+  #0012 meta0=   4860540 0x004A2A7C meta1= 357835305 0x15542229 rel_stream=None abs_stream=603
+  #0013 meta0=  17666793 0x010D92E9 meta1= 520369040 0x1F043390 rel_stream=None abs_stream=2184
+  #0014 meta0=  19524783 0x0129ECAF meta1= 210965800 0x0C931528 rel_stream=None abs_stream=2410
+  #0015 meta0=    969414 0x000ECAC6 meta1= 395060649 0x178C25A9 rel_stream=None abs_stream=124
+  #0016 meta0=   7087861 0x006C26F5 meta1= 341385367 0x14592097 rel_stream=None abs_stream=862
+  #0017 meta0=  10006570 0x0098B02A meta1= 463350755 0x1B9E2BE3 rel_stream=None abs_stream=1233
+  #0018 meta0=  11996598 0x00B70DB6 meta1= 566572085 0x21C53435 rel_stream=None abs_stream=1474
+  #0019 meta0=   7234364 0x006E633C meta1= 727008952 0x2B5546B8 rel_stream=None abs_stream=881
+  #0020 meta0=   3330899 0x0032D353 meta1= 476655274 0x1C692EAA rel_stream=None abs_stream=420
+  #0021 meta0=  11788303 0x00B3E00F meta1= 286464663 0x11131A97 rel_stream=None abs_stream=1449
+  #0022 meta0=  12924030 0x00C5347E meta1= 891704535 0x352654D7 rel_stream=None abs_stream=1592
+  #0023 meta0=   4041360 0x003DAA90 meta1= 374940378 0x165922DA rel_stream=None abs_stream=507
+  #0024 meta0=  14756915 0x00E12C33 meta1= 537933032 0x201034E8 rel_stream=None abs_stream=1807
+  #0025 meta0=   4649377 0x0046F1A1 meta1= 866473275 0x33A5553B rel_stream=None abs_stream=578
+  #0026 meta0=  15484849 0x00EC47B1 meta1= 344465768 0x14882168 rel_stream=None abs_stream=1898
+  #0027 meta0=  16963939 0x0102D963 meta1= 611531562 0x24733B2A rel_stream=None abs_stream=2089
+  #0028 meta0=  17719430 0x010E6086 meta1=  16580951 0x00FD0157 rel_stream=None abs_stream=2191
+  #0029 meta0=  17385663 0x010948BF meta1= 910580397 0x36465AAD rel_stream=None abs_stream=2149
+meta0 <= compressed-area-size: 2504 / 2511
+meta0 unique: 2511 / 2511
+meta1 unique: 2510 / 2511
+
+------------------------------------------------------------------------------------------
+FILE: IZ.MG3
+N: 1617
+SECTION A bbox: 0x72..0x6582
+SECTION B meta: 0x6582..0x980A
+SECTION C zero: 0x980A..0xB14E
+ZLIB AREA: 0xB14E..0xC847B7
+
+BBOX TEST:
+contained: 1617 / 1617
+ordered x0<=x1 y0<=y1: 1617 / 1617
+contained+ordered: 1617 / 1617
+zero-width: 0
+zero-height: 0
+top widths: [(30657, 406), (61316, 250), (61315, 227), (30658, 209), (15328, 200), (122632, 82), (15329, 50), (30656, 31), (61317, 27), (7663, 26), (7664, 24), (122633, 16), (30659, 14), (15327, 14), (245265, 10)]
+top heights: [(61316, 386), (61315, 332), (30657, 323), (122632, 241), (15328, 124), (30658, 100), (245265, 37), (122633, 27), (15329, 14), (7664, 10), (7663, 9), (245266, 8), (490532, 4), (490531, 2)]
+FIRST BOXES:
+  #0000 (989194, 5990638, 1019851, 6051954)
+  #0001 (345371, 4886940, 376028, 4948256)
+  #0002 (1602360, 5745372, 1663675, 5806688)
+  #0003 (130762, 4457724, 192078, 4519040)
+  #0004 (483333, 5132206, 498661, 5162864)
+  #0005 (1418410, 4028508, 1449068, 4089824)
+  #0006 (2031575, 6113271, 2154208, 6358536)
+  #0007 (-819644, 4212458, -788987, 4273773)
+  #0008 (897219, 4580358, 927876, 4641673)
+  #0009 (-697010, 5193523, -666354, 5254838)
+
+TABLE C ALL ZERO: True
+STREAM COUNT: 1617
+STREAM COUNT MATCH: True
+
+META CORRELATIONS:
+meta0
+  start_abs  same-index=0/1617 anywhere=1617/1617
+  start_rel  same-index=0/1617 anywhere=1/1617
+  end_abs    same-index=2/1617 anywhere=1616/1617
+  end_rel    same-index=0/1617 anywhere=1/1617
+  packed     same-index=0/1617 anywhere=0/1617
+  raw_len    same-index=0/1617 anywhere=0/1617
+  adler      same-index=0/1617 anywhere=0/1617
+meta1
+  start_abs  same-index=0/1617 anywhere=0/1617
+  start_rel  same-index=0/1617 anywhere=0/1617
+  end_abs    same-index=0/1617 anywhere=0/1617
+  end_rel    same-index=0/1617 anywhere=0/1617
+  packed     same-index=0/1617 anywhere=0/1617
+  raw_len    same-index=0/1617 anywhere=0/1617
+  adler      same-index=0/1617 anywhere=0/1617
+
+FIRST META:
+  #0000 meta0=   8681938 0x008479D2 meta1= 319496272 0x130B2050 rel_stream=None abs_stream=1079
+  #0001 meta0=   4870032 0x004A4F90 meta1= 486616673 0x1D012E61 rel_stream=None abs_stream=609
+  #0002 meta0=  11606108 0x00B1185C meta1= 780552982 0x2E864B16 rel_stream=None abs_stream=1423
+  #0003 meta0=   3571194 0x00367DFA meta1= 927029687 0x374159B7 rel_stream=None abs_stream=452
+  #0004 meta0=   5378566 0x00521206 meta1= 272243342 0x103A1A8E rel_stream=None abs_stream=681
+  #0005 meta0=   3162093 0x00303FED meta1= 453454925 0x1B072C4D rel_stream=None abs_stream=403
+  #0006 meta0=  11848884 0x00B4CCB4 meta1= 608779622 0x24493D66 rel_stream=None abs_stream=1454
+  #0007 meta0=    958017 0x000E9E41 meta1= 463482362 0x1BA02DFA rel_stream=None abs_stream=129
+  #0008 meta0=   6223979 0x005EF86B meta1= 844714615 0x32595277 rel_stream=None abs_stream=788
+  #0009 meta0=   1187146 0x00121D4A meta1= 475213650 0x1C532F52 rel_stream=None abs_stream=154
+  #0010 meta0=   5358115 0x0051C223 meta1= 290594001 0x11521CD1 rel_stream=None abs_stream=678
+  #0011 meta0=   9671581 0x0093939D meta1= 583940406 0x22CE3936 rel_stream=None abs_stream=1195
+  #0012 meta0=  10156613 0x009AFA45 meta1= 681591257 0x28A041D9 rel_stream=None abs_stream=1258
+  #0013 meta0=  11231787 0x00AB622B meta1= 560477972 0x21683714 rel_stream=None abs_stream=1385
+  #0014 meta0=  12823641 0x00C3AC59 meta1= 630669025 0x25973EE1 rel_stream=None abs_stream=1579
+  #0015 meta0=    540313 0x00083E99 meta1= 333324540 0x13DE20FC rel_stream=None abs_stream=67
+  #0016 meta0=   1427221 0x0015C715 meta1= 139201862 0x084C0D46 rel_stream=None abs_stream=188
+  #0017 meta0=   5513167 0x00541FCF meta1= 399910606 0x17D626CE rel_stream=None abs_stream=701
+  #0018 meta0=   6395338 0x006195CA meta1= 633421417 0x25C13E69 rel_stream=None abs_stream=807
+  #0019 meta0=   4597071 0x0046254F meta1= 594361325 0x236D3BED rel_stream=None abs_stream=574
+  #0020 meta0=   2535111 0x0026AEC7 meta1= 399975921 0x17D725F1 rel_stream=None abs_stream=326
+  #0021 meta0=   6657637 0x00659665 meta1= 772623504 0x2E0D4C90 rel_stream=None abs_stream=839
+  #0022 meta0=   8552939 0x008281EB meta1= 756173135 0x2D12494F rel_stream=None abs_stream=1064
+  #0023 meta0=   9522460 0x00914D1C meta1= 482160430 0x1CBD2F2E rel_stream=None abs_stream=1179
+  #0024 meta0=   9778074 0x0095339A meta1= 557594431 0x213C373F rel_stream=None abs_stream=1210
+  #0025 meta0=   9931291 0x00978A1B meta1= 688342235 0x290744DB rel_stream=None abs_stream=1230
+  #0026 meta0=  11582534 0x00B0BC46 meta1= 833900478 0x31B44FBE rel_stream=None abs_stream=1420
+  #0027 meta0=  11223462 0x00AB41A6 meta1= 545601371 0x2085375B rel_stream=None abs_stream=1384
+  #0028 meta0=  11929954 0x00B60962 meta1= 788942385 0x2F064E31 rel_stream=None abs_stream=1462
+  #0029 meta0=  12397371 0x00BD2B3B meta1= 529347611 0x1F8D341B rel_stream=None abs_stream=1522
+meta0 <= compressed-area-size: 1611 / 1617
+meta0 unique: 1617 / 1617
+meta1 unique: 1617 / 1617
+==========================================================================================
+DATASET: 7186
+
+------------------------------------------------------------------------------------------
+FILE: SCZ.MG1
+N: 3203
+SECTION A bbox: 0x72..0xC8A2
+SECTION B meta: 0xC8A2..0x12CBA
+SECTION C zero: 0x12CBA..0x15EC6
+ZLIB AREA: 0x15EC6..0x1A74DDE
+
+BBOX TEST:
+contained: 3203 / 3203
+ordered x0<=x1 y0<=y1: 3203 / 3203
+contained+ordered: 3203 / 3203
+zero-width: 0
+zero-height: 0
+top widths: [(31606, 1075), (15803, 454), (15802, 338), (63213, 284), (31607, 246), (7901, 211), (63214, 171), (3950, 67), (7900, 67), (31605, 58), (126428, 39), (63212, 34), (126427, 32), (15804, 23), (63215, 17)]
+top heights: [(31606, 1070), (63213, 717), (15803, 296), (63214, 295), (15802, 229), (31607, 159), (126428, 132), (7901, 128), (126427, 78), (7900, 31), (3950, 28), (252856, 20), (252857, 8), (3949, 4), (505714, 3)]
+FIRST BOXES:
+  #0000 (1256938, 5567312, 1260888, 5571262)
+  #0001 (308724, 5057646, 316624, 5073448)
+  #0002 (2481716, 6053271, 2497518, 6069074)
+  #0003 (387742, 4346484, 395643, 4362287)
+  #0004 (838143, 5547557, 853945, 5563360)
+  #0005 (1612518, 5990057, 1644125, 6053270)
+  #0006 (2465912, 6069075, 2481715, 6084877)
+  #0007 (-568374, 4283270, -536769, 4346483)
+  #0008 (601089, 4662557, 632696, 4725770)
+  #0009 (-884446, 5263092, -868643, 5294698)
+
+TABLE C ALL ZERO: True
+STREAM COUNT: 3203
+STREAM COUNT MATCH: True
+
+META CORRELATIONS:
+meta0
+  start_abs  same-index=2/3203 anywhere=3203/3203
+  start_rel  same-index=0/3203 anywhere=0/3203
+  end_abs    same-index=0/3203 anywhere=3202/3203
+  end_rel    same-index=0/3203 anywhere=0/3203
+  packed     same-index=0/3203 anywhere=0/3203
+  raw_len    same-index=0/3203 anywhere=0/3203
+  adler      same-index=0/3203 anywhere=0/3203
+meta1
+  start_abs  same-index=0/3203 anywhere=0/3203
+  start_rel  same-index=0/3203 anywhere=0/3203
+  end_abs    same-index=0/3203 anywhere=0/3203
+  end_rel    same-index=0/3203 anywhere=0/3203
+  packed     same-index=0/3203 anywhere=0/3203
+  raw_len    same-index=0/3203 anywhere=0/3203
+  adler      same-index=0/3203 anywhere=0/3203
+
+FIRST META:
+  #0000 meta0=  17459735 0x010A6A17 meta1= 824135775 0x311F505F rel_stream=None abs_stream=2148
+  #0001 meta0=   6916982 0x00698B76 meta1= 728975049 0x2B7346C9 rel_stream=None abs_stream=878
+  #0002 meta0=  24371288 0x0173E058 meta1= 720651310 0x2AF4442E rel_stream=None abs_stream=2862
+  #0003 meta0=   5406666 0x00527FCA meta1= 425076574 0x1956275E rel_stream=None abs_stream=681
+  #0004 meta0=  11585893 0x00B0C965 meta1= 804474095 0x2FF34CEF rel_stream=None abs_stream=1469
+  #0005 meta0=  21029922 0x0140E422 meta1= 924735619 0x371E5883 rel_stream=None abs_stream=2505
+  #0006 meta0=  24382284 0x01740B4C meta1= 642661742 0x264E3D6E rel_stream=None abs_stream=2863
+  #0007 meta0=   1610174 0x001891BE meta1= 241506267 0x0E6517DB rel_stream=None abs_stream=209
+  #0008 meta0=   7992213 0x0079F395 meta1= 515846390 0x1EBF30F6 rel_stream=None abs_stream=1015
+  #0009 meta0=   3058416 0x002EAAF0 meta1= 193467021 0x0B88128D rel_stream=None abs_stream=392
+  #0010 meta0=  17655910 0x010D6866 meta1=  73336444 0x045F067C rel_stream=None abs_stream=2173
+  #0011 meta0=  17741442 0x010EB682 meta1= 654196101 0x26FE3D85 rel_stream=None abs_stream=2184
+  #0012 meta0=  21523228 0x01486B1C meta1= 480783316 0x1CA82BD4 rel_stream=None abs_stream=2563
+  #0013 meta0=  22581450 0x015890CA meta1=1146449990 0x44557046 rel_stream=None abs_stream=2670
+  #0014 meta0=  26423602 0x01933132 meta1= 559494715 0x2159363B rel_stream=None abs_stream=3067
+  #0015 meta0=   1827792 0x001BE3D0 meta1= 189469434 0x0B4B12FA rel_stream=None abs_stream=237
+  #0016 meta0=   5274692 0x00507C44 meta1=  65209830 0x03E305E6 rel_stream=None abs_stream=666
+  #0017 meta0=   8211920 0x007D4DD0 meta1=  96471284 0x05C008F4 rel_stream=None abs_stream=1037
+  #0018 meta0=  10641477 0x00A26045 meta1= 503132087 0x1DFD2FB7 rel_stream=None abs_stream=1347
+  #0019 meta0=   7426407 0x00715167 meta1= 703873860 0x29F44344 rel_stream=None abs_stream=942
+  #0020 meta0=  11021563 0x00A82CFB meta1= 930306613 0x37735A35 rel_stream=None abs_stream=1396
+  #0021 meta0=  12183102 0x00B9E63E meta1= 460336072 0x1B702BC8 rel_stream=None abs_stream=1536
+  #0022 meta0=  18967170 0x01216A82 meta1= 181670102 0x0AD410D6 rel_stream=None abs_stream=2306
+  #0023 meta0=   4482408 0x00446568 meta1= 393357744 0x177229B0 rel_stream=None abs_stream=565
+  #0024 meta0=  18453406 0x0119939E meta1= 988372419 0x3AE95DC3 rel_stream=None abs_stream=2256
+  #0025 meta0=   4830952 0x0049B6E8 meta1= 793725819 0x2F4F4B7B rel_stream=None abs_stream=614
+  #0026 meta0=  23120404 0x0160CA14 meta1= 759449741 0x2D44488D rel_stream=None abs_stream=2727
+  #0027 meta0=  23327741 0x0163F3FD meta1= 755386914 0x2D064A22 rel_stream=None abs_stream=2750
+  #0028 meta0=  22912382 0x015D9D7E meta1= 383591524 0x16DD2464 rel_stream=None abs_stream=2702
+  #0029 meta0=  25052991 0x017E473F meta1= 655245263 0x270E3FCF rel_stream=None abs_stream=2933
+meta0 <= compressed-area-size: 3192 / 3203
+meta0 unique: 3203 / 3203
+meta1 unique: 3201 / 3203
+
+------------------------------------------------------------------------------------------
+FILE: SCZ.MG2
+N: 2335
+SECTION A bbox: 0x72..0x9262
+SECTION B meta: 0x9262..0xDB5A
+SECTION C zero: 0xDB5A..0xFFD6
+ZLIB AREA: 0xFFD6..0x129C66F
+
+BBOX TEST:
+contained: 2335 / 2335
+ordered x0<=x1 y0<=y1: 2335 / 2335
+contained+ordered: 2335 / 2335
+zero-width: 0
+zero-height: 0
+top widths: [(30754, 772), (61509, 349), (15376, 247), (61508, 193), (15377, 187), (30753, 176), (7688, 118), (7687, 63), (123018, 43), (61510, 37), (30755, 36), (123019, 36), (3843, 18), (7689, 12), (15375, 11)]
+top heights: [(61509, 663), (30754, 550), (61508, 303), (15376, 187), (123018, 150), (15377, 123), (30753, 121), (123019, 102), (7688, 57), (246038, 37), (7687, 32), (492077, 5), (246037, 2), (984154, 1), (3844, 1)]
+FIRST BOXES:
+  #0000 (959992, 5287203, 990746, 5348711)
+  #0001 (375650, 5071920, 406404, 5102673)
+  #0002 (990747, 5594751, 1006124, 5625505)
+  #0003 (437160, 4856635, 498669, 4979654)
+  #0004 (490982, 5233382, 498669, 5241070)
+  #0005 (1298295, 4918145, 1329049, 4979654)
+  #0006 (1728864, 6209848, 1759618, 6271357)
+  #0007 (421783, 4364557, 437159, 4395311)
+  #0008 (621689, 4733616, 652443, 4795125)
+  #0009 (-916055, 5225693, -885300, 5287202)
+
+TABLE C ALL ZERO: True
+STREAM COUNT: 2335
+STREAM COUNT MATCH: True
+
+META CORRELATIONS:
+meta0
+  start_abs  same-index=1/2335 anywhere=2335/2335
+  start_rel  same-index=0/2335 anywhere=0/2335
+  end_abs    same-index=1/2335 anywhere=2334/2335
+  end_rel    same-index=0/2335 anywhere=0/2335
+  packed     same-index=0/2335 anywhere=0/2335
+  raw_len    same-index=0/2335 anywhere=0/2335
+  adler      same-index=0/2335 anywhere=0/2335
+meta1
+  start_abs  same-index=0/2335 anywhere=0/2335
+  start_rel  same-index=0/2335 anywhere=0/2335
+  end_abs    same-index=0/2335 anywhere=0/2335
+  end_rel    same-index=0/2335 anywhere=0/2335
+  packed     same-index=0/2335 anywhere=0/2335
+  raw_len    same-index=0/2335 anywhere=0/2335
+  adler      same-index=0/2335 anywhere=0/2335
+
+FIRST META:
+  #0000 meta0=  10383162 0x009E6F3A meta1= 868111918 0x33BE562E rel_stream=None abs_stream=1301
+  #0001 meta0=   6374392 0x006143F8 meta1= 317136848 0x12E71FD0 rel_stream=None abs_stream=794
+  #0002 meta0=  10874244 0x00A5ED84 meta1= 765741260 0x2DA448CC rel_stream=None abs_stream=1359
+  #0003 meta0=   6222145 0x005EF141 meta1= 703153015 0x29E94377 rel_stream=None abs_stream=776
+  #0004 meta0=   6929129 0x0069BAE9 meta1= 718226772 0x2ACF4554 rel_stream=None abs_stream=875
+  #0005 meta0=  12933983 0x00C55B5F meta1= 347873603 0x14BC2143 rel_stream=None abs_stream=1593
+  #0006 meta0=  17019093 0x0103B0D5 meta1= 808078646 0x302A4D36 rel_stream=None abs_stream=2064
+  #0007 meta0=   5050096 0x004D0EF0 meta1= 832262041 0x319B4F99 rel_stream=None abs_stream=624
+  #0008 meta0=   8062660 0x007B06C4 meta1= 499920879 0x1DCC2FEF rel_stream=None abs_stream=1015
+  #0009 meta0=   1523014 0x00173D46 meta1= 180359387 0x0AC010DB rel_stream=None abs_stream=195
+  #0010 meta0=  10313502 0x009D5F1E meta1= 891704535 0x352654D7 rel_stream=None abs_stream=1294
+  #0011 meta0=  12745796 0x00C27C44 meta1= 695222871 0x29704257 rel_stream=None abs_stream=1569
+  #0012 meta0=  13881821 0x00D3D1DD meta1= 502346285 0x1DF1322D rel_stream=None abs_stream=1725
+  #0013 meta0=  15807552 0x00F13440 meta1= 977690166 0x3A465E36 rel_stream=None abs_stream=1943
+  #0014 meta0=  18449919 0x011985FF meta1= 748046603 0x2C96490B rel_stream=None abs_stream=2224
+  #0015 meta0=    964470 0x000EB776 meta1= 395060649 0x178C25A9 rel_stream=None abs_stream=124
+  #0016 meta0=   5645574 0x00562506 meta1= 865948663 0x339D53F7 rel_stream=None abs_stream=696
+  #0017 meta0=   7736112 0x00760B30 meta1= 149622273 0x08EB0E01 rel_stream=None abs_stream=974
+  #0018 meta0=   9041525 0x0089F675 meta1= 656228987 0x271D427B rel_stream=None abs_stream=1140
+  #0019 meta0=   5917262 0x005A4A4E meta1= 259004567 0x0F701897 rel_stream=None abs_stream=730
+  #0020 meta0=   3325955 0x0032C003 meta1= 476655274 0x1C692EAA rel_stream=None abs_stream=420
+  #0021 meta0=   8976236 0x0088F76C meta1= 661733924 0x27714224 rel_stream=None abs_stream=1133
+  #0022 meta0=  11479733 0x00AF2AB5 meta1= 369501060 0x16062384 rel_stream=None abs_stream=1419
+  #0023 meta0=  12339852 0x00BC4A8C meta1= 327819429 0x138A20A5 rel_stream=None abs_stream=1518
+  #0024 meta0=  14559123 0x00DE2793 meta1= 731334730 0x2B97484A rel_stream=None abs_stream=1807
+  #0025 meta0=  12549376 0x00BF7D00 meta1= 512963007 0x1E9331BF rel_stream=None abs_stream=1546
+  #0026 meta0=  13483918 0x00CDBF8E meta1= 643710439 0x265E3DE7 rel_stream=None abs_stream=1665
+  #0027 meta0=  14819667 0x00E22153 meta1= 776292683 0x2E45494B rel_stream=None abs_stream=1839
+  #0028 meta0=  17295224 0x0107E778 meta1= 545666542 0x208635EE rel_stream=None abs_stream=2093
+  #0029 meta0=  18022534 0x01130086 meta1= 620379506 0x24FA3D72 rel_stream=None abs_stream=2172
+meta0 <= compressed-area-size: 2328 / 2335
+meta0 unique: 2335 / 2335
+meta1 unique: 2332 / 2335
+
+------------------------------------------------------------------------------------------
+FILE: SCZ.MG3
+N: 1610
+SECTION A bbox: 0x72..0x6512
+SECTION B meta: 0x6512..0x9762
+SECTION C zero: 0x9762..0xB08A
+ZLIB AREA: 0xB08A..0xC8623F
+
+BBOX TEST:
+contained: 1610 / 1610
+ordered x0<=x1 y0<=y1: 1610 / 1610
+contained+ordered: 1610 / 1610
+zero-width: 0
+zero-height: 0
+top widths: [(30657, 404), (61316, 248), (61315, 225), (30658, 208), (15328, 200), (122632, 82), (15329, 50), (30656, 31), (61317, 27), (7663, 26), (7664, 24), (122633, 16), (30659, 14), (15327, 14), (245265, 10)]
+top heights: [(61316, 384), (61315, 333), (30657, 319), (122632, 238), (15328, 124), (30658, 98), (245265, 38), (122633, 29), (15329, 14), (7664, 10), (7663, 9), (245266, 8), (490532, 4), (490531, 2)]
+FIRST BOXES:
+  #0000 (989194, 5990638, 1019851, 6051954)
+  #0001 (345371, 4886940, 376028, 4948256)
+  #0002 (1357094, 5745372, 1387751, 5806688)
+  #0003 (130762, 4457724, 192078, 4519040)
+  #0004 (483333, 5132206, 498661, 5162864)
+  #0005 (1387752, 5592081, 1418409, 5622738)
+  #0006 (1908942, 6481171, 2031574, 6603803)
+  #0007 (-819644, 4212458, -788987, 4273773)
+  #0008 (897219, 4580358, 927876, 4641673)
+  #0009 (-697010, 5193523, -666354, 5254838)
+
+TABLE C ALL ZERO: True
+STREAM COUNT: 1610
+STREAM COUNT MATCH: True
+
+META CORRELATIONS:
+meta0
+  start_abs  same-index=0/1610 anywhere=1610/1610
+  start_rel  same-index=0/1610 anywhere=0/1610
+  end_abs    same-index=2/1610 anywhere=1609/1610
+  end_rel    same-index=0/1610 anywhere=0/1610
+  packed     same-index=0/1610 anywhere=0/1610
+  raw_len    same-index=0/1610 anywhere=0/1610
+  adler      same-index=0/1610 anywhere=0/1610
+meta1
+  start_abs  same-index=0/1610 anywhere=0/1610
+  start_rel  same-index=0/1610 anywhere=0/1610
+  end_abs    same-index=0/1610 anywhere=0/1610
+  end_rel    same-index=0/1610 anywhere=0/1610
+  packed     same-index=0/1610 anywhere=0/1610
+  raw_len    same-index=0/1610 anywhere=0/1610
+  adler      same-index=0/1610 anywhere=0/1610
+
+FIRST META:
+  #0000 meta0=   8681574 0x00847866 meta1= 319561808 0x130C2050 rel_stream=None abs_stream=1079
+  #0001 meta0=   4869156 0x004A4C24 meta1= 486616673 0x1D012E61 rel_stream=None abs_stream=609
+  #0002 meta0=  10879804 0x00A6033C meta1= 358818345 0x15632229 rel_stream=None abs_stream=1345
+  #0003 meta0=   3570318 0x00367A8E meta1= 927029687 0x374159B7 rel_stream=None abs_stream=452
+  #0004 meta0=   5377690 0x00520E9A meta1= 272243342 0x103A1A8E rel_stream=None abs_stream=681
+  #0005 meta0=  10861308 0x00A5BAFC meta1= 978935475 0x3A595EB3 rel_stream=None abs_stream=1343
+  #0006 meta0=  12093228 0x00B8872C meta1= 347676981 0x14B92135 rel_stream=None abs_stream=1477
+  #0007 meta0=    957976 0x000E9E18 meta1= 463482362 0x1BA02DFA rel_stream=None abs_stream=129
+  #0008 meta0=   6222855 0x005EF407 meta1= 844190327 0x32515277 rel_stream=None abs_stream=788
+  #0009 meta0=   1187105 0x00121D21 meta1= 475213650 0x1C532F52 rel_stream=None abs_stream=154
+  #0010 meta0=   5357239 0x0051BEB7 meta1= 290594001 0x11521CD1 rel_stream=None abs_stream=678
+  #0011 meta0=   9650072 0x00933F98 meta1= 505885205 0x1E273215 rel_stream=None abs_stream=1193
+  #0012 meta0=   9930519 0x00978717 meta1= 688342235 0x290744DB rel_stream=None abs_stream=1230
+  #0013 meta0=  11102750 0x00A96A1E meta1= 752895861 0x2CE04775 rel_stream=None abs_stream=1372
+  #0014 meta0=  12829292 0x00C3C26C meta1= 631783137 0x25A83EE1 rel_stream=None abs_stream=1574
+  #0015 meta0=    540272 0x00083E70 meta1= 333324540 0x13DE20FC rel_stream=None abs_stream=67
+  #0016 meta0=   1427180 0x0015C6EC meta1= 139201862 0x084C0D46 rel_stream=None abs_stream=188
+  #0017 meta0=   5512291 0x00541C63 meta1= 399910606 0x17D626CE rel_stream=None abs_stream=701
+  #0018 meta0=   6394179 0x00619143 meta1= 633421417 0x25C13E69 rel_stream=None abs_stream=807
+  #0019 meta0=   4596195 0x004621E3 meta1= 594361325 0x236D3BED rel_stream=None abs_stream=574
+  #0020 meta0=   2535070 0x0026AE9E meta1= 399975921 0x17D725F1 rel_stream=None abs_stream=326
+  #0021 meta0=   6656478 0x006591DE meta1= 772623504 0x2E0D4C90 rel_stream=None abs_stream=839
+  #0022 meta0=   8552430 0x00827FEE meta1= 756959567 0x2D1E494F rel_stream=None abs_stream=1064
+  #0023 meta0=   9438222 0x0090040E meta1= 519648255 0x1EF933FF rel_stream=None abs_stream=1168
+  #0024 meta0=  10683396 0x00A30404 meta1= 164302695 0x09CB0F67 rel_stream=None abs_stream=1322
+  #0025 meta0=   9319776 0x008E3560 meta1= 537998573 0x201134ED rel_stream=None abs_stream=1155
+  #0026 meta0=  11597448 0x00B0F688 meta1= 698893258 0x29A843CA rel_stream=None abs_stream=1421
+  #0027 meta0=  10919925 0x00A69FF5 meta1= 658062659 0x27393D43 rel_stream=None abs_stream=1349
+  #0028 meta0=  11966536 0x00B69848 meta1=  53675290 0x0333051A rel_stream=None abs_stream=1463
+  #0029 meta0=  12401172 0x00BD3A14 meta1=  12714222 0x00C200EE rel_stream=None abs_stream=1518
+meta0 <= compressed-area-size: 1604 / 1610
+meta0 unique: 1610 / 1610
+meta1 unique: 1610 / 1610

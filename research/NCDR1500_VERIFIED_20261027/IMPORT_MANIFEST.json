@@ -1,0 +1,12 @@
+{
+  "bundle_sha256": {
+    "payload/geography.zip": "42251164653ff02910a3ed44b89553a8f1590beb2827745eff4d96e36b9fd4d2",
+    "payload/roadlinks.zip": "ae9a788991c73fa4327f927031ce90cfd456e7ebbcd66ac74366904ec04752ad",
+    "payload/EUZ.CT.logical.bin": "552aaed46ec96cf5afc46af49d63d89bf989c675f6e4013514a269266dc9809e",
+    "ncdr1500_search_index.py": "030e296c529ad821ab288022f96dd4b28cf6b984729003c42e3cd199e674c840",
+    "test_ncdr1500_search_index.py": "8c5597ae39a899661d6a1e93109813ffdd853abef1fa5873a0bf437d8a54d85d"
+  },
+  "generated_utc": "2026-10-27T11:41:08.969007+00:00",
+  "project": "${NCDR_WORK_ROOT}\\NCDR_MAP_RESEARCH",
+  "claim": "Reader research, not disc"
+}

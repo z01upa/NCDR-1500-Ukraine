@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_SW_COMPONENT_SCAN_11073575fcfc",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "selected_candidate_id": "AUTO_NCDX_PE_HEADER_PROBE_5bd86ec6fb564080",
+  "selected_source_path": "SW/LK841/HU_HARDWARE_LOC_0000000001/HU_KERNEL_LOC_0101000870/KERNELUPDATE.DLL",
+  "selected_source_sha256": "a12c349447064b99de916ea2fe2888615afb54648a163e77d7b6460de8a6f545",
+  "selected_size_bytes": 19968,
+  "selection_source": "Qwen3.5",
+  "selection_reason": "The file path 'HU_KERNEL_LOC' and filename 'KERNELUPDATE.DLL' strongly suggest a core system component containing navigation or firmware logic, providing high-value evidence for NCDx software validation.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_PE_HEADER_PROBE_5bd86ec6fb564080",
+  "candidate_fingerprint": "11073575fcfc3e18ea47b6ae1b1dcb3ca02ee33514df7eb336cfef85070f3fb2",
+  "remaining_unseen_candidates": 12,
+  "source_write_count": 0,
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "created_utc": "2026-10-27T20:02:08.403769+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "task_id": "AUTO_RESEARCH_FOLLOWUP_939c56b33c3b",
+  "model": "qwen2.5-coder:7b",
+  "raw_response": "{\n  \"hypothesis\": \"Файли з різних регіонів з розширенням CL мають спільний префікс.\",\n  \"target_suffix\": \"CL\",\n  \"expected_observation\": \"Всі три файлу мають спільний префікс довжиною 12 байтів.\",\n  \"falsifier\": \"Якщо хоча б один з файлів не має спільного префікса довжиною 12 байтів, гіпотеза буде опромінена.\",\n  \"script\": \"common_prefix = 0\\nfor i in range(12):\\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\\n        common_prefix += 1\\n    else:\\n        break\\nprint(common_prefix)\"\n}",
+  "parsed": {
+    "hypothesis": "Файли з різних регіонів з розширенням CL мають спільний префікс.",
+    "target_suffix": "CL",
+    "expected_observation": "Всі три файлу мають спільний префікс довжиною 12 байтів.",
+    "falsifier": "Якщо хоча б один з файлів не має спільного префікса довжиною 12 байтів, гіпотеза буде опромінена.",
+    "script": "common_prefix = 0\nfor i in range(12):\n    if data['prefixes'][0][i] == data['prefixes'][1][i] == data['prefixes'][2][i]:\n        common_prefix += 1\n    else:\n        break\nprint(common_prefix)"
+  },
+  "script_validation": [
+    {
+      "name": "sandbox_script_matches_independent_common_prefix",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 8
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.035,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    },
+    {
+      "name": "sandbox_script_matches_independent_CL_target",
+      "status": "PASS",
+      "expected": 8,
+      "actual": 8,
+      "runner": {
+        "result": {
+          "common_prefix": 8,
+          "i": 8
+        },
+        "stdout": "8\n",
+        "elapsed_seconds": 0.0284,
+        "memory_limit_bytes": 268435456,
+        "timeout_seconds": 4.0
+      }
+    }
+  ],
+  "preview_test_expected": 8,
+  "selected_target": "CL",
+  "source_preview": [
+    {
+      "region": "SW",
+      "bytes": 449213,
+      "prefix_hex": "7a697001000c00003a1812004e05000020060000ad0a0000490f0000d4130000241800004f1c0000c2200000f7240000dc290000152e00007732000074360000"
+    },
+    {
+      "region": "Italy",
+      "bytes": 1186789,
+      "prefix_hex": "7a697001000c0000b29a2a00cf050000480e00003a130000fd170000391d000084220000672700002b2c000034310000fa350000123b00000040000080440000"
+    },
+    {
+      "region": "Scandinavia",
+      "bytes": 828272,
+      "prefix_hex": "7a697001000c0000e27f1f0069050000940a0000310f0000f9130000aa180000621d0000f4210000d4260000362b0000e52f0000a93400000d390000c83d0000"
+    }
+  ],
+  "script_path": "research/runs/coordinator/AUTO_RESEARCH_FOLLOWUP_939c56b33c3b/model_generated_script.py",
+  "script_sha256": "e6ae7d334a228510fcc00d7821e8bd00bdffdf9ee8ea9b4deb39eb704756405f",
+  "warning": "Hypothesis is proposed, not a confirmed format fact."
+}

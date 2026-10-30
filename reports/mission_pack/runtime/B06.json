@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "canonical_id": "B06",
+  "objective": "Створити структурний каталог MP0, FEA, RD, RL, RT, MG1-3, CTY, IL, IOF та пов’язаних компонентів.",
+  "acceptance": {
+    "status": "PASS",
+    "catalog_path": "evidence/ncdx-structure-catalog.json",
+    "catalog_sha256": "3bf3fe4e91e746668c6c6775d64637a985cae0f2db886836c8da119f4af0b436",
+    "family_count": 11,
+    "component_count": 26,
+    "unknown_count": 7,
+    "evidence_reference_count": 6,
+    "original_media_write_count": 0,
+    "resumed_existing_artifact": true,
+    "catalog_artifact": {
+      "path": "evidence\\ncdx-structure-catalog.json",
+      "sha256": "3bf3fe4e91e746668c6c6775d64637a985cae0f2db886836c8da119f4af0b436",
+      "size_bytes": 56377,
+      "description": "B06 evidence-aggregated NCDx structure catalog with verified facts and explicit unknowns",
+      "acceptance": "PASS: 11 families, accepted source evidence, bounded profiles, and claim boundaries"
+    },
+    "created_utc": "2026-10-28T16:01:17.535473+00:00"
+  },
+  "created_utc": "2026-10-28T16:01:17.535481+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

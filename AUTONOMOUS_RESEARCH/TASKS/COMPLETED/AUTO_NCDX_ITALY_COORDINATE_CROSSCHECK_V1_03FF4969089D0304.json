@@ -1,0 +1,12 @@
+{
+  "artifact_pointers": [
+    "OPEL NCDx Italia 2010-2011/DB/IZ.CNY",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.CTY",
+    "OPEL NCDx Italia 2010-2011/DB/IZ.MG1",
+    "work/autonomous_manager/ncdx/city_coordinate_crosscheck/AUTO_NCDX_ITALY_COORDINATE_CROSSCHECK_V1_03FF4969089D0304.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_NCDX_ITALY_COORDINATE_CROSSCHECK_V1_03FF4969089D0304",
+  "updated_utc": "2026-10-28T16:19:14.972398+00:00"
+}

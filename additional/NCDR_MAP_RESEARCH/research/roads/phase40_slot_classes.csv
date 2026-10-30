@@ -1,0 +1,5 @@
+class,source,count,referenced_count,unreferenced_count,definition,status
+Z,referenced slots,2299,2299,0,BE16(+0x10)==0,confirmed major class
+NZ,referenced slots,159,159,0,BE16(+0x10)!=0,confirmed minor class
+intermediate_compatible,intermediate slots,4880,0,4880,Phase39 dominant zero-mask signature,raw32 unavailable
+intermediate_different,intermediate slots,3419,0,3419,not dominant zero-mask signature,raw32 unavailable

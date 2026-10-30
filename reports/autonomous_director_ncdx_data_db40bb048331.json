@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_db40bb048331",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_PTP_DEFLATE_COMPRESSIBILITY_PROFILE_81cebfdc",
+  "selected_goal_id": "AUTO_NCDX_DATA_PTP_DEFLATE_COMPRESSIBILITY_PROFILE_81cebfdc",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_PTP_DEFLATE_COMPRESSIBILITY_PROFILE_81cebfdc",
+  "candidate_fingerprint": "0191310a98bf75a6084faa2c95ffd7fb7a29aed702883bff27bd7916c63bf509",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_db40bb048331",
+  "remaining_unique_experiments": 15,
+  "created_utc": "2026-10-26T22:27:19.033719+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

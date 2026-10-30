@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_e7c0bf1e4c09",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_CL_EXACT_BLOCK_ANCHOR_SCAN_99900482",
+  "selected_goal_id": "AUTO_NCDX_DATA_CL_EXACT_BLOCK_ANCHOR_SCAN_99900482",
+  "selection_source": "Ollama",
+  "selection_reason": "The CL dataset (2.46 MB) represents a significant volume of data compared to smaller suffixes like AFF or STT, making it a high-priority candidate for reducing uncertainty regarding map storage density and index efficiency without requiring hardware changes.",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_CL_EXACT_BLOCK_ANCHOR_SCAN_99900482",
+  "candidate_fingerprint": "5773152036d506313d0d1a1d4c090f8b6653f2e57f8955378b9f8df2f4b58ae5",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_e7c0bf1e4c09",
+  "remaining_unique_experiments": 28,
+  "created_utc": "2026-10-26T22:23:19.599955+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

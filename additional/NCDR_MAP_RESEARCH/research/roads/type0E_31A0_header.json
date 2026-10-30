@@ -1,0 +1,24 @@
+{
+  "sector": 12704,
+  "physical_span": 31,
+  "logical_size": 42496,
+  "bytes_08_0f": "0030029714e80282",
+  "list1": {
+    "ptr": 48,
+    "count": 663
+  },
+  "list2": {
+    "ptr": 5352,
+    "count": 642
+  },
+  "bytes_10_2f": "23f403a500000000000000000000000000000000000000000031bf1900318020",
+  "bl_addr_candidates": [
+    "0031bf19",
+    "00318020"
+  ],
+  "moscow_ch_idx_list": {
+    "ptr": 3872,
+    "count": 185,
+    "matches_header_list": false
+  }
+}

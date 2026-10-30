@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_NAVIMAIN_SURVEY_01",
+  "target_task": "AUTO_NCDX_NAVIMAIN_SURVEY_01",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [],
+    "suggested_next_goal_id": null
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_NAVIMAIN_SURVEY_01",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "original_hash_unchanged": true,
+      "manifest_hash_match": true
+    }
+  },
+  "created_utc": "2026-10-25T18:20:00.788929+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.json",
+      "sha256": "8145e3a20738200da219227122e3ba9b86a3ed20ee3b5cc177d3eca9b576d96c",
+      "size_bytes": 19139,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-25.md",
+      "sha256": "f726d8b8414738f2e43bfb3cc0efbc7f0dc88a6587a025bd74507ec9c27f2e2c",
+      "size_bytes": 2558,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.json",
+      "sha256": "571b5f886e202570d89bd1feb5e068411ad8e816ec6eed2aa88cbcb65a8f6d7e",
+      "size_bytes": 19140,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W43.md",
+      "sha256": "4e5ef3ad297f44fd9d7d22c5eca8fb6ada24765f2ea03f52891530b00e28f0d4",
+      "size_bytes": 2557,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "f8544422ecda1299dc2d2219601cc93ed720b4912022068ffbb75cdeecd73561",
+      "size_bytes": 19141,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "36e282984688687c57afec5ac14676605e21a79034462cbe768368ab3232a655",
+      "size_bytes": 2557,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

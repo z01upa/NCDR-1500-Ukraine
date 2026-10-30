@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_370590f5034e",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9e42090c",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9e42090c",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data contains decompressed byte counts and SHA256 hashes for multiple candidate measurements (alignment/scale/lat_lon/lon_lat) across different stream indices. The evidence points to a dataset involving coordinate candidates (likely OpenStreetMap alignment data given the 'alignment' and 'scale' naming conventions). Selecting this goal aligns with prioritizing evidence related to map storage and coordinate data, as indicated by the specific measurement names and the high volume of de",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_9e42090c",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "79cadfda6d50457f411c27f9c7cd5c9f696a4a57372b3c5a5bec7dc8979349ef",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_370590f5034e",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T21:27:51.739974+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

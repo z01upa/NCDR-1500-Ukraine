@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_ASSOCIATION_CENSUS_9d520f81",
+  "target_task": "AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_ASSOCIATION_CENSUS_9d520f81",
+  "model": "qwen3.5:4b",
+  "model_assessment": {
+    "assessment": "PASS",
+    "evidence_consistent": true,
+    "remaining_unknowns": [
+      "F1:format_matrix",
+      "F4:target_conversion",
+      "F7:final_image_interpreter",
+      "F8:independent_image_verifier",
+      "F9:hardware_acceptance"
+    ],
+    "suggested_next_goal_id": "UKRAINE_OSM_DISC_DATA"
+  },
+  "deterministic_verification": {
+    "task_id": "AUTO_NCDX_DATA_PDX_REPEATED_TEXT_COORDINATE_ASSOCIATION_CENSUS_9d520f81",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "fresh_manifest_bound_census": true,
+      "independent_region_count": 3,
+      "anchor_strategy": "repeated_literals",
+      "anchor_windows_by_region": {
+        "SW": 225,
+        "Italy": 502,
+        "Scandinavia": 519
+      },
+      "matched_control_windows_by_region": {
+        "SW": 225,
+        "Italy": 502,
+        "Scandinavia": 519
+      },
+      "anchor_hit_rates_by_region": {
+        "SW": {
+          "scale_100000_lat_lon": 0.39111111,
+          "scale_100000_lon_lat": 0.10666667,
+          "scale_1000000_lat_lon": 0.25333333,
+          "scale_1000000_lon_lat": 0.01333333,
+          "scale_10000000_lat_lon": 0.53333333,
+          "scale_10000000_lon_lat": 0.11111111
+        },
+        "Italy": {
+          "scale_100000_lat_lon": 0.0,
+          "scale_100000_lon_lat": 0.0,
+          "scale_1000000_lat_lon": 0.07569721,
+          "scale_1000000_lon_lat": 0.06374502,
+          "scale_10000000_lat_lon": 0.00996016,
+          "scale_10000000_lon_lat": 0.0
+        },
+        "Scandinavia": {
+          "scale_100000_lat_lon": 0.00385356,
+          "scale_100000_lon_lat": 0.00192678,
+          "scale_1000000_lat_lon": 0.19653179,
+          "scale_1000000_lon_lat": 0.06165703,
+          "scale_10000000_lat_lon": 0.03660886,
+          "scale_10000000_lon_lat": 0.02119461
+        }
+      },
+      "control_hit_rates_by_region": {
+        "SW": {
+          "scale_100000_lat_lon": 0.0,
+          "scale_100000_lon_lat": 0.0,
+          "scale_1000000_lat_lon": 0.18666667,
+          "scale_1000000_lon_lat": 0.17777778,
+          "scale_10000000_lat_lon": 0.06666667,
+          "scale_10000000_lon_lat": 0.07555556
+        },
+        "Italy": {
+          "scale_100000_lat_lon": 0.07370518,
+          "scale_100000_lon_lat": 0.10358566,
+          "scale_1000000_lat_lon": 0.01195219,
+          "scale_1000000_lon_lat": 0.00996016,
+          "scale_10000000_lat_lon": 0.01394422,
+          "scale_10000000_lon_lat": 0.01992032
+        },
+        "Scandinavia": {
+          "scale_100000_lat_lon": 0.14450867,
+          "scale_100000_lon_lat": 0.1849711,
+          "scale_1000000_lat_lon": 0.00963391,
+          "scale_1000000_lon_lat": 0.02312139,
+          "scale_10000000_lat_lon": 0.02697495,
+          "scale_10000000_lon_lat": 0.0539499
+        }
+      },
+      "raw_payload_bytes_retained": false,
+      "original_media_write_count": 0,
+      "semantic_format": "UNKNOWN; text-window association only",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "created_utc": "2026-10-27T13:16:59.390364+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED",
+  "next_plan_reason": "All currently prioritized manifest-backed NCDx container round-trips are recorded or their inputs are unavailable.",
+  "project_state": "NCDx regional profile catalog exhausted; physical compatibility remains NOT_TESTED",
+  "followup_task_id": null,
+  "followup_created": false,
+  "periodic_reports": [
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.json",
+      "sha256": "25ce604425c1e7f0be69b6448c673ca9d88644d533aa0057859ccfb7c52e6ba5",
+      "size_bytes": 29601,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\daily\\2026-10-27.md",
+      "sha256": "2b206dce90884771c476358c46b303e8a663fcece76890ef5923f1c342b508e2",
+      "size_bytes": 6199,
+      "description": "AI Supervisor daily report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.json",
+      "sha256": "3da388fd2d93082b3f42485a37af40c086a0775b29616a24be3b275a1cb21695",
+      "size_bytes": 29602,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\weekly\\2026-W44.md",
+      "sha256": "03abbdb69630c4837558cbac03362b1ba84573de887a6e9eeb8a404fce270ee1",
+      "size_bytes": 6198,
+      "description": "AI Supervisor weekly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.json",
+      "sha256": "8f7b35b4157e596997d6fdb166bf43b1d36b62ff3a47a8d1820c999f9cc6e6ce",
+      "size_bytes": 29603,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    },
+    {
+      "path": "reports\\periodic\\monthly\\2026-10.md",
+      "sha256": "ada8f8ba35d5299f666158a8bf1c698b813f4ed0e53664f7005670236c732095",
+      "size_bytes": 6198,
+      "description": "AI Supervisor monthly report from persisted results",
+      "acceptance": "PASS: derived from SQLite, model runs and verified task proof"
+    }
+  ]
+}

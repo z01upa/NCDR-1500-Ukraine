@@ -1,0 +1,819 @@
+{
+  "generated_utc": "2026-10-25T20:29:02.767336+00:00",
+  "trigger_task": "AUTO_SUPERVISOR_AUTO_MP0_INDEPENDENT_READBACK_01",
+  "supervisor_model": "qwen3.5:4b",
+  "verified_result": {
+    "task_id": "AUTO_MP0_INDEPENDENT_READBACK_01",
+    "saved_result_status": "PASS",
+    "deterministic_proof": {
+      "task_id": "AUTO_MP0_INDEPENDENT_READBACK_01",
+      "status": "PASS",
+      "regional_source_count": 3,
+      "regional_readbacks": [
+        {
+          "region": "SW",
+          "relative_path": "SW/DB/EUZ.MP0",
+          "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "manifest_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "copy_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+          "independent_header_match": true,
+          "no_op_copy_match": true,
+          "source_stat_unchanged": true
+        },
+        {
+          "region": "Italy",
+          "relative_path": "OPEL NCDx Italia 2010-2011/DB/IZ.MP0",
+          "source_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "manifest_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "copy_sha256": "6532140353fb3ec5a0776df9c0115bb00fe46be2c9c8e46041789884320cbf22",
+          "independent_header_match": true,
+          "no_op_copy_match": true,
+          "source_stat_unchanged": true
+        },
+        {
+          "region": "Scandinavia",
+          "relative_path": "OPEL NCDx Scandinavia 2010-2011/DB/SCZ.MP0",
+          "source_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "manifest_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "copy_sha256": "d80baf4f2227bd06d87f8815370b14f01562aa8e3bf491aa6db99cd0bfb4c97a",
+          "independent_header_match": true,
+          "no_op_copy_match": true,
+          "source_stat_unchanged": true
+        }
+      ],
+      "all_no_op_copies_match_manifest_sources": true,
+      "controlled_change": {
+        "source_sha256": "73446b326e83b96c4886a4d4406d24135705876616918e9768ae02aa53769e6e",
+        "working_copy_sha256": "5a0553871810984abe7e7f76b61aeb16b4a863e09172827078a0fb32287dae25",
+        "old_dataset_code": "EU44420940.82",
+        "new_dataset_code": "SC44442940.82",
+        "changed_offsets": [
+          48,
+          49,
+          53,
+          54
+        ],
+        "only_confirmed_dataset_code_field_changed": true,
+        "independent_header_readback": true
+      },
+      "independent_parser": "src.readers.mp0_independent; separate implementation",
+      "all_original_hashes_unchanged": true,
+      "original_media_write_count": 0,
+      "payload_semantics": "UNKNOWN",
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "task_counts": {
+    "LEASED": 1,
+    "DONE": 563,
+    "BLOCKED": 7,
+    "CANCELLED": 1
+  },
+  "recent_tasks": [
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_MP0_INDEPENDENT_READBACK_01",
+      "stage": "R3",
+      "status": "LEASED",
+      "verdict": "PENDING",
+      "updated_utc": "2026-10-25T20:28:55.240836+00:00"
+    },
+    {
+      "id": "AUTO_MP0_INDEPENDENT_READBACK_01",
+      "stage": "F3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:28:54.765850+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_FIRMWARE_INTEL_HEX_READ_704b4872a2c6",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:19:58.042388+00:00"
+    },
+    {
+      "id": "AUTO_FIRMWARE_INTEL_HEX_READ_704b4872a2c6",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:19:51.780934+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_TYP_BYTE_TRANSITION_PROFILE_14522e80",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:41.587554+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_TYP_BYTE_TRANSITION_PROFILE_14522e80",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:35.073638+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_f085f04cd3c9",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:34.350492+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_ASC_BYTE_TRANSITION_PROFILE_8deb9177",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:25.184171+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_ASC_BYTE_TRANSITION_PROFILE_8deb9177",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:18.682471+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_1a289c3d1e04",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:17.971912+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_AFF_BYTE_TRANSITION_PROFILE_1d04a1b6",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:08.253658+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_AFF_BYTE_TRANSITION_PROFILE_1d04a1b6",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T20:07:01.722922+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_a7871148e18a",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:49:19.039446+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_STT_BYTE_TRANSITION_PROFILE_aa88916f",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:49:08.060341+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_STT_BYTE_TRANSITION_PROFILE_aa88916f",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:49:01.649242+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_1213fd9b1cfc",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:49:01.021102+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_RD_BYTE_TRANSITION_PROFILE_ca740496",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:50.337367+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_RD_BYTE_TRANSITION_PROFILE_ca740496",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:44.163343+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_7d0bb2f367f4",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:43.555354+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_ABC_BYTE_TRANSITION_PROFILE_5c5a71b9",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:32.598861+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_ABC_BYTE_TRANSITION_PROFILE_5c5a71b9",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:26.188037+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_3fe0f0ea27d4",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:25.536077+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_CFG_BYTE_TRANSITION_PROFILE_74868727",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:15.317446+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_CFG_BYTE_TRANSITION_PROFILE_74868727",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:08.901285+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_4862074d535d",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:48:08.322270+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_CNY_BYTE_TRANSITION_PROFILE_e558a2f9",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:57.145029+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_CNY_BYTE_TRANSITION_PROFILE_e558a2f9",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:50.759682+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_f641847d5943",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:50.137500+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MP0_BYTE_TRANSITION_PROFILE_65e558d6",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:40.205015+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_MP0_BYTE_TRANSITION_PROFILE_65e558d6",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:33.774218+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_bf5b82c42264",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:33.108021+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG3_BYTE_TRANSITION_PROFILE_924810c1",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:21.379576+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_MG3_BYTE_TRANSITION_PROFILE_924810c1",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:14.927529+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_68c31c53e50a",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:14.290259+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:47:04.058878+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:57.570579+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_a404aee903d4",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:56.915009+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_BYTE_TRANSITION_PROFILE_36b6f144",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:45.933917+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_MG1_BYTE_TRANSITION_PROFILE_36b6f144",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:39.476000+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_1f81bf535091",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:38.839346+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_IOF_BYTE_TRANSITION_PROFILE_9f82780a",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:27.571107+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_IOF_BYTE_TRANSITION_PROFILE_9f82780a",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:21.167478+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_c729f7931553",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:20.594303+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_IL_BYTE_TRANSITION_PROFILE_a1ce5073",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:10.415991+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_IL_BYTE_TRANSITION_PROFILE_a1ce5073",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:04.254388+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_4f45d06bb654",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:46:03.656412+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_RT_BYTE_TRANSITION_PROFILE_32a58e38",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:45:53.476832+00:00"
+    },
+    {
+      "id": "AUTO_NCDX_DATA_RT_BYTE_TRANSITION_PROFILE_32a58e38",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:45:47.323015+00:00"
+    },
+    {
+      "id": "AUTO_DIRECTOR_NCDX_DATA_386582005ce6",
+      "stage": "F2",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:45:46.706097+00:00"
+    },
+    {
+      "id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_RL_BYTE_TRANSITION_PROFILE_522f58a4",
+      "stage": "R3",
+      "status": "DONE",
+      "verdict": "PASS",
+      "updated_utc": "2026-10-25T19:45:37.524956+00:00"
+    }
+  ],
+  "model_runs": [
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_MP0_INDEPENDENT_READBACK_01",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 5245,
+      "created_utc": "2026-10-25T20:29:02.709403+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_FIRMWARE_INTEL_HEX_READ_704b4872a2c6",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4887,
+      "created_utc": "2026-10-25T20:19:57.879620+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_TYP_BYTE_TRANSITION_PROFILE_14522e80",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4921,
+      "created_utc": "2026-10-25T20:07:41.022265+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_f085f04cd3c9",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 7578,
+      "created_utc": "2026-10-25T20:07:34.061296+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_ASC_BYTE_TRANSITION_PROFILE_8deb9177",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4917,
+      "created_utc": "2026-10-25T20:07:24.641125+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_1a289c3d1e04",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 8024,
+      "created_utc": "2026-10-25T20:07:17.643139+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_AFF_BYTE_TRANSITION_PROFILE_1d04a1b6",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4915,
+      "created_utc": "2026-10-25T20:07:07.696049+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_a7871148e18a",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9658,
+      "created_utc": "2026-10-25T19:49:18.895271+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_STT_BYTE_TRANSITION_PROFILE_aa88916f",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4939,
+      "created_utc": "2026-10-25T19:49:07.445189+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_1213fd9b1cfc",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9263,
+      "created_utc": "2026-10-25T19:49:00.712547+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_RD_BYTE_TRANSITION_PROFILE_ca740496",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4693,
+      "created_utc": "2026-10-25T19:48:49.744876+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_7d0bb2f367f4",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9660,
+      "created_utc": "2026-10-25T19:48:43.400178+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_ABC_BYTE_TRANSITION_PROFILE_5c5a71b9",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4903,
+      "created_utc": "2026-10-25T19:48:31.987014+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_3fe0f0ea27d4",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 8754,
+      "created_utc": "2026-10-25T19:48:25.295796+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_CFG_BYTE_TRANSITION_PROFILE_74868727",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4917,
+      "created_utc": "2026-10-25T19:48:14.697063+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_4862074d535d",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9999,
+      "created_utc": "2026-10-25T19:48:08.238079+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_CNY_BYTE_TRANSITION_PROFILE_e558a2f9",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4885,
+      "created_utc": "2026-10-25T19:47:56.523148+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_f641847d5943",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 8654,
+      "created_utc": "2026-10-25T19:47:49.969011+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MP0_BYTE_TRANSITION_PROFILE_65e558d6",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4897,
+      "created_utc": "2026-10-25T19:47:39.584374+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_bf5b82c42264",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 10417,
+      "created_utc": "2026-10-25T19:47:32.927982+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG3_BYTE_TRANSITION_PROFILE_924810c1",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4966,
+      "created_utc": "2026-10-25T19:47:20.813071+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_68c31c53e50a",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9025,
+      "created_utc": "2026-10-25T19:47:14.224666+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG2_BYTE_TRANSITION_PROFILE_94ea1548",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4947,
+      "created_utc": "2026-10-25T19:47:03.457733+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_a404aee903d4",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9609,
+      "created_utc": "2026-10-25T19:46:56.666919+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_MG1_BYTE_TRANSITION_PROFILE_36b6f144",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4898,
+      "created_utc": "2026-10-25T19:46:45.233541+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_1f81bf535091",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 9902,
+      "created_utc": "2026-10-25T19:46:38.715113+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_IOF_BYTE_TRANSITION_PROFILE_9f82780a",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4940,
+      "created_utc": "2026-10-25T19:46:26.964539+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_c729f7931553",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 8927,
+      "created_utc": "2026-10-25T19:46:20.435329+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_SUPERVISOR_AUTO_NCDX_DATA_IL_BYTE_TRANSITION_PROFILE_a1ce5073",
+      "role": "independent-review",
+      "model": "qwen3.5:4b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 4710,
+      "created_utc": "2026-10-25T19:46:09.850008+00:00",
+      "error": null
+    },
+    {
+      "task_id": "AUTO_DIRECTOR_NCDX_DATA_4f45d06bb654",
+      "role": "project-director",
+      "model": "qwen3.5:9b",
+      "decision": "RESPONSE_RECEIVED",
+      "elapsed_ms": 8712,
+      "created_utc": "2026-10-25T19:46:03.378849+00:00",
+      "error": null
+    }
+  ],
+  "open_blockers": [],
+  "physical_compatibility": "NOT TESTED · requires a compatible Opel NCDR unit",
+  "active_scope": {
+    "schema_version": 1,
+    "scope_revision": "2026-10-25-disc-first",
+    "global_goal": "Створити перевірений навігаційний диск із сучасними картами України для Opel NCDR. Фінальну апаратну сумісність підтверджувати лише випробуванням у сумісному автомобілі.",
+    "active_tracks": [
+      {
+        "id": "NCDX_REVERSE_ENGINEERING",
+        "goal": "Встановити структури оригінального NCDx і прошивки з відтворюваними доказами; невідомі поля не трактувати як відомі."
+      },
+      {
+        "id": "NCDX_READER_WRITER",
+        "goal": "Розвивати reader/writer через підтверджені структури, копії оригіналів, no-op round-trip та контрольовані зміни з незалежною перевіркою."
+      },
+      {
+        "id": "UKRAINE_OSM_DISC_DATA",
+        "goal": "Перетворити актуальні OSM-дані України у внутрішню базу підготовки диска; пошук, маршрутизація та POI є лише перевірками і підготовкою даних для фізичного диска."
+      },
+      {
+        "id": "DISC_IMAGE_AND_VERIFICATION",
+        "goal": "Побудувати експериментальний образ лише після підтвердження необхідного формату та перевіряти його незалежним парсером."
+      },
+      {
+        "id": "PHYSICAL_COMPATIBILITY",
+        "goal": "Підтвердити фінальний диск на сумісному Opel NCDR у автомобілі; до цього сумісність має стан NOT_TESTED."
+      }
+    ],
+    "excluded_tracks": [
+      {
+        "id": "VIRTUAL_CID_GUI_SIMULATION",
+        "description": "GUI-симуляція навігації Virtual CID, включно з її пошуком і маршрутизацією.",
+        "archive": "archive/excluded_tracks_2026-10-25"
+      },
+      {
+        "id": "PERSONAL_KRYVYI_RIH_POI_EDITOR",
+        "description": "Окремий редактор користувацьких POI Кривого Рогу.",
+        "archive": "archive/excluded_tracks_2026-10-25"
+      }
+    ],
+    "readiness_policy": {
+      "task_counts_score": false,
+      "statistical_profiles_score": false,
+      "progress_criteria": {
+        "F1": [
+          "target_device_identity",
+          "disc_acceptance_evidence",
+          "format_matrix",
+          "image_layout_evidence"
+        ],
+        "F2": [
+          "header_reader",
+          "independent_disc_golden_tests",
+          "corruption_detection",
+          "semantic_records",
+          "firmware_hex_structures"
+        ],
+        "F3": [
+          "no_op_roundtrip",
+          "controlled_change",
+          "independent_readback"
+        ],
+        "F4": [
+          "dated_osm_source",
+          "road_graph_tests",
+          "target_conversion"
+        ],
+        "F5": [
+          "encoding_support_proof",
+          "ukrainian_names_test"
+        ],
+        "F7": [
+          "final_image_interpreter"
+        ],
+        "F8": [
+          "target_disc_layout",
+          "independent_image_verifier"
+        ],
+        "F9": [
+          "software_acceptance",
+          "hardware_acceptance"
+        ]
+      },
+      "progress_components": {
+        "OSM data preparation": [
+          "F4:dated_osm_source",
+          "F4:road_graph_tests",
+          "F5:ukrainian_names_test",
+          "F5:encoding_support_proof"
+        ],
+        "NCDx reverse engineering": [
+          "F2:header_reader",
+          "F2:independent_disc_golden_tests",
+          "F2:corruption_detection",
+          "F2:semantic_records"
+        ],
+        "NCDx reader/writer": [
+          "F3:no_op_roundtrip",
+          "F3:controlled_change",
+          "F3:independent_readback"
+        ],
+        "Disc image and verification": [
+          "F1:format_matrix",
+          "F1:image_layout_evidence",
+          "F4:target_conversion",
+          "F7:final_image_interpreter",
+          "F8:target_disc_layout",
+          "F8:independent_image_verifier",
+          "F9:software_acceptance"
+        ]
+      },
+      "score_only_from": [
+        "підтверджені структури NCDx або прошивки з незалежним тестом",
+        "працюючі reader/writer функції з no-op і контрольованими round-trip перевірками",
+        "успішні перевірки сформованої бази або образу незалежним парсером",
+        "OSM-конвертація та перевірки даних, призначених для диска",
+        "апаратне приймання у сумісному автомобілі"
+      ],
+      "physical_compatibility": "NOT_TESTED"
+    }
+  },
+  "unknown_format_boundary": "OSM preparation and byte-level NCDx observations do not establish target-disc compatibility.",
+  "period": "weekly"
+}

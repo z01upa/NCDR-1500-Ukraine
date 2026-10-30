@@ -1,0 +1,50 @@
+K:\siemens\src\db\db_upack.c
+0304d7e4  mov.l    r8,@-r15
+0304d7e6  mov.l    r9,@-r15
+0304d7e8  mov.l    r10,@-r15
+0304d7ea  sts.l    PR,@-r15
+0304d7ec  mov      r4,r8
+0304d7ee  mov      r5,r10
+0304d7f0  mov      r6,r9
+0304d7f2  add      #-0x10,r15
+0304d7f4  tst      r8,r8
+0304d7f6  bf       0x304d802
+0304d7f8  mov.l    0x304d934,r0
+0304d7fa  mov.l    0x304d93c,r4
+0304d7fc  mov.w    0x304d942,r5
+0304d7fe  jsr      @r0
+0304d800  nop      
+0304d802  tst      r9,r9
+0304d804  bf       0x304d810
+0304d806  mov.l    0x304d934,r0
+0304d808  mov.l    0x304d93c,r4
+0304d80a  mov.w    0x304d944,r5
+0304d80c  jsr      @r0
+0304d80e  nop      
+0304d810  bra      0x304d816
+0304d812  mov      #0x0,r4
+0304d814  add      #0x1,r4
+0304d816  cmp/gt   r4,r10
+0304d818  bf       0x304d83a
+0304d81a  mov.b    @(0x1,r9),r0
+0304d81c  shll8    r0
+0304d81e  mov.b    @r9,r3
+0304d820  extu.b   r3,r3
+0304d822  add      r3,r0
+0304d824  mov      r8,r3
+0304d826  extu.w   r0,r6
+0304d828  add      #0x2,r9
+0304d82a  mov.b    @r9+,r5
+0304d82c  mov      #0xc,r1
+0304d82e  mov      r5,r0
+0304d830  mul.l    r6,r1
+0304d832  sts      MACL,r2
+0304d834  add      r2,r3
+0304d836  bra      0x304d814
+0304d838  mov.w    r0,@(0x8,r3)
+0304d83a  add      #0x10,r15
+0304d83c  lds.l    @r15+,PR
+0304d83e  mov.l    @r15+,r10
+0304d840  mov.l    @r15+,r9
+0304d842  rts      
+0304d844  mov.l    @r15+,r8

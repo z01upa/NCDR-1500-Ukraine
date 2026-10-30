@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "phase",
+    "objective",
+    "dependencies",
+    "expected_artifacts",
+    "acceptance_criteria",
+    "priority"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 128
+    },
+    "phase": {
+      "type": "string",
+      "enum": [
+        "AUTO",
+        "NCDX_RESEARCH",
+        "FIRMWARE",
+        "WRITER",
+        "OSM",
+        "INTEGRATION",
+        "DISC",
+        "QUALITY"
+      ]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 30
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "expected_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "executor_preference": {
+      "type": "string"
+    },
+    "resource_budget": {
+      "type": "object"
+    },
+    "evidence_inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "novelty_key": {
+      "type": "string"
+    },
+    "source_access": {
+      "type": "string",
+      "enum": [
+        "READ_ONLY"
+      ]
+    },
+    "capability_gap": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "allowed_source_access": {
+      "type": "string",
+      "enum": [
+        "READ_ONLY"
+      ]
+    },
+    "safety": {
+      "type": "object"
+    },
+    "repeat_policy": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

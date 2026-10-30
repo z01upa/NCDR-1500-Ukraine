@@ -1,0 +1,10 @@
+{
+  "artifact_pointers": [
+    "SW/SW/AR2MATE.ABS",
+    "work/autonomous_manager/ncdx/component_surveys/AUTO_SW_COMPONENT_SCAN_e4416a9cf703.json"
+  ],
+  "authoritative_record": "project_state.sqlite:tasks",
+  "status": "DONE",
+  "task_id": "AUTO_SW_COMPONENT_SCAN_e4416a9cf703",
+  "updated_utc": "2026-10-27T19:56:42.574526+00:00"
+}

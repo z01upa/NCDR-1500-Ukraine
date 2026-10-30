@@ -1,0 +1,2 @@
+comparison,block_type,sector,physical_span,logical_size,logical_offset,old_hex,new_hex,delta,derived_scale,classification
+A->D,0x06,0x76CE2,0x11,8696,0x0837,d8,d9,+1,100000,longitude-only persisted byte

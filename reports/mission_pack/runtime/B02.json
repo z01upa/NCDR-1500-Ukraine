@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "canonical_id": "B02",
+  "objective": "Диференційний аналіз CD_7185/7186/7190: типи файлів, однакові сегменти, індексні покажчики, секції та крос-посилання.",
+  "acceptance": {
+    "status": "PASS",
+    "diff_path": "evidence/region-diff-records.json",
+    "diff_sha256": "a251f4ee48a4de81199ad6a16378d0e8bf5971f863db0f7c23e8b11d6fdbb741",
+    "family_count": 9,
+    "source_file_count": 27,
+    "hypothesis_result": "SUPPORTED",
+    "three_way_common_block_counts": {
+      "MP0": 0,
+      "MG1": 0,
+      "MG2": 0,
+      "MG3": 3,
+      "CTY": 0,
+      "CNY": 0,
+      "RL": 0,
+      "IOF": 0,
+      "IL": 0
+    },
+    "original_media_write_count": 0,
+    "resumed_existing_artifact": false,
+    "diff_artifact": {
+      "path": "evidence\\region-diff-records.json",
+      "sha256": "a251f4ee48a4de81199ad6a16378d0e8bf5971f863db0f7c23e8b11d6fdbb741",
+      "size_bytes": 37737,
+      "description": "B02 three-region NCDx byte, header, and accepted cross-reference evidence",
+      "acceptance": "PASS: full source hashes, bounded exact block diff, and independent readback"
+    },
+    "created_utc": "2026-10-28T15:49:40.036592+00:00"
+  },
+  "created_utc": "2026-10-28T15:49:40.036607+00:00",
+  "scope": {
+    "original_media_write_count": 0,
+    "physical_compatibility": "NOT_TESTED",
+    "virtual_cid": "EXCLUDED",
+    "standalone_poi_editor": "EXCLUDED"
+  }
+}

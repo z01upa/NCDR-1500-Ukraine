@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_6411b558d7ec",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_TYP_EXACT_BLOCK_ANCHOR_SCAN_80cd7baa",
+  "selected_goal_id": "AUTO_NCDX_DATA_TYP_EXACT_BLOCK_ANCHOR_SCAN_80cd7baa",
+  "selection_source": "Ollama",
+  "selection_reason": "model response did not match the fixed safe schema",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_TYP_EXACT_BLOCK_ANCHOR_SCAN_80cd7baa",
+  "candidate_fingerprint": "797d5bc6ba0a43f41d454723ab1f134846838109be76bc1056741f441a3e1060",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_6411b558d7ec",
+  "remaining_unique_experiments": 1,
+  "created_utc": "2026-10-26T23:18:00.373354+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}

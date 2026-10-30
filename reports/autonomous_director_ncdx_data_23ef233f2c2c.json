@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "task_id": "AUTO_DIRECTOR_NCDX_DATA_23ef233f2c2c",
+  "model": "qwen3.5:9b",
+  "model_error": null,
+  "model_choice": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_41358cd5",
+  "selected_goal_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_41358cd5",
+  "selection_source": "Ollama",
+  "selection_reason": "The provided data stream contains multiple candidate measurements for alignment layers (e.g., `alignment_0`, `alignment_2`, `alignment_4`, `alignment_6`) at scale 1,000,000 and 10,000,000. These entries explicitly list `region_candidate_pairs` and `adjacent_pairs_within_5km`, which are direct indicators of map storage structures (address/index data) and route connectivity. The presence of these specific metrics confirms the data reduces uncertainty regarding the existence and density of coordina",
+  "safe_schema_validated": true,
+  "next_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_41358cd5",
+  "selected_evidence_task_id": "AUTO_NCDX_DATA_MG2_ZLIB_DECODED_COORDINATE_CANDIDATE_CENSUS_0ca198b0",
+  "candidate_fingerprint": "8708348389c90b1c865a8f0bc55f25214be010313a9d450269756c112f7a6a43",
+  "depends_on": "AUTO_DIRECTOR_NCDX_DATA_23ef233f2c2c",
+  "remaining_unique_experiments": 0,
+  "created_utc": "2026-10-27T16:59:54.167649+00:00",
+  "original_media_write_count": 0,
+  "physical_compatibility": "NOT_TESTED"
+}
