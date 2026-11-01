@@ -1,0 +1,11 @@
+{
+  "python": "3.13.18",
+  "capstone": "5.0.7",
+  "pypcode": "4.0.1",
+  "decoders": [
+    "capstone SH4 LE",
+    "pypcode SuperH4:LE:32:default"
+  ],
+  "ghidra": false,
+  "objdump_sh": false
+}

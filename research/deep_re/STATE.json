@@ -1,0 +1,26 @@
+{
+ "phase": "A done; B done (first pass); C partial (loaders confirmed, consumers not traced)",
+ "base_git_head": "3e40996458c9efa01e1b4b0b66f3ddeca4347772",
+ "v41_commit_fa70c06": "UNAVAILABLE in clone",
+ "inputs": {
+  "block886.bin": "c4fd95701be3301b999d7e8886d08a6d2e8a3461e9f6caa973a5128959d983a6",
+  "NavigationRem.dll.zip": "4c59fcf716f8639a...(see 00_inventory/inventory.json)"
+ },
+ "discoveries": [
+  "runtime/link VA delta 0x02000000",
+  "db_upack dispatcher 0x0304DBE8 header-pair loading",
+  "S4 loader raw 10-byte copy",
+  "S5 loader u32,u8,u8,u16,u16,u32 -> 16-byte struct",
+  "S10 length = header word +44"
+ ],
+ "open_questions": [
+  "S4 byte0 high nibble / slot +8 consumers (db_intersection.c 0x03002960, 0x03002F2C)",
+  "S0/S2 loader 0x0304D6F0 and 12-byte records",
+  "S6..S9 loaders 0x0304D994/DA1C/DA98/DB44",
+  "S5 flags 0x1000/0x2000/0x8000 consumers",
+  "EUZ.z01+EUZ.zip join and MP0/RT/RL inspection"
+ ],
+ "tests": "python3 -I research/deep_re/tests/run_tests.py -> 12 PASS, 0 FAIL, 1 BLOCKED (hardware)",
+ "persistence": "LOCAL_ONLY_VERIFIED (read-only remote access)",
+ "resume_command": "cd <repo> && python3 -I research/deep_re/tests/run_tests.py"
+}

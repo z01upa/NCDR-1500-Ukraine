@@ -1,0 +1,67 @@
+[
+ {
+  "test": "T01.block886_sha256",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "T02.section_sha256",
+  "status": "PASS",
+  "detail": "[]"
+ },
+ {
+  "test": "T03.runtime_bases",
+  "status": "PASS",
+  "detail": "0x2fd1000 0x30b4000 ['0x2000000']"
+ },
+ {
+  "test": "T04.old_base_0x2FEA0000_refuted",
+  "status": "PASS",
+  "detail": "offset -0x2cdec7d0 outside [0,0xe2fbc)"
+ },
+ {
+  "test": "T05.decoder_control",
+  "status": "PASS",
+  "detail": "['mov.l', 'sts.l', 'mov', 'rts', 'nop']"
+ },
+ {
+  "test": "T06.big_endian_differs",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "T07.first_58_instructions",
+  "status": "PASS",
+  "detail": "rc=0 count=58"
+ },
+ {
+  "test": "T08.s5_loader_stride14_dst16",
+  "status": "PASS",
+  "detail": "src=14 dst16=True"
+ },
+ {
+  "test": "T09.s4_loader_stride10_rawcopy",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "T10.header_pairs_match_block886",
+  "status": "PASS",
+  "detail": "rc=0"
+ },
+ {
+  "test": "T11.wrong_header_index_rejected",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "T12.header_structure_independent_of_sha",
+  "status": "PASS",
+  "detail": "S4 end==S5 start, S5 end==S6 start"
+ },
+ {
+  "test": "T13.hardware_validation",
+  "status": "BLOCKED",
+  "detail": "no physical NCDR 1500 in this environment"
+ }
+]

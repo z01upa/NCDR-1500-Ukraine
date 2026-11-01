@@ -1,0 +1,132 @@
+{
+ "block_sha256": "c4fd95701be3301b999d7e8886d08a6d2e8a3461e9f6caa973a5128959d983a6",
+ "block_size": 30061,
+ "header_words_read_by_dispatcher": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  22,
+  24,
+  26,
+  28,
+  30,
+  32,
+  34,
+  36,
+  38,
+  40,
+  44
+ ],
+ "pairs": [
+  {
+   "section": "S0",
+   "loader": "0x0304D6F0",
+   "offset_word_at": 0,
+   "offset": 46,
+   "count_or_size_word_at": 2,
+   "value": 664,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S1",
+   "loader": "0x0304D7E4",
+   "offset_word_at": 4,
+   "offset": 3218,
+   "count_or_size_word_at": 6,
+   "value": 8,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S2",
+   "loader": "0x0304D6F0",
+   "offset_word_at": 8,
+   "offset": 3242,
+   "count_or_size_word_at": 10,
+   "value": 4,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S3",
+   "loader": "0x0304D7E4",
+   "offset_word_at": 12,
+   "offset": 3270,
+   "count_or_size_word_at": 14,
+   "value": 0,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S4",
+   "loader": "0x0304D848",
+   "offset_word_at": 16,
+   "offset": 3270,
+   "count_or_size_word_at": 18,
+   "value": 664,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S5",
+   "loader": "0x0304D8A0",
+   "offset_word_at": 20,
+   "offset": 9910,
+   "count_or_size_word_at": 22,
+   "value": 706,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S6",
+   "loader": "0x0304D994",
+   "offset_word_at": 24,
+   "offset": 19794,
+   "count_or_size_word_at": 26,
+   "value": 4,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S7",
+   "loader": "0x0304DA1C",
+   "offset_word_at": 28,
+   "offset": 19908,
+   "count_or_size_word_at": 30,
+   "value": 835,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S8",
+   "loader": "0x0304DA98",
+   "offset_word_at": 32,
+   "offset": 25753,
+   "count_or_size_word_at": 34,
+   "value": 108,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S9",
+   "loader": "0x0304DB44",
+   "offset_word_at": 36,
+   "offset": 26941,
+   "count_or_size_word_at": 38,
+   "value": 0,
+   "header_read_in_code": true
+  },
+  {
+   "section": "S10 (size word is +44, not +42)",
+   "loader": "0x0304D97C",
+   "offset_word_at": 40,
+   "offset": 26941,
+   "count_or_size_word_at": 44,
+   "value": 3120,
+   "header_read_in_code": true
+  }
+ ],
+ "s10_offset_plus_word44": 30061,
+ "equals_file_size": true,
+ "evidence": "CONFIRMED_BY_MACHINE_CODE + CONFIRMED_BY_BINARY_DATA"
+}

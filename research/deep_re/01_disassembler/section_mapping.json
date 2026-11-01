@@ -1,0 +1,80 @@
+{
+ "link_base": "0x00FD0000",
+ "entry_rva": 931888,
+ "little_endian": true,
+ "arch": "SH4 (CE2 e32 layout)",
+ "sections": [
+  {
+   "section": 0,
+   "rva": 4096,
+   "link_va": "0x00FD1000",
+   "runtime_va": "0x02FD1000",
+   "delta": "0x02000000",
+   "virtual_size": 929724,
+   "decoded_size": 929724,
+   "runtime_end": "0x030B3FBC",
+   "executable": true,
+   "compressed": false,
+   "zero_tail": 0,
+   "sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9"
+  },
+  {
+   "section": 1,
+   "rva": 933888,
+   "link_va": "0x010B4000",
+   "runtime_va": "0x030B4000",
+   "delta": "0x02000000",
+   "virtual_size": 140842,
+   "decoded_size": 140842,
+   "runtime_end": "0x030D662A",
+   "executable": false,
+   "compressed": false,
+   "zero_tail": 0,
+   "sha256": "87de7ed999f8a2daa6b453095e388db9296d6714050f3d2abb304caf70df8751"
+  },
+  {
+   "section": 2,
+   "rva": 1077248,
+   "link_va": "0x010D7000",
+   "runtime_va": "0x030D7000",
+   "delta": "0x02000000",
+   "virtual_size": 497977,
+   "decoded_size": 22041,
+   "runtime_end": "0x03150939",
+   "executable": false,
+   "compressed": true,
+   "zero_tail": 475936,
+   "sha256": "f8c2a55f0897b13d03681c89619e9d83874d4c622ab776fccf43de476addcbe3"
+  },
+  {
+   "section": 3,
+   "rva": 1576960,
+   "link_va": "0x01151000",
+   "runtime_va": "0x03151000",
+   "delta": "0x02000000",
+   "virtual_size": 32440,
+   "decoded_size": 32438,
+   "runtime_end": "0x03158EB8",
+   "executable": false,
+   "compressed": true,
+   "zero_tail": 2,
+   "sha256": "781947e5f45fc07a307c58e4a4396a7121636fbc0bb049bb02abf2e0607201f6"
+  },
+  {
+   "section": 4,
+   "rva": 1609728,
+   "link_va": "0x01159000",
+   "runtime_va": "0x03159000",
+   "delta": "0x02000000",
+   "virtual_size": 37540,
+   "decoded_size": 37540,
+   "runtime_end": "0x031622A4",
+   "executable": false,
+   "compressed": false,
+   "zero_tail": 0,
+   "sha256": "5783369285e91b1c73b0ae0efd7e9b6aa220832ac0551f8e162458a3e10115db"
+  }
+ ],
+ "delta_all_equal": true,
+ "evidence": "CONFIRMED_BY_BINARY_DATA (module.json + section SHA-256)"
+}

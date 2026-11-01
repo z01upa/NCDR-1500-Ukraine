@@ -1,0 +1,17 @@
+{
+  "section": 0,
+  "runtime_base": "0x02FD1000",
+  "section_sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9",
+  "start_va": "0x030B3830",
+  "file_offset": 927792,
+  "count": 58,
+  "bytes_mismatch": 0,
+  "branch_targets_verified": 7,
+  "literal_loads_found": 5,
+  "literal_pool_start": "0x030B38A4",
+  "literal_loads_inside_pool": 5,
+  "second_decoder_available": true,
+  "second_decoder_mnemonic_agree": 58,
+  "failures": [],
+  "evidence_class": "CONFIRMED_BY_MACHINE_CODE"
+}
