@@ -34,6 +34,14 @@
 - Матеріали стороннього AI review і prompt-файли не включені як підтверджені дослідження.
 - Права на публікацію оригінальних карт/firmware та похідних бінарних корпусів не підтверджені. Вони залишаються поза Git; перелік і причини наведено в [DEFERRED_MATERIALS.md](DEFERRED_MATERIALS.md).
 
+## Routing evidence updates (bounded, 2026-10-30)
+
+- **CONFIRMED locally:** the `0x0308C1F0` selected-bit result skips the current packed candidate in its traced caller. This does not establish a global road ban, route cost, travel direction, or hardware behavior. See [v47 evidence](../research/geometry_breakthrough/cover_routing_v47/EVIDENCE.md).
+- **UNKNOWN:** meaning/domain of the context-derived selector; producers and semantics of the separate `0x34` and `0x58` tables; targets and bodies of callbacks at `context+0x3C/+0x40`; semantics of output at `context+0x4C`.
+- **UNKNOWN:** whether Section 7 or Section 8 is required, optional, or accepted empty; the upper caller of `0x01000E2C` was not identified in Astra-022's bounded search. Do not label either table REQUIRED/OPTIONAL.
+- **NOT VERIFIED:** complete route search, real-device execution, or acceptance by the navigation application. Original maps, firmware, recovered section images, and raw replay traces remain withheld.
+- See focused [routing XREFs](../research/geometry_breakthrough/cover_routing_v47/ROUTING_XREF_INDEX.md), [callback relationships](../research/geometry_breakthrough/cover_routing_v47/CALLBACK_TARGETS.md), and [Section 7/8 consumer status](../research/geometry_breakthrough/cover_routing_v47/SECTION789_CONSUMERS.md).
+
 ## Джерела
 
 - [Astra transfer handoff](TRANSFER_HANDOFF.md)

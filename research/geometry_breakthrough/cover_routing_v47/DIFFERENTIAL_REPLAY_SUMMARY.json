@@ -1,0 +1,30 @@
+{
+  "status": "OFFLINE_REPLAY_COMPLETE_WITH_LIMITS",
+  "matrix": {
+    "sampled_real_records": 3,
+    "independent_attribute_bytes": 2,
+    "values_per_byte": 5,
+    "selectors": 4,
+    "endpoint_match_conditions": 2,
+    "attribute_cases": 240
+  },
+  "attribute_case_returns": {
+    "consumer_minus_one": 63,
+    "consumer_zero": 177,
+    "caller_minus_one": 63,
+    "caller_zero": 177
+  },
+  "bit13_only_cases": {
+    "cases": 3,
+    "consumer_minus_one": 1,
+    "consumer_zero": 2
+  },
+  "checks": {
+    "addresses_and_return_verified": true,
+    "consumer_and_converter_executed": true,
+    "original_files_written": false,
+    "original_mp0_hash_unchanged": true,
+    "hardware_or_complete_route_verified": false
+  },
+  "scope": "Offline pypcode replay with explicit external-call models; not a complete route search or hardware test."
+}

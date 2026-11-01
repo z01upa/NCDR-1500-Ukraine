@@ -1,0 +1,1487 @@
+{
+  "executable": [
+    {
+      "start": "0x2fd1000",
+      "end_exclusive": "0x30b3fbc",
+      "sha256": "91d33ac02d82dc109e65d83c87e44a00cba02887fb14e6e5b136eb16db0a35a9"
+    }
+  ],
+  "pdata_functions": 4054,
+  "call_candidates": [
+    {
+      "function": "0x2ffeda8",
+      "load": "0x2ffedc0",
+      "literal": "0x2ffee3c",
+      "target": "0x2ffb92c",
+      "call": "0x2ffedc6",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3002b7c",
+      "load": "0x3002ba4",
+      "literal": "0x3002bdc",
+      "target": "0x2ffb92c",
+      "call": "0x3002bae",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3002d80",
+      "load": "0x3002da6",
+      "literal": "0x3002e9c",
+      "target": "0x2ffb92c",
+      "call": "0x3002da8",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3002ddc",
+      "load": "0x3002e20",
+      "literal": "0x3002e9c",
+      "target": "0x2ffb92c",
+      "call": "0x3002e26",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x300b2c0",
+      "load": "0x300b35c",
+      "literal": "0x300b3fc",
+      "target": "0x2ffb92c",
+      "call": "0x300b360",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3011f6c",
+      "load": "0x301203a",
+      "literal": "0x3012084",
+      "target": "0x2ffb92c",
+      "call": "0x3012040",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301cb74",
+      "load": "0x301cba4",
+      "literal": "0x301cbb8",
+      "target": "0x2ffb92c",
+      "call": "0x301cbaa",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301d014",
+      "load": "0x301d16c",
+      "literal": "0x301d30c",
+      "target": "0x2ffb92c",
+      "call": "0x301d16e",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301edac",
+      "load": "0x301edbc",
+      "literal": "0x301ee2c",
+      "target": "0x2ffb92c",
+      "call": "0x301edc0",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301ee4c",
+      "load": "0x301ee8e",
+      "literal": "0x301eeec",
+      "target": "0x2ffb92c",
+      "call": "0x301ee90",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301f008",
+      "load": "0x301f01e",
+      "literal": "0x301f1fc",
+      "target": "0x2ffb92c",
+      "call": "0x301f020",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301f2b8",
+      "load": "0x301f2d2",
+      "literal": "0x301f4d8",
+      "target": "0x2ffb92c",
+      "call": "0x301f2d4",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x301f3f8",
+      "load": "0x301f416",
+      "literal": "0x301f4d8",
+      "target": "0x2ffb92c",
+      "call": "0x301f418",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3034eec",
+      "load": "0x3034f0a",
+      "literal": "0x3035054",
+      "target": "0x2ffb92c",
+      "call": "0x3034f0c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x303c330",
+      "load": "0x303c3b2",
+      "literal": "0x303c62c",
+      "target": "0x2ffb92c",
+      "call": "0x303c3c0",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x303d2e8",
+      "load": "0x303d37e",
+      "literal": "0x303d608",
+      "target": "0x2ffb92c",
+      "call": "0x303d384",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x303fc38",
+      "load": "0x303fd60",
+      "literal": "0x303fff4",
+      "target": "0x2ffb92c",
+      "call": "0x303fd62",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3040af0",
+      "load": "0x3040b44",
+      "literal": "0x3040c30",
+      "target": "0x2ffb92c",
+      "call": "0x3040b4a",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3040e10",
+      "load": "0x3040e1c",
+      "literal": "0x3040fa0",
+      "target": "0x2ffb92c",
+      "call": "0x3040e1e",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30415dc",
+      "load": "0x3041654",
+      "literal": "0x30416a8",
+      "target": "0x2ffb92c",
+      "call": "0x3041658",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30454dc",
+      "load": "0x304556c",
+      "literal": "0x30455a8",
+      "target": "0x2ffb92c",
+      "call": "0x3045572",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x304902c",
+      "load": "0x3049048",
+      "literal": "0x30490c4",
+      "target": "0x2ffb92c",
+      "call": "0x304904c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3049d8c",
+      "load": "0x3049e20",
+      "literal": "0x3049efc",
+      "target": "0x2ffb92c",
+      "call": "0x3049e22",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3059670",
+      "load": "0x305971c",
+      "literal": "0x30597ac",
+      "target": "0x2ffb92c",
+      "call": "0x3059720",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x305ef94",
+      "load": "0x305efc4",
+      "literal": "0x305f0b8",
+      "target": "0x2ffb92c",
+      "call": "0x305efca",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3060fa0",
+      "load": "0x30611b2",
+      "literal": "0x3061244",
+      "target": "0x2ffbb00",
+      "call": "0x30611b4",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3060fa0",
+      "load": "0x3061280",
+      "literal": "0x30613a4",
+      "target": "0x2ffbb00",
+      "call": "0x3061282",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30647e8",
+      "load": "0x30647ec",
+      "literal": "0x3064824",
+      "target": "0x2ffb92c",
+      "call": "0x30647f0",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3064848",
+      "load": "0x306484c",
+      "literal": "0x30648ac",
+      "target": "0x2ffb92c",
+      "call": "0x3064850",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3064884",
+      "load": "0x3064888",
+      "literal": "0x30648ac",
+      "target": "0x2ffb92c",
+      "call": "0x306488a",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3068e04",
+      "load": "0x3068e1c",
+      "literal": "0x3068ea4",
+      "target": "0x2ffb92c",
+      "call": "0x3068e20",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3068e04",
+      "load": "0x3068e34",
+      "literal": "0x3068ea4",
+      "target": "0x2ffb92c",
+      "call": "0x3068e3a",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3069de0",
+      "load": "0x3069df0",
+      "literal": "0x3069e7c",
+      "target": "0x2ffb92c",
+      "call": "0x3069df2",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3069ee0",
+      "load": "0x3069ef8",
+      "literal": "0x306a0b4",
+      "target": "0x2ffb92c",
+      "call": "0x3069efc",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3069ee0",
+      "load": "0x3069f08",
+      "literal": "0x306a0b4",
+      "target": "0x2ffb92c",
+      "call": "0x3069f0c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306ac90",
+      "load": "0x306ad76",
+      "literal": "0x306af08",
+      "target": "0x2ffb92c",
+      "call": "0x306ad7c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306ac90",
+      "load": "0x306adde",
+      "literal": "0x306af08",
+      "target": "0x2ffb92c",
+      "call": "0x306ade2",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306d104",
+      "load": "0x306d382",
+      "literal": "0x306d434",
+      "target": "0x2ffb92c",
+      "call": "0x306d388",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306d3dc",
+      "load": "0x306d3ec",
+      "literal": "0x306d434",
+      "target": "0x2ffb92c",
+      "call": "0x306d3f8",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306d3dc",
+      "load": "0x306d420",
+      "literal": "0x306d434",
+      "target": "0x2ffb92c",
+      "call": "0x306d426",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306d4dc",
+      "load": "0x306d56c",
+      "literal": "0x306d5e8",
+      "target": "0x2ffb92c",
+      "call": "0x306d570",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306d71c",
+      "load": "0x306d85e",
+      "literal": "0x306d89c",
+      "target": "0x2ffb92c",
+      "call": "0x306d864",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306e178",
+      "load": "0x306e216",
+      "literal": "0x306e400",
+      "target": "0x2ffb92c",
+      "call": "0x306e218",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306f11c",
+      "load": "0x306f1fe",
+      "literal": "0x306f340",
+      "target": "0x2ffb92c",
+      "call": "0x306f202",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306f484",
+      "load": "0x306f534",
+      "literal": "0x306f5c0",
+      "target": "0x2ffb92c",
+      "call": "0x306f536",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306f5e4",
+      "load": "0x306f63c",
+      "literal": "0x306f698",
+      "target": "0x2ffb92c",
+      "call": "0x306f64a",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306f6bc",
+      "load": "0x306f6e0",
+      "literal": "0x306f828",
+      "target": "0x2ffb92c",
+      "call": "0x306f6e4",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x306f8a4",
+      "load": "0x306f8b0",
+      "literal": "0x306f8f8",
+      "target": "0x2ffb92c",
+      "call": "0x306f8b4",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30724b4",
+      "load": "0x30725ae",
+      "literal": "0x30726ec",
+      "target": "0x2ffb92c",
+      "call": "0x30725b2",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3077268",
+      "load": "0x3077284",
+      "literal": "0x30773e0",
+      "target": "0x2ffb92c",
+      "call": "0x3077288",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x307afcc",
+      "load": "0x307afe4",
+      "literal": "0x307b1f0",
+      "target": "0x2ffb92c",
+      "call": "0x307afe8",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x307afcc",
+      "load": "0x307aff4",
+      "literal": "0x307b1f0",
+      "target": "0x2ffb92c",
+      "call": "0x307aff8",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x307b098",
+      "load": "0x307b0a8",
+      "literal": "0x307b1f0",
+      "target": "0x2ffb92c",
+      "call": "0x307b0aa",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3086994",
+      "load": "0x30869c8",
+      "literal": "0x3086bd8",
+      "target": "0x2ffb92c",
+      "call": "0x30869cc",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3086c78",
+      "load": "0x3086c88",
+      "literal": "0x3086d5c",
+      "target": "0x2ffb92c",
+      "call": "0x3086c8e",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30914d8",
+      "load": "0x30914e6",
+      "literal": "0x309179c",
+      "target": "0x2ffb92c",
+      "call": "0x30914e8",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30968e4",
+      "load": "0x309691e",
+      "literal": "0x3096ae0",
+      "target": "0x2ffb92c",
+      "call": "0x3096924",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30968e4",
+      "load": "0x3096930",
+      "literal": "0x3096ae0",
+      "target": "0x2ffb92c",
+      "call": "0x3096934",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x3099740",
+      "load": "0x3099754",
+      "literal": "0x30997a0",
+      "target": "0x2ffb92c",
+      "call": "0x3099758",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30997cc",
+      "load": "0x30997d2",
+      "literal": "0x3099988",
+      "target": "0x2ffb92c",
+      "call": "0x30997da",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a7324",
+      "load": "0x30a7368",
+      "literal": "0x30a73f0",
+      "target": "0x2ffb92c",
+      "call": "0x30a736c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a73a4",
+      "load": "0x30a7482",
+      "literal": "0x30a7624",
+      "target": "0x2ffb92c",
+      "call": "0x30a7488",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a73a4",
+      "load": "0x30a7522",
+      "literal": "0x30a7624",
+      "target": "0x2ffb92c",
+      "call": "0x30a7526",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a75d4",
+      "load": "0x30a769a",
+      "literal": "0x30a77d0",
+      "target": "0x2ffb92c",
+      "call": "0x30a76a0",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a76f8",
+      "load": "0x30a77e2",
+      "literal": "0x30a7938",
+      "target": "0x2ffb92c",
+      "call": "0x30a77ee",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a7a60",
+      "load": "0x30a7aa8",
+      "literal": "0x30a7b14",
+      "target": "0x2ffb92c",
+      "call": "0x30a7ab4",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a7a60",
+      "load": "0x30a7c02",
+      "literal": "0x30a7c20",
+      "target": "0x2ffb92c",
+      "call": "0x30a7c08",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a7d44",
+      "load": "0x30a7d50",
+      "literal": "0x30a7ddc",
+      "target": "0x2ffb92c",
+      "call": "0x30a7d52",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a7eb0",
+      "load": "0x30a7ed4",
+      "literal": "0x30a7fd4",
+      "target": "0x2ffb92c",
+      "call": "0x30a7ed6",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a7eb0",
+      "load": "0x30a8006",
+      "literal": "0x30a8150",
+      "target": "0x2ffb92c",
+      "call": "0x30a800c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a81f4",
+      "load": "0x30a8232",
+      "literal": "0x30a836c",
+      "target": "0x2ffb92c",
+      "call": "0x30a8234",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a84b0",
+      "load": "0x30a84e4",
+      "literal": "0x30a85a4",
+      "target": "0x2ffb92c",
+      "call": "0x30a84ea",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30a84b0",
+      "load": "0x30a8622",
+      "literal": "0x30a875c",
+      "target": "0x2ffb92c",
+      "call": "0x30a8628",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30aaa70",
+      "load": "0x30aaa84",
+      "literal": "0x30aac5c",
+      "target": "0x2ffb92c",
+      "call": "0x30aaa8c",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30ab324",
+      "load": "0x30ab374",
+      "literal": "0x30ab3b0",
+      "target": "0x2ffb92c",
+      "call": "0x30ab378",
+      "kind": "jsr literal-register"
+    },
+    {
+      "function": "0x30ab324",
+      "load": "0x30ab402",
+      "literal": "0x30ab4c8",
+      "target": "0x2ffb92c",
+      "call": "0x30ab404",
+      "kind": "jsr literal-register"
+    }
+  ],
+  "full_range_raw_hits": [
+    {
+      "address": "0x2ffedc0",
+      "literal": "0x2ffee3c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3002ba4",
+      "literal": "0x3002bdc",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3002da6",
+      "literal": "0x3002e9c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3002e20",
+      "literal": "0x3002e9c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x300b35c",
+      "literal": "0x300b3fc",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301203a",
+      "literal": "0x3012084",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301cba4",
+      "literal": "0x301cbb8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301d16c",
+      "literal": "0x301d30c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301edbc",
+      "literal": "0x301ee2c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301ee8e",
+      "literal": "0x301eeec",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301f01e",
+      "literal": "0x301f1fc",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301f2d2",
+      "literal": "0x301f4d8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x301f416",
+      "literal": "0x301f4d8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3034f0a",
+      "literal": "0x3035054",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x303c3b2",
+      "literal": "0x303c62c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x303d37e",
+      "literal": "0x303d608",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x303fd60",
+      "literal": "0x303fff4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3040b44",
+      "literal": "0x3040c30",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3040e1c",
+      "literal": "0x3040fa0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3041654",
+      "literal": "0x30416a8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x304556c",
+      "literal": "0x30455a8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3049048",
+      "literal": "0x30490c4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3049e20",
+      "literal": "0x3049efc",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x305971c",
+      "literal": "0x30597ac",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x305efc4",
+      "literal": "0x305f0b8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30611b2",
+      "literal": "0x3061244",
+      "target": "0x2ffbb00",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3061280",
+      "literal": "0x30613a4",
+      "target": "0x2ffbb00",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30647ec",
+      "literal": "0x3064824",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306484c",
+      "literal": "0x30648ac",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3064888",
+      "literal": "0x30648ac",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3068e1c",
+      "literal": "0x3068ea4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3068e34",
+      "literal": "0x3068ea4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3069df0",
+      "literal": "0x3069e7c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3069ef8",
+      "literal": "0x306a0b4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3069f08",
+      "literal": "0x306a0b4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306ad76",
+      "literal": "0x306af08",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306adde",
+      "literal": "0x306af08",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306d382",
+      "literal": "0x306d434",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306d3ec",
+      "literal": "0x306d434",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306d420",
+      "literal": "0x306d434",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306d56c",
+      "literal": "0x306d5e8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306d85e",
+      "literal": "0x306d89c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306e216",
+      "literal": "0x306e400",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306f1fe",
+      "literal": "0x306f340",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306f534",
+      "literal": "0x306f5c0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306f63c",
+      "literal": "0x306f698",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306f6e0",
+      "literal": "0x306f828",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x306f8b0",
+      "literal": "0x306f8f8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30725ae",
+      "literal": "0x30726ec",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3077284",
+      "literal": "0x30773e0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x307afe4",
+      "literal": "0x307b1f0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x307aff4",
+      "literal": "0x307b1f0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x307b0a8",
+      "literal": "0x307b1f0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30869c8",
+      "literal": "0x3086bd8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3086c88",
+      "literal": "0x3086d5c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30914e6",
+      "literal": "0x309179c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x309691e",
+      "literal": "0x3096ae0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3096930",
+      "literal": "0x3096ae0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x3099754",
+      "literal": "0x30997a0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30997d2",
+      "literal": "0x3099988",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7368",
+      "literal": "0x30a73f0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7482",
+      "literal": "0x30a7624",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7522",
+      "literal": "0x30a7624",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a769a",
+      "literal": "0x30a77d0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a77e2",
+      "literal": "0x30a7938",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7aa8",
+      "literal": "0x30a7b14",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7c02",
+      "literal": "0x30a7c20",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7d50",
+      "literal": "0x30a7ddc",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a7ed4",
+      "literal": "0x30a7fd4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a8006",
+      "literal": "0x30a8150",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a8232",
+      "literal": "0x30a836c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a84e4",
+      "literal": "0x30a85a4",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30a8622",
+      "literal": "0x30a875c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30aaa84",
+      "literal": "0x30aac5c",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30ab374",
+      "literal": "0x30ab3b0",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    },
+    {
+      "address": "0x30ab402",
+      "literal": "0x30ab4c8",
+      "target": "0x2ffb92c",
+      "kind": "mov.l literal",
+      "reachable": true
+    }
+  ],
+  "pointer_occurrences": [
+    {
+      "section": 0,
+      "address": "0x3061244",
+      "value": "0xffbb00"
+    },
+    {
+      "section": 0,
+      "address": "0x30613a4",
+      "value": "0xffbb00"
+    },
+    {
+      "section": 0,
+      "address": "0x2ffee3c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3002bdc",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3002e9c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x300b3fc",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3012084",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x301cbb8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x301d30c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x301ee2c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x301eeec",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x301f1fc",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x301f4d8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3035054",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x303c62c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x303d608",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x303fff4",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3040c30",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3040fa0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30416a8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30455a8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30490c4",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3049efc",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30597ac",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x305f0b8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3064824",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30648ac",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3068ea4",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3069e7c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306a0b4",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306af08",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306d434",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306d5e8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306d89c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306e400",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306f340",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306f5c0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306f698",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306f828",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x306f8f8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30726ec",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30773e0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x307b1f0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3086bd8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3086d5c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x309179c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3096ae0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30997a0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x3099988",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a73f0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a7624",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a77d0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a7938",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a7b14",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a7c20",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a7ddc",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a7fd4",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a8150",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a836c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a85a4",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30a875c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30aac5c",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30ab3b0",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 0,
+      "address": "0x30ab4c8",
+      "value": "0xffb92c"
+    },
+    {
+      "section": 3,
+      "address": "0x31527f8",
+      "value": "0xffbb00"
+    },
+    {
+      "section": 3,
+      "address": "0x31527f0",
+      "value": "0xffb92c"
+    }
+  ],
+  "limitations": "Literal-register chains are local candidates; arbitrary computed indirect targets cannot be exhaustively resolved statically. Raw hits in unreachable words may be data."
+}
